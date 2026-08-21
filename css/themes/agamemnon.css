@@ -185,23 +185,56 @@ body {
   height: auto;
   pointer-events: none;
   z-index: 0;
-  background-color: transparent;
-  background-image:
-    url("agamemnon-cluster-top.svg"),
-    url("agamemnon-cluster-mid.svg"),
-    url("agamemnon-cluster-bot.svg");
-  background-repeat: no-repeat;
-  background-size:
-    100% auto,
-    82% auto,
-    90% auto;
-  background-position:
-    32% 1.5%,
-    0% 47%,
-    18% 93%;
+  background: none;
   -webkit-mask-image: none;
   mask-image: none;
   filter: none;
+}
+
+.day-figure::before,
+.day-figure::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* 1 · top-right, beside the gold date */
+.day-figure::before {
+  top: 40px;
+  right: 0;
+  width: 100%;
+  aspect-ratio: 540 / 660;
+  background-image: url("agamemnon-cluster-top.svg");
+  background-position: right top;
+}
+
+/* 2 · mid-right, appears as you scroll the article list */
+.day-figure::after {
+  top: 46%;
+  left: 0;
+  width: 82%;
+  aspect-ratio: 500 / 600;
+  background-image: url("agamemnon-cluster-mid.svg");
+  background-position: left top;
+}
+
+/* 3 · bottom-right, in the leftover Klein field near the colophon */
+#skin-v2::after {
+  content: "";
+  position: absolute;
+  left: calc(56px + min(640px, 100vw - 80px) + 80px);
+  bottom: 6%;
+  width: min(25vw, 340px);
+  max-width: calc(100vw - 800px);
+  aspect-ratio: 520 / 680;
+  pointer-events: none;
+  z-index: 0;
+  background-image: url("agamemnon-cluster-bot.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
 }
 
 /* Pull-quote used to sit fixed over the body. Quotes now live in the
@@ -215,12 +248,17 @@ body {
     width: min(200px, calc(100vw - 800px));
     max-width: calc(100vw - 800px);
   }
+  #skin-v2::after {
+    width: min(180px, calc(100vw - 800px));
+    max-width: calc(100vw - 800px);
+  }
 }
 
 @media (max-width: 720px) {
   .day { margin: 0 auto; width: calc(100% - 36px); }
   .item__title { font-size: 18px; }
-  .day-figure { display: none; }
+  .day-figure,
+  #skin-v2::after { display: none; }
   .item__body:has(.quotes) {
     display: block;
   }
