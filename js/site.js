@@ -711,7 +711,13 @@
   }
 
   function bootThemedDay(date) {
-    paintThemed(date);
+    ensureStylesheet("day-base-css", "css/day-base.css");
+    activateSkin(false);
+    /* Do not Klein-flood polaroid / isometric while JSON parts load. */
+    if (date === "2026-08-23") applyTheme("polaroid");
+    else if (date === "2026-08-25") applyTheme("isometric-mini");
+    else applyTheme("klein-halftone");
+    renderThemedHead(date);
     fetchJSON(date + ".json").then(function (day) {
       var iso = day.date || date;
       if (isLegacyDate(iso)) {
