@@ -11,14 +11,20 @@
 
   function sizeCanvas(canvas, w, h, left, top) {
     var dpr = Math.min(window.devicePixelRatio || 1, 2);
-    canvas.style.width = w + "px";
-    canvas.style.height = h + "px";
+    var cssW = w + "px";
+    var cssH = h + "px";
+    var bw = Math.floor(w * dpr);
+    var bh = Math.floor(h * dpr);
+    if (canvas.style.width !== cssW) canvas.style.width = cssW;
+    if (canvas.style.height !== cssH) canvas.style.height = cssH;
     if (left != null) canvas.style.left = left + "px";
     if (top != null) canvas.style.top = top + "px";
-    canvas.width = Math.floor(w * dpr);
-    canvas.height = Math.floor(h * dpr);
     var ctx = canvas.getContext("2d", { alpha: true });
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    if (canvas.width !== bw || canvas.height !== bh) {
+      canvas.width = bw;
+      canvas.height = bh;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
     return ctx;
   }
 
@@ -62,9 +68,14 @@
     }
   }
 
+  function reducedMotion() {
+    return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  }
+
   /* 8.22 klein-halftone: a few circular sand clouds, not a full-page grid.
-     Top-right, mid-right edge, bottom-left. Text column almost empty. */
-  function paintHalftone(canvas) {
+     Top-right, mid-right edge, bottom-left. Text column almost empty.
+     Cloud centers drift extremely slowly; t=0 matches the QA'd static pose. */
+  function paintHalftone(canvas, now) {
     var w = Math.max(1, Math.floor(window.innerWidth));
     var h = Math.max(1, Math.floor(window.innerHeight));
     var ctx = sizeCanvas(canvas, w, h, 0, 0);
@@ -72,10 +83,11 @@
     ctx.fillStyle = "#002FA7";
 
     var span = Math.min(w, h);
+    var t = (now || 0) / 1000;
     var clouds = [
-      { x: w * 0.96, y: h * 0.02, r: span * 0.42, dens: 0.94 },
-      { x: w * 1.02, y: h * 0.50, r: span * 0.17, dens: 0.82 },
-      { x: w * -0.02, y: h * 1.02, r: span * 0.26, dens: 0.86 }
+      { x: w * 0.96 + Math.sin(t / 48) * 18, y: h * 0.02 + Math.sin(t / 56) * 11, r: span * 0.42, dens: 0.94 },
+      { x: w * 1.02 + Math.sin(t / 62) * 12, y: h * 0.50 + Math.sin(t / 44) * 16, r: span * 0.17, dens: 0.82 },
+      { x: w * -0.02 + Math.sin(t / 53) * 14, y: h * 1.02 + Math.sin(t / 59) * 10, r: span * 0.26, dens: 0.86 }
     ];
 
     var colW = Math.min(840, Math.max(0, w - 96));
@@ -115,23 +127,65 @@
     ctx.globalAlpha = 1;
   }
 
-  function bind(kind, canvas) {
-    if (!canvas) return;
-    var paint = kind === "hero" ? paintHeroStipple : paintHalftone;
+  function bindHero(canvas) {
     function run() {
-      paint(canvas);
+      paintHeroStipple(canvas);
     }
-    if (canvas.__rikanBound === kind) {
+    if (canvas.__rikanBound === "hero") {
       run();
       return;
     }
-    canvas.__rikanBound = kind;
+    canvas.__rikanBound = "hero";
     run();
     var t = 0;
     window.addEventListener("resize", function () {
       clearTimeout(t);
       t = setTimeout(run, 80);
     });
+  }
+
+  function bindHalftone(canvas) {
+    var drift = !reducedMotion();
+
+    function paint(now) {
+      paintHalftone(canvas, drift ? now : 0);
+    }
+
+    if (canvas.__rikanBound === "halftone") {
+      if (!canvas.__rikanCloudDrift) paint(0);
+      return;
+    }
+    canvas.__rikanBound = "halftone";
+
+    var t = 0;
+    window.addEventListener("resize", function () {
+      clearTimeout(t);
+      t = setTimeout(function () {
+        paint(drift ? performance.now() : 0);
+      }, 80);
+    });
+
+    if (!drift) {
+      paint(0);
+      return;
+    }
+
+    canvas.__rikanCloudDrift = true;
+    var last = 0;
+    function tick(now) {
+      if (!document.hidden && now - last >= 120) {
+        last = now;
+        paint(now);
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+
+  function bind(kind, canvas) {
+    if (!canvas) return;
+    if (kind === "hero") bindHero(canvas);
+    else bindHalftone(canvas);
   }
 
   global.RikanStipple = {
