@@ -133,6 +133,11 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
   text-decoration: none;
 }
 
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .hero__heads a { transition: transform 180ms ease; }
+  .hero__heads a:hover { transform: translateY(-2px); }
+}
+
 .hero__title {
   font-family: var(--sans);
   font-size: clamp(20px, 2.1vw, 26px);
@@ -204,6 +209,11 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
   text-decoration-thickness: 1px;
 }
 
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .digest-row { transition: transform 180ms ease; }
+  .digest-row:hover { transform: translateY(-2px); }
+}
+
 .archive {
   display: flex;
   flex-wrap: nowrap;
@@ -225,6 +235,14 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
 }
 
 .archive a:hover { color: var(--klein-deep); }
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .archive a {
+    display: inline-block;
+    transition: transform 200ms ease, color 200ms ease;
+  }
+  .archive a:hover { transform: scale(1.07); }
+}
 
 @keyframes lift-in {
   from {
@@ -256,7 +274,10 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
 @media (prefers-reduced-motion: reduce) {
   .hero__date.is-in,
   .hero__heads.is-in li,
-  .hero__stipple {
+  .hero__stipple,
+  .hero__heads a,
+  .digest-row,
+  .archive a {
     animation: none;
     opacity: 1;
     transform: none;

@@ -395,6 +395,39 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
   line-height: 1.75;
 }
 
+/* Hover only: darker ink + a dashed rule that walks a bit. Same newspaper skin. */
+.item:hover .item__n,
+.item:hover .item__title,
+.item:hover .item__sum {
+  color: #000;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .item {
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    background-size: 10px 1px;
+  }
+  .item:hover {
+    border-bottom-color: transparent;
+    background-image: repeating-linear-gradient(
+      90deg,
+      var(--ink) 0 5px,
+      transparent 5px 10px
+    );
+    animation: rule-walk 0.7s ease-out forwards;
+  }
+}
+
+@keyframes rule-walk {
+  from { background-position: 0 100%; }
+  to { background-position: 14px 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .item:hover { animation: none; }
+}
+
 .quotes { margin: 0.15rem 0 0; }
 .quote-pair { margin: 0 0 0.7rem; }
 .quote {
