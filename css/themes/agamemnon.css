@@ -1,8 +1,8 @@
-/* agamemnon · Klein poster, gold type, abstract red dither. No statue. */
+/* agamemnon · Klein poster, gold type, one coarse red print-halftone mass. No statue. */
 :root {
   --klein: #002FA7;
   --gold: #E6D3A3;
-  --red: #C41E1E;
+  --red: #D21820;
   --ink: #E6D3A3;
 }
 
@@ -12,22 +12,26 @@ body {
   color: var(--gold);
 }
 
-.stipple-canvas { display: none !important; }
+/* Fine mesh / canvas clouds are wrong for 8.26. Grain is paper, not a grid. */
+.stipple-canvas,
+.stipple-css { display: none !important; }
 
-.stipple-css {
-  display: block;
-  opacity: 0.34;
+#skin-v2::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.22;
   mix-blend-mode: overlay;
-  background-image: radial-gradient(circle, rgba(230, 211, 163, 0.28) 0.55px, transparent 0.75px);
-  background-size: 3px 3px;
-  -webkit-mask-image: none;
-  mask-image: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
 }
 
 .day {
-  width: min(760px, calc(100% - 80px));
+  width: min(640px, calc(100% - 80px));
   margin: 0 0 0 56px;
-  padding: 48px 0 120px;
+  padding: 48px 0 160px;
 }
 
 .brand {
@@ -74,16 +78,21 @@ body {
   position: relative;
 }
 
+/* Small gold stipple discs beside titles — square-grid dots, not concentric rings. */
 .item::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.35rem;
+  top: 0.4rem;
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: repeating-radial-gradient(circle, var(--gold) 0 1px, transparent 1.1px 3px);
-  opacity: 0.85;
+  background-image: radial-gradient(circle, var(--gold) 1.55px, transparent 1.7px);
+  background-size: 5.5px 5.5px;
+  background-repeat: repeat;
+  -webkit-mask-image: radial-gradient(circle, #000 0 52%, transparent 78%);
+  mask-image: radial-gradient(circle, #000 0 52%, transparent 78%);
+  opacity: 0.95;
 }
 
 .item__n { display: none; }
@@ -111,32 +120,41 @@ body {
   color: var(--gold);
 }
 
+.quote__author { color: var(--gold); }
+
+/* Right-side silkscreen: one gold halo + one large red robe mass.
+   SVG is an orthogonal coarse dot grid. Do not use repeating-radial-gradient. */
 .day-figure {
   display: block;
   position: fixed;
-  right: -4vw;
-  top: 6vh;
-  width: min(46vw, 560px);
-  height: min(88vh, 780px);
+  right: 0;
+  top: 0;
+  width: min(54vw, 720px);
+  height: 100vh;
   pointer-events: none;
   z-index: 0;
-  background:
-    radial-gradient(circle at 48% 28%, rgba(230, 211, 163, 0.38) 0 10%, transparent 38%),
-    repeating-radial-gradient(circle at 52% 42%, var(--red) 0 1.15px, transparent 1.25px 3.6px),
-    radial-gradient(ellipse 42% 58% at 54% 48%, var(--red) 0%, transparent 72%);
-  -webkit-mask-image: radial-gradient(ellipse 58% 72% at 50% 46%, #000 0 42%, transparent 78%);
-  mask-image: radial-gradient(ellipse 58% 72% at 50% 46%, #000 0 42%, transparent 78%);
-  filter: contrast(1.15);
+  background-color: transparent;
+  background-image: url("agamemnon-figure.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  -webkit-mask-image: none;
+  mask-image: none;
+  filter: none;
 }
 
 .day-quote {
   display: block;
-  position: relative;
-  z-index: 1;
-  margin-top: 2.5rem;
+  position: fixed;
+  right: 36px;
+  bottom: 36px;
+  z-index: 2;
+  margin: 0;
   max-width: 22rem;
   color: var(--gold);
+  text-align: right;
 }
+.day-quote .quote-pair { margin: 0; }
 .day-quote .quote--en {
   font-style: italic;
   color: var(--gold);
@@ -147,8 +165,17 @@ body {
   border-top: 1px solid var(--gold);
   color: var(--gold);
 }
+.day-quote .quote__author { display: none; }
 
 @media (max-width: 720px) {
   .day { margin: 0 auto; width: calc(100% - 36px); }
-  .day-figure { opacity: 0.35; width: 70vw; }
+  .item__title { font-size: 18px; }
+  .day-figure { opacity: 0.4; width: 78vw; }
+  .day-quote {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    text-align: left;
+    margin-top: 1.6rem;
+  }
 }
