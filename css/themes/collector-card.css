@@ -86,7 +86,20 @@ body {
   background: var(--paper);
   border: 1px solid #3a3a3a;
   border-radius: 5px;
-  box-shadow: inset 12px 0 0 var(--bar);
+}
+
+.item__mark {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 12px;
+  background: var(--bar);
+  border-radius: 4px 0 0 4px;
+  pointer-events: none;
+  z-index: 0;
+  filter: saturate(1);
 }
 
 .item:nth-child(4n+2) { --bar: var(--terra); }
@@ -99,6 +112,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 1;
   padding: 0.18em 0.5em;
   background: var(--bar);
   color: #fff;
@@ -172,11 +186,20 @@ body {
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .item {
-    transition: transform 0.2s ease;
+    transition: transform 0.36s cubic-bezier(0.28, 0.55, 0.32, 1);
   }
   .item:hover,
   .item:focus-within {
     transform: translateY(-3px);
+    transition: transform 0.2s ease;
+  }
+  .item__mark {
+    transition: filter 0.36s cubic-bezier(0.28, 0.55, 0.32, 1);
+  }
+  .item:hover .item__mark,
+  .item:focus-within .item__mark {
+    filter: saturate(1.7);
+    transition: filter 0.2s ease;
   }
   .item__id {
     transition: transform 0.18s cubic-bezier(0.2, 0.8, 0.2, 1.15);
@@ -244,6 +267,7 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .item,
   .item__id,
+  .item__mark,
   .item__code,
   .item__code::after {
     animation: none;
@@ -251,10 +275,13 @@ body {
     opacity: 1;
     transform: none;
   }
+  .item__mark { filter: saturate(1); }
   .item:hover,
   .item:focus-within { transform: translateY(-3px); }
   .item:hover .item__id,
   .item:focus-within .item__id { transform: scale(1.16); }
+  .item:hover .item__mark,
+  .item:focus-within .item__mark { filter: saturate(1.7); }
   .item:hover .item__code,
   .item:focus-within .item__code { transform: scaleY(1.28); }
 }

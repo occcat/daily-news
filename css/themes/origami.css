@@ -143,10 +143,25 @@ body {
   transform-origin: 0 100%;
 }
 
+/* Paper-surface rustle: grain + slight flutter. Not audio, not glass blur. */
+.item__mark {
+  display: block;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  background-image: radial-gradient(circle, rgba(72, 52, 32, 0.22) 0.4px, transparent 0.7px);
+  background-size: 3px 3px;
+}
+
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .item::before,
   .item::after {
     transition: transform 0.26s ease, opacity 0.2s ease;
+  }
+  .item__mark {
+    transition: opacity 0.2s ease;
   }
   .item:hover::before,
   .item:focus-within::before {
@@ -154,7 +169,12 @@ body {
   }
   .item:hover::after,
   .item:focus-within::after {
-    transform: rotate(-6deg) translate(-1px, 2px);
+    transform: rotate(-28deg) translate(-3px, 4px);
+  }
+  .item:hover .item__mark,
+  .item:focus-within .item__mark {
+    opacity: 0.34;
+    animation: paper-rustle 0.62s ease-in-out infinite;
   }
 }
 
@@ -202,12 +222,29 @@ body {
   .item:nth-child(5n+4) {
     clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
   }
+  .item__mark {
+    animation: none;
+    transition: none;
+    opacity: 0;
+  }
   .item:hover::before,
   .item:focus-within::before { opacity: 1; }
   .item:hover::after,
   .item:focus-within::after {
-    transform: rotate(-6deg) translate(-1px, 2px);
+    transform: rotate(-28deg) translate(-3px, 4px);
   }
+  .item:hover .item__mark,
+  .item:focus-within .item__mark {
+    opacity: 0.34;
+    transform: none;
+  }
+}
+
+@keyframes paper-rustle {
+  0%, 100% { transform: translate(0, 0); opacity: 0.28; }
+  28% { transform: translate(0.45px, -0.35px); opacity: 0.4; }
+  54% { transform: translate(-0.4px, 0.3px); opacity: 0.22; }
+  78% { transform: translate(0.25px, 0.4px); opacity: 0.36; }
 }
 
 .item__n { display: none; }
