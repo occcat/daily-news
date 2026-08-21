@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/data/2026-08-21-p1.json",
+      "destination": "https://rikan-20260821-p1-occcats-projects.vercel.app/2026-08-21-p1.json"
+    },
+    {
+      "source": "/data/2026-08-21-p2.json",
+      "destination": "https://rikan-20260821-p2-occcats-projects.vercel.app/2026-08-21-p2.json"
+    },
+    {
+      "source": "/data/2026-08-21-p3.json",
+      "destination": "https://rikan-20260821-p3-occcats-projects.vercel.app/2026-08-21-p3.json"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+data/*.full.json
+.vercel
+.DS_Store
