@@ -12,7 +12,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script>
     window.__rikanDate = new URLSearchParams(location.search).get("date") || "2026-08-21";
-    window.__rikanLegacy = window.__rikanDate === "2026-08-21";
+    window.__rikanThemeStart = "2026-08-22";
+    window.__rikanLegacy = /^\d{4}-\d{2}-\d{2}$/.test(window.__rikanDate)
+      ? window.__rikanDate < window.__rikanThemeStart
+      : true;
     document.documentElement.setAttribute("data-skin", window.__rikanLegacy ? "newspaper" : "v2");
   </script>
   <script>
@@ -20,12 +23,12 @@
       var legacy = window.__rikanLegacy;
       var fonts = legacy
         ? "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;600;700&family=Source+Serif+4:ital,wght@1,400;1,600&display=swap"
-        : "https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700;800;900&family=Inter+Tight:wght@800;900&family=Noto+Sans+SC:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@1,8..60,400;1,8..60,600&display=swap";
+        : "https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;700;800;900&family=Inter+Tight:wght@800;900&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;700&family=Source+Serif+4:ital,opsz,wght@1,8..60,400;1,8..60,600&display=swap";
       document.write('<link rel="stylesheet" href="' + fonts + '">');
       if (legacy) {
-        document.write('<link rel="stylesheet" href="css/style.css">');
+        document.write('<link rel="stylesheet" id="newspaper-css" href="css/style.css">');
       } else {
-        document.write('<link rel="stylesheet" href="css/day-base.css">');
+        document.write('<link rel="stylesheet" id="day-base-css" href="css/day-base.css">');
         document.write('<link rel="stylesheet" id="theme-css" href="css/themes/klein-halftone.css">');
       }
     })();
@@ -57,10 +60,21 @@
     <canvas class="stipple-canvas" id="stipple" aria-hidden="true"></canvas>
     <div class="stipple-css" aria-hidden="true"></div>
     <div class="day">
+      <div class="day-figure" aria-hidden="true"></div>
+      <div class="iso-deco" aria-hidden="true">
+        <span class="iso-tree"></span>
+        <span class="iso-tree iso-tree--2"></span>
+        <span class="iso-bench"></span>
+        <span class="iso-stair"></span>
+      </div>
       <header class="day-head">
         <p class="brand"><a href="index.html">日刊</a></p>
+        <p class="day-kicker" id="day-kicker"></p>
         <h1 class="day-date" id="day-date"></h1>
         <p class="day-full" id="day-full"></p>
+        <p class="day-count" id="day-count"></p>
+        <p class="day-stub" id="day-stub" hidden>皮肤预览 · 条目复用 2026-08-21 真实稿件，非正式当日稿</p>
+        <aside class="day-quote" id="day-quote"></aside>
       </header>
       <main id="main-v2">
         <ol class="items" id="items-v2"></ol>

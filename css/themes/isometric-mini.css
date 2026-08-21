@@ -1,25 +1,177 @@
-/* First draft only. Awaiting Dmeee mock. Isometric paper diorama. */
+/* isometric-mini · Klein + cream paper plaza. */
 :root {
-  --paper: #EFE6D4;
-  --ink: #1A1916;
+  --paper: #F3EBD8;
   --klein: #002FA7;
+  --ink: #002FA7;
+  --cream: #F6F0E4;
 }
 
-html, body { background: #d9cbb3; }
+html,
+body {
+  background: var(--paper);
+  color: var(--klein);
+}
 
-.stipple-css, .stipple-canvas { display: none !important; }
+.stipple-css,
+.stipple-canvas { display: none !important; }
 
-.day { perspective: 1200px; }
+#skin-v2::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.22;
+  mix-blend-mode: multiply;
+  background-image: radial-gradient(circle, rgba(0, 47, 167, 0.12) 0.45px, transparent 0.7px);
+  background-size: 3px 3px;
+}
 
-.day-date { color: var(--ink); background: none; -webkit-text-fill-color: var(--ink); }
+.day {
+  width: min(1180px, calc(100% - 64px));
+  display: grid;
+  grid-template-columns: minmax(240px, 30%) minmax(0, 1fr);
+  gap: 2rem 2.4rem;
+  padding-top: 40px;
+}
+
+.day-head {
+  grid-column: 1;
+  margin: 0;
+}
+
+.brand {
+  font-family: "Noto Serif SC", "Source Han Serif SC", serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--klein);
+  padding-bottom: 0.55rem;
+  border-bottom: 3px solid var(--klein);
+}
+.brand a,
+.brand a:visited,
+.brand a:hover { color: var(--klein); }
+
+.day-kicker {
+  display: block;
+  margin: 0.7rem 0 1.4rem;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--klein);
+}
+
+.day-date {
+  color: var(--klein);
+  background: none;
+  -webkit-text-fill-color: var(--klein);
+  font-family: "Noto Serif SC", "Source Serif 4", serif;
+  font-size: clamp(64px, 8vw, 108px);
+}
+
+.day-full {
+  display: inline-block;
+  margin-top: 0.7rem;
+  padding: 0.28rem 0.55rem;
+  border: 1px solid var(--klein);
+  color: var(--klein);
+  font-size: 12px;
+}
+
+.day-count {
+  display: block;
+  margin-top: 0.55rem;
+  font-size: 12px;
+  color: var(--klein);
+}
+
+.day-quote {
+  display: block;
+  margin-top: 2.4rem;
+  padding-left: 0.2rem;
+  color: var(--klein);
+}
+.day-quote .quote--en {
+  font-size: 16px;
+  color: var(--klein);
+}
+.day-quote .quote--zh {
+  font-size: 16px;
+  color: var(--klein);
+}
+.day-quote::before {
+  content: "“";
+  display: block;
+  font-family: "Noto Serif SC", serif;
+  font-size: 64px;
+  line-height: 0.6;
+  color: var(--klein);
+}
+
+#main-v2 {
+  grid-column: 2;
+  position: relative;
+  min-height: 520px;
+  padding: 2.2rem 1.6rem 3rem;
+  background: var(--cream);
+  box-shadow:
+    14px 16px 0 var(--klein),
+    0 22px 40px rgba(0, 47, 167, 0.12);
+}
+
+.iso-deco { display: block; }
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
 
 .item {
-  padding: 1.25rem 1.35rem;
-  background: var(--paper);
-  border: 1px solid #c4b396;
-  box-shadow: 10px 12px 0 #c4b396;
-  transform: rotateX(6deg) rotateZ(-1deg);
+  position: relative;
+  margin: 0;
+  padding: 1.1rem 1.2rem 1.15rem;
+  background: var(--cream);
+  border: 1.5px solid var(--klein);
+  box-shadow: 8px 10px 0 var(--klein);
+  transform: rotate(-1deg);
+}
+.item:nth-child(even) { transform: rotate(1.2deg) translateX(12px); }
+.item:nth-child(3n) { transform: rotate(-0.4deg) translateX(-8px); }
+
+.item__n {
+  font-family: "Noto Serif SC", serif;
+  font-size: 20px;
+  color: var(--klein);
 }
 
-.item__title, .item__sum { font-size: 16px; }
-.item__sum { line-height: 1.7; }
+.item__title {
+  font-family: "Noto Serif SC", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--klein);
+}
+
+.item__sum,
+.quote--en,
+.quote--zh {
+  font-size: 16px;
+  color: var(--klein);
+}
+
+.item__meta,
+.item__meta a,
+.item__meta a:visited { color: var(--klein); }
+
+.iso-tree,
+.iso-bench,
+.iso-stair {
+  position: absolute;
+  pointer-events: none;
+}
+
+@media (max-width: 860px) {
+  .day {
+    display: block;
+    width: calc(100% - 32px);
+  }
+  #main-v2 { box-shadow: 8px 10px 0 var(--klein); }
+}

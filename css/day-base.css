@@ -208,7 +208,19 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
 
 .item__mark,
 .item__stub,
-.item__code { display: none; }
+.item__code,
+.item__id,
+.day-kicker,
+.day-count,
+.day-quote,
+.day-figure,
+.iso-deco { display: none; }
+
+.day-stub {
+  margin: 0.8rem 0 0;
+  font-size: 13px;
+  color: var(--mute);
+}
 
 @media (max-width: 720px) {
   .day {

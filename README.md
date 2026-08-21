@@ -20,10 +20,10 @@ python3 -m http.server 8080
 ## 视觉分工
 
 - **首页**永远是 klein-poster：`css/home.css`。克莱因蓝全幅海报 + 奶油列表 + 横向往期日期。不使用旧报纸样式。
-- **2026-08-21 日页**锁定旧报纸皮：`css/style.css`。不要给这一天加会切换皮肤的 `theme` 字段。
-- **2026-08-22 起**按 `JSON.theme` 加载 `css/day-base.css` + `css/themes/{theme}.css`，并设置 `data-theme`。未知主题回退到 `klein-halftone`（不会套到 08.21）。
+- **2026-08-22 之前的日页**用旧报纸皮：`css/style.css`。缺主题或未知主题也回退报纸，不走 klein-halftone。不要给 2026-08-21 加会切换皮肤的 `theme`。
+- **2026-08-22 起**按 `JSON.theme` 加载 `css/day-base.css` + `css/themes/{theme}.css`，并设置 `data-theme`。缺主题或未知主题回退 `klein-halftone`。
 
-已实现主题：`klein-halftone`、`polaroid`、`stamp`。`isometric-mini` / `agamemnon` / `origami` / `collector-card` 为 SPEC 初稿，等设计稿。
+日页主题：`klein-halftone`、`polaroid`、`stamp`、`isometric-mini`、`agamemnon`、`origami`、`collector-card`，均按 Dmeee mock 实现。不要给没有稿件的日期编造新闻。
 
 ## 目录结构
 
@@ -32,7 +32,7 @@ python3 -m http.server 8080
 ├── day.html
 ├── css/home.css
 ├── css/day-base.css
-├── css/style.css              ← 仅 2026-08-21 日页
+├── css/style.css              ← 仅 2026-08-22 之前的日页
 ├── css/themes/*.css
 ├── js/site.js
 ├── js/stipple.js              ← 首页砂粒 + klein-halftone 网点（代码绘制）
@@ -44,8 +44,8 @@ python3 -m http.server 8080
 ## 如何加一天
 
 1. 新建 `data/YYYY-MM-DD.json`，写上真实稿件与 `"theme"`（如 `klein-halftone`）。`items` 最多 30 条。
-2. 在 `data/editions.json` 追加 `{ "date", "summary", "itemCount" }`。
-3. 不要编造没有稿件的日期。
+2. 在 `data/editions.json` 追加 `{ "date", "summary", "itemCount" }`。正式稿去掉 `"stub": true`。
+3. 不要把预览 stub 写成正式新闻。`2026-08-22`–`2026-08-28` 目前是皮肤预览，复用 08.21 条目。
 
 ## JSON
 

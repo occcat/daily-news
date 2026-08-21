@@ -1,24 +1,123 @@
-/* First draft only. Awaiting Dmeee mock. Folded paper facets. */
+/* origami · folded pastel paper facets. */
 :root {
-  --paper: #F7F1E6;
+  --paper: #e9e2d7;
   --ink: #1A1916;
-  --klein: #002FA7;
+  --blue: #5B7FCF;
+  --klein: #5B7FCF;
 }
 
-html, body { background: #efe7d6; }
+html,
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
 
-.stipple-css, .stipple-canvas { display: none !important; }
+.stipple-css,
+.stipple-canvas { display: none !important; }
 
-.day-date { color: var(--ink); background: none; -webkit-text-fill-color: var(--ink); }
+#skin-v2::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.2;
+  mix-blend-mode: multiply;
+  background-image: radial-gradient(circle, rgba(70, 55, 40, 0.14) 0.45px, transparent 0.7px);
+  background-size: 3px 3px;
+}
+
+.day {
+  width: min(920px, calc(100% - 64px));
+}
+
+.brand {
+  font-family: "Noto Serif SC", serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.brand a,
+.brand a:visited,
+.brand a:hover { color: var(--ink); }
+
+.day-kicker {
+  display: block;
+  margin: 0.35rem 0 0;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.day-date {
+  color: var(--blue);
+  background:
+    linear-gradient(135deg, #7ea0e8 0 38%, #4d73c9 38% 62%, #6b8fdc 62%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  filter: drop-shadow(3px 4px 0 rgba(77, 115, 201, 0.28));
+}
+
+.day-full { color: var(--ink); }
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  margin-top: 0.4rem;
+}
 
 .item {
-  padding: 1.3rem 1.4rem 1.4rem;
-  background:
-    linear-gradient(135deg, #fffaf0 0 42%, transparent 42%),
-    linear-gradient(225deg, #efe4cf 0 28%, #f7f1e6 28%);
-  border: 1px solid #d8cdb6;
-  clip-path: polygon(0 8px, 8px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+  position: relative;
+  margin: 0;
+  padding: 1.25rem 1.6rem 1.3rem 1.35rem;
+  color: var(--ink);
+  box-shadow: 6px 10px 18px rgba(60, 45, 30, 0.12);
 }
 
-.item__title, .item__sum { font-size: 16px; }
-.item__title { font-weight: 600; font-size: 20px; }
+.item:nth-child(5n+1) {
+  background: linear-gradient(180deg, #f7d9cb 0 70%, #efc4b2 70%);
+  clip-path: polygon(0 0, calc(100% - 42px) 0, 100% 50%, calc(100% - 42px) 100%, 0 100%);
+}
+.item:nth-child(5n+2) {
+  background: linear-gradient(120deg, #c9d6b8 0 78%, #b4c4a0 78%);
+  clip-path: polygon(0 0, 100% 0, calc(100% - 36px) 100%, 0 100%);
+  transform: rotate(-1.2deg);
+}
+.item:nth-child(5n+3) {
+  background: linear-gradient(210deg, #f3e7b3 0 72%, #e6d48a 72%);
+  clip-path: polygon(18px 0, 100% 0, 100% 100%, 0 100%, 0 18px);
+  transform: rotate(1deg) translateX(8%);
+}
+.item:nth-child(5n+4) {
+  background: linear-gradient(160deg, #f3d0d6 0 68%, #e8b7c0 68%);
+  clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+}
+.item:nth-child(5n) {
+  background: linear-gradient(180deg, #f7f2e8 0 74%, #e8e0d2 74%);
+  clip-path: polygon(0 0, calc(100% - 40px) 0, 100% 50%, calc(100% - 40px) 100%, 0 100%);
+}
+
+.item__n { display: none; }
+
+.item__title {
+  font-family: "Noto Serif SC", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.item__sum,
+.quote--en,
+.quote--zh {
+  font-family: "Noto Serif SC", serif;
+  font-size: 16px;
+  color: var(--ink);
+}
+
+.item__meta,
+.item__meta a,
+.item__meta a:visited { color: #4a433c; }
+
+@media (max-width: 720px) {
+  .item:nth-child(5n+3) { transform: none; }
+}

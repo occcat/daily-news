@@ -4,7 +4,8 @@
 
   var MAX_ITEMS = 30;
   var HERO_COUNT = 3;
-  var LEGACY_DATE = "2026-08-21";
+  var DEFAULT_DATE = "2026-08-21";
+  var THEME_START = "2026-08-22";
   var THEMES = {
     "klein-halftone": 1,
     polaroid: 1,
@@ -103,8 +104,28 @@
     return (it && (it.source_site || it.publisher)) || hostOf(url);
   }
 
+  function isLegacyDate(iso) {
+    var p = parseISO(iso);
+    if (!p) return true;
+    return p.iso < THEME_START;
+  }
+
   function resolveTheme(name) {
     return THEMES[name] ? name : "klein-halftone";
+  }
+
+  function ensureStylesheet(id, href) {
+    var el = document.getElementById(id);
+    if (el) {
+      el.href = href;
+      return el;
+    }
+    el = document.createElement("link");
+    el.rel = "stylesheet";
+    el.id = id;
+    el.href = href;
+    document.head.appendChild(el);
+    return el;
   }
 
   /* —— 2026-08-21 newspaper day (unchanged) —— */
@@ -278,7 +299,7 @@
   }
 
   function quotesV2(it) {
-    if (!isHN(it.source)) return { all: "", first: "" };
+    if (!isHN(it.source)) return { all: "", rest: "", first: "" };
     var qs = Array.isArray(it.quotes) ? it.quotes : [];
     var bits = qs.map(function (q) { return pairHTML(q, false); }).filter(Boolean);
     return {
@@ -309,12 +330,42 @@
     }
   }
 
-  function renderThemedHead(iso) {
+  var KICKERS = {
+    "isometric-mini": "科技日报 · 每日速递",
+    agamemnon: "科技 · 商业 · 未来",
+    origami: "科技 · 商业 · 产品",
+    "collector-card": ""
+  };
+
+  function firstQuoteFromDay(day) {
+    var items = (day && day.items) || [];
+    var i;
+    for (i = 0; i < items.length; i++) {
+      var q = quotesV2(items[i]);
+      if (q.first) return q.first;
+    }
+    return "";
+  }
+
+  function renderThemedHead(iso, day, theme) {
     var dateEl = document.getElementById("day-date");
     var fullEl = document.getElementById("day-full");
+    var kick = document.getElementById("day-kicker");
+    var count = document.getElementById("day-count");
+    var quote = document.getElementById("day-quote");
     if (dateEl) dateEl.textContent = fmtMD(iso);
     if (fullEl) {
-      fullEl.textContent = fmtDot(iso) + " | " + weekdayZh(iso);
+      fullEl.textContent = fmtDot(iso).replace(/\./g, ".") + " | " + weekdayZh(iso);
+    }
+    if (kick) kick.textContent = (theme && KICKERS[theme]) || "";
+    if (count && day) {
+      var n = Math.min(MAX_ITEMS, (day.items || []).length);
+      count.textContent = n ? ("今日 " + n + " 条") : "";
+    }
+    if (quote) quote.innerHTML = day ? firstQuoteFromDay(day) : "";
+    var stubEl = document.getElementById("day-stub");
+    if (stubEl) {
+      stubEl.hidden = !(day && day.stub);
     }
     document.title = "日刊 · " + fmtDot(iso);
   }
@@ -335,9 +386,11 @@
       var hn = isHN(it.source);
       var q = quotesV2(it);
       var n = String(rank).padStart(2, "0") + ".";
+      var serial = fmtMD(day.date) + "-" + String(rank).padStart(2, "0");
       var cls = "item" + (idx === 0 ? " item--lead" : "") + (hn ? " item--hn" : " item--nm");
       return (
         '<li class="' + cls + '" id="item-' + esc(String(rank)) + '">' +
+        '<span class="item__id">' + esc(serial) + "</span>" +
         '<span class="item__mark" aria-hidden="true"></span>' +
         '<span class="item__n">' + esc(n) + "</span>" +
         '<div class="item__visual" aria-hidden="' + (hn && q.first ? "false" : "true") + '">' +
@@ -374,11 +427,16 @@
       editions = editions.slice().sort(function (a, b) {
         return a.date < b.date ? 1 : -1;
       });
-      return fetchJSON(editions[0].date + ".json").then(function (day) {
+      var live = null;
+      editions.forEach(function (ed) {
+        if (!live && !ed.stub) live = ed;
+      });
+      if (!live) live = editions[editions.length - 1];
+      return fetchJSON(live.date + ".json").then(function (day) {
         var items = (day.items || []).slice(0, MAX_ITEMS);
         renderHeroHeads(day, items);
         renderHomeList(day, items);
-        renderArchive(editions, day.date || editions[0].date);
+        renderArchive(editions, day.date || live.date);
       });
     }).catch(function (err) {
       var el = document.getElementById("digest");
@@ -386,16 +444,41 @@
     });
   }
 
-  function bootNewspaperDay(date) {
+  function paintNewspaper(iso, day) {
+    ensureStylesheet("newspaper-css", "css/style.css");
     activateSkin(true);
-    setStamp(date);
-    renderFolio(date);
-    document.title = "日刊 · " + fmtDot(date);
+    setStamp(iso);
+    renderFolio(iso);
+    document.title = "日刊 · " + fmtDot(iso);
+    if (day) renderItems(day);
+  }
+
+  function paintThemed(iso, day) {
+    ensureStylesheet("day-base-css", "css/day-base.css");
+    ensureStylesheet("theme-css", "css/themes/klein-halftone.css");
+    activateSkin(false);
+    if (!day) {
+      applyTheme("klein-halftone");
+      renderThemedHead(iso);
+      return;
+    }
+    var theme = applyTheme(day.theme);
+    renderThemedHead(iso, day, theme);
+    renderThemedItems(day);
+    if (theme === "klein-halftone" && window.RikanStipple) {
+      window.RikanStipple.bind("halftone", document.getElementById("stipple"));
+    }
+  }
+
+  function bootNewspaperDay(date) {
+    paintNewspaper(date);
     fetchJSON(date + ".json").then(function (day) {
-      setStamp(day.date || date);
-      renderFolio(day.date || date);
-      document.title = "日刊 · " + fmtDot(day.date || date);
-      renderItems(day);
+      var iso = day.date || date;
+      if (!isLegacyDate(iso)) {
+        paintThemed(iso, day);
+        return;
+      }
+      paintNewspaper(iso, day);
     }).catch(function (err) {
       var el = document.getElementById("items");
       if (el) el.innerHTML = '<p class="empty">未能载入：' + esc(err.message) + "</p>";
@@ -403,16 +486,14 @@
   }
 
   function bootThemedDay(date) {
-    activateSkin(false);
-    renderThemedHead(date);
+    paintThemed(date);
     fetchJSON(date + ".json").then(function (day) {
       var iso = day.date || date;
-      var theme = applyTheme(day.theme);
-      renderThemedHead(iso);
-      renderThemedItems(day);
-      if (theme === "klein-halftone" && window.RikanStipple) {
-        window.RikanStipple.bind("halftone", document.getElementById("stipple"));
+      if (isLegacyDate(iso)) {
+        paintNewspaper(iso, day);
+        return;
       }
+      paintThemed(iso, day);
     }).catch(function (err) {
       applyTheme("klein-halftone");
       var el = document.getElementById("items-v2");
@@ -421,8 +502,8 @@
   }
 
   function bootDay() {
-    var date = new URLSearchParams(window.location.search).get("date") || LEGACY_DATE;
-    if (date === LEGACY_DATE) bootNewspaperDay(date);
+    var date = new URLSearchParams(window.location.search).get("date") || DEFAULT_DATE;
+    if (isLegacyDate(date)) bootNewspaperDay(date);
     else bootThemedDay(date);
   }
 

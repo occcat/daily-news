@@ -1,26 +1,154 @@
-/* First draft only. Awaiting Dmeee mock. Print-ink red / gold / cobalt. */
+/* agamemnon · Klein poster, gold type, abstract red dither. No statue. */
 :root {
-  --paper: #F4ECD8;
-  --ink: #1A1916;
-  --red: #8B1E1E;
-  --gold: #C4A35A;
-  --cobalt: #1F4B99;
-  --klein: #1F4B99;
+  --klein: #002FA7;
+  --gold: #E6D3A3;
+  --red: #C41E1E;
+  --ink: #E6D3A3;
 }
 
-html, body { background: var(--paper); }
+html,
+body {
+  background: var(--klein);
+  color: var(--gold);
+}
 
-.stipple-css, .stipple-canvas { display: none !important; }
+.stipple-canvas { display: none !important; }
 
-.brand a, .day-full { color: var(--gold); }
+.stipple-css {
+  display: block;
+  opacity: 0.34;
+  mix-blend-mode: overlay;
+  background-image: radial-gradient(circle, rgba(230, 211, 163, 0.28) 0.55px, transparent 0.75px);
+  background-size: 3px 3px;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+.day {
+  width: min(760px, calc(100% - 80px));
+  margin: 0 0 0 56px;
+  padding: 48px 0 120px;
+}
+
+.brand {
+  display: inline-block;
+  font-family: "Noto Serif SC", serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--gold);
+}
+.brand a,
+.brand a:visited,
+.brand a:hover { color: var(--gold); }
+
+.day-kicker {
+  display: block;
+  margin: 0.35rem 0 0;
+  max-width: 22rem;
+  padding: 0.45rem 0;
+  border-top: 1px solid var(--gold);
+  border-bottom: 1px solid var(--gold);
+  font-family: "Noto Serif SC", serif;
+  font-size: 13px;
+  color: var(--gold);
+}
+
 .day-date {
-  color: var(--red);
+  margin-top: 1.1rem;
+  color: var(--gold);
   background: none;
-  -webkit-text-fill-color: var(--red);
+  -webkit-text-fill-color: var(--gold);
+  font-family: "Noto Serif SC", "Source Serif 4", serif;
+  font-weight: 700;
+  letter-spacing: -0.04em;
 }
 
-.item__n { color: var(--gold); }
-.item__title { color: var(--red); font-size: 22px; }
-.item__sum { font-size: 16px; color: var(--ink); }
-.item__meta, .item__meta a { color: var(--cobalt); }
-.quote-pair { border-left: 3px solid var(--gold); padding-left: 0.85rem; }
+.day-full {
+  color: var(--gold);
+  font-family: "Noto Serif SC", serif;
+}
+
+.item {
+  margin: 0 0 1.8rem;
+  padding-left: 2.4rem;
+  position: relative;
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.35rem;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: repeating-radial-gradient(circle, var(--gold) 0 1px, transparent 1.1px 3px);
+  opacity: 0.85;
+}
+
+.item__n { display: none; }
+
+.item__title {
+  font-family: "Noto Serif SC", serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gold);
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(230, 211, 163, 0.55);
+}
+
+.item__sum,
+.quote--en,
+.quote--zh {
+  font-family: "Noto Serif SC", serif;
+  font-size: 16px;
+  color: var(--gold);
+}
+
+.item__meta,
+.item__meta a,
+.item__meta a:visited {
+  color: var(--gold);
+}
+
+.day-figure {
+  display: block;
+  position: fixed;
+  right: -4vw;
+  top: 6vh;
+  width: min(46vw, 560px);
+  height: min(88vh, 780px);
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 48% 28%, rgba(230, 211, 163, 0.38) 0 10%, transparent 38%),
+    repeating-radial-gradient(circle at 52% 42%, var(--red) 0 1.15px, transparent 1.25px 3.6px),
+    radial-gradient(ellipse 42% 58% at 54% 48%, var(--red) 0%, transparent 72%);
+  -webkit-mask-image: radial-gradient(ellipse 58% 72% at 50% 46%, #000 0 42%, transparent 78%);
+  mask-image: radial-gradient(ellipse 58% 72% at 50% 46%, #000 0 42%, transparent 78%);
+  filter: contrast(1.15);
+}
+
+.day-quote {
+  display: block;
+  position: relative;
+  z-index: 1;
+  margin-top: 2.5rem;
+  max-width: 22rem;
+  color: var(--gold);
+}
+.day-quote .quote--en {
+  font-style: italic;
+  color: var(--gold);
+}
+.day-quote .quote--zh {
+  margin-top: 0.55rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--gold);
+  color: var(--gold);
+}
+
+@media (max-width: 720px) {
+  .day { margin: 0 auto; width: calc(100% - 36px); }
+  .day-figure { opacity: 0.35; width: 70vw; }
+}
