@@ -31,8 +31,8 @@ body {
 .day {
   width: min(1520px, calc(100% - 28px));
   display: grid;
-  grid-template-columns: minmax(190px, 220px) minmax(0, 1fr);
-  gap: 0 16px;
+  grid-template-columns: 360px minmax(0, 1fr);
+  gap: 0 64px;
   padding: 32px 0 72px;
   align-items: start;
 }
@@ -46,7 +46,8 @@ body {
   top: 24px;
   margin: 0;
   padding-top: 6px;
-  z-index: 3;
+  z-index: 5;
+  overflow: visible;
 }
 
 .brand {
@@ -75,13 +76,16 @@ body {
 .day-date {
   margin: 0;
   font-family: "Noto Serif SC", "Source Serif 4", "Times New Roman", serif;
-  font-size: clamp(64px, 9vw, 104px);
+  font-size: clamp(60px, 7vw, 88px);
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 0.86;
   color: var(--klein);
   background: none;
   -webkit-text-fill-color: var(--klein);
+  white-space: nowrap;
+  width: max-content;
+  max-width: 100%;
 }
 
 .day-full {
@@ -333,7 +337,7 @@ body {
 .iso-plaques {
   list-style: none;
   margin: 0;
-  padding: 72px 6% 80px;
+  padding: 64px 6% 80px 20%;
   position: relative;
   z-index: 4;
   display: grid;
@@ -363,7 +367,7 @@ body {
   filter: drop-shadow(8px 14px 8px rgba(20, 28, 50, 0.16));
 }
 
-.iso-plaques .item:nth-child(5n+1) { margin-top: 28px; }
+.iso-plaques .item:nth-child(5n+1) { margin-top: 36px; margin-left: 28px; }
 .iso-plaques .item:nth-child(5n+2) { margin-top: 4px; }
 .iso-plaques .item:nth-child(5n+3) { margin-top: 36px; }
 .iso-plaques .item:nth-child(5n+4) { margin-top: 10px; }
@@ -380,6 +384,10 @@ body {
   background: var(--klein);
   transform: skewY(-14deg);
   z-index: 0;
+}
+
+.iso-plaques .item:nth-child(5n+1) .item__back {
+  inset: 6px -10px -6px 26px;
 }
 
 .item__face {
@@ -497,7 +505,7 @@ body {
   .iso-plaques {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 28px 18px;
-    padding: 48px 4% 56px;
+    padding: 48px 4% 56px 12%;
   }
   .iso-plaques .item:nth-child(n) { margin-top: 8px; }
   .iso-plaques .item:nth-child(3n+1) { margin-top: 22px; }

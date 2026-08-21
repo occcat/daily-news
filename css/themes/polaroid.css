@@ -67,8 +67,8 @@ body {
 .quotes { display: none !important; }
 
 .day-head {
-  position: static;
-  z-index: 5;
+  position: relative;
+  z-index: 6;
   margin: 0;
   height: 0;
   overflow: visible;
@@ -78,25 +78,27 @@ body {
   position: absolute;
   top: 18px;
   right: 28px;
+  z-index: 6;
   margin: 0;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: #12110F;
+  color: #111110;
 }
 .brand a,
 .brand a:visited,
-.brand a:hover { color: #12110F; }
+.brand a:hover { color: #111110; }
 
 .day-stub {
   position: absolute;
   top: 18px;
   left: 24px;
+  z-index: 6;
   margin: 0;
   max-width: 42vw;
   font-size: 12px;
-  font-weight: 500;
-  color: rgba(18, 17, 15, 0.78);
+  font-weight: 700;
+  color: #111110;
 }
 
 /* Handwritten date card — page corner, never over Polaroid titles */
@@ -144,9 +146,9 @@ body {
 }
 
 .prop-camera {
-  top: -8px;
-  left: -12px;
-  width: min(220px, 28vw);
+  top: 92px;
+  left: -48px;
+  width: min(188px, 22vw);
   transform: rotate(-18deg);
   opacity: 0.94;
 }
@@ -159,9 +161,9 @@ body {
 }
 
 .prop-cup {
-  top: -6px;
-  right: 2%;
-  width: min(150px, 18vw);
+  top: 46px;
+  right: -4px;
+  width: min(132px, 16vw);
   transform: rotate(8deg);
 }
 
