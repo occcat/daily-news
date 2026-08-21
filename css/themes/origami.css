@@ -67,6 +67,9 @@ body {
 }
 
 .item {
+  --self: #f7d9cb;
+  --next: #f3d0d6;
+  --fold-right: 8px;
   position: relative;
   margin: 0;
   padding: 1.25rem 1.6rem 1.3rem 1.35rem;
@@ -75,26 +78,76 @@ body {
 }
 
 .item:nth-child(5n+1) {
+  --self: #f7d9cb;
+  --next: #c9d6b8;
+  --fold-right: 44px;
   background: linear-gradient(180deg, #f7d9cb 0 70%, #efc4b2 70%);
   clip-path: polygon(0 0, calc(100% - 42px) 0, 100% 50%, calc(100% - 42px) 100%, 0 100%);
 }
 .item:nth-child(5n+2) {
+  --self: #c9d6b8;
+  --next: #f3e7b3;
   background: linear-gradient(120deg, #c9d6b8 0 78%, #b4c4a0 78%);
   clip-path: polygon(0 0, 100% 0, calc(100% - 36px) 100%, 0 100%);
   transform: rotate(-1.2deg);
 }
 .item:nth-child(5n+3) {
+  --self: #f3e7b3;
+  --next: #f3d0d6;
   background: linear-gradient(210deg, #f3e7b3 0 72%, #e6d48a 72%);
   clip-path: polygon(18px 0, 100% 0, 100% 100%, 0 100%, 0 18px);
   transform: rotate(1deg) translateX(8%);
 }
 .item:nth-child(5n+4) {
+  --self: #f3d0d6;
+  --next: #f3e7b3;
   background: linear-gradient(160deg, #f3d0d6 0 68%, #e8b7c0 68%);
   clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
 }
 .item:nth-child(5n) {
+  --self: #f7f2e8;
+  --next: #f3d0d6;
+  --fold-right: 42px;
   background: linear-gradient(180deg, #f7f2e8 0 74%, #e8e0d2 74%);
   clip-path: polygon(0 0, calc(100% - 40px) 0, 100% 50%, calc(100% - 40px) 100%, 0 100%);
+}
+
+/* Fold flap covers a same-color triangle at rest; hover peels it to the next sheet. */
+.item::before,
+.item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: var(--fold-right, 8px);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 28px 28px 0;
+  pointer-events: none;
+  z-index: 2;
+}
+.item::before {
+  border-color: transparent var(--next) transparent transparent;
+  opacity: 0;
+}
+.item::after {
+  border-color: transparent var(--self) transparent transparent;
+  transform-origin: 0 100%;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .item::before,
+  .item::after {
+    transition: transform 0.26s ease, opacity 0.2s ease;
+  }
+  .item:hover::before,
+  .item:focus-within::before {
+    opacity: 1;
+  }
+  .item:hover::after,
+  .item:focus-within::after {
+    transform: rotate(-22deg) translate(-3px, 4px);
+  }
 }
 
 .item__n { display: none; }

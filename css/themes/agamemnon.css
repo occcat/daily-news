@@ -208,6 +208,7 @@ body {
   aspect-ratio: 540 / 660;
   background-image: url("agamemnon-cluster-top.svg");
   background-position: right top;
+  transform: translate3d(var(--aga-top-x, 0px), var(--aga-top-y, 0px), 0);
 }
 
 /* 2 · mid-right, appears as you scroll the article list */
@@ -218,6 +219,7 @@ body {
   aspect-ratio: 500 / 600;
   background-image: url("agamemnon-cluster-mid.svg");
   background-position: left top;
+  transform: translate3d(var(--aga-mid-x, 0px), var(--aga-mid-y, 0px), 0);
 }
 
 /* 3 · bottom-right, beside the last 2–3 items.
@@ -239,6 +241,7 @@ body {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
+  transform: translate3d(var(--aga-bot-x, 0px), var(--aga-bot-y, 0px), 0);
 }
 
 #skin-v2::after {

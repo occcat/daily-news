@@ -138,9 +138,11 @@ body {
 
 .item__code {
   display: block;
+  position: relative;
   width: 100%;
   height: 38px;
   margin-top: 0.85rem;
+  overflow: hidden;
   background: repeating-linear-gradient(
     90deg,
     #111 0 1.5px,
@@ -150,6 +152,37 @@ body {
     #111 6.5px 7.2px,
     transparent 7.2px 9px
   );
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .item {
+    transition: transform 0.2s ease;
+  }
+  .item:hover,
+  .item:focus-within {
+    transform: translateY(-3px);
+  }
+  .item__code::after {
+    content: "";
+    position: absolute;
+    left: -18%;
+    bottom: 3px;
+    width: 22%;
+    height: 1.5px;
+    background: #111;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .item:hover .item__code::after,
+  .item:focus-within .item__code::after {
+    opacity: 1;
+    animation: code-sweep 0.65s ease-out forwards;
+  }
+}
+
+@keyframes code-sweep {
+  from { transform: translateX(0); }
+  to { transform: translateX(560%); }
 }
 
 @media (max-width: 860px) {

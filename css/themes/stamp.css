@@ -129,6 +129,28 @@ body { background: var(--paper); }
   transform: rotate(12deg);
   pointer-events: none;
 }
+
+/* Hero: red postmark presses down. Stubs: pinched up. Perforation stays. */
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .item--lead .item__mark {
+    transition: transform 0.16s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .item--lead:hover .item__mark,
+  .item--lead:focus-within .item__mark {
+    transform: rotate(10deg) translateY(5px) scale(0.9);
+  }
+  .item:not(.item--lead) {
+    transition: transform 0.22s ease;
+  }
+  .item:not(.item--lead):hover,
+  .item:not(.item--lead):focus-within {
+    transform: translateY(-6px) rotate(-1.5deg);
+  }
+  .item:nth-child(even):not(.item--lead):hover,
+  .item:nth-child(even):not(.item--lead):focus-within {
+    transform: translateY(-6px) rotate(1.7deg);
+  }
+}
 .item--lead .item__mark::before {
   content: "日刊";
   display: block;

@@ -675,6 +675,7 @@
     if (theme === "klein-halftone" && window.RikanStipple) {
       window.RikanStipple.bind("halftone", document.getElementById("stipple"));
     }
+    if (window.RikanFeel) window.RikanFeel.bind(theme);
   }
 
   function bootNewspaperDay(date) {

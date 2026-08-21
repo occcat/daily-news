@@ -365,6 +365,7 @@ body {
   box-shadow: none;
   transform: rotate(var(--rot, -2deg));
   filter: drop-shadow(8px 14px 8px rgba(20, 28, 50, 0.16));
+  perspective: 640px;
 }
 
 .iso-plaques .item:nth-child(5n+1) { margin-top: 36px; margin-left: 28px; }
@@ -376,6 +377,13 @@ body {
 .item__stand {
   position: relative;
   display: block;
+  transform-style: preserve-3d;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .item__stand {
+    transition: transform 0.16s ease-out;
+  }
 }
 
 .item__back {
