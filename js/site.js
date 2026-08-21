@@ -100,6 +100,24 @@
     return (it && (it.title_zh || it.title_en || it.title)) || "";
   }
 
+  /* Only a real http(s) image already on the item. Never invent photos. */
+  function itemImageUrl(it) {
+    if (!it) return "";
+    var keys = ["og_image", "image", "image_url", "photo", "thumbnail", "cover"];
+    var i;
+    for (i = 0; i < keys.length; i++) {
+      var v = it[keys[i]];
+      if (typeof v === "string" && /^https?:\/\//i.test(v.trim())) return v.trim();
+    }
+    return "";
+  }
+
+  function fmtZhLong(iso) {
+    var p = parseISO(iso);
+    if (!p) return iso || "";
+    return p.y + "年" + String(p.mo).padStart(2, "0") + "月" + String(p.d).padStart(2, "0") + "日 " + weekdayZh(iso);
+  }
+
   function siteOf(it) {
     var url = (it && (it.article_url || it.hn_url)) || "";
     return (it && (it.source_site || it.publisher)) || hostOf(url);
@@ -330,7 +348,178 @@
     document.body.setAttribute("data-theme", theme);
     var link = document.getElementById("theme-css");
     if (link) link.href = "css/themes/" + theme + ".css";
+    if (theme === "polaroid") {
+      ensureStylesheet(
+        "theme-fonts",
+        "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Homemade+Apple&display=swap"
+      );
+    }
     return theme;
+  }
+
+  function clearThemeChrome() {
+    var chrome = document.getElementById("theme-chrome");
+    if (chrome) chrome.remove();
+  }
+
+  function polaroidChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="polaroid-chrome" aria-hidden="true">' +
+      '<div class="prop prop-camera">' +
+      '<svg viewBox="0 0 160 110" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+      '<rect x="8" y="34" width="144" height="68" rx="8" fill="#1A1916"/>' +
+      '<rect x="54" y="16" width="40" height="22" rx="4" fill="#1A1916"/>' +
+      '<circle cx="86" cy="68" r="24" fill="#2C2A26"/>' +
+      '<circle cx="86" cy="68" r="14" fill="#141312"/>' +
+      '<circle cx="86" cy="68" r="6" fill="#3A3834"/>' +
+      '<circle cx="32" cy="52" r="5" fill="#3A3834"/>' +
+      '<rect x="122" y="44" width="16" height="8" rx="2" fill="#2C2A26"/>' +
+      "</svg></div>" +
+      '<div class="prop prop-pen">' +
+      '<svg viewBox="0 0 200 24" xmlns="http://www.w3.org/2000/svg">' +
+      '<rect x="8" y="8" width="168" height="8" rx="3" fill="#1A1916"/>' +
+      '<polygon points="176,8 196,12 176,16" fill="#1A1916"/>' +
+      '<rect x="20" y="7" width="18" height="10" fill="#2C2A26"/>' +
+      "</svg></div>" +
+      '<div class="prop prop-cup">' +
+      '<svg viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg">' +
+      '<ellipse cx="52" cy="78" rx="38" ry="8" fill="#F7F2E8"/>' +
+      '<path d="M20 28h64v36c0 12-14 20-32 20s-32-8-32-20V28z" fill="#F7F2E8" stroke="#E4D9C4" stroke-width="2"/>' +
+      '<ellipse cx="52" cy="28" rx="32" ry="9" fill="#F7F2E8" stroke="#E4D9C4" stroke-width="2"/>' +
+      '<ellipse cx="52" cy="28" rx="22" ry="5" fill="#EFE6D4"/>' +
+      '<path d="M84 34c16 2 22 14 10 24" fill="none" stroke="#F7F2E8" stroke-width="8"/>' +
+      "</svg></div>" +
+      '<div class="prop prop-note">good things take time.<small>☺</small></div>' +
+      '<div class="prop prop-scrap"></div>' +
+      "</div>"
+    );
+  }
+
+  function isoDressingHTML() {
+    return (
+      '<div class="iso-dressing" aria-hidden="true">' +
+      '<div class="iso-tree iso-tree--1"><span class="iso-tree__canopy"></span><span class="iso-tree__trunk"></span></div>' +
+      '<div class="iso-tree iso-tree--2"><span class="iso-tree__canopy"></span><span class="iso-tree__trunk"></span></div>' +
+      '<div class="iso-bench"></div>' +
+      '<div class="iso-post iso-post--1"></div>' +
+      '<div class="iso-post iso-post--2"></div>' +
+      '<div class="iso-cube"></div>' +
+      '<div class="iso-slogan">科技改变生活<br>创新驱动未来</div>' +
+      "</div>"
+    );
+  }
+
+  function isoSlabHTML() {
+    return (
+      '<div class="iso-slab" aria-hidden="true">' +
+      '<div class="iso-slab__top"></div>' +
+      '<div class="iso-slab__front"></div>' +
+      '<div class="iso-slab__side"></div>' +
+      '<div class="iso-stairs iso-stairs--east"><span></span><span></span><span></span><span></span></div>' +
+      '<div class="iso-stairs iso-stairs--south"><span></span><span></span><span></span></div>' +
+      "</div>"
+    );
+  }
+
+  function restoreItemsHost() {
+    var main = document.getElementById("main-v2");
+    if (!main) return null;
+    var host = document.getElementById("items-v2");
+    if (host && host.tagName === "OL") return host;
+    main.innerHTML = '<ol class="items" id="items-v2"></ol>';
+    return document.getElementById("items-v2");
+  }
+
+  function polaroidVisualHTML(it) {
+    var img = itemImageUrl(it);
+    if (!img) return "";
+    return (
+      '<img class="polaroid-shot" src="' +
+      esc(img) +
+      '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">'
+    );
+  }
+
+  function renderPolaroidItems(day) {
+    var host = restoreItemsHost();
+    if (!host) return;
+    var dayEl = document.querySelector("#skin-v2 .day");
+    clearThemeChrome();
+    if (dayEl) dayEl.insertAdjacentHTML("afterbegin", polaroidChromeHTML());
+    var items = (day.items || []).slice(0, MAX_ITEMS);
+    host.innerHTML = items.map(function (it, idx) {
+      var rank = it.rank != null ? it.rank : idx + 1;
+      var url = it.article_url || it.hn_url || "";
+      var src = it.source || "";
+      var site = siteOf(it);
+      var sum = (it.summary_zh || "").trim();
+      var title = titleOf(it);
+      var heading = url
+        ? '<a href="' + esc(url) + '" rel="noopener noreferrer">' + esc(title) + "</a>"
+        : esc(title);
+      return (
+        '<li class="item" id="item-' + esc(String(rank)) + '">' +
+        '<div class="item__visual" aria-hidden="true">' + polaroidVisualHTML(it) + "</div>" +
+        '<div class="item__body">' +
+        '<h2 class="item__title">' + heading + "</h2>" +
+        '<p class="item__meta">来源: ' + esc(src || site || "") + "</p>" +
+        (sum ? '<p class="sr-only">' + esc(sum) + "</p>" : "") +
+        "</div></li>"
+      );
+    }).join("");
+  }
+
+  var ISO_ROT = ["-2.4deg", "1.6deg", "-1.1deg", "2.2deg", "-3deg", "0.8deg"];
+
+  function isoItemStyle(idx, n) {
+    var cols = 3;
+    var rows = Math.max(1, Math.ceil(n / cols));
+    var col = idx % cols;
+    var row = Math.floor(idx / cols);
+    var x = 4 + col * 31 + (row % 2 ? 4 : 0);
+    var y = 5 + (rows === 1 ? 18 : row * (78 / Math.max(rows - 1, 1))) + (col === 1 ? 2 : 0);
+    return (
+      "--x:" + x + "%;--y:" + y + "%;--rot:" + ISO_ROT[idx % ISO_ROT.length]
+    );
+  }
+
+  function renderIsoItems(day) {
+    var main = document.getElementById("main-v2");
+    if (!main) return;
+    clearThemeChrome();
+    var items = (day.items || []).slice(0, MAX_ITEMS);
+    var lis = items.map(function (it, idx) {
+      var rank = it.rank != null ? it.rank : idx + 1;
+      var url = it.article_url || it.hn_url || "";
+      var src = it.source || "";
+      var sum = (it.summary_zh || "").trim();
+      var n = String(rank).padStart(2, "0");
+      var title = titleOf(it);
+      var heading = url
+        ? '<a href="' + esc(url) + '" rel="noopener noreferrer">' + esc(title) + "</a>"
+        : esc(title);
+      return (
+        '<li class="item" id="item-' + esc(String(rank)) + '" style="' + isoItemStyle(idx, items.length) + '">' +
+        '<div class="item__stand">' +
+        '<span class="item__edge" aria-hidden="true"></span>' +
+        '<div class="item__face">' +
+        '<span class="item__n">' + esc(n) + "</span>" +
+        '<h2 class="item__title">' + heading + "</h2>" +
+        (sum ? '<p class="item__sum">' + esc(sum) + "</p>" : "") +
+        '<p class="item__meta">来源: ' + esc(src) + "</p>" +
+        "</div></div></li>"
+      );
+    }).join("");
+    var rows = Math.max(1, Math.ceil(items.length / 3));
+    var stageH = Math.max(840, 200 + rows * 168);
+    main.innerHTML =
+      '<div class="iso-stage" style="min-height:' + stageH + 'px">' +
+      isoSlabHTML() +
+      isoDressingHTML() +
+      '<ol class="items" id="items-v2" style="min-height:' + (stageH - 48) + 'px;height:' + (stageH - 48) + 'px">' +
+      lis +
+      "</ol>" +
+      "</div>";
   }
 
   function activateSkin(legacy) {
@@ -370,12 +559,16 @@
     var quote = document.getElementById("day-quote");
     if (dateEl) dateEl.textContent = fmtMD(iso);
     if (fullEl) {
-      fullEl.textContent = fmtDot(iso).replace(/\./g, ".") + " | " + weekdayZh(iso);
+      fullEl.textContent = theme === "isometric-mini"
+        ? fmtZhLong(iso)
+        : (fmtDot(iso) + " | " + weekdayZh(iso));
     }
     if (kick) kick.textContent = (theme && KICKERS[theme]) || "";
     if (count && day) {
       var n = Math.min(MAX_ITEMS, (day.items || []).length);
-      count.textContent = n ? ("今日 " + n + " 条") : "";
+      count.textContent = n
+        ? (theme === "isometric-mini" ? ("今日 " + n + " 条科技新闻") : ("今日 " + n + " 条"))
+        : "";
     }
     if (quote) quote.innerHTML = day ? firstQuoteFromDay(day) : "";
     var stubEl = document.getElementById("day-stub");
@@ -386,14 +579,24 @@
   }
 
   function renderThemedItems(day, theme) {
-    var host = document.getElementById("items-v2");
+    theme = resolveTheme(theme);
+    if (theme === "polaroid") {
+      renderPolaroidItems(day);
+      return;
+    }
+    if (theme === "isometric-mini") {
+      renderIsoItems(day);
+      return;
+    }
+    var host = restoreItemsHost();
     if (!host) return;
+    clearThemeChrome();
     var items = (day.items || []).slice(0, MAX_ITEMS);
     if (!items.length) {
       host.innerHTML = '<p class="empty">本日暂无条目</p>';
       return;
     }
-    var klein = resolveTheme(theme) === "klein-halftone";
+    var klein = theme === "klein-halftone";
     host.innerHTML = items.map(function (it, idx) {
       var rank = it.rank != null ? it.rank : idx + 1;
       var url = it.article_url || it.hn_url || "";

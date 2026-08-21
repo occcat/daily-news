@@ -1,15 +1,17 @@
-/* isometric-mini · Klein + cream paper plaza. */
+/* 2026-08-25 isometric-mini · paper-model tabletop, not a card list. */
 :root {
   --paper: #F3EBD8;
+  --cream: #F7F1E4;
   --klein: #002FA7;
-  --ink: #002FA7;
-  --cream: #F6F0E4;
+  --klein-deep: #001A6E;
+  --ink: #1A2744;
+  --title: #002FA7;
 }
 
 html,
 body {
   background: var(--paper);
-  color: var(--klein);
+  color: var(--ink);
 }
 
 .stipple-css,
@@ -20,158 +22,466 @@ body {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  opacity: 0.22;
+  z-index: 0;
+  opacity: 0.28;
   mix-blend-mode: multiply;
-  background-image: radial-gradient(circle, rgba(0, 47, 167, 0.12) 0.45px, transparent 0.7px);
-  background-size: 3px 3px;
+  background-image: url("../../assets/grain.svg");
+  background-size: 260px 260px;
 }
 
 .day {
-  width: min(1180px, calc(100% - 64px));
+  width: min(1280px, calc(100% - 48px));
   display: grid;
-  grid-template-columns: minmax(240px, 30%) minmax(0, 1fr);
-  gap: 2rem 2.4rem;
-  padding-top: 40px;
+  grid-template-columns: minmax(220px, 250px) minmax(0, 1fr);
+  gap: 0 1.5rem;
+  padding: 36px 0 80px;
+  align-items: start;
 }
 
+.day-figure { display: none !important; }
+
+/* —— Left sidebar (fixed info) —— */
 .day-head {
   grid-column: 1;
+  position: sticky;
+  top: 28px;
   margin: 0;
+  padding-top: 8px;
 }
 
 .brand {
-  font-family: "Noto Serif SC", "Source Han Serif SC", serif;
+  margin: 0;
+  padding: 0 0 0.45rem;
+  border-bottom: 2px solid var(--klein);
+  font-family: "Noto Sans SC", "PingFang SC", sans-serif;
   font-size: 42px;
   font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
   color: var(--klein);
-  padding-bottom: 0.55rem;
-  border-bottom: 3px solid var(--klein);
 }
 .brand a,
 .brand a:visited,
 .brand a:hover { color: var(--klein); }
 
 .day-kicker {
-  display: block;
-  margin: 0.7rem 0 1.4rem;
+  display: block !important;
+  margin: 0.7rem 0 1.5rem;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--klein);
+}
+
+.day-date {
+  margin: 0;
+  font-family: "Noto Serif SC", "Source Serif 4", "Times New Roman", serif;
+  font-size: clamp(64px, 9vw, 104px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 0.86;
+  color: var(--klein);
+  background: none;
+  -webkit-text-fill-color: var(--klein);
+}
+
+.day-full {
+  display: inline-block;
+  margin: 1rem 0 0;
+  padding: 0.28rem 0.55rem;
+  border: 1px solid var(--klein);
+  color: var(--klein);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.day-count {
+  display: block !important;
+  margin: 0.7rem 0 0;
   font-size: 13px;
   font-weight: 500;
   color: var(--klein);
 }
 
-.day-date {
-  color: var(--klein);
-  background: none;
-  -webkit-text-fill-color: var(--klein);
-  font-family: "Noto Serif SC", "Source Serif 4", serif;
-  font-size: clamp(64px, 8vw, 108px);
-}
-
-.day-full {
-  display: inline-block;
-  margin-top: 0.7rem;
-  padding: 0.28rem 0.55rem;
-  border: 1px solid var(--klein);
-  color: var(--klein);
+.day-stub {
+  margin: 0.7rem 0 0;
   font-size: 12px;
-}
-
-.day-count {
-  display: block;
-  margin-top: 0.55rem;
-  font-size: 12px;
-  color: var(--klein);
+  color: rgba(0, 47, 167, 0.55);
 }
 
 .day-quote {
-  display: block;
-  margin-top: 2.4rem;
-  padding-left: 0.2rem;
-  color: var(--klein);
-}
-.day-quote .quote--en {
-  font-size: 16px;
-  color: var(--klein);
-}
-.day-quote .quote--zh {
-  font-size: 16px;
-  color: var(--klein);
-}
-.day-quote::before {
-  content: "“";
-  display: block;
-  font-family: "Noto Serif SC", serif;
-  font-size: 64px;
-  line-height: 0.6;
-  color: var(--klein);
-}
-
-#main-v2 {
-  grid-column: 2;
+  display: block !important;
   position: relative;
-  min-height: 520px;
-  padding: 2.2rem 1.6rem 3rem;
-  background: var(--cream);
-  box-shadow:
-    14px 16px 0 var(--klein),
-    0 22px 40px rgba(0, 47, 167, 0.12);
-}
-
-.iso-deco { display: block; }
-
-.items {
-  display: flex;
-  flex-direction: column;
-  gap: 1.4rem;
-}
-
-.item {
-  position: relative;
-  margin: 0;
-  padding: 1.1rem 1.2rem 1.15rem;
-  background: var(--cream);
-  border: 1.5px solid var(--klein);
-  box-shadow: 8px 10px 0 var(--klein);
-  transform: rotate(-1deg);
-}
-.item:nth-child(even) { transform: rotate(1.2deg) translateX(12px); }
-.item:nth-child(3n) { transform: rotate(-0.4deg) translateX(-8px); }
-
-.item__n {
-  font-family: "Noto Serif SC", serif;
-  font-size: 20px;
+  margin: 2.6rem 0 0;
+  padding: 1.4rem 0 0 0.15rem;
   color: var(--klein);
 }
 
-.item__title {
-  font-family: "Noto Serif SC", serif;
-  font-size: 20px;
-  font-weight: 700;
+.day-quote::before,
+.day-quote::after {
+  font-family: "Noto Serif SC", "Times New Roman", serif;
+  font-size: 72px;
+  line-height: 0.4;
   color: var(--klein);
-}
-
-.item__sum,
-.quote--en,
-.quote--zh {
-  font-size: 16px;
-  color: var(--klein);
-}
-
-.item__meta,
-.item__meta a,
-.item__meta a:visited { color: var(--klein); }
-
-.iso-tree,
-.iso-bench,
-.iso-stair {
-  position: absolute;
   pointer-events: none;
 }
 
-@media (max-width: 860px) {
+.day-quote::before {
+  content: "“";
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
+.day-quote .quote-pair { margin: 0; }
+
+.day-quote .quote--en {
+  font-family: "Source Serif 4", "Noto Serif SC", serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--ink);
+}
+
+.day-quote .quote--zh {
+  margin-top: 0.65rem;
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.6;
+  color: var(--klein);
+}
+
+.day-quote .quote__author {
+  margin-top: 0.7rem;
+  font-size: 12px;
+  color: var(--klein);
+}
+
+.iso-deco { display: none !important; }
+
+/* —— Diorama stage —— */
+#main-v2 {
+  grid-column: 2;
+  position: relative;
+  min-height: 680px;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.iso-stage {
+  position: relative;
+  min-height: 820px;
+  padding: 40px 8px 80px 20px;
+  perspective: 1600px;
+  perspective-origin: 48% 18%;
+}
+
+.iso-slab {
+  position: absolute;
+  left: 8%;
+  top: 4%;
+  width: min(760px, 84%);
+  height: 90%;
+  transform: rotateX(58deg) rotateZ(-38deg);
+  transform-style: preserve-3d;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.iso-slab__top {
+  position: absolute;
+  inset: 0;
+  background-color: var(--cream);
+  background-image:
+    linear-gradient(rgba(0, 47, 167, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 47, 167, 0.09) 1px, transparent 1px);
+  background-size: 34px 34px;
+  box-shadow:
+    0 0 0 1px rgba(0, 47, 167, 0.06) inset,
+    18px 26px 40px rgba(26, 30, 20, 0.12);
+}
+
+.iso-slab__front,
+.iso-slab__side {
+  position: absolute;
+  background: var(--klein);
+}
+
+.iso-slab__front {
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 34px;
+  transform: rotateX(-90deg);
+  transform-origin: top center;
+  background: linear-gradient(180deg, #d9d0ba 0 22%, var(--klein) 22%);
+}
+
+.iso-slab__side {
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  width: 34px;
+  transform: rotateY(90deg);
+  transform-origin: left center;
+  background: linear-gradient(90deg, #cfc6b0 0 22%, var(--klein-deep) 22%);
+}
+
+.iso-stairs {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+.iso-stairs span {
+  position: absolute;
+  background: var(--cream);
+  box-shadow: 6px 0 0 var(--klein);
+}
+
+.iso-stairs--east {
+  right: -8%;
+  top: 42%;
+  width: 90px;
+  height: 130px;
+}
+
+.iso-stairs--east span:nth-child(1) { width: 78px; height: 22px; left: 12px; top: 0; }
+.iso-stairs--east span:nth-child(2) { width: 78px; height: 22px; left: 28px; top: 26px; }
+.iso-stairs--east span:nth-child(3) { width: 78px; height: 22px; left: 44px; top: 52px; }
+.iso-stairs--east span:nth-child(4) { width: 78px; height: 22px; left: 60px; top: 78px; }
+
+.iso-stairs--south {
+  left: 38%;
+  top: 96%;
+  width: 150px;
+  height: 90px;
+}
+
+.iso-stairs--south span:nth-child(1) { width: 88px; height: 20px; left: 0; top: 0; }
+.iso-stairs--south span:nth-child(2) { width: 88px; height: 20px; left: 16px; top: 24px; }
+.iso-stairs--south span:nth-child(3) { width: 88px; height: 20px; left: 32px; top: 48px; }
+
+/* Paper set dressing — screen-space cutouts sitting on the slab */
+.iso-dressing {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.iso-tree,
+.iso-bench,
+.iso-post,
+.iso-cube,
+.iso-slogan {
+  position: absolute;
+}
+
+.iso-tree { width: 72px; }
+
+.iso-tree__canopy {
+  display: block;
+  width: 72px;
+  height: 46px;
+  background: var(--cream);
+  border: 3px solid var(--klein);
+  border-radius: 50%;
+  box-shadow: 6px 5px 0 var(--klein);
+}
+
+.iso-tree__trunk {
+  display: block;
+  width: 8px;
+  height: 22px;
+  margin: -4px auto 0;
+  background: var(--cream);
+  border: 2px solid var(--klein);
+  border-top: 0;
+}
+
+.iso-tree--1 { left: 10%; top: 18%; }
+.iso-tree--2 { right: 16%; top: 22%; }
+
+.iso-bench {
+  left: 14%;
+  top: 58%;
+  width: 58px;
+  height: 28px;
+  background: var(--cream);
+  border: 2px solid var(--klein);
+  border-radius: 2px 2px 0 0;
+  box-shadow: 5px 4px 0 var(--klein);
+}
+
+.iso-bench::before,
+.iso-bench::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 4px;
+  height: 10px;
+  background: var(--klein);
+}
+
+.iso-bench::before { left: 8px; }
+.iso-bench::after { right: 8px; }
+
+.iso-post {
+  width: 10px;
+  height: 28px;
+  background: var(--cream);
+  border: 2px solid var(--klein);
+  box-shadow: 3px 3px 0 var(--klein);
+}
+
+.iso-post--1 { left: 28%; top: 70%; }
+.iso-post--2 { left: 32%; top: 73%; }
+
+.iso-cube {
+  right: 22%;
+  bottom: 18%;
+  width: 28px;
+  height: 28px;
+  background: var(--cream);
+  border: 2px solid var(--klein);
+  box-shadow: 6px 6px 0 var(--klein);
+}
+
+.iso-slogan {
+  right: 8%;
+  bottom: 10%;
+  width: 168px;
+  padding: 0.7rem 0.75rem 0.65rem;
+  background: var(--cream);
+  color: var(--klein);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.45;
+  box-shadow: -10px 0 0 var(--klein), 6px 10px 16px rgba(0, 30, 80, 0.12);
+  transform: rotate(3deg);
+}
+
+/* Upright paper plaques on the sand table */
+.items {
+  position: relative;
+  z-index: 2;
+  display: block;
+  min-height: 760px;
+}
+
+.item {
+  position: absolute;
+  left: var(--x, 20%);
+  top: var(--y, 20%);
+  width: min(292px, 46vw);
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  transform: rotate(var(--rot, -2deg));
+  filter: drop-shadow(10px 16px 10px rgba(20, 28, 50, 0.16));
+}
+
+.item__stand {
+  display: flex;
+  align-items: stretch;
+}
+
+.item__edge {
+  flex: 0 0 16px;
+  width: 16px;
+  background: var(--klein);
+  transform: perspective(180px) rotateY(48deg);
+  transform-origin: right center;
+  margin-right: -1px;
+}
+
+.item__face {
+  flex: 1;
+  background: var(--cream);
+  padding: 0.95rem 1.05rem 0.9rem;
+}
+
+.item__n {
+  display: block;
+  margin: 0 0 0.35rem;
+  font-family: "Noto Serif SC", "Source Serif 4", serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--klein);
+}
+
+.item__visual { display: none !important; }
+
+.item__title {
+  margin: 0;
+  font-family: "Noto Sans SC", "PingFang SC", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--klein);
+}
+
+.item__title a,
+.item__title a:visited,
+.item__title a:hover { color: var(--klein); }
+
+.item__sum {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0.5rem 0 0;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #2c3548;
+}
+
+.quotes { display: none; }
+
+.item__meta {
+  margin: 0.65rem 0 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--klein);
+}
+.item__meta a,
+.item__meta a:visited { color: var(--klein); word-break: break-all; }
+
+.item__id,
+.item__mark,
+.item__code { display: none; }
+
+@media (max-width: 900px) {
   .day {
     display: block;
-    width: calc(100% - 32px);
+    width: calc(100% - 28px);
+    padding-top: 20px;
   }
-  #main-v2 { box-shadow: 8px 10px 0 var(--klein); }
+  .day-head {
+    position: static;
+    margin-bottom: 1.2rem;
+  }
+  .day-date { font-size: 72px; }
+  .iso-stage { padding: 8px 0 48px; min-height: 0; }
+  .iso-slab {
+    width: 120%;
+    height: 560px;
+    left: -8%;
+    top: 2%;
+  }
+  .items { min-height: 0; }
+  .item {
+    position: relative;
+    left: auto !important;
+    top: auto !important;
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto 1.4rem;
+  }
 }
