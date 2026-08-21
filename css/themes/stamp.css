@@ -37,10 +37,10 @@ body { background: var(--paper); }
 /* Lead headline as perforated stamp.
    Paper + roulette live on ::before so the red postmark is not clipped. */
 .item--lead {
-  --perf: 8px;
+  --perf: 10px;
   position: relative;
   isolation: isolate;
-  padding: 28px 28px 32px;
+  padding: 30px 30px 34px;
   background: transparent;
   border: none;
   box-shadow: none;
@@ -74,13 +74,12 @@ body { background: var(--paper); }
   mask-origin: padding-box, border-box;
   mask-clip: padding-box, border-box;
   mask-composite: add;
-  filter: drop-shadow(0 0.5px 0 rgba(0, 47, 167, 0.18));
 }
 
 .item--lead::after {
   content: "";
   position: absolute;
-  inset: 13px;
+  inset: 16px;
   z-index: 0;
   pointer-events: none;
   border: 1px dashed var(--klein);
