@@ -130,30 +130,33 @@ body { background: var(--paper); }
   pointer-events: none;
 }
 
-/* Hero postmark stamps on. Hover: press + 1px misregister. Stubs tear 2px. */
+/* Stamp on once (backwards: rest CSS wins after). Then hover can press. */
 #skin-v2.is-in .item--lead .item__mark {
-  animation: stamp-on 480ms cubic-bezier(0.18, 0.7, 0.22, 1.15) both;
+  animation: stamp-on 480ms cubic-bezier(0.18, 0.7, 0.22, 1.15) backwards;
 }
 
-.item--lead .item__mark.is-landed { animation: none; }
+#skin-v2.is-in .item--lead .item__mark.is-landed { animation: none; }
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .item--lead .item__mark {
     transition: transform 0.16s cubic-bezier(0.2, 0.7, 0.2, 1);
   }
+  #skin-v2.is-in .item--lead:hover .item__mark,
+  #skin-v2.is-in .item--lead:focus-within .item__mark,
   .item--lead:hover .item__mark,
   .item--lead:focus-within .item__mark {
     transform: rotate(11deg) translate(1px, 3px) scale(0.9);
   }
-  .item:not(.item--lead) .item__body,
   .item:not(.item--lead) .item__code {
     transition: transform 0.2s cubic-bezier(0.2, 0.7, 0.2, 1);
   }
-  .item:not(.item--lead):hover .item__body,
-  .item:not(.item--lead):focus-within .item__body,
   .item:not(.item--lead):hover .item__code,
   .item:not(.item--lead):focus-within .item__code {
-    transform: translateX(2px);
+    transform: translateY(-5px) rotate(-6deg);
+  }
+  .item:nth-child(even):not(.item--lead):hover .item__code,
+  .item:nth-child(even):not(.item--lead):focus-within .item__code {
+    transform: translateY(-5px) rotate(6deg);
   }
 }
 
@@ -174,14 +177,12 @@ body { background: var(--paper); }
 
 @media (prefers-reduced-motion: reduce) {
   .item--lead .item__mark,
-  .item:not(.item--lead) .item__body,
   .item:not(.item--lead) .item__code {
     animation: none;
     transition: none;
     opacity: 1;
     transform: rotate(12deg);
   }
-  .item:not(.item--lead) .item__body,
   .item:not(.item--lead) .item__code {
     transform: none;
   }
@@ -189,11 +190,13 @@ body { background: var(--paper); }
   .item--lead:focus-within .item__mark {
     transform: rotate(11deg) translate(1px, 3px) scale(0.9);
   }
-  .item:not(.item--lead):hover .item__body,
-  .item:not(.item--lead):focus-within .item__body,
   .item:not(.item--lead):hover .item__code,
   .item:not(.item--lead):focus-within .item__code {
-    transform: translateX(2px);
+    transform: translateY(-5px) rotate(-6deg);
+  }
+  .item:nth-child(even):not(.item--lead):hover .item__code,
+  .item:nth-child(even):not(.item--lead):focus-within .item__code {
+    transform: translateY(-5px) rotate(6deg);
   }
 }
 .item--lead .item__mark::before {
@@ -280,6 +283,7 @@ body { background: var(--paper); }
   min-width: 42px;
   border-left: 1px dashed var(--stamp);
   padding-left: 0.7rem;
+  transform-origin: 0 45%;
   color: var(--stamp);
   font-size: 12px;
   font-weight: 700;

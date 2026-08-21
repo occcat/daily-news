@@ -24,6 +24,12 @@
     return right;
   }
 
+  function bindStamp() {
+    var mark = document.querySelector("#skin-v2 .item--lead .item__mark");
+    if (!mark) return;
+    setTimeout(function () { mark.classList.add("is-landed"); }, 500);
+  }
+
   function bindPolaroid() {
     var items = document.querySelectorAll("#skin-v2 .items > .item");
     if (!items.length) return;
@@ -54,7 +60,15 @@
     if (!plaques.length || reducedMotion()) return;
     document.__isoPlaques = plaques;
     document.__isoReady = false;
-    setTimeout(function () { document.__isoReady = true; }, 860);
+    setTimeout(function () {
+      document.__isoReady = true;
+      var list = document.__isoPlaques || [];
+      var i;
+      for (i = 0; i < list.length; i++) {
+        var stand = list[i].querySelector(".item__stand");
+        if (stand) stand.classList.add("is-landed");
+      }
+    }, 860);
     if (document.__isoBound) return;
     document.__isoBound = true;
 
@@ -70,7 +84,8 @@
         var stand = item.querySelector(".item__stand");
         if (!stand) continue;
         if (px == null || !document.__isoReady) {
-          stand.style.transform = "";
+          stand.style.setProperty("--iso-rx", "0deg");
+          stand.style.setProperty("--iso-ry", "0deg");
           continue;
         }
         var r = item.getBoundingClientRect();
@@ -78,9 +93,8 @@
         var cy = r.top + r.height / 2;
         var nx = Math.max(-1, Math.min(1, (px - cx) / 160));
         var ny = Math.max(-1, Math.min(1, (py - cy) / 160));
-        stand.style.transform =
-          "rotateX(" + (-ny * ISO_TILT_X).toFixed(2) + "deg) " +
-          "rotateY(" + (nx * ISO_TILT_Y).toFixed(2) + "deg)";
+        stand.style.setProperty("--iso-rx", (-ny * ISO_TILT_X).toFixed(2) + "deg");
+        stand.style.setProperty("--iso-ry", (nx * ISO_TILT_Y).toFixed(2) + "deg");
       }
     }
 
@@ -250,6 +264,7 @@
     if (theme === "polaroid") bindPolaroid();
     else if (theme === "isometric-mini") bindIso();
     else if (theme === "agamemnon") bindAga();
+    else if (theme === "stamp") bindStamp();
   }
 
   global.RikanFeel = { bind: bind };

@@ -259,11 +259,11 @@ body {
 }
 
 #skin-v2.is-in .iso-tree {
-  animation: tree-enter 420ms ease-out both;
+  animation: tree-enter 420ms ease-out backwards;
   animation-delay: 720ms;
 }
 #skin-v2.is-in .iso-tree--2 { animation-delay: 800ms; }
-.iso-tree.is-landed { animation: none; }
+#skin-v2.is-in .iso-tree.is-landed { animation: none; }
 .iso-tree__canopy {
   display: block;
   width: 70px;
@@ -385,23 +385,37 @@ body {
 .iso-plaques .item:nth-child(5n+4) { margin-top: 10px; }
 .iso-plaques .item:nth-child(5n) { margin-top: 22px; }
 
+@property --iso-rx {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+@property --iso-ry {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
 .item__stand {
+  --iso-rx: 0deg;
+  --iso-ry: 0deg;
   position: relative;
   display: block;
   transform-origin: 50% 100%;
   transform-style: preserve-3d;
+  transform: rotateX(var(--iso-rx)) rotateY(var(--iso-ry));
 }
 
 #skin-v2.is-in .iso-plaques .item__stand {
-  animation: plaque-grow 480ms cubic-bezier(0.18, 0.85, 0.28, 1.12) both;
+  animation: plaque-grow 480ms cubic-bezier(0.18, 0.85, 0.28, 1.12) backwards;
   animation-delay: calc(var(--i, 0) * 28ms);
 }
 
-.item__stand.is-landed { animation: none; }
+#skin-v2.is-in .iso-plaques .item__stand.is-landed { animation: none; }
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .item__stand {
-    transition: transform 0.16s ease-out;
+    transition: transform 0.16s ease-out, --iso-rx 0.16s ease-out, --iso-ry 0.16s ease-out;
   }
   .item:hover .item__n,
   .item:focus-within .item__n {
@@ -535,11 +549,11 @@ body {
 @keyframes plaque-grow {
   from {
     opacity: 0;
-    transform: scaleY(0.08);
+    transform: scaleY(0.08) rotateX(var(--iso-rx)) rotateY(var(--iso-ry));
   }
   to {
     opacity: 1;
-    transform: scaleY(1);
+    transform: scaleY(1) rotateX(var(--iso-rx)) rotateY(var(--iso-ry));
   }
 }
 
