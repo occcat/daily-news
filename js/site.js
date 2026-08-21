@@ -458,16 +458,8 @@
   }
 
   var ISO_ROT = ["-2.4deg", "1.6deg", "-1.1deg", "2.2deg", "-3deg", "0.8deg"];
-  var ISO_HERO_POS = [
-    [32, 28],
-    [58, 26],
-    [44, 44],
-    [68, 42],
-    [30, 58],
-    [54, 60]
-  ];
 
-  function isoPlaqueHTML(it, idx, flag) {
+  function isoPlaqueHTML(it, idx) {
     var rank = it.rank != null ? it.rank : idx + 1;
     var url = it.article_url || it.hn_url || "";
     var src = it.source || "";
@@ -477,18 +469,15 @@
     var heading = url
       ? '<a href="' + esc(url) + '" rel="noopener noreferrer">' + esc(title) + "</a>"
       : esc(title);
-    var pos = ISO_HERO_POS[idx] || [50, 40];
-    var style = flag
-      ? "--rot:" + ISO_ROT[idx % ISO_ROT.length]
-      : "--x:" + pos[0] + "%;--y:" + pos[1] + "%;--rot:" + ISO_ROT[idx % ISO_ROT.length];
+    var style = "--rot:" + ISO_ROT[idx % ISO_ROT.length];
     return (
-      '<li class="item' + (flag ? " item--flag" : "") + '" id="item-' + esc(String(rank)) + '" style="' + style + '">' +
+      '<li class="item" id="item-' + esc(String(rank)) + '" style="' + style + '">' +
       '<div class="item__stand">' +
       '<span class="item__back" aria-hidden="true"></span>' +
       '<div class="item__face">' +
       '<span class="item__n">' + esc(n) + "</span>" +
       '<h2 class="item__title">' + heading + "</h2>" +
-      (!flag && sum ? '<p class="item__sum">' + esc(sum) + "</p>" : "") +
+      (sum ? '<p class="sr-only">' + esc(sum) + "</p>" : "") +
       '<p class="item__meta">来源: ' + esc(src) + "</p>" +
       "</div>" +
       '<span class="item__post" aria-hidden="true"></span>' +
@@ -501,8 +490,6 @@
     if (!main) return;
     clearThemeChrome();
     var items = (day.items || []).slice(0, MAX_ITEMS);
-    var hero = items.slice(0, 6);
-    var rest = items.slice(6);
     main.innerHTML =
       '<div class="iso-stage">' +
       '<div class="iso-table">' +
@@ -512,15 +499,9 @@
       '<div class="iso-stairs iso-stairs--south"><span></span><span></span><span></span></div>' +
       isoDressingHTML() +
       '<ol class="iso-plaques" id="items-v2">' +
-      hero.map(function (it, idx) { return isoPlaqueHTML(it, idx, false); }).join("") +
+      items.map(function (it, idx) { return isoPlaqueHTML(it, idx); }).join("") +
       "</ol>" +
-      "</div>" +
-      (rest.length
-        ? '<ol class="iso-yard" id="items-v2-more">' +
-          rest.map(function (it, idx) { return isoPlaqueHTML(it, idx + 6, true); }).join("") +
-          "</ol>"
-        : "") +
-      "</div>";
+      "</div></div>";
   }
 
   function activateSkin(legacy) {
