@@ -122,6 +122,46 @@ body {
 
 .quote__author { color: var(--gold); }
 
+/* Chinese body | English quotes — two offset columns, never stacked. */
+.item__visual { display: none !important; }
+
+.item__body:has(.quotes) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: 1.75rem;
+  row-gap: 0.45rem;
+  align-items: start;
+}
+
+.item__body:has(.quotes) .item__title {
+  grid-column: 1 / -1;
+}
+
+.item__body:has(.quotes) .item__sum {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.item__body:has(.quotes) .quotes {
+  grid-column: 2;
+  grid-row: 2 / 5;
+  margin: 2.4rem 0 0;
+}
+
+.item__body:has(.quotes) .item__meta {
+  grid-column: 1;
+}
+
+.quotes { margin: 0; }
+
+.quote-pair { margin: 0 0 1.1rem; }
+
+.quote--en,
+.quote--zh {
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
 /* One coarse red robe in the open Klein field RIGHT of the gold date.
    Never a full-bleed dotted sheet. Never under titles or the quote. */
 .day-figure {
@@ -144,29 +184,9 @@ body {
   filter: none;
 }
 
-.day-quote {
-  display: block;
-  position: fixed;
-  right: 36px;
-  bottom: 36px;
-  z-index: 2;
-  margin: 0;
-  max-width: 22rem;
-  color: var(--gold);
-  text-align: right;
-}
-.day-quote .quote-pair { margin: 0; }
-.day-quote .quote--en {
-  font-style: italic;
-  color: var(--gold);
-}
-.day-quote .quote--zh {
-  margin-top: 0.55rem;
-  padding-top: 0.55rem;
-  border-top: 1px solid var(--gold);
-  color: var(--gold);
-}
-.day-quote .quote__author { display: none; }
+/* Pull-quote used to sit fixed over the body. Quotes now live in the
+   offset column next to each Chinese summary, so this overlay goes away. */
+.day-quote { display: none !important; }
 
 @media (max-width: 1100px) {
   /* Leftover air only — start after the 640px type column. */
@@ -184,11 +204,13 @@ body {
   .day { margin: 0 auto; width: calc(100% - 36px); }
   .item__title { font-size: 18px; }
   .day-figure { display: none; }
-  .day-quote {
-    position: relative;
-    right: auto;
-    bottom: auto;
-    text-align: left;
-    margin-top: 1.6rem;
+  .item__body:has(.quotes) {
+    display: block;
   }
+  .item__body:has(.quotes) .quotes {
+    margin: 1.1rem 0 0;
+  }
+  .item__sum,
+  .quote--en,
+  .quote--zh { font-size: 16px; }
 }

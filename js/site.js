@@ -592,8 +592,9 @@
         (idx === 0 ? " item--lead" : "") +
         (idx < 3 ? " item--poster" : " item--compact") +
         (hn ? " item--hn" : " item--nm");
-      var visual = klein ? "" : (hn ? q.first : "");
-      var quotes = klein ? q.all : q.rest;
+      var agamemnon = theme === "agamemnon";
+      var visual = (klein || agamemnon) ? "" : (hn ? q.first : "");
+      var quotes = (klein || agamemnon) ? q.all : q.rest;
       return (
         '<li class="' + cls + '" id="item-' + esc(String(rank)) + '">' +
         '<span class="item__id">' + esc(serial) + "</span>" +
