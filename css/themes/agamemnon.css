@@ -220,21 +220,30 @@ body {
   background-position: left top;
 }
 
-/* 3 · bottom-right, in the leftover Klein field near the colophon */
-#skin-v2::after {
+/* 3 · bottom-right, beside the last 2–3 items.
+   Must live on .day (article height). #skin-v2 is only min-height: 100vh
+   and does not stretch with the long list, so a #skin-v2::after cluster
+   sits on the first screen — or clips to zero — and never appears at
+   the page end. Bounded box, not a full-page mesh. */
+.day::after {
   content: "";
   position: absolute;
-  left: calc(56px + min(640px, 100vw - 80px) + 80px);
-  bottom: 6%;
-  width: min(25vw, 340px);
-  max-width: calc(100vw - 800px);
-  aspect-ratio: 520 / 680;
+  left: calc(100% + 80px);
+  top: auto;
+  bottom: 120px;
+  width: min(23vw, 312px);
+  height: calc(min(23vw, 312px) * 680 / 520);
   pointer-events: none;
   z-index: 0;
   background-image: url("agamemnon-cluster-bot.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
+}
+
+#skin-v2::after {
+  content: none;
+  display: none;
 }
 
 /* Pull-quote used to sit fixed over the body. Quotes now live in the
@@ -248,9 +257,9 @@ body {
     width: min(200px, calc(100vw - 800px));
     max-width: calc(100vw - 800px);
   }
-  #skin-v2::after {
-    width: min(180px, calc(100vw - 800px));
-    max-width: calc(100vw - 800px);
+  .day::after {
+    width: min(164px, 18vw);
+    height: calc(min(164px, 18vw) * 680 / 520);
   }
 }
 
@@ -258,7 +267,7 @@ body {
   .day { margin: 0 auto; width: calc(100% - 36px); }
   .item__title { font-size: 18px; }
   .day-figure,
-  #skin-v2::after { display: none; }
+  .day::after { display: none; }
   .item__body:has(.quotes) {
     display: block;
   }
