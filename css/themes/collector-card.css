@@ -1,0 +1,45 @@
+/* First draft only. Awaiting Dmeee mock. Color bar + serial + barcode. */
+:root {
+  --paper: #F3EEE4;
+  --ink: #1A1916;
+  --klein: #002FA7;
+}
+
+html, body { background: #e8e2d6; }
+
+.stipple-css, .stipple-canvas { display: none !important; }
+
+.day-date { color: var(--ink); background: none; -webkit-text-fill-color: var(--ink); }
+
+.item {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr);
+  gap: 0 1rem;
+  padding: 1.1rem 1.1rem 1.2rem 0;
+  background: #fff;
+  border: 1px solid #d5cec0;
+}
+
+.item::before {
+  content: "";
+  background: var(--klein);
+}
+
+.item:nth-child(3n)::before { background: #8B1E1E; }
+.item:nth-child(3n+2)::before { background: #C4A35A; }
+
+.item__n { font-size: 14px; letter-spacing: 0.04em; }
+.item__title { font-size: 20px; }
+.item__sum { font-size: 16px; }
+
+.item__code {
+  display: block;
+  margin-top: 0.7rem;
+  height: 28px;
+  width: 120px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--ink) 0 2px,
+    transparent 2px 3.5px
+  );
+}

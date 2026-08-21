@@ -1,0 +1,26 @@
+/* First draft only. Awaiting Dmeee mock. Print-ink red / gold / cobalt. */
+:root {
+  --paper: #F4ECD8;
+  --ink: #1A1916;
+  --red: #8B1E1E;
+  --gold: #C4A35A;
+  --cobalt: #1F4B99;
+  --klein: #1F4B99;
+}
+
+html, body { background: var(--paper); }
+
+.stipple-css, .stipple-canvas { display: none !important; }
+
+.brand a, .day-full { color: var(--gold); }
+.day-date {
+  color: var(--red);
+  background: none;
+  -webkit-text-fill-color: var(--red);
+}
+
+.item__n { color: var(--gold); }
+.item__title { color: var(--red); font-size: 22px; }
+.item__sum { font-size: 16px; color: var(--ink); }
+.item__meta, .item__meta a { color: var(--cobalt); }
+.quote-pair { border-left: 3px solid var(--gold); padding-left: 0.85rem; }

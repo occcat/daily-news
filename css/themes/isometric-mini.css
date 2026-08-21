@@ -1,0 +1,25 @@
+/* First draft only. Awaiting Dmeee mock. Isometric paper diorama. */
+:root {
+  --paper: #EFE6D4;
+  --ink: #1A1916;
+  --klein: #002FA7;
+}
+
+html, body { background: #d9cbb3; }
+
+.stipple-css, .stipple-canvas { display: none !important; }
+
+.day { perspective: 1200px; }
+
+.day-date { color: var(--ink); background: none; -webkit-text-fill-color: var(--ink); }
+
+.item {
+  padding: 1.25rem 1.35rem;
+  background: var(--paper);
+  border: 1px solid #c4b396;
+  box-shadow: 10px 12px 0 #c4b396;
+  transform: rotateX(6deg) rotateZ(-1deg);
+}
+
+.item__title, .item__sum { font-size: 16px; }
+.item__sum { line-height: 1.7; }

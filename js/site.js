@@ -2,8 +2,19 @@
 (function () {
   "use strict";
 
-  var MAX_DIGEST = 8;
   var MAX_ITEMS = 30;
+  var HERO_COUNT = 3;
+  var LEGACY_DATE = "2026-08-21";
+  var THEMES = {
+    "klein-halftone": 1,
+    polaroid: 1,
+    stamp: 1,
+    "isometric-mini": 1,
+    agamemnon: 1,
+    origami: 1,
+    "collector-card": 1
+  };
+  var WEEKDAYS = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
 
   function esc(s) {
     return String(s == null ? "" : s)
@@ -57,6 +68,18 @@
     return p.y + "." + String(p.mo).padStart(2, "0") + "." + String(p.d).padStart(2, "0");
   }
 
+  function fmtMD(iso) {
+    var p = parseISO(iso);
+    if (!p) return iso || "";
+    return String(p.mo).padStart(2, "0") + "." + String(p.d).padStart(2, "0");
+  }
+
+  function weekdayZh(iso) {
+    var p = parseISO(iso);
+    if (!p) return "";
+    return WEEKDAYS[new Date(Date.UTC(p.y, p.mo - 1, p.d)).getUTCDay()];
+  }
+
   function hostOf(url) {
     try { return new URL(url).host.replace(/^www\./, ""); } catch (e) { return ""; }
   }
@@ -80,74 +103,15 @@
     return (it && (it.source_site || it.publisher)) || hostOf(url);
   }
 
+  function resolveTheme(name) {
+    return THEMES[name] ? name : "klein-halftone";
+  }
+
+  /* —— 2026-08-21 newspaper day (unchanged) —— */
   function setStamp(iso) {
     var el = document.getElementById("stamp");
     if (!el) return;
     el.innerHTML = '<span class="stamp__date">' + esc(fmtDot(iso)) + "</span>";
-  }
-
-  function renderDigest(day) {
-    var host = document.getElementById("digest");
-    if (!host) return;
-    var items = (day.items || []).slice(0, MAX_ITEMS);
-    var html = "";
-    var lead = (day.summary_zh || day.summary || "").trim();
-    if (lead) {
-      html += '<div class="lead">' + lead.split(/\n+/).map(function (line) {
-        return "<p>" + esc(line) + "</p>";
-      }).join("") + "</div>";
-    }
-    if (!items.length) {
-      html += '<p class="empty">本日暂无条目</p>';
-      host.innerHTML = html;
-      return;
-    }
-    html += '<ol class="digest">';
-    items.slice(0, MAX_DIGEST).forEach(function (it) {
-      var rank = it.rank != null ? it.rank : 0;
-      var tag = tagOf(it.source);
-      html +=
-        '<li><a class="digest-row" href="day.html?date=' +
-        encodeURIComponent(day.date) +
-        "#item-" +
-        esc(String(rank)) +
-        '">' +
-        '<span class="digest-row__n">' + esc(String(rank)) + ".</span>" +
-        '<span class="digest-row__title">' + esc(titleOf(it)) + "</span>" +
-        (tag ? '<span class="tag">' + esc(tag) + "</span>" : "<span></span>") +
-        "</a></li>";
-    });
-    html += "</ol>";
-    if (items.length > MAX_DIGEST) {
-      html +=
-        '<p class="more"><a href="day.html?date=' +
-        encodeURIComponent(day.date) +
-        '">其余 ' +
-        esc(String(items.length - MAX_DIGEST)) +
-        " 则见当日</a></p>";
-    }
-    host.innerHTML = html;
-  }
-
-  function renderTickets(editions) {
-    var host = document.getElementById("editions");
-    if (!host) return;
-    if (!editions.length) {
-      host.innerHTML = '<p class="empty">尚无往期</p>';
-      return;
-    }
-    var html = '<ol class="tickets">';
-    editions.forEach(function (ed) {
-      html +=
-        '<li><a class="ticket" href="day.html?date=' +
-        encodeURIComponent(ed.date) +
-        '">' +
-        '<span class="ticket__date">' + esc(fmtDot(ed.date)) + "</span>" +
-        '<span class="ticket__leader" aria-hidden="true"></span>' +
-        '<span class="ticket__seal">日刊<br>存档</span></a></li>';
-    });
-    html += "</ol>";
-    host.innerHTML = html;
   }
 
   function quotesHTML(it) {
@@ -220,7 +184,187 @@
       '<a href="index.html">返回目录</a><span>' + esc(fmtDot(iso)) + "</span>";
   }
 
+  /* —— Homepage klein-poster —— */
+  function renderHeroHeads(day, items) {
+    var host = document.getElementById("hero-heads");
+    var dateEl = document.getElementById("hero-date");
+    if (dateEl) dateEl.textContent = fmtMD(day.date);
+    if (!host) return;
+    host.innerHTML = items.slice(0, HERO_COUNT).map(function (it) {
+      var rank = it.rank != null ? it.rank : 0;
+      var tag = tagOf(it.source);
+      return (
+        "<li><a href=\"day.html?date=" +
+        encodeURIComponent(day.date) +
+        "#item-" +
+        esc(String(rank)) +
+        "\">" +
+        '<span class="hero__title">' + esc(titleOf(it)) + "</span>" +
+        (tag ? '<span class="tag">' + esc(tag) + "</span>" : "") +
+        "</a></li>"
+      );
+    }).join("");
+  }
+
+  function renderHomeList(day, items) {
+    var host = document.getElementById("digest");
+    if (!host) return;
+    var rest = items.slice(HERO_COUNT);
+    if (!rest.length) {
+      host.innerHTML = "";
+      return;
+    }
+    host.innerHTML =
+      '<ol class="digest">' +
+      rest.map(function (it) {
+        var rank = it.rank != null ? it.rank : 0;
+        var tag = tagOf(it.source);
+        return (
+          "<li><a class=\"digest-row\" href=\"day.html?date=" +
+          encodeURIComponent(day.date) +
+          "#item-" +
+          esc(String(rank)) +
+          "\">" +
+          '<span class="digest-row__title">' + esc(titleOf(it)) + "</span>" +
+          (tag ? '<span class="tag">' + esc(tag) + "</span>" : "<span></span>") +
+          '<span class="digest-row__go" aria-hidden="true">→</span>' +
+          "</a></li>"
+        );
+      }).join("") +
+      "</ol>";
+  }
+
+  function renderArchive(editions, today) {
+    var host = document.getElementById("editions");
+    if (!host) return;
+    var past = editions.filter(function (ed) { return ed.date !== today; });
+    if (!past.length) {
+      host.innerHTML = "";
+      return;
+    }
+    host.innerHTML = past.map(function (ed) {
+      return (
+        '<a href="day.html?date=' +
+        encodeURIComponent(ed.date) +
+        '">' +
+        esc(fmtMD(ed.date)) +
+        "</a>"
+      );
+    }).join("");
+  }
+
+  /* —— Themed day pages (2026-08-22 onward) —— */
+  function pairHTML(q, withYi) {
+    var en = (q.en || q.original || "").trim();
+    var zh = (q.zh || q.translation || "").trim();
+    if (!en && !zh) return "";
+    var author =
+      q.author && String(q.author).trim()
+        ? '<cite class="quote__author">' + esc(q.author) + "</cite>"
+        : "";
+    return (
+      '<div class="quote-pair">' +
+      (en
+        ? '<blockquote class="quote quote--en">' + author + "<p>" + esc(en) + "</p></blockquote>"
+        : "") +
+      (zh
+        ? '<blockquote class="quote quote--zh"><p>' +
+          (withYi ? '<span class="yi" aria-label="译文">译</span>' : "") +
+          esc(zh) +
+          "</p></blockquote>"
+        : "") +
+      "</div>"
+    );
+  }
+
+  function quotesV2(it) {
+    if (!isHN(it.source)) return { all: "", first: "" };
+    var qs = Array.isArray(it.quotes) ? it.quotes : [];
+    var bits = qs.map(function (q) { return pairHTML(q, false); }).filter(Boolean);
+    return {
+      all: bits.length ? '<div class="quotes">' + bits.join("") + "</div>" : "",
+      rest: bits.length > 1 ? '<div class="quotes">' + bits.slice(1).join("") + "</div>" : "",
+      first: bits[0] || ""
+    };
+  }
+
+  function applyTheme(theme) {
+    theme = resolveTheme(theme);
+    document.documentElement.setAttribute("data-theme", theme);
+    document.body.setAttribute("data-theme", theme);
+    var link = document.getElementById("theme-css");
+    if (link) link.href = "css/themes/" + theme + ".css";
+    return theme;
+  }
+
+  function activateSkin(legacy) {
+    var news = document.getElementById("skin-newspaper");
+    var v2 = document.getElementById("skin-v2");
+    if (news) news.hidden = !legacy;
+    if (v2) v2.hidden = !!legacy;
+    document.body.setAttribute("data-skin", legacy ? "newspaper" : "v2");
+    if (legacy) {
+      document.documentElement.removeAttribute("data-theme");
+      document.body.removeAttribute("data-theme");
+    }
+  }
+
+  function renderThemedHead(iso) {
+    var dateEl = document.getElementById("day-date");
+    var fullEl = document.getElementById("day-full");
+    if (dateEl) dateEl.textContent = fmtMD(iso);
+    if (fullEl) {
+      fullEl.textContent = fmtDot(iso) + " | " + weekdayZh(iso);
+    }
+    document.title = "日刊 · " + fmtDot(iso);
+  }
+
+  function renderThemedItems(day) {
+    var host = document.getElementById("items-v2");
+    if (!host) return;
+    var items = (day.items || []).slice(0, MAX_ITEMS);
+    if (!items.length) {
+      host.innerHTML = '<p class="empty">本日暂无条目</p>';
+      return;
+    }
+    host.innerHTML = items.map(function (it, idx) {
+      var rank = it.rank != null ? it.rank : idx + 1;
+      var url = it.article_url || it.hn_url || "";
+      var src = it.source || "";
+      var sum = (it.summary_zh || "").trim();
+      var hn = isHN(it.source);
+      var q = quotesV2(it);
+      var n = String(rank).padStart(2, "0") + ".";
+      var cls = "item" + (idx === 0 ? " item--lead" : "") + (hn ? " item--hn" : " item--nm");
+      return (
+        '<li class="' + cls + '" id="item-' + esc(String(rank)) + '">' +
+        '<span class="item__mark" aria-hidden="true"></span>' +
+        '<span class="item__n">' + esc(n) + "</span>" +
+        '<div class="item__visual" aria-hidden="' + (hn && q.first ? "false" : "true") + '">' +
+        (hn ? q.first : "") +
+        "</div>" +
+        '<div class="item__body">' +
+        '<h2 class="item__title">' + esc(titleOf(it)) + "</h2>" +
+        (sum ? '<p class="item__sum">' + esc(sum) + "</p>" : "") +
+        q.rest +
+        '<p class="item__meta">来源: ' + esc(src) +
+        (url
+          ? "<br>链接: <a href=\"" + esc(url) + "\" rel=\"noopener noreferrer\">" +
+            esc(url) +
+            "</a>"
+          : "") +
+        "</p>" +
+        "</div>" +
+        '<span class="item__code" aria-hidden="true"></span>' +
+        "</li>"
+      );
+    }).join("");
+  }
+
   function bootHome() {
+    if (window.RikanStipple) {
+      window.RikanStipple.bind("hero", document.getElementById("hero-sand"));
+    }
     fetchJSON("editions.json").then(function (editions) {
       if (!Array.isArray(editions) || !editions.length) {
         document.getElementById("digest").innerHTML = '<p class="empty">尚无刊次</p>';
@@ -230,11 +374,11 @@
       editions = editions.slice().sort(function (a, b) {
         return a.date < b.date ? 1 : -1;
       });
-      setStamp(editions[0].date);
-      renderTickets(editions);
       return fetchJSON(editions[0].date + ".json").then(function (day) {
-        setStamp(day.date || editions[0].date);
-        renderDigest(day);
+        var items = (day.items || []).slice(0, MAX_ITEMS);
+        renderHeroHeads(day, items);
+        renderHomeList(day, items);
+        renderArchive(editions, day.date || editions[0].date);
       });
     }).catch(function (err) {
       var el = document.getElementById("digest");
@@ -242,8 +386,8 @@
     });
   }
 
-  function bootDay() {
-    var date = new URLSearchParams(window.location.search).get("date") || "2026-08-21";
+  function bootNewspaperDay(date) {
+    activateSkin(true);
     setStamp(date);
     renderFolio(date);
     document.title = "日刊 · " + fmtDot(date);
@@ -256,6 +400,30 @@
       var el = document.getElementById("items");
       if (el) el.innerHTML = '<p class="empty">未能载入：' + esc(err.message) + "</p>";
     });
+  }
+
+  function bootThemedDay(date) {
+    activateSkin(false);
+    renderThemedHead(date);
+    fetchJSON(date + ".json").then(function (day) {
+      var iso = day.date || date;
+      var theme = applyTheme(day.theme);
+      renderThemedHead(iso);
+      renderThemedItems(day);
+      if (theme === "klein-halftone" && window.RikanStipple) {
+        window.RikanStipple.bind("halftone", document.getElementById("stipple"));
+      }
+    }).catch(function (err) {
+      applyTheme("klein-halftone");
+      var el = document.getElementById("items-v2");
+      if (el) el.innerHTML = '<p class="empty">未能载入：' + esc(err.message) + "</p>";
+    });
+  }
+
+  function bootDay() {
+    var date = new URLSearchParams(window.location.search).get("date") || LEGACY_DATE;
+    if (date === LEGACY_DATE) bootNewspaperDay(date);
+    else bootThemedDay(date);
   }
 
   var page = document.body.getAttribute("data-page");

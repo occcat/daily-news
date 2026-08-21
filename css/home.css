@@ -1,0 +1,244 @@
+/* 日刊 · klein-poster homepage. Locked to v2-home. Not newspaper. */
+:root {
+  --klein: #002FA7;
+  --klein-deep: #001E70;
+  --paper: #F6F0E4;
+  --ink: #1A1916;
+  --mute: #6B6560;
+  --hero-type: #F6F0E4;
+  --sans: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", sans-serif;
+  --display: "Instrument Sans", "Inter Tight", "Arial Narrow", sans-serif;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+img { max-width: 100%; }
+
+a {
+  color: var(--klein);
+  text-decoration: none;
+}
+a:visited { color: var(--klein); }
+a:hover { color: var(--klein-deep); }
+a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
+
+.skip {
+  position: absolute;
+  left: 48px;
+  top: -3rem;
+  z-index: 8;
+  padding: 0.2rem 0.4rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 12px;
+}
+.skip:focus { top: 0.6rem; }
+
+.empty {
+  margin: 1.2rem 0;
+  font-size: 15px;
+  color: var(--mute);
+}
+
+/* —— Hero: full-bleed Klein poster —— */
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: min(72vh, 760px);
+  padding: 56px 64px 72px;
+  background: var(--klein);
+  color: #fff;
+}
+
+.hero__dots,
+.hero__sand {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.hero__dots {
+  z-index: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(246, 240, 228, 0.12) 0.7px,
+    transparent 0.85px
+  );
+  background-size: 7px 7px;
+}
+
+.hero__sand {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.22;
+  mix-blend-mode: overlay;
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 2;
+}
+
+.brand {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.hero__date {
+  margin: 0.22em 0 0.18em;
+  font-family: var(--display);
+  font-size: clamp(88px, 20vw, 228px);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 0.82;
+  text-align: center;
+  color: var(--hero-type);
+  font-variant-numeric: tabular-nums;
+}
+
+.hero__heads {
+  list-style: none;
+  margin: 2.2rem 0 0;
+  padding: 0;
+  max-width: 52rem;
+}
+
+.hero__heads a,
+.hero__heads a:visited,
+.hero__heads a:hover {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.25rem 2rem;
+  padding: 0.42rem 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero__title {
+  font-family: var(--sans);
+  font-size: clamp(20px, 2.1vw, 26px);
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.hero__heads .tag {
+  flex: 0 0 auto;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.48);
+  line-height: 1.45;
+}
+
+/* —— Cream list —— */
+.sheet {
+  background: var(--paper);
+  padding: 0 64px 80px;
+}
+
+.digest {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.digest-row,
+.digest-row:visited,
+.digest-row:hover {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 1rem 1.25rem;
+  align-items: center;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid rgba(26, 25, 22, 0.14);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.digest-row:first-child { border-top: 1px solid rgba(26, 25, 22, 0.14); }
+
+.digest-row__title {
+  font-family: var(--sans);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.digest-row .tag {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--mute);
+}
+
+.digest-row__go {
+  font-family: var(--display);
+  font-size: 18px;
+  color: var(--ink);
+  line-height: 1;
+}
+
+.digest-row:hover .digest-row__title {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+
+.archive {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.75rem;
+  padding: 48px 0 0;
+}
+
+.archive a,
+.archive a:visited {
+  font-family: var(--display);
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--klein);
+  text-decoration: none;
+  font-variant-numeric: tabular-nums;
+}
+
+.archive a:hover { color: var(--klein-deep); }
+
+@media (max-width: 720px) {
+  .hero { padding: 36px 22px 48px; min-height: 0; }
+  .sheet { padding: 0 22px 64px; }
+  .hero__date { font-size: clamp(72px, 28vw, 140px); text-align: left; }
+  .hero__heads { margin-top: 1.4rem; }
+  .hero__title { font-size: 18px; }
+  .digest-row { padding: 1rem 0; }
+  .digest-row__title { font-size: 16px; }
+}

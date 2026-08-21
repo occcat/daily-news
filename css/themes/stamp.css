@@ -1,0 +1,207 @@
+/* Day skin: stamp / luggage-tag. Day page only. */
+:root {
+  --paper: #F6F0E4;
+  --klein: #002FA7;
+  --stamp: #C45C4A;
+  --ink: #1A1916;
+}
+
+html,
+body { background: var(--paper); }
+
+.stipple-css,
+.stipple-canvas { display: none !important; }
+
+.brand a,
+.brand a:visited { color: var(--klein); }
+
+.day-date {
+  color: var(--stamp);
+  background: none;
+  -webkit-text-fill-color: var(--stamp);
+}
+
+.day-full { color: var(--klein); }
+
+.day { width: min(880px, calc(100% - 96px)); }
+
+.item {
+  position: relative;
+  margin: 0 0 1.6rem;
+  background: #fff;
+  color: var(--klein);
+}
+
+.item__visual { display: none; }
+
+/* Lead headline as perforated stamp */
+.item--lead {
+  padding: 28px 28px 32px;
+  border: 2px solid var(--klein);
+  background:
+    radial-gradient(circle at 0 12px, var(--paper) 7px, transparent 7.5px) 0 0 / 12px 24px repeat-y,
+    radial-gradient(circle at 100% 12px, var(--paper) 7px, transparent 7.5px) 100% 0 / 12px 24px repeat-y,
+    radial-gradient(circle at 12px 0, var(--paper) 7px, transparent 7.5px) 0 0 / 24px 12px repeat-x,
+    radial-gradient(circle at 12px 100%, var(--paper) 7px, transparent 7.5px) 0 100% / 24px 12px repeat-x,
+    #fff;
+  box-shadow: inset 0 0 0 6px #fff, inset 0 0 0 8px var(--klein);
+}
+
+.item--lead .item__n { display: none; }
+
+.item--lead .item__title {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--klein);
+}
+
+.item--lead .item__title::before {
+  content: "头条";
+  display: inline-block;
+  margin: 0 0.6rem 0.55rem 0;
+  padding: 0.1em 0.45em;
+  border: 1px solid var(--klein);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  vertical-align: 0.15em;
+}
+
+.item--lead .item__mark {
+  display: block;
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  width: 92px;
+  height: 92px;
+  border: 3px solid var(--stamp);
+  border-radius: 50%;
+  color: var(--stamp);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+  line-height: 1.2;
+  transform: rotate(12deg);
+  pointer-events: none;
+}
+.item--lead .item__mark::before {
+  content: "日刊";
+  display: block;
+  margin-top: 22px;
+}
+.item--lead .item__mark::after {
+  content: "";
+  position: absolute;
+  left: -18px;
+  right: -18px;
+  top: 44%;
+  height: 3px;
+  border-top: 2px solid var(--stamp);
+  border-bottom: 2px solid var(--stamp);
+  opacity: 0.85;
+}
+
+.item--lead .item__sum { color: #1a2a6c; font-size: 16px; }
+
+/* Luggage tags */
+.item:not(.item--lead) {
+  display: grid;
+  grid-template-columns: 36px 52px minmax(0, 1fr) auto;
+  gap: 0 0.85rem;
+  align-items: stretch;
+  min-height: 108px;
+  padding: 16px 16px 16px 0;
+  border: 1.5px solid var(--klein);
+  border-radius: 0 10px 10px 0;
+}
+
+.item:not(.item--lead)::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  align-self: center;
+  margin-left: 10px;
+  border: 3px solid #b9b3a8;
+  border-radius: 50%;
+  background: var(--paper);
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.item:not(.item--lead) .item__n {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 0.2rem;
+  border-right: 2px dotted var(--klein);
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  color: var(--klein);
+}
+
+.item:not(.item--lead) .item__title {
+  font-size: 18px;
+  color: var(--klein);
+}
+
+.item:not(.item--lead) .item__sum {
+  font-size: 16px;
+  color: var(--ink);
+}
+
+.item:nth-child(3) { background: #e7eef8; }
+.item:nth-child(4) { background: #efe4cf; }
+
+.item__stub {
+  display: none;
+}
+
+.item:not(.item--lead) .item__code {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-width: 42px;
+  border-left: 1px dashed var(--stamp);
+  padding-left: 0.7rem;
+  color: var(--stamp);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.item:not(.item--lead) .item__code::before {
+  content: "";
+  width: 18px;
+  height: 64px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--stamp) 0 2px,
+    transparent 2px 3.4px
+  );
+}
+
+.day::after {
+  content: "★　每日科技速递　★";
+  display: block;
+  margin-top: 2.4rem;
+  padding-top: 0.7rem;
+  border-top: 2px solid var(--klein);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-align: center;
+  color: var(--klein);
+}
+
+@media (max-width: 720px) {
+  .item:not(.item--lead) {
+    grid-template-columns: 28px 36px minmax(0, 1fr);
+  }
+  .item:not(.item--lead) .item__code { display: none; }
+  .item--lead .item__mark { width: 68px; height: 68px; }
+}

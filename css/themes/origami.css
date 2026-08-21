@@ -1,0 +1,24 @@
+/* First draft only. Awaiting Dmeee mock. Folded paper facets. */
+:root {
+  --paper: #F7F1E6;
+  --ink: #1A1916;
+  --klein: #002FA7;
+}
+
+html, body { background: #efe7d6; }
+
+.stipple-css, .stipple-canvas { display: none !important; }
+
+.day-date { color: var(--ink); background: none; -webkit-text-fill-color: var(--ink); }
+
+.item {
+  padding: 1.3rem 1.4rem 1.4rem;
+  background:
+    linear-gradient(135deg, #fffaf0 0 42%, transparent 42%),
+    linear-gradient(225deg, #efe4cf 0 28%, #f7f1e6 28%);
+  border: 1px solid #d8cdb6;
+  clip-path: polygon(0 8px, 8px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+}
+
+.item__title, .item__sum { font-size: 16px; }
+.item__title { font-weight: 600; font-size: 20px; }
