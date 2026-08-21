@@ -106,7 +106,15 @@ body {
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.02em;
+  transform-origin: top left;
 }
+
+#skin-v2.is-in .item__id {
+  animation: badge-pop 380ms cubic-bezier(0.2, 0.75, 0.25, 1.2) both;
+  animation-delay: calc(180ms + var(--i, 0) * 40ms);
+}
+
+.item__id.is-landed { animation: none; }
 
 .item__n,
 .item__visual { display: none; }
@@ -154,6 +162,14 @@ body {
   );
 }
 
+.item {
+  animation: deal-in 460ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: calc(var(--i, 0) * 45ms);
+}
+.item:nth-child(odd) { --deal-x: -42px; }
+.item:nth-child(even) { --deal-x: 42px; }
+.item.is-landed { animation: none; }
+
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .item {
     transition: transform 0.2s ease;
@@ -161,6 +177,21 @@ body {
   .item:hover,
   .item:focus-within {
     transform: translateY(-3px);
+  }
+  .item__id {
+    transition: transform 0.18s cubic-bezier(0.2, 0.8, 0.2, 1.15);
+  }
+  .item:hover .item__id,
+  .item:focus-within .item__id {
+    transform: scale(1.16);
+  }
+  .item__code {
+    transform-origin: center bottom;
+    transition: transform 0.2s ease;
+  }
+  .item:hover .item__code,
+  .item:focus-within .item__code {
+    transform: scaleY(1.28);
   }
   .item__code::after {
     content: "";
@@ -172,6 +203,7 @@ body {
     background: #111;
     opacity: 0;
     pointer-events: none;
+    transform-origin: left center;
   }
   .item:hover .item__code::after,
   .item:focus-within .item__code::after {
@@ -180,9 +212,51 @@ body {
   }
 }
 
+@keyframes deal-in {
+  from {
+    opacity: 0;
+    transform: translateX(var(--deal-x, -42px)) rotate(-3deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes badge-pop {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  68% { transform: scale(1.2); }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 @keyframes code-sweep {
-  from { transform: translateX(0); }
-  to { transform: translateX(560%); }
+  from { transform: translateX(0) scaleY(1); }
+  40% { transform: translateX(220%) scaleY(2.2); }
+  to { transform: translateX(560%) scaleY(2.2); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .item,
+  .item__id,
+  .item__code,
+  .item__code::after {
+    animation: none;
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+  .item:hover,
+  .item:focus-within { transform: translateY(-3px); }
+  .item:hover .item__id,
+  .item:focus-within .item__id { transform: scale(1.16); }
+  .item:hover .item__code,
+  .item:focus-within .item__code { transform: scaleY(1.28); }
 }
 
 @media (max-width: 860px) {

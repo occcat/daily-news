@@ -236,19 +236,85 @@ body {
 .item:nth-child(7n+3) { margin-left: 0.8rem; }
 .item:nth-child(11n)  { --rest-rot: -6.2deg; }
 
-/* Hover: lift, ease tilt toward upright, deepen shadow. Rest pose unchanged. */
+/* Drop onto the desk one by one. Hover: lift, ease toward upright, grain. */
+.item {
+  animation: polaroid-drop 560ms cubic-bezier(0.2, 0.72, 0.22, 1) both;
+  animation-delay: calc(40ms + var(--i, 0) * 70ms);
+}
+
+.item.is-landed { animation: none; }
+
+.item.is-yield {
+  transform: rotate(calc(var(--rest-rot) + 1deg));
+}
+
+.item__visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  mix-blend-mode: multiply;
+  background-image: url("../../assets/grain.svg");
+  background-size: 140px 140px;
+}
+
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .item {
-    transition: transform 0.28s ease, box-shadow 0.28s ease, z-index 0s;
+    transition: transform 0.32s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .item.is-yield {
+    transition: transform 0.28s ease;
   }
   .item:hover,
   .item:focus-within {
     z-index: 8;
-    transform: rotate(calc(var(--rest-rot) * 0.38)) translateY(-8px);
+    transform: rotate(calc(var(--rest-rot) * 0.22)) translateY(-10px);
     box-shadow:
       0 0 0 1px rgba(255, 255, 255, 0.8) inset,
       1px 2px 2px rgba(40, 28, 12, 0.04),
       10px 26px 38px rgba(40, 28, 12, 0.26);
+  }
+  .item__visual::after {
+    transition: opacity 0.28s ease;
+  }
+  .item:hover .item__visual::after,
+  .item:focus-within .item__visual::after {
+    opacity: 0.62;
+  }
+}
+
+@keyframes polaroid-drop {
+  from {
+    opacity: 0;
+    transform: translateY(-52px) rotate(var(--rest-rot));
+  }
+  64% {
+    opacity: 1;
+    transform: translateY(5px) rotate(var(--rest-rot));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(var(--rest-rot));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .item,
+  .item.is-yield,
+  .item__visual::after {
+    animation: none;
+    transition: none;
+    opacity: 1;
+    transform: rotate(var(--rest-rot));
+  }
+  .item:hover,
+  .item:focus-within {
+    transform: rotate(calc(var(--rest-rot) * 0.22)) translateY(-10px);
+  }
+  .item:hover .item__visual::after,
+  .item:focus-within .item__visual::after {
+    opacity: 0.62;
   }
 }
 

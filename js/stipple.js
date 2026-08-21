@@ -6,7 +6,7 @@
   var TEXT_KEEPOUT = 80;
   var HERO_PULL = 12;
   var HERO_RADIUS = 170;
-  var CLOUD_PULL = 32;
+  var CLOUD_PULL = 48;
 
   function hash(x, y) {
     var n = Math.sin(x * 127.1 + y * 311.7) * 43758.5453;
@@ -79,7 +79,36 @@
     return { x: x + (dx / dist) * pull, y: y + (dy / dist) * pull };
   }
 
-  function paintHeroStipple(canvas, pointer, amount) {
+  function edgeOrigin(d, w, h) {
+    var dl = d.x;
+    var dr = w - d.x;
+    var dt = d.y;
+    var db = h - d.y;
+    var m = Math.min(dl, dr, dt, db);
+    if (m === dl) return { x: -4, y: d.y };
+    if (m === dr) return { x: w + 4, y: d.y };
+    if (m === dt) return { x: d.x, y: -4 };
+    return { x: d.x, y: h + 4 };
+  }
+
+  function printFromEdge(d, w, h, progress) {
+    if (progress >= 1) return { x: d.x, y: d.y, a: d.a, r: d.r };
+    var origin = edgeOrigin(d, w, h);
+    var edgeDist = Math.min(d.x, w - d.x, d.y, h - d.y);
+    var start = Math.min(0.52, (edgeDist / Math.max(w, h)) * 1.15);
+    var t = (progress - start) / Math.max(0.001, 1 - start);
+    if (t <= 0) return { x: origin.x, y: origin.y, a: 0, r: d.r * 0.2 };
+    if (t >= 1) return { x: d.x, y: d.y, a: d.a, r: d.r };
+    t = t * t * (3 - 2 * t);
+    return {
+      x: origin.x + (d.x - origin.x) * t,
+      y: origin.y + (d.y - origin.y) * t,
+      a: d.a * t,
+      r: d.r * (0.25 + 0.75 * t)
+    };
+  }
+
+  function paintHeroStipple(canvas, pointer, amount, print) {
     var parent = canvas.parentElement || document.body;
     var rect = parent.getBoundingClientRect();
     var vw = Math.max(1, Math.floor(rect.width));
@@ -89,19 +118,22 @@
       cache = buildHeroDots(vw, vh);
       canvas.__rikanHero = cache;
     }
+    if (print == null) print = 1;
     var ctx = sizeCanvas(canvas, cache.w, cache.h, -HERO_PAD, -HERO_PAD);
     ctx.clearRect(0, 0, cache.w, cache.h);
     ctx.fillStyle = "#F6F0E4";
     var dots = cache.dots;
     var i;
     var d;
+    var born;
     var p;
     for (i = 0; i < dots.length; i++) {
       d = dots[i];
-      p = gatherDot(d.x, d.y, pointer && pointer.x, pointer && pointer.y, amount);
-      ctx.globalAlpha = d.a;
+      born = printFromEdge(d, cache.w, cache.h, print);
+      p = gatherDot(born.x, born.y, pointer && pointer.x, pointer && pointer.y, amount);
+      ctx.globalAlpha = born.a;
       ctx.beginPath();
-      ctx.arc(p.x, p.y, d.r, 0, Math.PI * 2);
+      ctx.arc(p.x, p.y, born.r, 0, Math.PI * 2);
       ctx.fill();
     }
     ctx.globalAlpha = 1;
@@ -137,7 +169,7 @@
     var dx = pointer.x - c.x;
     var dy = pointer.y - c.y;
     var dist = Math.hypot(dx, dy) || 1;
-    var mag = Math.min(CLOUD_PULL, dist * 0.06) * amount;
+    var mag = Math.min(CLOUD_PULL, dist * 0.08) * amount;
     c.x += (dx / dist) * mag;
     c.y += (dy / dist) * mag;
   }
@@ -145,19 +177,21 @@
   /* 8.22 klein-halftone: a few circular sand clouds, not a full-page grid.
      Top-right, mid-right edge, bottom-left. No dots within 80px of the text column.
      Cloud centers drift extremely slowly; t=0 matches the QA'd static pose. */
-  function paintHalftone(canvas, now, pointer, amount) {
+  function paintHalftone(canvas, now, pointer, amount, print) {
     var w = Math.max(1, Math.floor(window.innerWidth));
     var h = Math.max(1, Math.floor(window.innerHeight));
     var ctx = sizeCanvas(canvas, w, h, 0, 0);
     ctx.clearRect(0, 0, w, h);
     ctx.fillStyle = "#002FA7";
+    if (print == null) print = 1;
 
     var span = Math.min(w, h);
     var t = (now || 0) / 1000;
+    var grow = 0.22 + 0.78 * print;
     var clouds = [
-      { x: w * 0.96 + Math.sin(t / 48) * 18, y: h * 0.02 + Math.sin(t / 56) * 11, r: span * 0.42, dens: 0.94 },
-      { x: w * 1.02 + Math.sin(t / 62) * 12, y: h * 0.50 + Math.sin(t / 44) * 16, r: span * 0.17, dens: 0.82 },
-      { x: w * -0.02 + Math.sin(t / 53) * 14, y: h * 1.02 + Math.sin(t / 59) * 10, r: span * 0.26, dens: 0.86 }
+      { x: w * 0.96 + Math.sin(t / 48) * 18, y: h * 0.02 + Math.sin(t / 56) * 11, r: span * 0.42 * grow, dens: 0.94 },
+      { x: w * 1.02 + Math.sin(t / 62) * 12, y: h * 0.50 + Math.sin(t / 44) * 16, r: span * 0.17 * grow, dens: 0.82 },
+      { x: w * -0.02 + Math.sin(t / 53) * 14, y: h * 1.02 + Math.sin(t / 59) * 10, r: span * 0.26 * grow, dens: 0.86 }
     ];
 
     var col = textColumnKeepout();
@@ -187,8 +221,12 @@
           var fall = Math.pow(1 - d, 1.25);
           var irregular = 0.68 + hash(jx * 0.06, jy * 0.08) * 0.32;
           if (hash(jx * 1.9, jy * 2.3) > fall * c.dens * irregular) continue;
-          ctx.globalAlpha = 0.42 + fall * 0.5;
-          var r = 0.95 + hash(jy, jx) * 1.35;
+          var r = (0.95 + hash(jy, jx) * 1.35) * (0.2 + 0.8 * print);
+          if (pointer && amount) {
+            var pd = Math.hypot(jx - pointer.x, jy - pointer.y);
+            if (pd < 168) r *= 1 + (1 - pd / 168) * 1.2 * amount;
+          }
+          ctx.globalAlpha = (0.42 + fall * 0.5) * print;
           ctx.beginPath();
           ctx.arc(jx, jy, r, 0, Math.PI * 2);
           ctx.fill();
@@ -209,6 +247,7 @@
     var curX = null;
     var curY = null;
     var amount = 0;
+    var print = 0;
     var live = !reducedMotion();
     var ticking = false;
 
@@ -222,15 +261,17 @@
 
     function paint() {
       var ptr = curX == null ? null : { x: curX, y: curY };
-      paintHeroStipple(canvas, ptr, amount);
+      paintHeroStipple(canvas, ptr, amount, live ? print : 1);
     }
 
     function tick() {
       ticking = false;
       if (!live) {
+        print = 1;
         paint();
         return;
       }
+      if (print < 1) print = Math.min(1, print + 0.022);
       if (aimX != null) {
         if (curX == null) {
           curX = aimX;
@@ -245,7 +286,7 @@
         if (amount < 0.01) amount = 0;
       }
       paint();
-      if (amount > 0 || aimX != null) {
+      if (print < 1 || amount > 0 || aimX != null) {
         ticking = true;
         requestAnimationFrame(tick);
       }
@@ -271,7 +312,13 @@
       resizeT = setTimeout(paint, 80);
     });
 
-    if (!live) return;
+    if (!live) {
+      print = 1;
+      paint();
+      return;
+    }
+
+    kick();
 
     hero.addEventListener("pointermove", function (ev) {
       if (ev.pointerType === "touch") return;
@@ -295,11 +342,19 @@
     var curX = null;
     var curY = null;
     var amount = 0;
+    var print = drift ? 0 : 1;
     var settleUntil = 0;
+    var bornAt = performance.now();
+
+    function printAt(now) {
+      if (!drift) return 1;
+      return Math.min(1, Math.max(print, (now - bornAt) / 780));
+    }
 
     function paint(now) {
+      print = printAt(now || performance.now());
       var ptr = curX == null ? null : { x: curX, y: curY };
-      paintHalftone(canvas, drift ? now : 0, ptr, drift ? amount : 0);
+      paintHalftone(canvas, drift ? now : 0, ptr, drift ? amount : 0, print);
     }
 
     if (canvas.__rikanBound === "halftone") {
@@ -353,7 +408,8 @@
           amount = lerp(amount, 0, 0.06);
           if (amount < 0.01) amount = 0;
         }
-        var interval = now < settleUntil ? 32 : 120;
+        var printing = print < 1;
+        var interval = (now < settleUntil || printing) ? 32 : 120;
         if (now - last >= interval) {
           last = now;
           paint(now);
@@ -371,8 +427,8 @@
   }
 
   global.RikanStipple = {
-    hero: function (canvas) { paintHeroStipple(canvas, null, 0); },
-    halftone: function (canvas, now) { paintHalftone(canvas, now, null, 0); },
+    hero: function (canvas) { paintHeroStipple(canvas, null, 0, 1); },
+    halftone: function (canvas, now) { paintHalftone(canvas, now, null, 0, 1); },
     bind: bind
   };
 })(window);

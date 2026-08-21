@@ -252,7 +252,18 @@ body {
   pointer-events: none;
 }
 
-.iso-tree { position: absolute; width: 70px; }
+.iso-tree {
+  position: absolute;
+  width: 70px;
+  transform-origin: 50% 100%;
+}
+
+#skin-v2.is-in .iso-tree {
+  animation: tree-enter 420ms ease-out both;
+  animation-delay: 720ms;
+}
+#skin-v2.is-in .iso-tree--2 { animation-delay: 800ms; }
+.iso-tree.is-landed { animation: none; }
 .iso-tree__canopy {
   display: block;
   width: 70px;
@@ -377,12 +388,24 @@ body {
 .item__stand {
   position: relative;
   display: block;
+  transform-origin: 50% 100%;
   transform-style: preserve-3d;
 }
+
+#skin-v2.is-in .iso-plaques .item__stand {
+  animation: plaque-grow 480ms cubic-bezier(0.18, 0.85, 0.28, 1.12) both;
+  animation-delay: calc(var(--i, 0) * 28ms);
+}
+
+.item__stand.is-landed { animation: none; }
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .item__stand {
     transition: transform 0.16s ease-out;
+  }
+  .item:hover .item__n,
+  .item:focus-within .item__n {
+    animation: iso-frame-jump 140ms steps(2, end);
   }
 }
 
@@ -508,6 +531,45 @@ body {
 .item--flag .item__title { font-size: 16px; }
 .item--flag .item__sum { display: none; }
 .item--flag .item__meta { font-size: 11px; }
+
+@keyframes plaque-grow {
+  from {
+    opacity: 0;
+    transform: scaleY(0.08);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+@keyframes tree-enter {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.45);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes iso-frame-jump {
+  from { transform: translateY(0); }
+  50% { transform: translateY(-9px); }
+  to { transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .item__stand,
+  .iso-tree,
+  .item__n {
+    animation: none;
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
 
 @media (max-width: 1180px) {
   .iso-plaques {

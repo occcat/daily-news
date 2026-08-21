@@ -109,6 +109,10 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
   letter-spacing: 0.42em;
   text-indent: 0.42em;
 }
+
+#skin-newspaper.is-in .wordmark {
+  animation: news-track 480ms ease-out both;
+}
 .wordmark a,
 .wordmark a:visited,
 .wordmark a:hover {
@@ -160,6 +164,12 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
   border: 0;
   border-top: 1px solid var(--rule);
   margin: 0;
+  transform-origin: center;
+}
+
+#skin-newspaper.is-in .masthead + .rule,
+#skin-newspaper.is-in .colophon .rule {
+  animation: rule-draw 520ms ease-out both;
 }
 
 .folio {
@@ -359,12 +369,19 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
   border-bottom: 1px solid var(--rule);
 }
 .item__n {
+  display: inline-block;
   font-family: var(--serif);
   font-size: 20px;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   line-height: 1.4;
   padding-top: 0.05rem;
+  transform-origin: center 70%;
+}
+
+#skin-newspaper.is-in .item__n {
+  animation: num-press 420ms cubic-bezier(0.2, 0.8, 0.25, 1.2) both;
+  animation-delay: calc(var(--i, 0) * 28ms);
 }
 .item__title {
   margin: 0 0 0.35rem;
@@ -421,11 +438,45 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
 
 @keyframes rule-walk {
   from { background-position: 0 100%; }
-  to { background-position: 14px 100%; }
+  to { background-position: 36px 100%; }
+}
+
+@keyframes rule-draw {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@keyframes news-track {
+  from { letter-spacing: 0.52em; }
+  to { letter-spacing: 0.42em; }
+}
+
+@keyframes num-press {
+  from {
+    opacity: 0;
+    transform: scale(1.22);
+  }
+  52% {
+    opacity: 1;
+    transform: scale(0.86);
+  }
+  76% { transform: scale(1.06); }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .item:hover { animation: none; }
+  #skin-newspaper.is-in .wordmark,
+  #skin-newspaper.is-in .rule,
+  #skin-newspaper.is-in .item__n,
+  .item:hover {
+    animation: none;
+    opacity: 1;
+    letter-spacing: 0.42em;
+    transform: none;
+  }
 }
 
 .quotes { margin: 0.15rem 0 0; }

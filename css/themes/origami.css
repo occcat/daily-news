@@ -83,6 +83,7 @@ body {
   --fold-right: 44px;
   background: linear-gradient(180deg, #f7d9cb 0 70%, #efc4b2 70%);
   clip-path: polygon(0 0, calc(100% - 42px) 0, 100% 50%, calc(100% - 42px) 100%, 0 100%);
+  animation: unfold-diamond 560ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 .item:nth-child(5n+2) {
   --self: #c9d6b8;
@@ -90,6 +91,7 @@ body {
   background: linear-gradient(120deg, #c9d6b8 0 78%, #b4c4a0 78%);
   clip-path: polygon(0 0, 100% 0, calc(100% - 36px) 100%, 0 100%);
   transform: rotate(-1.2deg);
+  animation: unfold-slash 560ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 .item:nth-child(5n+3) {
   --self: #f3e7b3;
@@ -97,12 +99,14 @@ body {
   background: linear-gradient(210deg, #f3e7b3 0 72%, #e6d48a 72%);
   clip-path: polygon(18px 0, 100% 0, 100% 100%, 0 100%, 0 18px);
   transform: rotate(1deg) translateX(8%);
+  animation: unfold-dogear 560ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 .item:nth-child(5n+4) {
   --self: #f3d0d6;
   --next: #f3e7b3;
   background: linear-gradient(160deg, #f3d0d6 0 68%, #e8b7c0 68%);
   clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+  animation: unfold-slash 560ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 .item:nth-child(5n) {
   --self: #f7f2e8;
@@ -110,7 +114,11 @@ body {
   --fold-right: 42px;
   background: linear-gradient(180deg, #f7f2e8 0 74%, #e8e0d2 74%);
   clip-path: polygon(0 0, calc(100% - 40px) 0, 100% 50%, calc(100% - 40px) 100%, 0 100%);
+  animation: unfold-diamond 560ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
+
+.item { animation-delay: calc(var(--i, 0) * 55ms); }
+.item.is-landed { animation: none; }
 
 /* Fold flap covers a same-color triangle at rest; hover peels it to the next sheet. */
 .item::before,
@@ -146,7 +154,59 @@ body {
   }
   .item:hover::after,
   .item:focus-within::after {
-    transform: rotate(-22deg) translate(-3px, 4px);
+    transform: rotate(-6deg) translate(-1px, 2px);
+  }
+}
+
+@keyframes unfold-diamond {
+  from {
+    opacity: 0.2;
+    clip-path: polygon(0 0, 10px 0, 10px 50%, 10px 100%, 0 100%);
+  }
+}
+
+@keyframes unfold-slash {
+  from {
+    opacity: 0.2;
+    clip-path: polygon(0 0, 12px 0, 12px 100%, 0 100%);
+  }
+}
+
+@keyframes unfold-dogear {
+  from {
+    opacity: 0.2;
+    clip-path: polygon(18px 0, 28px 0, 28px 100%, 0 100%, 0 18px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .item,
+  .item::before,
+  .item::after {
+    animation: none;
+    transition: none;
+    opacity: 1;
+  }
+  .item:nth-child(5n+1) {
+    clip-path: polygon(0 0, calc(100% - 42px) 0, 100% 50%, calc(100% - 42px) 100%, 0 100%);
+  }
+  .item:nth-child(5n) {
+    clip-path: polygon(0 0, calc(100% - 40px) 0, 100% 50%, calc(100% - 40px) 100%, 0 100%);
+  }
+  .item:nth-child(5n+2) {
+    clip-path: polygon(0 0, 100% 0, calc(100% - 36px) 100%, 0 100%);
+  }
+  .item:nth-child(5n+3) {
+    clip-path: polygon(18px 0, 100% 0, 100% 100%, 0 100%, 0 18px);
+  }
+  .item:nth-child(5n+4) {
+    clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .item:hover::before,
+  .item:focus-within::before { opacity: 1; }
+  .item:hover::after,
+  .item:focus-within::after {
+    transform: rotate(-6deg) translate(-1px, 2px);
   }
 }
 

@@ -130,25 +130,70 @@ body { background: var(--paper); }
   pointer-events: none;
 }
 
-/* Hero: red postmark presses down. Stubs: pinched up. Perforation stays. */
+/* Hero postmark stamps on. Hover: press + 1px misregister. Stubs tear 2px. */
+#skin-v2.is-in .item--lead .item__mark {
+  animation: stamp-on 480ms cubic-bezier(0.18, 0.7, 0.22, 1.15) both;
+}
+
+.item--lead .item__mark.is-landed { animation: none; }
+
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .item--lead .item__mark {
     transition: transform 0.16s cubic-bezier(0.2, 0.7, 0.2, 1);
   }
   .item--lead:hover .item__mark,
   .item--lead:focus-within .item__mark {
-    transform: rotate(10deg) translateY(5px) scale(0.9);
+    transform: rotate(11deg) translate(1px, 3px) scale(0.9);
   }
-  .item:not(.item--lead) {
-    transition: transform 0.22s ease;
+  .item:not(.item--lead) .item__body,
+  .item:not(.item--lead) .item__code {
+    transition: transform 0.2s cubic-bezier(0.2, 0.7, 0.2, 1);
   }
-  .item:not(.item--lead):hover,
-  .item:not(.item--lead):focus-within {
-    transform: translateY(-6px) rotate(-1.5deg);
+  .item:not(.item--lead):hover .item__body,
+  .item:not(.item--lead):focus-within .item__body,
+  .item:not(.item--lead):hover .item__code,
+  .item:not(.item--lead):focus-within .item__code {
+    transform: translateX(2px);
   }
-  .item:nth-child(even):not(.item--lead):hover,
-  .item:nth-child(even):not(.item--lead):focus-within {
-    transform: translateY(-6px) rotate(1.7deg);
+}
+
+@keyframes stamp-on {
+  from {
+    opacity: 0;
+    transform: rotate(22deg) scale(1.55) translateY(-18px);
+  }
+  58% {
+    opacity: 1;
+    transform: rotate(9deg) scale(0.84) translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(12deg) scale(1) translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .item--lead .item__mark,
+  .item:not(.item--lead) .item__body,
+  .item:not(.item--lead) .item__code {
+    animation: none;
+    transition: none;
+    opacity: 1;
+    transform: rotate(12deg);
+  }
+  .item:not(.item--lead) .item__body,
+  .item:not(.item--lead) .item__code {
+    transform: none;
+  }
+  .item--lead:hover .item__mark,
+  .item--lead:focus-within .item__mark {
+    transform: rotate(11deg) translate(1px, 3px) scale(0.9);
+  }
+  .item:not(.item--lead):hover .item__body,
+  .item:not(.item--lead):focus-within .item__body,
+  .item:not(.item--lead):hover .item__code,
+  .item:not(.item--lead):focus-within .item__code {
+    transform: translateX(2px);
   }
 }
 .item--lead .item__mark::before {

@@ -2,9 +2,9 @@
 (function (global) {
   "use strict";
 
-  var ISO_TILT_X = 6;
-  var ISO_TILT_Y = 8;
-  var AGA_PULL = 26;
+  var ISO_TILT_X = 5;
+  var ISO_TILT_Y = 6;
+  var AGA_PULL = 36;
   var TYPE_PAD = 80;
 
   function reducedMotion() {
@@ -24,10 +24,37 @@
     return right;
   }
 
+  function bindPolaroid() {
+    var items = document.querySelectorAll("#skin-v2 .items > .item");
+    if (!items.length) return;
+    document.__polaroidItems = items;
+    if (reducedMotion() || document.__polaroidBound) return;
+    document.__polaroidBound = true;
+
+    document.addEventListener("pointerover", function (ev) {
+      if (!document.__polaroidFeel) return;
+      var item = ev.target.closest && ev.target.closest("#skin-v2 .items > .item");
+      var from = ev.relatedTarget && ev.relatedTarget.closest
+        ? ev.relatedTarget.closest("#skin-v2 .items > .item")
+        : null;
+      if (item === from) return;
+      var list = document.__polaroidItems || [];
+      var i;
+      for (i = 0; i < list.length; i++) {
+        list[i].classList.toggle("is-yield", !!(item && list[i] !== item && (
+          list[i] === item.previousElementSibling ||
+          list[i] === item.nextElementSibling
+        )));
+      }
+    }, true);
+  }
+
   function bindIso() {
     var plaques = document.querySelectorAll(".iso-plaques .item");
     if (!plaques.length || reducedMotion()) return;
     document.__isoPlaques = plaques;
+    document.__isoReady = false;
+    setTimeout(function () { document.__isoReady = true; }, 860);
     if (document.__isoBound) return;
     document.__isoBound = true;
 
@@ -42,7 +69,7 @@
         var item = list[i];
         var stand = item.querySelector(".item__stand");
         if (!stand) continue;
-        if (px == null) {
+        if (px == null || !document.__isoReady) {
           stand.style.transform = "";
           continue;
         }
@@ -219,7 +246,9 @@
     var day = document.querySelector("#skin-v2 .day");
     if (day) day.__agaFeel = theme === "agamemnon";
     document.__isoFeel = theme === "isometric-mini";
-    if (theme === "isometric-mini") bindIso();
+    document.__polaroidFeel = theme === "polaroid";
+    if (theme === "polaroid") bindPolaroid();
+    else if (theme === "isometric-mini") bindIso();
     else if (theme === "agamemnon") bindAga();
   }
 

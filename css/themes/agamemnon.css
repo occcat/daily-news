@@ -106,12 +106,36 @@ body {
 .item__n { display: none; }
 
 .item__title {
+  position: relative;
   font-family: "Noto Serif SC", serif;
   font-size: 22px;
   font-weight: 700;
   color: var(--gold);
   padding-bottom: 0.4rem;
   border-bottom: 1px solid rgba(230, 211, 163, 0.55);
+}
+
+.item__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transform-origin: left center;
+  pointer-events: none;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .item__title::after {
+    transition: transform 240ms cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .item:hover .item__title::after,
+  .item:focus-within .item__title::after {
+    transform: scaleX(1);
+  }
 }
 
 .item__sum,
@@ -252,6 +276,89 @@ body {
 /* Pull-quote used to sit fixed over the body. Quotes now live in the
    offset column next to each Chinese summary, so this overlay goes away. */
 .day-quote { display: none !important; }
+
+#skin-v2.is-in .brand,
+#skin-v2.is-in .day-date,
+#skin-v2.is-in .item__title {
+  animation: gold-stamp 380ms cubic-bezier(0.18, 0.7, 0.22, 1.12) both;
+}
+
+#skin-v2.is-in .item__sum,
+#skin-v2.is-in .quote--zh {
+  animation: gold-stamp 360ms ease-out both;
+  animation-delay: 20ms;
+}
+
+#skin-v2.is-in .quote--en {
+  animation: gold-stamp 360ms ease-out both;
+  animation-delay: 70ms;
+}
+
+#skin-v2.is-in .item::before {
+  animation: red-print 520ms ease-out both;
+  animation-delay: calc(80ms + var(--i, 0) * 24ms);
+}
+
+#skin-v2.is-in .day-figure::before,
+#skin-v2.is-in .day-figure::after,
+#skin-v2.is-in .day::after {
+  animation: cluster-print 640ms ease-out both;
+}
+
+#skin-v2.is-in .day-figure::after { animation-delay: 90ms; }
+#skin-v2.is-in .day::after { animation-delay: 160ms; }
+
+@keyframes gold-stamp {
+  from {
+    opacity: 0;
+    transform: scale(1.16);
+  }
+  58% {
+    opacity: 1;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes red-print {
+  from {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  to {
+    opacity: 0.95;
+    transform: scale(1);
+  }
+}
+
+@keyframes cluster-print {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brand,
+  .day-date,
+  .item__title,
+  .item__sum,
+  .quote--zh,
+  .quote--en,
+  .item::before,
+  .day-figure::before,
+  .day-figure::after,
+  .day::after,
+  .item__title::after {
+    animation: none;
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+  .item__title::after { transform: scaleX(1); }
+  .item::before { opacity: 0.95; }
+}
 
 @media (max-width: 1100px) {
   /* Leftover air only — still 80px after the 640px type column. */

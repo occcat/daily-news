@@ -133,6 +133,23 @@
     return THEMES[name] ? name : "klein-halftone";
   }
 
+  function armIn(el) {
+    if (!el) return;
+    el.classList.remove("is-in");
+    void el.offsetWidth;
+    el.classList.add("is-in");
+  }
+
+  function landMotion(scope) {
+    if (!scope) return;
+    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree").forEach(function (el) {
+      el.addEventListener("animationend", function (ev) {
+        if (ev.target !== el) return;
+        el.classList.add("is-landed");
+      });
+    });
+  }
+
   function ensureStylesheet(id, href) {
     var el = document.getElementById(id);
     if (el) {
@@ -191,14 +208,14 @@
       return;
     }
     var html = '<ol class="items">';
-    items.forEach(function (it) {
+    items.forEach(function (it, idx) {
       var rank = it.rank != null ? it.rank : 0;
       var url = it.article_url || it.hn_url || "";
       var src = it.source || "";
       var site = siteOf(it);
       var sum = (it.summary_zh || "").trim();
       html +=
-        '<li class="item" id="item-' + esc(String(rank)) + '">' +
+        '<li class="item" id="item-' + esc(String(rank)) + '" style="--i:' + idx + '">' +
         '<span class="item__n">' + esc(String(rank)) + ".</span>" +
         '<div class="item__body">' +
         '<h2 class="item__title">' + esc(titleOf(it)) + "</h2>" +
@@ -266,7 +283,7 @@
         var rank = it.rank != null ? it.rank : 0;
         var tag = tagOf(it.source);
         return (
-          "<li><a class=\"digest-row\" href=\"day.html?date=" +
+          "<li><a class=\"digest-row is-in\" href=\"day.html?date=" +
           encodeURIComponent(day.date) +
           "#item-" +
           esc(String(rank)) +
@@ -446,7 +463,7 @@
         ? '<a href="' + esc(url) + '" rel="noopener noreferrer">' + esc(title) + "</a>"
         : esc(title);
       return (
-        '<li class="item" id="item-' + esc(String(rank)) + '">' +
+        '<li class="item" id="item-' + esc(String(rank)) + '" style="--i:' + idx + '">' +
         '<div class="item__visual" aria-hidden="true">' + polaroidVisualHTML(it) + "</div>" +
         '<div class="item__body">' +
         '<h2 class="item__title">' + heading + "</h2>" +
@@ -469,7 +486,7 @@
     var heading = url
       ? '<a href="' + esc(url) + '" rel="noopener noreferrer">' + esc(title) + "</a>"
       : esc(title);
-    var style = "--rot:" + ISO_ROT[idx % ISO_ROT.length];
+    var style = "--rot:" + ISO_ROT[idx % ISO_ROT.length] + ";--i:" + idx;
     return (
       '<li class="item" id="item-' + esc(String(rank)) + '" style="' + style + '">' +
       '<div class="item__stand">' +
@@ -596,7 +613,7 @@
       var visual = (klein || agamemnon) ? "" : (hn ? q.first : "");
       var quotes = (klein || agamemnon) ? q.all : q.rest;
       return (
-        '<li class="' + cls + '" id="item-' + esc(String(rank)) + '">' +
+        '<li class="' + cls + '" id="item-' + esc(String(rank)) + '" style="--i:' + idx + '">' +
         '<span class="item__id">' + esc(serial) + "</span>" +
         '<span class="item__mark" aria-hidden="true"></span>' +
         '<span class="item__n">' + esc(n) + "</span>" +
@@ -658,6 +675,9 @@
     renderFolio(iso);
     document.title = "日刊 · " + fmtDot(iso);
     if (day) renderItems(day);
+    var news = document.getElementById("skin-newspaper");
+    if (news && !news.classList.contains("is-in")) armIn(news);
+    landMotion(document.getElementById("items") || news);
   }
 
   function paintThemed(iso, day) {
@@ -672,6 +692,9 @@
     var theme = applyTheme(day.theme);
     renderThemedHead(iso, day, theme);
     renderThemedItems(day, theme);
+    var v2 = document.getElementById("skin-v2");
+    armIn(v2);
+    landMotion(v2);
     if (theme === "klein-halftone" && window.RikanStipple) {
       window.RikanStipple.bind("halftone", document.getElementById("stipple"));
     }
