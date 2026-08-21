@@ -122,21 +122,22 @@ body {
 
 .quote__author { color: var(--gold); }
 
-/* Right-side silkscreen: one gold halo + one large red robe mass.
-   SVG is an orthogonal coarse dot grid. Do not use repeating-radial-gradient. */
+/* One coarse red robe in the open Klein field RIGHT of the gold date.
+   Never a full-bleed dotted sheet. Never under titles or the quote. */
 .day-figure {
   display: block;
   position: fixed;
-  right: 0;
-  top: 0;
-  width: min(54vw, 720px);
-  height: 100vh;
+  left: max(700px, calc(56px + min(640px, 100vw - 80px) + 36px));
+  top: 7vh;
+  width: min(40vw, 560px);
+  height: min(58vh, 680px);
+  max-width: calc(100vw - 48px - max(700px, calc(56px + min(640px, 100vw - 80px) + 36px)));
   pointer-events: none;
   z-index: 0;
   background-color: transparent;
   background-image: url("agamemnon-figure.svg");
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: left top;
   background-size: contain;
   -webkit-mask-image: none;
   mask-image: none;
@@ -167,10 +168,22 @@ body {
 }
 .day-quote .quote__author { display: none; }
 
+@media (max-width: 1100px) {
+  /* Leftover air only — start after the 640px type column. */
+  .day-figure {
+    left: 720px;
+    right: auto;
+    top: 6vh;
+    width: min(220px, calc(100vw - 736px));
+    max-width: calc(100vw - 736px);
+    height: 40vh;
+  }
+}
+
 @media (max-width: 720px) {
   .day { margin: 0 auto; width: calc(100% - 36px); }
   .item__title { font-size: 18px; }
-  .day-figure { opacity: 0.4; width: 78vw; }
+  .day-figure { display: none; }
   .day-quote {
     position: relative;
     right: auto;
