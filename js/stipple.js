@@ -1,4 +1,4 @@
-/* Code-drawn sand + Klein circular stipple. No sliced background images. */
+/* Code-drawn homepage stipple + Klein circular day-page stipple. No sliced images. */
 (function (global) {
   "use strict";
 
@@ -22,27 +22,41 @@
     return n - Math.floor(n);
   }
 
-  function paintSand(canvas) {
+  /* Homepage only: one light irregular stipple. Edges dense, center sparse.
+     Per-dot alpha 0.08–0.14. Does not change day-page halftone. */
+  function heroDensity(x, y, w, h) {
+    var nx = x / w;
+    var ny = y / h;
+    var edge = Math.min(nx, 1 - nx, ny, 1 - ny);
+    var fromEdge = 1 - Math.min(1, edge * 3.4);
+    var cx = (nx - 0.5) * 2;
+    var cy = (ny - 0.46) * 2;
+    var dist = Math.hypot(cx, cy * 0.88);
+    return Math.min(1, 0.03 + fromEdge * 0.62 + Math.pow(Math.max(0, dist - 0.28), 1.55) * 0.22);
+  }
+
+  function paintHeroStipple(canvas) {
     var g = fit(canvas);
     var ctx = g.ctx;
     var w = g.w;
     var h = g.h;
-    var img = ctx.createImageData(canvas.width, canvas.height);
-    var data = img.data;
-    var dpr = canvas.width / w;
-    var i;
-    for (i = 0; i < data.length; i += 4) {
-      var px = (i / 4) % canvas.width;
-      var py = Math.floor(i / 4 / canvas.width);
-      var n = hash(px * 0.37, py * 0.41);
-      var v = 180 + n * 70;
-      data[i] = v;
-      data[i + 1] = v - 6;
-      data[i + 2] = v - 18;
-      data[i + 3] = 48 + n * 70;
+    ctx.clearRect(0, 0, w, h);
+    var step = 5;
+    var x;
+    var y;
+    for (y = 0; y < h + step; y += step) {
+      for (x = 0; x < w + step; x += step) {
+        var jx = x + (hash(x, y) - 0.5) * step * 1.15;
+        var jy = y + (hash(y + 3.1, x + 1.7) - 0.5) * step * 1.15;
+        if (hash(jx * 2.11, jy * 1.73) > heroDensity(jx, jy, w, h)) continue;
+        var alpha = 0.08 + hash(jy * 0.9, jx * 1.3) * 0.06;
+        ctx.fillStyle = "rgba(246, 240, 228, " + alpha.toFixed(3) + ")";
+        var r = 0.38 + hash(jx, jy) * 0.42;
+        ctx.beginPath();
+        ctx.arc(jx, jy, r, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
-    ctx.putImageData(img, 0, 0);
-    void dpr;
   }
 
   function density(x, y, w, h) {
@@ -85,7 +99,7 @@
 
   function bind(kind, canvas) {
     if (!canvas) return;
-    var paint = kind === "hero" ? paintSand : paintHalftone;
+    var paint = kind === "hero" ? paintHeroStipple : paintHalftone;
     var t = 0;
     function run() {
       paint(canvas);
@@ -98,7 +112,7 @@
   }
 
   global.RikanStipple = {
-    hero: paintSand,
+    hero: paintHeroStipple,
     halftone: paintHalftone,
     bind: bind
   };

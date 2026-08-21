@@ -4,6 +4,7 @@
 
   var MAX_ITEMS = 30;
   var HERO_COUNT = 3;
+  var HOME_LIST_MAX = 5;
   var DEFAULT_DATE = "2026-08-21";
   var THEME_START = "2026-08-22";
   var THEMES = {
@@ -220,8 +221,10 @@
         "#item-" +
         esc(String(rank)) +
         "\">" +
-        '<span class="hero__title">' + esc(titleOf(it)) + "</span>" +
+        '<span class="hero__title">' +
+        esc(titleOf(it)) +
         (tag ? '<span class="tag">' + esc(tag) + "</span>" : "") +
+        "</span>" +
         "</a></li>"
       );
     }).join("");
@@ -230,7 +233,7 @@
   function renderHomeList(day, items) {
     var host = document.getElementById("digest");
     if (!host) return;
-    var rest = items.slice(HERO_COUNT);
+    var rest = items.slice(HERO_COUNT, HERO_COUNT + HOME_LIST_MAX);
     if (!rest.length) {
       host.innerHTML = "";
       return;
@@ -246,8 +249,10 @@
           "#item-" +
           esc(String(rank)) +
           "\">" +
-          '<span class="digest-row__title">' + esc(titleOf(it)) + "</span>" +
-          (tag ? '<span class="tag">' + esc(tag) + "</span>" : "<span></span>") +
+          '<span class="digest-row__title">' +
+          esc(titleOf(it)) +
+          (tag ? '<span class="tag">' + esc(tag) + "</span>" : "") +
+          "</span>" +
           '<span class="digest-row__go" aria-hidden="true">→</span>' +
           "</a></li>"
         );
@@ -255,10 +260,16 @@
       "</ol>";
   }
 
+  function isPublishedEdition(ed) {
+    return !!(ed && ed.date && !ed.stub);
+  }
+
   function renderArchive(editions, today) {
     var host = document.getElementById("editions");
     if (!host) return;
-    var past = editions.filter(function (ed) { return ed.date !== today; });
+    var past = editions.filter(function (ed) {
+      return isPublishedEdition(ed) && ed.date !== today;
+    });
     if (!past.length) {
       host.innerHTML = "";
       return;
@@ -416,7 +427,7 @@
 
   function bootHome() {
     if (window.RikanStipple) {
-      window.RikanStipple.bind("hero", document.getElementById("hero-sand"));
+      window.RikanStipple.bind("hero", document.getElementById("hero-stipple"));
     }
     fetchJSON("editions.json").then(function (editions) {
       if (!Array.isArray(editions) || !editions.length) {

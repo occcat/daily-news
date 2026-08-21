@@ -59,45 +59,28 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
   color: var(--mute);
 }
 
-/* —— Hero: full-bleed Klein poster —— */
+/* —— Hero: hug date + 3 headlines. No 72vh field. —— */
 .hero {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  min-height: min(72vh, 760px);
-  padding: 56px 64px 72px;
+  padding: 48px 64px 44px;
   background: var(--klein);
   color: #fff;
 }
 
-.hero__dots,
-.hero__sand {
+.hero__stipple {
   position: absolute;
   inset: 0;
-  pointer-events: none;
-}
-
-.hero__dots {
   z-index: 0;
-  background-image: radial-gradient(
-    circle,
-    rgba(246, 240, 228, 0.12) 0.7px,
-    transparent 0.85px
-  );
-  background-size: 7px 7px;
-}
-
-.hero__sand {
-  z-index: 1;
   width: 100%;
   height: 100%;
-  opacity: 0.22;
-  mix-blend-mode: overlay;
+  pointer-events: none;
 }
 
 .hero__inner {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .brand {
@@ -111,32 +94,29 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
 }
 
 .hero__date {
-  margin: 0.22em 0 0.18em;
+  margin: 0.18em 0 0.1em;
   font-family: var(--display);
   font-size: clamp(88px, 20vw, 228px);
   font-weight: 800;
   letter-spacing: -0.045em;
   line-height: 0.82;
-  text-align: center;
+  text-align: left;
+  white-space: nowrap;
   color: var(--hero-type);
   font-variant-numeric: tabular-nums;
 }
 
 .hero__heads {
   list-style: none;
-  margin: 2.2rem 0 0;
+  margin: 1.65rem 0 0;
   padding: 0;
-  max-width: 52rem;
 }
 
 .hero__heads a,
 .hero__heads a:visited,
 .hero__heads a:hover {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 1.25rem 2rem;
-  padding: 0.42rem 0;
+  display: block;
+  padding: 0.38rem 0;
   color: #fff;
   text-decoration: none;
 }
@@ -148,14 +128,13 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
   line-height: 1.45;
 }
 
-.hero__heads .tag {
-  flex: 0 0 auto;
+.hero__title .tag {
   font-family: var(--sans);
-  font-size: 11px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 400;
   letter-spacing: 0.04em;
-  color: rgba(255, 255, 255, 0.48);
-  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.55);
+  margin-left: 0.45em;
 }
 
 /* —— Cream list —— */
@@ -173,31 +152,31 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
 .digest-row,
 .digest-row:visited,
 .digest-row:hover {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto auto;
-  gap: 1rem 1.25rem;
-  align-items: center;
-  padding: 1.15rem 0;
-  border-bottom: 1px solid rgba(26, 25, 22, 0.14);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid rgba(26, 25, 22, 0.12);
   color: var(--ink);
   text-decoration: none;
 }
 
-.digest-row:first-child { border-top: 1px solid rgba(26, 25, 22, 0.14); }
-
 .digest-row__title {
+  min-width: 0;
   font-family: var(--sans);
   font-size: 17px;
   font-weight: 400;
   line-height: 1.5;
 }
 
-.digest-row .tag {
+.digest-row__title .tag {
   font-family: var(--sans);
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.04em;
   color: var(--mute);
+  margin-left: 0.4em;
 }
 
 .digest-row__go {
@@ -215,10 +194,12 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
 
 .archive {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem 1.75rem;
-  padding: 48px 0 0;
+  flex-wrap: nowrap;
+  gap: 0 1.65rem;
+  padding: 44px 0 0;
 }
+
+.archive:empty { display: none; }
 
 .archive a,
 .archive a:visited {
@@ -234,11 +215,12 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
 .archive a:hover { color: var(--klein-deep); }
 
 @media (max-width: 720px) {
-  .hero { padding: 36px 22px 48px; min-height: 0; }
-  .sheet { padding: 0 22px 64px; }
-  .hero__date { font-size: clamp(72px, 28vw, 140px); text-align: left; }
-  .hero__heads { margin-top: 1.4rem; }
+  .hero { padding: 32px 22px 36px; }
+  .sheet { padding: 0 22px 56px; }
+  .hero__date { font-size: clamp(72px, 28vw, 140px); }
+  .hero__heads { margin-top: 1.25rem; }
   .hero__title { font-size: 18px; }
-  .digest-row { padding: 1rem 0; }
+  .digest-row { padding: 0.95rem 0; }
   .digest-row__title { font-size: 16px; }
+  .archive { flex-wrap: wrap; gap: 0.7rem 1.25rem; padding-top: 32px; }
 }
