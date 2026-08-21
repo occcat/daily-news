@@ -1,11 +1,10 @@
-/* 2026-08-25 isometric-mini · paper-model tabletop, not a card list. */
+/* 2026-08-25 isometric-mini · paper-model tabletop diorama. */
 :root {
   --paper: #F3EBD8;
   --cream: #F7F1E4;
   --klein: #002FA7;
   --klein-deep: #001A6E;
   --ink: #1A2744;
-  --title: #002FA7;
 }
 
 html,
@@ -23,30 +22,31 @@ body {
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.28;
+  opacity: 0.26;
   mix-blend-mode: multiply;
   background-image: url("../../assets/grain.svg");
   background-size: 260px 260px;
 }
 
 .day {
-  width: min(1280px, calc(100% - 48px));
+  width: min(1280px, calc(100% - 40px));
   display: grid;
-  grid-template-columns: minmax(220px, 250px) minmax(0, 1fr);
-  gap: 0 1.5rem;
-  padding: 36px 0 80px;
+  grid-template-columns: minmax(210px, 246px) minmax(0, 1fr);
+  gap: 0 8px;
+  padding: 32px 0 72px;
   align-items: start;
 }
 
 .day-figure { display: none !important; }
 
-/* —— Left sidebar (fixed info) —— */
+/* —— Left sidebar —— */
 .day-head {
   grid-column: 1;
   position: sticky;
-  top: 28px;
+  top: 24px;
   margin: 0;
-  padding-top: 8px;
+  padding-top: 6px;
+  z-index: 3;
 }
 
 .brand {
@@ -66,10 +66,9 @@ body {
 
 .day-kicker {
   display: block !important;
-  margin: 0.7rem 0 1.5rem;
+  margin: 0.7rem 0 1.45rem;
   font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.02em;
   color: var(--klein);
 }
 
@@ -93,7 +92,6 @@ body {
   color: var(--klein);
   font-size: 12px;
   font-weight: 500;
-  letter-spacing: 0.01em;
 }
 
 .day-count {
@@ -113,24 +111,19 @@ body {
 .day-quote {
   display: block !important;
   position: relative;
-  margin: 2.6rem 0 0;
-  padding: 1.4rem 0 0 0.15rem;
+  margin: 2.4rem 0 0;
+  padding: 1.3rem 0 0;
   color: var(--klein);
-}
-
-.day-quote::before,
-.day-quote::after {
-  font-family: "Noto Serif SC", "Times New Roman", serif;
-  font-size: 72px;
-  line-height: 0.4;
-  color: var(--klein);
-  pointer-events: none;
 }
 
 .day-quote::before {
   content: "“";
   display: block;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.65rem;
+  font-family: "Noto Serif SC", "Times New Roman", serif;
+  font-size: 72px;
+  line-height: 0.4;
+  color: var(--klein);
 }
 
 .day-quote .quote-pair { margin: 0; }
@@ -147,7 +140,6 @@ body {
   margin-top: 0.65rem;
   font-family: "Noto Sans SC", sans-serif;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.6;
   color: var(--klein);
 }
@@ -160,257 +152,226 @@ body {
 
 .iso-deco { display: none !important; }
 
-/* —— Diorama stage —— */
 #main-v2 {
   grid-column: 2;
   position: relative;
-  min-height: 680px;
+  min-height: 640px;
   padding: 0;
   background: transparent;
   box-shadow: none;
   overflow: visible;
 }
 
+/* —— Sand table —— */
 .iso-stage {
   position: relative;
-  min-height: 820px;
-  padding: 40px 8px 80px 20px;
-  perspective: 1600px;
-  perspective-origin: 48% 18%;
+  padding: 8px 0 48px;
 }
 
-.iso-slab {
+.iso-table {
+  position: relative;
+  width: min(760px, 100%);
+  height: 520px;
+  margin: 8px auto 0;
+}
+
+.iso-table__band,
+.iso-table__top {
   position: absolute;
-  left: 8%;
-  top: 4%;
-  width: min(760px, 84%);
-  height: 90%;
-  transform: rotateX(58deg) rotateZ(-38deg);
-  transform-style: preserve-3d;
-  pointer-events: none;
+  left: 50%;
+  width: 720px;
+  height: 400px;
+  margin-left: -360px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.iso-table__band {
+  top: 28px;
+  background: var(--klein);
   z-index: 0;
 }
 
-.iso-slab__top {
-  position: absolute;
-  inset: 0;
+.iso-table__top {
+  top: 0;
+  z-index: 1;
   background-color: var(--cream);
   background-image:
-    linear-gradient(rgba(0, 47, 167, 0.09) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 47, 167, 0.09) 1px, transparent 1px);
-  background-size: 34px 34px;
-  box-shadow:
-    0 0 0 1px rgba(0, 47, 167, 0.06) inset,
-    18px 26px 40px rgba(26, 30, 20, 0.12);
-}
-
-.iso-slab__front,
-.iso-slab__side {
-  position: absolute;
-  background: var(--klein);
-}
-
-.iso-slab__front {
-  left: 0;
-  right: 0;
-  top: 100%;
-  height: 34px;
-  transform: rotateX(-90deg);
-  transform-origin: top center;
-  background: linear-gradient(180deg, #d9d0ba 0 22%, var(--klein) 22%);
-}
-
-.iso-slab__side {
-  top: 0;
-  bottom: 0;
-  left: 100%;
-  width: 34px;
-  transform: rotateY(90deg);
-  transform-origin: left center;
-  background: linear-gradient(90deg, #cfc6b0 0 22%, var(--klein-deep) 22%);
+    repeating-linear-gradient(
+      30deg,
+      transparent 0 17px,
+      rgba(0, 47, 167, 0.1) 17px 18px
+    ),
+    repeating-linear-gradient(
+      -30deg,
+      transparent 0 17px,
+      rgba(0, 47, 167, 0.1) 17px 18px
+    );
+  box-shadow: inset 0 0 0 1px rgba(0, 47, 167, 0.06);
 }
 
 .iso-stairs {
   position: absolute;
-  transform-style: preserve-3d;
+  z-index: 2;
+  pointer-events: none;
 }
 
 .iso-stairs span {
   position: absolute;
   background: var(--cream);
-  box-shadow: 6px 0 0 var(--klein);
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  box-shadow: 0 8px 0 var(--klein);
 }
 
-.iso-stairs--east {
-  right: -8%;
-  top: 42%;
-  width: 90px;
-  height: 130px;
-}
+.iso-stairs--east { right: 4%; top: 42%; width: 120px; height: 140px; }
+.iso-stairs--east span:nth-child(1) { width: 54px; height: 30px; left: 0; top: 0; }
+.iso-stairs--east span:nth-child(2) { width: 54px; height: 30px; left: 22px; top: 28px; }
+.iso-stairs--east span:nth-child(3) { width: 54px; height: 30px; left: 44px; top: 56px; }
+.iso-stairs--east span:nth-child(4) { width: 54px; height: 30px; left: 66px; top: 84px; }
 
-.iso-stairs--east span:nth-child(1) { width: 78px; height: 22px; left: 12px; top: 0; }
-.iso-stairs--east span:nth-child(2) { width: 78px; height: 22px; left: 28px; top: 26px; }
-.iso-stairs--east span:nth-child(3) { width: 78px; height: 22px; left: 44px; top: 52px; }
-.iso-stairs--east span:nth-child(4) { width: 78px; height: 22px; left: 60px; top: 78px; }
+.iso-stairs--south { left: 38%; bottom: -6px; width: 160px; height: 90px; }
+.iso-stairs--south span:nth-child(1) { width: 58px; height: 32px; left: 0; top: 0; }
+.iso-stairs--south span:nth-child(2) { width: 58px; height: 32px; left: 24px; top: 26px; }
+.iso-stairs--south span:nth-child(3) { width: 58px; height: 32px; left: 48px; top: 52px; }
 
-.iso-stairs--south {
-  left: 38%;
-  top: 96%;
-  width: 150px;
-  height: 90px;
-}
-
-.iso-stairs--south span:nth-child(1) { width: 88px; height: 20px; left: 0; top: 0; }
-.iso-stairs--south span:nth-child(2) { width: 88px; height: 20px; left: 16px; top: 24px; }
-.iso-stairs--south span:nth-child(3) { width: 88px; height: 20px; left: 32px; top: 48px; }
-
-/* Paper set dressing — screen-space cutouts sitting on the slab */
 .iso-dressing {
   position: absolute;
   inset: 0;
-  z-index: 1;
+  z-index: 3;
   pointer-events: none;
 }
 
-.iso-tree,
-.iso-bench,
-.iso-post,
-.iso-cube,
-.iso-slogan {
-  position: absolute;
-}
-
-.iso-tree { width: 72px; }
-
+.iso-tree { position: absolute; width: 70px; }
 .iso-tree__canopy {
   display: block;
-  width: 72px;
-  height: 46px;
+  width: 70px;
+  height: 44px;
   background: var(--cream);
   border: 3px solid var(--klein);
   border-radius: 50%;
-  box-shadow: 6px 5px 0 var(--klein);
+  box-shadow: 7px 5px 0 var(--klein);
 }
-
 .iso-tree__trunk {
   display: block;
   width: 8px;
-  height: 22px;
-  margin: -4px auto 0;
+  height: 20px;
+  margin: -2px auto 0;
   background: var(--cream);
   border: 2px solid var(--klein);
   border-top: 0;
 }
-
-.iso-tree--1 { left: 10%; top: 18%; }
-.iso-tree--2 { right: 16%; top: 22%; }
+.iso-tree--1 { left: 16%; top: 18%; }
+.iso-tree--2 { right: 18%; top: 16%; }
 
 .iso-bench {
-  left: 14%;
+  position: absolute;
+  left: 20%;
   top: 58%;
-  width: 58px;
-  height: 28px;
+  width: 56px;
+  height: 22px;
   background: var(--cream);
   border: 2px solid var(--klein);
-  border-radius: 2px 2px 0 0;
-  box-shadow: 5px 4px 0 var(--klein);
+  box-shadow: 6px 5px 0 var(--klein);
 }
-
 .iso-bench::before,
 .iso-bench::after {
   content: "";
   position: absolute;
-  bottom: -10px;
+  bottom: -9px;
   width: 4px;
-  height: 10px;
+  height: 9px;
   background: var(--klein);
 }
-
 .iso-bench::before { left: 8px; }
 .iso-bench::after { right: 8px; }
 
 .iso-post {
+  position: absolute;
   width: 10px;
-  height: 28px;
+  height: 26px;
   background: var(--cream);
   border: 2px solid var(--klein);
-  box-shadow: 3px 3px 0 var(--klein);
+  box-shadow: 4px 3px 0 var(--klein);
 }
-
-.iso-post--1 { left: 28%; top: 70%; }
-.iso-post--2 { left: 32%; top: 73%; }
+.iso-post--1 { left: 30%; top: 66%; }
+.iso-post--2 { left: 34%; top: 70%; }
 
 .iso-cube {
-  right: 22%;
+  position: absolute;
+  right: 24%;
   bottom: 18%;
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   background: var(--cream);
   border: 2px solid var(--klein);
-  box-shadow: 6px 6px 0 var(--klein);
+  box-shadow: 7px 7px 0 var(--klein);
 }
 
 .iso-slogan {
-  right: 8%;
-  bottom: 10%;
-  width: 168px;
-  padding: 0.7rem 0.75rem 0.65rem;
+  position: absolute;
+  right: 10%;
+  bottom: 8%;
+  width: 158px;
+  padding: 0.65rem 0.7rem;
   background: var(--cream);
   color: var(--klein);
   font-size: 13px;
-  font-weight: 600;
-  line-height: 1.45;
-  box-shadow: -10px 0 0 var(--klein), 6px 10px 16px rgba(0, 30, 80, 0.12);
-  transform: rotate(3deg);
+  font-weight: 700;
+  line-height: 1.4;
+  box-shadow: -10px 0 0 var(--klein), 6px 10px 14px rgba(0, 30, 80, 0.12);
+  transform: rotate(4deg);
 }
 
-/* Upright paper plaques on the sand table */
-.items {
-  position: relative;
-  z-index: 2;
-  display: block;
-  min-height: 760px;
+/* Upright tent plaques on the table */
+.iso-plaques {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  inset: 0;
+  z-index: 4;
 }
 
 .item {
   position: absolute;
-  left: var(--x, 20%);
-  top: var(--y, 20%);
-  width: min(292px, 46vw);
+  left: var(--x, 30%);
+  top: var(--y, 30%);
+  width: min(268px, 42vw);
   margin: 0;
   padding: 0;
   background: none;
   border: 0;
   box-shadow: none;
-  transform: rotate(var(--rot, -2deg));
-  filter: drop-shadow(10px 16px 10px rgba(20, 28, 50, 0.16));
+  transform: translate(-50%, -78%) rotate(var(--rot, -2deg));
+  filter: drop-shadow(8px 14px 8px rgba(20, 28, 50, 0.16));
 }
 
 .item__stand {
-  display: flex;
-  align-items: stretch;
+  position: relative;
+  display: block;
 }
 
-.item__edge {
-  flex: 0 0 16px;
-  width: 16px;
+.item__back {
+  position: absolute;
+  inset: 6px -12px -6px 18px;
   background: var(--klein);
-  transform: perspective(180px) rotateY(48deg);
-  transform-origin: right center;
-  margin-right: -1px;
+  transform: skewY(-14deg);
+  z-index: 0;
 }
 
 .item__face {
-  flex: 1;
+  position: relative;
+  z-index: 1;
   background: var(--cream);
-  padding: 0.95rem 1.05rem 0.9rem;
+  padding: 0.9rem 1rem 0.85rem;
+  transform: skewY(-5deg);
+  box-shadow: 0 0 0 1px rgba(0, 47, 167, 0.08);
 }
 
 .item__n {
   display: block;
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.28rem;
   font-family: "Noto Serif SC", "Source Serif 4", serif;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1;
   color: var(--klein);
@@ -421,7 +382,7 @@ body {
 .item__title {
   margin: 0;
   font-family: "Noto Sans SC", "PingFang SC", sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   line-height: 1.35;
   color: var(--klein);
@@ -436,52 +397,102 @@ body {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  margin: 0.5rem 0 0;
+  margin: 0.45rem 0 0;
   font-size: 16px;
-  line-height: 1.55;
+  line-height: 1.5;
   color: #2c3548;
 }
 
 .quotes { display: none; }
 
 .item__meta {
-  margin: 0.65rem 0 0;
+  margin: 0.55rem 0 0;
   font-size: 12px;
   font-weight: 500;
   color: var(--klein);
 }
-.item__meta a,
-.item__meta a:visited { color: var(--klein); word-break: break-all; }
+.item__meta a { color: var(--klein); }
 
 .item__id,
 .item__mark,
 .item__code { display: none; }
 
-@media (max-width: 900px) {
+.item__post {
+  display: block;
+  width: 7px;
+  height: 16px;
+  margin: -2px auto 0;
+  background: var(--klein);
+  position: relative;
+  z-index: 0;
+}
+
+/* Smaller standing signs for the rest — still paper models, not admin cards */
+.iso-yard {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 8px 18px;
+  width: min(760px, 100%);
+  margin: 12px auto 0;
+  padding: 8px 8px 20px;
+}
+
+.item--flag {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 188px;
+  transform: rotate(var(--rot, -2deg));
+  filter: drop-shadow(6px 10px 6px rgba(20, 28, 50, 0.12));
+}
+
+.item--flag .item__back {
+  inset: 4px -8px -4px 12px;
+}
+
+.item--flag .item__face {
+  padding: 0.7rem 0.75rem 0.65rem;
+}
+
+.item--flag .item__n { font-size: 20px; }
+.item--flag .item__title { font-size: 16px; }
+.item--flag .item__sum { display: none; }
+.item--flag .item__meta { font-size: 11px; }
+
+@media (max-width: 920px) {
   .day {
     display: block;
-    width: calc(100% - 28px);
-    padding-top: 20px;
+    width: calc(100% - 24px);
   }
-  .day-head {
-    position: static;
-    margin-bottom: 1.2rem;
-  }
+  .day-head { position: static; margin-bottom: 1rem; }
   .day-date { font-size: 72px; }
-  .iso-stage { padding: 8px 0 48px; min-height: 0; }
-  .iso-slab {
-    width: 120%;
-    height: 560px;
-    left: -8%;
-    top: 2%;
+  .iso-table {
+    width: 100%;
+    height: auto;
+    min-height: 0;
   }
-  .items { min-height: 0; }
+  .iso-table__band,
+  .iso-table__top {
+    position: relative;
+    left: auto;
+    margin-left: 0;
+    width: 100%;
+    height: 220px;
+    clip-path: none;
+  }
+  .iso-table__band { display: none; }
+  .iso-plaques { position: relative; height: auto; }
   .item {
     position: relative;
     left: auto !important;
     top: auto !important;
-    width: 100%;
-    max-width: 420px;
-    margin: 0 auto 1.4rem;
+    width: min(100%, 420px);
+    margin: 0 auto 1.2rem;
+    transform: none;
   }
+  .iso-stairs { display: none; }
 }

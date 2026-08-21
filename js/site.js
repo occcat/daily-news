@@ -409,18 +409,6 @@
     );
   }
 
-  function isoSlabHTML() {
-    return (
-      '<div class="iso-slab" aria-hidden="true">' +
-      '<div class="iso-slab__top"></div>' +
-      '<div class="iso-slab__front"></div>' +
-      '<div class="iso-slab__side"></div>' +
-      '<div class="iso-stairs iso-stairs--east"><span></span><span></span><span></span><span></span></div>' +
-      '<div class="iso-stairs iso-stairs--south"><span></span><span></span><span></span></div>' +
-      "</div>"
-    );
-  }
-
   function restoreItemsHost() {
     var main = document.getElementById("main-v2");
     if (!main) return null;
@@ -470,16 +458,41 @@
   }
 
   var ISO_ROT = ["-2.4deg", "1.6deg", "-1.1deg", "2.2deg", "-3deg", "0.8deg"];
+  var ISO_HERO_POS = [
+    [32, 28],
+    [58, 26],
+    [44, 44],
+    [68, 42],
+    [30, 58],
+    [54, 60]
+  ];
 
-  function isoItemStyle(idx, n) {
-    var cols = 3;
-    var rows = Math.max(1, Math.ceil(n / cols));
-    var col = idx % cols;
-    var row = Math.floor(idx / cols);
-    var x = 4 + col * 31 + (row % 2 ? 4 : 0);
-    var y = 5 + (rows === 1 ? 18 : row * (78 / Math.max(rows - 1, 1))) + (col === 1 ? 2 : 0);
+  function isoPlaqueHTML(it, idx, flag) {
+    var rank = it.rank != null ? it.rank : idx + 1;
+    var url = it.article_url || it.hn_url || "";
+    var src = it.source || "";
+    var sum = (it.summary_zh || "").trim();
+    var n = String(rank).padStart(2, "0");
+    var title = titleOf(it);
+    var heading = url
+      ? '<a href="' + esc(url) + '" rel="noopener noreferrer">' + esc(title) + "</a>"
+      : esc(title);
+    var pos = ISO_HERO_POS[idx] || [50, 40];
+    var style = flag
+      ? "--rot:" + ISO_ROT[idx % ISO_ROT.length]
+      : "--x:" + pos[0] + "%;--y:" + pos[1] + "%;--rot:" + ISO_ROT[idx % ISO_ROT.length];
     return (
-      "--x:" + x + "%;--y:" + y + "%;--rot:" + ISO_ROT[idx % ISO_ROT.length]
+      '<li class="item' + (flag ? " item--flag" : "") + '" id="item-' + esc(String(rank)) + '" style="' + style + '">' +
+      '<div class="item__stand">' +
+      '<span class="item__back" aria-hidden="true"></span>' +
+      '<div class="item__face">' +
+      '<span class="item__n">' + esc(n) + "</span>" +
+      '<h2 class="item__title">' + heading + "</h2>" +
+      (!flag && sum ? '<p class="item__sum">' + esc(sum) + "</p>" : "") +
+      '<p class="item__meta">来源: ' + esc(src) + "</p>" +
+      "</div>" +
+      '<span class="item__post" aria-hidden="true"></span>' +
+      "</div></li>"
     );
   }
 
@@ -488,37 +501,25 @@
     if (!main) return;
     clearThemeChrome();
     var items = (day.items || []).slice(0, MAX_ITEMS);
-    var lis = items.map(function (it, idx) {
-      var rank = it.rank != null ? it.rank : idx + 1;
-      var url = it.article_url || it.hn_url || "";
-      var src = it.source || "";
-      var sum = (it.summary_zh || "").trim();
-      var n = String(rank).padStart(2, "0");
-      var title = titleOf(it);
-      var heading = url
-        ? '<a href="' + esc(url) + '" rel="noopener noreferrer">' + esc(title) + "</a>"
-        : esc(title);
-      return (
-        '<li class="item" id="item-' + esc(String(rank)) + '" style="' + isoItemStyle(idx, items.length) + '">' +
-        '<div class="item__stand">' +
-        '<span class="item__edge" aria-hidden="true"></span>' +
-        '<div class="item__face">' +
-        '<span class="item__n">' + esc(n) + "</span>" +
-        '<h2 class="item__title">' + heading + "</h2>" +
-        (sum ? '<p class="item__sum">' + esc(sum) + "</p>" : "") +
-        '<p class="item__meta">来源: ' + esc(src) + "</p>" +
-        "</div></div></li>"
-      );
-    }).join("");
-    var rows = Math.max(1, Math.ceil(items.length / 3));
-    var stageH = Math.max(840, 200 + rows * 168);
+    var hero = items.slice(0, 6);
+    var rest = items.slice(6);
     main.innerHTML =
-      '<div class="iso-stage" style="min-height:' + stageH + 'px">' +
-      isoSlabHTML() +
+      '<div class="iso-stage">' +
+      '<div class="iso-table">' +
+      '<b class="iso-table__band"></b>' +
+      '<div class="iso-table__top"></div>' +
+      '<div class="iso-stairs iso-stairs--east"><span></span><span></span><span></span><span></span></div>' +
+      '<div class="iso-stairs iso-stairs--south"><span></span><span></span><span></span></div>' +
       isoDressingHTML() +
-      '<ol class="items" id="items-v2" style="min-height:' + (stageH - 48) + 'px;height:' + (stageH - 48) + 'px">' +
-      lis +
+      '<ol class="iso-plaques" id="items-v2">' +
+      hero.map(function (it, idx) { return isoPlaqueHTML(it, idx, false); }).join("") +
       "</ol>" +
+      "</div>" +
+      (rest.length
+        ? '<ol class="iso-yard" id="items-v2-more">' +
+          rest.map(function (it, idx) { return isoPlaqueHTML(it, idx + 6, true); }).join("") +
+          "</ol>"
+        : "") +
       "</div>";
   }
 
