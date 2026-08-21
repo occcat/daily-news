@@ -2,18 +2,13 @@
 (function (global) {
   "use strict";
 
-  var ISO_TILT_X = 7;
-  var ISO_TILT_Y = 9;
-  var AGA_PULL = 28;
-  var AGA_RANGE = 420;
+  var ISO_TILT_X = 6;
+  var ISO_TILT_Y = 8;
+  var AGA_PULL = 26;
   var TYPE_PAD = 80;
 
   function reducedMotion() {
     return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
-  }
-
-  function canHover() {
-    return !window.matchMedia || window.matchMedia("(hover: hover)").matches;
   }
 
   function lerp(a, b, t) {
@@ -31,28 +26,63 @@
 
   function bindIso() {
     var plaques = document.querySelectorAll(".iso-plaques .item");
-    var i;
-    if (reducedMotion() || !canHover()) return;
-    for (i = 0; i < plaques.length; i++) {
-      (function (item) {
+    if (!plaques.length || reducedMotion()) return;
+    document.__isoPlaques = plaques;
+    if (document.__isoBound) return;
+    document.__isoBound = true;
+
+    var aimX = null;
+    var aimY = null;
+    var ticking = false;
+
+    function apply(px, py) {
+      var list = document.__isoPlaques || [];
+      var i;
+      for (i = 0; i < list.length; i++) {
+        var item = list[i];
         var stand = item.querySelector(".item__stand");
-        if (!stand || stand.__rikanFeel) return;
-        stand.__rikanFeel = true;
-        item.addEventListener("pointermove", function (ev) {
-          if (ev.pointerType === "touch") return;
-          var r = item.getBoundingClientRect();
-          if (!r.width || !r.height) return;
-          var px = (ev.clientX - r.left) / r.width - 0.5;
-          var py = (ev.clientY - r.top) / r.height - 0.5;
-          stand.style.transform =
-            "rotateX(" + (-py * ISO_TILT_X * 2).toFixed(2) + "deg) " +
-            "rotateY(" + (px * ISO_TILT_Y * 2).toFixed(2) + "deg)";
-        }, { passive: true });
-        item.addEventListener("pointerleave", function () {
+        if (!stand) continue;
+        if (px == null) {
           stand.style.transform = "";
-        }, { passive: true });
-      })(plaques[i]);
+          continue;
+        }
+        var r = item.getBoundingClientRect();
+        var cx = r.left + r.width / 2;
+        var cy = r.top + r.height / 2;
+        var nx = Math.max(-1, Math.min(1, (px - cx) / 160));
+        var ny = Math.max(-1, Math.min(1, (py - cy) / 160));
+        stand.style.transform =
+          "rotateX(" + (-ny * ISO_TILT_X).toFixed(2) + "deg) " +
+          "rotateY(" + (nx * ISO_TILT_Y).toFixed(2) + "deg)";
+      }
     }
+
+    function frame() {
+      ticking = false;
+      if (!document.__isoFeel) return;
+      apply(aimX, aimY);
+    }
+
+    function kick() {
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(frame);
+      }
+    }
+
+    window.addEventListener("pointermove", function (ev) {
+      if (ev.pointerType === "touch") return;
+      if (!document.querySelector(".iso-plaques")) return;
+      aimX = ev.clientX;
+      aimY = ev.clientY;
+      kick();
+    }, { passive: true });
+
+    document.addEventListener("pointerleave", function () {
+      aimX = null;
+      aimY = null;
+      kick();
+    }, { passive: true });
   }
 
   function clusterBox(kind, figure, day) {
@@ -88,13 +118,12 @@
     var dx = px - cx;
     var dy = py - cy;
     var dist = Math.hypot(dx, dy) || 1;
-    if (dist > AGA_RANGE) return { x: 0, y: 0 };
-    var t = 1 - dist / AGA_RANGE;
-    var mag = AGA_PULL * t * t;
+    var mag = Math.min(AGA_PULL, dist * 0.07);
     var out = { x: (dx / dist) * mag, y: (dy / dist) * mag };
-    var colRight = typeColumnRight();
-    var minLeft = colRight + TYPE_PAD;
-    if (box.left + out.x < minLeft) out.x = Math.max(0, minLeft - box.left);
+    var minLeft = typeColumnRight() + TYPE_PAD;
+    if (box.left + out.x < minLeft) {
+      out.x = Math.max(0, minLeft - box.left);
+    }
     return out;
   }
 
@@ -112,7 +141,7 @@
     var figure = day && day.querySelector(".day-figure");
     if (!day || !figure) return;
     day.__agaFeel = true;
-    if (reducedMotion() || !canHover()) {
+    if (reducedMotion()) {
       setAga(figure, day, { x: 0, y: 0 }, { x: 0, y: 0 }, { x: 0, y: 0 });
       return;
     }
@@ -189,6 +218,7 @@
   function bind(theme) {
     var day = document.querySelector("#skin-v2 .day");
     if (day) day.__agaFeel = theme === "agamemnon";
+    document.__isoFeel = theme === "isometric-mini";
     if (theme === "isometric-mini") bindIso();
     else if (theme === "agamemnon") bindAga();
   }
