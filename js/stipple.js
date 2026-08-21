@@ -2,24 +2,24 @@
 (function (global) {
   "use strict";
 
-  function fit(canvas) {
-    var parent = canvas.parentElement || document.body;
-    var rect = parent.getBoundingClientRect();
-    var dpr = Math.min(window.devicePixelRatio || 1, 2);
-    var w = Math.max(1, Math.floor(rect.width));
-    var h = Math.max(1, Math.floor(rect.height || window.innerHeight));
-    canvas.style.width = w + "px";
-    canvas.style.height = h + "px";
-    canvas.width = Math.floor(w * dpr);
-    canvas.height = Math.floor(h * dpr);
-    var ctx = canvas.getContext("2d", { alpha: true });
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    return { ctx: ctx, w: w, h: h };
-  }
+  var HERO_PAD = 28;
 
   function hash(x, y) {
     var n = Math.sin(x * 127.1 + y * 311.7) * 43758.5453;
     return n - Math.floor(n);
+  }
+
+  function sizeCanvas(canvas, w, h, left, top) {
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.style.width = w + "px";
+    canvas.style.height = h + "px";
+    if (left != null) canvas.style.left = left + "px";
+    if (top != null) canvas.style.top = top + "px";
+    canvas.width = Math.floor(w * dpr);
+    canvas.height = Math.floor(h * dpr);
+    var ctx = canvas.getContext("2d", { alpha: true });
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    return ctx;
   }
 
   /* Homepage only: one light irregular stipple. Edges dense, center sparse.
@@ -36,10 +36,13 @@
   }
 
   function paintHeroStipple(canvas) {
-    var g = fit(canvas);
-    var ctx = g.ctx;
-    var w = g.w;
-    var h = g.h;
+    var parent = canvas.parentElement || document.body;
+    var rect = parent.getBoundingClientRect();
+    var vw = Math.max(1, Math.floor(rect.width));
+    var vh = Math.max(1, Math.floor(rect.height || window.innerHeight));
+    var w = vw + HERO_PAD * 2;
+    var h = vh + HERO_PAD * 2;
+    var ctx = sizeCanvas(canvas, w, h, -HERO_PAD, -HERO_PAD);
     ctx.clearRect(0, 0, w, h);
     var step = 5;
     var x;
@@ -48,7 +51,7 @@
       for (x = 0; x < w + step; x += step) {
         var jx = x + (hash(x, y) - 0.5) * step * 1.15;
         var jy = y + (hash(y + 3.1, x + 1.7) - 0.5) * step * 1.15;
-        if (hash(jx * 2.11, jy * 1.73) > heroDensity(jx, jy, w, h)) continue;
+        if (hash(jx * 2.11, jy * 1.73) > heroDensity(jx - HERO_PAD, jy - HERO_PAD, vw, vh)) continue;
         var alpha = 0.08 + hash(jy * 0.9, jx * 1.3) * 0.06;
         ctx.fillStyle = "rgba(246, 240, 228, " + alpha.toFixed(3) + ")";
         var r = 0.38 + hash(jx, jy) * 0.42;
@@ -59,52 +62,72 @@
     }
   }
 
-  function density(x, y, w, h) {
-    var nx = x / w;
-    var ny = y / h;
-    var tr = Math.hypot(1 - nx, ny);
-    var bl = Math.hypot(nx, 1 - ny);
-    var tl = Math.hypot(nx, ny);
-    var br = Math.hypot(1 - nx, 1 - ny);
-    var corner = Math.min(tr * 0.92, bl * 0.95, tl * 1.35, br * 1.4);
-    var boost = Math.pow(Math.max(0, 1 - corner * 1.28), 2.3);
-    var cx = Math.abs(nx - 0.5) * 2;
-    var cy = Math.abs(ny - 0.42) * 2;
-    var body = 0.018 + 0.07 * Math.pow(Math.max(cx, cy * 0.6), 1.8);
-    return Math.min(1, body + boost * 0.9);
-  }
-
+  /* 8.22 klein-halftone: a few circular sand clouds, not a full-page grid.
+     Top-right, mid-right edge, bottom-left. Text column almost empty. */
   function paintHalftone(canvas) {
-    var g = fit(canvas);
-    var ctx = g.ctx;
-    var w = g.w;
-    var h = g.h;
+    var w = Math.max(1, Math.floor(window.innerWidth));
+    var h = Math.max(1, Math.floor(window.innerHeight));
+    var ctx = sizeCanvas(canvas, w, h, 0, 0);
     ctx.clearRect(0, 0, w, h);
     ctx.fillStyle = "#002FA7";
-    var step = 7;
-    var x;
-    var y;
-    for (y = 1; y < h; y += step) {
-      for (x = 1; x < w; x += step) {
-        var jx = x + (hash(x, y) - 0.5) * 2.2;
-        var jy = y + (hash(y, x) - 0.5) * 2.2;
-        if (hash(jx * 1.7, jy * 2.1) > density(jx, jy, w, h)) continue;
-        var r = 0.7 + hash(jy, jx) * 0.85;
-        ctx.beginPath();
-        ctx.arc(jx, jy, r, 0, Math.PI * 2);
-        ctx.fill();
+
+    var span = Math.min(w, h);
+    var clouds = [
+      { x: w * 0.96, y: h * 0.02, r: span * 0.42, dens: 0.94 },
+      { x: w * 1.02, y: h * 0.50, r: span * 0.17, dens: 0.82 },
+      { x: w * -0.02, y: h * 1.02, r: span * 0.26, dens: 0.86 }
+    ];
+
+    var colW = Math.min(840, Math.max(0, w - 96));
+    var colL = (w - colW) / 2;
+    var colR = colL + colW;
+    var step = 8;
+    var c;
+    var i;
+
+    for (i = 0; i < clouds.length; i++) {
+      c = clouds[i];
+      var x0 = Math.max(0, c.x - c.r);
+      var y0 = Math.max(0, c.y - c.r);
+      var x1 = Math.min(w, c.x + c.r);
+      var y1 = Math.min(h, c.y + c.r);
+      var y;
+      var x;
+      for (y = y0; y < y1; y += step) {
+        for (x = x0; x < x1; x += step) {
+          var jx = x + (hash(x, y) - 0.5) * step * 0.95;
+          var jy = y + (hash(y + 2.4, x + 5.1) - 0.5) * step * 0.95;
+          var d = Math.hypot(jx - c.x, jy - c.y) / c.r;
+          if (d >= 1) continue;
+          var fall = Math.pow(1 - d, 1.25);
+          var irregular = 0.68 + hash(jx * 0.06, jy * 0.08) * 0.32;
+          var colGate = 1;
+          if (jx > colL + 36 && jx < colR - 36) colGate = 0.045;
+          if (hash(jx * 1.9, jy * 2.3) > fall * c.dens * irregular * colGate) continue;
+          ctx.globalAlpha = 0.42 + fall * 0.5;
+          var r = 0.95 + hash(jy, jx) * 1.35;
+          ctx.beginPath();
+          ctx.arc(jx, jy, r, 0, Math.PI * 2);
+          ctx.fill();
+        }
       }
     }
+    ctx.globalAlpha = 1;
   }
 
   function bind(kind, canvas) {
     if (!canvas) return;
     var paint = kind === "hero" ? paintHeroStipple : paintHalftone;
-    var t = 0;
     function run() {
       paint(canvas);
     }
+    if (canvas.__rikanBound === kind) {
+      run();
+      return;
+    }
+    canvas.__rikanBound = kind;
     run();
+    var t = 0;
     window.addEventListener("resize", function () {
       clearTimeout(t);
       t = setTimeout(run, 80);

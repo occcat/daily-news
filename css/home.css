@@ -76,6 +76,7 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
   width: 100%;
   height: 100%;
   pointer-events: none;
+  animation: stipple-drift 120s linear infinite alternate;
 }
 
 .hero__inner {
@@ -106,11 +107,22 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
   font-variant-numeric: tabular-nums;
 }
 
+.hero__date.is-in {
+  animation: lift-in 150ms ease-out both;
+}
+
 .hero__heads {
   list-style: none;
   margin: 1.65rem 0 0;
   padding: 0;
 }
+
+.hero__heads.is-in li {
+  animation: headline-in 160ms ease-out both;
+}
+.hero__heads.is-in li:nth-child(1) { animation-delay: 60ms; }
+.hero__heads.is-in li:nth-child(2) { animation-delay: 110ms; }
+.hero__heads.is-in li:nth-child(3) { animation-delay: 160ms; }
 
 .hero__heads a,
 .hero__heads a:visited,
@@ -213,6 +225,43 @@ a:focus-visible { outline: 1px solid var(--klein); outline-offset: 3px; }
 }
 
 .archive a:hover { color: var(--klein-deep); }
+
+@keyframes lift-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes headline-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes stipple-drift {
+  from { transform: translate3d(-8px, -5px, 0); }
+  to { transform: translate3d(8px, 6px, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__date.is-in,
+  .hero__heads.is-in li,
+  .hero__stipple {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
 
 @media (max-width: 720px) {
   .hero { padding: 32px 22px 36px; }

@@ -1,4 +1,4 @@
-/* Day skin: klein-halftone. Cream paper + code-drawn Klein stipple. */
+/* Day skin: klein-halftone. Cream paper + code-drawn Klein stipple clouds. */
 :root {
   --paper: #F6F0E4;
   --klein: #002FA7;
@@ -10,43 +10,41 @@ body {
   background: var(--paper);
 }
 
+/* Fine-grid overlay is wrong for 8.22. Clouds are canvas-drawn. */
 .stipple-css {
-  display: block;
-  background-image: radial-gradient(circle, #002fa7 0.72px, transparent 0.88px);
-  background-size: 6.5px 6.5px;
-  opacity: 0.55;
-  mix-blend-mode: multiply;
-  -webkit-mask-image:
-    radial-gradient(ellipse 62% 54% at 100% 0%, #000 0%, transparent 70%),
-    radial-gradient(ellipse 58% 50% at 0% 100%, #000 0%, transparent 72%),
-    radial-gradient(ellipse 28% 24% at 0% 0%, #000 0%, transparent 68%),
-    radial-gradient(ellipse 24% 22% at 100% 100%, #000 0%, transparent 70%);
-  mask-image:
-    radial-gradient(ellipse 62% 54% at 100% 0%, #000 0%, transparent 70%),
-    radial-gradient(ellipse 58% 50% at 0% 100%, #000 0%, transparent 72%),
-    radial-gradient(ellipse 28% 24% at 0% 0%, #000 0%, transparent 68%),
-    radial-gradient(ellipse 24% 22% at 100% 100%, #000 0%, transparent 70%);
-  -webkit-mask-composite: source-over;
-  mask-composite: add;
+  display: none !important;
 }
 
 .stipple-canvas {
-  display: block;
+  display: block !important;
   mix-blend-mode: multiply;
-  opacity: 0.85;
+  opacity: 0.92;
+}
+
+.brand {
+  margin: 0 0 0.18rem;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: var(--ink);
 }
 
 .brand a,
 .brand a:visited,
+.brand a:hover {
+  color: var(--ink);
+}
+
 .day-full {
   color: var(--klein);
 }
 
+/* Solid Klein, with a coarse two-tone stipple that stays opaque. */
 .day-date {
-  color: transparent;
-  background-color: var(--klein);
-  background-image: radial-gradient(circle, #002fa7 1.05px, transparent 1.2px);
-  background-size: 4.2px 4.2px;
+  color: var(--klein);
+  background-color: #002FA7;
+  background-image: radial-gradient(circle, #001A66 2.5px, #002FA7 2.6px);
+  background-size: 6.5px 6.5px;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -60,11 +58,12 @@ body {
   }
 }
 
-.item { margin-bottom: 3.2rem; }
-
-.item__n {
-  font-family: "Source Serif 4", Georgia, serif;
-  color: var(--klein);
+.day-stub {
+  margin: 0.4rem 0 0;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: rgba(26, 25, 22, 0.34);
 }
 
 .item__title { color: var(--ink); }
@@ -75,11 +74,112 @@ body {
 
 .quote-pair {
   padding: 0.15rem 0 0.15rem 1rem;
-  border-left: 4px solid #002fa7;
+  border-left: 2px solid #002fa7;
+}
+
+.quote--en {
+  font-family: var(--sans);
+  font-style: italic;
 }
 
 .item__meta,
 .item__meta a,
 .item__meta a:visited {
   color: #002fa7;
+}
+
+/* First 3: poster headlines. Remaining: compact reports. */
+.item--poster {
+  margin: 0 0 5.2rem;
+}
+
+.item--poster .item__n {
+  margin: 0 0 0.55rem;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: clamp(36px, 4.4vw, 48px);
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1;
+}
+
+.item--poster .item__title {
+  margin: 0 0 0.9rem;
+  font-size: clamp(26px, 3.1vw, 36px);
+  font-weight: 700;
+  line-height: 1.28;
+}
+
+.item--poster .item__sum {
+  margin: 0 0 0.2rem;
+  font-size: 16px;
+  line-height: 1.75;
+  max-width: 38em;
+}
+
+.item--poster .quotes {
+  margin-top: 1.15rem;
+}
+
+.item--poster .quote--en {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.item--poster .quote--zh {
+  font-size: 16px;
+}
+
+.item--poster .item__meta {
+  margin-top: 1.15rem;
+}
+
+.item--compact {
+  margin: 0 0 1.85rem;
+}
+
+.item--compact .item__n {
+  margin: 0 0 0.18rem;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1;
+}
+
+.item--compact .item__title {
+  margin: 0 0 0.35rem;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.item--compact .item__sum {
+  margin: 0 0 0.15rem;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.item--compact .quotes {
+  margin-top: 0.55rem;
+}
+
+.item--compact .quote--en,
+.item--compact .quote--zh {
+  font-size: 14px;
+}
+
+.item--compact .quote-pair {
+  padding-left: 0.7rem;
+  border-left-width: 2px;
+}
+
+.item--compact .item__meta {
+  margin-top: 0.5rem;
+  font-size: 12px;
+}
+
+@media (max-width: 720px) {
+  .item--poster { margin-bottom: 3.6rem; }
+  .item--poster .item__title { font-size: 24px; }
+  .item--compact .item__title { font-size: 16px; }
 }

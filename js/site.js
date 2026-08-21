@@ -210,7 +210,10 @@
   function renderHeroHeads(day, items) {
     var host = document.getElementById("hero-heads");
     var dateEl = document.getElementById("hero-date");
-    if (dateEl) dateEl.textContent = fmtMD(day.date);
+    if (dateEl) {
+      dateEl.textContent = fmtMD(day.date);
+      dateEl.classList.add("is-in");
+    }
     if (!host) return;
     host.innerHTML = items.slice(0, HERO_COUNT).map(function (it) {
       var rank = it.rank != null ? it.rank : 0;
@@ -228,6 +231,7 @@
         "</a></li>"
       );
     }).join("");
+    host.classList.add("is-in");
   }
 
   function renderHomeList(day, items) {
@@ -381,7 +385,7 @@
     document.title = "日刊 · " + fmtDot(iso);
   }
 
-  function renderThemedItems(day) {
+  function renderThemedItems(day, theme) {
     var host = document.getElementById("items-v2");
     if (!host) return;
     var items = (day.items || []).slice(0, MAX_ITEMS);
@@ -389,6 +393,7 @@
       host.innerHTML = '<p class="empty">本日暂无条目</p>';
       return;
     }
+    var klein = resolveTheme(theme) === "klein-halftone";
     host.innerHTML = items.map(function (it, idx) {
       var rank = it.rank != null ? it.rank : idx + 1;
       var url = it.article_url || it.hn_url || "";
@@ -398,19 +403,24 @@
       var q = quotesV2(it);
       var n = String(rank).padStart(2, "0") + ".";
       var serial = fmtMD(day.date) + "-" + String(rank).padStart(2, "0");
-      var cls = "item" + (idx === 0 ? " item--lead" : "") + (hn ? " item--hn" : " item--nm");
+      var cls = "item" +
+        (idx === 0 ? " item--lead" : "") +
+        (idx < 3 ? " item--poster" : " item--compact") +
+        (hn ? " item--hn" : " item--nm");
+      var visual = klein ? "" : (hn ? q.first : "");
+      var quotes = klein ? q.all : q.rest;
       return (
         '<li class="' + cls + '" id="item-' + esc(String(rank)) + '">' +
         '<span class="item__id">' + esc(serial) + "</span>" +
         '<span class="item__mark" aria-hidden="true"></span>' +
         '<span class="item__n">' + esc(n) + "</span>" +
-        '<div class="item__visual" aria-hidden="' + (hn && q.first ? "false" : "true") + '">' +
-        (hn ? q.first : "") +
+        '<div class="item__visual" aria-hidden="' + (visual ? "false" : "true") + '">' +
+        visual +
         "</div>" +
         '<div class="item__body">' +
         '<h2 class="item__title">' + esc(titleOf(it)) + "</h2>" +
         (sum ? '<p class="item__sum">' + esc(sum) + "</p>" : "") +
-        q.rest +
+        quotes +
         '<p class="item__meta">来源: ' + esc(src) +
         (url
           ? "<br>链接: <a href=\"" + esc(url) + "\" rel=\"noopener noreferrer\">" +
@@ -475,7 +485,7 @@
     }
     var theme = applyTheme(day.theme);
     renderThemedHead(iso, day, theme);
-    renderThemedItems(day);
+    renderThemedItems(day, theme);
     if (theme === "klein-halftone" && window.RikanStipple) {
       window.RikanStipple.bind("halftone", document.getElementById("stipple"));
     }
