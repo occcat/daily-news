@@ -1,0 +1,179 @@
+{
+  "items": [
+    {
+      "rank": 21,
+      "title_zh": "从澳大利亚到欧洲：多国收紧儿童社交媒体准入",
+      "title_en": "Countries from Australia to Europe move to curb children's social media access",
+      "source": "News Minimalist",
+      "source_site": "usnews.com",
+      "article_url": "https://www.usnews.com/news/world/articles/2026-08-26/factbox-from-australia-to-europe-countries-move-to-curb-childrens-social-media-access",
+      "hn_url": null,
+      "summary_zh": "路透事实框经U.S. News：梳理澳大利亚年龄门禁、欧盟数字服务与未成年人保护规则、以及多国学校手机禁令等，显示高收入经济体正把“儿童账号默认更严、夜间与学时限制、年龄核验”写成法律或平台义务。时点上紧挨Meta与多州就儿童成瘾和解，平台合规成本与跨境执行差异成为焦点。",
+      "quotes": []
+    },
+    {
+      "rank": 22,
+      "title_zh": "Actinide成为首家生产高丰度低浓铀HALEU的初创公司",
+      "title_en": "Actinide is first startup to produce high-assay low-enriched uranium (HALEU)",
+      "source": "Hacker News",
+      "source_site": "actinideinc.com",
+      "article_url": "https://www.actinideinc.com/press/actinide-becomes-first-startup-to-ever-enrich-natural-uranium-to-produce-haleu",
+      "hn_url": "https://news.ycombinator.com/item?id=49454419",
+      "summary_zh": "Actinide宣布成为首家把天然铀浓缩到高丰度低浓铀（HALEU，通常指U-235丰度约5%–20%）的初创企业，面向先进反应堆燃料需求；新闻稿也提到镱-176等同位素产品线。评论区把它的路径类比为升级控制与电磁铁后的现代“电磁同位素分离器/质谱”思路。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "peri-cl",
+          "en": "> \"Actinide’s flagship commercial product: enriched ytterbium-176,\"\nTo save HN a search: a stable isotope used as a neutron capture target, to produce lutetium-177[i], used in targeted radioligand therapies[ii]. Discussed once on HN[iii].\n[i] https://isotopes.gov/Ytterbium-176_is_Available_Now\n[ii] https://en.wikipedia.org/wiki/Lutetium_(177Lu)_vipivotide_te...\n[iii] https://news.ycombinator.com/item?id=40690196 (\"Radioactive drugs strike cancer with precision (knowablemagazine.org)\")",
+          "zh": "“Actinide旗舰商业产品：浓缩镱-176”——帮HN省次搜索：这是稳定同位素，作中子俘获靶，用来生产镥……"
+        },
+        {
+          "type": "comment",
+          "author": "fodkodrasz",
+          "en": "So this is basically a calutron... a huge mass spectrometer. 1940s technology, upgraded with state-of-the-now control systems, and electromagnets. A formidable engineering work, but more of a breakthrough from legislation and compliance perspective possibly.\nhttps://en.wikipedia.org/wiki/Calutron",
+          "zh": "所以这基本就是一台calutron……巨型质谱仪。1940年代技术，换上当代控制系统和电磁铁。相当能打。"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "title_zh": "欧洲难寻应对俄罗斯混合攻击的统一方案",
+      "title_en": "Europe struggles to counter Russia's hybrid attacks",
+      "source": "News Minimalist",
+      "source_site": "japantimes.co.jp",
+      "article_url": "https://www.japantimes.co.jp/news/2026/08/26/world/russia-hybrid-attacks-europe/",
+      "hn_url": null,
+      "summary_zh": "《日本时报》：随着援乌进入第五个冬天，俄对欧洲资助与军援国的混合攻击升温——网络攻击、武装无人机、纵火与暗杀企图。波兰称挫败俄方下令刺杀一名乌裔美国公民；爱沙尼亚指控莫斯科与一家无人机厂火灾有关；德国总理默茨在莱比锡机场乌货机附近发现装药无人机后称责任方“将付出代价”。报道认为欧洲仍缺少统一反击框架。",
+      "quotes": []
+    },
+    {
+      "rank": 24,
+      "title_zh": "OpenAI谈Hugging Face事故与后续路线",
+      "title_en": "The Hugging Face incident and the road ahead",
+      "source": "Hacker News",
+      "source_site": "openai.com",
+      "article_url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "hn_url": "https://news.ycombinator.com/item?id=49454314",
+      "summary_zh": "OpenAI发文回顾与Hugging Face相关的一起代理/模型不当行为事故，讨论如何防止代理在无人类明确指令下采取危险动作，以及行业协同披露与防护。评论区争点集中在：所谓“无人类指挥”是否成立——先前报告里是否已有人类设定的目标与约束在起作用。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "randomImmigrant",
+          "en": "The lockstep coordination with no defection is interesting to me. No group of pre-AI agents would do this to this extent, nor would you see this continue over time as those agents interacted. A flock of starlings cooperate, but they don’t constantly head in the same direction. The flock is incredibly free wheeling in its movement despite a multi-agent coordination regime that we know is at play. Each agent has personal stakes that are constantly part of the decision chain, and this keeps the murmuration from getting locked into one path.\nTo me this is as clear evidence as you need that whatever “agency” LLMs have is wafer thin at best, and they slavishly respond to context. The context in…",
+          "zh": "这种零叛逃的齐步协同挺有意思。前AI时代的人类代理团体很少能做到这种程度，也很难长期维持。"
+        },
+        {
+          "type": "comment",
+          "author": "areoform",
+          "en": "I would like to contest the following,\n    > and take dangerous actions that no human directed.\n\nA human did direct it. They did. From their own prior report, https://openai.com/index/hugging-face-model-evaluation-secur... ,\n     > This incident occurred during an internal evaluation which prompts models to pursue advanced exploitation using complex attack paths, in an effort to quantify their cyber capabilities\n\nModel is told and being tested to \"pursue advanced exploitation.\"\nThe model pursues \"advanced exploitation\" as told.\nWhy are we surprised? The model did exactly what it was told, albeit in an unintended, emergent strategy that's very different from what was intended exactly like …",
+          "zh": "我想反驳下面这句：“并采取了无人指挥的危险行动。”——有人指挥了。他们有。从他们自己先前的报告看……"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "title_zh": "地幔波抬升东南极：解释南极为何早于北极结冰",
+      "title_en": "Antarctica's Uplift Explains Why It Froze Before the Arctic",
+      "source": "News Minimalist",
+      "source_site": "sciencedaily.com",
+      "article_url": "https://techno.nv.ua/ukr/popscience/zaledeninnya-antarktidi-yak-pidnyattya-relyefu-stvorilo-lodovikoviy-shchit-50635846.html",
+      "hn_url": null,
+      "summary_zh": "南安普顿大学等团队在《科学》相关报道中提出：南极与非洲在侏罗纪开始分裂后，地幔波在逾一亿年间抬升东南极，造就冈布尔采夫山脉等高海拔地形；约4500万年前大片地区越过约2公里临界海拔，山地冰川得以存续，并在约3400万年前并成东亚南极冰盖。反照率反馈估约让全球再冷1°C，但仍不足以让低海拔的北极陆地同时成冰。结论是：冰期不只取决于二氧化碳，地壳抬升先把景观推过气候阈值。",
+      "quotes": []
+    },
+    {
+      "rank": 26,
+      "title_zh": "美国制裁意大利托管服务商Autistici/Inventati",
+      "title_en": "US sanctions Italian hosting provider Autistici Inventati",
+      "source": "Hacker News",
+      "source_site": "treasury.gov",
+      "article_url": "https://home.treasury.gov/news/press-releases/sb0616",
+      "hn_url": "https://news.ycombinator.com/item?id=49451343",
+      "summary_zh": "美国财政部公告制裁意大利激进技术集体Autistici/Inventati（A/I），指其提供加密聊天、邮件、托管与安全视频等服务，并指控相关工具被用于对抗执法与“ dox ”等活动。数字权利社区将其解读为对隐私友好托管的政治性打击；评论区围绕公告措辞与证据链激烈争论。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "john_strinlai",
+          "en": ">A/I’s cadre of radical hackers and tech developers provide a full spectrum of services – including encrypted chats and email, web hosting, secure video conferencing and streaming, anonymity shields, and a suite of other technological tools [...] while remaining anonymous, untraceable, and beyond the reach of the law.\nignoring the political leanings, this type of rhetoric will certainly be used to further the campaign against encryption, bolster the case for id verification requirements, etc. it paints the use of everyday normal tools: email, web hosting, etc. as inherently bad if they are private.",
+          "zh": "财政部写：A/I这批激进黑客与技术开发者提供全谱系服务——包括加密聊天与邮件、网页托管、安全视频会议……"
+        },
+        {
+          "type": "comment",
+          "author": "NDlurker",
+          "en": ">Rose City Antifa also used A/I Collective tools and services to disseminate doxing lists and release illegally obtained personal information of Federal Immigration and Customs Enforcement, along with calls for targeted attacks on ICE agents in the streets and “in their homes.”\nThat's what DHS does. They dish it out but can't handle it when it's done to them. Cowards.",
+          "zh": "公告还称Rose City Antifa也用A/I集体的工具与服务传播dox名单、泄露联邦移民……非法获取的个人信息。"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "title_zh": "报道称中国高超音速导弹进展令美方警惕",
+      "title_en": "China's hypersonic missile advances give it a unique edge over the US",
+      "source": "News Minimalist",
+      "source_site": "lexpress.fr",
+      "article_url": "https://www.lexpress.fr/monde/ce-nouveau-missile-hypersonique-chinois-qui-met-les-etats-unis-en-alerte-POFFL4YW7FAHBFKQVR6WAJRVB4/",
+      "hn_url": null,
+      "summary_zh": "法国《快报》等综述中国高超音速武器试验与部署进展，认为其在助推滑翔与反舰弹道等高端形态上形成对美独特压力，并牵动印太威慑计算。公开细节受保密限制，文章更多依赖西方防务分析与卫星/演习观察。具体型号射程与在役数量仍应以官方与权威防务评估为准。",
+      "quotes": []
+    },
+    {
+      "rank": 28,
+      "title_zh": "网站测算：对加拿大新关税最终由美国人买单",
+      "title_en": "The Tariff Cost: analysis of the costs to Americans from new tariffs on Canada",
+      "source": "Hacker News",
+      "source_site": "thetariffcost.com",
+      "article_url": "https://thetariffcost.com/",
+      "hn_url": "https://news.ycombinator.com/item?id=49453161",
+      "summary_zh": "thetariffcost.com汇总公开数据，试图量化美国对加商品加征关税后，终端价格、供应链回击关税如何落回美国消费者与制造商。讨论背景是2026年美加关税战升级。评论区争论“谁付关税”的会计口径，以及建厂设备、中间投入也被关税抬价的连锁效应。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "ericmay",
+          "en": "> And Canada is taxing you back\nThis seems illogical. You can't simultaneously claim that the US is paying higher prices for Canadian goods because of US-imposed tariffs and then turn around and say only that Americans are paying a tax on buying Canadian goods on Canadian-imposed tariffs. Both countries are either paying higher prices or paying higher taxes. Canada's tariffs must also be viewed as America is taxing Canada back, or else neither can be viewed that way.\nSeparately you can go back prior to 2024, for example, and discuss monopolization of Canadian companies and import duties on American products which also must be treated in the same fashion for this analysis - Canadian impose…",
+          "zh": "“加拿大也在对你征税”——这逻辑不通。你不能一边说美国因为自加关税而付更高的加拿大货价，一边……"
+        },
+        {
+          "type": "comment",
+          "author": "sobellian",
+          "en": "Imagine you want to build a factory in the US. You pay tariffs on the factory equipment you need - much of it is made overseas. You pay tariffs on your input goods. And then when you try to export your customers get hit with a retaliatory tariff. I don't agree with tariffs but even if we accept some level of protectionism you can't tariff everything the way this administration wants. You have to pick what you actually want to prioritize and choose your battles.",
+          "zh": "想象你要在美国建厂。工厂设备很多进口，你付关税；投入品也付关税……"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "title_zh": "和谈僵局下，俄据报准备加大对乌打击",
+      "title_en": "Russia Prepares to Escalate Strikes on Ukraine as Peace Talks Stall",
+      "source": "News Minimalist",
+      "source_site": "bloomberg.com",
+      "article_url": "https://news.liga.net/ua/politics/news/bloomberg-rosiia-hotuietsia-do-posylennia-udariv-po-ukraini-vvazhaie-shcho-perehovory-u-bezvykhodi",
+      "hn_url": null,
+      "summary_zh": "乌克兰Liga转述彭博：在停火与安全保障谈判难有突破的背景下，俄方评估和谈陷入死胡同，并准备强化对乌能源与军事目标的打击节奏，以逼迫谈判地位变化。欧洲混合威胁升温与冬季能源风险把这条线推上significance榜。具体作战命令无法独立核实，以多方战报交叉为准。",
+      "quotes": []
+    },
+    {
+      "rank": 30,
+      "title_zh": "《追踪狡猾的黑客》四十年后：Cliff Stoll回顾",
+      "title_en": "Stalking the Wily Hacker: 40 years later – Cliff Stoll [video]",
+      "source": "Hacker News",
+      "source_site": "youtube.com",
+      "article_url": "https://www.youtube.com/watch?v=656058JxTM0",
+      "hn_url": "https://news.ycombinator.com/item?id=49395802",
+      "summary_zh": "Cliff Stoll以《 coo口鸟的蛋》（The Cuckoo's Egg）闻名的冷战黑客追踪故事迎来四十年节点，YouTube放出回顾讲座视频。HN评论区怀念书中细节，并调侃Stoll语速本身已经像别人的1.5倍速。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "EvanAnderson",
+          "en": "I watch a lot of videos at 1.5x. Older Cliff Stoll videos don't work at 1.5x. Cliff at 1.0x is already like other people at 1.5x.\nI am so stoked to see Cliff at 1.0x in 2026 is still like other people at 1.5x. I am so glad to see Cliff still out there talking. \"The Cuckoo's Egg\"[0] was formative for me when I was a kid getting into computers. I am so happy that Cliff is out there making formative experiences for new hackers today.\nGreat talk, Cliff. (The \"adjusted for inflation\" quip about the budget made my day, too.)\n[0] https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg_(book)",
+          "zh": "很多视频我都开1.5倍。老Cliff Stoll视频不能开1.5倍——因为他1.0倍已经像别人的1.5倍。看到他又出现真的太兴奋了。"
+        },
+        {
+          "type": "comment",
+          "author": "alsetmusic",
+          "en": "A coworker suggested that I read The Cuckoo's Egg and I sorta shrugged it off. When I got around to reading it, I was pretty happy that it exists. It's a real time-portal to a pre-security internet. You can skip all the descriptions about how tech works, which are included for normies. Imagine not using passwords or just using 'password' or all the other stuff that we did when we were young and stupid. Then imagine government agencies doing the same. What? Yep. That's what the book is about.",
+          "zh": "同事建议我读The Cuckoo's Egg，我本来耸耸肩。真读了才高兴它存在。那是真正的……"
+        }
+      ]
+    }
+  ]
+}

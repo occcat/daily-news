@@ -1,0 +1,207 @@
+{
+  "items": [
+    {
+      "rank": 1,
+      "title_zh": "FDA批准胰腺癌靶向药Rasonque，晚期患者中位生存近乎翻倍",
+      "title_en": "FDA approves Revolution Medicines' pancreatic cancer pill, nearly doubling survival",
+      "source": "News Minimalist",
+      "source_site": "apnews.com",
+      "article_url": "https://apnews.com/article/pancreatic-cancer-drug-fda-approval-rasonque-03e437bfb8d728ec2a73b142cf8ec2fe",
+      "hn_url": null,
+      "summary_zh": "美联社：FDA加速批准Revolution Medicines的daraxonrasib（商品名Rasonque），这是首款针对驱动逾九成胰腺癌的RAS/KRAS突变蛋白的日服靶向药，用于化疗后进展的转移性胰腺癌。公司资助的约500人随机试验中，用药组中位总生存13.2个月，化疗组6.7个月；常见副作用包括皮疹、口腔溃疡与消化道反应。一个月药费公司报价约3.98万美元。FDA称较原定审评目标提前逾六个月批准。弗雷德·哈钦森癌症中心的Andrew Coveler称这是“近年最被期待的批准之一”，但强调不是治愈。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Andrew Coveler",
+          "en": "This is one of the most anticipated approvals I can think of. This medicine is not a cure but a significant improvement.",
+          "zh": "这是我能想到的最被期待的批准之一。这药不是治愈，但是显著改善。"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title_zh": "AWS收购DuckLabs，DuckDB开源仍归基金会",
+      "title_en": "AWS Acquires DuckLabs",
+      "source": "Hacker News",
+      "source_site": "ducklabs.com",
+      "article_url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "hn_url": "https://news.ycombinator.com/item?id=49448321",
+      "summary_zh": "DuckLabs宣布加入AWS。公司澄清：AWS买的是DuckLabs商业团队与产品线，开源DuckDB的知识产权仍由非营利DuckDB Foundation持有。HN冲上近千赞。评论区一方面提醒标题容易误读成“DuckDB被亚马逊买走”，另一方面担心亚马逊重组后会不会冷落技术上有趣的项目；也有人把希望押在基金会能否继续推动核心引擎。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "hobofan",
+          "en": "I'm glad that DuckDB has a foundation in place and hope it is resilient enough to push the DB forward when the time comes.\nOut of all the big orgs, Amazon is probably the one that has the least regard for keeping technically interesting projects alive, and the certainly will bulldoze it for some dumb reason when the next re-org comes.",
+          "zh": "我很高兴DuckDB有基金会托底，也希望它足够硬，能在关键时刻把数据库往前推。在所有大厂里，亚马逊大概最不在乎把技术上有趣的项目养活；下次重组时，几乎肯定会以某个蠢理由把它推平。"
+        },
+        {
+          "type": "comment",
+          "author": "daviewales",
+          "en": "The title is misleading. AWS acquired DuckLabs, NOT DuckDB. The DuckDB source code is still owned by the nonprofit DuckDB Foundation.\nQuote from the article:\n\"As the CWI representative on the DuckDB Foundation... When DuckLabs spun out of CWI, we created this foundation, which holds all IP of open-source DuckDB, and will continue to do so.\" - Peter Boncz",
+          "zh": "标题有误导。AWS收购的是DuckLabs，不是DuckDB。DuckDB源码仍归非营利DuckDB Foundation。文章写得很清楚：基金会持有开源DuckDB的全部IP。"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title_zh": "加拿大在对美博弈中自辟路径，亦成他国参照",
+      "title_en": "Canada Paves Its Own Way—and Shows Others How",
+      "source": "News Minimalist",
+      "source_site": "nrk.no",
+      "article_url": "https://www.nrk.no/artikkel/canada-broyter-vei-for-seg-selv-og-andre-1526601",
+      "hn_url": null,
+      "summary_zh": "挪威广播公司NRK以长篇梳理加拿大在美加关税与北美同盟承压后的政策调整：渥太华一边对美采取对等反制，一边加快与欧洲及其他伙伴的贸易与供应链重布，被欧洲观察者当作“中等强国如何在大国关税战中自保”的案例。报道强调加拿大并非简单脱钩，而是把能源、关键矿产与制造业订单向更多市场分散。具体双边协定清单以各国官方文本为准。",
+      "quotes": []
+    },
+    {
+      "rank": 4,
+      "title_zh": "智谱放出GLM-5.3-Flash：原生多模态，宣称性能对标更高价位",
+      "title_en": "GLM-5.3-Flash",
+      "source": "Hacker News",
+      "source_site": "z.ai",
+      "article_url": "https://z.ai/blog/glm-5.3-flash",
+      "hn_url": "https://news.ycombinator.com/item?id=49449507",
+      "summary_zh": "Z.ai（智谱）发布GLM-5.3-Flash，称其为GLM-5系列首个原生多模态模型，参数量约320B量级宣传口径，并称在多项评测上优于GLM-5.2、价格约为其十分之一。权重已上Hugging Face。HN讨论焦点是中文开源模型迭代速度，以及本地多卡部署成本。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "mmastrac",
+          "en": "Weights on HF here: https://huggingface.co/zai-org/GLM-5.3-Flash\nI decided to take the plunge and get myself four sparks at a decent price (and bought the QSFP cables from AliExpress because they are literally 1/2 the price of Amazon), even knowing Apple was going to release new hardware and there's probably a spark 2 on the horizon. It looks like this is going to be a decent fit for what I need. I've been experimenting with a two-node DS4 and it's _good_ at some tasks, but it really just spins its wheels when it hits the limit of what it can reason through.\nI can offload mundane/basic tasks to DS4 on two sparks, but I've been pushing it harder on some novel work and it just can't run on …",
+          "zh": "权重在HF上：zai-org/GLM-5.3-Flash。我咬牙入手了四张Spark，价钱还行，也买了QSFP……"
+        },
+        {
+          "type": "comment",
+          "author": "bertili",
+          "en": "This is going so fast! What a time to be on hackernews:\nJuly 16th: The \"Kimi K3 moment\" - China has caught up to Opus!\n4 weeks later: GLM 5.3 - Same performance, but cut the amount of parameters and cost to a third!\n12 days later: GLM 5.3 Flash - Almost GLM5.3 performance but cut the parameters in half, cut prices to a fifth and serving on Chinese chips!",
+          "zh": "也太快了！看HN的好日子：7月16日还是“Kimi K3时刻”——中国追上Opus；四周后GLM 5.3——同样性能……"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title_zh": "实验室脑类器官存活约七年，表观遗传时钟显示在“记录时间”",
+      "title_en": "Lab-grown brain tissue survives seven years, aiding autism and Alzheimer's research",
+      "source": "News Minimalist",
+      "source_site": "phys.org",
+      "article_url": "https://tamil.indianexpress.com/science/brain-organoid-study-implications-for-alzheimers-and-autism-12435212",
+      "hn_url": null,
+      "summary_zh": "哈佛Paola Arlotta团队在《自然》报告：人脑皮层类器官在体外维持创纪录时长，论文主数据覆盖逾五年，部分培养延续到约七年；用多种表观遗传“时钟”测量显示，它们按类似真实大脑的里程碑成熟，并“记录时间流逝”。研究希望服务自闭症、精神分裂症及成年期才显现的神经退行疾病建模。此前纪录不足两年；8月下旬随访报道强调七年节点。类器官无血管与躯体感觉输入，作者称成熟终有上限。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Paola Arlotta",
+          "en": "The brain can continue to develop outside the context of a person for this unprecedented amount of time.",
+          "zh": "大脑可以在脱离人体的情境下，以这种前所未有的时长继续发育。"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title_zh": "Tailscale开源Tailcat：数据平面上的netcat",
+      "title_en": "Tailcat – Like netcat, but over Tailscale’s data plane",
+      "source": "Hacker News",
+      "source_site": "github.com/tailscale",
+      "article_url": "https://github.com/tailscale/tailcat",
+      "hn_url": "https://news.ycombinator.com/item?id=49452990",
+      "summary_zh": "Tailscale在GitHub放出Tailcat：像netcat一样收发字节流，但走Tailscale数据平面，便于在已组网的设备之间做临时管道、调试与小工具联通。官方示例包括同事用它写的Minecraft模组传输层。评论区把它当成个人homelab组网后的自然下一步。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "wxw",
+          "en": "I just set up Tailscale as I've been hosting more personal apps off a small Hetzner VM and wanted a really simple personal networking solution. Works great, would recommend.",
+          "zh": "我刚装好Tailscale：在小Hetzner虚拟机上挂了更多个人应用，想要一个超简单的私人组网方案。很好用，推荐。"
+        },
+        {
+          "type": "comment",
+          "author": "bradfitz",
+          "en": "One fun use case: a coworker just whipped up this Minecraft mod using tailcat as its transport: https://github.com/tailscale/tailcat-for-minecraft\n(just a cute demo, not intended for release or ongoing maintenance)",
+          "zh": "一个好玩的用例：同事刚用tailcat当传输层撸了个Minecraft模组：github.com/tailscale/tailcat-for-minecraft（只是个可爱demo）。"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title_zh": "英伟达单季营收近千亿美元同比翻倍，黄仁勋称AI进入“黄金时代”",
+      "title_en": "Nvidia revenue doubles to nearly $100bn as CEO hails AI 'golden age'",
+      "source": "News Minimalist",
+      "source_site": "theguardian.com",
+      "article_url": "https://www.theguardian.com/technology/2026/aug/26/nvidia-quarterly-revenue",
+      "hn_url": null,
+      "summary_zh": "《卫报》：英伟达公布第二财季营收962亿美元，同比增约106%，高于华尔街约920亿预期；数据中心收入890亿美元，同比约+117%。每股收益2.22美元。公司指引第三季营收约1080亿美元。市值约5万亿美元。黄仁勋称“AI到了拐点……算力就是收入”，并表示对客户自研芯片后仍长期采购英伟达平台有信心。股价盘后一度上涨约4%。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Jensen Huang",
+          "en": "AI has reached its inflection point. It’s doing useful work. Its tokens are productive and profitable. Now, compute is revenue.",
+          "zh": "AI到了拐点。它在干有用的活。它的token有生产力、能赚钱。现在，算力就是收入。"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title_zh": "演员蒂姆·库里去世，享年80岁",
+      "title_en": "Tim Curry has died",
+      "source": "Hacker News",
+      "source_site": "theguardian.com",
+      "article_url": "https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film",
+      "hn_url": "https://news.ycombinator.com/item?id=49451448",
+      "summary_zh": "《卫报》报道英国演员蒂姆·库里（Tim Curry）去世，终年80岁。他以《洛基恐怖秀》、斯蒂芬·金《它》中的小丑潘尼怀斯，以及《传奇》等角色被记住。HN纪念帖迅速冲上首页，评论区把木偶电影里的表演、舞台剧与恐怖片造型缠在一起回忆。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "TallGuyShort",
+          "en": "I often chuckle at the observation that Tim Curry and Michael Caine's respective roles in the Muppet films were so beloved because Michael Caine acted like all the muppets were real actors, and Tim Curry acted like he was a muppet. He would have an impressive range of serious / comedic roles anyway, but I admire the ability for an actor that successful to be able to put himself be in such a silly role that well too.",
+          "zh": "我常觉得好笑：蒂姆·库里和迈克尔·凯恩各自在木偶电影里的角色之所以被爱，是因为迈克尔·凯恩把所有木偶都当成真人演，而蒂姆·库里……"
+        },
+        {
+          "type": "comment",
+          "author": "callumprentice",
+          "en": "I was a fan since university when someone down the corridor would have The Rocky Horror Picture Show playing all the time...\nImagine my delight at seeing him on a packed London Tube one morning on my way to work. He asked to get by and I said something like \"Just a jump to the left, and then a step to the right?\" waiting for him to burst into song with the whole carriage joining in..\nHe just scowled and pushed past - still made my day though :)",
+          "zh": "大学时就粉他——走廊那头有人整天循环《洛基恐怖秀》。后来在银幕上再见到他，简直惊喜。"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title_zh": "美军选五座基地部署核微堆，五年合同总额最高约22亿美元",
+      "title_en": "Army picks five bases for nuclear microreactors to secure backup power",
+      "source": "News Minimalist",
+      "source_site": "abcnews.com",
+      "article_url": "https://abcnews.com/Technology/wireStory/army-plans-build-nuclear-microreactors-bases-us-seeks-135985597",
+      "hn_url": null,
+      "summary_zh": "美联社经ABC：美国陆军宣布在Janus计划下，于纽约到得州的五座基地引入核微堆，作为不依赖商用电网的备用基荷电源。五家公司若达成节点，五年内合计最高获约22亿美元；陆军预期最终建造并运营逾20座微堆，单堆约1–20兆瓦。选中：Antares@Fort Bragg、BWXT@Fort Campbell、General Atomics@Fort Hood、Radiant@Fort Benning、Westinghouse@Fort Drum。目标不晚于2028年9月30日在本土基地让先进堆投入运行；许可由陆军而非NRC主导，并与能源部协商乏燃料移出。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Dan Driscoll",
+          "en": "We are building the energy resilience necessary to project combat power globally, without relying on potentially vulnerable external grids.",
+          "zh": "我们在建设向全球投送战力所需的能源韧性，而不依赖可能脆弱的外部电网。"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title_zh": "3D打印机厂商被指持续违反AGPL",
+      "title_en": "An ongoing 3D-printer AGPL violation",
+      "source": "Hacker News",
+      "source_site": "lwn.net",
+      "article_url": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
+      "hn_url": "https://news.ycombinator.com/item?id=49452980",
+      "summary_zh": "LWN报道围绕消费级3D打印机固件/联网组件的AGPL合规争议仍在发酵：批评者认为厂商修改并分发基于AGPL的代码后，未按许可证提供对应源代码。评论区讨论LAN模式绕开厂商云、以及是否该把争议打到国际贸易法庭以阻止进口。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "hamdingers",
+          "en": "For current owners who want to avoid Bambu's servers entirely, consider LAN mode with OrcaSlicer and this open source reverse engineered networking plugin: https://github.com/ClusterM/open-bamboo-networking\nI have verified that my P2S in LAN mode never attempts to make external connections at all (blocked it anyway, of course) and OrcaSlicer + this plugin never attempts to connect to any of Bambu's servers.\nMy P2S is easily the best printer I've ever had, they really do make incredible machines, it's a shame they have created this ridiculous situation just to (as far as I can tell) collect telemetry.",
+          "zh": "现有机主若想完全躲开Bambu服务器，可以考虑LAN模式+OrcaSlicer，再加这个开源逆向联网插件……"
+        },
+        {
+          "type": "comment",
+          "author": "ChuckMcM",
+          "en": "I think the Bambu case is a good one to litigate the AGPL but perhaps should start in the Court of International Trade. That court has the power to block imports as part of a TRO which would shut down a lot of their revenue from the US at least. Doing something similar in Europe would also help apply pressure. Takes lawyers and money though, of which there is certainly not enough of the latter.\nNot to be too glib here, but its one of the paradoxes of \"free software\" which is there isn't any money generated by the licenses that keep it free. Where as \"licensed\" software has a revenue stream that is used to enforce the license against people who fail to honor it. The FSF can only do so much…",
+          "zh": "我觉得Bambu案很适合拿来打AGPL，但也许该先从国际贸易法庭起步——那个法庭有权阻止进口。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "items": [
+    {
+      "rank": 11,
+      "title_zh": "专家警告：美国疫苗日程回撤恐让已近消灭的疾病回流",
+      "title_en": "US vaccine rollback risks return of eradicated diseases, experts warn",
+      "source": "News Minimalist",
+      "source_site": "jornal.usp.br",
+      "article_url": "https://jornal.usp.br/atualidades/decisoes-sem-base-cientifica-e-fake-news-ameacam-retorno-de-doencas-e-prejudicam-vacinacao/",
+      "hn_url": null,
+      "summary_zh": "圣保罗大学校报等转述公共卫生学者警告：在特朗普政府与卫生部长罗伯特·F·肯尼迪 Jr.推动童年免疫日程调整、疫苗咨询机制重组的背景下，缺乏证据支撑的决策与假信息会拉低接种率，使麻疹等原本接近消除的疾病回流。白宫已签署相关行政令，部分日程变更仍与联邦诉讼缠斗。共识科学研究仍认定疫苗与自闭症无关。",
+      "quotes": []
+    },
+    {
+      "rank": 12,
+      "title_zh": "美国国务院全球暂停移民签证预约",
+      "title_en": "U.S. State Department Pauses Immigrant Visa Applications",
+      "source": "Hacker News",
+      "source_site": "wsj.com",
+      "article_url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
+      "hn_url": "https://news.ycombinator.com/item?id=49452709",
+      "summary_zh": "华尔街日报等报道：美国国务院称在全球使领馆启动培训，移民签证预约将据此调整/暂停，以便领事官员更严格筛查可能依赖公共福利的申请人。此举落在第二任期强硬移民政策与法院对75国签证停办令的拉锯之后。评论区指出许多续签本就要求离境办理，暂停等于卡住合法通道。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "hvb2",
+          "en": "So for those that don't know, it's quite common for a visa renewal to be required to leave the country. Depending on the visa, you might have to do this every year.\nSo just imagine, having a normal job in the US and you're asked to leave to renew your visa and this stuff happens.\nThat's no more appointment, not even a new date and you're now very likely unable to work and possibly can't even enter the country to get your belongings if you were to leave.\nJust 'putting a pause' on people with existing appointments with no answer for when they might resume is.... Inhumane",
+          "zh": "很多人不知道：签证续签常常得离开美国。按签证种类，可能每年都要来一次。"
+        },
+        {
+          "type": "comment",
+          "author": "jjk166",
+          "en": "\"We're not anti-immigration, we're only anti-illegal immigration!\"\n* indefinitely pauses legal immigration *",
+          "zh": "“我们不反移民，只反非法移民！”——然后无限期暂停合法移民。"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "title_zh": "中国团队研制纤毛微机器人CiliaVine：助溶栓、送药并捕获循环肿瘤细胞",
+      "title_en": "Chinese researchers develop tiny robot to target blood clots, cancer cells",
+      "source": "News Minimalist",
+      "source_site": "euronews.com",
+      "article_url": "https://www.euronews.com/health/2026/08/26/this-tiny-robot-could-help-deliver-drugs-dissolve-blood-clots-and-detect-cancer",
+      "hn_url": null,
+      "summary_zh": "Euronews：深圳人工智能与机器人研究院、香港中文大学与解放军总医院等团队开发导丝搭载的软体微机器人CiliaVine，用磁场驱动纤毛改变局部血流。实验室中，到达管壁的模型药量比自然扩散高约146%；配合tPA时血块溶解约40分钟，对照组约70分钟。抗体涂层后，在23名肝癌患者血样中均捕获到循环肿瘤细胞；兔肝肿瘤模型血管内操作20分钟未见明显炎症损伤。尚未进入人体治疗试验。",
+      "quotes": []
+    },
+    {
+      "rank": 14,
+      "title_zh": "Twitter Viewer：免登录阅读X/Twitter",
+      "title_en": "Twitter Viewer – View Twitter Without Account",
+      "source": "Hacker News",
+      "source_site": "twitterwebviewer.com",
+      "article_url": "https://twitterwebviewer.com/",
+      "hn_url": "https://news.ycombinator.com/item?id=49449576",
+      "summary_zh": "twitterwebviewer.com提供无需账号浏览X/Twitter时间线与帖文的前端。Nitter等多实例近期承压后，HN把这类只读镜像重新推上首页。评论区强调机构仍把X当主渠道，而登录墙让无账号阅读与外链分享都变差。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "kemotep",
+          "en": "I used Twitter for over 10 years without an account then suddenly in 2022 that was completely disrupted and no longer an option. Reddit is now this way too.\nBut I find it ridiculous that Twitter, Facebook, LinkedIn, etc. get used by government agencies and local businesses to post announcements and these sites are increasingly if not completely unusable without being logged in (and in some cases requiring an app instead of the site). Even Bluesky has this problem!\nSometimes this information is really important! And I even if I did have an account I may not have access to log in on every device (or even want to).\nIt’s absurd that social media can become this like critical communications pl…",
+          "zh": "我用了十多年无账号Twitter，2022年突然彻底不行。Reddit现在也这样。但……"
+        },
+        {
+          "type": "comment",
+          "author": "celsoazevedo",
+          "en": "Politics aside, Twitter/X has become a bad place to share information on and to link to. It's a bad option from a technical point of view.\nWe can't read a multi-part tweet (or follow-ups from the author) or check the latest updates from an official account without an account, which requires a mobile phone number and sometimes extra verifications. A digital \"town square\" can't require an account and a phone number to read what's said there.\nSame with Instagram, Facebook, Threads, Linkdin, etc.",
+          "zh": "抛开政治不谈，Twitter/X已经变成分享信息和外链的烂地方。从技术角度看也很糟：我们甚至没法好好读一条多……"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "title_zh": "特朗普就美国电网宣布国家紧急状态，矛头指向对华供应链",
+      "title_en": "Trump declares national emergency over U.S. power grid, targets China",
+      "source": "News Minimalist",
+      "source_site": "letemps.ch",
+      "article_url": "https://www.letemps.ch/articles/donald-trump-declare-l-etat-d-urgence-sur-le-reseau-electrique-et-vise-pekin",
+      "hn_url": null,
+      "summary_zh": "瑞士《时代报》等报道：特朗普就美国主干电网与关键电力设备供应链宣布国家紧急状态，授权收紧被视为由外国对手——点名语境对准中国——构成风险的电力设备与部件进口与接入。措施与陆军微堆、数据中心用电飙升同一周出现，被解读为把电网安全提升到贸易与国安工具箱。具体行政令编号与受控设备清单以白宫全文为准。",
+      "quotes": []
+    },
+    {
+      "rank": 16,
+      "title_zh": "Nebula推出自研字体Nebula Sans",
+      "title_en": "Nebula Sans",
+      "source": "Hacker News",
+      "source_site": "nebulasans.com",
+      "article_url": "https://www.nebulasans.com",
+      "hn_url": "https://news.ycombinator.com/item?id=49450448",
+      "summary_zh": "流媒体Nebula为自己的品牌系统发布Nebula Sans，并公开样张站点。HN一边有人夸Nebula原创内容（如Jet Lag: The Game），一边调侃“公司开始做字体”像总部诅咒的前兆。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "OskarS",
+          "en": "It's a little beside the point of the post, but I just want to fly a flag for Nebula: I subscribed solely to get early versions of Jet Lag: The Game, but I'm finding myself watching it more and more! It has many of the channels I would go to YouTube for, but I've also discovered several really good ones that I had never heard of. And it has a similar feel to Kagi, in the sense of \"freeing\" yourself from the algorithm. It happens so often on YouTube that I see a video recommended but think to myself \"if I click this, am I going to get recommendations for terrible stuff for the next month? What does this tell Google about me?\". Same thing with all the big streaming services.\nWith Nebula, no…",
+          "zh": "有点跑题，但我得给Nebula插个旗：我订阅本来只是为了抢先看Jet Lag: The Game，结果……"
+        },
+        {
+          "type": "comment",
+          "author": "bearjaws",
+          "en": "Swear whenever your company decides to invent its own font its like a version of \"The Headquarters Curse\". You had nothing else better to spend your teams time on so might as well make a new font that 10% of your customers will notice if you are lucky.\nThey could have just picked any other font and used it. It's a video streaming website, how much text content is there vs video content?\nHeadquarter Curse: A theory suggesting that companies often experience setbacks or decline after constructing a lavish new headquarters.",
+          "zh": "发誓每次公司决定自创字体，就像版“总部诅咒”。你们团队就没别的事可忙了吗。"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "title_zh": "比尔·盖茨改口强调AI风险真实，呼吁全球规则",
+      "title_en": "Bill Gates now warns AI risks are real and urges global rules",
+      "source": "News Minimalist",
+      "source_site": "gatesnotes.com",
+      "article_url": "https://fr.cnet.com/bill-gates/5533/bill-gates-change-de-ton-sur-lia-ses-nouvelles-craintes-sont-inquietantes",
+      "hn_url": null,
+      "summary_zh": "盖茨在Gates Notes撰文《动荡的AI时代》，较此前更乐观口径明显转冷：承认前沿模型带来的滥用、失业与系统性风险“真实存在”，呼吁政府与实验室就安全评测、披露与跨境协调建立可执行规则，并称社会已进入必须做关键选择的窗口。CNET法文等二次报道将其概括为“改口”。",
+      "quotes": []
+    },
+    {
+      "rank": 18,
+      "title_zh": "报告：Taylor Farms供应链过度集中成全国风险",
+      "title_en": "Taylor Farms: How One Company's Reach Became a National Risk",
+      "source": "Hacker News",
+      "source_site": "farmaction.us",
+      "article_url": "https://farmaction.us/taylorfarmsreport/",
+      "hn_url": "https://news.ycombinator.com/item?id=49449749",
+      "summary_zh": "Farm Action报告梳理美国大型生菜/叶菜供应商Taylor Farms的市场触达，认为过度集中会把食源疾病、劳工与气候冲击放大成全国性风险，并建议缩短采购链、提高农场直购比重。评论区反驳称大规模集采集中也是为了应对分散小农场难以标准化的安全与品控问题。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "SoftTalker",
+          "en": "Food is being produced at a scale, efficiency, and level of safety unheard of generations ago. One of the recommendations in this article is to buy \"through farmers markets, community-supported agriculture programs, farm stands, and direct online sales.\" That's a fine way to get fresh food, but if you think the people selling lettuce at farmers markets or farm stands have any verified food safety or food handling expertise, they don't. And online sales? Who knows.\nFood packaged and distributed by these mega-suppliers probably has less human handling through the supply chain than any other food, and they have lot numbers and sources logged for all of it, which allowed them to quickly pinpo…",
+          "zh": "食品在规模、效率与安全水平上已远超上几代。这篇文章的建议之一是通过农场……采购。"
+        },
+        {
+          "type": "comment",
+          "author": "legitster",
+          "en": "This analysis is a bit shallow. Massive GSPs grew as a solution to deal with the massive problems that come with greens sourcing.\nIf an individual farm has an outbreak they can (usually) source it, eliminate it from the supply chain, and switch to an alternative without any interruption to service. That also means you want as large of a geographic distribution of your farm network as possible. (I'm looking at you, Yuma Valley - a semi-regular source of e.coli outbreaks).\nAs a bonus, the supply chain is much more efficient at this scale. Small farms can have their salads packed in nitrogen filled bags for longer shelf life and less waste.\nFresh leafy greens are naturally just one of the to…",
+          "zh": "分析有点浅。大型GSP崛起，本身就是为了解决叶菜 sourcing 的一堆大问题。如果单个农场出了……"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "title_zh": "特朗普把沙特民用核协议送交国会，仍绑定承认以色列",
+      "title_en": "Trump Sends Saudi Nuclear Deal to Congress, Ties Approval to Israel Recognition",
+      "source": "News Minimalist",
+      "source_site": "usnews.com",
+      "article_url": "https://www.usnews.com/news/world/articles/2026-08-25/trump-sends-saudi-nuclear-deal-to-congress-but-says-riyadh-must-recognize-israel",
+      "hn_url": null,
+      "summary_zh": "美联社确认：特朗普政府已按《原子能法》把与沙特的民用核合作（123协议）密件送交国会，在会期审议约90天；若国会不通过联合决议否决即可生效。能源部长Chris Wright上月在华盛顿与沙方签署后，特朗普次日公开要求利雅得经亚伯拉罕协议与以色列关系正常化，否则协议不推进。沙特被打了个措手不及，并继续把巴勒斯坦建国前景当作正常化前提；以色列总理内塔尼亚胡拒绝巴勒斯坦建国。协议预期约30年并含美企参与。",
+      "quotes": []
+    },
+    {
+      "rank": 20,
+      "title_zh": "Meta就儿童社交媒体伤害与多州达成最高约171亿美元和解",
+      "title_en": "Meta reaches $17B settlement over social media harms to children",
+      "source": "Hacker News",
+      "source_site": "reuters.com",
+      "article_url": "https://www.reuters.com/world/us/meta-settles-with-us-states-over-social-media-harms-2026-08-26/",
+      "hn_url": "https://news.ycombinator.com/item?id=49448819",
+      "summary_zh": "路透社等报道：Meta与约50个州检察长达成拟议和解，支付至少约121亿美元、最高可达约171亿美元（部分金额取决于TikTok、YouTube等是否采取类似未成年人保护措施），并承诺对青少年账号施加每日时长上限、夜间使用限制、学时通知静音等。Meta否认不法行为。评论区分成两派：有人认为罚款相对利润过轻；有人质疑“社媒伤害儿童”证据强度，并担心以保护之名进一步收窄未成年人自由。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "_ink_",
+          "en": "Pay 25% from your 2025 profit for harming children since at least 2019 and be able to continue doing so. Sounds like a loss for society and a win for Meta.",
+          "zh": "用2025年利润的大约四分之一，去填至少自2019年起伤害儿童的账单，然后还能继续干。听起来是社会的亏、Meta的赢。"
+        },
+        {
+          "type": "comment",
+          "author": "NalNezumi",
+          "en": ">Meta will impose daily usage limits and restrict nighttime usage by children  who use Facebook and Instagram, and enhance measures to prevent children from accessing age-restricted content\nSo meta won.\nThe only thing I'm asking for is better control over my social media. Let me remove infinite scroll on Instagram and don't show me things I have explicitly followed on Facebook. And do this setting by default and a cigarette like warning pop-up when you try to enable the algorithms.\n(I know you can do this with custom apps and I'm doing that but you have no clue how many non tech people beg me to share how and then cop out when they learn you have to download custom apk. Just add these fun…",
+          "zh": "Meta将对使用Facebook和Instagram的儿童施加每日时长上限、限制夜间使用，并加强阻止儿童接触年龄限制内容的措施。——所以Meta赢了。我只想要更好的控件：让我关掉Instagram无限滚动，Facebook别塞我没关注的东西；默认就该这样，想打开算法时弹香烟那样的警告。"
+        },
+        {
+          "type": "comment",
+          "author": "slibhb",
+          "en": "It's been eye-opening to watch people fall for the \"social media is hurting the children\" scam.\nThe best and largest observational studies don't show a strong correlation. Studies with an intervention are mixed/the effect isn't large. Extreme and compulsive social media use is bad, but it's almost maybe always a symptom rather than a cause.\nI saw the trailer for the new Facebook movie last weekend. It's comical really; first people blamed Facebook for the 2016 election and now for their kids being depressed. It's classic scapegoating.\nWhat makes this worse is the irony: in the name of protecting children, we're going to further reduce their freedom. And if there is single largest cause of…",
+          "zh": "看着人们吞下“社媒伤害儿童”这套话术，挺开眼的。最好、最大的观察性研究并没有显示很强相关；干预研究也是混杂/效应不大。极端强迫使用很糟，但那往往是症状不是原因。"
+        }
+      ]
+    }
+  ]
+}
