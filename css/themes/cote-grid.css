@@ -45,7 +45,6 @@ body {
 }
 
 .day-head {
-  --perf: 14px;
   position: relative;
   isolation: isolate;
   display: grid;
@@ -53,38 +52,25 @@ body {
   gap: 0.35rem 1.2rem;
   align-items: end;
   margin-bottom: 1.8rem;
-  padding: 1.15rem 1.6rem 1.05rem;
+  padding: 1.15rem 2rem 1.05rem;
   color: #fff;
-  background: transparent;
-}
-
-.day-head::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background: var(--ticket);
-  border: var(--perf) solid transparent;
-  background-clip: padding-box;
-  -webkit-mask-image:
-    linear-gradient(#000 0 0),
-    radial-gradient(circle closest-side, #0000 98%, #000);
-  -webkit-mask-size: auto, calc(var(--perf) * 2) calc(var(--perf) * 2);
-  -webkit-mask-position: 0 0, calc(-1 * var(--perf)) calc(-1 * var(--perf));
-  -webkit-mask-repeat: no-repeat, repeat;
-  -webkit-mask-origin: padding-box, border-box;
-  -webkit-mask-clip: padding-box, border-box;
-  -webkit-mask-composite: source-over;
-  mask-image:
-    linear-gradient(#000 0 0),
-    radial-gradient(circle closest-side, #0000 98%, #000);
-  mask-size: auto, calc(var(--perf) * 2) calc(var(--perf) * 2);
-  mask-position: 0 0, calc(-1 * var(--perf)) calc(-1 * var(--perf));
-  mask-repeat: no-repeat, repeat;
-  mask-origin: padding-box, border-box;
-  mask-clip: padding-box, border-box;
-  mask-composite: add;
+  background-color: var(--ticket);
+  background-image: url("../../assets/grain.svg");
+  background-size: 180px 180px;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 14%, calc(100% - 16px) 18%, 100% 22%,
+    100% 36%, calc(100% - 16px) 40%, 100% 44%,
+    100% 58%, calc(100% - 16px) 62%, 100% 66%,
+    100% 80%, calc(100% - 16px) 84%, 100% 88%,
+    100% 100%,
+    0 100%,
+    0 88%, 16px 84%, 0 80%,
+    0 66%, 16px 62%, 0 58%,
+    0 44%, 16px 40%, 0 36%,
+    0 22%, 16px 18%, 0 14%
+  );
 }
 
 .brand {
@@ -124,42 +110,56 @@ body {
   position: relative;
   isolation: isolate;
   margin: 0 0 1.15rem;
-  padding: 1rem 1.15rem 1.05rem;
+  padding: 1rem 1.35rem 1.05rem;
   background: transparent;
 }
 
-.item--poster::before,
-.item--compact::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  border: var(--perf) solid transparent;
-  background-clip: padding-box;
-  -webkit-mask-image:
-    linear-gradient(#000 0 0),
-    radial-gradient(circle closest-side, #0000 98%, #000);
-  -webkit-mask-size: auto, calc(var(--perf) * 2) calc(var(--perf) * 2);
-  -webkit-mask-position: 0 0, calc(-1 * var(--perf)) calc(-1 * var(--perf));
-  -webkit-mask-repeat: no-repeat, repeat;
-  -webkit-mask-origin: padding-box, border-box;
-  -webkit-mask-clip: padding-box, border-box;
-  mask-image:
-    linear-gradient(#000 0 0),
-    radial-gradient(circle closest-side, #0000 98%, #000);
-  mask-size: auto, calc(var(--perf) * 2) calc(var(--perf) * 2);
-  mask-position: 0 0, calc(-1 * var(--perf)) calc(-1 * var(--perf));
-  mask-repeat: no-repeat, repeat;
-  mask-origin: padding-box, border-box;
-  mask-clip: padding-box, border-box;
+.item--lead,
+.item--poster {
+  color: #fff;
+  background-color: var(--ticket);
+  background-image: url("../../assets/grain.svg");
+  background-size: 180px 180px;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 16%, calc(100% - 14px) 21%, 100% 26%,
+    100% 42%, calc(100% - 14px) 47%, 100% 52%,
+    100% 68%, calc(100% - 14px) 73%, 100% 78%,
+    100% 100%,
+    0 100%,
+    0 78%, 14px 73%, 0 68%,
+    0 52%, 14px 47%, 0 42%,
+    0 26%, 14px 21%, 0 16%
+  );
 }
 
-.item--poster::before { background-color: var(--ticket); }
-.item--compact::before { background-color: var(--thermal); }
-
-.item--poster { color: #fff; }
-.item--compact { color: var(--ink); }
+.item--compact {
+  color: var(--ink);
+  background: var(--thermal);
+  box-shadow: 0 3px 10px rgba(40, 36, 30, 0.1);
+  clip-path: polygon(
+    0 7px,
+    2% 0, 4% 7px, 6% 0, 8% 7px, 10% 0, 12% 7px, 14% 0, 16% 7px, 18% 0, 20% 7px,
+    22% 0, 24% 7px, 26% 0, 28% 7px, 30% 0, 32% 7px, 34% 0, 36% 7px, 38% 0, 40% 7px,
+    42% 0, 44% 7px, 46% 0, 48% 7px, 50% 0, 52% 7px, 54% 0, 56% 7px, 58% 0, 60% 7px,
+    62% 0, 64% 7px, 66% 0, 68% 7px, 70% 0, 72% 7px, 74% 0, 76% 7px, 78% 0, 80% 7px,
+    82% 0, 84% 7px, 86% 0, 88% 7px, 90% 0, 92% 7px, 94% 0, 96% 7px, 98% 0, 100% 7px,
+    100% calc(100% - 7px),
+    98% 100%, 96% calc(100% - 7px), 94% 100%, 92% calc(100% - 7px), 90% 100%,
+    88% calc(100% - 7px), 86% 100%, 84% calc(100% - 7px), 82% 100%,
+    80% calc(100% - 7px), 78% 100%, 76% calc(100% - 7px), 74% 100%,
+    72% calc(100% - 7px), 70% 100%, 68% calc(100% - 7px), 66% 100%,
+    64% calc(100% - 7px), 62% 100%, 60% calc(100% - 7px), 58% 100%,
+    56% calc(100% - 7px), 54% 100%, 52% calc(100% - 7px), 50% 100%,
+    48% calc(100% - 7px), 46% 100%, 44% calc(100% - 7px), 42% 100%,
+    40% calc(100% - 7px), 38% 100%, 36% calc(100% - 7px), 34% 100%,
+    32% calc(100% - 7px), 30% 100%, 28% calc(100% - 7px), 26% 100%,
+    24% calc(100% - 7px), 22% 100%, 20% calc(100% - 7px), 18% 100%,
+    16% calc(100% - 7px), 14% 100%, 12% calc(100% - 7px), 10% 100%,
+    8% calc(100% - 7px), 6% 100%, 4% calc(100% - 7px), 2% 100%, 0 calc(100% - 7px)
+  );
+}
 
 .item__id {
   display: block;
@@ -203,6 +203,7 @@ body {
 #skin-v2.is-in .day-head {
   animation: cg-punch var(--enter) both;
 }
+#skin-v2.is-in .item--lead,
 #skin-v2.is-in .item--poster {
   animation: cg-punch var(--enter) both;
   animation-delay: calc(60ms + var(--i, 0) * 50ms);
@@ -214,8 +215,8 @@ body {
 .item.is-landed { animation: none; }
 
 @keyframes cg-punch {
-  from { opacity: 0; clip-path: inset(18% 8% 18% 8%); }
-  to { opacity: 1; clip-path: inset(0); }
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: none; }
 }
 @keyframes cg-drop {
   from { opacity: 0; transform: translateY(-12px); }
@@ -223,9 +224,12 @@ body {
 }
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .item--lead,
   .item--poster {
     transition: transform var(--leave);
   }
+  .item--lead:hover,
+  .item--lead:focus-within,
   .item--poster:hover,
   .item--poster:focus-within {
     transform: translateY(-4px) rotate(-4deg);
@@ -248,7 +252,6 @@ body {
     transition: none;
     opacity: 1;
     transform: none;
-    clip-path: none;
   }
 }
 

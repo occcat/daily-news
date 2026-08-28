@@ -741,9 +741,10 @@
       var pad = String(rank).padStart(2, "0");
       var serial = fmtMD(day.date) + "-" + pad;
       if (theme === "impasto-card") serial = "No. " + serial;
+      var poster = theme === "cote-grid" ? idx === 0 : idx < 3;
       var cls = "item" +
         (idx === 0 ? " item--lead" : "") +
-        (idx < 3 ? " item--poster" : " item--compact") +
+        (poster ? " item--poster" : " item--compact") +
         (hn ? " item--hn" : " item--nm");
       var agamemnon = theme === "agamemnon";
       var img = itemImageUrl(it);
