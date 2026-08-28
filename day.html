@@ -13,10 +13,19 @@
   <script>
     window.__rikanDate = new URLSearchParams(location.search).get("date") || "2026-08-21";
     window.__rikanThemeStart = "2026-08-22";
+    window.__rikanWeek2Start = "2026-08-30";
     window.__rikanLegacy = /^\d{4}-\d{2}-\d{2}$/.test(window.__rikanDate)
       ? window.__rikanDate < window.__rikanThemeStart
       : true;
     document.documentElement.setAttribute("data-skin", window.__rikanLegacy ? "newspaper" : "v2");
+    /* Fallback before JSON: 8.29 klein-halftone; ≥8.30 ordered-dither; 8.22–8.28 klein-halftone. */
+    if (!window.__rikanLegacy) {
+      window.__rikanFallbackTheme =
+        window.__rikanDate === "2026-08-29"
+          ? "klein-halftone"
+          : (window.__rikanDate >= window.__rikanWeek2Start ? "ordered-dither" : "klein-halftone");
+      document.documentElement.setAttribute("data-theme", window.__rikanFallbackTheme);
+    }
   </script>
   <script>
     (function () {
@@ -29,7 +38,8 @@
         document.write('<link rel="stylesheet" id="newspaper-css" href="css/style.css">');
       } else {
         document.write('<link rel="stylesheet" id="day-base-css" href="css/day-base.css">');
-        document.write('<link rel="stylesheet" id="theme-css" href="css/themes/klein-halftone.css">');
+        document.write('<link rel="stylesheet" id="theme-css" href="css/themes/' +
+          (window.__rikanFallbackTheme || "klein-halftone") + '.css">');
       }
     })();
   </script>

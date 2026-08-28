@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-09-05",
+    "theme": "ascii-plot",
+    "stub": true,
+    "summary": "皮肤预览",
+    "itemCount": 0
+  },
+  {
+    "date": "2026-09-04",
+    "theme": "paper-prism",
+    "stub": true,
+    "summary": "皮肤预览",
+    "itemCount": 0
+  },
+  {
+    "date": "2026-09-03",
+    "theme": "impasto-card",
+    "stub": true,
+    "summary": "皮肤预览",
+    "itemCount": 0
+  },
+  {
+    "date": "2026-09-02",
+    "theme": "cote-grid",
+    "stub": true,
+    "summary": "皮肤预览",
+    "itemCount": 3}
+  },
+  {
+    "date": "2026-09-01",
+    "theme": "gathered-zine",
+    "stub": true,
+    "summary": "皮肤预览",
+    "itemCount": 0
+  },
+  {
+    "date": "2026-08-31",
+    "theme": "northflow",
+    "stub": true,
+    "summary": "皮肤预览",
+    "itemCount": 0
+  },
+  {
+    "date": "2026-08-30",
+    "theme": "ordered-dither",
+    "stub": true,
+    "summary": "皮肤预览",
+    "itemCount": 0
+  },
+  {
     "date": "2026-08-28",
     "theme": "collector-card",
     "summary": "8月28日的新闻同时被宫颈癌疫苗二十年里程碑与AI网络防御公开信、霍尔木兹临时航路与委内瑞拉油田谈判，以及开源平台被芯片巨头盯上的评论区拉开。\n加德西在布里斯班迎来首剂二十周年，澳大利亚仍瞄准2035年前后消除宫颈癌，但青少年覆盖率下滑敲响补种警钟。约百家科技公司联名要求在AI攻防窗口关闭前加固关键设施；业界测算若把芯片关税套到数据中心，年GDP损失或约900亿美元。波兰在北约总部明确拒绝本土部署盟国核弹头；俄外交部则威胁可打击英国在乌及境外军事目标。布达诺夫称乌俄谈判或于9月重启并需要美方；伊朗与阿曼磋商排除军舰的霍尔木兹商船走廊。实验室里，纳米颗粒在阿尔茨海默小鼠中促生新神经元，UCSF绘出自闭症最大蛋白互作图谱；天上，NASA用碎片当地标做无GPS导航，罗马望远镜准备巡天十亿星系，PTA嗡声被指向百亿年前的暗星遗迹。亚马逊再向英伟达追加约200万GPU，SK海力士在印第安纳打下美国首座HBM封装厂地基；美方接近谈下委内瑞拉大规模油田权益。\nHN这边：英伟达收购Hugging Face冲上逾千八百赞；Cloudflare省下约100TB DNS缓存内存；小模型、Claude承重词、Suica与N64反编译并列首页；xkcd用四肢互砍讽关税，FFmpeg除零洞、Anthropic硬件标准与MIT教学报告占据长帖。\n一条贯穿全天的线是：疫苗与图谱在给生命修复定价，关税与油田在给能源与算力定价，收购与开源标准则在给“谁还拥有默认入口”定价。",

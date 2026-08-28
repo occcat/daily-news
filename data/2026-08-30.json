@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-30",
+  "timezone": "Asia/Shanghai",
+  "title": "皮肤预览",
+  "summary_zh": "皮肤预览",
+  "theme": "ordered-dither",
+  "stub": true,
+  "item_count": 1,
+  "items": [
+    {
+      "rank": 1,
+      "title_zh": "皮肤预览",
+      "title_en": "Skin preview",
+      "source": "News Minimalist",
+      "summary_zh": "皮肤预览"
+    }
+  ]
+}

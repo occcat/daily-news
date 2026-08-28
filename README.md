@@ -21,9 +21,10 @@ python3 -m http.server 8080
 
 - **首页**永远是 klein-poster：`css/home.css`。克莱因蓝全幅海报 + 奶油列表 + 横向往期日期。不使用旧报纸样式。
 - **2026-08-22 之前的日页**用旧报纸皮：`css/style.css`。缺主题或未知主题也回退报纸，不走 klein-halftone。不要给 2026-08-21 加会切换皮肤的 `theme`。
-- **2026-08-22 起**按 `JSON.theme` 加载 `css/day-base.css` + `css/themes/{theme}.css`，并设置 `data-theme`。缺主题或未知主题回退 `klein-halftone`。
+- **2026-08-22 起**按 `JSON.theme` 加载 `css/day-base.css` + `css/themes/{theme}.css`，并设置 `data-theme`。
+- **回退**：`2026-08-29` 强制 `klein-halftone`；`>= 2026-08-30` 且主题空/未知 → `ordered-dither`；`2026-08-22`–`2026-08-28` 未知主题 → `klein-halftone`；`<= 2026-08-21` → 旧报纸。首页永远 `klein-poster`。
 
-日页主题：`klein-halftone`、`polaroid`、`stamp`、`isometric-mini`、`agamemnon`、`origami`、`collector-card`，均按 Dmeee mock 实现。不要给没有稿件的日期编造新闻。
+日页主题：`klein-halftone`、`polaroid`、`stamp`、`isometric-mini`、`agamemnon`、`origami`、`collector-card`、`ordered-dither`、`northflow`、`gathered-zine`、`cote-grid`、`impasto-card`、`paper-prism`、`ascii-plot`。不要给没有稿件的日期编造新闻。
 
 ## 目录结构
 

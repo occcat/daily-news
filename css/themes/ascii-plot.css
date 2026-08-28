@@ -1,0 +1,210 @@
+/* ascii-plot · tan teletype, navy mono frames. No CRT / loop glitch. */
+:root {
+  --paper: #E6D5B8;
+  --ink: #1A2744;
+  --klein: #1A2744;
+  --enter: 380ms cubic-bezier(0.16, 1, 0.3, 1);
+  --hover: 200ms ease-out;
+  --leave: 280ms ease-in;
+}
+
+html,
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: "IBM Plex Mono", "SFMono-Regular", ui-monospace, monospace;
+}
+
+.stipple-canvas,
+.stipple-css { display: none !important; }
+
+.day {
+  width: min(960px, calc(100% - 40px));
+  padding: 28px 0 80px;
+}
+
+.ap-chrome {
+  pointer-events: none;
+  margin: 0 0 0.6rem;
+}
+
+.ap-rule {
+  margin: 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  line-height: 1.2;
+  color: var(--ink);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.day-head {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.4rem 1rem;
+  align-items: end;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--ink);
+}
+
+.brand {
+  margin: 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 28px;
+  font-weight: 600;
+}
+.brand a,
+.brand a:visited,
+.brand a:hover { color: var(--ink); }
+
+.day-date {
+  margin: 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: clamp(40px, 8vw, 72px);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: transparent;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--ink) 55%, transparent 55%),
+    linear-gradient(90deg, var(--ink) 55%, transparent 55%);
+  background-size: 3px 3px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.day-kicker { display: none; }
+
+.day-full,
+.day-count,
+.day-stub {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  color: var(--ink);
+}
+.day-quote { display: none; }
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.item {
+  position: relative;
+  margin: 0;
+  padding: 0.85rem 0.9rem 0.8rem;
+  overflow: hidden;
+  border: 1px solid var(--ink);
+}
+
+.item::before,
+.item::after {
+  position: absolute;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--ink);
+  pointer-events: none;
+}
+.item::before {
+  content: "+";
+  top: -0.45em;
+  left: -0.35em;
+}
+.item::after {
+  content: "+";
+  top: -0.45em;
+  right: -0.35em;
+}
+
+.item__id {
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+}
+
+.item__n {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: var(--ink);
+}
+
+.item__visual,
+.item__mark,
+.item__code { display: none; }
+
+.item__title {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.item__sum,
+.quote--en,
+.quote--zh,
+.item__meta,
+.item__meta a,
+.item__meta a:visited {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+#skin-v2.is-in .day-date {
+  animation: ap-type var(--enter) both;
+}
+#skin-v2.is-in .item {
+  animation: ap-type var(--enter) both;
+  animation-delay: calc(80ms + var(--i, 0) * 50ms);
+}
+.item.is-landed { animation: none; }
+
+@keyframes ap-type {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes ap-scan {
+  from { transform: translateY(-100%); opacity: 0.7; }
+  to { transform: translateY(220%); opacity: 0; }
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .item .item__mark {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 2px;
+    background: var(--ink);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-100%);
+  }
+  .item:hover .item__mark,
+  .item:focus-within .item__mark {
+    animation: ap-scan 0.4s ease-out 1 forwards;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .day-date,
+  .item,
+  .item__mark {
+    animation: none;
+    transition: none;
+    opacity: 1;
+    clip-path: none;
+    transform: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .items { grid-template-columns: 1fr; }
+  .day-head { display: block; }
+}
