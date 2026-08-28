@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 11,
+      "title": "NASA Tests Spacecraft Navigation Using Satellites and Debris as Landmarks",
+      "title_zh": "NASA用卫星与碎片当地标，演示无GPS航天器自主导航",
+      "publisher": "sciencedaily.com",
+      "article_url": "https://www.sciencedaily.com/releases/2026/08/260826055450.htm",
+      "significance_score": 6.2,
+      "summary_zh": "ScienceDaily/NASA：Starling任务搭载FALCON载荷，用星敏感器把视野中的卫星与轨道碎片匹配到约两万条目标目录，借此自主定轨；三天内在无地面干预下改进了逾200个目标的轨道预报，为月面与深空无GNSS场景铺路。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Roger Hunter",
+          "en": "The results from FALCON can have far-reaching implications for on-orbit space-traffic monitoring, collision avoidance, and alternative navigation.",
+          "zh": "FALCON的结果对在轨交通监视、避碰与替代导航都可能有深远影响。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 12,
+      "title": "Show HN: The load-bearing vocabulary of Claude",
+      "title_zh": "Show HN：Claude的“承重词汇”可视化",
+      "publisher": "louisabraham.github.io",
+      "article_url": "https://louisabraham.github.io/load-bearing/",
+      "significance_score": null,
+      "summary_zh": "作者爬取并可视化Claude相关PR/用语中的高频“承重”词，页面刻意一屏讲完。作者在评论区称日常与谄媚型agent聊天后更珍惜HN；并计划加搜索、把数据扩到每天约1000条PR，且用GitHub Actions日更。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "nater5000",
+          "en": "I was pleasantly surprised when I attempted to scroll down and realized everything the author wanted to present fit on-screen. It's almost ironic that this site is able to make such an obvious, compelling presentation without being overly verbose or complicated (something which LLMs have a hard time doing). I wouldn't read TOO deeply into what is being presented, but the author has done a good job to not inject their own bias into the presentation which works well. I suspect, as we continue forward, humans will slowly start to adopt the language of LLMs, or at least certain language quirks that come from interacting with LLMs. Something I've noticed in my own writing is that I now present lists of examples in a consistent way: \"... such as <example 1>, <example 2>, etc., ...\". I started to notice I was using this pattern quite a bit somewhat recently, but I took a quick look at some of my social media posts and realized it's been occurring for a while. I had realized that I grown accustomed to this kind of language because, especially early on, LLMs would focus too much on the specific examples I'd provide when, really, I was just trying to give them a sense of what I was looking f",
+          "zh": "我试着往下滚，才惊喜地发现作者想呈现的一切都在一屏里。近乎讽刺的是，这个站能把观点讲得如此清楚有力，却不过度冗长或复杂（而这正是LLM很难做到的）。我不会对呈现的内容过度解读，但作者把这件事做得很好。"
+        },
+        {
+          "type": "comment",
+          "author": "Labo333",
+          "en": "Author here! Grateful for the kind words, human communities like HN really hit differently when you spend the whole day chatting with sycophantic and bullshitting agents (including to make this page). I'm currently adding a search bar as well as increasing the data to 1000 PR per day. A nice thing that is not obvious on the main page is that the dataset and analysis are updated daily using Github Actions (at least when they don't suffer from an outage ^^). I find it pretty cool to be able to build such apps without a \"backend\"!",
+          "zh": "作者本人！谢谢这些善意。当你整天都在和谄媚、胡扯的agent聊天（包括为了做这个页面），像HN这样的人类社区真的很不一样。我正在加搜索栏，并把数据扩到每天约1000条PR。主页上不太显眼的一点是：数据集和分析用GitHub Actions每天更新。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49461817",
+      "hn_points": 314,
+      "hn_comments": 151,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 13,
+      "title": "Russia Threatens UK Strikes Over Ukraine Arms as Trump Cites Putin Talks",
+      "title_zh": "俄外交部威胁可打击英国在乌及境外军事目标",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/europe/russia-says-it-could-strike-uk-military-targets-response-ukrainian-strikes-using-2026-08-27/",
+      "significance_score": 6.1,
+      "summary_zh": "路透：俄外交部发言人扎哈罗娃警告，若乌方继续用英制远程巡航导弹打击俄方认定目标，英在乌境内及境外军事设施与装备都可能遭反击，并称伦敦距“共谋恐怖主义”仅一步。背景是英首相伯纳姆宣布向乌分享风暴阴影/SCALP生产技术；英防部重申将继续支援乌克兰。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Maria Zakharova",
+          "en": "Any British military installations and equipment in Ukraine and beyond its borders could be targeted in response to Ukrainian strikes on Russian territory carried out using British weapons.",
+          "zh": "对使用英制武器打击俄领土的乌方行动，任何英国在乌及境外的军事设施与装备都可能成为反击目标。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 14,
+      "title": "Zohran and the Short Link",
+      "title_zh": "Zohran与短链：竞选链接为何要短、好记、能口口相传",
+      "publisher": "iamwillwang.com",
+      "article_url": "https://iamwillwang.com/notes/zohran-and-the-short-link/",
+      "significance_score": null,
+      "summary_zh": "iamwillwang笔记讨论纽约政治人物如何把行动号召做成短、好记、可口述的链接，对比传统短链的随机串。评论赞同公众参与需要可当场敲进手机的地址；也有人展示把纽约卫生局页面改成带人工在环协议的AI原生原型。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "cosmic_cheese",
+          "en": "This makes a lot of sense if public participation is actually desired. Links need to be short, snappy, and memorable so they're easy to either type into a smartphone on the spot or be recalled at some point later when one has a spare moment. This kind of link is also more likely to spread via word of mouth. Traditional link shorteners only meet one of those requirements. Random strings aren't going to be remembered and the chances that they'll be mistyped is substantially higher.",
+          "zh": "如果真的希望公众参与，这很说得通。链接需要短、脆、好记，才能方便当场敲进智能手机，或稍后再想起来打开。这种链接也更可能靠口口相传。传统短链只满足其中一条要求。随机字符串没法……"
+        },
+        {
+          "type": "comment",
+          "author": "arionhardison",
+          "en": "I have been working on something for NYC. Its not ready yet but its basically an AI-native DOHMH. I took all of these https://www.nyc.gov/site/doh/health/health-topics.page and turned them into guided protocols, staffed w/ the required agents and HITL. Here are the \"Programs\" - https://dohmh.codify.nyc/programs example protocol: https://dohmh.codify.nyc/protocol/71776 I was hoping it would be enough to stand out and get an interview w/ the \"PIT Crew\" but no such luck, reach out if you want to chat or hack on some NYC/Civic stuff.",
+          "zh": "我在给纽约做点东西，还没好，基本上是个AI原生的卫生局（DOHMH）。我把这些页面都做成了引导式协议，配上所需的agent和人工在环。这里是“项目”——示例协议在这儿。我本来希望它能足够……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49457512",
+      "hn_points": 288,
+      "hn_comments": 187,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 15,
+      "title": "US chip tariffs could cost $90 billion and delay data centers, industry warns",
+      "title_zh": "业界警告：对数据中心适用芯片关税或年损约900亿美元",
+      "publisher": "arstechnica.com",
+      "article_url": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
+      "significance_score": 5.8,
+      "summary_zh": "Ars Technica援引计算机与通信产业协会（CCIA）：若把约25%的半导体关税落到数据中心，相当于对建设征约15.6%的税，可能使2026–2030约两成美方数据中心项目延期、取消或外迁，年GDP损失约900亿美元、就业风险约24.3万。背景是商务部审视年初给数据中心的豁免是否收回。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CCIA",
+          "en": "Applying 25% Section 232 semiconductor tariffs to data centers would represent a 15.6% tax on data center construction.",
+          "zh": "把25%的232条款半导体关税套到数据中心上，相当于对数据中心建设征15.6%的税。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 16,
+      "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+      "title_zh": "用“氛围编程”模糊测试在FFmpeg里挖到除零漏洞",
+      "publisher": "code.ffmpeg.org",
+      "article_url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+      "significance_score": null,
+      "summary_zh": "ffmpeg.org议题：作者称用vibecode模糊测试发现FFmpeg除零问题。评论指出相关补丁早在4月已提交、2024年也有讨论；并观察AI既可能抬高也可能拉低软件质量——让agent无限猎虫成本低，但对领薪的人来说时间更贵。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "aeyes",
+          "en": "A patch for this was submitted in April: https://lists.ffmpeg.org/archives/list/ffmpeg-devel@ffmpeg.o... Edit: And there was discussion about this back in 2024 as well",
+          "zh": "这个问题的补丁4月就提交过了：……编辑：2024年其实也讨论过。"
+        },
+        {
+          "type": "comment",
+          "author": "dabinat",
+          "en": "It’s interesting how AI may both raise and lower the quality of software. It’s very easy to send an AI agent on an open-ended bug hunt, and if it wastes a bunch of time and effort and finds nothing, no big deal. Time is much more important for a human developer with a salary.",
+          "zh": "有意思的是，AI可能同时抬高和拉低软件质量。派一个AI agent去做开放式猎虫非常容易；如果它浪费一堆时间精力却什么都没找到，也没什么。对领薪水的人类开发者来说，时间要重要得多。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49468642",
+      "hn_points": 158,
+      "hn_comments": 121,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 17,
+      "title": "Autism’s largest molecular map reveals protein pathways for targeted therapies",
+      "title_zh": "自闭症迄今最大分子互作图谱：多样突变收敛到少数蛋白复合物",
+      "publisher": "medicalxpress.com",
+      "article_url": "https://medicalxpress.com/news/2026-08-largest-molecular-autism-paths-precision.html",
+      "significance_score": 5.8,
+      "summary_zh": "MedicalXpress/UCSF：发表于《Science》的图谱覆盖100个高置信风险基因、逾1800个蛋白互作（约87%此前未知），显示遗传上迥异的自闭症形式常扰动同一批蛋白复合物；这为针对“共享分子枢纽”而非一突变一药的精准疗法提供蓝图，并获后续大额转化资助。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "UCSF QBI",
+          "en": "Many genetically distinct forms of autism converge on disrupting the same protein complexes.",
+          "zh": "许多遗传上不同的自闭症形式，会收敛到破坏同一批蛋白复合物。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 18,
+      "title": "Decompiling a Nintendo 64 game in 84 days",
+      "title_zh": "84天反编译一款任天堂64游戏",
+      "publisher": "blog.chrislewis.au",
+      "article_url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
+      "significance_score": null,
+      "summary_zh": "Chris Lewis博文记录在约84天内反编译N64《滑雪少年》等的过程与工具链。评论推荐其他“重编译/复活”冷门经典的项目，并讨论一旦摸清与LLM协作的严谨工作流，瓶颈会重新变成时间、精力、token与判断力。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jmcgough",
+          "en": "I've been absolutely loving the decomp projects that have been coming out lately. Huge props to the writer for this, Snowboard Kids is a real gem. I'd also encourage people to check out the Legend of Dragoon recomp [1]. It's a real labor of love that has breathed new life into a largely abandoned game. You can play it fully vanilla, or with improved graphics, fixes to cumbersome design choices, bugfixes, etc. [1] https://legendofdragoon.org/projects/severed-chains/",
+          "zh": "最近这些反编译项目我爱惨了。巨大的赞给作者，Snowboard Kids真是颗宝石。我也鼓励大家去看Legend of Dragoon重编译。那是真正的爱的劳动，给一款几乎被遗弃的游戏注入了新生命。你可以完全原版玩，也可以开改进画质、修掉别扭设计……"
+        },
+        {
+          "type": "comment",
+          "author": "hombre_fatal",
+          "en": "It's pretty amazing what you can do when you embrace LLMs, figure out how to build one high-quality rigorous project with them, and then start working on more projects. You become a machine with your workflow, once again limited only by your time/energy, tokens, and your discretion on how to spend it.",
+          "zh": "当你拥抱LLM、搞清楚如何用它们做出一个高质量严谨的项目、然后再开始做更多项目时，事情会变得相当惊人。你又变成一台带工作流的机器，再次只受限于你的时间/精力、token，以及你如何决定把它们花在哪里。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49466006",
+      "hn_points": 167,
+      "hn_comments": 103,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 19,
+      "title": "Iran and Oman reach preliminary deal on Hormuz shipping, excluding military vessels",
+      "title_zh": "伊朗与阿曼就霍尔木兹商船走廊初步方案磋商，拟排除军舰",
+      "publisher": "euronews.com",
+      "article_url": "https://www.euronews.com/2026/08/27/iran-to-allow-no-military-ship-in-hormuz-under-potential-deal-with-oman",
+      "significance_score": 5.8,
+      "summary_zh": "Euronews等：伊朗副外长称正与阿曼谈临时航路——入湾走伊朗水域、出湾部分经阿曼水域，军用船只不得使用；30至60日内再谈永久方案。美方不满收费与共管细节，特朗普威胁若阿曼“挡道”可能动武；伊方消息人士称协议尚未最终敲定。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Kazem Gharibabadi",
+          "en": "Military vessels will not be permitted to use the corridor.",
+          "zh": "军用船只不得使用该走廊。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 20,
+      "title": "Suica, Japan's First IC Transit Card",
+      "title_zh": "Suica：日本第一张交通IC卡的故事",
+      "publisher": "tokyodev.com",
+      "article_url": "https://www.tokyodev.com/articles/the-story-of-suica",
+      "significance_score": null,
+      "summary_zh": "TokyoDev回顾Suica从交通票证长成日常支付层的历史。评论称其“比NFC/Apple Pay还快”的体感令人震撼；也有人提醒信用卡充值不稳、且并非日本全国通用。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "cptcobalt",
+          "en": "If you haven’t experienced suica, it’s like magically fast. Faster than NFC, faster than Apple Pay, faster than tap to pay, faster than Disney magic bands, faster than your work badge. It absolutely floored me every time I used it in Japan and it’s a full payment transaction.",
+          "zh": "如果你还没体验过Suica：它快得像魔法。比NFC快，比Apple Pay快，比碰一下支付快，比迪士尼魔法手环快，比你的工牌快。我在日本每次用都彻底被震到，而且这是一笔完整的支付交易。"
+        },
+        {
+          "type": "comment",
+          "author": "thisumang",
+          "en": "Suica is amazing until it isn't, recharge with credit cards can be a miss. Doesn't work everywhere in Japan too.",
+          "zh": "Suica很棒，直到它不棒：用信用卡充值可能踩空。也不是日本到处都能用。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49466894",
+      "hn_points": 174,
+      "hn_comments": 149,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

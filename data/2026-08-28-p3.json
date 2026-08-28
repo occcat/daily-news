@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 21,
+      "title": "Amazon triples Nvidia chip order to 2 million GPUs for data centers",
+      "title_zh": "亚马逊再向英伟达追加约200万块GPU订单",
+      "publisher": "techcrunch.com",
+      "article_url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+      "significance_score": 5.8,
+      "summary_zh": "TechCrunch/AWS联合稿：在GTC宣布逾100万块GPU部署后，因需求超出预期，AWS计划于2027–2028再部署约200万块Blackwell Ultra、Rubin与Rubin Ultra，并搭配Vera CPU；金额未披露，外界估计数十亿美元量级，公开承诺总量跨三年逾300万块。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "AWS & NVIDIA",
+          "en": "Since then, demand has exceeded those expectations.",
+          "zh": "自那以后，需求已超出那些预期。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 22,
+      "title": "Gemini Omni 1.1 Flash",
+      "title_zh": "Gemini Omni 1.1 Flash：谷歌推多模态更快档",
+      "publisher": "blog.google",
+      "article_url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "significance_score": null,
+      "summary_zh": "谷歌开发者博文介绍Gemini Omni 1.1 Flash。评论聊到广播广告里分不清人声与AI，以及配音/演员行业少被开发者社区讨论；也有人给谷歌员工提示：附言“请确保页面在Firefox也能用”。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "petcat",
+          "en": "I heard a radio spot recently and I wondered if the voice was a real person or AI. It makes we wonder how such industries are dealing with this gen-AI revolution. We spend a lot of time here thinking about how it affects software developers, but I hardly ever see any commentary on how it is affecting screen and voice actors.",
+          "zh": "最近听广播广告，我在想那声音是真人还是AI。这让我好奇这些行业如何面对这波生成式AI革命。我们花很多时间思考它如何影响软件开发者，却几乎看不到关于它对影视与配音演员影响的评论。"
+        },
+        {
+          "type": "comment",
+          "author": "037",
+          "en": "Prompt engineering tip for Google employees: just add \"P.S. Make sure the page works in Firefox too.\"",
+          "zh": "给谷歌员工的提示工程技巧：只要加上“附言：请确保这页在Firefox也能用。”"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49467922",
+      "hn_points": 177,
+      "hn_comments": 130,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 23,
+      "title": "US near 'massive' oil deal with Venezuela that could double reserves",
+      "title_zh": "美媒：美国接近拿下委内瑞拉“大规模”油田权益，称可令美储量翻倍",
+      "publisher": "axios.com",
+      "article_url": "https://www.axios.com/2026/08/27/trump-venezuela-oil-deal-talks",
+      "significance_score": 5.7,
+      "summary_zh": "Axios：两名美官员称政府正与委临时当局谈入股逾十个在产油田（探明约900亿桶，曾涉中资与被起诉的本地利益），形容协议“巨大”，在伊乌冲突扰动油价、战备石油储备处四十年来低位的背景下推进；能源部长赖特拟赴委讨论增产。细节仍在谈。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "U.S. official via Axios",
+          "en": "Calling this deal huge would be an understatement. It is massive.",
+          "zh": "说这笔交易巨大都嫌轻了。它是超级大单。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 24,
+      "title": "Aphantasia Beginner's Guide",
+      "title_zh": "心盲症入门指南：有人脑中无图像，有人画面过强",
+      "publisher": "aphantasia.com",
+      "article_url": "https://aphantasia.com/guide",
+      "significance_score": null,
+      "summary_zh": "aphantasia.com指南解释心盲症与过度幻视光谱。有评论者说朋友完全无法“在脑中看见”，自己却画面强到忽略眼前实物；也有人质疑余像叠视测试，表示很难被说服这些范畴真实存在。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "ToyKeeper",
+          "en": "I know someone with aphantasia. It's absolutely wild to me that he can't see things in his head. Totally alien from my perspective, since I'm at the opposite end of the spectrum. I see what's in my head so vividly that I often won't see things in real life which are right in front of me. But what's even more wild to me is the people leaving comments refusing to believe that different people are actually different. Refusing to believe aphantasia or hyperphantasia exists. Refusing to believe that other people are telling the truth when they describe their experiences. Insisting that everyone is the same, actually, and anyone who thinks differences are real must be confused or misunderstanding something. I guess these are both types of cognitive disability... but I know what aphantasia is called. Not sure what the other thing is called, but I'd imagine it's something which sounds pretty unflattering.",
+          "zh": "我认识一个有心盲症的人。他脑中看不见东西，这对我来说绝对疯狂、完全像外星体验，因为我处在光谱另一端。我脑中的画面清晰到经常看不见就在眼前的真实事物。但对我来说更疯狂的是，有人在评论区拒绝相信不同的人真的有不同的体验。"
+        },
+        {
+          "type": "comment",
+          "author": "andrewla",
+          "en": "It would take a lot to convince me that aphantasia or phantasia actually exist. Let's talk very specifically about the afterimage test here. Can anyone confirm that they have this ability, which specifically is to superimpose imagined objects inside your actual field of vision? If the answer to this is yes, then okay, I guess I have aphantasia. But none of the other criteria seems to apply. I can imagine a song, and \"hear\" it in my \"mind's ear\", but I am not confused about whether it is occurring through my ears or just in my brain. I can easily imagine the tones and voices and tell you what the bass line sounds like, etc. My visual imagination works the same way -- I can't make the object appear in my field of vision any more than I can make sounds appear in my field of hearing, but I can definitely imagine the visual aspects of it. If you tell me to imaging an equilateral triangle, I can put it there in my mind's eye, and if you tell me to attach another equilateral triangle to it I can see the resulting parallelogram. But I can't actually *see* it. It would take a lot to convince me that phantasia or aphantasia actually exist, and nothing I see on this webpage convinces me.",
+          "zh": "要说服我心盲症或幻视真的存在，需要很多。我们就非常具体地谈余像测试：有谁能确认自己有这种能力，也就是把想象中的物体叠进真实视野里？如果答案是肯定的，那好吧，也许我有心盲症。但其他标准似乎都不适用。我可以……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49464414",
+      "hn_points": 118,
+      "hn_comments": 261,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 25,
+      "title": "SK Hynix breaks ground on first US HBM plant in Indiana",
+      "title_zh": "SK海力士印第安纳州打下美国首座HBM先进封装厂地基",
+      "publisher": "news.skhynix.com",
+      "article_url": "https://news.skhynix.com/en/groundbreaking-ceremony-in-indiana/",
+      "significance_score": 5.7,
+      "summary_zh": "SK海力士新闻稿/CNBC：在西拉法叶普渡研究园举行开工仪式，总投资逾40亿美元，洁净室目标2028年10月，下一代HBM量产目标2029年下半年；韩国产晶圆运美做先进封装与测试。获CHIPS法案约4.58亿美元拨款与至多5亿美元贷款，并与普渡签研发布备忘录。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Kwak Noh-Jung",
+          "en": "Today marks the day when the United States and SK hynix embark on a new future of AI together.",
+          "zh": "今天标志着美国与SK海力士共同迈向AI新未来。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 26,
+      "title": "Previewing the Model Hardware Standard",
+      "title_zh": "Anthropic预览“模型硬件标准”，设备接口拟供智能体操控",
+      "publisher": "anthropic.com",
+      "article_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "significance_score": null,
+      "summary_zh": "Anthropic发文预览Model Hardware Standard，让设备暴露标准化、机器可读接口以便模型操控。评论批评该“标准”目前需申请才能查看、与USB/CAN等公开制定路径相反；也有人觉得MCP/MHS不过是半显然的工具接口训练场景。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "sinab",
+          "en": "The standard makes sense: models work much better when devices expose standardized, machine-readable interfaces. But as far as I can tell, this technical \"standard\" isn't actually public yet (you have to apply for access to even see or implement it.) Anthropic says they plan to open source it later. Quite a departure from the way foundational hardware standards like USB and CAN were developed. You shouldn't need permission to read a standard.",
+          "zh": "这套标准说得通：当设备暴露标准化、机器可读的接口时，模型好用得多。但据我所知，这份技术“标准”其实还没公开（你得申请才能查看或实现。）Anthropic说他们计划稍后开源。这和USB、CAN这类基础硬件标准的形成方式相当不同。"
+        },
+        {
+          "type": "comment",
+          "author": "mips_avatar",
+          "en": "As far as I can tell is these standards (MCP/MHS/etc) are just semi obvious tool inferfaces that Anthropic uses as training scenarios.",
+          "zh": "在我看来，这些标准（MCP/MHS等）不过是Anthropic拿来当训练场景用的半显然工具接口。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49468834",
+      "hn_points": 69,
+      "hn_comments": 27,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 27,
+      "title": "Gravitational-wave hum may trace to 13-billion-year-old dark stars",
+      "title_zh": "引力波背景嗡声或来自130亿年前“暗星”遗迹",
+      "publisher": "sciencedaily.com",
+      "article_url": "https://www.sciencedaily.com/releases/2026/08/260827010457.htm",
+      "significance_score": 5.7,
+      "summary_zh": "ScienceDaily：Colgate大学Sohan Ghodla与Cosmin Ilie在《Physical Review D》快报中提出，脉冲星计时阵列所见低频引力波背景，可能很大部分来自超大质量暗星坍缩留下的早期黑洞种子之后代并合；若共动密度约10⁻³ Mpc⁻³，其贡献可占主导，从而用今日PTA数据约束宇宙黎明期的种子丰度。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Cosmin Ilie",
+          "en": "Their descendants could leave a gravitational-wave imprint that persists all the way to the present-day Universe.",
+          "zh": "它们的后代可能留下一道引力波印记，一直持续到今天的宇宙。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 28,
+      "title": "The mechanics of the Nepali flash flood",
+      "title_zh": "尼泊尔—西藏冰川崩塌洪水的力学",
+      "publisher": "economist.com",
+      "article_url": "https://www.economist.com/science-and-technology/2026/08/27/the-terrifying-mechanics-of-the-nepali-flash-flood",
+      "significance_score": null,
+      "summary_zh": "《经济学人》梳理喜马拉雅冰川崩塌如何在短时间内形成致命泥石流/洪水。评论指向AP监控视频，称“看见时已经来不及”；也有人说灾难影像因电影游戏而钝感，但每个小点都是完整的人。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "pm2222",
+          "en": "https://apnews.com/article/climate-change-nepal-tibet-glacie... CCTV footage is there. Horrific scene. When you see it coming at you it’s already too late.",
+          "zh": "https://apnews.com/…… 有监控视频。可怕的场面。等你看见它朝你冲来，已经太晚了。"
+        },
+        {
+          "type": "comment",
+          "author": "glimshe",
+          "en": "I haven't yet been able to properly internalize the horror of this scene. Maybe because we're exposed to so many images from disaster and action movies/videogames, I got somewhat desensitized to the \"graphics\", so to speak. It's like my brain is denial. At the same time, I know this is real and a tragedy in an unimaginable scale. Every \"little walking figure\" is a full human being with dreams, fears and a rich life story. I'm afraid that at one point it will just hit me super hard.",
+          "zh": "我还没法真正把这场景的恐怖内化。也许是因为我们从灾难片和动作游戏/电玩里看过太多图像，我对所谓“画面”有点钝感了。就像我的大脑在否认。与此同时，我知道这是真的，是一场难以想象规模的悲剧。每一个“小走动的人影”都是一个有梦想、有感情的完整的人。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49466188",
+      "hn_points": 74,
+      "hn_comments": 28,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 29,
+      "title": "NASA's Roman Telescope to Survey a Billion Galaxies Using Spy Tech",
+      "title_zh": "罗马太空望远镜将借间谍镜片巡天约十亿星系",
+      "publisher": "theconversation.com",
+      "article_url": "https://theconversation.com/nasa-is-gearing-up-to-launch-its-next-flagship-space-telescope-combining-spy-technology-with-sophisticated-infrared-detectors-290040",
+      "significance_score": 5.9,
+      "summary_zh": "The Conversation：南希·格雷斯·罗马太空望远镜沿用国家侦察局移交的2.4米级光学硬件，配约3亿像素宽视场红外焦平面，视场远大于哈勃，计划测绘约十亿星系以约束暗能量与系外行星统计；瞄准最早2026年8月30日由猎鹰重型从肯尼迪发射。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Conversation",
+          "en": "NASA plans to soon launch a new space telescope that will survey a billion galaxies to trace how the universe evolved over time.",
+          "zh": "NASA即将发射一座新太空望远镜，巡天约十亿星系，追溯宇宙如何演化。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 30,
+      "title": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
+      "title_zh": "麻省理工AI教与学特设委员会报告：先对齐组织共识",
+      "publisher": "aiandeducation.mit.edu",
+      "article_url": "https://aiandeducation.mit.edu/report/",
+      "significance_score": null,
+      "summary_zh": "MIT发布AI用于教学、学习与研究训练的特设委员会报告。有人觉得第三节加粗段落可执行、并非空话；也有人讶异负面评论——认为其目的是在大型复杂组织内建立共享形势判断与初始方向，而非魔法般“解决”高等教育中的AI。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "losvedir",
+          "en": "I think you can tell who still has the ability to read long form content by whether they thought this was full of fluff or decently actionable. I think the bolded parts of section 3 are definitely not fluff. I found the document pretty interesting.",
+          "zh": "我觉得能不能读长文，可以从你认为这是注水还是相当可执行看出来。我认为第三节加粗的部分绝对不是注水。我发现这份文件挺有意思。"
+        },
+        {
+          "type": "comment",
+          "author": "alex_c",
+          "en": "I'm surprised at the negative comments here. I'm about halfway done reading the report - I think it's clear, well written, and quite frankly the opposite of fluff. A document like this isn't going to magically \"solve\" the use of AI in higher education. The purpose is to define a shared understanding of the situation across a large, complex organization, and set an initial direction and general shape for actions to take. It contains clear, specific observations of how AI is organically changing the reality of education. And, in my opinion, fairly clear high-level guidance on what MIT as an entity wants to do about AI, and what individual departments and faculty should decide on their own. A document like this doesn't need to be revolutionary, it may feel like fluff because no specific item in it is particularly surprising or groundbreaking, but the value is in having the entire document as a whole. And it is a lot more comprehensive and well thought out than what most companies can put out.",
+          "zh": "我对这里的负面评论有点意外。我大概读到一半——我觉得它清楚、写得好，坦率说和注水相反。这样的文件不会魔法般“解决”高等教育中的AI使用。目的是在大型复杂组织里定义对形势的共享理解，并设定初始方向与总体框架。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49464314",
+      "hn_points": 103,
+      "hn_comments": 70,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

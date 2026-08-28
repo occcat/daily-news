@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 1,
+      "title": "Gardasil at 20: Australia’s cervical cancer prevention milestone",
+      "title_zh": "加德西接种二十周年：澳大利亚正朝消除宫颈癌迈进",
+      "publisher": "news.uq.edu.au",
+      "article_url": "https://news.uq.edu.au/2026-08-20-years-millions-lives-saved-one-revolutionary-vaccine",
+      "significance_score": 6.5,
+      "summary_zh": "昆士兰大学与ABC：2006年8月28日布里斯班打出加德西（Gardasil）首剂；疫苗由Ian Frazer与已故周健团队奠基，现以Gardasil 9纳入澳全国学童免疫，全球接种逾6亿剂。建模与国家策略显示澳大利亚有望在2035年前后成为首个消除宫颈癌的国家；同时15岁女孩全程覆盖率从2020年的86.6%降至2025年的78.7%，公平与补种成为下一阶段重点。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Nigel McMillan",
+          "en": "We'll have residual cases, but generally, it will be a disease of the past.",
+          "zh": "还会有残余病例，但总体而言，它会成为过去的疾病。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 2,
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "title_zh": "英伟达拟以约130亿美元收购Hugging Face",
+      "publisher": "businessinsider.com",
+      "article_url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "significance_score": null,
+      "summary_zh": "Business Insider等：英伟达同意以约130亿美元收购开源AI平台Hugging Face，HN单帖逾1800赞、八百余评。若成交，模型托管、数据集与社区默认入口将并入全球最大AI芯片供应商；评论区讨论欧盟“主权AI”、创始人套现，以及社区中立性会否被改写。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "armcat",
+          "en": "HF has been a close part of my ML/AI career, coinciding exactly when I moved into this space 10 years ago. There are lot of nuances here (if the deal goes through). Some people say it's a loss for EU sovereign AI but HF is technically an American corporation. On the positive note, the founders (Julien, Thomas and Clem - all French) stem to make significant amount of money, which they are likely to pour into a new frontier AI lab in Europe. So potentially it's a big win. For Nvidia this is a great strategic play as it potentially gains control of the \"AI app store\" and can influence the direction of Transformers, Diffusers, PEFT and various other HF libs inits favour. At the same time Nvidia has been (somewhat paradoxically) a dominant force in actual \"open source\" AI and has contributed significantly via Nemotron and various optimisers close to the metal. This would likely accelerate further. Nvidia has everything to gain from having a massive open model ecosystem, instead of a consolidated market consisting of 2-3 players. Will that have impact on MLX and other contributions? We'll see!",
+          "zh": "Hugging Face几乎贯穿我进入机器学习/AI的十年，正好从我转入这一行时开始。交易若谈成会有很多层次。有人说这是欧盟主权AI的损失，但HF技术上是美国公司。正面看，创始人Julien、Thomas和Clem（都是法国人）会赚到一大笔，他们很可能会……"
+        },
+        {
+          "type": "comment",
+          "author": "binarymax",
+          "en": "Well congrats to Clem and the team. I remember when huggingface was doing things like coreference resolution models on spacy. I hope nvidia does right by the community. Edit to add: $13B should cover the S3 egress fees for a couple months :D",
+          "zh": "恭喜Clem和团队。我还记得huggingface在spaCy上做共指消解一类模型的年代。希望英伟达对得起社区。编辑补充：$130亿应该够付几个月的S3出站流量费 :D"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49458161",
+      "hn_points": 1821,
+      "hn_comments": 853,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 3,
+      "title": "Tech Giants and 100 Firms Urge Stronger Cyber Defenses Against AI Threats",
+      "title_zh": "上百家科技公司联名吁加强网络防御，应对AI驱动攻击",
+      "publisher": "bbc.com",
+      "article_url": "https://www.bbc.com/news/articles/cwyz11475l1o",
+      "significance_score": 6.3,
+      "summary_zh": "BBC：谷歌、微软、Anthropic、OpenAI等约100家企业签署公开信，呼吁各国与关键基础设施运营方在AI能力进一步抬升前大幅加强网络防御，批评关键设施长期投入不足；信中要求政府向医院、水务等提供可用的防御性AI与测试，并呼吁前沿模型公司提供负责任的访问与资助。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "open letter",
+          "en": "We have a limited window to improve cyber defences.",
+          "zh": "我们加强网络防御的窗口期很有限。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 4,
+      "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+      "title_zh": "Cloudflare优化1.1.1.1的DNS缓存，省下约100TB内存",
+      "publisher": "blog.cloudflare.com",
+      "article_url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+      "significance_score": null,
+      "summary_zh": "Cloudflare工程博文：通过对1.1.1.1解析器DNS缓存的数据结构与分配策略做系统级优化，节省约100TB量级内存。HN赞赏“先做出产品再抠成本”的路径；也有系统程序员指出仍可把记录数据紧挨CacheEntry以减少二次分配。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "lpapez",
+          "en": "This is the right way to deliver software. Produce working product first, validate the idea, stabilize the business, start generating profit, and then you can start optimizing your costs. In fact optimization is by far the easiest part of the process because there are many system programming experts on this HN thread who consider these optimizations to be trivial.",
+          "zh": "这才是交付软件的正确方式。先做出能用的产品，验证想法，稳住业务并开始产生利润，然后再优化成本。事实上优化往往是整个过程里最容易的一环，因为HN这串线程里有很多系统编程专家觉得这些优化很平凡。"
+        },
+        {
+          "type": "comment",
+          "author": "irdc",
+          "en": "This is why system programming still matters. Looks like they're missing the obvious optimisation of putting the record data right after the CacheEntry members instead of allocating memory separately though. But that might just be me as a C-programmer talking and not be all that easy in Rust.",
+          "zh": "所以系统编程仍然重要。看起来他们漏了个显而易见的优化：把记录数据直接接在CacheEntry成员后面，而不是另外分配内存。不过也许只是我这个C程序员在说话，在Rust里不一定那么好做。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49468083",
+      "hn_points": 456,
+      "hn_comments": 129,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 5,
+      "title": "Nanoparticle drug restores memory in Alzheimer's mice by growing new neurons",
+      "title_zh": "纳米颗粒药在阿尔茨海默小鼠中促生新神经元并恢复记忆",
+      "publisher": "newscientist.com",
+      "article_url": "https://www.newscientist.com/article/2586426-nanoparticles-ease-alzheimers-by-making-neurons-from-other-cells/",
+      "significance_score": 6.3,
+      "summary_zh": "New Scientist：南卡罗来纳大学团队用纳米颗粒递送抗体（Nano-ERASER/TN-PTBP1），耗尽星形胶质细胞中的PTBP1，促其转分化为神经元。阿尔茨海默样小鼠经一至两次静脉注射后，筑巢与水迷宫表现接近健康对照，海马区神经元密度上升；尚未进入人体，下一步拟做灵长类试验。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Peisheng Xu",
+          "en": "After just two injections, these mice became smarter.",
+          "zh": "只打了两针，这些老鼠就变聪明了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 6,
+      "title": "Small Models Have Arrived",
+      "title_zh": "小模型时代到了：便宜够用的本地与边缘推理",
+      "publisher": "calv.info",
+      "article_url": "https://calv.info/small-models-have-arrived",
+      "significance_score": null,
+      "summary_zh": "calv.info长文主张“快/便宜/够用”的小模型需求即将爆发，并用本地7B配合约束解码做测试驱动编码等流程作例。评论把工作拆成“IQ180式奇招”与“吐token推进多线”两类，并对照Paul Graham的Maker/Manager时间表。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "NitpickLawyer",
+          "en": "> But I also think the demand for \"fast/cheap/good-enough\" models is just about to take off. There's a sort of \"revelation\" I had in ~early '24 when I used a 7B local model with a library called Guidance (initially out of MS, then the team moved) to create a flow where the model would receive pseudocode for tests, first write the tests, and once I approved then started writing code until the tests passed. This was before \"thinking\" models, and yet using that library I was able to \"guide\" the model in the required \"prompt / instruct\" context such that it was working towards completion, and I saw the first things like we see now in the thinking traces \"oh, test x doesn't pass because blah, I need to...\" and so on. Anyway, the revelation was \"even if the models never improve, I'll have years of fun finding out all the ways I can use these things\". And, obviously, the models improved a lot since then. But I think that revelation can still be applied, as a sort of \"truism\". We have, right now, access to things that 10-20 years ago would be considered magic. We are still finding ways of cobbling together systems with glue, duct tape and prayers and find new things they can do. I think th",
+          "zh": "> 但我也认为对“快/便宜/够用”模型的需求就要起飞了。大概2024年初我有过一次“顿悟”：用一个7B本地模型配一个叫Guidance的库（最初出自微软，后来团队离开）做出一条流程——模型先收到测试的伪代码，先写测试，我批准后再写代码直到测试通过。"
+        },
+        {
+          "type": "comment",
+          "author": "NickNaraghi",
+          "en": "> Across his various startups, Peter has seen two kinds of work: > 1. the \"IQ 180\" work. some mad scientist genius type comes up with some crazy solution you've never thought of. > 2. the \"token spewer\" work. being ultra responsive, pushing the ball forward across dozens of different fronts. Interesting comp to pg's Maker's Schedule, Manager's Schedule https://www.paulgraham.com/makersschedule.html I'm curious about not only which of these roles models will fill, but also how they will empower us to be in the mode we prefer.",
+          "zh": "> 在Peter做过的各家创业公司里，他见过两类工作：\n> 1. “IQ 180”式工作。某个疯子科学家天才抛出你从没想过的疯狂解法。\n> 2. “吐token”式工作。极度响应，在几十条战线上把球往前推。\n有趣的对照是pg的Maker日程、Manager日程。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49466917",
+      "hn_points": 414,
+      "hn_comments": 189,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 7,
+      "title": "Poland rules out hosting allied nuclear weapons",
+      "title_zh": "波兰明确拒绝在本土部署盟国核弹头",
+      "publisher": "politico.eu",
+      "article_url": "https://www.politico.eu/article/poland-rules-out-hosting-nuclear-weapons-despite-russian-threat/",
+      "significance_score": 6.2,
+      "summary_zh": "Politico：波兰副国防部长Paweł Zalewski在北约总部表示，波兰“不想在本国领土上拥有核弹头”，同时仍希望参与北约核威慑；这是现政府迄今最斩钉截铁的表态。背景是俄威胁上升、美欧讨论扩大核保护伞，以及波方希望增加美军常驻存在。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Paweł Zalewski",
+          "en": "Poland does not want to have nuclear warheads on its territory.",
+          "zh": "波兰不想在本国领土上拥有核弹头。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 8,
+      "title": "507 Mechanical Movements",
+      "title_zh": "《507种机械运动》：经典机构图谱再上首页",
+      "publisher": "507movements.com",
+      "article_url": "https://507movements.com/",
+      "significance_score": null,
+      "summary_zh": "507movements.com收录并部分动画化亨利·T·布朗的经典机械运动图集，HN四百余赞。有人拿HTTP 507开玩笑；也有人提议把“给该URL的机构做动画”当成比画鹈鹕骑自行车更硬的AI基准。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "PufPufPuf",
+          "en": "\"507 Mechanical Movements\" is a rare HTTP status code, usually only used when the request can't be fulfilled due to an earthquake",
+          "zh": "“507 Mechanical Movements”是个罕见的HTTP状态码，通常只有因为地震导致请求无法完成时才会用到。"
+        },
+        {
+          "type": "comment",
+          "author": "emacdona",
+          "en": "Many of these aren't animated... which gives me a great(?) idea for a new AI benchmark: \"Animate the mechanical movement at this URL: ...\" Way more telling that \"draw a pelican on a bicycle\"",
+          "zh": "这些里好多都没有动画……这给了我一个绝妙（？）的新AI基准想法：“给这个URL上的机械运动做动画……”比“画一只骑自行车的鹈鹕”能说明问题多了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49465169",
+      "hn_points": 441,
+      "hn_comments": 64,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 9,
+      "title": "Zelensky aide says Ukraine-Russia talks may happen in September with US",
+      "title_zh": "泽连斯基幕僚：乌俄谈判或于9月重启并需要美方在场",
+      "publisher": "kyivpost.com",
+      "article_url": "https://www.kyivpost.com/post/83218",
+      "significance_score": 6.2,
+      "summary_zh": "基辅邮报等：乌总统办公厅主任基里洛·布达诺夫8月27日称，谈判目前暂停但正争取“复活”，新一轮或最早9月举行，并强调“离不开美国人”。克宫发言人佩斯科夫称暂无具体日期信息，同时表示仍与美方保持工作层接触。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Kyrylo Budanov",
+          "en": "And with the Americans too. We can't do without them.",
+          "zh": "也要有美国人。我们离不开他们。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 10,
+      "title": "Trade (and Tariffs)",
+      "title_zh": "xkcd《贸易（与关税）》：用四肢互砍比喻报复性关税",
+      "publisher": "xkcd.com",
+      "article_url": "https://xkcd.com/3290/",
+      "significance_score": null,
+      "summary_zh": "xkcd 3290以腿擅长跑、胳膊擅长抡锤却互相断供氧气的寓言讽刺关税战。评论引用alt text，并吐槽报复性关税像“砍自己的腿证明谁说了算”，以及亲高税人群如何重新解释经济代价。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "dvh",
+          "en": "Alt text: \"You legs may have a comparative advantage at running, but we arms have a competitive advantage at swinging hammers, so unless you accept that we're the dominant limbs and stop hogging the oxygen, that running advantage won't be around for long.\"",
+          "zh": "Alt text：“你们腿也许在跑步上有比较优势，可我们胳膊在抡锤子上有竞争优势；除非你们承认我们是主导肢体、别再独占氧气，否则那点跑步优势也长不了。”"
+        },
+        {
+          "type": "comment",
+          "author": "cma256",
+          "en": "This is hilarious and I agree. I think an under-appreciated aspect of all this is the complete schadenfreude from everyone. The story goes tariffs only hurt yourself but then we see retaliatory tariffs in response. \"Oh yeah I'm going to cut off my leg to show you whose boss!\" Very funny. And then you have people predisposed to higher-taxes who are contorting themselves over the economic cost of this tax while supporting significantly more economically destructive tax policies. Very funny. And, of course, the opposite. Republicans in my state are campaigning on lowering taxes and inflation while also defending tariffs! Very funny.",
+          "zh": "太好笑了，我同意。我觉得这一切里被人低估的一点是所有人的幸灾乐祸。故事说关税只伤害自己，然后我们看到报复性关税作为回应。“对啊，我砍掉自己的腿给你看谁说了算！”很好笑。然后那些本来倾向更高税收的人，又在为这些关税的经济代价拧巴自己。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49464896",
+      "hn_points": 465,
+      "hn_comments": 215,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}
