@@ -73,7 +73,10 @@ body {
 
 .pp-chrome {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: min(520px, 100%);
+  height: 300px;
   pointer-events: none;
   z-index: 2;
   perspective: 900px;
@@ -94,16 +97,16 @@ body {
 
 .pp-cube {
   position: absolute;
-  top: 72px;
-  left: 90px;
-  width: 112px;
-  height: 112px;
+  top: 88px;
+  left: 72px;
+  width: 118px;
+  height: 118px;
   padding: 0;
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  background: rgba(255, 255, 255, 0.12);
+  border: 1.5px solid rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.18);
   box-shadow:
-    8px 12px 18px rgba(40, 30, 16, 0.12),
-    inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+    10px 16px 22px rgba(40, 30, 16, 0.16),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.7);
   transform:
     translate3d(var(--pp-x, 0px), var(--pp-y, 0px), 0)
     rotateX(var(--pp-rx, 0deg))
@@ -116,10 +119,11 @@ body {
 }
 
 .pp-cube[data-cube="b"] {
-  top: 148px;
-  left: 210px;
-  width: 96px;
-  height: 96px;
+  top: 128px;
+  left: 198px;
+  width: 104px;
+  height: 104px;
+  background: rgba(255, 255, 255, 0.22);
 }
 
 .pp-cube.is-drag { cursor: grabbing; }
@@ -129,8 +133,9 @@ body {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  backdrop-filter: blur(1.2px) saturate(1.35) contrast(1.08);
-  -webkit-backdrop-filter: blur(1.2px) saturate(1.35) contrast(1.08);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.04) 55%, rgba(76, 124, 240, 0.06));
+  backdrop-filter: blur(1.4px) saturate(1.4) contrast(1.1);
+  -webkit-backdrop-filter: blur(1.4px) saturate(1.4) contrast(1.1);
 }
 
 .pp-cube__fringe {
@@ -146,9 +151,8 @@ body {
 
 .pp-hint {
   position: absolute;
-  left: 50%;
-  bottom: 8px;
-  transform: translateX(-50%);
+  left: 120px;
+  top: 248px;
   margin: 0;
   font-size: 12px;
   color: var(--accent);

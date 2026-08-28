@@ -572,7 +572,7 @@
     "paper-prism": "每日一图，认识世界。",
     "cote-grid": "",
     "ascii-plot": "",
-    "impasto-card": "Oil Painting"
+    "impasto-card": ""
   };
 
   function threeWordTag(it) {
@@ -769,7 +769,9 @@
       return (
         '<li class="' + cls + '" id="item-' + esc(String(rank)) + '" style="--i:' + idx + '">' +
         '<span class="item__id">' + esc(serial) + "</span>" +
-        '<span class="item__mark" aria-hidden="true"></span>' +
+        '<span class="item__mark" aria-hidden="true">' +
+        (theme === "impasto-card" ? esc(fmtMD(day.date)) : "") +
+        "</span>" +
         '<span class="item__n">' + esc(n) + "</span>" +
         '<div class="item__visual" aria-hidden="' + (visual ? "false" : "true") + '">' +
         visual +
