@@ -256,15 +256,144 @@
     }, { passive: true });
   }
 
+  function bindDither() {
+    var day = document.querySelector("#skin-v2 .day");
+    if (!day) return;
+    day.__odFeel = true;
+    if (reducedMotion()) {
+      day.style.setProperty("--od-near", "0");
+      return;
+    }
+    if (day.__odBound) return;
+    day.__odBound = true;
+
+    function apply(px, py) {
+      if (!day.__odFeel || px == null || py == null) {
+        day.style.setProperty("--od-near", "0");
+        return;
+      }
+      var nodes = day.querySelectorAll(".od-cluster, .day-date, .item");
+      var i;
+      var best = 0;
+      for (i = 0; i < nodes.length; i++) {
+        var r = nodes[i].getBoundingClientRect();
+        var cx = r.left + r.width / 2;
+        var cy = r.top + r.height / 2;
+        var dist = Math.hypot(px - cx, py - cy);
+        var near = dist < 40 ? 1 - dist / 40 : 0;
+        nodes[i].style.setProperty("--od-near", near.toFixed(3));
+        if (near > best) best = near;
+      }
+      day.style.setProperty("--od-near", best.toFixed(3));
+      if (px != null) {
+        day.style.setProperty("--od-mx", px.toFixed(1) + "px");
+        day.style.setProperty("--od-my", py.toFixed(1) + "px");
+      }
+    }
+
+    window.addEventListener("pointermove", function (ev) {
+      if (!day.__odFeel || ev.pointerType === "touch") return;
+      apply(ev.clientX, ev.clientY);
+    }, { passive: true });
+
+    document.addEventListener("pointerleave", function () {
+      if (!day.__odFeel) return;
+      apply(null, null);
+      day.querySelectorAll(".od-cluster, .day-date, .item").forEach(function (el) {
+        el.style.setProperty("--od-near", "0");
+      });
+    }, { passive: true });
+  }
+
+  function bindPrism() {
+    var cubes = document.querySelectorAll(".pp-cube");
+    if (!cubes.length) return;
+    document.__ppFeel = true;
+    if (reducedMotion()) {
+      var j;
+      for (j = 0; j < cubes.length; j++) {
+        cubes[j].style.setProperty("--pp-rx", "0deg");
+        cubes[j].style.setProperty("--pp-ry", "0deg");
+      }
+      return;
+    }
+    if (document.__ppBound) return;
+    document.__ppBound = true;
+
+    var drag = null;
+    var startX = 0;
+    var startY = 0;
+    var baseX = 0;
+    var baseY = 0;
+
+    function tilt(cube, px, py) {
+      var r = cube.getBoundingClientRect();
+      var nx = Math.max(-1, Math.min(1, (px - (r.left + r.width / 2)) / (r.width / 2 || 1)));
+      var ny = Math.max(-1, Math.min(1, (py - (r.top + r.height / 2)) / (r.height / 2 || 1)));
+      cube.style.setProperty("--pp-rx", (-ny * 8).toFixed(2) + "deg");
+      cube.style.setProperty("--pp-ry", (nx * 8).toFixed(2) + "deg");
+    }
+
+    window.addEventListener("pointermove", function (ev) {
+      if (!document.__ppFeel) return;
+      if (drag) {
+        var dx = ev.clientX - startX;
+        var dy = ev.clientY - startY;
+        drag.style.setProperty("--pp-x", (baseX + dx).toFixed(1) + "px");
+        drag.style.setProperty("--pp-y", (baseY + dy).toFixed(1) + "px");
+        tilt(drag, ev.clientX, ev.clientY);
+        return;
+      }
+      if (ev.pointerType === "touch") return;
+      var list = document.querySelectorAll(".pp-cube");
+      var i;
+      for (i = 0; i < list.length; i++) {
+        var cube = list[i];
+        var r = cube.getBoundingClientRect();
+        var inside = ev.clientX >= r.left && ev.clientX <= r.right &&
+          ev.clientY >= r.top && ev.clientY <= r.bottom;
+        if (inside) tilt(cube, ev.clientX, ev.clientY);
+        else {
+          cube.style.setProperty("--pp-rx", "0deg");
+          cube.style.setProperty("--pp-ry", "0deg");
+        }
+      }
+    }, { passive: true });
+
+    document.addEventListener("pointerdown", function (ev) {
+      if (!document.__ppFeel) return;
+      var cube = ev.target.closest && ev.target.closest(".pp-cube");
+      if (!cube) return;
+      drag = cube;
+      startX = ev.clientX;
+      startY = ev.clientY;
+      baseX = parseFloat(cube.style.getPropertyValue("--pp-x")) || 0;
+      baseY = parseFloat(cube.style.getPropertyValue("--pp-y")) || 0;
+      cube.classList.add("is-drag");
+      try { cube.setPointerCapture(ev.pointerId); } catch (e) {}
+    });
+
+    document.addEventListener("pointerup", function () {
+      if (drag) drag.classList.remove("is-drag");
+      drag = null;
+    });
+  }
+
   function bind(theme) {
     var day = document.querySelector("#skin-v2 .day");
-    if (day) day.__agaFeel = theme === "agamemnon";
+    if (day) {
+      day.__agaFeel = theme === "agamemnon";
+      day.__odFeel = theme === "ordered-dither";
+    }
     document.__isoFeel = theme === "isometric-mini";
     document.__polaroidFeel = theme === "polaroid";
+    document.__ppFeel = theme === "paper-prism";
     if (theme === "polaroid") bindPolaroid();
     else if (theme === "isometric-mini") bindIso();
     else if (theme === "agamemnon") bindAga();
     else if (theme === "stamp") bindStamp();
+    else if (theme === "ordered-dither") bindDither();
+    else if (theme === "paper-prism") bindPrism();
   }
 
   global.RikanFeel = { bind: bind };

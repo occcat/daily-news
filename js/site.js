@@ -7,6 +7,8 @@
   var HOME_LIST_MAX = 5;
   var DEFAULT_DATE = "2026-08-21";
   var THEME_START = "2026-08-22";
+  var WEEK2_START = "2026-08-30";
+  var HALFTONE_ROLLBACK = "2026-08-29";
   var THEMES = {
     "klein-halftone": 1,
     polaroid: 1,
@@ -14,8 +16,26 @@
     "isometric-mini": 1,
     agamemnon: 1,
     origami: 1,
-    "collector-card": 1
+    "collector-card": 1,
+    "ordered-dither": 1,
+    northflow: 1,
+    "gathered-zine": 1,
+    "cote-grid": 1,
+    "impasto-card": 1,
+    "paper-prism": 1,
+    "ascii-plot": 1
   };
+  var WEEK2 = {
+    "ordered-dither": 1,
+    northflow: 1,
+    "gathered-zine": 1,
+    "cote-grid": 1,
+    "impasto-card": 1,
+    "paper-prism": 1,
+    "ascii-plot": 1
+  };
+  var WEEK2_FONTS =
+    "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Special+Elite&display=swap";
   var WEEKDAYS = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
 
   function esc(s) {
@@ -129,8 +149,15 @@
     return p.iso < THEME_START;
   }
 
-  function resolveTheme(name) {
-    return THEMES[name] ? name : "klein-halftone";
+  function resolveTheme(name, iso) {
+    if (iso === HALFTONE_ROLLBACK) return "klein-halftone";
+    if (THEMES[name]) return name;
+    if (iso && iso >= WEEK2_START) return "ordered-dither";
+    return "klein-halftone";
+  }
+
+  function fallbackTheme(iso) {
+    return resolveTheme("", iso);
   }
 
   function armIn(el) {
@@ -142,7 +169,7 @@
 
   function landMotion(scope) {
     if (!scope) return;
-    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree").forEach(function (el) {
+    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree, .od-cluster, .nf-window, .pp-cube, .gz-band").forEach(function (el) {
       el.addEventListener("animationend", function (ev) {
         if (ev.target !== el) return;
         el.classList.add("is-landed");
@@ -359,8 +386,8 @@
     };
   }
 
-  function applyTheme(theme) {
-    theme = resolveTheme(theme);
+  function applyTheme(theme, iso) {
+    theme = resolveTheme(theme, iso);
     document.documentElement.setAttribute("data-theme", theme);
     document.body.setAttribute("data-theme", theme);
     var link = document.getElementById("theme-css");
@@ -370,6 +397,8 @@
         "theme-fonts",
         "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Homemade+Apple&display=swap"
       );
+    } else if (theme === "gathered-zine" || theme === "ascii-plot" || theme === "cote-grid") {
+      ensureStylesheet("theme-fonts", WEEK2_FONTS);
     }
     return theme;
   }
@@ -537,8 +566,104 @@
     "isometric-mini": "科技日报 · 每日速递",
     agamemnon: "科技 · 商业 · 未来",
     origami: "科技 · 商业 · 产品",
-    "collector-card": ""
+    "collector-card": "",
+    northflow: "在复杂的世界中 保持清醒与善意",
+    "gathered-zine": "每日一页，观察与记录。",
+    "paper-prism": "每日一图，认识世界。",
+    "cote-grid": "",
+    "ascii-plot": "",
+    "impasto-card": "Oil Painting"
   };
+
+  function threeWordTag(it) {
+    var en = ((it && it.title_en) || "").trim();
+    if (en) return en.split(/\s+/).slice(0, 3).join(" ");
+    var zh = titleOf(it).replace(/\s+/g, "");
+    return zh.slice(0, 3) || "皮肤预览";
+  }
+
+  function issueNo(iso) {
+    var p = parseISO(iso);
+    if (!p) return "";
+    return String((p.y - 2020) * 365 + p.mo * 31 + p.d);
+  }
+
+  function odChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="od-chrome" aria-hidden="true">' +
+      '<div class="od-cluster od-cluster--land"></div>' +
+      '<div class="od-cluster od-cluster--hill"></div>' +
+      "</div>"
+    );
+  }
+
+  function nfChromeHTML(iso) {
+    return (
+      '<div id="theme-chrome" class="nf-chrome">' +
+      '<div class="nf-window" aria-hidden="true"><span class="nf-window__dither"></span></div>' +
+      '<p class="nf-caps">EST · ' + esc(fmtMD(iso)) + " · 日刊</p>" +
+      "</div>"
+    );
+  }
+
+  function gzChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="gz-chrome" aria-hidden="true">' +
+      '<span class="gz-scrap gz-scrap--mustard"></span>' +
+      '<span class="gz-scrap gz-scrap--salmon"></span>' +
+      '<span class="gz-scrap gz-scrap--navy"></span>' +
+      '<span class="gz-plant"></span>' +
+      '<span class="gz-seal">记录日常</span>' +
+      "</div>"
+    );
+  }
+
+  function cgChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="cg-chrome" aria-hidden="true">' +
+      '<div class="cg-grid"></div>' +
+      "</div>"
+    );
+  }
+
+  function ppChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="pp-chrome">' +
+      '<span class="pp-arc pp-arc--1" aria-hidden="true"></span>' +
+      '<span class="pp-arc pp-arc--2" aria-hidden="true"></span>' +
+      '<button type="button" class="pp-cube" data-cube="a" aria-label="棱镜方块">' +
+      '<span class="pp-cube__glass"></span><span class="pp-cube__fringe"></span></button>' +
+      '<button type="button" class="pp-cube" data-cube="b" aria-label="棱镜方块">' +
+      '<span class="pp-cube__glass"></span><span class="pp-cube__fringe"></span></button>' +
+      '<p class="pp-hint" aria-hidden="true">拖动方块。</p>' +
+      "</div>"
+    );
+  }
+
+  function apChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="ap-chrome" aria-hidden="true">' +
+      '<pre class="ap-rule">+---+----------------------------------------------+---+</pre>' +
+      "</div>"
+    );
+  }
+
+  function dressTheme(theme, iso) {
+    clearThemeChrome();
+    if (!WEEK2[theme]) return;
+    var dayEl = document.querySelector("#skin-v2 .day");
+    var skin = document.getElementById("skin-v2");
+    var html = "";
+    if (theme === "ordered-dither") html = odChromeHTML();
+    else if (theme === "northflow") html = nfChromeHTML(iso);
+    else if (theme === "gathered-zine") html = gzChromeHTML();
+    else if (theme === "cote-grid") html = cgChromeHTML();
+    else if (theme === "paper-prism") html = ppChromeHTML();
+    else if (theme === "ascii-plot") html = apChromeHTML();
+    if (!html) return;
+    var host = theme === "cote-grid" ? skin : dayEl;
+    if (host) host.insertAdjacentHTML("afterbegin", html);
+  }
 
   function firstQuoteFromDay(day) {
     var items = (day && day.items) || [];
@@ -562,7 +687,13 @@
         ? fmtZhLong(iso)
         : (fmtDot(iso) + " | " + weekdayZh(iso));
     }
-    if (kick) kick.textContent = (theme && KICKERS[theme]) || "";
+    if (kick) {
+      if (theme === "cote-grid" || theme === "paper-prism") {
+        kick.textContent = issueNo(iso) ? ("第 " + issueNo(iso) + " 期") : "";
+      } else {
+        kick.textContent = (theme && KICKERS[theme]) || "";
+      }
+    }
     if (count && day) {
       var n = Math.min(MAX_ITEMS, (day.items || []).length);
       count.textContent = n
@@ -573,12 +704,15 @@
     var stubEl = document.getElementById("day-stub");
     if (stubEl) {
       stubEl.hidden = !(day && day.stub);
+      if (day && day.stub && iso >= WEEK2_START) {
+        stubEl.textContent = "皮肤预览 · 非正式当日稿";
+      }
     }
     document.title = "日刊 · " + fmtDot(iso);
   }
 
   function renderThemedItems(day, theme) {
-    theme = resolveTheme(theme);
+    theme = resolveTheme(theme, day && day.date);
     if (theme === "polaroid") {
       renderPolaroidItems(day);
       return;
@@ -604,14 +738,34 @@
       var hn = isHN(it.source);
       var q = quotesV2(it);
       var n = String(rank).padStart(2, "0") + ".";
-      var serial = fmtMD(day.date) + "-" + String(rank).padStart(2, "0");
+      var pad = String(rank).padStart(2, "0");
+      var serial = fmtMD(day.date) + "-" + pad;
+      if (theme === "impasto-card") serial = "No. " + serial;
       var cls = "item" +
         (idx === 0 ? " item--lead" : "") +
         (idx < 3 ? " item--poster" : " item--compact") +
         (hn ? " item--hn" : " item--nm");
       var agamemnon = theme === "agamemnon";
-      var visual = (klein || agamemnon) ? "" : (hn ? q.first : "");
+      var img = itemImageUrl(it);
+      var visual;
+      if (theme === "impasto-card") {
+        visual = img
+          ? '<img class="impasto-shot" src="' + esc(img) +
+            '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">'
+          : '<span class="impasto-paper"></span>';
+      } else {
+        visual = (klein || agamemnon) ? "" : (hn ? q.first : "");
+      }
       var quotes = (klein || agamemnon) ? q.all : q.rest;
+      var code = "";
+      var codeHidden = true;
+      if (theme === "impasto-card") {
+        code = "Oil Painting";
+        codeHidden = false;
+      } else if (theme === "gathered-zine") {
+        code = threeWordTag(it);
+        codeHidden = false;
+      }
       return (
         '<li class="' + cls + '" id="item-' + esc(String(rank)) + '" style="--i:' + idx + '">' +
         '<span class="item__id">' + esc(serial) + "</span>" +
@@ -632,7 +786,9 @@
           : "") +
         "</p>" +
         "</div>" +
-        '<span class="item__code" aria-hidden="true"></span>' +
+        '<span class="item__code"' + (codeHidden ? ' aria-hidden="true"' : "") + ">" +
+        esc(code) +
+        "</span>" +
         "</li>"
       );
     }).join("");
@@ -682,16 +838,17 @@
 
   function paintThemed(iso, day) {
     ensureStylesheet("day-base-css", "css/day-base.css");
-    ensureStylesheet("theme-css", "css/themes/klein-halftone.css");
+    ensureStylesheet("theme-css", "css/themes/" + fallbackTheme(iso) + ".css");
     activateSkin(false);
     if (!day) {
-      applyTheme("klein-halftone");
+      applyTheme(fallbackTheme(iso), iso);
       renderThemedHead(iso);
       return;
     }
-    var theme = applyTheme(day.theme);
+    var theme = applyTheme(day.theme, iso);
     renderThemedHead(iso, day, theme);
     renderThemedItems(day, theme);
+    dressTheme(theme, iso);
     var v2 = document.getElementById("skin-v2");
     armIn(v2);
     landMotion(v2);
@@ -719,10 +876,10 @@
   function bootThemedDay(date) {
     ensureStylesheet("day-base-css", "css/day-base.css");
     activateSkin(false);
-    /* Do not Klein-flood polaroid / isometric while JSON parts load. */
-    if (date === "2026-08-23") applyTheme("polaroid");
-    else if (date === "2026-08-25") applyTheme("isometric-mini");
-    else applyTheme("klein-halftone");
+    /* Do not Klein-flood polaroid / isometric / week-2 while JSON parts load. */
+    if (date === "2026-08-23") applyTheme("polaroid", date);
+    else if (date === "2026-08-25") applyTheme("isometric-mini", date);
+    else applyTheme(fallbackTheme(date), date);
     renderThemedHead(date);
     fetchJSON(date + ".json").then(function (day) {
       var iso = day.date || date;
@@ -732,7 +889,7 @@
       }
       paintThemed(iso, day);
     }).catch(function (err) {
-      applyTheme("klein-halftone");
+      applyTheme(fallbackTheme(date), date);
       var el = document.getElementById("items-v2");
       if (el) el.innerHTML = '<p class="empty">未能载入：' + esc(err.message) + "</p>";
     });
