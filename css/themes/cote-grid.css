@@ -176,6 +176,12 @@ body {
 }
 .item--poster .item__n { color: #fff; }
 
+.item--compact .item__n,
+.item--compact .item__id {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-weight: 400;
+}
+
 .item__visual,
 .item__mark,
 .item__code { display: none; }
