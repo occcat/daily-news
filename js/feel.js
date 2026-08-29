@@ -397,6 +397,9 @@
     function clearDense() {
       if (left) left.style.setProperty("--ke-dense", "0");
       if (right) right.style.setProperty("--ke-dense", "0");
+      document.querySelectorAll("#skin-v2 .item.is-hot").forEach(function (el) {
+        el.classList.remove("is-hot");
+      });
     }
 
     function apply(px, py, item) {
@@ -404,6 +407,10 @@
         clearDense();
         return;
       }
+      document.querySelectorAll("#skin-v2 .item.is-hot").forEach(function (el) {
+        if (el !== item) el.classList.remove("is-hot");
+      });
+      item.classList.add("is-hot");
       var lr = left && left.getBoundingClientRect();
       var rr = right && right.getBoundingClientRect();
       var ld = lr ? Math.hypot(px - (lr.left + lr.width / 2), py - (lr.top + lr.height / 2)) : 1e9;
