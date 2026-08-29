@@ -1,52 +1,9 @@
 [
   {
-    "date": "2026-09-05",
-    "theme": "ascii-plot",
-    "stub": true,
-    "summary": "皮肤预览",
-    "itemCount": 0
-  },
-  {
-    "date": "2026-09-04",
-    "theme": "paper-prism",
-    "stub": true,
-    "summary": "皮肤预览",
-    "itemCount": 0
-  },
-  {
-    "date": "2026-09-03",
-    "theme": "impasto-card",
-    "stub": true,
-    "summary": "皮肤预览",
-    "itemCount": 0
-  },
-  {
-    "date": "2026-09-02",
-    "theme": "cote-grid",
-    "stub": true,
-    "summary": "皮肤预览",
-    "itemCount": 3}
-  },
-  {
-    "date": "2026-09-01",
-    "theme": "gathered-zine",
-    "stub": true,
-    "summary": "皮肤预览",
-    "itemCount": 0
-  },
-  {
-    "date": "2026-08-31",
-    "theme": "northflow",
-    "stub": true,
-    "summary": "皮肤预览",
-    "itemCount": 0
-  },
-  {
-    "date": "2026-08-30",
-    "theme": "ordered-dither",
-    "stub": true,
-    "summary": "皮肤预览",
-    "itemCount": 0
+    "date": "2026-08-29",
+    "theme": "klein-halftone",
+    "summary": "8月29日的新闻同时被一次CRISPR降脂试验与欧盟重提冻俄资产、彭湖前线演练与印度标枪采购，以及Windows预装退款和键盘驱动界面的评论区拉开。\n实验室里，CRISPR Therapeutics的CTX310在15名难治性血脂患者中把最高剂量组的LDL与甘油三酯压到约一半，并维持至少一年；多伦多团队用工程tRNA读穿提前终止密码子，在囊性纤维化模型里恢复全长蛋白。荷兰内阁提出扩大情报机构权限的新法；瑞典、荷兰、西班牙、波兰联名要求欧盟重开约2100亿欧元冻俄主权资产的讨论。彭湖守军在汉光演习中演练抗登陆；五角大楼政策次长科尔比在北约要求欧洲主导常规防务与援乌。瑞典将向芬兰派出JAS 39 Gripen与舰艇巡逻俄芬边境；印度陆军签署FMS标枪采购意向。大阪公立大学追踪菟丝子如何把偷来的宿主基因改造成自己的内含子。关塔那摩军事法官把9/11主谋开庭定在2028年6月5日。伦敦NHNN用实时AI辅助切除垂体瘤保住48岁患者视力；ESC等四家心脏学会发布第五版全球心梗定义，引入性别特异性肌钙蛋白阈值。纽约联邦法官第三次驳回特朗普把封口费案移到联邦法院的请求；牛津团队发现重组带状疱疹疫苗与七年内心血管负担下降约9%相关。八十余名英国演员联名要求法定拥有自己的声音。\nHN这边：refund4freedom的Windows许可证退款指南冲上645赞、269评；键盘驱动GUI拿到577赞；联邦法官裁定特朗普政府对Anthropic的黑名单违法，506赞371评。htmx 4.0发布491赞；开源体素游戏Luanti因无根据的AI版权通知被Google Play下架。Orbify的盗梦空间式弯曲导航图、用散度定理算体积、以及“谣言就够挖出漏洞”并列首页；Twelve-Factor 2025修订、OpenAI Python SDK迁到HTTPX2、智能电视HDMI侧信道、State of the Map 2026、乌鸦与人的关系、德语词Verschlimmbesserung，以及无中心多智能体数学发现，把评论区从退款、无障碍一路拉到证明与假期。\n一条贯穿全天的线是：一次基因编辑、一次许可证退款、一次黑名单判决，都在给“谁还拥有身体、机器和默认入口”定价。",
+    "itemCount": 30
   },
   {
     "date": "2026-08-28",

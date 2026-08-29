@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 1,
+      "title": "CRISPR Gene Therapy Cuts High Cholesterol in One-Time Treatment",
+      "title_zh": "一次性CRISPR基因疗法显著降低高胆固醇，效果至少维持一年",
+      "publisher": "time.com",
+      "article_url": "https://time.com/article/2026/08/28/one-time-treatment-high-cholesterol-crispr-results/",
+      "significance_score": 6.3,
+      "summary_zh": "Time：《新英格兰医学杂志》报告CRISPR Therapeutics的CTX310在15名难治性高血脂患者中，以单次静脉输注编辑肝脏ANGPTL3基因。最高剂量组ANGPTL3酶水平下降近80%，LDL与甘油三酯降幅约50%，并维持至少一年；未出现与治疗相关的严重不良事件。克利夫兰诊所的Luke Laffin称这是CRISPR展示耐久性的重要一步；公司已启动下一阶段试验，年底前有望再交出数据。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Luke Laffin",
+          "en": "This is a really big step for CRISPR to show the durability of the result.",
+          "zh": "这是CRISPR展示结果耐久性的真正一大步。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 2,
+      "title": "Get your Windows license refund",
+      "title_zh": "拿回你的Windows许可证退款",
+      "publisher": "en.refund4freedom.org",
+      "article_url": "https://en.refund4freedom.org/",
+      "significance_score": null,
+      "summary_zh": "refund4freedom整理欧洲等地向PC厂商追讨预装Windows许可证退款的路径与厂商难易度，HN上645赞、269评。评论区有人回忆2011年从戴尔拿回143欧元，也有人提到1999年的Windows Refund Day；共识是笔记本“Windows税”仍未解决，装机玩家比笔记本用户更容易避开。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "blaze33",
+          "en": "In 2011 I got a 143€ reimbursement from Dell for an E6420 laptop that I had bought for 910€.\n\nMaybe I got lucky but I called the customer service, told the lady I did not agree with the Windows license terms, fully ready to argue my case and she just went \"oh, ok, let me just edit a new invoice and wire you the money for Windows plus the Antivirus plus etc.\".\n\nWhich was extra nice because I had no idea I was in fact charged for the bloatware, but I still got ~50€ for it on top of the OS license price.\n\nThis being 15 years ago it feels like a forever unsolved issue. My opinion remains the same, that a personal computer should not be tied to a specific OS. But now with smartphones the hardware/software (de)coupling situation seems even worse.",
+          "zh": "2011年我为一台910欧元买的E6420笔记本从戴尔拿回了143欧元退款。\n\n也许是运气好，我打给客服，说自己不同意Windows许可条款，已经准备好争辩，对方只说“哦行，我改一张发票，把Windows加上杀毒软件那些钱打给你”。\n\n更妙的是我当时根本不知道自己还被收了预装垃圾软件的钱，却额外拿回了大约50欧元。\n\n这已经是15年前的事，却像一个永远解不开的问题。我的看法没变：个人电脑不该绑定特定操作系统。但现在有了智能手机，软硬件（解）耦的状况似乎更糟了。"
+        },
+        {
+          "type": "comment",
+          "author": "schoen",
+          "en": "I was part of an event called \"Windows Refund Day\" in 1999 (I think) to draw attention to this issue. We had a march to a Microsoft office to ask for refunds (unsuccessfully). It was fun, but it's 27 years later and it's still a problem.\n\nEdit: it's covered on Wikipedia at https://en.wikipedia.org/wiki/Windows_Refund_Day",
+          "zh": "我参加过大约1999年的“Windows退款日”，就是为了把这个问题摆上台面。我们游行到微软办公室要求退款（没成功）。挺好玩的，可27年过去了，问题还在。\n\n编辑：维基百科有条目 https://en.wikipedia.org/wiki/Windows_Refund_Day"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49478340",
+      "hn_points": 645,
+      "hn_comments": 269,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 3,
+      "title": "New RNA therapy platform opens door to treating thousands of genetic diseases",
+      "title_zh": "新一代tRNA疗法平台有望覆盖数千种遗传疾病",
+      "publisher": "utoronto.ca",
+      "article_url": "https://www.utoronto.ca/news/rna-breakthrough-provides-hope-thousands-untreatable-diseases",
+      "significance_score": 6.1,
+      "summary_zh": "多伦多大学新闻：Bowen Li团队在8月27日《科学》上报告，工程转运RNA（tRNA）可帮助细胞读穿无义突变造成的提前终止信号，在囊性纤维化实验室与临床前模型中恢复全长蛋白。无义突变约占遗传疾病的11%，但涉及数千种病；与现有CFTR调节剂联用时，对四种突变叠加、单药无效的患者类器官也出现响应。团队用定制脂质纳米颗粒递送tRNA，并证明雾化可行性，朝吸入给药迈出一步。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Bowen Li",
+          "en": "Our long-term goal is to develop tRNA medicines that recognize these shared stop signals, so that one therapeutic strategy could potentially be applied across many different genetic diseases.",
+          "zh": "我们的长期目标是开发能识别这些共享终止信号的tRNA药物，让同一套治疗策略有可能覆盖许多不同的遗传疾病。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 4,
+      "title": "GUIs should be fully keyboard-driven",
+      "title_zh": "图形界面应当完全可由键盘驱动",
+      "publisher": "ckardaris.com",
+      "article_url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+      "significance_score": null,
+      "summary_zh": "ckardaris博文主张GUI应像好的TUI一样全键盘可操作，HN上577赞、290评。支持者从无障碍（ADA、读屏、Tab焦点链）谈到Cocoa的nextKeyView；反对者提醒大多数人不是Arch极客，快捷键不可发现就等于没有。争论焦点从“该不该键盘驱动”转到“怎样既可发现又不逼用户背快捷键”。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "cosmic_cheese",
+          "en": "Keyboard accessibility is one of those things that tends to get swept under the rug or forgotten about entirely alongside accessibility in general. The funny thing is that the former usually falls out of the latter.\n\nPart of the blame lands on the shoulders of popular UI frameworks (or in the case of those choosing to eschew use of such, the developers who made that choice). The older frameworks tend to make this fairly easy; for example, in Cocoa/AppKit (Mac native UI framework), one can pretty easily wire up their entire UI for proper keyboard navigation entirely visually (mostly just consists of connecting nextKeyView outlet between controls to produce a logical chain to tab-focus through). Defining key shortcuts is also simple; add a menu item for a command and set its corresponding shortcut (which in turn allows the user to rebind the shortcut in System Settings at will).\n\nThat sort of design has fallen out of favor with newer frameworks, unfortunately. The new preferred style seems to be a wireframe that the dev chooses which parts fill in, and often only the barest of essentials makes the cut.",
+          "zh": "键盘无障碍往往和整个无障碍一起被扫到地毯下面，甚至被彻底忘掉。有意思的是，前者通常是后者的自然产物。\n\n一部分责任在流行的UI框架身上（如果有人选择不用框架，责任就在做这个选择的开发者）。老框架通常让这件事相当容易；比如在Cocoa/AppKit里，几乎可以纯可视化地把整个界面接成正确的键盘导航（主要就是在控件之间连nextKeyView，形成Tab焦点链）。定义快捷键也很简单：给命令加菜单项并设快捷键，用户还能在系统设置里自行改绑。\n\n可惜这种设计在新框架里失宠了。现在更流行的是一张线框，由开发者决定填哪些部分，往往只剩下最最基本的东西。"
+        },
+        {
+          "type": "comment",
+          "author": "manlymuppet",
+          "en": "Power user experience is not the same thing as user experience in general. If you want to make the argument that all developer tooling should be keyboard-driven, fine, be my guest. But most people aren't willing to deal with the learning curve of keyboard-driven GUIs, and that's okay. We shouldn't force it.\n\nHN's insistence on acting like all users are Arch Linux efficiency perfectionist hacker types is painfully corny.\n\n(This reads harsher than I intended. Sorry about that. I love Arch Linux people. It's just think it's no less noble to serve the average Joe than to create the perfect tool for power users.)",
+          "zh": "高手体验和一般用户体验不是一回事。如果你要论证所有开发者工具都该键盘驱动，悉听尊便。但大多数人并不愿意应付键盘驱动GUI的学习曲线，这没问题。我们不该强迫。\n\nHN坚持把所有用户都当成Arch Linux效率完美主义黑客，实在俗得发疼。\n\n（读起来比我想的刺耳。抱歉。我喜欢Arch的人。我只是觉得服务普通用户，并不比给高手做完美工具更不高贵。）"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49479837",
+      "hn_points": 577,
+      "hn_comments": 290,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 5,
+      "title": "Dutch cabinet proposes law to expand intelligence services' powers",
+      "title_zh": "荷兰内阁提案扩大情报机构权限：对“明显对手”可先行动后审查",
+      "publisher": "nrc.nl",
+      "article_url": "https://www.nrc.nl/nieuws/2026/08/28/kabinet-wil-met-een-nieuwe-wet-de-bevoegdheden-van-veiligheidsdiensten-verruimen-a4935371",
+      "significance_score": 6.0,
+      "summary_zh": "NRC：内阁通过《国家情报安全局保护法》（Wbnv）草案，拟替换2017年情报法。AIVD与MIVD在把外国行为体标为“明显对手”后，可在未经事先批准的情况下实施侵入、搜集与破坏，改由新的审查监督委员会事后把关；银行、大学与在线平台可被强制提供数据。国防大臣Dilan Yeşilgöz称“这会让我们的刀更锋利”。草案先进入互联网公开咨询，再交议会。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Dilan Yeşilgöz",
+          "en": "Putin and his cronies do not deserve our privacy, but the people of the Netherlands do.",
+          "zh": "普京和他的同伙不配享有我们的隐私，但荷兰人民配。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 6,
+      "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
+      "title_zh": "法官裁定特朗普政府对Anthropic的黑名单违法",
+      "publisher": "nytimes.com",
+      "article_url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+      "significance_score": null,
+      "summary_zh": "纽约时报：联邦法官裁定特朗普政府将Anthropic列入黑名单违法。行政记录只有一份四页备忘录，且其中两项行动发生在备忘录之前；政府已撤回“Anthropic对部署系统有后门”的核心风险评估。HN上506赞、371评。评论认为这是对受保护言论的报复，国家安全尊重要让位于明显的惩罚性执法。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "andrewla",
+          "en": "I think this both overstates and understates the case. The evidence being weak does not invalidate the decision; as the court notes, the government gets substantial deference on matters of national security.\n\nThe invalidation comes from the fact that this is clearly retaliatory behavior for speech; and the evidence for this is fairly strong since the administration has made public statements to that effect.\n\nThe evidence being weak means that it is clear that there is no reasonable belief that the cause of action is anything but an attempt to apply a penalty for the use of protected speech.",
+          "zh": "我觉得这既夸大也低估了案情。证据薄弱本身并不使裁决无效；正如法院指出的，政府在国家安全事项上享有很大尊重。\n\n使之无效的是：这明显是对言论的报复；证据相当充分，因为政府自己公开发过这类表态。\n\n证据薄弱意味着，可以清楚地看出，诉因除了惩罚受保护言论的使用之外，不存在任何合理依据。"
+        },
+        {
+          "type": "comment",
+          "author": "embedding-shape",
+          "en": "This is probably as a concise summary as you could get from there:\n\n> Defendants have now submitted the administrative record justifying those actions. The record is slim. A four-page memorandum, which post dates two of the three challenged actions, provides the entirety of the government’s rationale. Defendants have now backed away from the thrust of their risk assessment, which relied on Anthropic having backdoor access to its technology once deployed in a national security system. It is now clear that Anthropic undisputedly lacks any such access and that, as Defendants concede, Anthropic’s technology is itself no riskier to the national security than any other “black box” artificial intelligence model",
+          "zh": "大概是能从那里抽出的最精炼的摘要：\n\n> 被告现已提交为这些行动辩护的行政记录。记录很薄。一份四页备忘录——而且晚于三项被质疑行动中的两项——构成政府理由的全部。被告现已撤回其风险评估的核心，即Anthropic一旦部署到国家安全系统中就会拥有后门访问。现在已经清楚，Anthropic无可争议地没有这种访问；正如被告所承认的，Anthropic的技术本身对国家安全的风险，并不高于任何其他“黑箱”人工智能模型。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49473522",
+      "hn_points": 506,
+      "hn_comments": 371,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 7,
+      "title": "EU revives plan to use frozen Russian assets for Ukraine",
+      "title_zh": "瑞典荷西波联名：欧盟应重开用冻俄资产援乌的讨论",
+      "publisher": "politico.eu",
+      "article_url": "https://www.politico.eu/article/eu-heavyweights-call-on-brussels-to-reignite-frozen-russian-asset-debate/",
+      "significance_score": 5.9,
+      "summary_zh": "Politico：瑞典、荷兰、西班牙、波兰外长8月27日致信欧盟外交与安全政策高级代表卡拉斯和爱尔兰外长，要求在9月1–2日威克洛非正式外长会（Gymnich）上重开冻俄主权资产讨论。欧盟境内约2100亿欧元俄央行资产大部分存在比利时Euroclear；去年12月因比利时要求无限担保未达成“赔偿贷款”，改走共同发债的900亿欧元贷款。泽连斯基称国防资金缺口约230亿欧元。四国要求欧委会拿出风险由全体成员国分担、不让任何一国承受不成比例负担的新方案。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "letter from Sweden, the Netherlands, Spain and Poland",
+          "en": "We believe now is the time to revert to the issue of how we can make further use of Russia’s immobilised assets for the benefit of Ukraine.",
+          "zh": "我们认为，现在是重新讨论如何进一步利用俄罗斯被冻结资产以惠及乌克兰的时候了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 8,
+      "title": "Htmx 4.0",
+      "title_zh": "htmx 4.0 发布",
+      "publisher": "four.htmx.org",
+      "article_url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+      "significance_score": null,
+      "summary_zh": "htmx 4.0.0于8月28日发布，HN上491赞、121评。拥护者把它当成对前端过度复杂化的解药，有人用Go+htmx+SQLite当默认实验栈；也有.NET/Angular开发者认为回到服务端出UI是倒退。htmx创始人在评论区现身称自己是CEO of HTMX。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "rednb",
+          "en": "Maybe a contrarian view, but as someone very knowledgeable about .NET API backends + angular on the frontend, I've found that HTMX made things more difficult as it required me to move back to mixing presentation concerns with business-logic and data concerns (basically have the backend produce the UI, which is whole point of HTMX).\n\nThis is not a criticism but I suspect that the people enjoying HTMX are either people preferring old-school server-side rendering or react users.\n\nJust sharing my experience, because HTMX is the absolute darling of hacker news.\n\nSince i mainly develop real SPA, i found that is more complex than just using typscrpit if you build something non-trivial as managing state on the server is not fun at all.\n\nIn my opinion if you are happy using angular, you'll find that HTMX is a step backward in terms for dev experience. Can't speak about react, but since it is not a battery included stack unlike Angular, i can understand why many people find they'd be better off moving things server-side instead of messing around with 15 third-party libraries. My 2 cents",
+          "zh": "也许是唱反调：我很熟悉.NET API后端加Angular前端，发现HTMX让事情更难了，因为它逼我重新把展示关注点和业务/数据关注点混在一起（本质上让后端产出UI，而这正是HTMX的要点）。\n\n这不是批评，但我怀疑喜欢HTMX的人要么偏爱老派服务端渲染，要么是React用户。\n\n只是分享经验，因为HTMX绝对是Hacker News的宠儿。\n\n我主要做真正的SPA，一旦做非平凡的东西，在服务端管状态一点都不好玩，比直接用TypeScript更复杂。\n\n如果你用Angular用得开心，会觉得HTMX在开发体验上是退步。React我不好说，但它不像Angular那样开箱即用，我能理解为什么很多人宁愿把东西搬回服务端，也不想跟15个第三方库纠缠。一孔之见。"
+        },
+        {
+          "type": "comment",
+          "author": "threesmegiste",
+          "en": "A thoughtful, clean, and useful library that wasn't built to climb the corporate ladder. It grew organically. I think it became a cry of relief for those annoyed by unnecessary complexity, which also boosted its recognition. It served as a starting point for things like Datastar, too. I believe it brought a refreshing breath of air to the frontend landscape.",
+          "zh": "一个审慎、干净、有用的库，不是为了爬公司梯子而做的。它是自然长出来的。我觉得它成了对那些被无谓复杂性惹恼的人的一声解脱，这也抬高了它的能见度。它还成了Datastar一类项目的起点。我认为它给前端带来了一股清新空气。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49478178",
+      "hn_points": 491,
+      "hn_comments": 121,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 9,
+      "title": "Taiwan's Penghu Troops Drill for Chinese Invasion Threat",
+      "title_zh": "台湾澎湖守军演练应对解放军首波打击",
+      "publisher": "japantimes.co.jp",
+      "article_url": "https://www.japantimes.co.jp/news/2026/08/28/asia-pacific/taiwan-defense-chinese-strike-prepare/",
+      "significance_score": 5.8,
+      "summary_zh": "Japan Times（澎湖电）：汉光演习期间，驻澎湖数千名守军在黎明前把105毫米炮弹装进坦克，演练抗登陆。澎湖由约90座岛屿组成，距台湾本岛西南约50公里，安全官员与军事专家认为一旦开战会是解放军第一波目标。海军岸置作战指挥部首次把雄风反舰导弹发射车部署到海滩阵地；官员称可在解放军于对岸集结时就实施打击，并与本岛形成交叉火力。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Japan Times",
+          "en": "If Beijing decides to attack, they will be on Taiwan’s front line.",
+          "zh": "如果北京决定进攻，他们将站在台湾的前线。"
+        }
+      ],
+      "fetch_notes": "正文其余部分遇付费墙；引语取自文首导语。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 10,
+      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+      "title_zh": "开源体素游戏Luanti因无根据的AI版权通知被Google Play下架",
+      "publisher": "blog.luanti.org",
+      "article_url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+      "significance_score": null,
+      "summary_zh": "Luanti（原Minetest）官方博客：Google Play因Tracer AI发出的版权通知将其下架，团队称通知毫无根据；同一公司2023年发过类似通知并被成功申诉，今年又打过画风相近的独立游戏Allumeria。HN上429赞、132评。评论痛批DMCA成了大公司欺压小创作者的工具，有人建议对错误打击收取保证金。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "SwellJoe",
+          "en": "I know this isn't the point but this post is a master class in how to inform readers when you expect people from outside your community to read it.\n\nIt explains what every element is, concisely but clearly. I now know exactly what Luanti is, who all the actors are in this conflict, and what the conflict is about. It clearly conveys the who, what, when, where and why of the situation.\n\nAlso, DMCA is a damned mess, with the worst people in the world profiting from it and bullying small creators. There really should be better mechanisms to defend oneself from spurious claims.",
+          "zh": "我知道这不是重点，但这篇文章堪称范文：当你预期社区以外的人会读时，该怎么把读者讲明白。\n\n它简洁清楚地解释了每一个元素。我现在确切知道Luanti是什么、冲突里各方是谁、争执的是什么。人物、事件、时间、地点和原因都交代清楚了。\n\n另外，DMCA就是一团糟，全世界最糟糕的人靠它赚钱、欺负小创作者。真该有更好的机制来抵御毫无根据的主张。"
+        },
+        {
+          "type": "comment",
+          "author": "vintermann",
+          "en": "We received a similar notice from the same company in 2023 and successfully appealed against it. This company also filed a similar notice this year against an indie game with similar voxel art style by the name of Allumeria.\n\nThey'll backtrack and apologize - again.\n\nAt some point, the pathway for Microsoft to regain some of the goodwill associated with Minecraft is to fire the senior lawyer most responsible for sending out these notices.",
+          "zh": "我们2023年收到过同一家公司的类似通知，并成功申诉。这家公司今年还对画风相近的独立体素游戏Allumeria发过类似通知。\n\n他们会再一次改口并道歉。\n\n微软若想挽回一点与《我的世界》相关的善意，终究得把最该为这些通知负责的高级律师炒掉。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49475079",
+      "hn_points": 429,
+      "hn_comments": 132,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

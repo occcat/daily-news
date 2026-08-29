@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 21,
+      "title": "London surgeons remove brain tumour with live AI assistance",
+      "title_zh": "伦敦外科医生在实时AI辅助下切除脑瘤，保住患者视力",
+      "publisher": "rte.ie",
+      "article_url": "https://www.rte.ie/news/newslens/2026/0827/1589395-ai-surgery/",
+      "significance_score": 5.6,
+      "summary_zh": "RTE：伦敦国家神经病学与神经外科医院（NHNN，隶属UCLH）5月为48岁的Rhys Hibbert切除垂体瘤，首次在真人手术中使用实时AI。系统由UCL Hawkes研究所用数百段手术视频训练，分析内镜画面、给血管与视神经等关键结构上色，医生仍全程掌控。官方称这一区域“偏一毫米就可能造成关键差别”；Hibbert说手术保住了视力，现已重返工作。团队准备扩大试验，常规临床应用尚需监管批准。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Hani Marcus",
+          "en": "Huge thanks to the trial participants and to the team committed to improving patient outcomes by taking this important first step globally and using UK homegrown AI to help reduce risk during these delicate surgeries.",
+          "zh": "非常感谢试验参与者和团队，他们迈出这全球性的重要第一步，用英国本土AI帮助降低这类精细手术中的风险，以改善患者结局。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 22,
+      "title": "Stopping the smart TV from being used against you",
+      "title_zh": "别让智能电视反过来对付你：HDMI/EDID也会触发系统更新",
+      "publisher": "s-config.com",
+      "article_url": "https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/",
+      "significance_score": null,
+      "summary_zh": "s-config博文讨论即便电视完全离线，经HDMI或DisplayPort接到HTPC时，显示器EDID仍可能触发Windows更新拉取厂商配套应用。HN上137赞、106评。许多人没读原文就骂智能应用；细读的人指出EDID本身只是能力声明，真正拉驱动的是Windows，并讨论用硬件阻断器切断这条侧信道。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "fckgw",
+          "en": "It's shocking how many comments here didn't bother to read the article. At all.\n\nThey're not talking about putting the TV online. The TV is completely offline.\n\nThey're talking about plugging the TV into a PC or laptop via HDMI or Displayport (like if you're running an HTPC), which then triggers a companion app update on the PC via Windows Update. This was a news item a few weeks ago with their monitors. They then also discuss a hardware blocker for HDMI or DP to prevent this.\n\nAgain, this has nothing to do about the TV's smart apps.",
+          "zh": "这里有多少评论压根没读原文，令人震惊。完全没读。\n\n他们说的不是给电视上网。电视是完全离线的。\n\n他们说的是通过HDMI或DisplayPort把电视接到PC或笔记本（比如你在跑HTPC），然后经Windows Update在电脑上触发配套应用更新。几周前他们的显示器刚出过这类新闻。文章接着还讨论了用HDMI或DP硬件阻断器来防止这件事。\n\n再说一遍，这跟电视的智能应用无关。"
+        },
+        {
+          "type": "comment",
+          "author": "mtlynch",
+          "en": "I couldn't understand what this article was saying.\n\nThere's nothing nefarious about EDIDs. EDIDs are just a way of the monitor to announce its capabilities to the device so that the device and the display can agree on things like resolution, refresh rate, etc. EDIDs are just blobs of data without capability to execute logic, as far as I'm aware.\n\nIt sounds like the author is claiming that Windows does some sort of driver update in response to EDID announcements, but OP doesn't explain it at all. If that's true, that would entirely be on the Windows end not on the EDID's end. It sounds like Windows is recognizing LG as the manufacturer declared in the EDID and then downloading a driver for LG. I don't think there's any way for the EDID to declare to the OS that it wants to perform a driver update.",
+          "zh": "我没看懂这篇文章在说什么。\n\nEDID本身没有什么阴险的。它只是显示器向设备声明能力的方式，好让双方在分辨率、刷新率等事情上达成一致。据我所知，EDID只是数据块，没有执行逻辑的能力。\n\n听起来作者是在说Windows会响应EDID声明去做某种驱动更新，但原文完全没解释。如果属实，那完全是Windows这边的事，不是EDID的事。听起来Windows认出EDID里声明的制造商是LG，然后去下载LG驱动。我不认为EDID有任何办法向操作系统声明“我想做一次驱动更新”。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49483816",
+      "hn_points": 137,
+      "hn_comments": 106,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 23,
+      "title": "Global heart attack definition updated to improve women's care",
+      "title_zh": "全球心梗定义更新：引入性别特异性阈值，改善女性诊疗",
+      "publisher": "theguardian.com",
+      "article_url": "https://www.theguardian.com/society/2026/aug/28/doctors-care-revolution-agree-first-universal-definition-heart-attack",
+      "significance_score": 5.5,
+      "summary_zh": "卫报：欧洲心脏病学会、美国心脏病学会、美国心脏协会与世界心脏联盟在慕尼黑公布第五版全球心肌梗死统一定义。分类改为病理生理导向的原发性、继发性与操作相关三类，并引入性别特异性肌钙蛋白阈值，以纠正“用平均值漏掉部分女性”的系统偏差。冠状动脉痉挛、栓塞与自发性夹层（SCAD）等在女性中可高出最多约10倍的类型被提升重视；SCAD患者中至少八成是女性，常发生在孕期或产后。爱丁堡大学Nicholas Mills称这是“一场革命”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Bryan Williams",
+          "en": "This is a landmark moment, a radical shift in how we define and diagnose heart attacks worldwide which will transform people’s care.",
+          "zh": "这是一个里程碑时刻，是我们在全球范围内定义和诊断心脏病发作方式的根本转变，将改变人们得到的照护。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 24,
+      "title": "State of the Map 2026",
+      "title_zh": "OpenStreetMap 2026年State of the Map大会",
+      "publisher": "2026.stateofthemap.org",
+      "article_url": "https://2026.stateofthemap.org/",
+      "significance_score": null,
+      "summary_zh": "OpenStreetMap年度大会State of the Map 2026网站上HN，136赞、50评。贡献者写到改一个地址、补一条小径会扩散到无数导航产品，比在大厂干十年更有“把世界变好一点”的实感。StreetComplete把补全做成走路打卡任务；同期广岛还有FOSS4G，开源地理圈同一周排满。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "fitblipper",
+          "en": "Contributing to Open Street Map has given me a ton of satisfaction.  Knowing that my somewhat minor efforts to correct one address, add one feature, correct one trail will propagate to so many different places and help other people not get lost, find something new, or just be able to navigate more safely in the world makes me feel like I am leaving the world a better place more than a decade of working at FANG ever did.",
+          "zh": "给OpenStreetMap做贡献给了我极大满足。知道我改一个地址、加一个地物、修正一条小径这些不算大的努力，会传播到那么多地方，帮别人不迷路、发现新东西、或只是更安全地导航，这种“把世界变好一点”的感觉，比在FANG干十年都强。"
+        },
+        {
+          "type": "comment",
+          "author": "hrnnnnnn",
+          "en": "If you want a fun and easy way to contribute to OSM I recommend StreetComplete. You get a bunch of game-like quest icons for things like \"what is the surface of this path?\", and \"does this road have a cycle path?\", then you walk around and fill them in.\n\nVery satisfying and feels like you're doing something actually useful. Also nudges you to visit parts of your neighborhood you might never have been to before.",
+          "zh": "如果你想找一种有趣又简单的方式给OSM做贡献，我推荐StreetComplete。你会看到一堆游戏式任务图标，比如“这条路的路面是什么”、“这条路有没有自行车道”，然后走着把它们填上。\n\n非常有成就感，感觉自己在做真正有用的事。还会把你推去那些可能从没去过的街区角落。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49478401",
+      "hn_points": 136,
+      "hn_comments": 50,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 25,
+      "title": "Federal judge rejects Trump's third bid to move hush money case to federal court",
+      "title_zh": "联邦法官第三次驳回特朗普将封口费案移至联邦法院的请求",
+      "publisher": "apnews.com",
+      "article_url": "https://apnews.com/article/trump-hush-money-conviction-8ef34a954c61b7e4261827b8a6a99567",
+      "significance_score": 5.5,
+      "summary_zh": "美联社：纽约南区联邦法官Alvin Hellerstein周五第三次拒绝特朗普把已判决的纽约州封口费案移到联邦法院、并借总统豁免权推翻定罪的请求。法官写明理由“既不新、也不充分”，并称“向成人电影演员支付封口费或掩盖尴尬事，并不被总统豁免权涵盖”。特朗普团队当日提出上诉。2024年5月陪审团裁定34项伪造商业记录罪名成立，2025年1月被无条件免刑但定罪仍在；州上诉程序另行进行。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Alvin K. Hellerstein",
+          "en": "They do not; paying hush money to an adult film star or engaging in a cover-up of an embarrassment are not subsumed in presidential immunity.",
+          "zh": "它们并不构成；向成人电影演员支付封口费，或掩盖一件尴尬事，并不被总统豁免权所涵盖。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 26,
+      "title": "An investigation into the state of corvid–human relations",
+      "title_zh": "调查乌鸦与人的关系：友谊是否只在野生动物的条款上成立",
+      "publisher": "audubon.org",
+      "article_url": "https://www.audubon.org/magazine/are-crows-really-our-friends",
+      "significance_score": null,
+      "summary_zh": "《奥杜邦》杂志长文追问乌鸦是否真是人类的朋友。HN上106赞、63评。有人描述缺领羽的乌鸦白天趴在窗外观察自己；有人引用西雅图戴面具诱捕实验：乌鸦会记住危险的人脸并告诉同伴，幼鸟还能从父母那里垂直学到驱赶。关系像友谊，也像交易。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "mlmonkey",
+          "en": "I like the fact that they are so ... observant. A specific crow (I recognize him due to the missing feathers around his collar) will spend a while sitting on a tree outside my window, observing me for no reason. I do feed them generally by leaving peanuts in a specific area in the backyard early in the morning, and I'm sure this one partakes in the feast; but I have never rewarded his presence in any form, and yet there he is, in the middle of the day, just hanging out on the branch of the leafless tree, just sitting there, observing me. If I turn around and make eye contact, he often flies away. But I can see him in the reflection on my ipad's screen, and if I don't turn around and make eye contact, he will stay there for a while.\nIt is fun interacting with \"smart\" creatures who have their own personalities and active social lives.",
+          "zh": "我喜欢它们那么……善于观察。有一只特定的乌鸦（我认出它是因为领口附近缺羽毛）会在窗外树上坐上一会儿，毫无理由地观察我。我通常清早在后院固定地点放花生，肯定它也来吃；但我从未以任何形式奖励它的出现，它却在大白天就在那棵没叶子的树枝上待着，坐着观察我。如果我转身对上眼，它常常飞走。但我能从iPad屏幕反光里看见它；只要我不转身对视，它就会待一阵子。\n和有自己性格、活跃社交生活的“聪明”生物互动，很有意思。"
+        },
+        {
+          "type": "comment",
+          "author": "smurda",
+          "en": "Crows can remember a dangerous person and tell their friends about it. From \"Social learning spreads knowledge about dangerous humans among American crows\" (https://faculty.washington.edu/wirsinga/Cornell2011.pdf)\n\nWe exposed wild crows to a novel ‘dangerous face’ by wearing a unique mask as we trapped, banded and released 7 –15 birds at five study sites near Seattle, WA, USA. An immediate scolding response to the dangerous mask after trapping by previously captured crows demonstrates individual learning, while an immediate response by crows that were not captured probably represents conditioning to the trapping scene by the mob of birds that assembled during the capture. Later recognition of dangerous masks by lone crows that were never captured is consistent with horizontal social learning. Independent scolding by young crows, whose parents had conditioned them to scold the dangerous mask, demonstrates vertical social learning.",
+          "zh": "乌鸦能记住危险的人并告诉同伴。来自论文《社会学习在美洲乌鸦中传播关于危险人类的知识》。\n\n我们在华盛顿州西雅图附近五个研究点戴独特面具诱捕、环志并释放7–15只鸟，让野乌鸦接触一张新的“危险面孔”。先前被捉过的乌鸦对危险面具立刻发出斥责，说明个体学习；未被捉过的乌鸦立刻反应，则可能是被捕时聚集的鸟群对诱捕场景的条件反射。从未被捉过的孤独乌鸦后来仍能认出危险面具，符合水平社会学习。幼鸟在父母训练下独立斥责危险面具，则证明了垂直社会学习。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49477813",
+      "hn_points": 106,
+      "hn_comments": 63,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 27,
+      "title": "Shingles Vaccine Tied to Lower Heart Disease Risk in Large Study",
+      "title_zh": "大型研究：重组带状疱疹疫苗与较低心脏病风险相关",
+      "publisher": "nature.com",
+      "article_url": "https://www.nature.com/articles/d41586-026-02663-6",
+      "significance_score": 5.5,
+      "summary_zh": "Nature：牛津大学Maxime Taquet团队8月26日在《自然-医学》发表，利用美国2017年10月从减毒活疫苗Zostavax切换到重组疫苗Shingrix的“自然实验”，比较各约3.6万名60岁及以上接种者七年内心血管负担。Shingrix组总体心血管负担低约9%（缺血性心脏病约10%、心衰约12%），男性缺血性卒中风险亦较低。作者强调仍是观察关联，需临床试验确认；丹麦DAN-ZOSTER随机试验已在进行。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Maxime Taquet",
+          "en": "Having already shown that this vaccine is linked to a lower risk of dementia, we now find it may also protect the heart.",
+          "zh": "我们已经证明这种疫苗与较低的痴呆风险相关，现在发现它可能也保护心脏。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 28,
+      "title": "Verschlimmbesserung: The Word Your Software Updates Need",
+      "title_zh": "Verschlimmbesserung：软件更新真正该用的那个词",
+      "publisher": "geekyschmidt.com",
+      "article_url": "https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/",
+      "significance_score": null,
+      "summary_zh": "Geeky Schmidt用德语词Verschlimmbesserung（把一件事改好的同时把另一件改坏，或本意改进、结果更糟）来命名软件更新。HN上104赞、66评。德国用户纠正：如果只是更糟，不必借用德语；这个词是动词verschlimmbessern的名词化，常常是无心的，与带有意图的“enshittification”并不等同。也有人把它连到职场里“维护系统不升职、发明指标才升职”。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "OroPla",
+          "en": "German here. A \"Verschlimmbesserung\" is something that makes one part better and another part worse. If it only makes things worse you don't need a German word for it, you can just call it worse.\n\nFor things that were intended good, but ended up bad, there's an English idiom: the path to hell is paved with good intentions.",
+          "zh": "德国人来说。所谓Verschlimmbesserung，是把一部分变好、另一部分变坏。如果它只是把事情弄得更糟，你不需要德语词，直接说更糟就行。\n\n对那些本意是好的、结果却坏了的事，英语里有成语：通向地狱的路是由善意铺成的。"
+        },
+        {
+          "type": "comment",
+          "author": "eqvinox",
+          "en": "It's actually a verb, \"Verschlimmbesserung\" is the substantivization.\n\nBase: verschlimmbessern\n\nP.S.: \"Verbesserung\" means improvement, \"Verschlimmerung\" means worsening/aggravation.  The combined word is understood quite specifically though, not just as a combination of the two.  It's *not* a normal case of German \"paste words together\", that's for nouns (you can do it with the substantivization, e.g. Donaudampfschiffverschlimmbesserungskapitän = \"captain of verschlimmbessern the steam ships on the Donau\", which makes little sense of course). It's not identical to enshittification either, the latter (to me at least) implies intention; verschlimmbessern you can (and probably often will) do by accident.",
+          "zh": "它其实是个动词，Verschlimmbesserung是名词化。\n\n词根：verschlimmbessern\n\n附：Verbesserung是改进，Verschlimmerung是恶化。合成词的理解相当特定，不只是两词相加。这也不是德语里那种常见的名词粘连。它也不等于enshittification，后者（至少对我来说）暗示意图；verschlimmbessern你可以、而且很可能常常是无意中做成的。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49479072",
+      "hn_points": 104,
+      "hn_comments": 66,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 29,
+      "title": "UK actors demand legal right to own their voices against AI cloning",
+      "title_zh": "英国演员要求法定拥有自己的声音，对抗AI克隆",
+      "publisher": "bbc.co.uk",
+      "article_url": "https://www.bbc.co.uk/news/articles/c4gv5gepxnyo",
+      "significance_score": 5.4,
+      "summary_zh": "BBC：Matt Lucas、Hugh Bonneville、Nicola Coughlan等八十余名演员通过Save Our Voices Now运动致信首相安迪·伯纳姆，要求立法赋予每个人对自己声音的法定所有权。有声书叙述者Alice Sockett称这是“整个行业的生存威胁”；几秒音频就能做出快速克隆。政府发言人说将就如何应对伤害、同时保护正当创新启动咨询。丹麦已立法让个人对面孔、身体和声音拥有权利。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Alice Sockett",
+          "en": "My voice is out there in the public domain but completely unprotected. We're seeing voice theft increase every week.",
+          "zh": "我的声音就在公共领域里，却完全不受保护。我们看到声音盗窃每周都在增加。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 30,
+      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+      "title_zh": "开放世界多智能体环境中的自主数学发现",
+      "publisher": "arxiv.org",
+      "article_url": "https://arxiv.org/abs/2608.23691",
+      "significance_score": null,
+      "summary_zh": "arXiv 2608.23691：不同模型家族的AI智能体在无中心调度的“Station”里自选方向、做实验、合作并共建文献。12道AlphaEvolve构造题外加两项案例中，有五题相对既有文献给出新结果，包括有限域Kakeya集的新无限族、11维604点精确亲吻构型，以及Erdős最小重叠问题的改进下界。HN上75赞、16评。有人讽刺“给智能体放假期”像剑桥高级公共休息室；也有人说这正回击“只会刷已知题、拿不出新东西”的质疑。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "dash2",
+          "en": "Agents were also periodically given holidays, during which they set aside their ongoing work and received random prompts designed to encourage open-ended thought.\n\nWhat a world we live in. These guys have reinvented the Cambridge Senior Common Room for AI.",
+          "zh": "智能体还会被定期放假期，期间放下手头工作，接收旨在鼓励开放思考的随机提示。\n\n我们活在怎样的世界。这帮人给AI重新发明了剑桥高级公共休息室。"
+        },
+        {
+          "type": "comment",
+          "author": "NitpickLawyer",
+          "en": "Across 12 construction problems from the AlphaEvolve catalogue and two additional case studies, the Station obtained results novel relative to the prior literature on five problems: a new infinite family of finite-field Kakeya sets, new exact 604-point kissing configurations in dimension 11, new records for the discretized Kakeya needle and sign uncertainty problems, and a substantially improved lower bound for Erdős's minimum-overlap problem. Agents also discovered novel infinite families for Book Ramsey numbers. Importantly, the agents produced not only numerical constructions but also theorems and analyses explaining how those constructions work, making the results more interpretable and easier for mathematicians to build upon.\n\nFor the last few months, every time a new \"famous problem\" was solved, there were numerous comments saying variations on this theme: \"well, yes, but how about novel stuff, how about new things, original work, yadda yadda\". Curious what the \"next thing\" will be now.",
+          "zh": "在AlphaEvolve目录的12道构造题和两项额外案例中，Station在五道题上得到了相对既有文献的新结果：有限域Kakeya集的新无限族、11维604点精确亲吻构型、离散Kakeya针与符号不确定性问题的新纪录，以及对Erdős最小重叠问题实质改进的下界。智能体还发现了Book Ramsey数的新无限族。重要的是，它们不仅给出数值构造，还给出解释这些构造如何成立的定理与分析，使结果更可解释、也更便于数学家继续往上做。\n\n过去几个月，每当又一道“名题”被解，就有无数评论变着法说：“好吧，可新东西呢，原创呢，诸如此类”。很好奇现在的“下一句”会是什么。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49481455",
+      "hn_points": 75,
+      "hn_comments": 16,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

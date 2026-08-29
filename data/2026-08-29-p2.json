@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 11,
+      "title": "US expects Europe to lead its defense and Ukraine support, Colby says",
+      "title_zh": "美政策次长科尔比：欧洲应主导自身常规防务并领头援乌",
+      "publisher": "pravda.com.ua",
+      "article_url": "https://www.pravda.com.ua/eng/news/2026/08/27/8050608/",
+      "significance_score": 5.8,
+      "summary_zh": "乌克兰真理报：美国国防部政策次长Elbridge Colby 8月27日在布鲁塞尔北约总部表示，华盛顿期待欧洲对自身常规防务负起首要责任，并在支援乌克兰上起带头作用；美方仍承诺北约，但同时把西半球列为优先。他确认已向欧洲盟国发出书面问卷，要求说明如何落实“北约3.0”——欧洲主导的常规防务，并点名波兰、德国、荷兰的投入。五角大楼对驻欧美军的态势评估预计11月6日前完成，可能铺路进一步削减目前约8万驻欧美军。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Elbridge Colby",
+          "en": "We're actually having a kind of down to business conversation about how we go forward together in a world in which Europe, which is obviously a very wealthy continent, can and is taking primary responsibility for its own conventional defence. Obviously, the United States remaining committed to NATO, remaining linked to this alliance of course, and also Europe taking the lead in support to Ukraine.",
+          "zh": "我们其实是在务实地谈，如何在这样一个世界里一起往前走：欧洲显然是非常富裕的大陆，能够也正在对自身常规防务负起首要责任。美国当然仍承诺北约、仍与这个同盟绑定，同时欧洲在支援乌克兰上起带头作用。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 12,
+      "title": "Inception-style curved map for turn-by-turn directions",
+      "title_zh": "盗梦空间式弯曲地图：把前方路段折到眼前的导航演示",
+      "publisher": "orbify.eu",
+      "article_url": "https://www.orbify.eu/demo/",
+      "significance_score": null,
+      "summary_zh": "Orbify放出弯曲投影的逐向导航演示，把即将到来的路段“折”到驾驶员眼前，HN上410赞、138评。评论承认概念酷，但担心急弯后路段会甩出屏幕、连续转弯时失去前瞻，还有人说球体变形看着会晕车，不该进车机。更务实的建议是减弱曲率、用细导航线标出换道。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "orbital-decay",
+          "en": "This looks pretty neat but also distracting and not very convenient. A useful follow mode should provide a view into the next several dozen seconds of road conditions. This projection forces road sections after sharp turns to go off screen, and does nothing to compensate for that (e.g. by rotating the view), so the distance and time of useful prediction changes constantly. Since you're already willing to give the driver nausea, consider unwrapping 90 degree turns into something more straight until they're close enough.",
+          "zh": "看起来挺精致，但也分心、不太方便。有用的跟随模式应当让你看见接下来几十秒的路况。这种投影会把急弯之后的路段甩出屏幕，又没有补偿（比如旋转视角），于是有用的预判距离和时间一直在变。既然你已经愿意让司机恶心，不妨把90度弯先摊成更直的样子，等靠近了再折回来。"
+        },
+        {
+          "type": "comment",
+          "author": "sd9",
+          "en": "This is a really good proof of concept. I would use this.\n\nSomething about the moment of the turn itself isn’t working for me though. Just before the turn you have essentially no information about the route ahead, until after the turn is completed. This would make a sequence of consecutive turns difficult to navigate.",
+          "zh": "这是很好的概念验证。我会用。\n\n不过转弯那一瞬间对我来说不太对。就在转弯前，你对前方路线几乎没有任何信息，直到转完才有。连续多个弯的时候会很难开。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49477564",
+      "hn_points": 410,
+      "hn_comments": 138,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 13,
+      "title": "Sweden sends military units to Finland to patrol Russian border",
+      "title_zh": "瑞典向芬兰派出军事单位，协助巡逻俄芬边境",
+      "publisher": "svt.se",
+      "article_url": "https://www.svt.se/nyheter/inrikes/svt-erfar-sverige-skickar-militara-forband-till-finland",
+      "significance_score": 5.7,
+      "summary_zh": "SVT：瑞典政府应芬兰请求，决定近期向芬兰派出军事单位，包括JAS 39 Gripen战斗机与舰艇，在芬兰—俄罗斯边境沿线风险区域巡逻，以加强北约对芬兰领土的监视；秋季如有需要还可能派陆军反无人机分队。行动依据既有双边框架。联合作战司令Ewa Skoog Haslum说“芬兰的事就是我们的事”；防长Pål Jonson强调波罗的海与北约东翼的共同威慑。芬兰国防部确认双方加强领土完整监视，尤其针对进入芬兰空域的无人机。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Ewa Skoog Haslum",
+          "en": "Finland’s cause is our cause – not only in words but also in action. Their border with Russia is also our border when it comes to the defence of the Nordic region, Europe and NATO.",
+          "zh": "芬兰的事业就是我们的事业——不只是口头上，也在行动上。就北欧、欧洲和北约的防务而言，他们与俄罗斯的边界也是我们的边界。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 14,
+      "title": "Hilariously fast volume computation with the divergence theorem (2018)",
+      "title_zh": "用散度定理快得离谱地算网格体积（2018）",
+      "publisher": "alyssarosenzweig.ca",
+      "article_url": "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html",
+      "significance_score": null,
+      "summary_zh": "Alyssa Rosenzweig 2018年博文重上HN首页：对封闭三角网格用散度定理把体积化成表面积分流形，避开体素采样。245赞、65评。评论指出这与鞋带公式的三维类比、1980年ACM算法550以及指向原点的带符号棱锥体积是同一套几何；也有人强调网格必须简单闭合，否则结果不可靠。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "srean",
+          "en": "On the other hand, if you want to compute the area of a polygon that have vertices at lattice points, you can count the number of interior points I, the number of boundary points B. Then the area A is\n\n    A = I + B/2 - 1\n\nThis is Pick's theorem\n\nhttps://en.wikipedia.org/wiki/Pick's_theorem\n\none of my favorite results. It does not generalize as nicely to higher dimensions unfortunately.\n\nIf like the post you want the volume of a polyhedron you can use the three dimensional analogue of the shoelace formula (essentially equivalent).\n\nLet Va, Vb and Vc be the vertices of a triangle ∆ of a triangulation of the surface. You need to name the vertices in a consistent order/orientation wrt the origin.\n\nThen the volume V is the sum over all such triangles of the signed volumes\n\n   V_∆ = 1/6 Va ^ Vb ^ Vc.\n\nThat's the beauty of signed areas and volumes, determinants and exterior algebra.",
+          "zh": "另一方面，如果你要算顶点落在格点上的多边形面积，可以数内部点I和边界点B，面积A就是\n\n    A = I + B/2 - 1\n\n这是皮克定理，我最喜欢的结果之一。可惜它不能很漂亮地推广到更高维。\n\n如果你像原文那样要多面体体积，可以用鞋带公式的三维类比（本质上等价）。\n\n设Va、Vb、Vc是表面三角剖分中某个三角形∆的顶点，需要相对原点保持一致的定向。\n\n则体积V是所有这些三角形带符号体积之和：\n\n   V_∆ = 1/6 Va ^ Vb ^ Vc。\n\n这就是带符号面积与体积、行列式和外代数的美妙之处。"
+        },
+        {
+          "type": "comment",
+          "author": "elikoga",
+          "en": "My belly says the naive formula is summing the triangle pyramid volumes to the origin with sign in orientation. It looks like that's what they derived. Which is a generalization of 2d polygon area calculated by summing triangle areas for each edge, I was taught this in a math camp where we calculated map polygon areas on gis data. I remember math knowledge being hard to get pre AI era but I didn't remember it being this hard.\n\nNo idea what the author means by \"which are equivalent to rendering the mesh and then sampling the render\".",
+          "zh": "我的直觉是，朴素公式就是把每个三角形与原点构成的棱锥体积按定向带符号加起来。看起来他们推出来的就是这个。这是二维里按每条边累加三角形面积算多边形面积的推广，我在数学夏令营用GIS数据算地图多边形面积时学过。我记得前AI时代数学知识不好找，但没记得有这么难。\n\n完全不懂作者说的“等价于渲染网格再对渲染结果采样”是什么意思。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49476143",
+      "hn_points": 245,
+      "hn_comments": 65,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 15,
+      "title": "India's Javelin missile purchase signals deeper US defense ties",
+      "title_zh": "印度签署标枪导弹采购意向，美印防务关系再进一步",
+      "publisher": "moneycontrol.com",
+      "article_url": "https://www.moneycontrol.com/news/india/indian-army-to-get-around-60-us-made-javelin-anti-tank-guided-missiles-under-rs-292-crore-deal-14017838.html",
+      "significance_score": 5.7,
+      "summary_zh": "Moneycontrol等：印度陆军经美国对外军售（FMS）签署标枪反坦克导弹的接受函（LOA）。美驻印大使Sergio Gor称之为美印防务关系的重大进展，并打开共生产讨论；美国防安全合作局此前向国会通报可能出售100枚FGM-148、1枚试射弹与25套轻型指挥发射装置。此批走紧急采购通道，与仍在谈的印方本土共生产线是两件事。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Sergio Gor",
+          "en": "Just as @secwar highlighted at the May 2026 Shangri-La Dialogue, this is a great step forward in the US-India defence relationship and opens the door to co-production possibilities.",
+          "zh": "正如国防部长在2026年5月香格里拉对话上强调的，这是美印防务关系向前迈出的重要一步，并打开了共生产的可能性。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 16,
+      "title": "Just the rumour of a bug is enough to find an exploit these days",
+      "title_zh": "如今只要有漏洞的传闻，就够人挖出利用",
+      "publisher": "anil.recoil.org",
+      "article_url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+      "significance_score": null,
+      "summary_zh": "Anil Madhavapeddy写道：在LLM放大之后，一句随口的漏洞传闻就足以让人复现利用。HN上246赞、89评。rclone维护者nickcw说项目前十年大约20次安全披露，上个月超过40次，命中率约75%，GitHub分配CVE从2–3天拖到3–4周。另有人强调问题从来不是会不会修，而是有没有意愿修。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "nickcw",
+          "en": "This describes my life as an open source maintainer at the moment!\n\nIn the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review.\n\nThe hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. The configurations for rclone have got increasingly unlikely so I'm hoping they will dry up eventually.\n\nI was considering just merging the fixes straight to master just to make my life easier rather than holding a dozen independent security fixes on branches and merging them at the point release and hoping not to have too many conflicts to fix up. I've decided to stick with the process for the moment.\n\nGitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal.\n\nNot sure what the solution is, but it is definitely a problem for us.",
+          "zh": "这说的就是我现在作为开源维护者的生活！\n\nrclone项目的前十年，我们通过GitHub大约收到20次安全披露。上个月要处理超过40次！即使用AI工具做分诊和起草补丁供审查，也占掉我大量时间。\n\n这些披露的命中率其实不低——大约75%里有值得一看的东西。rclone的配置已经越来越冷门，我希望它们最终会干涸。\n\n我一度想把修复直接合进master图省事，而不是在分支上挂十几个独立安全补丁、等到点发布再合并、还得祈祷冲突别太多。眼下我还是决定按流程走。\n\nGitHub给公告分配CVE。AI爆发前要2–3天，现在要3–4周，所以点发布的changelog里只能写CVE-PENDING，不理想。\n\n不知道解决方案是什么，但这确实是我们的问题。"
+        },
+        {
+          "type": "comment",
+          "author": "godelski",
+          "en": "It's easier to find bugs, fix them, yet there's less will than ever. My bosses just want speed and will give me a 30 minute lecture on why I don't need to solve a bug that Claude solved in 5 minutes, I've verified, and it's already in an open PR. All the while we're pushing out bugs faster and faster.\n\nNo matter how good AI gets at fixing bugs we'll never fix them when there's no will to fix things. Software will never be good if there's no will to make good software. The problem has always been about will. To many better products. It's insane that in a time where we can do better on speed and quality we still choose speed and tell ourselves it's velocity",
+          "zh": "找bug、修bug都更容易了，意愿却比以往更少。老板只要速度，会花30分钟训我为什么不需要去修一个Claude五分钟解决、我已验证、而且已经在开放PR里的bug。与此同时我们把bug推得越来越快。\n\n无论AI修bug有多好，没有意愿我们就永远修不好。没有把软件做好的意愿，软件永远好不了。问题从来都是意愿。太多更好的产品了。在这个速度和品质都能更好的时代，我们仍然选择速度，还告诉自己那叫速度（velocity），简直疯了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49480466",
+      "hn_points": 246,
+      "hn_comments": 89,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 17,
+      "title": "Parasitic plants steal and remodel host genes for millions of years",
+      "title_zh": "寄生植物偷走宿主基因并改造数百万年，功能却还在",
+      "publisher": "phys.org",
+      "article_url": "https://phys.org/news/2026-08-parasitic-genetic-remodeling-genes.html",
+      "significance_score": 5.7,
+      "summary_zh": "Phys.org转大阪公立大学：Koh Aoki团队在《植物生理学》报告，菟丝子（Cuscuta）通过水平基因转移从唇形目宿主获得CYP81Q（芝麻素合成酶），并在数百万年里被转座元改造成带新内含子的结构，酶功能仍在。这意味着HGT不是终点，外源基因会在寄生体基因组里继续演化并被“据为己有”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Koh Aoki",
+          "en": "This demonstrated that the gene had retained its biological function despite substantial structural changes.",
+          "zh": "这表明，尽管结构发生了显著变化，该基因仍保留了生物学功能。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 18,
+      "title": "The Twelve-Factor App (2025)",
+      "title_zh": "十二要素应用（2025修订）",
+      "publisher": "12factor.net",
+      "article_url": "https://12factor.net/",
+      "significance_score": null,
+      "summary_zh": "12factor.net的2025修订版再上HN，215赞、112评。读者仍把它当15分钟能读完的北极星，但第三章“配置放进环境变量”被点名为把密钥塞进~/.bashrc的始作俑者。也有人说十二要素把状态定义到范围之外，遇到状态就是产品本身时只能做九要素或十要素。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "nebezb",
+          "en": "Still incredibly relevant. Even if you don’t apply it, there is so much to learn by reading this in 15 minutes.\n\nThe only grievance I have with this is Chapter 3: Config [1]\n“Store config in the environment”, “Credentials to external services such as Amazon S3 or Twitter”\n\nBesides being bad advice, this had the second-order effect of leading devs to believe they could put all their local env secrets in ~/.bashrc files.\n\nStop doing this. Do the other 11.5 factors.\n\n[1]: https://12factor.net/config",
+          "zh": "仍然极其有用。就算你不照做，花15分钟读一遍也能学到很多。\n\n我唯一的不满是第三章：配置。“把配置存在环境里”，“外部服务如Amazon S3或Twitter的凭证”。\n\n这不只是坏建议，还产生了二阶效果：让开发者以为可以把本地环境密钥全塞进~/.bashrc。\n\n别再这样。把另外11.5个要素做好就行。\n\n[1]: https://12factor.net/config"
+        },
+        {
+          "type": "comment",
+          "author": "sandeepkd",
+          "en": "Its interesting how this felt so natural and right way to do software. I remember people referencing it as the north star. And then gradually people came close to it but moved past it. Personally I feel that these concepts require to have generalist mindset aka application architect. What we have as of today are lot of product engineers within teams, product managers and management. The product engineers do not always have enough leverage or incentives to push for these kind of concepts.\n\nAnd still at the same time these concepts feel like so much carved in stone that one way or another everyone is going to keep discovering them again.",
+          "zh": "有意思的是，这曾经感觉是做软件那么自然、正确的方式。我记得人们把它当北极星。然后大家渐渐靠近它，又走过去了。我个人觉得这些概念需要通才心态，也就是应用架构师。今天团队里更多是产品工程师、产品经理和管理层。产品工程师并不总有足够的杠杆或激励去推动这类概念。\n\n与此同时，这些概念又像刻在石头上，人们总会以某种方式再次发现它们。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49472216",
+      "hn_points": 215,
+      "hn_comments": 112,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 19,
+      "title": "September 11 Mastermind Trial Set for 2028 at Guantanamo",
+      "title_zh": "9/11主谋关塔那摩审判定于2028年6月开庭",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/legal/litigation/trial-accused-mastermind-911-attacks-set-june-2028-2026-08-27/",
+      "significance_score": 5.7,
+      "summary_zh": "路透：美国空军中校法官Michael Schrama下令，被控策划2001年9月11日袭击、造成近3000人死亡的哈立德·谢赫·穆罕默德及三名共同被告，于2028年6月5日在关塔那摩军事法庭开庭。检方希望2027年1月开庭被拒，法官称预审证据与合规动议需要更多时间。上诉法院去年推翻了可免死的认罪协议。被告已羁押约二十年，本案自2012年提讯以来更换了第五位军事法官。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Steve Gorman",
+          "en": "Schrama rejected the prosecutors' proposal to open the trial in January 2027, saying that would leave too little time for the resolution of pretrial evidentiary and compliance motions.",
+          "zh": "施拉马拒绝了检方2027年1月开庭的提议，称那会给预审证据与合规动议的解决留下太少时间。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 20,
+      "title": "Migrating to HTTPX2",
+      "title_zh": "OpenAI Python SDK迁到HTTPX2：为躲开即将不兼容的httpx 1.0",
+      "publisher": "github.com",
+      "article_url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
+      "significance_score": null,
+      "summary_zh": "OpenAI Python SDK说明迁到httpx2：原httpx正走向充满破坏性变更的1.0，httpx2由另一维护者分叉并承诺稳住旧API。HN上182赞、78评。simonw指出自己去年曾建议httpx把1.0做成httpx2，结果一年后出现的httpx2反而是保旧API的那个；Anthropic SDK数周前做了同样迁移。也有人改用基于Rust/Hyper的pyqwest。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "simonw",
+          "en": "Anthropic made the same change a few weeks after OpenAI did: https://github.com/anthropics/anthropic-sdk-python/releases/...\n\nThe problem with httpx as a dependency is that it's currently working towards a 1.0 release which will be full of breaking changes.\n\nThe httpx2 project is essentially a fork that promises not to break the existing API, which makes it a more stable dependency to build against.\n\nI wrote a pretty long comment about my concerns for the breaking 1.0 version last year - https://github.com/encode/httpx/discussions/3344#discussionc... - in that comment I recommended the HTTPX project release their 1.0 as a package called httpx2 instead, but a year later we now have an httpx2 (released by a different maintainer) that keeps the old API.",
+          "zh": "Anthropic在OpenAI之后几周做了同样的改动。\n\n把httpx当依赖的问题是，它正走向充满破坏性变更的1.0。\n\nhttpx2本质上是一个承诺不破坏现有API的分叉，因此更适合当稳定依赖。\n\n我去年写过很长的评论谈对破坏性1.0的担忧——当时我建议HTTPX项目把1.0做成名为httpx2的包；一年后我们现在有一个httpx2（另一位维护者发布），它反而保住了旧API。"
+        },
+        {
+          "type": "comment",
+          "author": "ushakov",
+          "en": "we have recently switched from httpx for the same reason but instead went with the Rust-based pyqwest (runs on Hyper) it has also a drop-in httpx-compatible transport so migration was easy and also it supports http2 trailers\n\nhttps://pyqwest.dev",
+          "zh": "我们最近也因为同样的原因离开了httpx，不过改用了基于Rust的pyqwest（跑在Hyper上）。它还有即插即用的httpx兼容传输，迁移很容易，而且还支持HTTP/2 trailer。\n\nhttps://pyqwest.dev"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49477212",
+      "hn_points": 182,
+      "hn_comments": 78,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}
