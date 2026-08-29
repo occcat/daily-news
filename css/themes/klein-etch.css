@@ -23,9 +23,10 @@ body {
 
 #skin-v2 {
   display: grid !important;
-  grid-template-columns: minmax(110px, 1fr) minmax(720px, 840px) minmax(110px, 1fr);
+  /* Side 1fr + 80px gutters + middle ≤840. At 1024 this keeps gap=80 and a visible plate. */
+  grid-template-columns: minmax(56px, 1fr) minmax(0, 840px) minmax(56px, 1fr);
   column-gap: 80px;
-  align-items: start;
+  align-items: stretch;
   justify-content: center;
   padding: 0 16px;
   overflow: visible;
@@ -37,12 +38,11 @@ body {
 
 .ke-etch {
   position: relative;
-  top: 28px;
+  align-self: stretch;
   width: 100%;
   max-width: 260px;
-  aspect-ratio: 280 / 860;
+  min-height: 100%;
   height: auto;
-  max-height: 96vh;
   justify-self: center;
   pointer-events: none;
   --ke-dense: 0;
@@ -62,8 +62,8 @@ body {
 .ke-etch__hatch {
   position: absolute;
   inset: 0;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-repeat: repeat-y;
+  background-size: 100% auto;
   background-position: top center;
 }
 
@@ -94,6 +94,7 @@ body {
   z-index: 1;
   width: 100%;
   max-width: 840px;
+  min-width: 0;
   margin: 0;
   padding: 48px 0 96px;
 }
@@ -309,14 +310,6 @@ body {
   }
   .item__title::after {
     transform: scaleX(1);
-  }
-}
-
-@media (max-width: 1180px) {
-  #skin-v2 {
-    grid-template-columns: minmax(80px, 1fr) minmax(0, 800px) minmax(80px, 1fr);
-    column-gap: 48px;
-    padding: 0 10px;
   }
 }
 
