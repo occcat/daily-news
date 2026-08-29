@@ -379,21 +379,73 @@
     });
   }
 
+  function bindEtch() {
+    var left = document.querySelector(".ke-etch--left");
+    var right = document.querySelector(".ke-etch--right");
+    var day = document.querySelector("#skin-v2 .day");
+    if (!left && !right) return;
+    if (day) day.__keFeel = true;
+    document.__keFeel = true;
+    if (reducedMotion()) {
+      if (left) left.style.setProperty("--ke-dense", "0");
+      if (right) right.style.setProperty("--ke-dense", "0");
+      return;
+    }
+    if (document.__keBound) return;
+    document.__keBound = true;
+
+    function clearDense() {
+      if (left) left.style.setProperty("--ke-dense", "0");
+      if (right) right.style.setProperty("--ke-dense", "0");
+    }
+
+    function apply(px, py, item) {
+      if (!document.__keFeel || !item || px == null || py == null) {
+        clearDense();
+        return;
+      }
+      var lr = left && left.getBoundingClientRect();
+      var rr = right && right.getBoundingClientRect();
+      var ld = lr ? Math.hypot(px - (lr.left + lr.width / 2), py - (lr.top + lr.height / 2)) : 1e9;
+      var rd = rr ? Math.hypot(px - (rr.left + rr.width / 2), py - (rr.top + rr.height / 2)) : 1e9;
+      if (left) left.style.setProperty("--ke-dense", ld <= rd ? "1" : "0");
+      if (right) right.style.setProperty("--ke-dense", rd < ld ? "1" : "0");
+    }
+
+    document.addEventListener("pointerover", function (ev) {
+      if (!document.__keFeel || ev.pointerType === "touch") return;
+      var item = ev.target.closest && ev.target.closest("#skin-v2 .items > .item");
+      apply(ev.clientX, ev.clientY, item);
+    }, true);
+
+    document.addEventListener("pointerout", function (ev) {
+      if (!document.__keFeel) return;
+      var to = ev.relatedTarget && ev.relatedTarget.closest
+        ? ev.relatedTarget.closest("#skin-v2 .items > .item")
+        : null;
+      if (to) return;
+      clearDense();
+    }, true);
+  }
+
   function bind(theme) {
     var day = document.querySelector("#skin-v2 .day");
     if (day) {
       day.__agaFeel = theme === "agamemnon";
       day.__odFeel = theme === "ordered-dither";
+      day.__keFeel = theme === "klein-etch";
     }
     document.__isoFeel = theme === "isometric-mini";
     document.__polaroidFeel = theme === "polaroid";
     document.__ppFeel = theme === "paper-prism";
+    document.__keFeel = theme === "klein-etch";
     if (theme === "polaroid") bindPolaroid();
     else if (theme === "isometric-mini") bindIso();
     else if (theme === "agamemnon") bindAga();
     else if (theme === "stamp") bindStamp();
     else if (theme === "ordered-dither") bindDither();
     else if (theme === "paper-prism") bindPrism();
+    else if (theme === "klein-etch") bindEtch();
   }
 
   global.RikanFeel = { bind: bind };

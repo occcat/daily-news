@@ -8,9 +8,10 @@
   var DEFAULT_DATE = "2026-08-21";
   var THEME_START = "2026-08-22";
   var WEEK2_START = "2026-08-30";
-  var HALFTONE_ROLLBACK = "2026-08-29";
+  var ETCH_DAY = "2026-08-29";
   var THEMES = {
     "klein-halftone": 1,
+    "klein-etch": 1,
     polaroid: 1,
     stamp: 1,
     "isometric-mini": 1,
@@ -150,7 +151,7 @@
   }
 
   function resolveTheme(name, iso) {
-    if (iso === HALFTONE_ROLLBACK) return "klein-halftone";
+    if (iso === ETCH_DAY) return "klein-etch";
     if (THEMES[name]) return name;
     if (iso && iso >= WEEK2_START) return "ordered-dither";
     return "klein-halftone";
@@ -169,7 +170,7 @@
 
   function landMotion(scope) {
     if (!scope) return;
-    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree, .od-cluster, .nf-window, .pp-cube, .gz-band").forEach(function (el) {
+    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree, .od-cluster, .nf-window, .pp-cube, .gz-band, .ke-etch").forEach(function (el) {
       el.addEventListener("animationend", function (ev) {
         if (ev.target !== el) return;
         el.classList.add("is-landed");
@@ -648,8 +649,24 @@
     );
   }
 
+  function keChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="ke-chrome" aria-hidden="true">' +
+      '<div class="ke-etch ke-etch--left">' +
+      '<span class="ke-etch__plate"></span><span class="ke-etch__hatch"></span></div>' +
+      '<div class="ke-etch ke-etch--right">' +
+      '<span class="ke-etch__plate"></span><span class="ke-etch__hatch"></span></div>' +
+      "</div>"
+    );
+  }
+
   function dressTheme(theme, iso) {
     clearThemeChrome();
+    if (theme === "klein-etch") {
+      var v2 = document.getElementById("skin-v2");
+      if (v2) v2.insertAdjacentHTML("afterbegin", keChromeHTML());
+      return;
+    }
     if (!WEEK2[theme]) return;
     var dayEl = document.querySelector("#skin-v2 .day");
     var skin = document.getElementById("skin-v2");
@@ -729,7 +746,7 @@
       host.innerHTML = '<p class="empty">本日暂无条目</p>';
       return;
     }
-    var klein = theme === "klein-halftone";
+    var klein = theme === "klein-halftone" || theme === "klein-etch";
     host.innerHTML = items.map(function (it, idx) {
       var rank = it.rank != null ? it.rank : idx + 1;
       var url = it.article_url || it.hn_url || "";
