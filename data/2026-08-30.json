@@ -1,18 +1,13 @@
 {
   "date": "2026-08-30",
   "timezone": "Asia/Shanghai",
-  "title": "皮肤预览",
-  "summary_zh": "皮肤预览",
+  "title": "2026-08-30 新闻精选",
+  "summary_zh": "8月30日的新闻同时被OpenAI因SpaceX收购切断Cursor、莱比锡无人机归咎与库尔德军援到期，以及机器狗、可溶解心脏支架和冰川鼠的评论区拉开。\n诊室与实验室里，丹麦CHALLENGE试验用VR化身让听了27年幻听的偏执型精神分裂症患者安静下来，五年后仍未复发；哈佛把海洋菌改造成持续产铁载体，橄榄石风化加快约2.6倍。联邦法官裁定不得以批评以色列为由吊销签证、驱逐学生；ICE拟花100万至200万美元采购波士顿动力Spot。德国准备就莱比锡/哈雷机场爆炸无人机制裁俄罗斯，欧盟审查约1600项名单；巴基斯坦呼吁撤销单边措施，印度仍把1960年印度河水域条约置于中止。ESC上抗IL-6抗体pacibekitug把肾病患者hs-CRP最多压低约89%；英国少女成为首例植入可溶解房间隔缺损支架的患者。喜马拉雅升温放大冰川崩塌与山洪；五角大楼拟不续签9月30日到期的佩什梅格军援备忘录。泽连斯基要把对俄远程无人机从日均逾300架拉到1000架；SpaceX把在印度洋漂了逾三周的星舰40号装上半潜船运回得州。沃尔玛以5000万美元和解司法部阿片诉讼；H5N1自6月起在澳大利亚感染20余种动物。谷歌把已购电子书接入Gemini Notebook。\nHN这边：OpenAI切断Cursor冲上793赞、485评；用Virtualization.framework启动虚拟iPhone拿到377赞；Linux上的iMessage桥Tether 306赞。EVE Online开始迁到Python 3；有人把LLM记忆做成程序分析；国土安全部用冷僻海关法调取记者、非营利与工会记录。GrapheneOS称Pixel 11丢掉硬件内存标记；冰川鼠、三星LPDDR5X存内计算、好文化不是AI、本地分轨StemDeck、Rust键值库TurboKV、腾讯混元Hy4、把SQLite当文档库，以及Monzo云宕机备机，把评论区从收购、无障碍一路拉到苔藓球和键值库。\n一条贯穿全天的线是：一次合同切断、一次签证判决、一次可溶解支架，都在给“谁还拥有默认入口、身体和边境上的那台机器”定价。",
+  "item_count": 30,
   "theme": "ordered-dither",
-  "stub": true,
-  "item_count": 1,
-  "items": [
-    {
-      "rank": 1,
-      "title_zh": "皮肤预览",
-      "title_en": "Skin preview",
-      "source": "News Minimalist",
-      "summary_zh": "皮肤预览"
-    }
+  "parts": [
+    "2026-08-30-p1.json",
+    "2026-08-30-p2.json",
+    "2026-08-30-p3.json"
   ]
 }

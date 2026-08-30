@@ -1,0 +1,275 @@
+{
+  "theme": "ordered-dither",
+  "items": [
+    {
+      "rank": 1,
+      "title": "VR therapy helps schizophrenia patient silence 27 years of voices",
+      "title_zh": "VR疗法帮精神分裂症患者压住听了27年的幻听",
+      "publisher": "euronews.com",
+      "article_url": "https://www.euronews.com/health/2026/08/29/im-free-how-vr-therapy-helped-a-schizophrenia-patient-silence-27-years-of-voices",
+      "significance_score": 6.0,
+      "summary_zh": "Euronews：53岁丹麦患者Vibeke Andersen被诊断为偏执型精神分裂症，幻听控制言行达27年。2020年她加入哥本哈根大学医院VIRTU团队的CHALLENGE试验，戴上头显与按她描述生成的幻听化身面对面抗辩。试验纳入270名精神分裂症谱系、持续幻听患者，VR组共7次疗程，对照为标准治疗加支持性咨询；2025年《柳叶刀·精神病学》显示12周时幻听总体严重度显著下降，12周与24周时幻听频率也更低。Andersen在最后一次治疗前声音已消失，六个月随访仍无幻听，五年后仍未复发；VIRTU现有约1000名受试者覆盖多种精神障碍，部分疗法已进入丹麦精神科服务。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Vibeke Andersen",
+          "en": "I'm free. I'm living my life as I always have dreamt of.",
+          "zh": "我自由了。我正过着自己一直梦想的生活。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 2,
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "title_zh": "OpenAI因SpaceX收购Cursor，将于11月12日切断对其模型供应",
+      "publisher": "openai.com",
+      "article_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "significance_score": null,
+      "summary_zh": "OpenAI 8月28日宣布：已通知SpaceX，拟按合同最长期限于2026年11月12日停止向Cursor提供模型。公司称，马斯克旗下公司曾违约，并在宣誓中承认现已并入SpaceX的xAI违反OpenAI条款，收购后再无法确信对方会遵守服务条款；即将发布的Astra也不会进入Cursor。HN上793赞、485评。评论区一边回忆Anthropic早先对xAI的封禁，一边认为Cursor转售他人API的模式本就难以为继。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "rgbrenner",
+          "en": "Anthropic already banned xAI for very similar ToS violations earlier this year: https://x.com/kyliebytes/status/2009686466746822731?s=46\n\nSo this is OpenAI following suit after Musk admitted to distilling their models.\n\nThis was bound to happen once Cursor decided to sell itself to a competing model provider.\n\nIt'll be interesting to see if Anthropic applies their ban to Cursor, or if that datacenter deal they signed with Musk changes anything.",
+          "zh": "Anthropic今年早些时候已经因为非常类似的服务条款违规封过xAI：https://x.com/kyliebytes/status/2009686466746822731?s=46\n\n所以这是马斯克承认蒸馏他们的模型之后，OpenAI跟进。\n\nCursor一决定把自己卖给相互竞争的模型供应商，这件事就注定会发生。\n\n有意思的是看Anthropic会不会把禁令套到Cursor头上，还是他们跟马斯克签的数据中心协议会改变什么。"
+        },
+        {
+          "type": "comment",
+          "author": "redox99",
+          "en": "It's always been clear to me that Cursor's business model of reselling others' APIs had its days numbered. Not necessarily because the providers would pull the plug, but because you wouldn't be able to compete with subsidized plans.\n\nCursor is already kind of useless for third party models unless you're willing to spend thousands of dollars. It's only worth it if you're going to use mostly grok/composer.",
+          "zh": "我一直觉得，Cursor转售别人API的商业模式日子本来就有限。不一定是供应商会拔插头，而是你竞争不过被补贴的套餐。\n\n除非你愿意花几千美元，否则Cursor对第三方模型已经没什么用。只有你主要用Grok/Composer才划算。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49486172",
+      "hn_points": 793,
+      "hn_comments": 485,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 3,
+      "title": "Engineered bacteria speed rock weathering for carbon removal",
+      "title_zh": "工程细菌加速橄榄石风化，实验室测得二氧化碳清除加快约2.6倍",
+      "publisher": "wyss.harvard.edu",
+      "article_url": "https://wyss.harvard.edu/news/pulling-carbon-into-seawater-using-engineered-bacteria/",
+      "significance_score": 5.9,
+      "summary_zh": "哈佛Wyss研究所：Pamela Silver与Michael Springer团队把广泛分布的海洋菌Alteromonas macleodii改造成持续高产铁载体（siderophore），用来剥掉硅酸盐矿物表面的锈层。在连续注入海水的生物反应器里，工程菌把橄榄石风化速度提高约2.6倍，从而带走更多空气中的二氧化碳；成果发表于《自然·生物技术》。野生菌一旦铁够用就会停产铁载体，团队因此把产铁载体与环境铁浓度解耦。中试反应器装入数公斤绿色橄榄石砂、以波士顿港原水运行，最终测得每天约0.5克大气二氧化碳进入反应器；生命周期分析指出可再生原料与尽量少补菌，是规模化净负碳的关键。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Neil Dalvie",
+          "en": "Once wild bacteria have enough iron to grow, they stop making siderophores completely. To enable enhanced weathering at scale, we engineered A. macleodii to always produce siderophores.",
+          "zh": "野生菌一旦有足够的铁生长，就会完全停止制造铁载体。为了让强化风化能规模化，我们把A. macleodii改造成始终生产铁载体。"
+        }
+      ],
+      "fetch_notes": "NM listed phys.org; phys.org blocked the fetch; used Harvard Wyss original by the same author (Benjamin Boettner).",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 4,
+      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "title_zh": "用Apple Virtualization.framework启动一台虚拟iPhone",
+      "publisher": "github.com",
+      "article_url": "https://github.com/Lakr233/vphone-cli",
+      "significance_score": null,
+      "summary_zh": "vphone-cli在Apple Silicon、macOS 15+上，把PCC/cloudOS镜像里的iOS内核接到Virtualization.framework，再配上iOS用户态与补丁，让虚拟iPhone跑起来。它不是Corellium那样的仿真器，应用很容易把它和真机区分开；从少补丁的less到带越狱的jb、研究向的exp共五档变体。HN上377赞、101评。需要放宽SIP/AMFI，命令行可一键下载IPSW、打补丁、DFU恢复并首次开机。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "m132",
+          "en": "Note that, unlike Corellium, this isn't about emulating an iPhone. Apple is providing an iOS kernel for Virtualization.framework in PCC/cloudOS images and this project pairs it with the iOS user-space and patches to make everything run. Applications can very easily tell it apart from the real thing.\n\nMore details here: https://github.com/wh1te4ever/super-tart-vphone-writeup",
+          "zh": "注意，这和Corellium不同，并不是在仿真iPhone。Apple在PCC/cloudOS镜像里给Virtualization.framework提供了iOS内核，这个项目再配上iOS用户态和补丁让整机跑起来。应用很容易把它和真机区分开。\n\n更多细节：https://github.com/wh1te4ever/super-tart-vphone-writeup"
+        },
+        {
+          "type": "comment",
+          "author": "krackers",
+          "en": "Feels weird that after their attempts to shut down corellium they themselves shipped the necessary bits to allow this\n\nhttps://github.com/wh1te4ever/super-tart-vphone-writeup",
+          "zh": "感觉挺怪的：他们自己曾经想关掉Corellium，现在却把能做成这件事的零件自己发了出来。\n\nhttps://github.com/wh1te4ever/super-tart-vphone-writeup"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49485267",
+      "hn_points": 377,
+      "hn_comments": 101,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 5,
+      "title": "Germany to sanction Russia over Leipzig drone attack as EU tensions rise",
+      "title_zh": "德国拟就莱比锡无人机事件制裁俄罗斯，欧盟同步审查约1600项名单",
+      "publisher": "politico.eu",
+      "article_url": "https://www.politico.eu/article/friedrich-merz-berlin-sanctions-russia-vladimir-putin-leipzig-attach-ascalate/",
+      "significance_score": 5.8,
+      "summary_zh": "POLITICO：三名匿名官员对POLITICO与《世界报周日版》称，总理弗里德里希·默茨准备把莱比锡未遂无人机袭击归咎于俄罗斯，并宣布“广泛”制裁，与布鲁塞尔正在准备的新一轮欧盟制裁并行。宣布原定下周二爱尔兰欧盟外长会前后，也可能由默茨提前。一名官员称，仅驱逐个别俄外交官或关闭柏林俄罗斯之家已不够，需要加码制裁甚至扩大对乌军援。莱比锡/哈雷机场的爆炸无人机据德媒调查意在打击运送军用物资的乌克兰安东诺夫货机，《华尔街日报》称美情报把事件与俄方直接挂钩。欧盟外交官称正在审查约1600项制裁名单（个人与公司各约800），预计10月中旬通过。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Friedrich Merz",
+          "en": "The drone attack in Leipzig, among other things, shows that we are also facing very real threats. The federal government is making the perpetrators of hybrid attacks pay a price. They will pay for this.",
+          "zh": "莱比锡的无人机袭击等事件表明，我们也面临非常真实的威胁。联邦政府要让混合攻击的实施者付出代价。他们会为此付出代价。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 6,
+      "title": "Tether: iMessage, SMS, etc. on Linux",
+      "title_zh": "Tether：在Linux上收发iMessage、短信等",
+      "publisher": "zackbartel.com",
+      "article_url": "https://zackbartel.com/blog/2026/08/tether/",
+      "significance_score": null,
+      "summary_zh": "zackbartel.com：作者从macOS转到Linux后，做出MIT许可的Tether，把iPhone上的连续性尽量搬过来——iMessage、短信、通知、通讯录、文件传输、剪贴板同步，以及邮件/浏览器扩展自动填OTP。iOS与Linux之间从第一天起就是双向mTLS；消息走手机上的代理应用和蓝牙（受ancs4linux、BlueFerry启发的干净室C++实现），并不是直接挂Apple服务器。HN上306赞、130评。作者称KDE Connect对Android很好，但路线图覆盖不了iPhone。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "voakbasda",
+          "en": "Mega-kudos to the author for chipping away at the wall around Apple’s garden.\n\nI have had a iPhone for 15 years, and I have only ever been able to back it up with iTunes on windows (as I will never buy a Mac).\n\nApple’s refusal to provide interoperability borders on criminal.  I wish there was a better option.",
+          "zh": "给作者拆Apple花园围墙的努力大大点赞。\n\n我用了15年iPhone，却只能在Windows上用iTunes备份（因为我永远不会买Mac）。\n\nApple拒绝提供互操作，几乎接近犯罪。真希望有更好的选择。"
+        },
+        {
+          "type": "comment",
+          "author": "ThinkBeat",
+          "en": "This is all made possible by broker app on the iPhone / (or other device) \nto send data back and forward. \nWhen I first read the headline I thought it would integrate directly into the Apple ecosystem without needing middlemen which would have been crazy impressive since I believe it is or very near entirely impossible.",
+          "zh": "这一切都靠iPhone（或其他设备）上的中介应用来来回回传数据。\n我刚看标题时以为它能直接接入Apple生态、不需要中间人，那会疯狂到令人印象深刻，因为我相信这几乎完全不可能。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49415386",
+      "hn_points": 306,
+      "hn_comments": 130,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 7,
+      "title": "Federal judge blocks Trump deportations of students over Israel criticism",
+      "title_zh": "加州联邦法官裁定：不得以批评以色列为由吊销签证、驱逐学生",
+      "publisher": "cbsnews.com",
+      "article_url": "https://www.cbsnews.com/news/trump-cannot-deport-students-for-criticizing-israel-federal-judge-rules/",
+      "significance_score": 5.6,
+      "summary_zh": "CBS：加州北区联邦法官Noël Wise周五在约90页裁定中支持斯坦福学生报The Stanford Daily，认定国务院与国土安全部以移民国籍法条款、因亲巴勒斯坦言论和批评以色列而吊销签证、启动驱逐，违反第一与第五修正案。她写明非公民与公民同享言论自由，却被要求猜测“当下美国外交政策是什么”，标准无法理解。裁定指出，报馆里合法居留的非公民记者因此辞职、撤稿、拒写、要求撤下文章或匿名。FIRE律师代表原告；斯坦福日报主编George Porteous说，记者不该再担心写一篇报道就会被驱逐。司法部周六未回应置评请求。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Noël Wise",
+          "en": "The government has offered a chilling message regarding protected speech - speak out against Israel or in support of Palestinians and we will revoke your visa and deport you. Behave. Noncitizen students heard the warning and heeded. And, as the idiom goes, the silence is deafening.",
+          "zh": "政府就受保护言论给出了一个寒蝉消息——批评以色列或声援巴勒斯坦，我们就吊销你的签证并把你驱逐出境。给我老实点。非公民学生听到了警告，也照做了。套句成语：沉默震耳欲聋。"
+        }
+      ],
+      "fetch_notes": "NM listed wmur.com; WMUR search only returned older Mahmoud Khalil stories, not the Friday Stanford Daily ruling. Used CBS original.",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 8,
+      "title": "EVE Online moves to Python 3",
+      "title_zh": "EVE Online开始迁到Python 3",
+      "publisher": "eveonline.com",
+      "article_url": "https://www.eveonline.com/news/view/the-move-to-python-3-begins",
+      "significance_score": null,
+      "summary_zh": "EVE Online官方：这款2003年上线、长期跑在Stackless Python 2.7上的宇宙，作为EVE Evolved的一部分开始迁到Python 3。约240万行Python里，约95.9%的文件已能在2.7与3两边编译，卡住的主要是旧式print、123L长整型、过时异常语法和约50处<>不等号；真正难的是两边都能解析但行为不同的约2万行（例如整数除法）。第一阶段先让代码在2.7上变成Python 3就绪，已在Singularity测试并部署到Tranquility。HN上294赞、152评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "est",
+          "en": "Stackless python had such potential, it could be extremely useful in Agent era for long running tasks with durable state.\n\nmodern Python went in a somewhat different direction with asyncio, but with tasklet and continuation it could be a much powerful combo.",
+          "zh": "Stackless Python曾经很有潜力，在Agent时代对带持久状态的长任务会极有用。\n\n现代Python走了asyncio这条不太一样的路，但如果有tasklet和continuation，组合会强得多。"
+        },
+        {
+          "type": "comment",
+          "author": "larnon",
+          "en": "I started more than 15 years ago and recently got back into it. I would say that game has stagnated a lot more, character numbers may seem like it isn't that low but in reality most people who play it has around 5 accounts which they multibox with. So number of actual people who play it went really down. It is looking bleak for the future, and i can confidently say that it is all CCP's fault (called Fenris Creations now). They started aiming for short term gains and they probably realized themselves long ago it won't last so they started investing in other IP's but they were all mega failures so far.",
+          "zh": "我十五多年前开始玩，最近又回来了。我觉得这游戏停滞得更厉害了，角色数看起来不算低，但实际上大多数玩家都有大约5个号在多开。所以真人玩家数掉得很厉害。前景看起来很惨，我可以很有把握地说这全是CCP（现在叫Fenris Creations）的责任。他们开始盯短期收益，大概自己也早知道撑不久，于是把钱砸进其他IP，但到目前为止全是超级失败。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49433328",
+      "hn_points": 294,
+      "hn_comments": 152,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 9,
+      "title": "ICE plans to buy Boston Dynamics robot dogs for US operations",
+      "title_zh": "ICE拟花100万至200万美元采购波士顿动力机器狗Spot",
+      "publisher": "bostonglobe.com",
+      "article_url": "https://www.bostonglobe.com/2026/08/29/business/boston-dynamics-robot-dog-ice/",
+      "significance_score": 5.6,
+      "summary_zh": "《波士顿环球报》：国土安全部周四采购预测显示，移民海关执法局（ICE）拟向沃尔瑟姆的波士顿动力采购四足机器人Spot，用于“执法与公共安全”，报价约100万至200万美元，未写明台数；404 Media最先报道。公告称机器人为远程操控，用于对人员有风险的环境做检查、态势感知与危险评估。Spot单价起价约7.5万美元，可加装360度直播摄像头与机械臂。电子前哨基金会的Matthew Guariglia警告，若破门的第一个“人”是机器人，探员可能更鲁莽。公司发言人强调禁止武器化；ICE同期还签下约1670万美元、采购6000副电击手套的合同。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Matthew Guariglia",
+          "en": "They might be willing to be more reckless with raids on individuals' homes if the first person through to kick the door is a robot, not a human.",
+          "zh": "如果破门而入的第一个“人”是机器人而不是真人，他们突击民宅时可能会更不计后果。"
+        }
+      ],
+      "fetch_notes": "NM listed n-tv.de; n-tv is a short German wire. Used Boston Globe original (404 Media first flagged the DHS forecast).",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 10,
+      "title": "I accidentally turned LLM memory into program analysis",
+      "title_zh": "我一不小心把LLM记忆做成了程序分析",
+      "publisher": "pwning.systems",
+      "article_url": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "significance_score": null,
+      "summary_zh": "pwning.systems：作者做漏洞研究时，发现普通向量记忆分不清“曾经说过”和“现在仍然为真”，于是写成Datalog引擎Lemmalog——LLM负责把调试器和自然语言抽成事实，引擎做推导、撤回、出处和带时间区间的事实。作者在MemEval标准设置下跑了三次：LongMemEval F1约0.463、LoCoMo约0.533，知识更新类题目强于全文塞进上下文，查询上下文大约只有全文的几十分之一。HN上272赞、73评。作者强调这还没在真实漏洞调查里证完，只说明维护状态比反复重读整段历史更有用。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "Animats",
+          "en": "So he's using an LLM to generate data stored in an \"is_a\" representation.\nThat's so classic AI.\n\nSoon, he'll discover that he needs quantifiers. Then that \"for all\" is too strong sometimes, and he needs \"for most\". That way lies Cyc.\n\nIt's not a bad idea. But it does have a history.",
+          "zh": "所以他是在用LLM生成存成“is_a”表示的数据。\n这太经典AI了。\n\n很快他会发现自己需要量词。然后会发现“对所有”有时太强，需要“对大多数”。那条路通向Cyc。\n\n这主意不坏。但它是有历史的。"
+        },
+        {
+          "type": "comment",
+          "author": "iamflimflam1",
+          "en": "This really matches up to my experience on long research projects with Claude.\n\nIt’s very hard to remove information - Claude has a habit of recording things all over the place and will happily treat things as facts even after they’ve been disproved.\n\nWhat is currently true can get easily contaminated with old “facts”.",
+          "zh": "这跟我用Claude做长研究项目的体验完全对得上。\n\n信息很难删掉——Claude习惯把东西记得到处都是，即使已经被证伪也乐意当事实。\n\n当前为真的东西，很容易被旧“事实”污染。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49485416",
+      "hn_points": 272,
+      "hn_comments": 73,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

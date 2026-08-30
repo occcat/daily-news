@@ -1,0 +1,275 @@
+{
+  "theme": "ordered-dither",
+  "items": [
+    {
+      "rank": 11,
+      "title": "India holds firm on Indus Waters Treaty suspension amid Pakistan appeal",
+      "title_zh": "巴基斯坦驻美大使呼吁撤销单边措施，印度仍把印度河水域条约置于“中止”",
+      "publisher": "pakistantoday.com.pk",
+      "article_url": "https://www.pakistantoday.com.pk/2026/08/29/pakistan-urges-india-to-rescind-unilateral-measures-against-indus-waters-treaty",
+      "significance_score": 5.6,
+      "summary_zh": "Pakistan Today：巴基斯坦驻美大使Rizwan Saeed Sheikh在《新闻周刊》撰文，反驳印驻美大使Vinay Mohan Kwatra，要求印度撤销2025年4月23日把1960年《印度河水域条约》置于“中止”（abeyance）的单边决定。Sheikh称条约没有任一方可单方面中止、搁置或终止的条款，第十二条要求须经两国正式批准的新条约才能终止；仲裁庭包括2026年5月补充裁决仍确认条约有效、西河水电项目须受条约限制。印度在帕哈尔加姆袭击（26人遇难）次日宣布中止，Kwatra则称条约前言写明“善意与友谊”，巴基斯坦花了半个世纪拆掉这份善意，中止只是承认既成事实。双方把约2.5亿人的灌溉与粮食安全绑在同一条河上，谈判机制仍处僵持。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Rizwan Saeed Sheikh",
+          "en": "Baseless allegations of terrorism or other bilateral disputes cannot create a unilateral right to suspend, disregard or rewrite the IWT.",
+          "zh": "毫无根据的恐怖主义指控或其他双边争端，并不能创造单方面中止、无视或改写《印度河水域条约》的权利。"
+        }
+      ],
+      "fetch_notes": "NM listed economictimes.indiatimes.com; ET's matching Kwatra write-up is dated Aug 2. The 21h story is Pakistan's Aug 29 Newsweek appeal; used Pakistan Today original.",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 12,
+      "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
+      "title_zh": "国土安全部用冷僻海关法调取记者、非营利与工会记录",
+      "publisher": "theguardian.com",
+      "article_url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+      "significance_score": null,
+      "summary_zh": "《卫报》：特朗普政府国土安全部用19 USC 1509海关行政传票，绕过法官向科技和电信公司索要记者、非营利与工会的数据。明尼阿波利斯记者Georgia Fort的YouTube搜查令被法官两次以无合理根据驳回后，DHS改向Google和T-Mobile发1509；T-Mobile交出六个月、逾一万条通话与短信记录，Google以与海关调查无关拒绝。同一工具还被用来给Democracy Now、Megyn Kelly、工会SEIU与CWA等施压。HN上270赞、43评。前DHS律师称这些条款与教堂抗议、社媒帖甚至移民案都无关。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "softwaredoug",
+          "en": "> In several cases, the DHS has withdrawn a 1509 summons after it was challenged in court and before a judge could rule on its legality. That may be a deliberate strategy to avoid having a judge rule on the legality of the summons.\n\nThey have a toy, they’re increasingly abusing it, then trying to dodge from it being taken away.\n\nThe thing is nobody has to comply with 1509 summons, DHS has to go to court to enforce it. A lot of the fault is on a company that complies without just ignoring it.",
+          "zh": "> 有好几次，DHS在1509传票被告上法庭、法官还没裁定合法性之前就撤回了。这可能是故意策略，免得法官裁定传票不合法。\n\n他们有个玩具，越用越过分，然后想躲开被没收。\n\n问题是谁都不必遵守1509传票，DHS必须上法庭才能强制执行。很大一部分错在那些不直接无视、直接配合的公司。"
+        },
+        {
+          "type": "comment",
+          "author": "skybrian",
+          "en": "Apparently in this case, T-Mobile caved and Google didn't:\n\n> The DHS also sought and obtained six months of phone records for Fort from T-Mobile, which included records for more than 10,000 calls and text messages. Fort was not notified the government was seeking the records until mid-July, when government lawyers produced them to her lawyers. Fort’s lawyers wrote in a filing this week they were “stunned” to see the government had unilaterally been able to obtain a log of her communications after a judge had warned them about obtaining records about a journalist.\n\n...\n\n> In Fort’s case, Google did not comply with the summons for any of the accounts. The company responded to the DHS by saying it had not offered evidence of how it was related to a customs investigation.\n\n> A Google spokesperson said the company reviews each request for data it gets to ensure it is legal and pushes back when it is too broad or doesn’t follow the correct process.",
+          "zh": "看来这次T-Mobile屈服了，Google没有：\n\n> DHS还向T-Mobile索取并拿到了Fort六个月的电话记录，包括逾一万条通话和短信。Fort直到7月中旬政府律师把记录交给她的律师时，才知道政府在要这些材料。Fort的律师本周在文件里写，法官已经警告过不要调取记者记录之后，政府还能单方面拿到通讯日志，他们“震惊”。\n\n...\n\n> 在Fort案中，Google没有对任何账号配合传票。公司回复DHS说，对方没有提供这与海关调查有何关系的证据。\n\n> Google发言人说，公司会审查每份数据请求以确保合法，并在过宽或不走正确程序时回推。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49492219",
+      "hn_points": 270,
+      "hn_comments": 43,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 13,
+      "title": "Pacibekitug cuts inflammatory markers in chronic kidney disease trial",
+      "title_zh": "抗IL-6抗体pacibekitug在慢性肾病试验中把hs-CRP最高压低约89%",
+      "publisher": "escardio.org",
+      "article_url": "https://www.escardio.org/news/press/press-releases/sustained-reductions-in-inflammatory-markers-seen-with-novel-antibody-drug/",
+      "significance_score": 5.5,
+      "summary_zh": "欧洲心脏病学会：8月29日慕尼黑ESC 2026热线场，西奈山医学院Deepak Bhatt报告II期TRANQUILITY。美国49个中心入组143名3–4期慢性肾病、hs-CRP 2至<15 mg/L的患者，1:1:1:1随机接受皮下pacibekitug 25 mg/90天、50 mg/90天、15 mg/30天或安慰剂，共六个月；平均年龄69岁，64%为女性，72%在用他汀，59%有糖尿病。至第180天，hs-CRP相对基线的中位时间加权变化：安慰剂+7%，25 mg/90天−76%，50 mg/90天−85%，15 mg/30天−89%（均p<0.0001）。纤维蛋白原与脂蛋白(a)等标志物也持续下降；停药率1.9%，未见明确剂量相关安全信号。下一步是更长的III期，看生物标志物能否变成心血管结局。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Deepak Bhatt",
+          "en": "Results from the TRANQUILITY study demonstrate that the IL-6 pathway can be durably suppressed with infrequent dosing and no new safety signals.",
+          "zh": "TRANQUILITY研究结果表明，IL-6通路可以在低频给药下被持久抑制，且没有新的安全信号。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 14,
+      "title": "GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)",
+      "title_zh": "GrapheneOS：Pixel 11不再支持硬件内存标记（MTE）",
+      "publisher": "bsky.app",
+      "article_url": "https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e",
+      "significance_score": null,
+      "summary_zh": "GrapheneOS在Bluesky发帖：Pixel 11系列已做出部分移植，但因软件、固件、几乎可以肯定还有硬件都不支持ARM硬件内存标记（MTE），无法完成移植；项目认为Google砍掉这项安全功能是为了省钱。HN上253赞、122评。评论区把MTE缺失、Pro基础款减RAM、涨价，以及Google对Pixel设备树与源码的收紧，读成对第三方加固ROM越来越不友好；有人开始看GrapheneOS下一代摩托罗拉机。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "newsomix9xl",
+          "en": "\"Pixel 11 series is a lot more expensive for an incremental improvement to the CPU, the same underpowered GPU and reduced RAM for the Pro base models. They finally caught up to the last generation of Qualcomm cellular radio. It's overpriced, the upgrades aren't impressive and losing MTE is appalling.\"\n\nI guess that's a thumbs down then?",
+          "zh": "“Pixel 11系列贵了不少，CPU只是增量改进，GPU还是同样不够力，Pro基础款还减了RAM。蜂窝基带终于赶上高通上一代。定价过高，升级不惊人，丢掉MTE更是骇人。”\n\n那我猜这就是差评了？"
+        },
+        {
+          "type": "comment",
+          "author": "Pfhortune",
+          "en": "Feeling like my Pixel 9 Pro was the best timed hardware buy I've made in recent years.\n\nThe 10 dropped the physical SIM slot and Google started with their device tree shenanigans that year, with little to no improvements in exchange.\n\nI've got 16GB of RAM and 512GB in an ecosystem that shows every sign of regressing in capacities due to component price inflation.\n\nVery interested to see what Motorola does next year, however.",
+          "zh": "感觉Pixel 9 Pro是我近几年买得最赶时候的硬件。\n\n10那代去掉了实体SIM槽，Google也从那年开始搞设备树那套，几乎没有对等的改进。\n\n我手上是16GB内存加512GB，而这个生态因为元件涨价，容量处处在往回退。\n\n不过我很想看看摩托罗拉明年会做什么。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49490702",
+      "hn_points": 253,
+      "hn_comments": 122,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 15,
+      "title": "Google adds purchased e-books to Gemini Notebook with Expert Intelligence",
+      "title_zh": "谷歌把已购电子书接入Gemini Notebook，推出Expert Intelligence",
+      "publisher": "theverge.com",
+      "article_url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
+      "significance_score": 5.5,
+      "summary_zh": "The Verge：谷歌实验室把原NotebookLM更名为Gemini Notebook后，推出Expert Intelligence：已在Google Play Books购买的合格电子书可直接作为笔记本信源，用来提问、生成计划、信息图、AI播客与测验，并可在笔记本里看全书。起步覆盖逾10万种，出版方包括Penguin Random House、约翰霍普金斯大学出版社、Macmillan、O’Reilly等；谷歌还与迈克尔·波伦、金·斯科特、史蒂文·平克、Jennifer Wallace等15位作者做了“精选笔记本”。分享笔记本时，未购买该书的协作者只能看到信源条目，点进去会被导向Play Books购买。功能计划进入搜索AI Mode与Gemini应用，并扩展到学术论文、杂志与报纸。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Steven Johnson",
+          "en": "I'm really interested in the idea of building a collection of people whose work you really value, and kind of creating your own dream team of advisers that are just available to you wherever you go.",
+          "zh": "我真正感兴趣的是：把你真正看重的作者收成一套，组成一支随时跟着你走的顾问梦之队。"
+        }
+      ],
+      "fetch_notes": "NM listed itmedia.co.jp; used The Verge briefing with Google Labs editorial director Steven Johnson.",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 16,
+      "title": "Glacier Mice",
+      "title_zh": "冰川鼠：会成群滚动的苔藓球",
+      "publisher": "wikipedia.org",
+      "article_url": "https://en.wikipedia.org/wiki/Glacier_mice",
+      "significance_score": null,
+      "summary_zh": "维基百科“Glacier mice”条目周日冲上HN首页，248赞、48评。冰川鼠是长在冰川上的球形苔藓群落，可寄居线虫、跳虫和水熊，1951年由冰岛气象学家Jón Eyþórsson以jökla-mýs命名；在阿拉斯加、冰岛、斯瓦尔巴、智利等地被观察到。它们平均每天移动约2.5厘米，像畜群一样非随机滚动，一种假说是向阳面吸热融出浅坑再滚进去。今天上首页没有新论文，就是一条“原来还有这种东西”的维基条目——评论里有人顺着条目发现委内瑞拉已经失去最后一条冰川。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jameshart",
+          "en": "Huh\n\n> they have been observed in Alaska, Chile, Greenland, Iceland, Svalbard, Uganda and Venezuela\n\nWell, today I learned, Venezuela has glaciers.\n\nThen I googled that, and…\n\nhttps://www.theguardian.com/environment/article/2024/may/08/venezuela-loses-its-last-glacier-as-it-shrinks-down-to-an-ice-field\n\nAnd so today I learned, Venezuela used to have glaciers.",
+          "zh": "哈\n\n> 它们在阿拉斯加、智利、格陵兰、冰岛、斯瓦尔巴、乌干达和委内瑞拉被观察到\n\n好吧，今天才知道委内瑞拉有冰川。\n\n然后我搜了一下，然后……\n\nhttps://www.theguardian.com/environment/article/2024/may/08/venezuela-loses-its-last-glacier-as-it-shrinks-down-to-an-ice-field\n\n所以今天又学到：委内瑞拉曾经有冰川。"
+        },
+        {
+          "type": "comment",
+          "author": "networked",
+          "en": "I have found a video (under a minute long) of a backpacking group walking through a herd of glacier mice in Alaska: https://www.youtube.com/watch?v=v4fHfDrfoJw. I'd love to see a timelapse of glacier mice moving.",
+          "zh": "我找到一段不到一分钟的视频，一队背包客在阿拉斯加走过一群冰川鼠：https://www.youtube.com/watch?v=v4fHfDrfoJw。我很想看冰川鼠移动的延时摄影。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49424320",
+      "hn_points": 248,
+      "hn_comments": 48,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 17,
+      "title": "Himalayan heat raises glacier collapse risk, endangering communities",
+      "title_zh": "尼泊尔—西藏边境冰川崩塌引发山洪，科学家称喜马拉雅升温正在放大灾害",
+      "publisher": "bbc.com",
+      "article_url": "https://www.bbc.com/news/articles/cly464k252yo",
+      "significance_score": 5.4,
+      "summary_zh": "BBC：初步调查指向冰川崩塌，而非最初以为的地震滑坡，造成尼泊尔—西藏边境山洪，已至少469人死亡。美国地质调查局称崩塌撞击谷底登记为5.2级；邓迪大学Simon Cook团队定位崩塌发生在朗塘利隆峰附近、洪水点以西约15公里的冰川下部。国际山地综合发展中心（ICIMOD）分析认为高海拔冰岩崩进入Lende Khola（波曲支流），下游水位在30分钟内上涨7至9米，多处水文站被冲毁。牛津大学Mike Searle称整条冰川“一次性”垮下非常罕见；ICIMOD今年分析显示兴都库什—喜马拉雅冰川自2000年以来消融速度已翻倍。2021年印度查莫利冰川崩塌曾造成约200人死亡。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Simon Cook",
+          "en": "So you are going to get more landslides, debris flows, glacial meltwater, lake outbursts, glacier collapses, because climate warming ultimately destabilises these high mountain environments.",
+          "zh": "于是你会看到更多滑坡、泥石流、冰川融水、湖决和冰川崩塌，因为气候变暖最终会让这些高山环境失稳。"
+        }
+      ],
+      "fetch_notes": "NM listed noticiassin.com (aggregator). Used BBC original with casualty and USGS numbers.",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 18,
+      "title": "Samsung's Processing-in-Memory (PIM)",
+      "title_zh": "三星在Hot Chips讲LPDDR5X存内计算（PIM）",
+      "publisher": "chipsandcheese.com",
+      "article_url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "significance_score": null,
+      "summary_zh": "Chips and Cheese报道Hot Chips 2026：三星在标准LPDDR5X-9600的16个bank上各放一块PIM，内部带宽合计约614 GB/s，对外常规访问约76.8 GB/s；用保留行地址当MMIO，让普通读写命令切换模式、灌激活向量并触发MAC。单芯片低精度吞吐并不高，八颗凑起来大约9.6 INT8 TOPS。文章指出，模式切换与“读即计算”会打乱缓存、预取和乱序，操作系统几乎要把PIM区标成不可缓存并停掉其他线程。HN上242赞、92评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "londons_explore",
+          "en": "Whilst processing in memory is clearly the future, I am unconvinced by this implementation.\n\nMatrix multiplication involves getting every entry of the input and output matrices to be at the same multiplier at the same time. (Ie. N^2).\n\nTo do that, a lot of data movement needs to happen.   Movement  is the main  thing - the multiplication and addition is a sideshow as far as energy and silicon space is concerned.   You need a 'around the chip' ring shift register to pass every element of one matrix past every element of the other.",
+          "zh": "尽管存内计算显然是未来，这个实现我并不买账。\n\n矩阵乘法要求输入和输出矩阵的每一个元素在同一时刻都出现在同一个乘法器上（也就是N²）。\n\n要做到这一点，需要大量数据搬运。搬运才是主戏——就能量和硅面积而言，乘加只是配角。你需要一圈绕芯片的环形移位寄存器，让一个矩阵的每个元素经过另一个矩阵的每个元素。"
+        },
+        {
+          "type": "comment",
+          "author": "bob1029",
+          "en": "The tradeoff with putting the compute in the memory is that you have to know exactly where the dependent information will be at all times. Most problems do not fit this pattern very well. AI, gaming and crypto being the most obvious exceptions. It is incredibly constraining to develop applications using specialized hardware like this. You might as well spin out an ASIC for whatever it is you are doing. All 3 applications noted above eventually got their own flavors.\n\nI think the Von Neumann bottleneck is mostly a feature. The fact that communication of information across distances is expensive should not be immediately assumed to mean that it is universally flawed to do this. You are paying for something when you use all those joules. I'd argue we are usually wasting our energy with regard to information communication (e.g., lighting up a network interface & copper because we couldn't be bothered to use SQLite), but other times this stuff is fundamentally required for practical solutions to exist.",
+          "zh": "把计算放进内存的代价是，你必须随时精确知道依赖信息会在哪里。大多数问题并不符合这个模式。AI、游戏和加密是最明显的例外。用这种专用硬件做应用极其受限制。你干脆给手头的事单独做一颗ASIC。上面这三个应用最后都有了自己的口味。\n\n我觉得冯·诺依曼瓶颈多半是一种特性。跨距离传信息很贵，不该立刻被当成普遍错误。你烧掉那些焦耳是在买东西。我承认我们经常在通信上浪费能量（比如懒得用SQLite就点亮网卡和铜线），但有些时候这些东西对可行方案是根本必要的。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49487341",
+      "hn_points": 242,
+      "hn_comments": 92,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 19,
+      "title": "UK teen gets dissolvable heart implant in medical first",
+      "title_zh": "英国少女成为首例植入可溶解心脏支架，缺口约一枚10便士硬币",
+      "publisher": "independent.co.uk",
+      "article_url": "https://www.independent.co.uk/news/health/dissolvable-heart-implant-memosorb-lillie-yale-warrington-b3040576.html",
+      "significance_score": 5.4,
+      "summary_zh": "Independent：14岁沃灵顿少女Lillie Yale成为英国首位植入可溶解心脏装置Memosorb的患者，用于关闭约一枚10便士硬币大小的房间隔缺损。利物浦Alder Hey儿童医院6月完成手术，并为此向药品监管机构申请了特别许可。装置由常用于可吸收缝线的生物医学聚合物制成，充当支架让心脏自行愈合，随后完全溶解、不留金属。主治医生Jivanji称，若装传统金属装置，剧烈撞击可能在愈合前把它撞松，她将无法继续打橄榄球。Yale出生时33周早产即发现缺损，2025年1月检查显示右侧心脏扩大；母亲为避开中考把手术提前。BBC称她愈合良好，术后已跑完一次5公里。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Lillie Yale",
+          "en": "I'm really happy it's all done now, and it's amazing to know I was the first person in the UK to have this new type of implant.",
+          "zh": "我真的很高兴这件事做完了，知道自己是英国第一个用上这种新支架的人，感觉太神奇了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 20,
+      "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+      "title_zh": "好文化才是最大的生产力hack，不是AI",
+      "publisher": "newsletter.eng-leadership.com",
+      "article_url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+      "significance_score": null,
+      "summary_zh": "Engineering Leadership通讯：Gregor Ojstersek写，高管拿“有了AI就不需要那么多人”“别人用这工具10倍生产力”压团队，会先毁掉心理安全。他引用康威定律：产品会复制组织的沟通结构；AI会放大已有的好或坏——坏架构、坏沟通只会更快走到错误终点。建议把AI当普通工具、自下而上采用，不要谈“替换工程师”。HN上225赞、50评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "ElProlactin",
+          "en": "> Without good culture, everything else won’t work well\n\nExcept the market is full of proof this isn't true. You can still do very well with a broken culture if you have an oligopoly, through tactics like vendor lock-in, by buying up upstart competition early, using VC funding to capture the market by selling below cost, etc.\n\nAnd now that you have hundreds of thousands of people who have been laid off from high-paying jobs, it's an employer's market.",
+          "zh": "> 没有好文化，其他一切都不会运转良好\n\n可市场上到处是反证。如果你有寡头地位，用供应商锁定、早早买下新竞争者、靠VC亏本抢市场等手段，坏文化照样能过得很好。\n\n现在有几十万人从高薪岗位被裁，这是买方市场。"
+        },
+        {
+          "type": "comment",
+          "author": "aesthetics1",
+          "en": "AI accelerates dysfunction. It will help you get to the wrong place faster if you're already heading there.\n\nI do believe the opposite is true too. If you have a strong culture, a product or idea with promise, and a team of smart and capable people, it can move you faster in the right direction too.\n\nThe problem is that every person or company in group 1 thinks they are in group 2.",
+          "zh": "AI会加速功能失调。如果你已经在往错的地方走，它会帮你更快到达。\n\n我也相信反过来成立。如果你有强文化、有前途的产品或想法、一队聪明能干的人，它也能让你更快朝对的方向走。\n\n问题是，第一组里的每个人或公司都以为自己在第二组。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49491568",
+      "hn_points": 225,
+      "hn_comments": 50,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}
