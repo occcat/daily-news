@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 1,
+      "title": "CAR T-cell therapy puts severe rheumatoid arthritis into remission in six patients",
+      "title_zh": "CAR-T让六名重症类风湿显著缓解，三人一年内无需用药",
+      "publisher": "genengnews.com",
+      "article_url": "https://www.genengnews.com/topics/translational-medicine/car-t-cell-therapy-puts-severe-rheumatoid-arthritis-into-remission-in-first-clinical-trial/",
+      "significance_score": 6.1,
+      "summary_zh": "GEN：《自然·医学》报告夏里特COMPARE一期试验，六名难治性、ACPA阳性类风湿患者在停用所有改善病情抗风湿药并经标准淋巴细胞清除后，接受单次自体全人源CD19 CAR-T（mivocabtagene autoleucel / KYV-101）输注。随访36至52周，六人疾病活动度均显著下降，三人在长达一年的观察期内无需任何类风湿用药即维持缓解；自身抗体水平大幅回落。仅见短暂轻中度细胞因子释放综合征，无严重神经毒性。二期将再纳入十人，与同样靶向B细胞的已上市药头对头比较，检验能否真正重置病理性免疫记忆。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Gerhard Krönke",
+          "en": "Disease activity decreased markedly in all six patients. During follow-up of up to one year, three patients were in sustained remission without any medication for rheumatoid arthritis. This is particularly remarkable given that none of the established treatments had previously been able to relieve their symptoms adequately.",
+          "zh": "六名患者的疾病活动度都明显下降。在最长一年的随访中，三人在完全停用类风湿用药的情况下维持缓解。这尤其惊人，因为此前没有任何已确立的疗法能充分缓解他们的症状。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 2,
+      "title": "Creepy Crawlies",
+      "title_zh": "蠕虫爬虫：git.kernel.org把更多CPU花在给爬虫渲染提交上",
+      "publisher": "people.kernel.org",
+      "article_url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+      "significance_score": null,
+      "summary_zh": "Linux基金会的Konstantin Ryabitsev用数字说明AI爬虫对git.kernel.org的冲击：五个地理分布式节点上随时有约14个CPU核专门把git提交渲成HTML，给爬虫的算力已经超过包括git clone在内的全部正当访问。linux.git约148万次提交、922个fork，cgit还能生成补丁、任意diff，合法URL以十亿计；本可一次克隆拿全历史，爬虫却选择最笨的HTML逐条抓取。封User-Agent、封IP、封整段ASN之后，流量改道消费级代理。HN上877赞、402评，争论从Anubis工作量证明打到移动端不可用。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "semiquaver",
+          "en": "This statement holds the core misapprehension behind Anubis. It's not a ton of cycles. There is no difficulty setting that would be inconvenient for bots but usable for humans on mobile devices.\n\nI noticed the other day that lists.ffmpeg.org had moved to Anubis difficulty level 6, which takes ~180sec for my iPhone 17 to solve at ~100KH/s, making the site unusable. So I spent ~10 minutes vibe coding a safari extension with a native bridge to an optimized C kernel using ARM SHA256 instructions that can do 200+ MH/s on the same device. This solves Anubis difficulty level 6 in a handful of milliseconds.\n\nGiven the numbers and capabilities involved (a single $5K ASIC miner yields 200TH/s, a million times more hash rate than my optimized kernel running on an iPhone), I don't see how proof of work could possibly be a sustainable strategy to keep bots out without ruining human user experience. It's an arms race that can't be won.",
+          "zh": "这句话抓住了Anubis的核心误判。那根本不是“很多周期”。不存在一种难度既让机器人难受、又让手机上的人类还能用。\n\n前几天我发现lists.ffmpeg.org把Anubis调到难度6，我的iPhone 17大约100KH/s，要花约180秒，网站等于废了。于是我花了大约10分钟用自然语言写了一个Safari扩展，经原生桥接到用ARM SHA256指令优化的C内核，同一台设备能到200+ MH/s，难度6几毫秒就算完。\n\n看看数量级：一台五千美元的ASIC矿机有200TH/s，比我在iPhone上的优化内核还快一百万倍。我不觉得工作量证明能在不毁掉真人体验的前提下把机器人挡在门外。这是一场打不赢的军备竞赛。"
+        },
+        {
+          "type": "comment",
+          "author": "tptacek",
+          "en": "Tavis Ormandy called this, about Anubis, almost exactly a year ago:\n\nhttps://news.ycombinator.com/item?id=44962529\n\nIt never really cohered as a solution. High-powered scrapers are better equipped to handle proof-of-work challenges than end users. Proof of work makes sense for a password hash, where any one guess at a password provides zero marginal utility. But every request from a scraper is productive to the scraper.",
+          "zh": "大约一年前Tavis Ormandy就对Anubis说过这一点：https://news.ycombinator.com/item?id=44962529\n\n它从来就没有真正自洽成一套方案。高算力爬虫比终端用户更擅长应付工作量证明。口令哈希用PoW说得通，因为猜错一次对攻击者没有边际收益；可爬虫的每一次请求对它自己都是有产出的。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49491791",
+      "hn_points": 877,
+      "hn_comments": 402,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 3,
+      "title": "Memory Now Accounts for Half of Global Semiconductor Revenue, With a Catch",
+      "title_zh": "存储芯片将占全球半导体收入一半，靠的是涨价而非出货量",
+      "publisher": "semiconductor-digest.com",
+      "article_url": "https://www.semiconductor-digest.com/gartner-forecasts-worldwide-semiconductor-revenue-to-reach-1-6-trillion-in-2026/",
+      "significance_score": 6.1,
+      "summary_zh": "Semiconductor Digest援引Gartner：2026年全球半导体收入预计约1.555万亿美元，同比增约92%；存储收入8373亿美元，占全行业约54%，而2025年仅27%。DRAM收入预计增246.6%，NAND增371.9%。“附加条件”是增长主要由AI基础设施推高的HBM、DRAM与NAND价格驱动，而非比特出货同步暴涨；分析师警告客户预算与需求破坏风险，供需更接近2028年才可能再平衡。非存储侧仍增约22%至7180亿美元，说明AI把机会扩到整个基础设施栈，而不只是一颗GPU。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Ben Lee",
+          "en": "AI is expanding the semiconductor opportunity across the entire infrastructure stack rather than benefiting a single device category.",
+          "zh": "人工智能正在把半导体机会扩展到整个基础设施栈，而不是只让单一器件品类受益。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 4,
+      "title": "Omarchy: Any User Process Can Escalate to Root",
+      "title_zh": "Omarchy：任意用户进程都可提权到root",
+      "publisher": "0xcc.io",
+      "article_url": "https://0xcc.io/posts/omarchy-root-creds/",
+      "significance_score": null,
+      "summary_zh": "安全研究者trap0xcc披露：Arch衍生桌面发行版Omarchy默认把用户加入docker组，等于把与root等价的Docker套接字权限交给整个图形会话。普通进程无需密码或提权提示即可取得机器级权限；影响覆盖浏览器、编辑器、包管理脚本和AI编程代理。文档还把“不必以root跑Docker”写成卖点，作者称这是opt-out而非opt-in。漏洞已在4.0.1修补，呼吁立刻升级。HN上374赞、382评，有人说这是所有桌面Linux的默认剧场，有人说别用氛围编程出来的发行版。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "concinds",
+          "en": "A few days ago someone found they were flowing USB descriptors straight into the shell.\n\nDon't use vibecoded distros. It doesn't matter whether they fix this or that, or whether you care about a particular vuln. This is not sensible. It's why you switched away from Windows in the first place, remember?",
+          "zh": "几天前有人发现他们把USB描述符直接喂进了shell。\n\n别用氛围编程出来的发行版。他们修这个或那个、你在不在乎某一个洞，都不重要。这本身就不合理。你当初离开Windows，不就是为了这个吗？"
+        },
+        {
+          "type": "comment",
+          "author": "mike_hearn",
+          "en": "Linux isn't like macOS, it doesn't have any kind of proper desktop sandboxing architecture that really works. So this is kind of security theatre. If you run a malicious program it can do stuff like tamper with your PATH or exploit local vulns in apps to get to the point where it can control anything that matters (which root generally doesn't).\n\nSo this kind of \"vulnerability\" doesn't seem that important. If you run code as yourself on Linux it owns you.",
+          "zh": "Linux不像macOS，没有真正能用的桌面沙箱架构。所以这有点像安全剧场。你若跑了恶意程序，它可以改PATH，或利用本地应用漏洞，直到控制真正要紧的东西（root往往管不到这些）。\n\n所以这种“漏洞”显得没那么重要。在Linux上以你自己的身份跑代码，它就已经拥有你了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49499854",
+      "hn_points": 374,
+      "hn_comments": 382,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 5,
+      "title": "China's Humanoid Robot Games Reveal Big Leaps and Big Gaps in Beijing",
+      "title_zh": "北京人形机器人运动会：跑得过博尔特，也撞墙起火",
+      "publisher": "theguardian.com",
+      "article_url": "https://www.theguardian.com/news/ng-interactive/2026/aug/29/hilarity-unease-and-relief-games-show-china-is-not-over-the-finish-line-in-humanoid-robot-race",
+      "significance_score": 6.0,
+      "summary_zh": "《卫报》：第二届世界人形机器人运动会8月22日至26日在北京国家速滑馆举行，逾2000台人形、660余支多为国内队伍参赛。蓝带项目100米上，天工Ultra等机型跑得比博尔特的人类纪录更快，随即撞上软垫墙，火花、火焰和零件齐飞。帝国理工的Thrishantha Nanayakkara称较去年进步“惊人”，但专家强调这是专项而非通才：能跑的不会打拳。宇树创始人王兴兴说，人形机器人在陌生家庭完成八成语音/文本指令的“ChatGPT时刻”或还要十年；顾问Georg Stieler则称秀特技容易，在工厂做有用的事才难。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Wang Xingxing",
+          "en": "Humanoids are not yet capable enough for mass deployment. The limitations in the AI models that power robots' decision-making and interactions remain the industry's biggest bottleneck.",
+          "zh": "人形机器人还没有强大到可以大规模部署。驱动机器人决策与交互的AI模型的局限，仍是行业最大的瓶颈。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 6,
+      "title": "European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy",
+      "title_zh": "欧委会在ProtectEU中重提加密后门",
+      "publisher": "reclaimthenet.org",
+      "article_url": "https://reclaimthenet.org/eu-protecteu-strategy-encryption-backdoor-law-enforcement",
+      "significance_score": null,
+      "summary_zh": "Reclaim The Net：欧盟委员会在ProtectEU执法战略中再次要求给执法部门“更有效的工具”，批评者认为这是把加密后门重新包装进新法案。HN上341赞、141评。评论区指向欧盟结构：议会不能立法倡议，委员会可把被否决的方案改头换面再送；ChatControl被当作前车之鉴。也有人指出，在AI代理已能撬开未钉死系统的当下再留后门，是把安全往反方向推。部分评论要求看工作计划原文，质疑“后门”是否被媒体过度解读。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "bradley13",
+          "en": "The European Commission has far too much power, and answers far too little to the populace. In reality, they want to be dictators.\n\nIf you don't know, the unfortunate way the EU is structured, the Parliament cannot initiate legislation. They can only vote on whatever the Commission puts in front of them.\n\nIf the Parliament votes \"wrong\", the Commission just repackages the idea in a new bill, pulls a couple of dirty tricks, and tries again. They only have to succeed once. See ChatControl for a prime example.\n\nSo the EU will eventually require backdoors in encryption. It's only a question of how many tries it takes...",
+          "zh": "欧盟委员会权力太大，对民众负责太少。实际上他们想当独裁者。\n\n如果你不知道：欧盟的不幸结构是，议会不能提出立法，只能对委员会摆到面前的东西投票。\n\n议会若投错了，委员会就把主意重新包装进新法案，耍几手，再试一次。他们只需成功一次。ChatControl就是典型。\n\n所以欧盟最终会要求加密后门。只是还要试几次的问题。"
+        },
+        {
+          "type": "comment",
+          "author": "jbstack",
+          "en": "With all the current concerns about rogue and mis-aligned AI, and about how we've made essentially zero progress on making sure that AI is safe and trustworthy, NOW you want to put backdoors in encryption algorithms? We should be doing everything we possibly can to make our systems more secure, not less.\n\nThis type of policy was terrible when they first thought of it. Now it's outright negligent and dangerous.",
+          "zh": "眼下大家都在担心失控、不对齐的AI，而我们在确保AI安全可信上几乎毫无进展，你现在却想给加密算法留后门？我们应该尽一切可能让系统更安全，而不是更不安全。\n\n这种政策当初想出来就已经很糟。现在则是彻头彻尾的疏忽和危险。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49499394",
+      "hn_points": 341,
+      "hn_comments": 141,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 7,
+      "title": "US Coaches Polish Forces in Drone-Focused Drill Based on Ukraine Lessons",
+      "title_zh": "美军按乌克兰经验首次带波兰特种兵演练无人机渗透",
+      "publisher": "apnews.com",
+      "article_url": "https://apnews.com/article/special-forces-exercise-drones-nato-russia-ukraine-b4707399e915d8124e7d134564290836",
+      "significance_score": 5.9,
+      "summary_zh": "美联社获准进入霍恩费尔斯联合多国战备中心：美军绿贝雷帽数月前为美军特种部队设计的课目，周五起首次拉上北约盟友波兰特种兵。科目是穿过假想敌防线、穿越约100公里敌后、对关键目标实施无人机打击；美空降步兵扮演敌军，无人机侦察、军警带犬和电子战全程追捕，被发现即可“俘获或击毙”。此前今年只由两支绿贝雷帽分队各跑过一次。演练正值特朗普政府警告从欧洲抽兵、俄与北约紧张升级之际，显示部分美军仍在把乌克兰四年半无人机战的经验向盟国扩散。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "U.S. Army Green Beret officer",
+          "en": "We're using lessons learned from Ukraine. All of those effects that we're seeing either Russia or Ukraine having to overcome — we're doing our best to replicate.",
+          "zh": "我们用的是从乌克兰学到的经验。俄乌双方正在克服的那些效果，我们都在尽力复现。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 8,
+      "title": "Hacking IKEA Furniture",
+      "title_zh": "改造宜家家具",
+      "publisher": "greenlightning.eu",
+      "article_url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
+      "significance_score": null,
+      "summary_zh": "greenlightning详解如何把宜家标准件改成合用的家具：零件尺寸公开、CAD图纸易找、价格低到值得试错。HN上255赞、169评。有建筑师朋友称宜家把现代审美交给了大众；也有人把Billy改成遮管道的壁柜，或把Kallax隔板拆掉、旋转后改开间。反对者觉得既然已经动锯和钻，不如直接用实木，颗粒板洒上饮料就会化。共识是：宜家是年轻人的开放硬件，别指望官方接受你的拉取请求。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "bborud",
+          "en": "An architect friend of mine once said that he admired IKEA above all other furniture manufacturers because it made a modern range of aesthetics available to the masses. IKEA had done more to evolve the public taste than any other manufacturer.\n\nAnd I do have to agree. I can remember what ghastly furniture most shops used to have around here. Sure, there was more solid wood furniture, but guess what: that durability comes at a cost. Not only in terms of money, but also in terms of how easy it was to install and move.\n\nFor those of you who look down on IKEA furniture, I'd like to hear about what alternatives you think need mentioning. Especially for young people or people of modest means. I can't really think of any company that offers what they offer and comparable quality, looks and price here in Europe.",
+          "zh": "一位建筑师朋友说过，他最佩服宜家，因为它把一套现代审美交给了大众。宜家对公众品味的推动，超过任何其他厂家。\n\n我同意。还记得这儿多数店里曾经卖过怎样难看的家具。当然也有更结实的实木，但耐久是有代价的：不只是钱，还有安装和搬运有多难。\n\n看不上宜家的人，我想听听你们觉得该提哪些替代，尤其是给年轻人或收入一般的人。在欧洲，我实在想不出谁能在品质、外观和价格上提供同等的东西。"
+        },
+        {
+          "type": "comment",
+          "author": "Beijinger",
+          "en": "There are tons of websites like this: https://ikeahackers.net/\n\nI read, IKEA first wanted to have them closed down, but then they realized, it does not matter why someone buys their stuff, as long as they buy it.\n\nI like Ikea. I lived in so many countries, and it is an excellent place to buy furniture if you have to. But I consider it \"throw away\" furniture. Quality is okay or soso and it is unlikely to survive several moves.\n\nIf you can afford and have a place for long term. Buy better stuff. Used quality furniture, even antique, can be incredibly cheap.",
+          "zh": "这类网站多得很：https://ikeahackers.net/\n\n我读到，宜家起初想把它们关掉，后来意识到：只要有人买，为什么买并不重要。\n\n我喜欢宜家。我在很多国家住过，不得不买家具时它是个好去处。但我把它当成“用完即弃”的家具。质量还行或一般，很难扛过几次搬家。\n\n如果买得起、也有长期住处，买更好的。二手优质家具，甚至古董，可以便宜得惊人。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49497810",
+      "hn_points": 255,
+      "hn_comments": 169,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 9,
+      "title": "CIA director proposes Trump-Putin-Zelensky summit during Moscow visit",
+      "title_zh": "中情局局长访莫斯科，提出特朗普—普京—泽连斯基三方峰会",
+      "publisher": "axios.com",
+      "article_url": "https://www.axios.com/2026/08/29/cia-director-ratcliffe-putin-zelensky-summit-war",
+      "significance_score": 5.9,
+      "summary_zh": "Axios：中情局局长约翰·拉特克利夫本周二秘密访莫斯科，与俄对外情报局局长纳雷什金、联邦安全局局长博尔特尼科夫会面，这是他首次亲自介入停火外交。两名知情人士称，他试探俄情报首脑能否说服普京重启美方斡旋谈判，并首次提出特朗普、普京、泽连斯基三方峰会。周五美方已向泽连斯基通报；泽连斯基此前支持、普京多次拒绝。纽约时报称拉特克利夫向博尔特尼科夫给出对战局的“暗淡评估”，并促俄在局势恶化前成交。特朗普则把此行说成“例行公务”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Axios sources",
+          "en": "CIA Director John Ratcliffe proposed a trilateral meeting between President Trump, Russian President Putin and Ukrainian President Zelensky during his covert trip to Moscow earlier this week in an effort to end the war.",
+          "zh": "中情局局长约翰·拉特克利夫在本周早些时候秘密访问莫斯科期间，提出特朗普总统、俄罗斯总统普京与乌克兰总统泽连斯基举行三方会晤，以结束战争。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 10,
+      "title": "Europe's summer drought is so extreme that desertification is a growing threat",
+      "title_zh": "欧洲今夏干旱极端，沙漠化威胁上升",
+      "publisher": "fortune.com",
+      "article_url": "https://fortune.com/2026/08/29/europe-summer-drought-desertification-threat-rivers-fish/",
+      "significance_score": null,
+      "summary_zh": "《财富》：欧洲今夏干旱把多瑙河渔业、内河航运和地下水同时逼到极限，气象与土壤监测把部分地区标进沙漠化风险。HN上242赞、293评。从维也纳坐火车去布达佩斯的人说，往年缝里都是绿的田野现在干得发白；瑞士原始林核心区因巨树遮阴反而挺过数月无雨，成为对照。有人贴出哥白尼干旱地图，也有人抱怨标题把多瑙养鱼困境写成“欧洲沙漠化”。文章本身遇付费墙，评论区靠存档链接传阅。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "MomsAVoxell",
+          "en": "Just took a train ride from Vienna to Budapest for a few days, and couldn't help but notice how very, very dry everything is .. as an Australian living in Europe for a few decades now, I've always been intrigued by just how green everything is, literally something growing in every single crack in the pavement, or endless rolling green fields of prosperity during spring - whereas, where I'm from its year-long spinifex and grass shrubs and wattles with the occasional bush flower bloom, barely hanging on out in the desert, mostly reds and blacks and greys, not much green - so the vibrancy of Europe has always been a marvel. Seeing it this dry is unsettling in a way I didn't expect.",
+          "zh": "刚坐火车从维也纳到布达佩斯住了几天，没法不注意到一切都非常、非常干。我这个在欧洲住了几十年的澳大利亚人，一直好奇这儿有多绿：人行道每条缝都有东西长出来，春天是望不到边的丰收绿野；而我老家是一年到头的三齿稃、草灌和金合欢，偶尔开点野花，在沙漠里勉强活着，多是红、黑、灰，很少绿。欧洲的鲜活一直是种奇观。看到它这么干，有一种我没料到的不安。"
+        },
+        {
+          "type": "comment",
+          "author": "comrade1234",
+          "en": "I have an ancient forest near where I live in Switzerland. In the core zone of the forest they do no maintenance whatsoever. The trees live, they get gigantic and very old. They die. At some point the top breaks off and then many years later the rest of the tree is so fungus-eaten it tips over too and rots on the ground.\n\nSunlight never reaches the ground because of the tall giant trees so there's no undergrowth. It's just dead leaves and mushrooms.\n\nSomething that was completely 100% noticeable was that during this drought of several months this forest was still incredibly healthy.",
+          "zh": "我家附近瑞士有一片原始林。核心区完全不维护。树活着，长得巨大而老；死了。树冠先断，再过很多年其余部分被真菌吃空，也倒下来在地上腐烂。\n\n因为巨树，阳光到不了地面，没有林下植被，只有落叶和蘑菇。\n\n百分之百能看出来的是：这场持续数月的干旱里，这片林子仍然健康得惊人。"
+        }
+      ],
+      "fetch_notes": "paywall: Fortune metered/paywall; used public lede plus HN discussion.",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49498978",
+      "hn_points": 242,
+      "hn_comments": 293,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

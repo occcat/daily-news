@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 21,
+      "title": "How Apple and policy made India a mobile phone hub",
+      "title_zh": "苹果与政策如何把印度做成手机枢纽",
+      "publisher": "businesstoday.in",
+      "article_url": "https://www.businesstoday.in/magazine/deep-dive/story/the-apple-effect-indias-emergence-as-a-mobile-phone-hub-has-been-nudged-along-by-apples-ecosystem-552095-2026-08-30",
+      "significance_score": 5.5,
+      "summary_zh": "《今日商业》杂志：印度从装配走向手机枢纽，靠的是苹果供应链外移与政策叠代——2017年分阶段制造计划对配件征税，2020年大规模电子PLI奖励增产出口，该PLI于2026年3月31日收官后，内阁再批6250亿卢比手机制造计划（MPMS）和电子元器件计划（ECMS），把激励从整机装配拉向电路板、摄像头模组和国产品牌研发。路透与彭博估算苹果代工厂已贡献印度智能手机出口约四分之三，五座iPhone厂直接雇工逾20万。正文在杂志付费墙后，此处用导语与公开政策材料。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Business Today",
+          "en": "India's emergence as a mobile phone hub has been nudged along by policy support, besides Apple's evolving ecosystem. Policymakers recognised that if India wanted to become a global manufacturing powerhouse, electronics, mobile phones in particular, had to be the starting point.",
+          "zh": "印度崛起为手机枢纽，除了苹果不断演进的生态系统，也被政策托了一把。决策者认识到：若印度想成为全球制造强国，电子尤其是手机必须作为起点。"
+        }
+      ],
+      "fetch_notes": "paywall: Business Today magazine paywall; used public lede plus PLI/MPMS/ECMS reporting.",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 22,
+      "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
+      "title_zh": "协调逆风：组织何以像黏菌",
+      "publisher": "komoroske.com",
+      "article_url": "https://komoroske.com/slime-mold/",
+      "significance_score": null,
+      "summary_zh": "Alex Komoroske的著名幻灯把大组织比作黏菌：营养源一出现，所有人就朝同一个方向涌，局部合理、全局失灵；松耦合、高对齐的小队才能抗住协调逆风。HN上118赞、40评。有人拿谷歌前几百号人与第20万名按表格招进来的人对打；有人推荐Bungay的《行动的艺术》，并承认大团队爱把书里的动作演一遍然后放弃。也有人抱怨幻灯片一页没几个字，像幼儿园点读。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "xyzelement",
+          "en": "This is a Google deck as mentioned elsewhere. What's not mentioned is the quality of employees involved in the decision making.\n\nConsider Google's first few hundred employees - people like Urs, Susan W, Marissa M. People chosen by Larry and Sergey for a mix of high impact qualities that made early Google what it is.\n\nNow consider employee #200,000 chosen by employee #180,000 based on some dry rubric. It's a completely different caliber of person requiring a different amount of coordination.\n\nIf you could create a company of 200k Susans, Marissas, and Urses it would be one thing. But that's obviously not possible. So size itself is a factor because of how you can get to that size to begin with.",
+          "zh": "这是谷歌的那套幻灯，别处提过。没提的是做决策的人的质量。\n\n想想谷歌前几百名员工——Urs、Susan W、Marissa M那种，由Larry和Sergey按能成事的素质挑出来，才有了早期谷歌。\n\n再想想第20万名员工，由第18万名按一张干巴巴的评分表招进来。完全不同档次的人，需要完全不同的协调量。\n\n如果你能组成一家20万个Susan、Marissa和Urs的公司，那是另一回事。但这显然不可能。所以规模本身就是因素，因为你正是靠那种招法才堆到那个规模。"
+        },
+        {
+          "type": "comment",
+          "author": "jodacola",
+          "en": "I recommend reading The Art of Action by Stephen Bungay on this particular topic.\n\nA line in this presentation about loosely coupled, highly aligned teams is a major idea straight out of this book.\n\nI saw some questions in threads here about how to achieve this: unfortunately, I have no bulletproof answers on this front, because what I've seen in practice is that large teams really like to talk about ideas/read books/get training on all these great ideas, then pantomime some of the behaviors from source material, then give up shortly thereafter without actually achieving results and only adding to the chaos and dysfunction.",
+          "zh": "这个话题我推荐Stephen Bungay的《行动的艺术》。\n\n幻灯里那句松耦合、高对齐的团队，就是直接出自这本书的一个主要想法。\n\n有人问怎么做到：很遗憾我没有防弹答案。实践里我见到的是，大团队很爱讨论想法、读书、参加培训，然后把原材料里的动作比划一遍，很快放弃，没有真正出结果，只往混乱和失灵上再堆一层。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49499891",
+      "hn_points": 118,
+      "hn_comments": 40,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 23,
+      "title": "US court rejects 9/11 mastermind's torture-tainted confessions",
+      "title_zh": "军事法官排除9/11主谋受酷刑污染的供词",
+      "publisher": "cbsnews.com",
+      "article_url": "https://www.cbsnews.com/news/judge-throws-out-confession-alleged-911-mastermind-khalid-sheikh-mohammad/",
+      "significance_score": 5.5,
+      "summary_zh": "CBS：关塔那摩军事法官迈克尔·施拉马中校周五裁定，哈里德·谢赫·穆罕默德2007年向FBI所作供述非自愿，不得在即将于2028年6月开庭的死刑案中使用。检方已排除中情局黑牢阶段的水刑等供述，但一直把关塔那摩FBI四日讯问当最关键证据。法官认定中情局的心理条件反射与强制构成“不间断延续”，且FBI未明确告知沉默权与律师权。8月29日日刊写的是开庭日期；今天是证据裁定本身。检方可上诉。退休FBI探员Frank Pellegrino坚称自己已把“你可以不说”说到不能更明白。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Lt. Col. Michael Schrama",
+          "en": "The prosecution has failed to prove by a preponderance of the evidence that Mr. Mohammad's statements to the FBI were voluntarily given.",
+          "zh": "检方未能以优势证据证明穆罕默德先生对FBI所作陈述是自愿给出的。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 24,
+      "title": "Automating Immersive Reading",
+      "title_zh": "自动做沉浸式朗读：给有声书逐词对齐",
+      "publisher": "smoores.dev",
+      "article_url": "https://smoores.dev/post/automating_immersive_reading/",
+      "significance_score": null,
+      "summary_zh": "smoores请了一周假，重写开源自托管平台Storyteller的强制对齐算法，让有声书能按句乃至按词高亮。HN上89赞、34评。有人用读屏校对自己的文章，因为眼睛会自动补错；有阅读障碍用户怀疑逐词高亮反而绑住扫视，整句高亮可能更好。也有人嫌有声书太慢，想要眼动追踪来反超音频。作者本人在帖下解释了算法动机。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "cainxinth",
+          "en": "This is how I proofread. I play a screen reader while I read my work. The brain does some autocorrecting that you don't even notice and occasionally skips over a typo when you read it without the audio.",
+          "zh": "我就是这样校对的。一边开读屏一边看自己的稿。大脑会做你自己都注意不到的自动纠正，没声音时偶尔就会跳过一个错字。"
+        },
+        {
+          "type": "comment",
+          "author": "SamBam",
+          "en": "I'm curious whether individual-word highlighting is best for people with reading disabilities, or a broad, whole-sentence highlighting might actually be preferable.\n\nWhen I'm reading my eye is jumping back and forth across the sentence. The demo made this abundantly clear -- it was actually very hard to just track the highlighted word.\n\nJust using the fact that I consider myself a very good reader as an example, I wonder whether there are advantages to the eye being free to skip back and forth across a sentence.",
+          "zh": "我好奇对阅读障碍者来说，逐词高亮是不是最好，或者宽一点的整句高亮其实更合适。\n\n我读书时眼睛在句子上来回跳。演示把这点说得很明白——要紧盯那个高亮词其实很难。\n\n就拿我自认为很会读书当例子：让眼睛在句子里自由来回，会不会反而有好处？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49497854",
+      "hn_points": 89,
+      "hn_comments": 34,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 25,
+      "title": "Networking becomes the new bottleneck for AI performance",
+      "title_zh": "网络成为AI性能的新瓶颈",
+      "publisher": "datacenterknowledge.com",
+      "article_url": "https://www.datacenterknowledge.com/switches-routers/the-switch-is-the-bottleneck-why-ai-infrastructure-has-a-network-problem",
+      "significance_score": 5.4,
+      "summary_zh": "Data Center Knowledge：算力狂奔之后，交换机与互联把昂贵芯片晾在一边。同步的all-reduce流量制造微突发和拥塞，网络故障已占生产训练中约10%至15%的GPU小时；数据中心资本开支里网络占比预计从约5%–10%升至2030年的15%–20%。Citi在Hot Chips上的观察与英伟达、博通、Meta、谷歌、三星的演示同向：赢家不一定是最快的处理器，而是能在整栈里最有效搬数据的公司。400G时尚能凑合的交换机，到800G就成硬顶。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Mark Rushworth",
+          "en": "The network fabric connecting compute is now the binding constraint on what AI systems can actually do. Closing the gap between raw compute and delivered performance demands a different starting point.",
+          "zh": "把算力连起来的网络结构，现在成了AI系统实际能做什么的硬约束。要弥合原始算力与交付性能之间的缺口，必须换一个起点。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 26,
+      "title": "Zig: Pointer Stability for ArrayLists",
+      "title_zh": "Zig为ArrayList加上指针稳定性",
+      "publisher": "ziglang.org",
+      "article_url": "https://ziglang.org/devlog/2026/#2026-08-27",
+      "significance_score": null,
+      "summary_zh": "Zig开发日志：动态数组扩容会让元素指针失效，新API要求程序员显式锁定指针稳定区间，好在调试/安全发布模式里抓住失效引用。HN上80赞、49评。有人说这是C++ vector迭代器失效的一等公民版；也有人觉得若你需要稳定指针，ArrayList从一开始就选错了，该存下标或用分段链表。Rust拥趸则指出编译器本可代你加锁，Zig把锁的范围交给人记，示例里锁甚至加在真正需要稳定的函数外面。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "amluto",
+          "en": "This seems weak.\n\nIn a language like Rust, the compiler will \"lock\" the pointers for you, and you can't forget.\n\nIn a language like C++ (and presumably Zig), one could, in theory at least, have the iterators and slices that reference the storage of a dynamic array hold some sort of lock that pins the storage.\n\nBut this API requires the programmer to remember to lock the pointers and also requires the programmer to keep the lock alive for the correct region of code. And it looks to me like even the example in the blog post has the lock taken completely outside the function that requires stability, so there is nothing whatsoever that gets the lock scoping right.",
+          "zh": "这显得弱。\n\n在Rust这类语言里，编译器会替你“锁住”指针，你忘不了。\n\n在C++（大概也包括Zig）里，理论上可以让引用动态数组存储的迭代器和切片自己持有某种锁，把存储钉住。\n\n可这套API既要程序员记得去锁指针，还要在正确的代码区间里把锁活着。而且在我看来，博文示例里锁完全加在真正需要稳定的函数外面，锁的作用域根本没有被做对。"
+        },
+        {
+          "type": "comment",
+          "author": "stub_out",
+          "en": "C++ developers constantly wrestle with vector iterator invalidations. Good on Zig for making this a first-class concern.",
+          "zh": "C++开发者一直在跟vector的迭代器失效较劲。Zig把这当成一等公民的问题，值得肯定。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49499095",
+      "hn_points": 80,
+      "hn_comments": 49,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 27,
+      "title": "Statins cut first heart attack and stroke risk by 30% in adults over 70",
+      "title_zh": "他汀把70岁以上首次心梗与卒中风险压低约30%",
+      "publisher": "escardio.org",
+      "article_url": "https://www.escardio.org/The-ESC/Press-Office/Press-releases/cholesterol-lowering-medication-reduces-major-cardiovascular-events-by-30-per-cent-in-older-people-without-known-cardiovascular-disease",
+      "significance_score": 5.3,
+      "summary_zh": "欧洲心脏病学会热线：莫纳什大学Sophia Zoungas领衔的STAREE试验在澳大利亚全科招募9971名70岁以上、无已知心血管病、糖尿病或痴呆的老人，随机每日阿托伐他汀40毫克或安慰剂，中位随访5.9年。《新英格兰医学杂志》同步发表。主要心血管事件（心血管死亡、非致死心梗、卒中或冠脉重建）相对风险下降30%（6.0%对8.3%）；无残疾生存（无痴呆且无持续躯体残疾）两组无显著差异。肌肉、肝脏和糖尿病相关不良事件在他汀组更常见，但严重不良事件两边都约2.7%。这是首个专为被既往试验忽略的高龄一级预防人群做的大型随机对照。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Sophia Zoungas",
+          "en": "The risk of heart attack and stroke is a concern for older people and knowing there is an effective measure for lowering that risk will be a huge reassurance to older people and their families. We hope to see updated guidelines to help clinicians make use of these new findings.",
+          "zh": "心梗和卒中的风险是老年人的一块心病；知道有有效办法降低这一风险，对老人和家属将是巨大的安心。我们希望看到指南更新，好让临床医生用上这些新发现。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 28,
+      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
+      "title_zh": "开源救回一块SM750 HDMI小显卡",
+      "publisher": "github.com",
+      "article_url": "https://github.com/KodeMunkie/sm750hdmifb",
+      "significance_score": null,
+      "summary_zh": "Show HN：作者买了块只有HDMI的Silicon Motion SM750服务器小卡，想把Nvidia显卡留给计算、用它跑X11，却发现主线sm750驱动只支持老的VGA/DVI款。他没有退货，而是用自然语言辅助写了新驱动，自称可跑超宽、更高刷新，并加了自研有序抖动，还在官方文档只标到1920×1200@60的芯片上挤出2560×1080@75。HN上59赞、31评。有人欢呼又一块硅没进填埋场；有人问HDMI加16MB显存是什么怪组合，也有人追问氛围编程的迭代闭环，以及会不会上游进内核。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "SillyUsername",
+          "en": "I wrote a modern Linux driver that supports ultrawide resolutions, higher refresh, and faster performance than the original driver(s) on this cheap HDMI only variant server GPU.\n\nI created it because I wanted my Nvidia GPUs to be compute only, and needed a cheap and small display GPU to run X11. I bought this GPU on AliExpress, after learning it had Linux support. It does, but kernel 5.x series and the sm750 driver in modern Linux only supports the older VGA/DVI variants.\n\nRather than send it back or throw it away, I decided to vibe code a new driver with new features, to make it usable for day to day desktop use.",
+          "zh": "我给这块便宜的仅HDMI服务器小卡写了个现代Linux驱动，超宽分辨率、更高刷新，性能也比原驱动好。\n\n起因是我想把Nvidia显卡留给计算，需要一块又便宜又小的显示卡跑X11。听说有Linux支持就在速卖通下了单。确实有，但5.x内核和现在主线的sm750驱动只支持更老的VGA/DVI款。\n\n与其退货或扔掉，我决定用自然语言辅助写一个带新功能的驱动，好拿来日常桌面用。"
+        },
+        {
+          "type": "comment",
+          "author": "torvin92",
+          "en": "Another piece of silicon saved from the landfill! Open source keeps hardware relevant way past its commercial lifecycle.",
+          "zh": "又一块硅没进填埋场！开源让硬件在商业生命周期结束很久以后仍然有用。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49501611",
+      "hn_points": 59,
+      "hn_comments": 31,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 29,
+      "title": "Canada Pushes Global Defence Bank as Major Economies Hold Back",
+      "title_zh": "加拿大力推全球防务银行，德英等大国仍未加入",
+      "publisher": "business-standard.com",
+      "article_url": "https://www.business-standard.com/world-news/battle-to-build-116-billion-global-defence-bank-faces-major-hurdles-126083000828_1.html",
+      "significance_score": 5.3,
+      "summary_zh": "路透：加拿大总理马克·卡尼力推设在加拿大的防务安全韧性银行（DSRB），目标筹集约1000亿欧元低成本资金，为成员国政府与承包商的防务和韧性项目放贷并给中小企业融资提供担保，争取2027年运转。目前创始阵营是加拿大、阿尔巴尼亚、比利时、希腊、拉脱维亚、卢森堡、罗马尼亚、土耳其和乌克兰九国，没有德、英、法和其他G7。知情人士称犹豫来自与欧盟SAFE、英国多边防务机制重叠、约10亿欧元量级的注资，以及治理与AAA评级前景。秋季拟签章程，大门仍开。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "DSRB founding nations",
+          "en": "The DSRB is designed to expand access to capital, reduce financing costs, and support expansion of industrial capacity across member countries.",
+          "zh": "防务安全韧性银行旨在扩大资本可及性、降低融资成本，并支持各成员国工业产能扩张。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 30,
+      "title": "Electric rain can eat through metal",
+      "title_zh": "带电的雨能把金属吃穿",
+      "publisher": "scientificamerican.com",
+      "article_url": "https://www.scientificamerican.com/article/electric-rain-can-eat-through-metal/",
+      "significance_score": null,
+      "summary_zh": "《科学美国人》：实验室显示，带电雨滴打在金属上不只是弄湿，电荷和化学反应可以把金属表面咬穿；有人一直想用雨水发电，大规模没做成，但潮湿、不见阳光的洞穴、雨林或淋浴间里的小电子或许用得上。HN上87赞、16评。有人设想往巨大金属穹顶倒水、攒出足够负电荷去跳火花隙，做成科学馆展品；也有人把它跟酸化的质子雨联系起来。正文遇付费墙，评论区靠网络档案馆传阅。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "goda90",
+          "en": "People have wanted to collect rain to create electricity, but that hasn't worked on a large scale\n\nIt might be a useful effect for small electronics in damp environments where solar isn't a great option. Caves, rainforests, showers.",
+          "zh": "一直有人想收集雨水来发电，但大规模没做成。\n\n对潮湿、不太适合太阳能的环境里的小电子，这或许有用。洞穴、雨林、淋浴间。"
+        },
+        {
+          "type": "comment",
+          "author": "phendrenad2",
+          "en": "So if I pour water onto a huge dome of metal, it might build up enough of a negative static charge to jump a spark gap? New science exhibit idea!",
+          "zh": "那如果我把水倒在一个巨大的金属穹顶上，会不会攒出足够的负静电去跳过火花隙？新的科学馆展品点子！"
+        }
+      ],
+      "fetch_notes": "paywall: Scientific American paywall; used public lede plus HN comments.",
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49463397",
+      "hn_points": 87,
+      "hn_comments": 16,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}
