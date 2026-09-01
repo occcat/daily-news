@@ -42,12 +42,13 @@ a:focus-visible {
 
 #skin-v2 {
   display: grid !important;
-  /* 56+16+800+16+64 = 952; + 24px padding keeps ≥64px gutters at 1024. */
-  grid-template-columns: 56px minmax(0, 800px) 64px;
-  column-gap: 16px;
+  /* Ornaments stay in side tracks; 72px column-gap keeps ink ≥64px from copy
+     (HN/NM, titles, date). At 1024: 12+48+72+~756+72+52+12. */
+  grid-template-columns: 48px minmax(0, 800px) 52px;
+  column-gap: 72px;
   justify-content: center;
   align-items: stretch;
-  padding: 0 24px;
+  padding: 0 12px;
   min-height: 100vh;
   overflow: visible;
 }
