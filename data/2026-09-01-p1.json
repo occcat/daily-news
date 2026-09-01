@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 1,
+      "title": "Lung immune cells discovered that could improve flu vaccines",
+      "title_zh": "肺里被忽视的免疫细胞或能改写流感鼻喷疫苗",
+      "publisher": "eurekalert.org",
+      "article_url": "https://www.eurekalert.org/news-releases/1141821",
+      "significance_score": 6.5,
+      "summary_zh": "EurekAlert援引罗切斯特大学医学中心《自然·免疫》研究：流感感染后，一群本被认为短命的单核细胞可在肺内存活数月，分泌半乳糖凝集素-1（galectin-1），支撑组织驻留记忆CD8⁺ T细胞。给小鼠鼻喷流感苗加上重组Gal-1，肺部黏膜免疫明显增强。金敏洙（Minsoo Kim）称这挑战了“免疫记忆只由T/B细胞驱动”的传统看法。现有肌肉注射流感苗能防重症，却很难在气道建立记忆；鼻喷苗效果又不稳定。结果仍停在动物模型，团队在做更稳定的Gal-1佐剂，希望下一代理疫苗把感染挡在入口。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Minsoo Kim",
+          "en": "We identified galectin-1 as a powerful immune signal that can be used as a vaccine adjuvant to enhance mucosal immunity. This is a completely new approach for improving how vaccines work in the respiratory tract.",
+          "zh": "我们确认半乳糖凝集素-1是一种强免疫信号，可以用作疫苗佐剂来增强黏膜免疫。这是改善呼吸道疫苗工作方式的一条全新路径。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 2,
+      "title": "OpenShot 4.0 – Open-source video editor",
+      "title_zh": "OpenShot 4.0：本地ONNX抠像、调色台和机内录屏一次补齐",
+      "publisher": "openshot.org",
+      "article_url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
+      "significance_score": null,
+      "summary_zh": "开源剪辑OpenShot 4.0把录屏/摄像头/系统音频直接写进工程，新Color View带色轮、曲线、LUT和波形/矢量示波器；Object Mask用本机YOLO、EfficientSAM、Cutie的ONNX模型抠主体，不上传云、不订阅。时间线彻底换成原生Qt，Blur基准比3.5.1快约62%，libopenshot升到1.0.0。HN上524赞121评：有人要无损拼接默认开启，有人指向同样主打速度的Blick，也有人专门点名本地onnx抠像。免费剪辑终于不再只是“能用的时间线”。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "hn_submit",
+          "en": "I've supported OpenShot financially in the past, but I'm currently leaning towards LosslessCut and Shortcut.\nMost people want a video editor to splice and concatenate video files without any loss or transcoding. I believe this behavior (lossless) should be default on all of these editors.",
+          "zh": "我以前给OpenShot捐过钱，现在更倾向LosslessCut和Shortcut。\n大多数人要的是剪辑器能无损拼接视频、不要转码。我觉得这种行为（无损）应该是所有这些编辑器的默认。"
+        },
+        {
+          "type": "comment",
+          "author": "zikani_03",
+          "en": "Nice, looks like a great release. UI looks like it got a nice touch up and also cool to see that the project has AI powered object masking using onnx models.",
+          "zh": "不错，看起来是一次很像样的发布。界面整理过了，项目用onnx模型做AI物体蒙版也挺酷。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49507822",
+      "hn_points": 524,
+      "hn_comments": 121,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 3,
+      "title": "EU tightens rules for ChatGPT, Reddit, and Roblox",
+      "title_zh": "欧委会把ChatGPT定为搜索引擎，Reddit与Roblox进入DSA最严档",
+      "publisher": "nrc.nl",
+      "article_url": "https://www.nrc.nl/nieuws/2026/08/31/chatgpt-reddit-en-roblox-moeten-binnen-vier-maanden-voldoen-aan-strengere-eu-regels-a4935503",
+      "significance_score": 6.3,
+      "summary_zh": "欧委会8月31日依《数字服务法》把ChatGPT定为超大型在线搜索引擎（VLOSE），把Reddit、Roblox定为超大型在线平台（VLOP）：三者在欧盟月活均过4500万阈值。ChatGPT因可联网回答被定性为“混合服务/搜索引擎”，是首个被这样套进DSA的聊天机器人。OpenAI披露截至2026年3月的六个月里，ChatGPT搜索功能欧盟月活约1.59亿。四个月内须做非法内容、未成年人、身心健康、基本权利、选举与公共安全的系统性风险评估，并接受独立审计、向研究者开放数据。欧盟科技主权执委Henna Virkkunen称监督标准随社会影响上调。最严档现共28家；违规最高可罚全球年营业额6%。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Henna Virkkunen",
+          "en": "These new designations mean that ChatGPT, Reddit and Roblox will now be held to a higher standard of scrutiny and accountability in the European Union, in line with their large impact on our citizens and society.",
+          "zh": "这些新指定意味着ChatGPT、Reddit和Roblox今后要在欧盟接受更高标准的审查与问责，与它们对公民和社会的巨大影响相称。"
+        }
+      ],
+      "fetch_notes": "NRC荷语版或需订阅；摘要与引语据欧委会新闻稿及Euronews英译。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 4,
+      "title": "Playa Phone",
+      "title_zh": "Playa Phone：火人节上那座能打出去的电话亭",
+      "publisher": "playaphone.com",
+      "article_url": "https://playaphone.com/",
+      "significance_score": null,
+      "summary_zh": "Playa Phone把一座能打进打出的电话亭搬到黑石沙漠：陌生人排队给远方打电话，也可能因此拐进隔壁营地、被拉去办一场即兴婚礼。项目页把它写成“公共基础设施作为礼物”。HN上468赞175评，有人回忆第一次和女友停在亭边、两分钟后就有伴郎、证婚人和二十五名观众；也有人认真问火人节是不是只剩科技和金融有钱人的派对。评论区把“还能不能打一通没有算法的电话”讨论了两页。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "solfox",
+          "en": "Our first time out on the playa together, my girlfriend and I stopped by this phone booth and made a couple of calls. And because we stopped, we saw the FSM camp next door, and a giant sign saying \"Weddings Here\", so we inquired. They offered us free rings and then announced our wedding over a loudspeaker. In 2 minutes we had an entire wedding party, complete with best man, an elder to give away the bride, 25+ guests, and an officiant.",
+          "zh": "我们第一次一起上盐滩，我和女友在这座电话亭停下来打了几个电话。正因为停了，才看见隔壁FSM营地和一块写着“此处办婚礼”的大牌子。他们免费给戒指，还用喇叭宣布我们的婚礼。两分钟内就有了完整婚礼班子：伴郎、把新娘交出去的长者、二十五个以上的宾客，以及证婚人。"
+        },
+        {
+          "type": "comment",
+          "author": "throwayay4929",
+          "en": "Is Burning Man fun? I got the rather cynical impression that it's mostly very well off tech people and even better off finance/political people.\nNot trying to be flippant, genuinely curious if my impression is based on reality or am I making things up.",
+          "zh": "火人节好玩吗？我有一种相当犬儒的印象：主要是很有钱的科技人，以及更有钱的金融/政治人。\n不是抬杠，是真想知道这印象到底有没有根据。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49510514",
+      "hn_points": 468,
+      "hn_comments": 175,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 5,
+      "title": "UN committee says countries legally bound to pay slavery reparations",
+      "title_zh": "联合国消种歧委员会：缔约国有现行义务处理奴隶贸易赔偿",
+      "publisher": "rfi.fr",
+      "article_url": "https://www.rfi.fr/en/international/20260831-un-committee-presents-legal-case-for-broad-slavery-reparations",
+      "significance_score": 6.3,
+      "summary_zh": "消除种族歧视委员会（CERD）公布第40号一般性建议：跨大西洋奴隶贸易与殖民的持续后果，应依1965年《消除一切形式种族歧视国际公约》的现行义务来处理，而不是用“当时合法”的时际法原则挡索赔。文件称缔约国须对非洲裔采取全面补救，金钱赔偿不够，还要开放档案、改公共纪念、设独立真相委员会。公约182个缔约方包括美英法葡等。起草人、利比里亚专家Pela Boker Wilson对路透承认建议本身不具法院判决效力，但有“显著权威重量”，可被法庭当解释工具。欧盟与英国曾在今年3月相关联大决议上弃权。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Pela Boker Wilson",
+          "en": "We are calling on state parties to take concrete and meaningful action. We want to affirm the dignity of those whose suffering was denied, whose suffering was minimised or forgotten.",
+          "zh": "我们呼吁缔约国采取具体而有意义的行动。我们要确认那些苦难曾被否认、被淡化或被遗忘的人的尊严。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 6,
+      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
+      "title_zh": "Google从Chrome商店清掉MV2扩展，uBlock Origin一并下架",
+      "publisher": "webiterate.dev",
+      "article_url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
+      "significance_score": null,
+      "summary_zh": "Manifest V2过渡期满，Chrome网上应用店开始移除包括uBlock Origin在内的MV2扩展，完整广告拦截再少一个默认入口。webiterate的记录贴冲上382赞、297评。评论几乎一边倒：给父母装Firefox、别问他们喜欢什么浏览器；有人说2010年劝全家用Chrome，现在劝全家离开Chrome。uBO作者gorhill一直写Firefox上过滤更完整。广告拦截被说成安全问题而不再是口味问题——恶意广告会给老人装McAfee或诈骗软件。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "beloch",
+          "en": "Ad blocking has become a safety issue. My parents are at an age where they fall for things. If a malicious ad pops up and offers to install McAfee, some other form of crapware, or outright scamware, they'll click that ad and install the thing. Then I'll get called over when the computer starts acting screwy. If Google, MS, etc. had ever gotten together and developed a way to filter malicious ads out of their own ad services, maybe we wouldn't be having this conversation. They didn't do that and probably never will.",
+          "zh": "广告拦截已经变成安全问题。我父母到了会上当的年纪。弹窗恶意广告让他们装McAfee、其他垃圾软件或直接诈骗软件，他们会点、会装，然后电脑开始不对劲才叫我。如果Google、微软等曾经联合起来从自己的广告服务里滤掉恶意广告，也许我们不会有这场对话。他们没做，大概也永远不会做。"
+        },
+        {
+          "type": "comment",
+          "author": "Night_Thastus",
+          "en": "I know Firefox's share of browser share has dwindled to almost nothing. I know sooner or later, well within my lifetime, it will be gone.\nBut I will keep using it until they pry it from my hands. And if they do, I'll use forks until those break down too. I can't stand Google, or what Chrome has become. No single company should have such unilateral control over the internet and its information.",
+          "zh": "我知道Firefox的份额已经少到几乎没有。我知道在我有生之年它迟早会没。\n但我会用到他们从我手里撬走为止。真撬走了，我就用分叉，直到分叉也垮。我受不了Google，也受不了Chrome变成的样子。不该有一家公司对互联网和它的信息拥有如此单方面的控制。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49514878",
+      "hn_points": 382,
+      "hn_comments": 297,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 7,
+      "title": "Germany’s far right eyes Saxony-Anhalt as springboard to national power",
+      "title_zh": "德国选择党把萨克森-安哈尔特州选当成问鼎全国的跳板",
+      "publisher": "politico.eu",
+      "article_url": "https://www.politico.eu/article/germany-far-right-eyes-small-eastern-state-merseburg-springboard-national-power/",
+      "significance_score": 6.2,
+      "summary_zh": "Politico从梅泽堡发回：人口约两百万的萨克森-安哈尔特州9月6日州选，民调领先的德国选择党（AfD）有机会成为二战后首个执掌州政府的极右翼政党。州领袖Ulrich Siegmund对支持者说“历史从2026年的萨克森-安哈尔特开始”。报道称该党已圈出最多约200个公务员岗位，准备安插在柏林受训的忠诚者，并预演如何挡住主流政党在法院的阻击。州支部被邦内情报机构列为旨在破坏自由民主基本秩序的极端组织。AfD希望用执政实绩去掉污名，迫使默茨的基民盟无法再维持“防火墙”。梅克伦堡-前波莫瑞州9月20日还将再选。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Ulrich Siegmund",
+          "en": "Every single one of you is making history right now! Someday, in 20 or 30 years, you’ll look in the history books and say: ‘It began here. It began in 2026 in Saxony-Anhalt!’",
+          "zh": "你们每一个人此刻都在创造历史！二三十年后你们翻历史书会说：就是从这儿开始的。从2026年的萨克森-安哈尔特开始的！"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 8,
+      "title": "Damn fine tiny cafe",
+      "title_zh": "好极了的迷你咖啡馆：只因为动手时感觉对",
+      "publisher": "sandyuraz.com",
+      "article_url": "https://sandyuraz.com/blogs/tiny-cafe/",
+      "significance_score": null,
+      "summary_zh": "sandyuraz做了一座能反光的迷你咖啡馆：咖啡表面的高光、杯沿、招牌，全部手涂。HN上357赞61评，战锤涂装爱好者进来推荐用水彩/水粉做油线而不用白酒精，有人贴Maggie Rudy的老鼠小镇，有人只说“因为动手时感觉对，别的什么也不为”。在AI生成图像把首页占满的一周里，一座不能缩放的咖啡馆把评论区拉回手和颜料。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "LurkandComment",
+          "en": "There is an essence to humanity in this type of work: \"I'm doing this because I enjoy the way it makes me feel and nothing else\". It's inspirational and I love looking at it. Keeping doing what you love, it also brings joy to others.",
+          "zh": "这种作品里有一种人性的本质：“我做这个只是因为享受它给我的感觉，不为别的。”它鼓舞人，我爱看。继续做你爱的事，它也给别人带来快乐。"
+        },
+        {
+          "type": "comment",
+          "author": "code_biologist",
+          "en": "Sublime work OP. Love the sheen control, the glossy coffee.\nSince they're clearly a warhammer 40k fan, a recent discovery of mine for mini painting: artist gouache or artist watercolor are awesome for pin-lining and recess shading the way oil paint or enamels are often used for those tasks, but only water is needed instead of white spirit.",
+          "zh": "楼主这活极好。高光控制和那层发亮的咖啡我很喜欢。\n看你显然是战锤40K粉，最近涂迷你模型的发现：艺术家水粉或水彩做描线和凹陷阴影很棒，以前这些常用油画或磁漆，现在只需要水，不用白酒精。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49481141",
+      "hn_points": 357,
+      "hn_comments": 61,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 9,
+      "title": "IBM and University of Chicago run 70-qubit computation classical systems can't match",
+      "title_zh": "IBM与芝大用70个逻辑比特跑完经典模拟很难跟上的线路",
+      "publisher": "sciencedaily.com",
+      "article_url": "http://www.sciencedaily.com/releases/2026/08/260829035219.htm",
+      "significance_score": 6.1,
+      "summary_zh": "ScienceDaily援引IBM与芝加哥大学论文《Sampling hard circuits with verifiably high fidelity》：在超导处理器上执行70逻辑比特、深度70、掺入468个T门的编码线路，用时空码做错误检测与后选择，逻辑有效错误率约比物理错误率低一个数量级，95%置信下保真度下界约0.284。量子侧大约15分钟出样；团队称领先的张量网络与扩展稳定子模拟面对禁止性运行时间。目标不是再刷随机线路采样，而是让“经典难”和“结果可被信任”同时成立，样本已放到Quantum Advantage Tracker上供打靶。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "IBM / University of Chicago",
+          "en": "The team executed 70 logical qubits — shielding them from errors to run 2,415 logical two-qubit operations and 468 logical T gates. The IBM quantum computer took approximately 15 minutes to accomplish the task, while leading classical simulation approaches faced prohibitive runtimes.",
+          "zh": "团队运行了70个逻辑量子比特，完成2415次逻辑两比特操作和468个逻辑T门。IBM量子计算机大约15分钟做完，而领先的经典模拟方法面对的是难以承受的运行时间。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 10,
+      "title": "I turned my security cameras into an automatic bird identification system",
+      "title_zh": "有人把保安摄像头改成了自动识鸟系统",
+      "publisher": "jasontucker.blog",
+      "article_url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+      "significance_score": null,
+      "summary_zh": "Jason Tucker用BirdNET-Go接上门铃和保安摄像头的音频，把院子变成自动识鸟。HN上343赞91评：有人用UniFi门铃的RTSP直接听，下一步想在电子墨水屏上显示木刻风鸟图；有人抱怨Aqara麦克风没防风罩、固件锁在16kHz，最后给树莓派外接好麦克风。Cornell的Merlin被反复安利。监控基础设施一旦改用途，评论区就从隐私滑向 whimbrel 和采样率。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "ben1040",
+          "en": "I did exactly this with BirdNet-Go and my Unifi doorbell cam. Unifi exposes an RTSP feed for each camera so it was easy for the tool to just \"listen\" to the doorbell and start classifying.\nI have a spare e-ink display and my next weekend project to follow onto this is to wire it up so it shows some faux \"woodcut\" images of birds detected, or something like that.",
+          "zh": "我用BirdNet-Go和UniFi门铃摄像头做了完全一样的事。UniFi给每台摄像头暴露RTSP，工具直接“听”门铃就能分类。\n我还有一块闲置电子墨水屏，下个周末想接上，让它显示检测到的鸟的仿木刻图之类。"
+        },
+        {
+          "type": "comment",
+          "author": "maciejb",
+          "en": "I tried that with my Aqara camera. The mic there has no windshield, though; wind noise was terrible. Also I couldn’t get Aqara support to enable higher sampling rates in the firmware than 16kHz; BirdNET expects 48kHz audio samples.\nEnded up installing a better microphone attached to a RPi3A+ and using a Raspberry Pi 4 which I already owned for hosting BirdNET-Go.",
+          "zh": "我拿Aqara摄像头试过。麦克风没防风罩，风噪可怕。Aqara客服也不肯在固件里开高于16kHz的采样率；BirdNET要48kHz。\n最后给树莓派3A+外接了更好的麦克风，用已有的树莓派4跑BirdNET-Go。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49511856",
+      "hn_points": 343,
+      "hn_comments": 91,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

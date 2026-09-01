@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 11,
+      "title": "Pentagon adds ChatGPT and Grok to military AI portal",
+      "title_zh": "五角大楼把ChatGPT Mil和Grok装进GenAI.mil军用入口",
+      "publisher": "techcrunch.com",
+      "article_url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "significance_score": 5.9,
+      "summary_zh": "TechCrunch：国防部8月31日把OpenAI的ChatGPT Mil和Starshield AI的Grok for Government接入安全门户GenAI.mil，与去年上线的Gemini并列，面向约300万军政人员处理受控非密信息（IL5）。门户已有逾170万独立用户。ChatGPT Mil对标文档、后勤、规划和政策；Grok被写成给“作战人员”的生产力与任务协同。官方强调不走消费级数据收集。Anthropic因拒绝无限制军用被特朗普政府标成供应链风险，正起诉中，Claude缺席。军方称这是企业级应用，不是作战网；分类网络上的战用模型另线开发。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "U.S. Department of Defense",
+          "en": "Starshield AI’s Grok for Government will provide the warfighter with immediate productivity gains, stronger knowledge continuity and more secure and efficient collaboration.",
+          "zh": "Starshield AI的Grok for Government将为作战人员提供即时生产力、更强的知识连续性，以及更安全高效的协同。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 12,
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "title_zh": "拆Claude Code Opus 5自动模式：恶意struct.py影子导入标准库",
+      "publisher": "embracethered.com",
+      "article_url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "significance_score": null,
+      "summary_zh": "Embrace The Red演示：Claude Code Opus 5自动模式会在攻击者控制的解压目录里跑解码器，恶意struct.py影子导入Python标准库，模型还稳定地伸手去用python -c。HN上338赞113评。andai说自己也曾因为随手起的文件名撞上标准库模块，启动崩溃莫名其妙；colinmarc指出这攻击的是Anthropic给所有用户的同一套行为习惯；rcxdude认为这更像针对Claude的木马，而不是把代理劫持成恶意人格的经典提示注入。自动模式把“模型爱用的工具”变成了攻击面。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "andai",
+          "en": "I ran into this myself, where some file I had given a random name turned out to shadow some Python standard library module, giving me the weirdest startup crash ever.\nThat definitely doesn't seem to me like how that should be designed, magically silently importing everything you see and overriding basic functionality.",
+          "zh": "我自己撞过：随便起的文件名结果影子了某个Python标准库模块，启动崩溃莫名其妙。\n我不觉得系统设计该是这样——魔法般静默导入眼前一切，把基本功能覆盖掉。"
+        },
+        {
+          "type": "comment",
+          "author": "colinmarc",
+          "en": "What's interesting to me about this is that it targets Claude's specific tics. Anthropic has created model that reliably reaches for the same tools (yes, and phrases; `python -c` is a load-bearing tool for it). Everyone gets the same model, so by learning the model's behavioral patterns you can target it better.",
+          "zh": "我觉得有意思的是它瞄准了Claude的特定癖好。Anthropic做出来的模型会稳定地伸手去拿同一套工具（是的，还有同一套措辞；`python -c`对它是承重工具）。每个人拿到的是同一个模型，所以学会它的行为模式，就能打得更准。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49506819",
+      "hn_points": 338,
+      "hn_comments": 113,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 13,
+      "title": "Putin and Xi Discuss Ukraine as China Expands Central Asia Role",
+      "title_zh": "普京习近平比什凯克边会，克宫称乌克兰只是“顺便”提起",
+      "publisher": "rtp.pt",
+      "article_url": "https://www.rtp.pt/noticias/mundo/putin-e-xi-jinping-discutem-ucrania-enquanto-china-reforca-presenca-na-asia-central_n1762561",
+      "significance_score": 5.8,
+      "summary_zh": "上合组织在比什凯克开25周年峰会。普京与习近平5月后再见，习近平说中俄关系“更加牢固”、前景“更加光明”，也承认国际秩序“不确定性和不可预测性明显增加”；普京称合作“在各条战线顺利发展”。克宫发言人佩斯科夫对俄媒说，会谈主轴是不宜公开的经贸，乌克兰危机只是“顺便、作为副歌”被提起，“谈不上真正讨论”。同场还有佩泽希齐扬、埃尔多安、莫迪与谢巴兹·谢里夫。峰会卡在俄乌四年半、美以对伊开战六个月、美国对中印加关税的交叉点上，北京继续在中亚扩经济存在，西方则催中国向莫斯科施压。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Dmitry Peskov",
+          "en": "The Ukrainian crisis was discussed as a refrain, in passing; there was no discussion as such.",
+          "zh": "乌克兰危机只是作为副歌、顺便被提到；谈不上真正的讨论。"
+        }
+      ],
+      "fetch_notes": "RTP葡语稿；事实与引语据CNA/Al Jazeera/克宫通稿交叉核对。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 14,
+      "title": "Dwarf Fortress is getting the mother of all magic updates",
+      "title_zh": "Dwarf Fortress预告“魔法宇宙”级更新：从神祇到过程生成法术",
+      "publisher": "rockpapershotgun.com",
+      "article_url": "https://www.rockpapershotgun.com/dwarf-fortress-is-getting-the-mother-of-all-magic-updates-extending-to-the-fundamental-cosmological-makeup-of-the-universe",
+      "significance_score": null,
+      "summary_zh": "Rock Paper Shotgun：Tarn和Zach Adams要把魔法写进世界生成的宇宙学——神祇、影响域、围绕魔法的工坊与职业，再到过程生成法术。HN上272赞101评。有资深玩家仍在生气Steam版丢掉键盘驱动老UI；也有人说正是那次改版让游戏找到新观众。monospacegames从wiki里翻出sphere体系，嫌官方演示细节不够。矮人要塞又一次把“更新说明”写成创世神话补丁。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "flurb",
+          "en": "I'm still pissed about the fact that they essentially gave the finger to everyone who has been long-term supporters - when they added the G to their UI, they essentially scrapped the old. In favor of a mouse-driven design, they dropped the old, keyboard-driven UI.\nThat said, Dwarf Fortress holds a special place in my heart. Only regret I have is that I didn't track how many hours I put in. In excess of 10k, I'm sure.",
+          "zh": "我还在生气：他们对长期支持者基本上竖了中指——UI加G的时候，旧的几乎整盘作废。为了鼠标驱动，丢掉了键盘驱动的老界面。\n话虽如此，矮人要塞在我心里位置特殊。唯一后悔的是没统计投入了多少小时。肯定超过一万。"
+        },
+        {
+          "type": "comment",
+          "author": "monospacegames",
+          "en": "Digging a bit more it looks like the magic system will be built around deities, spheres of influence, and workshops/professions centered around magic leading to procedurally generated spells. I'm really excited to see how it'll turn out.",
+          "zh": "再挖深一点，魔法系统会围绕神祇、影响域，以及以魔法为中心的工坊/职业，导向过程生成的法术。我很想看它最终长成什么样。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49467636",
+      "hn_points": 272,
+      "hn_comments": 101,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 15,
+      "title": "Six months into the Iran war, the worst economic fears haven't materialized",
+      "title_zh": "伊朗战争满六个月：最糟衰退预言落空，油价机票化肥仍在惩罚穷人",
+      "publisher": "apnews.com",
+      "article_url": "https://apnews.com/article/iran-economy-stocks-trump-airlines-energy-oil-dd9861bbb882b04e1680f6b2847b3495",
+      "significance_score": 5.8,
+      "summary_zh": "美联社盘点2月28日美以开打伊朗以来的经济账：全球衰退和油价失控的最戏剧预言没有兑现，IMF说战争拖累增长、AI热抵消了部分冲击。布伦特从战前约72美元冲到近120，现仍高约两成；IATA预计航油同比贵约70%，汉莎砍短途航班2万班，Spirit倒闭。股市3月底见底后道指、标普、纳指分别反弹约19%、22%、27%。化肥4月峰值比战前高44%，世界粮食计划署代理执行主任Carl Skau说“霍尔木兹上一艘油轮，意味着苏丹孩子少吃一顿”。约26个国家和地区因此加速清洁能源。报道同时指出特朗普家族相关军工与油气持仓从战争中获利，白宫否认利益冲突。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Carl Skau",
+          "en": "An oil tanker anchored in the Strait of Hormuz can mean one less meal a day for a child in Sudan. When oil prices go up, so does the price of flour, rice and vegetables.",
+          "zh": "霍尔木兹海峡上一艘抛锚的油轮，可能意味着苏丹的孩子少吃一顿。油价涨，面粉、大米和蔬菜的价格也涨。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 16,
+      "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+      "title_zh": "苹果被Mac Mini和Mac Studio的本地AI需求打了个措手不及",
+      "publisher": "macrumors.com",
+      "article_url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "significance_score": null,
+      "summary_zh": "MacRumors：苹果对Mac Mini、Mac Studio的需求估计不足，渠道把它归因于本地跑大模型。HN上271赞、315评——评论比分数还热闹。有人说MacBook Neo也“出乎意料”，像营销稿；有人拿本地强化学习自对弈当反例：在vast.ai开实例拷检查点要25分钟，本地是零。也有16GB显卡用户问，跟每月20美元的云订阅比，本地到底值不值。本地推理把一台小主机重新定价成实验室。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "HDBaseT",
+          "en": "Apple was also allegedly \"caught off guard\" by the Macbook Neo demand.\nI don't really see how they couldn't see the Local AI demand or demand for a cheaper Macbooks. This just reads like marketing imo.",
+          "zh": "据说苹果也被MacBook Neo的需求“打了个措手不及”。\n我真看不出他们怎么会看不见本地AI需求或更便宜MacBook的需求。在我看来这读起来就像营销。"
+        },
+        {
+          "type": "comment",
+          "author": "alasdair_",
+          "en": "I'm training a model using reinforcement learning with self-play. I can and do use vast.ai when scaling but for experiments it's far faster, and cheaper, to run it locally until the bugs are all figured out. Just provisioning a new instance and copying the relevant checkpoints and things can take 25 minutes. It's zero locally.",
+          "zh": "我在用强化学习自对弈训练模型。扩规模时我会用vast.ai，但做实验时本地更快也更便宜，直到把bug找完。光是开新实例、拷检查点就要25分钟。本地是零。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49508982",
+      "hn_points": 271,
+      "hn_comments": 315,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 17,
+      "title": "Russian Lawmaker Calls for Tactical Nuclear Strike on Ukraine",
+      "title_zh": "俄杜马国防委副主席公开要求对乌使用战术核武器",
+      "publisher": "hotnews.ro",
+      "article_url": "https://hotnews.ro/atac-nuclear-care-sa-forteze-ucraina-sa-capituleze-cerut-din-parlamentul-de-la-moscova-suntem-obligati-sa-le-folosim-2337877",
+      "significance_score": 5.7,
+      "summary_zh": "国家杜马国防委员会第一副主席、祖国党领袖阿列克谢·茹拉夫廖夫在Telegram视频里说，对乌应打到对方明白必须投降；“该不该用战术核武”根本不该讨论，“必要时我们有义务使用……该打就打，没有讨论余地”。这是议员个人放话，不是杜马或克宫决定，动武权在总统。委员会其他成员公开反对，指核打击达不成军事目标且会造成大规模伤亡与污染。言论撞上彭博社援引克宫周边人士关于普京准备进一步升级、核武只是“战败前最后手段”的报道；各方均称没有即将动用的迹象。核门槛被议员当国内政治台词来喊，本身就是一种升级。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Alexei Zhuravlev",
+          "en": "There should not even be such a discussion. If necessary, we are obliged to use [tactical nuclear weapons]... If we need to strike, we will strike. And that is not up for discussion.",
+          "zh": "这种讨论根本不该有。必要时我们有义务使用（战术核武器）……该打就打。这没有讨论余地。"
+        }
+      ],
+      "fetch_notes": "HotNews罗语版；引语据Kyiv Post / The Moscow Times英译交叉。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 18,
+      "title": "I think the military commissary's freezers were hacked",
+      "title_zh": "有人怀疑军方超市冷柜被黑：除霜循环变成了加热",
+      "publisher": "signalandsilence.substack.com",
+      "article_url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
+      "significance_score": null,
+      "summary_zh": "一篇Substack把多处美军commissary冷柜夜间进入除霜、把冷冻变成加热、食物加速变质，写成可能的工业控制系统攻击。HN上228赞132评。退伍IT人员说更像错误配置或一次推错的更新，但点名关岛、夏威夷这种DeCA供给占本地一半的孤岛；有人翻出Hank Paulson书里中国厂商远程监控美军基地冷却器的段落；有人提醒出事地点包括网络司令部所在的Huachuca堡和ICBM基地F.E. Warren。Zigurd说：如果只是关机，柜子还能撑一阵；启动除霜才是加速破坏。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "CobaltFire",
+          "en": "Unlikely to be a hack, more likely to be a misconfiguration or update sent incorrectly.\nThat said, the timing of the disclosure and the issue are rather concerning.\nRegarding the highest value targets to hit with an attack like this, you would want to target Guam, Hawai'i, and other isolated overseas locations where this would have ripple effects in the local economy. Guam specifically would cause catastrophic supply shortages, since DeCA probably supplies around 50% of the groceries on that island.",
+          "zh": "不太像黑客，更像错误配置或一次推错的更新。\n不过披露时机和问题本身都相当令人担心。\n若要打这类攻击的高价值目标，会选关岛、夏威夷和其他孤立海外地点，好让本地经济出现涟漪。关岛尤其会灾难性缺货，因为国防超市大概供给岛上约一半的食品杂货。"
+        },
+        {
+          "type": "comment",
+          "author": "Zigurd",
+          "en": "First let's acknowledge that this could very easily be a misconfiguration issue.\nBut, I'd be a lot more inclined to that idea if it wasn't for how they failed: they started a defrost cycle that turned the freezers into heaters, spoiling the food quicker. And the failure happened overnight, delaying discovery of the problem.",
+          "zh": "先承认这很容易是配置错误。\n可如果不是这种坏法，我会更信：它们启动了除霜循环，把冷冻柜变成加热器，食物坏得更快。而且故障发生在夜里，推迟了发现。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49508506",
+      "hn_points": 228,
+      "hn_comments": 132,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 19,
+      "title": "AI tool detects heart disease in under 2 seconds from ECGs",
+      "title_zh": "帝国理工AI从心电图不到两秒提示心衰和瓣膜病",
+      "publisher": "theguardian.com",
+      "article_url": "https://www.theguardian.com/technology/2026/aug/31/superhuman-ai-tool-spots-heart-disease",
+      "significance_score": 5.7,
+      "summary_zh": "卫报：帝国理工在慕尼黑欧洲心脏病学会年会上展示英国心脏基金会资助的工具，从常规心电图里读出肉眼看不到的信息，不到两秒提示心力衰竭和瓣膜病——这两样通常要等可能排上数月的超声心动图。美国约6.7万名患者试验中，心衰识别最高约81%，瓣膜病约90%。不能单独确诊，但可把高风险者插队去做超声。全球每年约做10亿份心电图。BHF临床主任Sonya Babu-Narayan说它不会抓住所有病人，却可能让最可能有异常的人更快进治疗。下一步想做成手持读图器；东京团队还展示用五秒面部视频筛高血压和二型糖尿病。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Sonya Babu-Narayan",
+          "en": "It is exciting to see that AI can now deliver a read-out from an ECG in what feels like the blink of an eye. Technology like the AI ECG in this research, which has the potential to identify high-risk patients early, will not detect everyone with a heart condition. But it could be a solution to help fast-track the patients who are most likely to have a heart abnormality.",
+          "zh": "AI能在眨眼之间从心电图给出读数，这令人振奋。这项研究里的AI心电图有潜力早发现高风险患者，不会抓住每一个心脏病人，但可能让最可能有异常的人被优先安排。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 20,
+      "title": "P99 0 ms* autocomplete for 240M domain names",
+      "title_zh": "P99零毫秒：给2.4亿个域名做自动补全",
+      "publisher": "ruurtjan.com",
+      "article_url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "significance_score": null,
+      "summary_zh": "一篇工程笔记把2.4亿域名的前缀树塞进浏览器能提前拿到的结构里，宣称P99延迟0毫秒——星号是：在按键抬起时才显示，把网络往返藏进一次按键里。HN上214赞80评。有人指出它会补全不存在的域名，对防打错没帮助；chrismorgan说该用keydown而不是keyup，用keyup反而引入延迟；澳洲读者说跨半球就不香。也有人建议把每个trie节点做成R2上的文件，遍历变成CDN查找。表演性延迟数字，被评论区用物理延迟拆掉。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "skybrian",
+          "en": "This autocomplete suggests domains that don't exist. You can just type garbage and it will suggest something, but then if you go there, there are no records.\nIt seems like one purpose of an autocomplete box is help you avoid typos, so that makes it less useful.",
+          "zh": "这个自动补全会建议不存在的域名。你随便打一堆垃圾它也会建议点什么，真打开却没有记录。\n自动补全框的一个目的似乎是帮你避免打错，所以这就没那么有用了。"
+        },
+        {
+          "type": "comment",
+          "author": "chrismorgan",
+          "en": "Using keyup makes no sense and is inconsistent with user expectations. For triggering actions (which includes normal typing), you only ever use keydown. ... This affects the functionality, too. It is in fact introducing latency by using keyup instead of keydown. Feels bad.",
+          "zh": "用keyup没道理，也不符合用户预期。触发动作（包括正常打字）你只用keydown。……这也影响功能。用keyup而不是keydown，其实是在引入延迟。手感很差。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49505219",
+      "hn_points": 214,
+      "hn_comments": 80,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

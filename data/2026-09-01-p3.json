@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 21,
+      "title": "International panel upholds India-Pakistan water treaty",
+      "title_zh": "海牙仲裁庭裁定印度须继续履行印度河水域条约",
+      "publisher": "apnews.com",
+      "article_url": "https://apnews.com/article/pakistan-india-water-treaty-hague-arbitration-1af8defb6de801b19676656a6224ce30",
+      "significance_score": 5.7,
+      "summary_zh": "世界银行斡旋的1960年《印度河水域条约》把东部三河划给印度、西部印度河/杰赫勒姆/杰纳布大部分给巴基斯坦。印度在2025年4月克什米尔袭击后宣布条约“中止”。海牙仲裁庭周一应巴基斯坦申请裁定：条约没有单方面中止或终止条款；即便把印方关于恐袭的指控假定为真，也不构成对该条约的实质性违约，因为条约根本不处理恐怖主义或使用武力。在中立专家2027年7月就杰纳布河Ratle水电设计是否合规作出决定前，印度浇筑混凝土不得超过规定高程。伊斯兰堡称胜利；新德里说仲裁庭“非法组成”，从未承认其管辖权，中止决定仍有效。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Court of Arbitration (Indus Waters Treaty)",
+          "en": "The 1960 treaty remains legally binding and contains no provision allowing either country to suspend or terminate it unilaterally. Ending or changing the agreement would require another treaty accepted by both governments.",
+          "zh": "1960年条约仍然具有法律约束力，没有任何条款允许任何一方单方面中止或终止。结束或修改协定需要两国政府都接受的另一项条约。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 22,
+      "title": "uv: Deduplicate all files in the wheel cache",
+      "title_zh": "uv给wheel缓存做去重：Python包缓存终于能瘦下来",
+      "publisher": "github.com",
+      "article_url": "https://github.com/astral-sh/uv/pull/21327",
+      "significance_score": null,
+      "summary_zh": "Astral的uv有一条给wheel缓存按文件去重的PR，针对多环境用户缓存膨胀快过pip的老毛病。HN上201赞99评。有人把它写成“Python的Quicklisp”：uv让他们重新喜欢上Python；有人还惦记没有等价于pip download的可复现分发命令。包管理器的磁盘账单，第一次被当成首页新闻来讨论。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "mark_l_watson",
+          "en": "Nice improvement. For me, uv is the ‘Quicklisp for Python.’ uv just let me enjoy using Python like Quicklisp just makes Common Lisp nicer to use.\nI have always been a Lisp devotee, but a few years ago when I started using uv, I then started seeing Python as a language I could really enjoy using so I put effort into making my Python dev setup nearly frictionless.",
+          "zh": "很好的改进。对我来说，uv就是“Python的Quicklisp”。uv让我享受用Python，就像Quicklisp让Common Lisp更好用。\n我一直是Lisp信徒，但几年前开始用uv之后，才把Python看成一门我能真正享受的语言，于是花力气把Python开发环境做到几乎无摩擦。"
+        },
+        {
+          "type": "comment",
+          "author": "stephenlf",
+          "en": "uv is the backbone of any modern Python library. I’m excited to see improvements.",
+          "zh": "uv是任何现代Python库的脊梁。看到改进我很兴奋。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49506142",
+      "hn_points": 201,
+      "hn_comments": 99,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 23,
+      "title": "OpenAI's ad business hits $1 billion annualized revenue run rate",
+      "title_zh": "OpenAI广告业务年化营收跑到约10亿美元",
+      "publisher": "cnbc.com",
+      "article_url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html",
+      "significance_score": 5.7,
+      "summary_zh": "CNBC：OpenAI称上线约200天的广告业务年化营收跑到10亿美元，用来向投资者证明企业订阅、API之外还有第三条腿，并为市场预期的大规模IPO、约8520亿美元估值找理由。ChatGPT广告今年2月在美国开测，Anthropic曾用超级碗广告嘲讽；现已进入40余国，并向印度、欧洲、中东和北非开放自助投放。广告出现在免费档和Go订阅、也就是约10亿周活的主体上。公司说广告有明确标识、不改回答、广告主看不到私聊。下一步要加市场、格式、目标和度量。对手把“搜索框里塞广告”写成OpenAI正在变成它曾经批评的那家公司。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "OpenAI",
+          "en": "Our next phase of growth will bring ChatGPT Ads to more markets and introduce additional formats, objectives, buying options, and measurement capabilities. We will also explore new ways for businesses to interact with consumers in more native ways in ChatGPT.",
+          "zh": "下一阶段增长会把ChatGPT广告带到更多市场，并引入更多格式、目标、购买选项和度量能力。我们也会探索让企业以更原生的方式在ChatGPT里与消费者互动。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 24,
+      "title": "Internet centralization and the original sin of NAT",
+      "title_zh": "互联网中心化与NAT原罪：Linux NAT作者自己出来说对不起",
+      "publisher": "dreamstation.systems",
+      "article_url": "https://dreamstation.systems/personal/ntppost.html",
+      "significance_score": null,
+      "summary_zh": "一篇把NAT写成开放互联网原罪的长文冲上166赞125评。真正把帖子钉住的是Rusty Russell：他实现了Linux上现行NAT，用“能区分对端就挤进同一公网IP”换掉端口预留，代价是你不再有可路由的公网端点，“穷人防火墙”把人人能当服务器的对等结构，训练成了设备必须先找云。elric反驳：原罪该算运营商级NAT；普通NAT加上可控制的端口转发，还救过无数没打补丁的Windows。一场关于地址稀缺如何长成商业模式的认错。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "RustyRussell",
+          "en": "Sorry.\nI implemented the current NAT system in Linux. In particular, avoiding port reservation in favor of squishing more connections into one IP address, as long as the remote address allowed us to differentiate.\nThis, in turn, means incoming traffic from a different address is unroutable. You no longer have a public endpoint. This is \"poor man's firewall\", but erodes our ability to have a server the way we used to.\nI was a young engineer solving a specific problem, without considering the larger picture.",
+          "zh": "对不起。\nLinux上现行的NAT系统是我实现的。尤其是避开端口预留，只要对端地址能让我们区分，就把更多连接挤进一个IP。\n这反过来意味着来自不同地址的入站流量不可路由。你不再有公网端点。这是“穷人防火墙”，却侵蚀了我们从前那样开服务器的能力。\n我当时是个年轻工程师，在解决一个具体问题，没考虑更大的图景。"
+        },
+        {
+          "type": "comment",
+          "author": "elric",
+          "en": "Calling NAT the original sin is a serious exaggeration. Carrier Grade NAT (CGNAT) is a truly evil concept that restricts the freedoms of the CGNATed users. But regular NAT is fine as long as you can control it. ... If anything, NAT has saved millions of wildly insecure devices running unpatched old Windows versions from getting pwned the second they connect to the open internet.",
+          "zh": "把NAT叫作原罪是严重夸张。运营商级NAT才是真正邪恶的概念，限制被CGNAT用户的自由。但普通NAT只要你能控制就还好。……要说的话，NAT还救过数百万跑着未打补丁的旧Windows、极度不安全的设备，免得它们一连上开放互联网就被打穿。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49504905",
+      "hn_points": 166,
+      "hn_comments": 125,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 25,
+      "title": "China Achieves High-Speed Laser Link Between Earth and Moon",
+      "title_zh": "中科院打通地月双向激光链路，下行约100Mbps",
+      "publisher": "worldjournal.com",
+      "article_url": "https://www.worldjournal.com/wj/story/121474/9723658",
+      "significance_score": 5.7,
+      "summary_zh": "中科院空间应用工程与技术中心宣布，经过一年多在轨测试，DRO-A卫星与地面站在逾40万公里外建成双向激光通信：上行约1.25Mbps、下行约100Mbps。相比微波，激光带宽更大、方向更准、设备更轻，但对准、光子级弱信号和噪声是三道关。团队用超导单光子探测和高灵敏度算法从月光、星光和城市灯光里抠信号。研究员杨雷说，一张8K月面图走约5Mbps微波要四五分钟，100Mbps激光大约12秒。中心称这是给载人登月和月球科研站预备的“信息高速路”，空间激光通信从近地走进地月深空。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Yang Lei",
+          "en": "The information highway between Earth and the moon has now been opened. In the future, we will be able to obtain more scientific data of original value.",
+          "zh": "地月之间的信息高速路现在已经打通。未来我们能拿到更多有原始科学价值的数据。"
+        }
+      ],
+      "fetch_notes": "世界新闻网中文转载；速率与引语据中科院/CGTN/环球时报交叉。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 26,
+      "title": "Transfer files over an Ethernet patch cable",
+      "title_zh": "一根网线直连传文件：有人把它写成本周技巧",
+      "publisher": "maurycyz.com",
+      "article_url": "https://maurycyz.com/misc/etherfiles/",
+      "significance_score": null,
+      "summary_zh": "一篇教你用一根直通网线、Auto-MDIX和临时IP在两台机器间拖文件的短文，拿到155赞165评——评论比正文热闹。rmunn回忆交叉线年代：TX对TX是听不见的，直到网卡自己翻转收发。yjftsjthsd-h说连IP都不必设，ping ff02::1%eth0就能找到对端。brandolini10x嘲讽：下周首页会是“把两个轮子连上平台就能骑”。基础设施复古到一根线时，评论区开始教IPv6链路本地。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "rmunn",
+          "en": "That used to require a crossover cable; I've done precisely that (with a crossover cable) back before Auto-MDIX became widespread. With a straight-through cable, you'd be connecting the Transmit (TX) pin of one adapter to the TX pin of the other one ... A crossover cable flipped those wires, so each device's TX pin was connected to the RX pin on the other end.",
+          "zh": "以前这需要交叉线；在Auto-MDIX普及前我就是这么干的。直通线会把一块网卡的发送（TX）脚接到另一块的TX脚……交叉线把这些线对调，于是每台设备的TX接到对端的RX。"
+        },
+        {
+          "type": "comment",
+          "author": "brandolini10x",
+          "en": "I wonder how we managed to invent the Internet before this trick. Next week's front page will be \"Amazing trick: connect two wheels with a platform and you can ride instead of walk\"",
+          "zh": "真好奇有这招之前我们是怎么发明互联网的。下周首页会是：“神奇技巧：用一个平台把两个轮子连上，你就可以骑着走而不是走着走”。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49505217",
+      "hn_points": 155,
+      "hn_comments": 165,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 27,
+      "title": "Sweden and France sign largest defense deal in decades",
+      "title_zh": "瑞典法国签约43亿欧元四艘护卫舰，数十年来最大军购",
+      "publisher": "dn.se",
+      "article_url": "https://www.dn.se/varlden/sveriges-storsta-forsvarsavtal-pa-artionden-klart/",
+      "significance_score": 5.6,
+      "summary_zh": "马克龙访斯德哥尔摩，瑞典国防物资局与法国Naval Group在法国海军首舰Amiral Ronarc’h上签署约43亿欧元（约50亿美元）合同，采购四艘FDI防空干预护卫舰，瑞典海军将称吕勒奥级，首舰计划2030年交付、其余至2034年。合同含武器、训练和技术转移，舰上可配反导拦截弹、鱼雷；海基巡航导弹MdCN因垂发单元是SYLVER A50而非A70，须另谈。防长还签了瑞法防务框架。克里斯特松与马克龙把这写成加强欧洲防务工业基石、以及北约最新成员国在波罗的海的存在。从选型到签约不到四个月，走的是法国、希腊已有的生产线。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Pierre Éric Pommellet",
+          "en": "I am delighted to be in Stockholm today to sign the contract for the delivery of four FDI frigates to Sweden, a major milestone in the cooperation between our two countries.",
+          "zh": "很高兴今天在斯德哥尔摩签署向瑞典交付四艘FDI护卫舰的合同，这是两国合作的一个重大节点。"
+        }
+      ],
+      "fetch_notes": "DN瑞典语或需订阅；合同金额与进度据AP/Naval News/瑞典政府新闻稿。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 28,
+      "title": "ravynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
+      "title_zh": "ravynOS预alpha：Darwin加FreeBSD，想要一点macOS兼容",
+      "publisher": "ravynos.com",
+      "article_url": "https://ravynos.com/",
+      "significance_score": null,
+      "summary_zh": "ravynOS把自己写成“macOS的精致、FreeBSD的自由”，内核侧是Darwin与FreeBSD，用户态追Apple开源组件，仍是预alpha。HN上151赞98评。有人问Darwin除了将来跑macOS应用，相对BSD/Linux到底有什么内核上的好处；有人抱怨官网连一张桌面截图都没有。dang挂出2022、2023、2025三次相关讨论。又一个“如果苹果开源了用户态”的长期实验，评论区先要一张图。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "mrweasel",
+          "en": "Maybe someone more familiar with operating systems kernels can answer this: Is Darwin really all that exciting? It is different from both the BSD kernels and Linux, but less so than Windows. Other than the ability to run macOS applications (assuming you can clone the libraries and APIs from macOS) is there some benefit of Darwin that I'm not seeing?",
+          "zh": "也许更熟操作系统内核的人能回答：Darwin真有那么激动人心吗？它和BSD内核、Linux都不同，但差别比Windows小。除了将来能跑macOS应用（假定你能克隆库和API），Darwin还有什么我没看见的好处？"
+        },
+        {
+          "type": "comment",
+          "author": "pmkary",
+          "en": "I think any desktop operating systems has to present itself with at least a single screenshot. Why not one in the entire page?",
+          "zh": "我觉得任何桌面操作系统至少得拿出一张截图来介绍自己。整页为什么一张都没有？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49511534",
+      "hn_points": 151,
+      "hn_comments": 98,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 29,
+      "title": "Nvidia invests $3.5 billion in Taiwan's MediaTek to expand AI chip partnership",
+      "title_zh": "英伟达35亿美元可转债把联发科锁进NVLink Fusion",
+      "publisher": "heise.de",
+      "article_url": "https://www.heise.de/news/Milliardendeal-Nvidia-investiert-in-den-Chiphersteller-MediaTek-11435935.html",
+      "significance_score": 5.4,
+      "summary_zh": "英伟达与联发科周一宣布：英伟达认购35亿美元联发科可转债，换取更深的技术绑定——联发科采用NVLink Fusion和NVHBM，帮超大规模云和AI公司做能直接插进英伟达机柜的定制芯片。手机SoC起家的联发科要把数据中心ASIC从今年约20亿美元营收再往上推，对标博通、Marvell；英伟达今年早些时候已向Marvell投过约20亿美元。交易被写成：客户要自研芯片减GPU依赖，英伟达就去买下“插座”。双方还继续做RTX Spark/DGX Spark个人计算和车规芯片。循环融资——投资明天会买自己平台的公司——再次被拿到台面上问。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Nvidia / MediaTek",
+          "en": "The investment broadens a partnership that will see MediaTek using NVLink Fusion and newly announced NVHBM technology as part of an Nvidia tech suite to help components communicate more seamlessly in data centres.",
+          "zh": "这笔投资扩大了合作：联发科将使用NVLink Fusion和新公布的NVHBM，作为英伟达技术套件的一部分，让数据中心里的组件更顺畅地通信。"
+        }
+      ],
+      "fetch_notes": "Heise德语报道；条款据Bloomberg/SiliconANGLE/联合声明交叉。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 30,
+      "title": "Konrad Zuse Museum shutting down due to lack of funding",
+      "title_zh": "康拉德·楚泽博物馆因缺钱关闭：第一台能用的通用计算机要找新家",
+      "publisher": "heise.de",
+      "article_url": "https://www.heise.de/en/news/Zuse-Computer-Museum-ZCOM-in-Hoyerswerda-faces-closure-11344513.html",
+      "significance_score": null,
+      "summary_zh": "Heise：萨克森霍耶斯韦达的ZCOM楚泽计算机博物馆因经费难以为继，面临关闭。楚泽1936年起做Z1，1941年的Z3被许多人称为第一台可工作的图灵完备数字计算机，用打孔35毫米胶片编程。HN上145赞71评。A_D_E_P_T写了一段迷你传记，说他是20世纪最被低估的思想家；有人建议帕德博恩的Nixdorf博物馆接收，那里年访客是这边的13倍。jacquesm把这叫历史的“危险期”：还不够古，已经没人觉得珍贵。一台通用计算机的出生地，在东德一座小城等钱。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "A_D_E_P_T",
+          "en": "Zuse is probably the most under-appreciated thinker of the 20th century. Everybody's heard of Claude Shannon, von Neumann, Feynman, and all the rest of 'em, but Zuse's enormous contributions have received rather little attention.\nIn 1936 Germany, Konrad Zuse began developing the Z1 ... Zuse overcame these mechanical hurdles in 1941 with the Z3, an operational digital computer capable of universal computation.",
+          "zh": "楚泽大概是20世纪最被低估的思想家。人人都听过香农、冯·诺依曼、费曼，但楚泽的巨大贡献几乎没人注意。\n1936年在德国，康拉德·楚泽开始做Z1……他在1941年用Z3跨过那些机械障碍：一台能做通用计算的、可运行的数字计算机。"
+        },
+        {
+          "type": "comment",
+          "author": "jacquesm",
+          "en": "For every bit of history there is 'the danger period', when it is still recent enough that most people don't consider it special but old enough that special effort needs to be made to preserve it. Random chance as much as anything else determines what eventually makes it to the status of 'precious antique'. I hope they find a way to mothball it until society is more appreciative.",
+          "zh": "每一段历史都有“危险期”：还新到大多数人不觉得特别，又旧到需要专门花力气保存。最后能变成“珍贵古董”的，随机和别的因素差不多。希望他们能先封存起来，等到社会更懂得珍惜。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49511917",
+      "hn_points": 145,
+      "hn_comments": 71,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}
