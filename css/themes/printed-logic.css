@@ -380,12 +380,13 @@ a:focus-visible {
     background-size: 100% 1px;
     transition: background-size var(--hover);
   }
-  .item .pl-cube .pl-dots {
+  #skin-v2.is-in .item .pl-cube .pl-dots {
     transition: transform var(--leave);
   }
-  .item:hover .pl-cube .pl-dots,
-  .item:focus-within .pl-cube .pl-dots {
-    transform: scale(1.28);
+  #skin-v2.is-in .item:hover .pl-cube .pl-dots,
+  #skin-v2.is-in .item:focus-within .pl-cube .pl-dots {
+    animation: none;
+    transform: scale(1.42);
     transition: transform var(--hover);
   }
 }
