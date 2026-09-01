@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 72" fill="none">
+  <polygon class="pl-face pl-face--top" points="40.00,21.00 66.00,28.50 40.00,36.00 14.00,28.50" fill="#111111"/>
+  <polygon class="pl-face pl-face--left" points="14.00,28.50 40.00,36.00 40.00,51.00 14.00,43.50" fill="#111111"/>
+  <polygon class="pl-face pl-face--right" points="40.00,36.00 66.00,28.50 66.00,43.50 40.00,51.00" fill="#EBE4D8"/>
+  <circle cx="18" cy="30" r="0.45" fill="#EBE4D8" opacity="0.38"/>
+<circle cx="22" cy="34" r="0.35" fill="#EBE4D8" opacity="0.38"/>
+<circle cx="16" cy="40" r="0.4" fill="#EBE4D8" opacity="0.38"/>
+<circle cx="28" cy="24" r="0.3" fill="#EBE4D8" opacity="0.38"/>
+<circle cx="34" cy="22" r="0.35" fill="#EBE4D8" opacity="0.38"/>
+<circle cx="46" cy="24" r="0.3" fill="#EBE4D8" opacity="0.38"/>
+<circle cx="20" cy="44" r="0.35" fill="#EBE4D8" opacity="0.38"/>
+<circle cx="32" cy="48" r="0.3" fill="#EBE4D8" opacity="0.38"/>
+<circle cx="24" cy="38" r="0.25" fill="#EBE4D8" opacity="0.38"/>
+<circle cx="52" cy="26" r="0.28" fill="#EBE4D8" opacity="0.38"/>
+<circle cx="14" cy="36" r="0.32" fill="#EBE4D8" opacity="0.38"/>
+  <g class="pl-dots" fill="#111111">
+    <circle cx="63.45" cy="30.60" r="1.18"/>
+<circle cx="54.00" cy="33.30" r="1.18"/>
+<circle cx="57.15" cy="33.30" r="1.18"/>
+<circle cx="60.30" cy="33.30" r="1.18"/>
+<circle cx="63.45" cy="33.30" r="1.18"/>
+<circle cx="44.55" cy="36.00" r="1.18"/>
+<circle cx="47.70" cy="36.00" r="1.18"/>
+<circle cx="50.85" cy="36.00" r="1.18"/>
+<circle cx="54.00" cy="36.00" r="1.18"/>
+<circle cx="57.15" cy="36.00" r="1.18"/>
+<circle cx="60.30" cy="36.00" r="1.18"/>
+<circle cx="63.45" cy="36.00" r="1.18"/>
+<circle cx="41.40" cy="38.70" r="1.18"/>
+<circle cx="44.55" cy="38.70" r="1.18"/>
+<circle cx="47.70" cy="38.70" r="1.18"/>
+<circle cx="50.85" cy="38.70" r="1.18"/>
+<circle cx="54.00" cy="38.70" r="1.18"/>
+<circle cx="57.15" cy="38.70" r="1.18"/>
+<circle cx="60.30" cy="38.70" r="1.18"/>
+<circle cx="63.45" cy="38.70" r="1.18"/>
+<circle cx="41.40" cy="41.40" r="1.18"/>
+<circle cx="44.55" cy="41.40" r="1.18"/>
+<circle cx="47.70" cy="41.40" r="1.18"/>
+<circle cx="50.85" cy="41.40" r="1.18"/>
+<circle cx="54.00" cy="41.40" r="1.18"/>
+<circle cx="57.15" cy="41.40" r="1.18"/>
+<circle cx="60.30" cy="41.40" r="1.18"/>
+<circle cx="63.45" cy="41.40" r="1.18"/>
+<circle cx="41.40" cy="44.10" r="1.18"/>
+<circle cx="44.55" cy="44.10" r="1.18"/>
+<circle cx="47.70" cy="44.10" r="1.18"/>
+<circle cx="50.85" cy="44.10" r="1.18"/>
+<circle cx="54.00" cy="44.10" r="1.18"/>
+<circle cx="57.15" cy="44.10" r="1.18"/>
+<circle cx="60.30" cy="44.10" r="1.18"/>
+<circle cx="41.40" cy="46.80" r="1.18"/>
+<circle cx="44.55" cy="46.80" r="1.18"/>
+<circle cx="47.70" cy="46.80" r="1.18"/>
+<circle cx="50.85" cy="46.80" r="1.18"/>
+<circle cx="41.40" cy="49.50" r="1.18"/>
+  </g>
+</svg>
