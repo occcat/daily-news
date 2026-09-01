@@ -24,7 +24,8 @@
     "cote-grid": 1,
     "impasto-card": 1,
     "paper-prism": 1,
-    "ascii-plot": 1
+    "ascii-plot": 1,
+    "printed-logic": 1
   };
   var WEEK2 = {
     "ordered-dither": 1,
@@ -33,7 +34,8 @@
     "cote-grid": 1,
     "impasto-card": 1,
     "paper-prism": 1,
-    "ascii-plot": 1
+    "ascii-plot": 1,
+    "printed-logic": 1
   };
   var WEEK2_FONTS =
     "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Special+Elite&display=swap";
@@ -170,7 +172,7 @@
 
   function landMotion(scope) {
     if (!scope) return;
-    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree, .od-cluster, .nf-window, .pp-cube, .gz-band, .ke-etch").forEach(function (el) {
+    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree, .od-cluster, .nf-window, .pp-cube, .gz-band, .ke-etch, .pl-bar, .pl-warp, .pl-cube, .pl-dots").forEach(function (el) {
       el.addEventListener("animationend", function (ev) {
         if (ev.target !== el) return;
         el.classList.add("is-landed");
@@ -407,6 +409,7 @@
   function clearThemeChrome() {
     var chrome = document.getElementById("theme-chrome");
     if (chrome) chrome.remove();
+    document.querySelectorAll(".pl-mast-cubes").forEach(function (el) { el.remove(); });
   }
 
   function polaroidChromeHTML() {
@@ -573,7 +576,8 @@
     "paper-prism": "每日一图，认识世界。",
     "cote-grid": "",
     "ascii-plot": "",
-    "impasto-card": ""
+    "impasto-card": "",
+    "printed-logic": "在复杂的世界里，保持清醒与好奇。"
   };
 
   function threeWordTag(it) {
@@ -623,6 +627,85 @@
     return (
       '<div id="theme-chrome" class="cg-chrome" aria-hidden="true">' +
       '<div class="cg-grid"></div>' +
+      "</div>"
+    );
+  }
+
+  var PL_CUBE_INNER =
+    '<polygon class="pl-face pl-face--top" points="40,21 66,28.5 40,36 14,28.5" fill="#111"/>' +
+    '<polygon class="pl-face pl-face--left" points="14,28.5 40,36 40,51 14,43.5" fill="#111"/>' +
+    '<polygon class="pl-face pl-face--right" points="40,36 66,28.5 66,43.5 40,51" fill="#EBE4D8"/>' +
+    '<circle cx="18" cy="30" r="0.45" fill="#EBE4D8" opacity="0.38"/>' +
+    '<circle cx="22" cy="34" r="0.35" fill="#EBE4D8" opacity="0.38"/>' +
+    '<circle cx="16" cy="40" r="0.4" fill="#EBE4D8" opacity="0.38"/>' +
+    '<circle cx="28" cy="24" r="0.3" fill="#EBE4D8" opacity="0.38"/>' +
+    '<circle cx="34" cy="22" r="0.35" fill="#EBE4D8" opacity="0.38"/>' +
+    '<circle cx="20" cy="44" r="0.35" fill="#EBE4D8" opacity="0.38"/>' +
+    '<g class="pl-dots" fill="#111">' +
+    '<circle cx="63.45" cy="30.60" r="1.18"/>' +
+    '<circle cx="54.00" cy="33.30" r="1.18"/>' +
+    '<circle cx="57.15" cy="33.30" r="1.18"/>' +
+    '<circle cx="60.30" cy="33.30" r="1.18"/>' +
+    '<circle cx="63.45" cy="33.30" r="1.18"/>' +
+    '<circle cx="44.55" cy="36.00" r="1.18"/>' +
+    '<circle cx="47.70" cy="36.00" r="1.18"/>' +
+    '<circle cx="50.85" cy="36.00" r="1.18"/>' +
+    '<circle cx="54.00" cy="36.00" r="1.18"/>' +
+    '<circle cx="57.15" cy="36.00" r="1.18"/>' +
+    '<circle cx="60.30" cy="36.00" r="1.18"/>' +
+    '<circle cx="63.45" cy="36.00" r="1.18"/>' +
+    '<circle cx="41.40" cy="38.70" r="1.18"/>' +
+    '<circle cx="44.55" cy="38.70" r="1.18"/>' +
+    '<circle cx="47.70" cy="38.70" r="1.18"/>' +
+    '<circle cx="50.85" cy="38.70" r="1.18"/>' +
+    '<circle cx="54.00" cy="38.70" r="1.18"/>' +
+    '<circle cx="57.15" cy="38.70" r="1.18"/>' +
+    '<circle cx="60.30" cy="38.70" r="1.18"/>' +
+    '<circle cx="63.45" cy="38.70" r="1.18"/>' +
+    '<circle cx="41.40" cy="41.40" r="1.18"/>' +
+    '<circle cx="44.55" cy="41.40" r="1.18"/>' +
+    '<circle cx="47.70" cy="41.40" r="1.18"/>' +
+    '<circle cx="50.85" cy="41.40" r="1.18"/>' +
+    '<circle cx="54.00" cy="41.40" r="1.18"/>' +
+    '<circle cx="57.15" cy="41.40" r="1.18"/>' +
+    '<circle cx="60.30" cy="41.40" r="1.18"/>' +
+    '<circle cx="63.45" cy="41.40" r="1.18"/>' +
+    '<circle cx="41.40" cy="44.10" r="1.18"/>' +
+    '<circle cx="44.55" cy="44.10" r="1.18"/>' +
+    '<circle cx="47.70" cy="44.10" r="1.18"/>' +
+    '<circle cx="50.85" cy="44.10" r="1.18"/>' +
+    '<circle cx="54.00" cy="44.10" r="1.18"/>' +
+    '<circle cx="57.15" cy="44.10" r="1.18"/>' +
+    '<circle cx="60.30" cy="44.10" r="1.18"/>' +
+    '<circle cx="41.40" cy="46.80" r="1.18"/>' +
+    '<circle cx="44.55" cy="46.80" r="1.18"/>' +
+    '<circle cx="47.70" cy="46.80" r="1.18"/>' +
+    '<circle cx="50.85" cy="46.80" r="1.18"/>' +
+    '<circle cx="41.40" cy="49.50" r="1.18"/>' +
+    "</g>";
+
+  function plCubeSVG(extraClass) {
+    return (
+      '<svg class="pl-cube' +
+      (extraClass ? " " + extraClass : "") +
+      '" viewBox="0 0 80 72" aria-hidden="true" focusable="false">' +
+      PL_CUBE_INNER +
+      "</svg>"
+    );
+  }
+
+  function plCubesHTML() {
+    var html = '<div class="pl-mast-cubes" aria-hidden="true">';
+    var i;
+    for (i = 1; i <= 5; i++) html += plCubeSVG("pl-cube--mast pl-cube--" + i);
+    return html + "</div>";
+  }
+
+  function plChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="pl-chrome" aria-hidden="true">' +
+      '<div class="pl-bar"></div>' +
+      '<div class="pl-warp"></div>' +
       "</div>"
     );
   }
@@ -677,9 +760,14 @@
     else if (theme === "cote-grid") html = cgChromeHTML();
     else if (theme === "paper-prism") html = ppChromeHTML();
     else if (theme === "ascii-plot") html = apChromeHTML();
+    else if (theme === "printed-logic") html = plChromeHTML();
     if (!html) return;
-    var host = theme === "cote-grid" ? skin : dayEl;
+    var host = theme === "cote-grid" || theme === "printed-logic" ? skin : dayEl;
     if (host) host.insertAdjacentHTML("afterbegin", html);
+    if (theme === "printed-logic" && dayEl) {
+      var head = dayEl.querySelector(".day-head");
+      if (head) head.insertAdjacentHTML("beforeend", plCubesHTML());
+    }
   }
 
   function firstQuoteFromDay(day) {
@@ -754,7 +842,8 @@
       var sum = (it.summary_zh || "").trim();
       var hn = isHN(it.source);
       var q = quotesV2(it);
-      var n = String(rank).padStart(2, "0") + ".";
+      var printed = theme === "printed-logic";
+      var n = String(rank).padStart(2, "0") + (printed ? "" : ".");
       var pad = String(rank).padStart(2, "0");
       var serial = fmtMD(day.date) + "-" + pad;
       if (theme === "impasto-card") serial = "No. " + serial;
@@ -771,10 +860,12 @@
           ? '<img class="impasto-shot" src="' + esc(img) +
             '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">'
           : '<span class="impasto-paper"></span>';
+      } else if (printed) {
+        visual = "";
       } else {
         visual = (klein || agamemnon) ? "" : (hn ? q.first : "");
       }
-      var quotes = (klein || agamemnon) ? q.all : q.rest;
+      var quotes = (klein || agamemnon || printed) ? q.all : q.rest;
       var code = "";
       var codeHidden = true;
       if (theme === "impasto-card") {
@@ -783,12 +874,15 @@
       } else if (theme === "gathered-zine") {
         code = threeWordTag(it);
         codeHidden = false;
+      } else if (printed) {
+        code = tagOf(it.source);
+        codeHidden = !code;
       }
       return (
         '<li class="' + cls + '" id="item-' + esc(String(rank)) + '" style="--i:' + idx + '">' +
         '<span class="item__id">' + esc(serial) + "</span>" +
         '<span class="item__mark" aria-hidden="true">' +
-        (theme === "impasto-card" ? esc(fmtMD(day.date)) : "") +
+        (printed ? plCubeSVG("pl-cube--item") : (theme === "impasto-card" ? esc(fmtMD(day.date)) : "")) +
         "</span>" +
         '<span class="item__n">' + esc(n) + "</span>" +
         '<div class="item__visual" aria-hidden="' + (visual ? "false" : "true") + '">' +

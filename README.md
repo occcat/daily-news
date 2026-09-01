@@ -24,7 +24,7 @@ python3 -m http.server 8080
 - **2026-08-22 起**按 `JSON.theme` 加载 `css/day-base.css` + `css/themes/{theme}.css`，并设置 `data-theme`。
 - **回退**：`2026-08-29` 强制 `klein-etch`（即使 JSON 仍写 klein-halftone）；`>= 2026-08-30` 且主题空/未知 → `ordered-dither`；`2026-08-22`–`2026-08-28` 未知主题 → `klein-halftone`；`<= 2026-08-21` → 旧报纸。首页永远 `klein-poster`。
 
-日页主题：`klein-halftone`、`klein-etch`、`polaroid`、`stamp`、`isometric-mini`、`agamemnon`、`origami`、`collector-card`、`ordered-dither`、`northflow`、`gathered-zine`、`cote-grid`、`impasto-card`、`paper-prism`、`ascii-plot`。不要给没有稿件的日期编造新闻。
+日页主题：`klein-halftone`、`klein-etch`、`polaroid`、`stamp`、`isometric-mini`、`agamemnon`、`origami`、`collector-card`、`ordered-dither`、`northflow`、`gathered-zine`、`cote-grid`、`impasto-card`、`paper-prism`、`ascii-plot`、`printed-logic`。不要给没有稿件的日期编造新闻。
 
 ## 目录结构
 
