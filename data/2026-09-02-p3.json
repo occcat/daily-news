@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 21,
+      "title": "Twelve killed as Russia steps up aerial assault on Kyiv",
+      "title_zh": "俄军连续第六日空袭基辅，至少12人遇难含铁路工人",
+      "publisher": "abc.net.au",
+      "article_url": "https://www.abc.net.au/news/2026-09-02/russian-strikes-ukraine-aerial-assault/107105172",
+      "significance_score": 5.4,
+      "summary_zh": "俄军对基辅及周边连续第六日空袭：乌方称一夜动用弹道、巡航、反辐射导弹以及218架无人机和诱饵，基辅市8死、周边4死，含6名铁路工人，另有数十伤。全乌统计一度报到16死54伤，敖德萨同为主要目标。俄国防部称精确制导武器加大规模打击，目标是武器生产和军用基础设施。乌军情确认无人机打中列宁格勒州波罗的海乌斯季卢加Novatek综合体，加工单元起火。爱沙尼亚和罗马尼亚作为北约成员国同日报告无人机越境。乌克兰总理Serhii Koretskyi宣布对国防部需求做大审计，把其他部门紧缩省下的钱转去越来越贵的战争。新学年开学日，首都又过了一夜防空。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Ukrainian authorities / ABC News",
+          "en": "Russia has bombarded the Ukrainian capital for more than 12 hours overnight and into Tuesday, local time, killing at least a dozen people in another aerial onslaught that authorities said was aimed at menacing civilians.",
+          "zh": "俄罗斯对乌克兰首都的轰炸持续了逾12小时，进入当地时间周二，至少十余人死亡；当局称这又一轮空袭意在恐吓平民。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分（9月2日突发，公开报道补齐）。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 22,
+      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+      "title_zh": "ChatGPT/Codex应用打包了整份LibreOffice",
+      "publisher": "simonwillison.net",
+      "article_url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "significance_score": null,
+      "summary_zh": "Simon Willison拆包发现ChatGPT/Codex桌面应用里塞进完整LibreOffice，用来本地读办公文档。HN上217赞106评。esperent说自己的应用也捆LibreOffice，图的就是老xls“丢进去就能读”。lgl怀疑是首次处理文档时再下载，否则为什么不顺手再装几十个工具。isityettime觉得新应用表层光滑、设置却像没人用过，“巨大依赖并不令人意外，在某些系统上LibreOffice反而是最稳的那条路”。本地代理要碰真实文件格式，开源办公套件突然变成模型公司的运行时。体积、许可证和“你电脑上到底多了一整套办公软件”被一起拿出来问。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "esperent",
+          "en": "I actually bundle LibreOffice with my app too and the reason is reading files, especially old xls files. ... I couldn't find anything else that I could just drop it and feel confident it'll just read anything I give it.",
+          "zh": "我自己的应用其实也捆了LibreOffice，原因是读文件，尤其是老xls。我找不到别的东西能让我丢进去就有信心：你给我什么它都能读。"
+        },
+        {
+          "type": "comment",
+          "author": "isityettime",
+          "en": "The new app is an unbelievable mess. Settings are senselessly organized, too. The whole thing has this aesthetic slickness and then underneath it's like the people who make it have never even used it. It's not surprising that it's pulled in absolutely massive dependencies, although I'm not sure it's the wrong call on some operating systems. LibreOffice is pretty tried and true.",
+          "zh": "这个新应用乱得难以置信。设置也组织得毫无道理。整件东西表层光滑，底下却像做它的人从来没用过。它拉进极其庞大的依赖并不令人意外，在某些操作系统上我也不确定这是错的。LibreOffice相当经得起考验。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49527396",
+      "hn_points": 217,
+      "hn_comments": 106,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 23,
+      "title": "US missile strike hits wedding in Iran, killing four including a child",
+      "title_zh": "美军导弹破片击中伊朗婚礼，四人死亡含一名儿童",
+      "publisher": "zeenews.india.com",
+      "article_url": "https://zeenews.india.com/world/us-missile-strike-hits-wedding-in-iran-kills-four-including-child-50-hurt-3069572.html",
+      "significance_score": 5.3,
+      "summary_zh": "伊朗红新月会称：霍尔木兹甘省锡里克县Kuhestak一处举行婚礼的民宅被美军导弹破片击中，四人死亡含一名幼童，逾50人受伤。副省长称这是战争罪。特朗普把美方打击解释成回应伊朗在海峡布雷、并向约旦美军基地射导弹。中央司令部称行动为保护霍尔木兹航运。伊朗塔斯尼姆随后报道德黑兰发动“决定性行动”，导弹和无人机瞄准地区内美军基地与利益。平民婚礼被拖进海峡封锁战，红新月会的死亡数字成为当天最硬的一条。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Iranian Red Crescent",
+          "en": "Four people, including a child, were killed and more than 50 injured after shrapnel from a US missile strike hit a residential home where a wedding was being held in southern Iran.",
+          "zh": "美军导弹袭击的破片击中伊朗南部一处正在举行婚礼的民宅，四人死亡，其中包括一名儿童，逾50人受伤。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分（9月2日突发，公开报道补齐）。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 24,
+      "title": "Dwarf Fortress' creator says the industry's in shambles over AI",
+      "title_zh": "Dwarf Fortress作者：游戏业被AI和裁员搞疯了",
+      "publisher": "pcgamer.com",
+      "article_url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
+      "significance_score": null,
+      "summary_zh": "Dwarf Fortress共同作者Tarn Adams对PC Gamer说：认识的人里，老板都在慢慢陷入精神病式的AI和裁员狂热——“他们想按一个按钮就做出游戏，然后其他所有人没了工作还不知怎么把游戏买走。”HN上192赞190评，和昨天“魔法宇宙”预告不是同一篇。munificent把问题写成三条：人类注意力有限、数字作品边际成本近零且永远在线、AI把供给再降一个数量级，需求和供给不可能每年十倍错位而不脱轨。QuadrupleA说这句引语已经适用于所有软件，也许适用于商业本身。游戏业的过程生成老祖宗，在给生成式浪潮写病历。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "QuadrupleA",
+          "en": "Love this quote, seems to apply to all software these days and maybe business generally: \"They're trying to have a CEO press a button that makes a game, and then everyone else somehow buys it without a job.\"",
+          "zh": "爱这句引语，现在好像适用于所有软件，也许适用于商业本身：“他们想让CEO按一个按钮就做出游戏，然后其他所有人没了工作还不知怎么把游戏买走。”"
+        },
+        {
+          "type": "comment",
+          "author": "munificent",
+          "en": "You can't have fixed demand and have the supply increase 10x every year without something going off the rails eventually. ... Our economic systems around making and consuming media were not set up to handle this level of imbalance between creator and audience.",
+          "zh": "需求固定、供给每年增加十倍，不可能最终不出轨。……我们围绕制作和消费媒体的经济系统，并不是为创作者与受众之间这种程度的失衡而设计的。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49523720",
+      "hn_points": 192,
+      "hn_comments": 190,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 25,
+      "title": "Immune cells may have a biological memory that makes weight loss harder after obesity",
+      "title_zh": "脂肪巨噬细胞留下肥胖记忆，减肥后仍难分解脂肪",
+      "publisher": "medicalxpress.com",
+      "article_url": "https://medicalxpress.com/news/2026-08-immune-cells-biological-memory-weight.html",
+      "significance_score": 4.7,
+      "summary_zh": "《科学转化医学》报告：小鼠从高脂饮食切回普通饲料后，减得最少的个体，脂肪组织巨噬细胞核内CWC22蛋白更低。缺Cwc22会让Scarb1出现剪接错误，巨噬细胞在清道夫受体送到细胞表面之前就把它毁掉，死细胞清不掉，释放的肌苷减少，脂肪细胞听不到“分解储存脂肪”的信号。肥胖诱导的RNA剪接改变里，51.9%在减肥后仍在。人组织对照：瘦者免疫细胞核内CWC22丰富，肥胖者降低。这和今年早些时候伯明翰团队CD4 T细胞甲基化记忆是两条线：一个在适应性免疫，一个在脂肪组织的清道夫。GLP-1能减体重，免疫系统的记忆可能还要跟很多年。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Science Translational Medicine / Medical Xpress",
+          "en": "51.9% of the genes with obesity-induced RNA splicing changes in these immune cells remained altered even after weight loss. This revealed that the immune cells retained a biological memory of obesity, including changes that impaired their normal cleanup duties.",
+          "zh": "这些免疫细胞中，肥胖诱导的RNA剪接改变有51.9%在减肥后仍然存在。这说明免疫细胞保留了肥胖的生物学记忆，包括损害其正常清理职责的那些改变。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 26,
+      "title": "Ambient CSS v3 – Blender meets CSS",
+      "title_zh": "Ambient CSS v3：把Blender的灯光和材质搬进纯CSS",
+      "publisher": "ambientcss.vercel.app",
+      "article_url": "https://ambientcss.vercel.app/",
+      "significance_score": null,
+      "summary_zh": "Ambient CSS v3把方向光、海拔、玻璃和金属纹理做成纯CSS控件，自称Blender遇见CSS。HN上185赞67评，演示好看、手感被拆得很细。CSSer嫌Dribbble/Envato审美已经逃进Claude，12像素字号的Kubernetes三维仪表盘让他退缩：“Claude开箱不懂UX，去抱一下设计师。”mminer237说光照管整张网格却在某个div外停下，频道乱、黄铜会变成橄榄绿，单选按钮不统一，按下去几乎没反馈。graypegg建议海拔应按基平面加透视再translate3d，纹理现在只是渐变或内嵌图，没用上CSS纹理函数。把生成式界面的塑料光泽，用一张CSS灯光台当场做了解剖。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "CSSer",
+          "en": "I really dislike how the dribbble/envato style somehow escaped containment into Claude and now I'm seeing it everywhere mixed with mediocre design layouts. ... Please consider this a PSA: Claude doesn't understand UX or good design principles out of the box. Please go hug a designer.",
+          "zh": "我真的很不喜欢Dribbble/Envato那种风格不知怎么逃进了Claude，现在到处都是它和平庸布局的混合物。……请把这当成一条公示：Claude开箱并不懂UX或好的设计原则。去抱一下设计师吧。"
+        },
+        {
+          "type": "comment",
+          "author": "mminer237",
+          "en": "Neat idea, but feels very poorly made. The light direction governs the whole grid for some reason but stops outside an arbitrary div and often just stops working period, on top of feeling laggy for such a simple effect.",
+          "zh": "点子不错，但做得很差。光照方向不知为何管整张网格，却在某个任意div外停下，还经常直接失灵，这么简单的效果却感觉卡。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49523387",
+      "hn_points": 185,
+      "hn_comments": 67,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 27,
+      "title": "Diamond membranes generate electricity, overturning a century-old assumption",
+      "title_zh": "港大多晶金刚石薄膜可弯曲发电，打破百年非压电教条",
+      "publisher": "sciencedaily.com",
+      "article_url": "https://www.sciencedaily.com/releases/2026/08/260829035223.htm",
+      "significance_score": 4.6,
+      "summary_zh": "港大电机电子工程系朱志钦与机械工程系林原在《科学进展》报告：用边缘剥离做出超薄、可弯曲的多晶金刚石薄膜，弯曲时稳定输出电压，循环测试排除环境噪声和摩擦电。压电随厚度变化，约5微米时电压系数约82.2 mV·m/N，超过许多传统压电材料。第一性原理计算把效应归因于晶界局域不对称，形变时极化在有限区域里改变；单晶和孪晶形态没有这一现象。金刚石生物相容、化学稳定、无毒，论文把它指向能量采集、可穿戴和植入式自供电传感。钻石自1900年代起被写成非压电，只能给别的压电层当衬底；现在薄膜本身就能发电。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Jing et al., Science Advances",
+          "en": "Diamonds have been regarded as nonpiezoelectric materials for more than one century. Here, we uncover a notable piezoelectric effect in ultrathin and ultraflexible polycrystalline diamond membranes.",
+          "zh": "一个多世纪以来，钻石一直被视为非压电材料。在这里，我们在超薄、超柔的多晶金刚石薄膜中揭示了显著的压电效应。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 28,
+      "title": "The creator of Jujutsu has joined ERSC",
+      "title_zh": "Jujutsu作者加入ERSC，版本控制的下一轮平台战开打",
+      "publisher": "ersc.io",
+      "article_url": "https://ersc.io/blog/martin-joins-ersc",
+      "significance_score": null,
+      "summary_zh": "Jujutsu（jj）作者Martin加入以Git兼容版本控制为卖点的平台ERSC，提交人是steveklabnik。HN上170赞136评。steveklabnik说跟Martin共事很愉快，很快还有更多可说。umvi觉得自己用不到杀手特性：功能分支、合并、偶尔修冲突，git那五条命令从不挡路，jj的@--+::还要重接线。fallat把价值主张写成三段论——git能做jj能做的一切，所以jj只是新方向盘——并问ERSC比GitHub多了什么，SourceHut和Codeberg为什么不能装同一套方向盘。企业团队基础设施的角度在回复里才被补上。版本控制的UX层，正在变成下一座商店。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "umvi",
+          "en": "I like the idea of jujutsu, but I must not operate at a scale where its \"killer features\" would truly shine. Git hardly ever gets in my way ... It's usually: feature branch, implement, merge, and occasionally fix a merge conflict.",
+          "zh": "我喜欢jujutsu这个想法，但我大概不在它“杀手特性”真正发光的那个规模上干活。Git几乎从不挡我的路……通常就是：功能分支、实现、合并，偶尔修一下冲突。"
+        },
+        {
+          "type": "comment",
+          "author": "fallat",
+          "en": "We have git. jujutsu works with git. git can do everything jujutsu can do (otherwise, jujutsu couldn't work with git). Thus, jujutsu is a UX / new steering wheel. ERSC is trying to be a GitHub competitor with what surplus value?",
+          "zh": "我们有git。jujutsu能和git一起用。git能做jujutsu能做的一切（否则jujutsu就无法与git共事）。所以jujutsu是一层UX、一只新方向盘。ERSC想当GitHub的竞争者，多余的价值在哪？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49525297",
+      "hn_points": 170,
+      "hn_comments": 136,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 29,
+      "title": "IRGC says it launched a 'regretful response' on US bases after American strikes",
+      "title_zh": "伊朗革命卫队称对约旦美军基地实施报复打击",
+      "publisher": "indiatoday.in",
+      "article_url": "https://www.indiatoday.in/world/story/iran-us-war-live-updates-strikes-missiles-drones-irgc-trump-strait-of-hormuz-jordan-attack-2984979-2026-09-02",
+      "significance_score": 5.1,
+      "summary_zh": "伊斯兰革命卫队称，在美方新一轮打击后从伊朗本土发射导弹和无人机，展开“令侵略者后悔的回应”，并宣称“打死大量美军”；华盛顿未立即证实伤亡。伊方报道锁定约旦王子哈桑空军基地机库里的远程无人机，称摧毁飞机、打死飞行与技术人员、点燃基础设施。科威特军方说防空正在应对敌对无人机。IRGC把美方行动写成“盲目绝望的袭击”，并称这收紧了对霍尔木兹的封锁、反而坚定了对抗水道上外国军队的决心。婚礼遇袭与基地互射把海峡战从布雷指控推进到多国防空警报，数字仍对不上。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Islamic Revolutionary Guard Corps",
+          "en": "The IRGC said it had launched what it called a “regretful response to the aggressors” and claimed it had “killed a large number of US forces” in the attack.",
+          "zh": "革命卫队称发动了所谓“令侵略者后悔的回应”，并宣称在袭击中“打死大量美军”。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分（9月2日突发，公开报道补齐）。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 30,
+      "title": "Apple reveals 'shocking evidence' from ex-employee's MacBook in OpenAI suit",
+      "title_zh": "苹果在对OpenAI诉讼中拿出前员工MacBook上的“令人震惊的证据”",
+      "publisher": "9to5mac.com",
+      "article_url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
+      "significance_score": null,
+      "summary_zh": "9to5Mac报道苹果对前员工Liu及OpenAI的商业秘密诉讼补充：Liu下载过机密电路原理图并在OpenAI工作中使用；他和OpenAI其他人清楚自己未授权访问过苹果第三方云存储；得知内部调查后，他指示OpenAI同事销毁证据并得到确认；他在OpenAI用的工具与苹果内部工程应用同名。原理图是因为后来同步到他从苹果带走的MacBook上的一台Mac mini才被发现，苹果还要那台Mac mini。HN上164赞118评。joshka盯着苹果的论点：商业秘密一旦喂进会学习的AI代理或模型，“可能造成不可逆、持续传播的使用”。biggc担心公司笔记本忘了退出个人邮箱，同步后就能被合法搜查。设备、云和模型记忆被写成同一条证据链。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "joshka",
+          "en": "Apple argues that when trade secret information is fed into an AI agent or model that learns from it, that learning “may create irreversible and continually propagating uses of the trade secret.” This is somewhat of a high impact argument to test.",
+          "zh": "苹果主张，当商业秘密被喂进会从中学习的AI代理或模型时，这种学习“可能造成对商业秘密不可逆、持续传播的使用”。这是一个冲击力相当高、有待检验的论点。"
+        },
+        {
+          "type": "comment",
+          "author": "biggc",
+          "en": "I'm very curious about the privacy implications of this. I know that anything I do and store on my company's laptop can be tracked, but I hadn't considered that if I forgot to sign out of my personal Gmail on it that they could legally search that information.",
+          "zh": "我对这里的隐私含义非常好奇。我知道在公司笔记本上做的和存的都可以被追踪，但我没想过：如果忘了退出个人Gmail，他们就能合法搜查那些信息。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49527573",
+      "hn_points": 164,
+      "hn_comments": 118,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

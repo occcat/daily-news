@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 11,
+      "title": "Bank of England governor warns G20 that frontier AI could cause a global downturn",
+      "title_zh": "英央行行长警告G20：前沿AI或放大金融体系下行",
+      "publisher": "theguardian.com",
+      "article_url": "https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20",
+      "significance_score": 5.1,
+      "summary_zh": "金融稳定理事会主席、英格兰银行行长Andrew Bailey在致G20财长和央行行长的两页信里写：前沿模型正展现更强自主、解题和威胁能力，最紧迫的是改写网络攻击的速度、规模和成本，尤其高度集中的第三方服务商可能让信心崩溃跨辖区传染。许多司法管辖区还没有管理先进模型开发、发布和部署的规程。信里同时点出中东冲突推高能源通胀、主权债脆弱、私募信贷不透明、AI相关资产估值拉伸；股市杠杆与高估值、市场集中和AI乐观叠在一起，可能放大一次无序回调。他要求把安全、负责任的模型发布当作优先事项，金融机构则要补响应、恢复和对关键第三方的韧性。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Andrew Bailey, FSB Chair",
+          "en": "Frontier AI may have the ability materially to alter the speed, scale and economics of cyber risk, which could undermine market confidence system-wide, especially due to highly concentrated third-party service providers.",
+          "zh": "前沿AI有能力实质改变网络风险的速度、规模和成本结构，从而在全系统动摇市场信心，尤其是因为高度集中的第三方服务商。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分（首页片段见bbc.com+19）。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 12,
+      "title": "American Airlines mechanic Azriel “Al” Blackman has died",
+      "title_zh": "美国航空百岁机务Azriel “Al” Blackman去世，工龄约80年",
+      "publisher": "simpleflying.com",
+      "article_url": "https://simpleflying.com/american-airlines-mechanic-passes-away-100-record-80-years/",
+      "significance_score": null,
+      "summary_zh": "美国航空机械师Azriel “Al” Blackman去世，报道称他活到约100岁、机务生涯约80年，是民航维护史上极长的一条连续线。HN上366赞149评，很少见地没有撕模型。bloomingeek在塔尔萨维修基地干了三十年动力装置：机务会很快告诉你人命在他们手里，复杂活只能靠长年手，新雇的人被压得很沉。skinwill说联合航空一位机务的儿子在父亲去世后拿到一叠空白蜡纸机票，写目的地就能飞，快用完时变成“开口即出票”的礼遇。评论区把一条讣告写成对不可自动化的手艺和责任的悼词。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "bloomingeek",
+          "en": "I was always impressed by how seriously they took their jobs and how they were quick to tell anyone that they knew people's lives could be at stake. The complexity of the work made experienced and long career hands absolutely necessary.",
+          "zh": "他们对待工作的认真总让我印象深刻，而且会很快告诉任何人：他们知道人命可能在自己手里。工作的复杂程度让有经验、干得长的人绝对必要。"
+        },
+        {
+          "type": "comment",
+          "author": "skinwill",
+          "en": "When his dad passed United gave him a stack of blank wax tickets. His son could write the destination on them and fly for free. ... it was a rather classy way to honor his father.",
+          "zh": "他父亲去世后，美联航给了他一叠空白蜡纸机票。儿子可以写上目的地免费飞。……这是一种相当体面的悼念方式。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49493468",
+      "hn_points": 366,
+      "hn_comments": 149,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 13,
+      "title": "Tumor 'floor plans' may predict immunotherapy response better than current biomarkers",
+      "title_zh": "肿瘤“平面图”比现有生物标志更能预测免疫治疗应答",
+      "publisher": "medicalxpress.com",
+      "article_url": "https://medicalxpress.com/news/2026-08-tumor-floor-immunotherapy-response-current.html",
+      "significance_score": 4.8,
+      "summary_zh": "芝加哥大学Arjun Raman团队在262个实体瘤的空间转录组上抽出称为spatial groups的多细胞“房间”，再把肿瘤放进可计算距离的潜空间。主导分离轴是免疫生物学的空间异质性。与肺癌专家Marina Garassino合作，16例转移性非小细胞肺癌的回顾队列里，这套分类区分出免疫检查点应答者与无应答者，比标准生物标志PD-L1更显著地预测无进展生存。作者把spatial groups说成肿瘤微环境的组织域，可能同时连上空间结构、生物学功能和治疗反应。样本仍小，还停在候选生物标志阶段，但给“两张瘤图如何比较”补上了共同语言。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Arjun Raman",
+          "en": "Before this, there was no way to compare two floor plans. There is so much data in each one that there was no clean way of saying this is what's similar versus this is what's different. Now we have the tools to evaluate how far floor plan one is from floor plan two.",
+          "zh": "在这之前，没有办法比较两张平面图。每张里的数据太多，没法干净地说哪里像、哪里不像。现在我们有工具去评估平面图一离平面图二有多远。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 14,
+      "title": "Restroom Archive",
+      "title_zh": "Restroom Archive：把公共厕所做成有故事的档案馆",
+      "publisher": "restroomarchive.com",
+      "article_url": "https://restroomarchive.com/",
+      "significance_score": null,
+      "summary_zh": "有人把各地公共厕所拍成带日期和地点的档案站Restroom Archive。HN上363赞83评，评论区几乎全是现场感。paimapi点开三城机场那条：没擦十年的角落、管道冷凝水上的微生物宇宙，“每一间厕所都是一整篇故事”。v9v盯着大门上的倒计时——时间到自动开门——觉得这是最能制造焦虑的马桶设计。graupel发现一堆条目在犹他，包括上周刚去过的家门口那间，“有些日子互联网会突然变得很本地”。把最不体面的公共空间做成仔细的视觉记录，评论区反而比大多数产品发布更像人。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "paimapi",
+          "en": "incredible work. I can only imagine what it was like standing here getting the images, the smell of the must wafting from the corners that haven't been cleaned in a decade ... 1000/10, every bathroom is an entire story",
+          "zh": "了不起的工作。我只能想象站在那儿拍照时的情形，十年没擦的角落飘出来的霉味……满分，每一间厕所都是一整篇故事。"
+        },
+        {
+          "type": "comment",
+          "author": "v9v",
+          "en": "A toilet that has a door with a countdown seems like the most stress-inducing thing ever.",
+          "zh": "一间门上有倒计时的厕所，好像是最能制造焦虑的东西。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49517624",
+      "hn_points": 363,
+      "hn_comments": 83,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 15,
+      "title": "Long-term intensive blood-pressure control reduces dementia risk in rural China",
+      "title_zh": "中国农村强化降压试验：七年痴呆风险降约15%",
+      "publisher": "escardio.org",
+      "article_url": "https://www.escardio.org/news/press/press-releases/long-term-intensive-blood-pressure-control-reduces-dementia-risk/",
+      "significance_score": 4.8,
+      "summary_zh": "ESC 2026热线公布中国农村高血压控制项目CRHCP七年结果：辽宁中国医大附属一院孙英贤领衔，326个村1:1随机，33995名40岁以上高血压患者，均龄63岁、61%女性。非医师社区医生按简易阶梯方案把收缩压目标压到130 mmHg以下、舒张压80 mmHg以下，活性干预四年再观察三年。七年时干预组收缩压降17.6 mmHg，常规组只降2.4；痴呆发生率8.85%对10.55%，校正风险比0.85（15%更低），无痴呆的认知损害也低13%，严重不良事件还略少。孙英贤说这支持把结构化血压管理嵌进基层预防痴呆。全球痴呆病例估从2019年5700万升到2050年1.53亿，人群级长期证据一直缺。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Yingxian Sun",
+          "en": "In this large community-based trial, a scalable intervention delivered by non-physician healthcare providers not only resulted in substantial reductions in blood pressure but also reduced the risk of dementia. These results support the long-term sustainability of integrating structured blood pressure management into routine primary care for dementia prevention at the population level.",
+          "zh": "在这项大型社区试验中，由非医师医护人员实施的可扩展干预不仅显著降低了血压，也降低了痴呆风险。这些结果支持把结构化血压管理长期纳入常规基层医疗，在人群层面预防痴呆。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 16,
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "title_zh": "逐条核对：Ed Zitron的唱空预测到底准不准",
+      "publisher": "danluu.com",
+      "article_url": "https://danluu.com/zitron/",
+      "significance_score": null,
+      "summary_zh": "Dan Luu把AI唱空写手Ed Zitron在2024–2025年的字面预测摊开，对照可测量结果。HN上349赞411评，长帖把“他错在时机”和“他的原文”拆开。solid_fuel想看一份Altman、Amodei的对等清单：Zitron爱夸大，业界领袖也在发“白领工作还有六个月”的新闻稿。pcstl说怀疑主义一旦变成政治立场，他就有了俘虏听众，不能承认自己可能错、也不能承认AI真有进展——敌人必须同时强大得可怕又蠢得无能。achompas提醒：把“我觉得时机不对但公司会归零”投射到Ed头上，讨论的就不再是他的预测。一份令人不适的对照表。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "pcstl",
+          "en": "Zitron has become the distorted reflection of the very AI boosters he criticizes and mocks. I think the worst thing that happened to him was AI skepticism becoming a political position. This gave him a captive audience ... The propagandist's disease.",
+          "zh": "Zitron已经变成他批评和嘲弄的那些AI鼓吹者的扭曲镜像。我觉得发生在他身上最糟的事，是AI怀疑主义变成了政治立场。这给了他俘虏听众……宣传家的病。"
+        },
+        {
+          "type": "comment",
+          "author": "achompas",
+          "en": "One thing I'm observing in these comments is a willingness of folks to project their own predictions onto Ed's statements when validating their plausibility. ... You can do that, but then you're no longer discussing his predictions.",
+          "zh": "我在这些评论里看到的一件事是：人们愿意把自己的预测投射到Ed的表述上，再去验证其可信度。……你可以这么做，但那就不再是在讨论他的预测。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49526069",
+      "hn_points": 349,
+      "hn_comments": 411,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 17,
+      "title": "U.S. urges G20 to take a hands-off approach to AI regulation",
+      "title_zh": "美国在G20推销“卡罗来纳原则”：少立新规管AI",
+      "publisher": "reuters.com",
+      "article_url": "https://www.news24.com/business/tech/us-urges-hands-off-approach-to-ai-regulation-at-g20-tech-meeting-20260901-1028",
+      "significance_score": 4.9,
+      "summary_zh": "白宫科技政策办公室主任Michael Kratsios在北卡罗来纳教堂山的G20创新部长会上推销“卡罗来纳原则”：新监管只留给既有法律管不住的“真正新问题”，不要为AI单独立监管机构，政府与企业一起做安全审查。Hassabis视频呼吁做系统安全测试；马斯克骂欧盟科技监管“抑制进步”，并催中国以外的国家开发数据中心电源。中美争夺AI主导权被放在台面上，开源权重模型能力逼近美企闭源系统。路透此前报道奥特曼与黄仁勋将在周三与商务部长Howard Lutnick一起见代表。这和同一周贝利写给G20的风险信正好对打：一边要少立规，一边说许多辖区连发布规程都没有。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Michael Kratsios",
+          "en": "Countries that sign on agree to “reserve new regulation for novel considerations” when writing rules for AI.",
+          "zh": "签署的国家同意，在为AI制定规则时，“把新监管留给新出现的考量”。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分。原文路透，News24转载。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 18,
+      "title": "Hang on to Your Firefox",
+      "title_zh": "抓紧你的Firefox：Chrome清掉MV2之后，引擎多样性只剩这一个",
+      "publisher": "newsonaut.com",
+      "article_url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
+      "significance_score": null,
+      "summary_zh": "专栏在Chrome网上应用店清掉MV2、uBlock Origin下架之后写：Firefox是浏览器引擎多样性的最后希望。HN上266赞149评。autoexec说HN不是无脑黑Firefox，是Mozilla买广告科技、往浏览器塞个性化广告、反特性要靠about:config和userChrome.css才压得住，权力用户才骂。roughly搬组织工作的旧口诀：没有永久的敌人也没有永久的盟友，不同意Mozilla很多事，但同意它不是Chrome也不是WebKit，这一点就值回去。hx8问：难道Firefox不是唯一能用上高质量广告拦截的浏览器吗？这还不够让所有人换过去？昨天的商店清场，今天变成留引擎的动员令。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "autoexec",
+          "en": "It's exactly because Firefox is so important that you'll see people here complaining when Firefox does things to push away users like Mozilla buying up an ad-tech company, collecting data on users, and using firefox to push personalized ads ... It isn't bots complaining about Firefox here, it's power users who are frustrated by what Firefox is turning into.",
+          "zh": "正是因为Firefox如此重要，你才会在这里看到有人抱怨它把用户推走：Mozilla收购广告科技公司、收集用户数据、用Firefox推个性化广告。……在这儿抱怨的不是机器人，是对Firefox正在变成什么感到沮丧的权力用户。"
+        },
+        {
+          "type": "comment",
+          "author": "roughly",
+          "en": "I disagree with Mozilla about many things, but I agree with this article - I use Firefox because it's the only browser out there that isn't Chrome or WebKit, and that's worth enough to me that I'm willing to disagree with them on other issues.",
+          "zh": "我和Mozilla在很多事情上意见不合，但同意这篇文章——我用Firefox是因为它是唯一不是Chrome或WebKit的浏览器，这一点对我已经值回去，所以其他问题上我可以跟他们不一致。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49527748",
+      "hn_points": 266,
+      "hn_comments": 149,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 19,
+      "title": "OpenAI receives $5.5 billion in warrants in SB Energy data-center deal",
+      "title_zh": "软银SB Energy给OpenAI价值约55亿美元认股权证，换租约并递交IPO",
+      "publisher": "cnbc.com",
+      "article_url": "https://www.cnbc.com/2026/09/01/sb-energy-ipo-softbank-open-ai-nvidia.html",
+      "significance_score": 5.0,
+      "summary_zh": "软银控股的AI电力与数据中心公司SB Energy周二向SEC递交IPO，拟募约50亿至70亿美元，代码SBE。草案显示1月向OpenAI发行认股权证，当时估值约36亿美元，到6月30日约55亿美元，分阶段随市值门槛解锁；OpenAI另投约5亿美元，IPO后持股个位数，持股超5%可提名董事。OpenAI为本月在俄亥俄PORTS-Pike校园签下约17份租约、约8吉瓦算力，SB Energy合计签约约8.8吉瓦，在建约800兆瓦，尚无一座数据中心在运行。2026上半年净亏约32亿美元，营收约1.39亿美元几乎全来自旧能源业务。公司承认近端收入、项目融资和开发计划“实质依赖”OpenAI履约；英伟达8月宣布为俄亥俄项目提供1050亿美元融资。租户、股东和芯片担保人缠成同一张资产负债表。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "SB Energy IPO filing",
+          "en": "This concentration means that our near-term revenues, project-level financing arrangements, and development plans are significantly linked to OpenAI's continued performance under our lease and related agreements.",
+          "zh": "这种集中意味着，我们的近端收入、项目级融资安排和开发计划，都与OpenAI在租约及相关协议下的持续履约显著挂钩。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 20,
+      "title": "Introducing Ad Blocker for Firefox on iOS",
+      "title_zh": "Firefox iOS内置广告拦截：用EasyList，但搜索广告不挡",
+      "publisher": "blog.mozilla.org",
+      "article_url": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/",
+      "significance_score": null,
+      "summary_zh": "Mozilla 9月1日宣布iOS版Firefox内置Ad Blocker：走Apple WebKit Content Blocker和EasyList，设置里默认关闭。不挡站点自有广告、搜索结果广告，也不挡新标签页的赞助内容。HN上276赞102评。OptionOfT直接引用支持页：搜索引擎广告明确不拦截，而谷歌结果页顶部常是转接骗局；大概动不了谷歌搜索合同。NikxDa说功能既未全量开放，还要开遥测。WD-42等了几天仍刷不出开关，实验分组让营销稿读起来像已经上市，“让我离Open开Orion，没有拦截的互联网没法用”。桌面刚被写成最后的引擎，手机端却把拦截做成带遥测的灰度。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "NikxDa",
+          "en": "I was going to give credit to the direction Mozilla was taking here after their... questionable decisions in the past few year(s). Only to see that this is neither generally available, nor can you use it without enabling telemetry.",
+          "zh": "我本来想为Mozilla这边的方向说句好话，毕竟过去几年他们做过……有问题的决定。结果发现这既没有普遍可用，不用遥测也用不了。"
+        },
+        {
+          "type": "comment",
+          "author": "WD-42",
+          "en": "It's been days (weeks?) and I'm still waiting for the option to appear for me. These \"experiments\" are super annoying when you are on what I'm assuming is the long tail of a rollout but the marketing/blog posts speak of the feature like it's already launched.",
+          "zh": "已经几天（几周？）了，我还在等这个选项出现。这种“实验”特别烦：你大概落在灰度长尾，营销和博客却把功能写得像已经上线。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49521973",
+      "hn_points": 276,
+      "hn_comments": 102,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

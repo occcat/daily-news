@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 1,
+      "title": "U.S. generals warn Iran war has depleted forces for other conflicts",
+      "title_zh": "美军将领警告：对伊作战已掏空应对其他冲突的兵力",
+      "publisher": "seattletimes.com",
+      "article_url": "https://www.seattletimes.com/nation-world/military-leaders-warn-hegseth-against-extending-iran-war-operations/",
+      "significance_score": 5.2,
+      "summary_zh": "华盛顿邮报披露8月14日《国防部长命令簿》：欧洲司令部、印太司令部、南方司令部和海军作战部长对延长中东部署正式“non-concur”——反对但照执行。部分部队要留到9月，另一些可能拖到2027年。海军作战部长Daryl Caudle称没有明确结束日期就撑不住当前节奏，可立即部署的驱逐舰不到四分之一，远低于战前。爱国者防空组也要延期，拦截弹被伊朗战争和援乌抽空。参谋长联席会议主席Dan Caine开战前就警告弹药和盟友支援不够打一场持久大战。五角大楼发言人Sean Parnell斥泄密是犯罪，坚称部队仍可慑止并响应。一位知情者把将领们的口风概括成“太多，太久”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "people familiar with the SDOB / The Washington Post",
+          "en": "The overall message from the military leadership, which comes about six months of fighting with Iran, [was] “too much, for too long.”",
+          "zh": "来自军方领导层的总体信息——正值对伊作战约六个月——是“太多，太久”。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 2,
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "title_zh": "Claude Fable 5.1：科学基准翻倍，缓存读取砍到0.25美元",
+      "publisher": "anthropic.com",
+      "article_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "significance_score": null,
+      "summary_zh": "Anthropic发布Fable 5.1与Mythos 5.1：同一底座、不同护栏。Terminal-Bench-Science 0.1从Fable 5的24.7%跳到52.6%；典型负载估便宜约25%，高度智能体负载可到约45%，因为缓存读取从1美元/百万token降到0.25美元。企业前沿护栏EFS把数据放在客户云上，宣称等同零留存。Mythos只走可信访问：生命科学与美国政府合办准入，网络安全可做漏洞发现但不能写利用。HN上865赞814评：Anthropic的felixrieseberg说文风不那么“克劳德腔”，科学基准才是下一波；GodelNumbering把其他基准的个位数涨幅摊开，问前沿是不是已经停滞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "felixrieseberg",
+          "en": "Beyond all the benchmarks, I think Fable 5.1 is a big improvement in writing style. It sounds a lot less stereotypically like other Claude models, has (imho) a much more natural style, and responds to my style instructions more reliably. ... Fable 5.1 more than doubled Fable 5's Terminal-Bench-Science score, which I think is meaningful.",
+          "zh": "抛开基准，我觉得Fable 5.1在文风上是一次大改进。它听起来不那么刻板地像其他Claude，风格更自然，也更能跟上我的文风指令。……Fable 5.1把Fable 5的Terminal-Bench-Science分数翻了一倍以上，这我觉得有分量。"
+        },
+        {
+          "type": "comment",
+          "author": "GodelNumbering",
+          "en": "If you take away terminal-Bench-Science 0.1 results, it is hard to see ANY improvement: Terminal-Bench 4.0: Fable 5.1 is +3.5% vs Opus 5. ... For one tier up and one version up, these are not really improvements. Combined with the fact that they are selling 'readability'... Has frontier progress finally stalled?",
+          "zh": "拿掉Terminal-Bench-Science 0.1，几乎看不出任何提升：Terminal-Bench 4.0相对Opus 5只+3.5%。……升一档再升一版，这算不上改进。再加上他们在卖“可读性”……前沿进步是不是终于停了？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49525378",
+      "hn_points": 865,
+      "hn_comments": 814,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 3,
+      "title": "Ukraine's external support gives it an edge over Russia, fueling Moscow's threats against Europe",
+      "title_zh": "乌克兰靠外部支援占优，莫斯科因此把威胁对准欧洲",
+      "publisher": "adevarul.ro",
+      "article_url": "https://adevarul.ro/stiri-externe/rusia/ucraina-are-un-avantaj-major-in-fata-rusiei-de-2553183.html",
+      "significance_score": 5.2,
+      "summary_zh": "罗马尼亚《真理报》援引卡内基俄罗斯欧亚中心主任Alexander Gabuev：三年多来欧洲给乌克兰供血，俄罗斯却基本自筹战费，经济同时挨乌军打击和西方制裁。克宫把这看成战略不对称——北约借乌克兰消耗俄军，自己直接成本却相对低；莫斯科没有一个“反向乌克兰”能打进北约腹地并替它挨报复。Hanna Notte称俄方越来越把欧洲军工、物流和数字基础设施当成前线后方。风险是对欧升级可能反过来巩固援乌，尤其法国、德国、意大利大选前亲俄政党正想扩大影响。对克宫来说乌克兰是障碍不是奖品，目标是对欧洲乃至更远的影响力。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Alexander Gabuev",
+          "en": "There is an asymmetry in Russia's ability to inflict damage on the West and force it to bear the costs of supporting Ukraine.",
+          "zh": "俄罗斯对西方造成伤害、迫使其承担援乌成本的能力，存在一种不对称。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 4,
+      "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
+      "title_zh": "AnkiDroid：Google Play不再允许Open Collective捐赠链接",
+      "publisher": "github.com",
+      "article_url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+      "significance_score": null,
+      "summary_zh": "开源记忆卡片AnkiDroid在GitHub issue里记录：Google Play审核把指向Open Collective的捐赠入口判违规。OSC是501(c)(6)，捐款对捐者不可抵税；审核邮件却把“免税组织”和“可抵税捐赠”搅在一起，政策原文又写支付不得用于含免税捐赠的情形。HN上818赞241评。amiga386翻出2019年WireGuard被商店踢出的旧账：软件不该被垄断商店决定能不能跑在你的设备上。dataflow指出真正该问的是交易是否应税，而不是收款方的税号类别。开源项目靠志愿捐赠续命，商店抽成和条款正在把这条路堵死。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "amiga386",
+          "en": "This is why software should not be subjected to an \"app store\" type distribution system, where a monopolist retains absolute control of what software can run on your devices, and can capriciously deny distribution to developers for whatever reason it likes.",
+          "zh": "这就是为什么软件不该被丢进“应用商店”那种分发体系：垄断者绝对控制你的设备能跑什么，并能随自己高兴拒绝给开发者分发。"
+        },
+        {
+          "type": "comment",
+          "author": "dataflow",
+          "en": "Isn't it pretty obvious that the problem is the donations aren't tax-exempt, despite the organization being tax-exempt? ... Logically, the payment processor (who deals with sales taxes rather than income taxes) should worry about the taxability of the transaction rather than the tax status of the recipient, right?",
+          "zh": "问题不就是捐款本身不可免税，尽管组织是免税的吗？……按理说支付通道管的是销售税不是所得税，该操心的是这笔交易应不应当税，而不是收款方的税务身份，对吧？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49520022",
+      "hn_points": 818,
+      "hn_comments": 241,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 5,
+      "title": "Judge rules Trump administration violated Constitution in Stanford student visa case",
+      "title_zh": "法官裁定特朗普政府以签证惩罚学生言论违宪",
+      "publisher": "paloaltoonline.com",
+      "article_url": "https://www.paloaltoonline.com/courts/2026/08/28/judge-sides-with-the-stanford-daily-rules-federal-government-violated-constitution/",
+      "significance_score": 5.0,
+      "summary_zh": "加州北区法官Noël Wise在约90页判决里支持《斯坦福日报》：政府用《移民国籍法》两条——国务卿可因“令人信服的外交政策利益”启动遣返、以及可随时以任何理由撤签证——针对批评以色列或声援巴勒斯坦的F-1学生，构成基于观点和内容的限制，并因含糊违反第五修正案。她写：“政府给出的寒蝉信息是——批评以色列或支持巴勒斯坦，我们就撤签证、遣返。听话。”国际学生撤署名、退社、要求删旧稿，新闻室被改写。法院给了确认判决，但暂不发禁令；政府预计上诉第九巡回。FIRE称这是全美首例就这些条款合宪性作出的裁定。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Judge Noël Wise",
+          "en": "The government has offered a chilling message regarding protected speech — speak out against Israel or in support of Palestinians and we will revoke your visa and deport you. Behave. Noncitizen students heard the warning and heeded. And, as the idiom goes, the silence is deafening.",
+          "zh": "政府就受保护言论给出了寒蝉信息——批评以色列或支持巴勒斯坦，我们就撤签证、遣返。听话。非公民学生听见了警告，也照做了。正如那句成语：沉默震耳欲聋。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 6,
+      "title": "Fastpotify",
+      "title_zh": "Fastpotify：Winamp皮肤的第三方Spotify客户端，赶上librespot被掐",
+      "publisher": "fastpotify.rocks",
+      "article_url": "https://fastpotify.rocks/",
+      "significance_score": null,
+      "summary_zh": "Show HN项目Fastpotify把Spotify做成轻客户端：Ctrl+M可套任何经典Winamp 2皮肤，带频谱、均衡器和播放列表。HN上802赞534评。rot256说Spotify是自己每天还在用的最烂软件，安卓端建议歌不能右滑入队、没网时搜索还要等超时才肯给本地库。wilted-iris指出Spotify正在弄死大多数第三方播放器依赖的librespot，“流媒体黄金时代要结束了”，自己已迁到Navidrome/OpenSubsonic。alexyoung嫌首页文案全是LLM腔：“wears any classic Winamp 2 skin”——你不会自己写产品说明，我怎么信它不会在我电脑上rm -rf。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "rot256",
+          "en": "Spotify is, without doubt, the worst piece of software that I still use on a daily basis. It's incredibly buggy, incredibly slow, and the UI has so many \"usability inconsistencies\".",
+          "zh": "Spotify毫无疑问是我每天还在用的最烂软件。极其 buggy、极其慢，界面有太多“可用性不一致”。"
+        },
+        {
+          "type": "comment",
+          "author": "wilted-iris",
+          "en": "Spotify is in the process of killing the librespot project that this and most third party Spotify players are built on. I think the golden age of music streaming is coming to an end. I've migrated to a self hosted library with streaming and radio for discovery.",
+          "zh": "Spotify正在弄死librespot，而这个项目和大多数第三方Spotify播放器都建在它上面。我觉得音乐流媒体的黄金时代要结束了。我已经迁到自建曲库，用流媒体和电台做发现。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49517448",
+      "hn_points": 802,
+      "hn_comments": 534,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 7,
+      "title": "Guinea-Bissau voters back constitution expanding presidential powers",
+      "title_zh": "几内亚比绍公投通过扩权宪法，议会从102席砍到65",
+      "publisher": "aljazeera.com",
+      "article_url": "https://www.aljazeera.com/news/2026/9/1/guinea-bissau-referendum-nods-to-expansion-of-presidential-powers",
+      "significance_score": 5.0,
+      "summary_zh": "全国选举委员会周二宣布：上周日公投约70%赞成、30%反对，登记选民约91.4万，投票约57万、投票率近60%。新宪让总统可任免总理和内阁、设立或撤销部委、在严重政治危机时解散议会，议会从102席减到65、选区从29个减到12，总统候选人须此前五年连续居住国内。军政府2025年11月政变后推动修宪，称要在12月大选前稳定机构；最大反对党PAIGC号召抵制，指过程缺少政治与制度保障，并称投票站空荡、抵制使弃权远高于官方数字。西非近年政变潮里，这是一次在“还政于民”选举前先改写权力地图的公投。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Cármen Lobo, Guinea-Bissau National Electoral Commission",
+          "en": "With this result the 'yes' vote obtained the majority.",
+          "zh": "根据这一结果，“赞成”票获得了多数。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分，对齐首页可见档。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 8,
+      "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+      "title_zh": "一个半小时训出的小transformer，在ARC上打赢一堆大模型",
+      "publisher": "mvakde.github.io",
+      "article_url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "significance_score": null,
+      "summary_zh": "作者在博客写：这不是LLM，而是从头训的小型自回归transformer，一个半小时、很低训练成本和样本，在ARC类基准上超过许多靠海量算力堆起来的大模型与微调。此前这条榜几乎只被LLM或其微调推高。HN上556赞148评。作者evilmathkid说样本效率是当下最重要的未解问题之一，所以把成本和参数死死按住；提分主要来自SwiGLU/RMSnorm等现代架构、数据多样性和从4层扩到8层。usernametaken29称之为“挤柠檬”，认为在给定参数预算里本就该逼近SOTA。把“复杂问题必须上大模型”这条默认假设拆开了。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "evilmathkid",
+          "en": "This is NOT an LLM. its a small ar transformer trained from scratch. One of the points was that extremely complex problems can be tackled without LLMs. ... Sample Efficiency is one of the most important unsolved problems today in AI. That's what I was targetting with this work.",
+          "zh": "这不是LLM。它是从头训练的小型自回归transformer。其中一个论点是：极其复杂的问题也可以不用LLM来对付。……样本效率是今天AI最重要的未解问题之一。我这份工作瞄准的就是它。"
+        },
+        {
+          "type": "comment",
+          "author": "usernametaken29",
+          "en": "I think you're asking the right questions, sample inefficiency is horrible in modern LLMs. ... This is commonly called squeezing the lemon and is usually a bit of a last resort.",
+          "zh": "我觉得你问对了问题，现代LLM的样本效率差得可怕。……这通常叫挤柠檬，一般是最后一招。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49519939",
+      "hn_points": 556,
+      "hn_comments": 148,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 9,
+      "title": "Sun Pharma among 9 firms cutting US drug prices to match other nations",
+      "title_zh": "太阳药业等九家药企签下美国Medicaid最惠国定价",
+      "publisher": "economictimes.indiatimes.com",
+      "article_url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/sun-pharma-among-9-pharmaceutical-firms-to-lower-drug-prices-for-americans-trump-says/articleshow/133662442.cms",
+      "significance_score": 5.0,
+      "summary_zh": "白宫周一宣布Alcon、Astellas、BeOne、BridgeBio、CSL、Kyowa Kirin、太阳药业、Teva、UCB九家中型药企加入CMS的GENEROUS示范，把部分药价与其他发达国家最低价对齐，覆盖血友病、帕金森、黄斑变性、青光眼、肝癌和多种癌症等。连同此前协议，MFN药企总数到26家、约占品牌药市场89%。九家近端承诺在美制造投资至少196亿美元。太阳药业向战略原料药储备捐赠71.4吨克林霉素和6.75吨多西环素，并换得创新药232条款关税推迟两年以上；美国约占其全球收入27%，今年还宣布约117.5亿美元收购Organon。Medicaid本就有法定折扣，额外降幅有多实仍不清楚。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "White House",
+          "en": "The agreements bring the total number of pharmaceutical manufacturers with most-favoured-nation (MFN) pricing deals with the administration to 26, covering 89% of the branded drug market.",
+          "zh": "这些协议使与本届政府达成最惠国定价的制药商总数达到26家，覆盖品牌药市场的89%。"
+        }
+      ],
+      "fetch_notes": "NM首页429；significance_score为估分。",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 10,
+      "title": "Play Store blocks AuroraStore, hurting GrapheneOS users",
+      "title_zh": "Play商店封掉AuroraStore，GrapheneOS用户被夹在中间",
+      "publisher": "gitlab.com",
+      "article_url": "https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566",
+      "significance_score": null,
+      "summary_zh": "AuroraStore是不登录谷歌账号也能从Play抓应用的开源商店。GitLab工单确认Play侧开始拦截，标题把锅指向GrapheneOS用户。HN上455赞198评。GrapheneOS官方其实更推荐沙盒化Play、不推荐Aurora。pyrophane说这不该伤到GOS用户；troyvit承认沙盒Play更安全，但自己就是为了躲开黑暗模式才用Aurora，GOS变热会引来更多这类人。kjander79觉得标题写过了：帖子只确认故障，还没钉死原因，对GOS用户的实际冲击未定。去谷歌化和应用分发垄断又撞上一次。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "troyvit",
+          "en": "I use Aurora on GOS. I get that they say sandboxed Play is more secure than Aurora, but I prefer it for its lack of toxicity and absence of shitty dark patterns.",
+          "zh": "我在GOS上用Aurora。我知道他们说沙盒化Play比Aurora更安全，但我更喜欢它没有毒性、也没有那些恶心的黑暗模式。"
+        },
+        {
+          "type": "comment",
+          "author": "kjander79",
+          "en": "I feel the title editorializes a bit too much. The thread only confirms the bug, not a specific cause yet. As sibling comments indicate, the effect on GrapheneOS users is undetermined.",
+          "zh": "我觉得标题写过了。帖子只确认了故障，还没有具体原因。按旁边的评论，对GrapheneOS用户的影响也还没定。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49523754",
+      "hn_points": 455,
+      "hn_comments": 198,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}
