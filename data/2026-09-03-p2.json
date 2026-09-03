@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 11,
+      "title": "Lab-grown heart tissue model mimics heart failure for drug testing",
+      "title_zh": "日团队用hiPSC心脏组织复现射血分数保留型心衰，恩格列净是六药里唯一有效的",
+      "publisher": "news-medical.net",
+      "article_url": "https://www.news-medical.net/news/20260902/Scientists-develop-lab-grown-heart-tissue-model-for-heart-failure.aspx",
+      "significance_score": 5.4,
+      "summary_zh": "藤田医科大学Tohyama组在《Cell Stem Cell》用hiPSC心肌细胞、猪心胶原和心外膜/内皮/巨噬细胞，在高脂肪酸加NOS抑制剂L-NAME培养基里做出HFpEF人源工程心脏组织：收缩保留、舒张明显变差，NT-proBNP升高，RYR2/SERCA2A/PLN下调，胶原和TITIN变硬。六种在研或在用药物里，只有SGLT2抑制剂恩格列净能部分阻止舒张恶化；ARNI、sGC激活剂、PDE5抑制剂和NAMPT激活剂无效，HCN通道抑制剂反而加重。机制走内皮细胞的eNOS–NO–cGMP–PKG，并压低IL-1β、IL-6。HFpEF占心衰大半、动物模型对不准人，这块“培养皿里的舒张衰竭”被选为当期Preview。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Shugo Tohyama",
+          "en": "It is expected to serve as a research foundation that will contribute to the development of new therapeutic agents, the evaluation of drug efficacy, and personalized medicine for individual patients.",
+          "zh": "它有望成为一块研究底座，服务于新治疗剂开发、药效评估，以及面向个体患者的个性化医疗。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 12,
+      "title": "My local model setup on an M4 Pro Mac Mini",
+      "title_zh": "有人把M4 Pro Mac Mini写成一本本地模型配置说明书",
+      "publisher": "lws.io",
+      "article_url": "https://lws.io/blog/my-local-model-setup/",
+      "significance_score": null,
+      "summary_zh": "一篇把M4 Pro Mac Mini上的本地模型栈从命名、显存/统一内存需求、到llama.cpp、MLX、GUI和路由一层层拆开的长文冲上292赞178评。作者不卖基准，只写“哪类模型要多少内存、哪条流水线在这台小箱子上跑得动”。JKCalhoun说命名和内存表本身就说明这事还多复杂，他在等“盒子里的AI”好让普通人无痛加入；amanzi则问：16GB迷你电脑也能装一堆模型，但慢到没法用——大家觉得可接受的本地速度到底是多少？一天前首页还在写苹果被Mac Mini/Studio的本地AI需求打个措手不及，这篇等于用户侧的答卷：需求是真的，只是栈还像一套隐语。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "JKCalhoun",
+          "en": "I like the in-depth description. Everything from the naming convention of the models (and how much RAM they require) as well as all the components needed underscores just how complicated this all still is. I suppose I am waiting for AI-in-a-Box to come along so I can (painlessly) join in.",
+          "zh": "我喜欢这种往深里写的说明。从模型命名（以及要多少内存）到所需全部组件，都在提醒这件事仍然有多复杂。我想我是在等“盒子里的AI”出现，好让我能无痛加入。"
+        },
+        {
+          "type": "comment",
+          "author": "amanzi",
+          "en": "No mention of the performance of the models? I'm able to load a bunch of different models on my little mini-PC with 16GB RAM, but the performance is terrible. I always wonder what performance people are getting with local models that they find is acceptable?",
+          "zh": "完全没提模型性能？我那台16GB内存的迷你电脑也能装一堆不同模型，但性能糟得很。我总想知道，大家觉得可以接受的本地模型速度到底是什么样的？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49529132",
+      "hn_points": 292,
+      "hn_comments": 178,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 13,
+      "title": "Turkey's Erdogan signals possible deeper ties with China-Russia SCO bloc",
+      "title_zh": "北约成员国土耳其：考虑寻求上合组织正式成员身份",
+      "publisher": "jpost.com",
+      "article_url": "https://www.jpost.com/international/article-907325",
+      "significance_score": 5.4,
+      "summary_zh": "总统埃尔多安出席比什凯克上合峰会后，在返程专机上对记者说，作为2012年起的“对话伙伴”，土耳其会考虑把与中俄主导的上合组织关系升到更高层次，包括正式成员前景；强调“绝不意味着与任何集团或西方决裂”，目标是360度外交，抓能源、走廊和连通。峰会期间他与普京双边会谈，议题含核合作，并称双方都希望乌克兰战争尽快和平结束。上合现有中、俄、印、伊、白俄及中亚等十国，被当成对美国影响力的对冲。北约成员寻求上合全成员资格，把安卡拉的东西对冲又往前推了一步。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Recep Tayyip Erdoğan",
+          "en": "Turkey's prospect of (full) membership to the organisation does not imply a breakaway from any other bloc or from the West.",
+          "zh": "土耳其成为该组织（正式）成员的前景，并不意味着与任何其他集团或与西方决裂。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 14,
+      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+      "title_zh": "三个站造了21.5万篇“最佳软件”给AI当出处，Perplexity在引用",
+      "publisher": "trellner.com",
+      "article_url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "significance_score": null,
+      "summary_zh": "Trellner研究组9月2日问两套带网页检索的模型380个软件品类“买哪个最好”，回收7534条引用：59.8%指向Tranco前100万之外排名差于10万的域名，23.4%根本不在前100万。worldmetrics.org、wifitalents.com、gitnux.org三个看起来像独市调站、疑似同一控制、2023年12月前还不存在的域名，站点地图里共21.5万篇/best/软件页，博客各六篇。有的把首页标题写成“Facts & Grounding Page”。它们只占引用2.4%，却在41个品类里露脸，并互相推荐。HN 286赞127评。xpct说模型更爱模型写的段落；mstaoru去一座小镇，每个模型都热情推荐一个世界上不存在的广场——源头是reddit一条拼错的零赞评论。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "xpct",
+          "en": "If I recall correctly, there were some papers which suggested that LLMs favor LLM-generated passages over human written ones. I can consistently reproduce this by asking Claude which code snippet it prefers: the one it generated in a different chat, or one that I refactored for my own needs and find more useful. It always picks its own.",
+          "zh": "我记得有论文说，大模型更偏爱模型生成的段落而不是人写的。我能稳定复现：问Claude更喜欢哪段代码，是它在另一个对话里写的，还是我按自己需求重构、也更好用的那份。它每次都选自己的。"
+        },
+        {
+          "type": "comment",
+          "author": "mstaoru",
+          "en": "Every and each one told me enthusiastically to go to \"Foobar square\" for the \"best street food in XYZ town\"... There was no Foobar square in XYZ town. There was no Foobar square anywhere in the world. There was a SINGLE old Reddit comment... It's all a lie.",
+          "zh": "每一个都热情地叫我去“某某广场”吃“XYZ镇最好的街头食物”……XYZ镇没有这个广场。全世界都没有。只有一条没人点赞的旧Reddit评论……全是谎。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49536375",
+      "hn_points": 286,
+      "hn_comments": 127,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 15,
+      "title": "New brain atlas maps striatum neurons to guide drug discovery",
+      "title_zh": "MIT画出纹状体31类神经元地图，标出亨廷顿、成瘾和氯氮平敏感亚群",
+      "publisher": "eurekalert.org",
+      "article_url": "https://news.mit.edu/2026/brains-striatum-atlas-could-guide-researchers-new-drug-treatments-0901",
+      "significance_score": 5.4,
+      "summary_zh": "MIT团队在《Cell》发表跨物种单细胞纹状体图谱：109例人、22例小鼠样本，覆盖背侧和腹侧，叠加空间转录组和多重FISH，分出31个神经元亚群、其中9类中棘神经元。两个“离群”群体最刺眼：D1离群高表达阿片反应等成瘾相关基因，D2离群高表达抗抑郁响应基因，两者都对氯氮平反应强。图谱还把亨廷顿病易损性指向MSH2、MSH3等错配修复基因所在细胞类型。纹状体管运动、习惯和奖赏，又是亨廷顿、精分、抑郁和物质使用障碍的共同病灶；作者希望这块由捐献者组织拼起来的地图，能给最难做的脑药提供细胞级靶点。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "MIT Picower / Cell paper authors",
+          "en": "The work lays the foundation for understanding how striatal cell types and subregions contribute to brain function and disease.",
+          "zh": "这项工作为理解纹状体细胞类型和亚区如何贡献于脑功能与疾病打下了基础。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 16,
+      "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
+      "title_zh": "有人声称给神经网络抽出封闭形式的符号结构，评论区在问这是不是蒸馏",
+      "publisher": "arxiv.org",
+      "article_url": "https://arxiv.org/abs/2608.29530",
+      "significance_score": null,
+      "summary_zh": "arXiv:2608.29530把人工神经网络里“浮现的符号结构”做成方法论文，作者称可对包括大模型在内的网络给出近双射的封闭形式符号近似，并拿DISCOVER对抗分布式对齐搜索（DAS）等因果抽象路线。HN 269赞98评。sigpwned抓住三点：封闭形式若比原模型更便宜，等于解析蒸馏，“芯片上的Fable而不是数据中心里的”；把训练当搜索或可找到组合爆炸挡掉的符号算法；以及和Anthropic J-space观察的关系。jsrozner警告监督可解释性专会找出虚假结构，Hewitt & Liang 2019已经演示过，DAS近年被连着批；他认为DISCOVER虽不直接优化因果效应，仍在按假设对齐表征。桥梁若成立，一次大训练的经济价值会从“会推理”变成“还能证明”。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "sigpwned",
+          "en": "They are claiming to produce apparently bijective closed-form symbolic representations/approximations of, among other things, LLMs. Is evaluating these closed-form representations more computationally efficient? The implications of that are potentially huge. It would be essentially analytic distillation. Fable on a chip and not a data center would be important — and disruptive — in many ways.",
+          "zh": "他们声称能给包括大模型在内的东西做出近乎双射的封闭形式符号表征/近似。评估这些封闭形式会不会更省算力？含义可能非常大。那本质上就是解析蒸馏。芯片上的Fable而不是数据中心里的，在很多方面都会重要——也会颠覆。"
+        },
+        {
+          "type": "comment",
+          "author": "jsrozner",
+          "en": "A big problem with some of these supervised interpretability approaches is that they can find spurious structure. (There are lots of ways to make the model do what you want; which is roughly what Hewitt and Liang 2019 showed.)",
+          "zh": "这类监督可解释方法的一个大问题是，它们能找出虚假结构。（让模型按你想的做，办法多得很；Hewitt和Liang 2019大致就是在说明这一点。）"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49531651",
+      "hn_points": 269,
+      "hn_comments": 98,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 17,
+      "title": "Putin fears for his life if Russia loses in Ukraine, so he may escalate the conflict",
+      "title_zh": "《经济学人》：普京对亲信说“他们会把我吊死”，正准备再升级",
+      "publisher": "lalibre.be",
+      "article_url": "https://www.kyivpost.com/post/83426",
+      "significance_score": 5.4,
+      "summary_zh": "《经济学人》引克里姆林宫相关人士：普京认为若不拿下至少整个顿巴斯就停战，会危及自身安全，曾对身边人说“他们会把我吊死”。消息称他今夏权衡数周后决定升级，可能再投30万至40万兵力，并加强对乌盟友的混合攻击与破坏、对内加紧镇压。一位精英说最大代价是浪费掉的近五年，“皇帝没穿衣服”的感觉在扩散。没有一项经济或政治问题目前能致命——镇压机器还在——但国内观感很要紧。杂志承认没人读得懂普京脑子，只是他被政权的罪犯逻辑推着：永远不能示弱。俄国防部已放话准备大规模打乌能源设施。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "source close to the Kremlin / The Economist",
+          "en": "They will hang me.",
+          "zh": "他们会把我吊死。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 18,
+      "title": "Biggest dark matter detector spots a single weird particle",
+      "title_zh": "世界最大暗物质探测器LZ看到一次解释不清的核反冲，全球显著性2.6σ",
+      "publisher": "science.org",
+      "article_url": "https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
+      "significance_score": null,
+      "summary_zh": "圣福德地下实验室的LUX-ZEPLIN在2.84吨·年曝光、把核反冲窗扩到约270 keV后，于2023年6月16日录到一次248±23(stat)±23(sys) keV、看起来像弹性核反冲的事例，已知本底很难说明。全球显著性2.6σ（看别处效应后），局部最高3.4σ，距发现线5σ很远。若是WIMP，质量或在200 GeV/c²以上，作用也不再是最简单的自旋无关散射。合作组在日本TeV粒子天体物理会上报告，预印本将投PRL。LZ创始人之一Tom Shutt问：“你要怎么理解一次事例？”HN 238赞78评。SaberTail读完预印本认为本底排查认真，但粒子物理史上3σ“发现”消失的例子太多；pizzathyme说记者最容易抢跑，他们只是决定发表并“非常非常努力地想”。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "SaberTail",
+          "en": "I read their preprint and they did a thorough job. They investigated a number of the things I'd suspect if I were looking for mis-reconstructed events or weird backgrounds. So it's certainly interesting! That said, particle physics history is full of 3 sigma particle \"discoveries\" that disappeared with more data.",
+          "zh": "我读了他们的预印本，做得仔细。若我在找重建错了的事例或古怪本底，我会怀疑的好几项他们都查了。所以确实有意思。但话说回来，粒子物理史上充满了3σ的粒子“发现”，更多数据一来就消失了。"
+        },
+        {
+          "type": "comment",
+          "author": "pizzathyme",
+          "en": "How do you even make sense of one event? Very hard to manage jumping the gun by reporters. Sounds like they saw some new data. No idea what it is. Looking forward to the follow up.",
+          "zh": "一次事例你到底怎么解释？记者抢跑非常难管。听起来他们是看到了新数据。不知道是什么。等后续。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49536079",
+      "hn_points": 238,
+      "hn_comments": 78,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 19,
+      "title": "UN halves food aid to West Bank as funding shortages hit",
+      "title_zh": "粮食署把西岸粮援砍半：40万人收到20万，还缺3.86亿美元",
+      "publisher": "naftemporiki.gr",
+      "article_url": "https://www.wfp.org/news/funding-shortfall-forces-world-food-programme-cut-food-assistance-half-west-bank",
+      "significance_score": 5.2,
+      "summary_zh": "世界粮食计划署9月1日宣布：资金短缺迫使西岸粮援从本月起由40万人砍到20万，而西岸粮食不安全人口已估约90万，需求自2023年以来翻倍还多。定居者暴力、拆迁、行动限制和流离失所打断生计；76%家庭收入显著下降，三分之一买不起营养膳食。加沙方面WFP仍覆盖约150万人，7月已把37.5万人的现金援助面值砍40%，若无新钱还得再砍。未来六个月在加沙和西岸服务约200万粮食不安全人口还缺3.86亿美元。国家主任Shaun Hughes说只能先保最脆弱户。捐助疲劳和军运限制叠在一起，把西岸从“还能撑”推进“正式断粮”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Shaun Hughes, WFP",
+          "en": "Families who were once thriving and earning a living from their land are now unable to afford enough food.",
+          "zh": "曾经靠土地过得下去的家庭，现在连足够的食物都买不起。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 20,
+      "title": "Google avoids a breakup of its ad tech business",
+      "title_zh": "法官拒绝拆Google广告交易平台AdX，改走行为救济",
+      "publisher": "nytimes.com",
+      "article_url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
+      "significance_score": null,
+      "summary_zh": "弗吉尼亚东区法官Leonie Brinkema 9月2日密封裁决：拒绝司法部拆售AdX、开源DFP最终拍卖逻辑、以及或然拆掉DFP剩余部分的结构性救济，改为采纳“经法庭修改后的、双方提出的大部分行为救济”。细节两周内解密，双方30天内交共同最终判决。去年她已认定Google在开放网络展示广告两块市场非法维持垄断；这次和Mehta在搜索案里不拆Chrome、只令分享数据同一逻辑。Google监管事务VP说法院拒绝了拆开“帮小企业获客”的工具；反托拉斯司称对“实质性救济”满意，在评估下一步。HN 233赞141评。mrandish说巨头现在用前监管者组成的合规队在红线边缘预演；xahrepap认为立法得让合并和拆分一样难，或一样容易。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "mrandish",
+          "en": "The biggest factor is that tech giants now 'pre-game' major anti-trust relevant actions through an internal compliance team staffed by former regulators. Today's monopolists artfully push right up to the line between \"red-handed\" and \"arguable\".",
+          "zh": "最大因素是科技巨头现在用前监管者组成的内部合规队，对重大反垄断相关动作做预演。今天的垄断者会巧妙地顶到“当场抓获”和“尚可争辩”之间的那条线上。"
+        },
+        {
+          "type": "comment",
+          "author": "xahrepap",
+          "en": "My belief is: legislation needs to either make it just as hard to merge two companies as it is to unmerge them, or make it just as easy to unmerge two companies as it is to merge them.",
+          "zh": "我的看法是：立法要么让两家公司合并和拆开一样难，要么让拆开和合并一样容易。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49537131",
+      "hn_points": 233,
+      "hn_comments": 141,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

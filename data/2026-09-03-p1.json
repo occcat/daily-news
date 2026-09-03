@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 1,
+      "title": "Teva's experimental celiac antibody shows promise in early trial",
+      "title_zh": "武田以外新路径：梯瓦抗IL-15单抗单针挡住麸质肠损",
+      "publisher": "haaretz.com",
+      "article_url": "https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Announces-Positive-Topline-Results-from-Phase-2a-Study-in-Celiac-Disease-for-Its-Anti-IL-15-Antibody-Further-Validating-Its-Pipeline-in-a-Product-Potential/default.aspx",
+      "significance_score": 6.0,
+      "summary_zh": "以色列梯瓦9月2日公布TEV ‘408（抗IL-15单抗）乳糜泻II期a试验顶线：50名已严格无麸质饮食、基线绒毛高度/隐窝深度比≥2.0的成人，单次皮下注射两周后接受六周每日麸质挑战。第8周相对安慰剂，绒毛高度/隐窝深度比最小二乘均值变化为-0.43对-0.88（治疗差0.45，95% CI 0.06–0.84）；上皮内淋巴细胞密度安慰剂升27.60、给药组仅0.37。消化道症状评分更低，尚未见安全信号。FDA已于2025年5月给该适应证快速通道；Royalty Pharma最多5亿美元支持白癜风开发。全球约1%人口受累、美国逾300万，尚无获批药物，只能靠无麸质饮食。梯瓦将在后续会上补数据，尚未宣布III期时间表。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Teva Pharmaceutical Industries",
+          "en": "Teva-discovered TEV ‘408, a novel anti-IL-15 monoclonal antibody, demonstrated statistically significant and clinically meaningful prevention of gluten-induced intestinal damage vs placebo following a single subcutaneous dose.",
+          "zh": "梯瓦自主发现的新型抗IL-15单抗TEV ‘408，在单次皮下给药后，相对安慰剂显示出统计学显著且具有临床意义的麸质诱导肠损伤预防效果。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 2,
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "title_zh": "Gemini 3.8 Flash：六周第三版Flash，网络版只给“可信防守方”",
+      "publisher": "blog.google",
+      "article_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "significance_score": null,
+      "summary_zh": "谷歌9月2日发布Gemini 3.8 Flash与3.8 Flash Cyber，是六周内第三次Flash、距3.7仅三周。Flash定位“最聪明的役用马”，软件工程、智能体和专业多步推理相对3.7明显抬升，导入0.75美元/百万token、导出3.75美元，导入价2027年1月1日起翻倍。HLE-Verified 54.9%；DeepSWE长程工程称能接近更贵前沿模型。Cyber走新Fairwind计划，只给政府、关键基础设施和核心软件维护者：Chrome安全组称正确补丁数是更大商业模型的2.6倍，Cloud组用不到两小时找到通常要数月的关键漏洞，Wiz称召回高7.5–9.7%、成本低2.3–5.2倍。HN上795赞472评：simonw用1.8美分13秒做出HTML小玩意；有人说非编程场景不该再把Gemini当备胎。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "simonw",
+          "en": "The speed combined with the fact that this thing is really good at HTML JavaScript is pretty exciting. Here's what I got for 1.8 cents and 13 seconds from the prompt \"make me a cool thing in html\".",
+          "zh": "速度，再加上它真的很擅长 HTML/JavaScript，这相当让人兴奋。提示“用 html 给我做个酷东西”，花了 1.8 美分、13 秒就出来了。"
+        },
+        {
+          "type": "comment",
+          "author": "jampa",
+          "en": "If you use LLMs for anything other than coding, I definitely recommend not discounting Gemini like I did just because other models are more popular.",
+          "zh": "如果你用大模型做的不只是写代码，我非常建议不要像我从前那样，只因为别的模型更红就把 Gemini 排除掉。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49537553",
+      "hn_points": 795,
+      "hn_comments": 472,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 3,
+      "title": "Global data center spending to hit $31.6 trillion by 2050 on AI demand",
+      "title_zh": "普华永道：到2050年全球数据中心资本开支或达31.6万亿美元",
+      "publisher": "business-standard.com",
+      "article_url": "https://www.pwc.com/gx/en/1/services/consulting/technology/data-centre-outlook.html",
+      "significance_score": 6.0,
+      "summary_zh": "普华永道委托牛津经济研究院覆盖46国的《全球数据中心展望》中枢情景：2026–2050年累计资本开支31.6万亿美元，AI加速情景可近50万亿，低情景约22万亿。年开支从今年约8000亿美元升至2030年1.1万亿、2050年1.8万亿。美国拿走约15.1万亿（48%），亚太8.2万亿、欧洲5.6万亿、中东1.1万亿、非洲2550亿。与铁路、电气化、互联网不同，服务器和GPU每4–6年一换，设备占资本开支将从约70%升至2050年约93%。芯片供应链若受阻，累计或少约6万亿。一季度至少75个项目因地方反对搁置，约1300亿美元。作者问的不是钱在不在、需求真不真，而是哪些地区、运营商和机构接得住电力、主权和芯片。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "PwC / Oxford Economics",
+          "en": "The US$31.6 trillion question isn’t whether the capital exists. It does. Nor is the question whether the demand is real. It is. The question is which regions, operators, and institutions are positioned to capture it and which aren’t.",
+          "zh": "这31.6万亿美元的问题不是资本在不在——在。也不是需求真不真——真。问题是哪些地区、运营商和机构接得住，哪些接不住。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 4,
+      "title": "Muse Spark 1.3",
+      "title_zh": "Meta Muse Spark 1.3：工具调用少20%，挤进与GPT-5.6 Sol并列的61分档",
+      "publisher": "developer.meta.com",
+      "article_url": "https://developer.meta.com/ai/models/muse-spark/",
+      "significance_score": null,
+      "summary_zh": "Meta 9月2日推出Muse Spark 1.3，相对1.2工具调用少约20%、token少约25%，走Muse Code和Model API，最高推理档还在安全测试。Artificial Analysis Intelligence Index上1.3（xhigh）得61，与Grok 4.6、GPT-5.6 Sol并列，距Claude Fable 5.1的66和Opus 5的63一步之遥；1.2是57，1.1是51，四月首发43。AI主管Alexandr Wang对Axios称“非常能跟前沿打”，可用性改进会喂给扎克伯格财报里说的全天候个人代理。价格与1.2同档、被形容为激进。HN 340赞236评：simonw的鹈鹕骑车SVG 1.3明显好过1.2；superfrank夸1.2像工具不像“热心过头的助手”，担心刷分会把Spark变成他不想要的“有帮助”。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "simonw",
+          "en": "The 1.3 one is definitely better - better bicycle frame, better wing, better pelican hat. The most expensive was reasoning level xhigh - 7.5 cents, 1m34s.",
+          "zh": "1.3绝对更好——车架、翅膀、鹈鹕帽子都更好。最贵的是 xhigh 推理档：7.5 美分，1 分 34 秒。"
+        },
+        {
+          "type": "comment",
+          "author": "superfrank",
+          "en": "I'm curious and a little excited to use 1.3, but honestly a little worried that as Meta pushes for better benchmarks that Spark will start to fall into the trap of trying to be \"helpful\" in ways I don't want it to be.",
+          "zh": "我对 1.3 好奇也有点兴奋，但说实话有点担心：Meta 为了刷分，Spark 会掉进用我不想要的方式“帮忙”的陷阱。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49541256",
+      "hn_points": 340,
+      "hn_comments": 236,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 5,
+      "title": "Human-specific gene slows brain cell development, offering clues to our cognitive abilities",
+      "title_zh": "人类特有SRGAP2副本让小胶质细胞成熟拖到4–8年",
+      "publisher": "sciencedaily.com",
+      "article_url": "https://www.sciencedaily.com/releases/2026/08/260831015141.htm",
+      "significance_score": 5.8,
+      "summary_zh": "哥伦比亚大学Zuckerman研究所Polleux实验室在《Neuron》发表：人类皮层小胶质细胞相对小鼠呈幼态持续。SRGAP2B/C是小胶质细胞里仅有的人类特有基因重复，蛋白量几乎是神经元里的十倍；它们下调祖先蛋白SRGAP2A，把小胶质细胞成熟从小鼠约三周拉到人类约四到八年，并与神经元突触成熟同步。异种移植hiPSC小胶质细胞和小鼠遗传模型显示，SRGAP2B/C对幼态结构成熟既必要也充分，并非自主地拉长突触发育、增加连接。先前工作已证明同一套副本让神经元突触更多、成熟更慢。第一作者Diaz-Salazar现任职巴塞罗那Hospital del Mar：自然把同一套基因同时用来踩神经元和小胶质细胞的发育节拍。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Carlos Diaz-Salazar",
+          "en": "This gene helps control the developmental tempo of neurons, and nature has also selected it to control the development of microglia that are so crucial to neuron development, so they are in sync during development.",
+          "zh": "这个基因帮忙控制神经元的发育节拍，自然又选中它来控制对神经元发育至关重要的小胶质细胞，好让两者在发育中同步。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 6,
+      "title": "A note on subscription prices from LWN",
+      "title_zh": "LWN宣布9月15日起订阅涨约20%：五年通胀，用户仍在站台",
+      "publisher": "lwn.net",
+      "article_url": "https://lwn.net/Articles/1090585/",
+      "significance_score": null,
+      "summary_zh": "Linux与开源刊物LWN由Jonathan Corbet执笔通知：9月15日起订阅价上调约20%，对齐2022年初上次调价以来美国CPI。新月费：Starving hacker 6美元、Professional 11、Project leader 19、Maniacal supporter 55，团体订阅同幅。已购年订履约到原到期日；公告前的月订再按旧价收六个月。Corbet写他们24年只涨过两次，宁可薄利多销，但近年订户增长停滞，短线只能先涨。涨价也覆盖雇Daroc Alden、Joe Brockmeier和EPUB、内核源码库、抗爬等投入。HN 667赞133评几乎一边倒支持。AlexB138称之为最高信噪比技术刊物之一；Diederich说从1998年每周读到现在，这点钱是他能做的最少回报。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "AlexB138",
+          "en": "LWN is one of the, if not the single, highest signal tech publications around. I hope they're able to maintain a stable subscription service. Being user funded, and avoiding having to maintain allegiance to advertisers, is likely part of why their quality is so high.",
+          "zh": "LWN 就算不是唯一，也是信噪比最高的技术刊物之一。希望他们能把订阅制稳住。靠用户养活、不必向广告商效忠，很可能正是质量这么高的原因。"
+        },
+        {
+          "type": "comment",
+          "author": "Diederich",
+          "en": "Starting from the beginning, I have (at least) read through every story and every article, every week, since 1998. I've been a subscriber since the beginning. That small investment is the least I can do given the incalculable value LWN has brought to me.",
+          "zh": "从一开始，我至少从1998年起每周读完每一篇报道和文章。我从创刊就订了。这点小投入，相对LWN带给我的不可估量的价值，是我能做的最少的事。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49535752",
+      "hn_points": 667,
+      "hn_comments": 133,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 7,
+      "title": "Nonprofit plans 80,000-year probe mission to Alpha Centauri by 2029",
+      "title_zh": "非营利组织要把不到1500万美元的探测器在2029年前送向半人马座α",
+      "publisher": "space.com",
+      "article_url": "https://www.space.com/space-exploration/nonprofit-wants-to-launch-80-000-year-mission-to-alpha-centauri-in-2029-video",
+      "significance_score": 5.5,
+      "summary_zh": "Fermi Explorer Mission 9月1日宣布：2029年底前发射一艘至少1公斤载荷、造价低于1500万美元的离子推进探测器，目标是在约8万年内走完到半人马座α（4.4光年）99%的路程。联合创始人Philip Johnston说希望“最先离开、最后到达”。轨道由Bill Gates旗下Breakthrough Energy领投5800万美元刚成立的Physical Superintelligence用AI算出：先在太阳附近泵能约12年，逃逸速度约25 km/s后惯性飞行约7.7万年。载荷含科学、艺术和一份黄金唱片拷贝。Johnston承认千年后再发、快20%的船仍会早到一万年以上。对比 Breakthrough Starshot 的光帆，这是用现成硬件做的“最小可行星际任务”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Philip Johnston, Fermi Explorer Mission",
+          "en": "We hope to be both the first to leave and the last to arrive at Alpha Centauri. None of us will be here when this journey ends, and that is the point.",
+          "zh": "我们希望既是最先离开、也是最后到达半人马座α的那艘。这段旅程结束时我们都不在了，而这正是重点。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 8,
+      "title": "Can I opt out of my input or output data being used for training?",
+      "title_zh": "Mistral把Team档默认改成“选择加入训练”，欧洲客户在文档里撞车",
+      "publisher": "help.mistral.ai",
+      "article_url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "significance_score": null,
+      "summary_zh": "Mistral帮助页“能否退出用输入/输出做训练”被顶上首页，因为默认值在变。发帖人teekert所在机构选欧洲伙伴、看中集中隐私控制，Pro档默认选择加入训练后升到Team；随后Team也改成默认选择加入，组织级一键关闭训练似乎消失，测试提示还进了训练集（交涉后删除）。文档与用户后台一度互相矛盾数日，Mistral刚改文档。对比Claude从约18欧元的Team档起就默认不训练。HN 359赞155评。20k说你得挺天真才信这些公司会在“你”这里停手——它们连盗版都当合理使用。欧洲卖隐私溢价、默认却把提示喂回去，把“主权云”叙事撕开了一道口。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "teekert",
+          "en": "We landed on Mistral, after being disappointed that the Pro tier was opt-in to training on prompts by default we switched up to the Team tier which provides an organization dashboard with some relevant settings. As we did that Mistral changed these options and the Team tier was now also opt-in by default.",
+          "zh": "我们选了Mistral；发现Pro档默认选择加入用提示做训练后升到Team，好用组织后台。可就在这时Mistral改了选项，Team也变成默认选择加入。"
+        },
+        {
+          "type": "comment",
+          "author": "20k",
+          "en": "You have to be rather naive if you don't think these companies don't simply train on your prompts with or without your consent. They literally scrape everything - legal or not - and claim its fair use to train on, including straight piracy. The idea that they'll steal from everyone except you is just wishful thinking.",
+          "zh": "如果你觉得这些公司会在有没有你同意时都不拿你的提示去训练，那也太天真了。它们简直见什么刮什么——合法不合法都当合理使用，包括直接盗版。以为它们会偷所有人、唯独放过你，只是一厢情愿。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49535284",
+      "hn_points": 359,
+      "hn_comments": 155,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 9,
+      "title": "Trump's Iran war is a stalemate he can't win or quit",
+      "title_zh": "对伊战争进入代价高昂的僵局：打不赢也撤不掉",
+      "publisher": "uwa.edu.au",
+      "article_url": "https://www.reuters.com/world/china/after-six-months-iran-war-has-reached-its-endgame-costly-stalemate-2026-08-27/",
+      "significance_score": 5.5,
+      "summary_zh": "路透贝鲁特8月27日综述：开打约六个月后，美伊战争落入代价高昂的僵局。特朗普把重点转到“经济诺曼底/Operation Economic Outcast”二级制裁，点名切断石油走私、互换额度和壳公司，但德黑兰押他不敢对撑着伊朗经济的中国和印度真下重手。卡内基的Aaron David Miller说政府“在绝望地摸出路”。Reuters/Ipsos显示总统支持率从约40%掉到33%；四名知情者称万斯、鲁比奥等想把战事压到11月3日中期选举前“安静”，选后再议是否加码军事。伊朗握着霍尔木兹这张牌，美国则把弹药和爱国者抽去中东。双方都觉得现在付和平的价格不划算。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Aaron David Miller, Carnegie Endowment",
+          "en": "The (Trump) administration is groping in a sort of desperate fashion to try to find a pathway out of this.",
+          "zh": "特朗普政府正以一种近乎绝望的方式，摸索走出这场战争的路径。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 10,
+      "title": "Commodore 64 released September 1, 1982",
+      "title_zh": "Commodore 64满44岁：评论区把入门机写成身份",
+      "publisher": "dfarq.homeip.net",
+      "article_url": "https://dfarq.homeip.net/commodore-64-released-september-1-1982/",
+      "significance_score": null,
+      "summary_zh": "1982年9月1日上市的Commodore 64在首页过44岁生日。这台6502系、64KB、SID声芯片加Vic-II的家用机卖出约1200–1700万台量级，常被写成史上最畅销单机。文章把价格战、捆绑磁带机/磁盘机、游戏库和BASIC当作一代人的入门仪式。HN 324赞171评几乎全是还债：freediver说1984年叔叔送来的那台决定了他是谁，贴了一颗ASCII心；joerambo架子上还摆着原机，打算接上打几局。没有产品发布，只有集体记忆——在模型周更、订阅涨价的同一块首页上，这台8位机把“所有权在你手上的计算”又拿出来说了一遍。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "freediver",
+          "en": "I owe my entire identity to this little machine. First laid my eyes on it in 1983, then unexpectedly got it from my uncle in 1984. It immediately opened my eyes to this new world of computer technology and sucked me right in.",
+          "zh": "我整个人是谁，都欠这台小机器。1983年第一次看见，1984年叔叔出其不意地给了我。它立刻让我看见计算机技术的新世界，把我吸了进去。"
+        },
+        {
+          "type": "comment",
+          "author": "joerambo",
+          "en": "I still have an original C64 on my shelf beside me. Think I'm going to hook it up and play some games in honor of its 44th birthday.",
+          "zh": "我旁边架子上还有一台原装C64。想把它接上，打几局，给它过44岁生日。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49533497",
+      "hn_points": 324,
+      "hn_comments": 171,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}

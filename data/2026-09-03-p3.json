@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "rank": 21,
+      "title": "AI analysis of 35 years of earthquakes reveals six massive structures hidden 2,900 km below Earth",
+      "title_zh": "中科院用深度学习从35年地震里翻出核幔边界六块未知散射体",
+      "publisher": "oglobo.globo.com",
+      "article_url": "https://www.sciencealert.com/six-never-before-seen-mystery-structures-found-lurking-deep-inside-the-earth",
+      "significance_score": 5.2,
+      "summary_zh": "中科院团队在《JGR: Solid Earth》用“人在环路”深度学习筛了1990–2024年近5000次地震、逾200万条波形，检出174,929条高质量PKP前驱波——比既往目录加总还多一个数量级。这些微弱散射来自约2900公里深处的核幔边界。新图把原先孤立的异常连成带状，并标出六个从未被系统描述的强散射区B1–B6，位于高纬欧亚、中亚、南大西洋等采样空白。可能成因包括俯冲板片、局部熔融或矿物相变；更戏剧的“忒伊亚残留”仍属推测。作者称这些区域应成为下一步多波型高分辨率探测的优先目标。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Chinese Academy of Sciences team, JGR Solid Earth",
+          "en": "We also discovered six areas that likely host significant heterogeneities that had never been documented before, providing clear priority targets for future exploration of Earth's deep interior.",
+          "zh": "我们还发现了六个很可能寄宿显著非均匀性、此前从未被记录的区域，为地球深内部的下一步探测提供了明确优先目标。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 22,
+      "title": "Fine, I'll build my own text editor",
+      "title_zh": "“那我自己写个编辑器”：有人一路删到只剩textarea，Rob Pike在评论区被翻出来",
+      "publisher": "dbushell.com",
+      "article_url": "https://dbushell.com/2026/09/01/text-editor/",
+      "significance_score": null,
+      "summary_zh": "David Bushell写他如何厌倦Web编辑器的复杂度，一层层剥掉框架、自绘光标和虚拟滚动，最后发现三十年来浏览器里的<textarea>才是最稳、最快的可编辑文本。HN 232赞232评。tzs回忆1980年前在Caltech高能物理组值夜班，和Karl Heuer互相比谁先写出更好的全屏编辑器；第二天Norman Wilson写信给刚去贝尔实验室的Rob Pike，Pike回“人人都写全屏编辑器，容易，还让他们觉得自己很重要。叫他们干点有用的”——几年后Pike自己也写了一个。akersten说作者停在textarea有点可惜：若要真正的编辑器，连浏览器这层臃肿也该丢掉。在模型周更的首页上，这篇把“谁拥有输入框”写成一次减法。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "tzs",
+          "en": "Everyone writes a screen editor. It's easy to do and makes them feel important. Tell them to work on something useful.",
+          "zh": "人人都写全屏编辑器。这件事容易做，还让他们觉得自己很重要。叫他们去干点有用的。"
+        },
+        {
+          "type": "comment",
+          "author": "akersten",
+          "en": "Yes, who would have guessed that the <textarea> element, designed specifically for this use case and built into browsers for 3 decades, would be the most performant and behaviorally consistent way to implement editable text.",
+          "zh": "谁能想到呢，专门为这用途设计、嵌在浏览器里三十年的<textarea>元素，会是实现可编辑文本最性能、行为也最一致的方式。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49524863",
+      "hn_points": 232,
+      "hn_comments": 232,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 23,
+      "title": "ICC prosecution files witness list and evidence in Duterte drug war case",
+      "title_zh": "国际刑事法院检方交上杜特尔特证人与证据清单，11月30日开庭",
+      "publisher": "globalnation.inquirer.net",
+      "article_url": "https://www.philstar.com/headlines/2026/09/03/2553691/icc-prosecutor-submits-list-witnesses-evidence-vs-duterte",
+      "significance_score": 5.1,
+      "summary_zh": "国际刑事法院副检察官Mame Mandiaye Niang于8月31日、第三审判分庭截止日期当天，把杜特尔特反人类罪案的证人清单（附件A）和证据清单（附件B）作为机密提交，因含敏感证人信息。检方早前称或传约60–70名证人：31名内部、17名犯罪现场、12名背景与情境，其中25–30人当庭口头作证，其余走规则68书面/录像；证据条目已向辩方披露逾6900件。杜特尔特面临与达沃市长及总统任内禁毒杀戮相关的三项反人类罪（谋杀与谋杀未遂），2025年3月起羁押海牙，11月30日开庭。主审法官Joanna Korner强调须尽快，因被告年事已高。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "ICC Trial Chamber III directions",
+          "en": "The Prosecution shall file by 31 August 2026 a detailed Trial Brief, in addition to a list of witnesses it intends to call during the trial and a list of all items it plans to submit as evidence.",
+          "zh": "检方须于2026年8月31日前递交详细审判摘要，以及拟在庭上传唤的证人名单和拟提交的全部证据清单。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 24,
+      "title": "Exit the Cave",
+      "title_zh": "《离开洞穴》：有人把“只对自己负责的创造”写成该离开的洞穴",
+      "publisher": "turtlespace.blog",
+      "article_url": "https://turtlespace.blog/p/exit-the-cave",
+      "significance_score": null,
+      "summary_zh": "turtlespace.blog的长文把独自打磨、不面向读者/客户/对手的创造比作柏拉图洞穴：写作者需要读者，创业者需要客户，运动员需要对手，恋人需要一个能拒绝他的人——任何值得的追求都需要垫子。HN 203赞68评，分成两派。jondlm写自己钻进熔岩隧道，关灯坐在黑暗里哭，出来时热风和太阳让他战栗，并不觉得洞穴是该逃的地方。ang_cire直接反驳：日记不准备出回忆录就没意义吗？把洞穴叫“grind”很好笑，真正grindset的是那些拿财富/地位/女人公开较劲的人；没见过有人把Rimworld殖民地写成内卷。文章和评论区一起把“为谁而做”从生产力鸡汤翻成一场本体论吵架。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jondlm",
+          "en": "I sat down, turned off my light, and let myself feel the enveloping darkness for a long time. I cried. ... When I finally emerged from the cold tunnel a thrill ran through me as warm air gushed over my skin and the distant sun found me once again.",
+          "zh": "我坐下，关掉灯，让自己在包裹而来的黑暗里待了很久。我哭了。……等我终于从冷隧道里出来，热气扑上皮肤、远处的太阳再次找到我时，一阵战栗穿过身体。"
+        },
+        {
+          "type": "comment",
+          "author": "ang_cire",
+          "en": "Nah. I judge myself by how I progressed from yesterday, not by whether what I am or what I built is useful to others. Is keeping a diary pointless if you're not planning to make it a memoir?",
+          "zh": "不。我用自己比昨天进步了多少来衡量自己，而不是我是什么、我做了什么对别人有没有用。写日记若不打算出回忆录，就没意义吗？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49536606",
+      "hn_points": 203,
+      "hn_comments": 68,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 25,
+      "title": "Low isthmin-2 in early pregnancy predicts preeclampsia and fetal growth restriction",
+      "title_zh": "剑桥：孕早期低isthmin-2是子痫前期和胎儿生长受限最强蛋白信号",
+      "publisher": "nature.com",
+      "article_url": "https://www.nature.com/articles/s41591-026-04573-6",
+      "significance_score": 5.1,
+      "summary_zh": "剑桥大学在《Nature Medicine》报告：对妊娠结局预测队列约12周母血做2904种蛋白组学，isthmin-2（ISM2）低下是随后发生子痫前期或胎儿生长受限的最强信号，并在POPS2、IMPACT两个独立队列验证。ISM2几乎只由胎盘、尤其是绒毛外滋养层（EVT）生产；敲低人滋养层干细胞的ISM2会严重抑制EVT侵袭，细胞仍能活、能长，只是变不成入侵表型；在HEK293过表达则促进迁移。现有PlGF等标志多用于孕中后期已疑诊阶段。顾问Smith说早孕母血ISM2预测力明显好于现有检测，给识别高风险和干预打开窗口——子痫前期和FGR仍是死产与母婴病残的主要原因。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Gordon Smith, University of Cambridge",
+          "en": "Early pregnancy maternal levels of isthmin-2 are much better at predicting complications than existing tests, so it could enable us to develop better ways of identifying those pregnancies at greatest risk.",
+          "zh": "早孕期母体isthmin-2水平预测并发症的能力远好于现有检测，这让我们有机会找到更好的办法识别最高风险妊娠。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 26,
+      "title": "I Don't Have a Smartphone",
+      "title_zh": "“我没有智能手机”：二维码和门票把功能机用户逐出公共空间",
+      "publisher": "ploum.net",
+      "article_url": "https://ploum.net/2026-09-02-i_dont_have_a_smartphone.html",
+      "significance_score": null,
+      "summary_zh": "ploum.net作者写他坚持不用智能手机之后，公共空间如何用二维码点餐、App门票和“无手机附加费”把他往外推。HN 198赞191评。bufordsharkley说自己仍用不能装App的Kyocera Dura翻盖，去某些MLB球场得另带平板，否则被收“不使用智能手机”的重税；后悔没有在还有一大块没升级的老人群体时立法保护功能机。eddieroger反过来：主屏几乎空着、通知大多关掉，换来口袋里的浏览器、所有歌和所有人——让设备为你工作，而不是相反。评论区不在讨论哪款手机更好，而在争默认入口该不该被写成强制。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "bufordsharkley",
+          "en": "Occasionally I need to tote along a tablet because several places (some MLB venues, for one thing) will either require a smartphone, or impose a severe surcharge for the convenience of not using it. Anyway, I really regret that we didn't impose dumbphone protection laws back when we had a large enough bloc of seniors that didn't \"upgrade\" to a smartphone yet.",
+          "zh": "偶尔我得另带一块平板，因为有些地方（比如部分MLB球场）要么强制智能手机，要么对不使用它收很重的附加费。真后悔我们没有在还有一大块老人没“升级”到智能手机时，就立法保护功能机。"
+        },
+        {
+          "type": "comment",
+          "author": "eddieroger",
+          "en": "Make the device work for you, not the other way around?",
+          "zh": "让设备为你工作，而不是反过来？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49539872",
+      "hn_points": 198,
+      "hn_comments": 191,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 27,
+      "title": "Carney says US wants to dismantle key Canadian industries or turn them into subsidiaries",
+      "title_zh": "卡尼：美方谈判立场是让加拿大核心产业当子公司，否则慢慢抹掉",
+      "publisher": "ici.radio-canada.ca",
+      "article_url": "https://www.nationalobserver.com/2026/09/02/news/carney-says-us-negotiators-want-wipe-out-canadian-industries-or-make-them",
+      "significance_score": 5.0,
+      "summary_zh": "加拿大总理马克·卡尼9月1日在渥太华对记者说，美方在上月贸易谈判中的态度是：汽车等核心产业要么实质成为美国产业的子公司，要么接受逐步萎缩、最终被抹掉的条款。“我们当然不会接受。”加方在8月22日美方期限前召回谈判组。卡尼称等美方停止“玩梗、甩话、装硬”再谈；同时准备9月8日起对约276亿美元美国商品加征15%、25%、50%不等反制关税，覆盖钢铝、乳品、家电、农机关和纸浆。他说可以做成彼此尊重主权、用互补优势共建的协议，但不能接受把加拿大当子公司、让本国产业长期顶风的谈判桌。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Mark Carney",
+          "en": "The attitude of the United States in these discussions, and subsequently, has been one that core Canadian industries either would be subsidiaries effectively of the United States industries, or would put in place terms where those industries would be gradually wound down in Canada and wiped out.",
+          "zh": "美国在这些讨论以及随后的态度是：加拿大的核心产业要么实质成为美国产业的子公司，要么接受使其在加拿大逐步收缩并被抹掉的条款。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 28,
+      "title": "Aging brains blend memories together instead of just forgetting them",
+      "title_zh": "衰老的大脑不只是忘，还会把记忆熔成一件事",
+      "publisher": "studyfinds.com",
+      "article_url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
+      "significance_score": null,
+      "summary_zh": "StudyFinds报道的神经科学结果：老化记忆的主诉往往不是单纯删除，而是把不同事件熔成一条记得很真的故事。视觉日记能拆穿这种“有损压缩”——聚会上“当然在场”的人，翻照片并不在。HN 199赞88评。MarkusWandel存了25年、23.8万张照片，多次发现自己讲的轶事是熔接的；他打趣说这只适用于男人，因为“谁能证明妻子二十年后逐字记得的对话是错的”。HarHarVeryFunny问这有多少是生物衰老，多少只是脑子“满了”：把记忆看成超高维内容寻址，装太多就像没有溢出的哈希表，碰撞变多，假召回上升。进化若只给够用一辈子的容量，老了记性变差本就该发生。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "MarkusWandel",
+          "en": "And I've more than once found that an anecdote I've been telling has been incorrect, precisely in a \"melded memories\" kind of way. ... It is literally the brain invoking \"lossy compression\" to make it all fit.",
+          "zh": "我不只一次发现，自己常讲的轶事是错的，错法正好是“熔接记忆”那种。……这简直就是大脑在调用“有损压缩”，好把所有东西塞进去。"
+        },
+        {
+          "type": "comment",
+          "author": "HarHarVeryFunny",
+          "en": "I wonder how much of this is directly related to age (biological aging), and how much is just someone's brain becoming \"full\" due to more memories getting added every year? To make a computer analogy, it's a bit like a hash table getting too full.",
+          "zh": "我在想这有多少直接跟年龄（生物衰老）有关，多少只是脑子因为每年都在加记忆而“满了”？打个计算机比方，有点像哈希表装得太满。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49535548",
+      "hn_points": 199,
+      "hn_comments": 88,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 29,
+      "title": "Russian schools expand military and patriotic education as fifth school year since Ukraine invasion begins",
+      "title_zh": "俄新学年把“祖国安全与国防基础”里的军训课时从20%拉到50%",
+      "publisher": "rfi.fr",
+      "article_url": "https://jamestown.org/russia-expands-youth-militarization-part-one/",
+      "significance_score": 5.0,
+      "summary_zh": "9月1日知识节起，俄罗斯6–11年级必修课“祖国安全与国防基础”中基础军训占比由20%提至50%，内容含无人机、枪械、战地急救、队列和战时防护；教育部长克拉夫佐夫称还含训练营。新科目“俄罗斯精神道德文化”将从本学年下半年给五年级开课。2026年军政爱国主义预算约9.1亿美元，较2021年增约二十倍；“青年与儿童”国家项目拨款约700亿卢布。少年军校和定向培养2025年约78万人，2018年约20万。“曙光2.0”军体游戏2025年有310万儿童参加。人权组织警告课程覆盖占领区乌克兰学校，并把男女都纳入动员预备。杜马有人呼吁从五年级开始强制军训，为“2030年可能与北约开战”做准备。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Sergey Kravtsov, Russian Education Minister",
+          "en": "The program includes the study of unmanned aerial vehicles, as well as training camps.",
+          "zh": "课程包括无人机学习，以及训练营。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null
+    },
+    {
+      "rank": 30,
+      "title": "Paint.net 5.2 alpha now runs on Linux",
+      "title_zh": "Paint.NET 5.2 alpha能在Linux上跑了，还拿回了paint.net域名",
+      "publisher": "forums.paint.net",
+      "article_url": "https://forums.paint.net/topic/134562-paintnet-52-alpha-build-9739/",
+      "significance_score": null,
+      "summary_zh": "Windows图像编辑器Paint.NET的5.2 alpha（build 9739）在论坛宣布可在Linux上运行，社区立刻追问是Win32/Direct2D重做了跨平台层，还是换了Skia加Avalonia/Uno。项目还拿回了曾经被涂料公司占着的paint.net域名——从前用户得走getpaint.net，涂料站甚至放了“如果你找的是绘图软件请点这里”。HN 168赞134评。joshuaissac专门记下域名这一出；tkot问与其在Linux上重实现Direct2D，会不会直接换成跨平台图形栈更省“token”。一款靠捐赠和Windows绑了二十多年的编辑器在2026年才跨到Linux，评论区把这事写成：专有API的护城河，最后还是得自己填。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "joshuaissac",
+          "en": "I see they finally got the domain name paint.net. They used to be at getpaint.net, and the paint company that owned paint.net had a link saying something like 'if you are looking for the graphics software, go to getpaint.net'.",
+          "zh": "我看见他们终于拿到了paint.net这个域名。从前在getpaint.net，占着paint.net的涂料公司还放了条链接，大意是“如果你找的是绘图软件，请去getpaint.net”。"
+        },
+        {
+          "type": "comment",
+          "author": "tkot",
+          "en": "Would it be more or less difficult (\"would it take more or less tokens\" is probably the right question to ask these days) to replace the Windows-specific APIs with cross-platform alternatives (I guess Skia instead of Direct2D and something like Avalonia or Uno instead of Win32-based UI?) instead of re-implementing Direct2D?",
+          "zh": "用跨平台替代（大概是Skia换Direct2D，Avalonia或Uno换基于Win32的界面）而不是重实现Direct2D，会更难还是更容易？（如今正确的问法大概是：会多花还是少花token？）"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49539389",
+      "hn_points": 168,
+      "hn_comments": 134,
+      "published_at": null,
+      "listed_at": null
+    }
+  ]
+}
