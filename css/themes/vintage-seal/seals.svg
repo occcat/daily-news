@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="720" viewBox="0 0 52 720">
+  <g>
+    <circle cx="26" cy="40" r="20.0" fill="none" stroke="#3A6BA5" stroke-width="1.2"/>
+    <circle cx="26" cy="40" r="15.2" fill="none" stroke="#3A6BA5" stroke-width="0.9"/>
+    <g fill="#3A6BA5">
+    <text x="10.05" y="32.56" transform="rotate(-65.00 10.05 32.56)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">1</text>
+    <text x="12.77" y="28.40" transform="rotate(-48.75 12.77 28.40)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">9</text>
+    <text x="16.54" y="25.16" transform="rotate(-32.50 16.54 25.16)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">7</text>
+    <text x="21.08" y="23.10" transform="rotate(-16.25 21.08 23.10)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+    <text x="26.00" y="22.40" transform="rotate(0.00 26.00 22.40)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">-</text>
+    <text x="30.92" y="23.10" transform="rotate(16.25 30.92 23.10)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+    <text x="35.46" y="25.16" transform="rotate(32.50 35.46 25.16)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">0</text>
+    <text x="39.23" y="28.40" transform="rotate(48.75 39.23 28.40)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+    <text x="41.95" y="32.56" transform="rotate(65.00 41.95 32.56)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+    <path d="M25.7566875 37.77775V43.5949375H25.2254375V43.090250000000005H21.852V43.5949375H21.32075V37.77775ZM21.852 40.1418125H25.2254375V38.2824375H21.852ZM21.852 42.5855625H25.2254375V40.6465H21.852Z"/><path d="M25.605812500000003 37.77775H28.633937500000002V38.2824375H27.358937500000003V40.2215H28.8464375V40.7261875H27.358937500000003V43.5949375H26.827687500000003V40.7261875H25.3933125V40.2215H26.827687500000003V38.2824375H25.605812500000003ZM30.626125000000002 37.4855625H31.157375000000002V42.9043125Q31.157375000000002 43.30275 30.998 43.44884375Q30.838625 43.5949375 30.360500000000002 43.5949375Q29.9355 43.5949375 29.563625000000002 43.462125L29.457375000000003 42.9043125Q29.9089375 43.0636875 30.360500000000002 43.0636875Q30.626125000000002 43.0636875 30.626125000000002 42.7980625ZM29.191750000000003 38.20275H29.723000000000003V42.0543125H29.191750000000003Z"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="26" cy="160" r="16.0" fill="none" stroke="#3A6BA5" stroke-width="1.2"/>
+    <circle cx="26" cy="160" r="12.2" fill="none" stroke="#3A6BA5" stroke-width="0.9"/>
+    <g fill="#3A6BA5">
+    <text x="15.21" y="150.95" transform="rotate(-50.00 15.21 150.95)" font-size="3.40" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+    <text x="21.96" y="146.51" transform="rotate(-16.67 21.96 146.51)" font-size="3.40" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">0</text>
+    <text x="30.04" y="146.51" transform="rotate(16.67 30.04 146.51)" font-size="3.40" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+    <text x="36.79" y="150.95" transform="rotate(50.00 36.79 150.95)" font-size="3.40" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+    <path d="M28.59375 157.875V164.71875H27.96875V164.125H24.0V164.71875H23.375V157.875ZM24.0 160.65625H27.96875V158.46875H24.0ZM24.0 163.53125H27.96875V161.25H24.0Z"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="26" cy="268" r="20.0" fill="none" stroke="#3A6BA5" stroke-width="1.2"/>
+    <circle cx="26" cy="268" r="15.2" fill="none" stroke="#3A6BA5" stroke-width="0.9"/>
+    <g fill="#3A6BA5">
+    <text x="12.52" y="256.69" transform="rotate(-50.00 12.52 256.69)" font-size="4.00" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+    <text x="20.95" y="251.14" transform="rotate(-16.67 20.95 251.14)" font-size="4.00" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">0</text>
+    <text x="31.05" y="251.14" transform="rotate(16.67 31.05 251.14)" font-size="4.00" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+    <text x="39.48" y="256.69" transform="rotate(50.00 39.48 256.69)" font-size="4.00" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+    <path d="M28.334374999999998 263.2235V269.382875H27.771874999999998V268.8485H24.2V269.382875H23.6375V263.2235ZM24.2 265.726625H27.771874999999998V263.757875H24.2ZM24.2 268.314125H27.771874999999998V266.26099999999997H24.2Z"/>
+    <path d="M22.990624999999998 268.8235H26.196875V269.35787500000004H24.846874999999997V271.411H26.421875V271.945375H24.846874999999997V274.98287500000004H24.284374999999997V271.945375H22.765625V271.411H24.284374999999997V269.35787500000004H22.990624999999998ZM28.30625 268.51412500000004H28.86875V274.251625Q28.86875 274.6735 28.7 274.8281875Q28.53125 274.98287500000004 28.025 274.98287500000004Q27.575 274.98287500000004 27.18125 274.84225000000004L27.068749999999998 274.251625Q27.546875 274.42037500000004 28.025 274.42037500000004Q28.30625 274.42037500000004 28.30625 274.13912500000004ZM26.787499999999998 269.2735H27.349999999999998V273.351625H26.787499999999998Z"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="26" cy="388" r="14.0" fill="none" stroke="#3A6BA5" stroke-width="1.2"/>
+    <circle cx="26" cy="388" r="10.6" fill="none" stroke="#3A6BA5" stroke-width="0.9"/>
+    <g fill="#3A6BA5">
+    <path d="M22.60609375 385.168725H26.22203125V385.77138125H24.69953125V388.08685H26.47578125V388.68950625H24.69953125V392.11513125H24.06515625V388.68950625H22.352343750000003V388.08685H24.06515625V385.77138125H22.60609375ZM28.6009375 384.81981875H29.2353125V391.29044375Q29.2353125 391.766225 29.045 391.940678125Q28.8546875 392.11513125 28.28375 392.11513125Q27.77625 392.11513125 27.3321875 391.9565375L27.2053125 391.29044375Q27.74453125 391.48075625 28.28375 391.48075625Q28.6009375 391.48075625 28.6009375 391.16356875ZM26.888125000000002 385.676225H27.5225V390.27544375H26.888125000000002Z"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="26" cy="496" r="20.0" fill="none" stroke="#3A6BA5" stroke-width="1.2"/>
+    <circle cx="26" cy="496" r="15.2" fill="none" stroke="#3A6BA5" stroke-width="0.9"/>
+    <g fill="#3A6BA5">
+    <text x="10.05" y="488.56" transform="rotate(-65.00 10.05 488.56)" font-size="3.10" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">1</text>
+    <text x="12.77" y="484.40" transform="rotate(-48.75 12.77 484.40)" font-size="3.10" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">9</text>
+    <text x="16.54" y="481.16" transform="rotate(-32.50 16.54 481.16)" font-size="3.10" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">7</text>
+    <text x="21.08" y="479.10" transform="rotate(-16.25 21.08 479.10)" font-size="3.10" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+    <text x="26.00" y="478.40" transform="rotate(0.00 26.00 478.40)" font-size="3.10" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">-</text>
+    <text x="30.92" y="479.10" transform="rotate(16.25 30.92 479.10)" font-size="3.10" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+    <text x="35.46" y="481.16" transform="rotate(32.50 35.46 481.16)" font-size="3.10" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">0</text>
+    <text x="39.23" y="484.40" transform="rotate(48.75 39.23 484.40)" font-size="3.10" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+    <text x="41.95" y="488.56" transform="rotate(65.00 41.95 488.56)" font-size="3.10" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+    <path d="M25.799625000000002 494.24049999999994V499.031125H25.362125000000002V498.61549999999994H22.584V499.031125H22.1465V494.24049999999994ZM22.584 496.187375H25.362125000000002V494.656125H22.584ZM22.584 498.19987499999996H25.362125000000002V496.60299999999995H22.584Z"/><path d="M25.675375 494.24049999999994H28.169124999999998V494.656125H27.119124999999997V496.253H28.344125V496.66862499999996H27.119124999999997V499.031125H26.681624999999997V496.66862499999996H25.500375V496.253H26.681624999999997V494.656125H25.675375ZM29.809749999999998 493.999875H30.247249999999998V498.46237499999995Q30.247249999999998 498.79049999999995 30.116 498.91081249999996Q29.98475 499.031125 29.590999999999998 499.031125Q29.241 499.031125 28.934749999999998 498.92175L28.84725 498.46237499999995Q29.219125 498.593625 29.590999999999998 498.593625Q29.809749999999998 498.593625 29.809749999999998 498.374875ZM28.6285 494.59049999999996H29.066V497.76237499999996H28.6285Z"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="26" cy="616" r="16.0" fill="none" stroke="#3A6BA5" stroke-width="1.2"/>
+    <circle cx="26" cy="616" r="12.2" fill="none" stroke="#3A6BA5" stroke-width="0.9"/>
+    <g fill="#3A6BA5">
+    <text x="13.24" y="610.05" transform="rotate(-65.00 13.24 610.05)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">1</text>
+    <text x="15.41" y="606.72" transform="rotate(-48.75 15.41 606.72)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">9</text>
+    <text x="18.43" y="604.13" transform="rotate(-32.50 18.43 604.13)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">7</text>
+    <text x="22.06" y="602.48" transform="rotate(-16.25 22.06 602.48)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+    <text x="26.00" y="601.92" transform="rotate(0.00 26.00 601.92)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">-</text>
+    <text x="29.94" y="602.48" transform="rotate(16.25 29.94 602.48)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+    <text x="33.57" y="604.13" transform="rotate(32.50 33.57 604.13)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">0</text>
+    <text x="36.59" y="606.72" transform="rotate(48.75 36.59 606.72)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+    <text x="38.76" y="610.05" transform="rotate(65.00 38.76 610.05)" font-size="3.20" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+    <path d="M25.80535 614.2222V618.87595H25.38035V618.4722H22.6816V618.87595H22.2566V614.2222ZM22.6816 616.1134500000001H25.38035V614.62595H22.6816ZM22.6816 618.06845H25.38035V616.5172H22.6816Z"/><path d="M25.68465 614.2222H28.107150000000004V614.62595H27.08715V616.1772H28.277150000000002V616.58095H27.08715V618.87595H26.662150000000004V616.58095H25.514650000000003V616.1772H26.662150000000004V614.62595H25.68465ZM29.700900000000004 613.9884500000001H30.1259V618.32345Q30.1259 618.6422 29.998400000000004 618.7590749999999Q29.870900000000002 618.87595 29.488400000000002 618.87595Q29.148400000000002 618.87595 28.850900000000003 618.7697000000001L28.765900000000002 618.32345Q29.127150000000004 618.45095 29.488400000000002 618.45095Q29.700900000000004 618.45095 29.700900000000004 618.2384500000001ZM28.553400000000003 614.5622H28.9784V617.64345H28.553400000000003Z"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="26" cy="700" r="12.0" fill="none" stroke="#3A6BA5" stroke-width="1.2"/>
+    <circle cx="26" cy="700" r="9.1" fill="none" stroke="#3A6BA5" stroke-width="0.9"/>
+    <g fill="#3A6BA5">
+    <path d="M23.0909375 697.61605H26.190312499999997V698.1326124999999H24.885312499999998V700.1173H26.4078125V700.6338625H24.885312499999998V703.5701124999999H24.3415625V700.6338625H22.873437499999998V700.1173H24.3415625V698.1326124999999H23.0909375ZM28.229374999999997 697.3169875H28.773125V702.8632375Q28.773125 703.27105 28.61 703.4205812499999Q28.446875 703.5701124999999 27.9575 703.5701124999999Q27.5225 703.5701124999999 27.141875 703.434175L27.033125 702.8632375Q27.495312499999997 703.0263625 27.9575 703.0263625Q28.229374999999997 703.0263625 28.229374999999997 702.7544875ZM26.761249999999997 698.05105H27.305V701.9932375H26.761249999999997Z"/>
+    </g>
+  </g>
+</svg>

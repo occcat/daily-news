@@ -18,12 +18,14 @@
       ? window.__rikanDate < window.__rikanThemeStart
       : true;
     document.documentElement.setAttribute("data-skin", window.__rikanLegacy ? "newspaper" : "v2");
-    /* Fallback before JSON: 8.29 klein-etch; ≥8.30 ordered-dither; 8.22–8.28 klein-halftone. */
+    /* Fallback before JSON: 8.29 klein-etch; 9.03 vintage-seal; ≥8.30 ordered-dither; 8.22–8.28 klein-halftone. */
     if (!window.__rikanLegacy) {
       window.__rikanFallbackTheme =
         window.__rikanDate === "2026-08-29"
           ? "klein-etch"
-          : (window.__rikanDate >= window.__rikanWeek2Start ? "ordered-dither" : "klein-halftone");
+          : (window.__rikanDate === "2026-09-03"
+            ? "vintage-seal"
+            : (window.__rikanDate >= window.__rikanWeek2Start ? "ordered-dither" : "klein-halftone"));
       document.documentElement.setAttribute("data-theme", window.__rikanFallbackTheme);
     }
   </script>

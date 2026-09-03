@@ -9,6 +9,7 @@
   var THEME_START = "2026-08-22";
   var WEEK2_START = "2026-08-30";
   var ETCH_DAY = "2026-08-29";
+  var SEAL_DAY = "2026-09-03";
   var THEMES = {
     "klein-halftone": 1,
     "klein-etch": 1,
@@ -25,7 +26,8 @@
     "impasto-card": 1,
     "paper-prism": 1,
     "ascii-plot": 1,
-    "printed-logic": 1
+    "printed-logic": 1,
+    "vintage-seal": 1
   };
   var WEEK2 = {
     "ordered-dither": 1,
@@ -35,7 +37,8 @@
     "impasto-card": 1,
     "paper-prism": 1,
     "ascii-plot": 1,
-    "printed-logic": 1
+    "printed-logic": 1,
+    "vintage-seal": 1
   };
   var WEEK2_FONTS =
     "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Special+Elite&display=swap";
@@ -154,6 +157,7 @@
 
   function resolveTheme(name, iso) {
     if (iso === ETCH_DAY) return "klein-etch";
+    if (iso === SEAL_DAY) return "vintage-seal";
     if (THEMES[name]) return name;
     if (iso && iso >= WEEK2_START) return "ordered-dither";
     return "klein-halftone";
@@ -172,7 +176,7 @@
 
   function landMotion(scope) {
     if (!scope) return;
-    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree, .od-cluster, .nf-window, .pp-cube, .gz-band, .ke-etch, .pl-bar, .pl-warp, .pl-cube, .pl-dots").forEach(function (el) {
+    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree, .od-cluster, .nf-window, .pp-cube, .gz-band, .ke-etch, .pl-bar, .pl-warp, .pl-cube, .pl-dots, .vs-rules, .vs-seals, .vs-commem").forEach(function (el) {
       el.addEventListener("animationend", function (ev) {
         if (ev.target !== el) return;
         el.classList.add("is-landed");
@@ -577,7 +581,8 @@
     "cote-grid": "",
     "ascii-plot": "",
     "impasto-card": "",
-    "printed-logic": "在复杂的世界里，保持清醒与好奇。"
+    "printed-logic": "在复杂的世界里，保持清醒与好奇。",
+    "vintage-seal": ""
   };
 
   function threeWordTag(it) {
@@ -710,6 +715,38 @@
     );
   }
 
+  function vsSealSVG(extraClass) {
+    return (
+      '<svg class="vs-commem' +
+      (extraClass ? " " + extraClass : "") +
+      '" viewBox="0 0 200 200" aria-hidden="true" focusable="false">' +
+      '<circle cx="100" cy="100" r="97" fill="none" stroke="currentColor" stroke-width="2.4"/>' +
+      '<circle cx="100" cy="100" r="79" fill="none" stroke="currentColor" stroke-width="1.3"/>' +
+      '<defs>' +
+      '<path id="vs-ring-top" d="M36,100 A64,64 0 0,1 164,100"/>' +
+      '<path id="vs-ring-bot" d="M36,100 A64,64 0 0,0 164,100"/>' +
+      "</defs>" +
+      '<text fill="currentColor" font-size="13" font-family="Arial Narrow, Helvetica Neue, sans-serif" letter-spacing="2.4">' +
+      '<textPath href="#vs-ring-top" startOffset="50%" text-anchor="middle">• 1976-2026 •</textPath>' +
+      "</text>" +
+      '<text fill="currentColor" font-size="12" font-family="Noto Sans SC, sans-serif" letter-spacing="1.6">' +
+      '<textPath href="#vs-ring-bot" startOffset="50%" text-anchor="middle">五十周年纪念</textPath>' +
+      "</text>" +
+      '<text x="100" y="94" text-anchor="middle" fill="currentColor" font-size="22" font-weight="800" font-family="Arial Narrow, Helvetica Neue, sans-serif">2026</text>' +
+      '<text x="100" y="118" text-anchor="middle" fill="currentColor" font-size="16" font-family="Noto Sans SC, sans-serif">日刊</text>' +
+      "</svg>"
+    );
+  }
+
+  function vsChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="vs-chrome" aria-hidden="true">' +
+      '<div class="vs-rules"></div>' +
+      '<div class="vs-seals"></div>' +
+      "</div>"
+    );
+  }
+
   function ppChromeHTML() {
     return (
       '<div id="theme-chrome" class="pp-chrome">' +
@@ -761,12 +798,17 @@
     else if (theme === "paper-prism") html = ppChromeHTML();
     else if (theme === "ascii-plot") html = apChromeHTML();
     else if (theme === "printed-logic") html = plChromeHTML();
+    else if (theme === "vintage-seal") html = vsChromeHTML();
     if (!html) return;
-    var host = theme === "cote-grid" || theme === "printed-logic" ? skin : dayEl;
+    var host = theme === "cote-grid" || theme === "printed-logic" || theme === "vintage-seal" ? skin : dayEl;
     if (host) host.insertAdjacentHTML("afterbegin", html);
     if (theme === "printed-logic" && dayEl) {
       var head = dayEl.querySelector(".day-head");
       if (head) head.insertAdjacentHTML("beforeend", plCubesHTML());
+    }
+    if (theme === "vintage-seal" && dayEl) {
+      var sealHead = dayEl.querySelector(".day-head");
+      if (sealHead) sealHead.insertAdjacentHTML("beforeend", vsSealSVG("vs-commem--mast"));
     }
   }
 
@@ -843,11 +885,12 @@
       var hn = isHN(it.source);
       var q = quotesV2(it);
       var printed = theme === "printed-logic";
-      var n = String(rank).padStart(2, "0") + (printed ? "" : ".");
+      var sealed = theme === "vintage-seal";
+      var n = String(rank).padStart(2, "0") + (printed || sealed ? "" : ".");
       var pad = String(rank).padStart(2, "0");
       var serial = fmtMD(day.date) + "-" + pad;
       if (theme === "impasto-card") serial = "No. " + serial;
-      var poster = theme === "cote-grid" ? idx === 0 : idx < 3;
+      var poster = theme === "cote-grid" || sealed ? idx === 0 : idx < 3;
       var cls = "item" +
         (idx === 0 ? " item--lead" : "") +
         (poster ? " item--poster" : " item--compact") +
@@ -860,12 +903,12 @@
           ? '<img class="impasto-shot" src="' + esc(img) +
             '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">'
           : '<span class="impasto-paper"></span>';
-      } else if (printed) {
+      } else if (printed || sealed) {
         visual = "";
       } else {
         visual = (klein || agamemnon) ? "" : (hn ? q.first : "");
       }
-      var quotes = (klein || agamemnon || printed) ? q.all : q.rest;
+      var quotes = (klein || agamemnon || printed || sealed) ? q.all : q.rest;
       var code = "";
       var codeHidden = true;
       if (theme === "impasto-card") {
@@ -874,7 +917,7 @@
       } else if (theme === "gathered-zine") {
         code = threeWordTag(it);
         codeHidden = false;
-      } else if (printed) {
+      } else if (printed || sealed) {
         code = tagOf(it.source);
         codeHidden = !code;
       }
@@ -993,6 +1036,7 @@
     /* Do not Klein-flood polaroid / isometric / week-2 while JSON parts load. */
     if (date === "2026-08-23") applyTheme("polaroid", date);
     else if (date === "2026-08-25") applyTheme("isometric-mini", date);
+    else if (date === SEAL_DAY) applyTheme("vintage-seal", date);
     else applyTheme(fallbackTheme(date), date);
     renderThemedHead(date);
     fetchJSON(date + ".json").then(function (day) {
