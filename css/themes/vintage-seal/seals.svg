@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="720" viewBox="0 0 52 720">
+  <g fill="none" stroke="#3A6BA5" stroke-width="1.25">
+    <circle cx="26" cy="40" r="20"/>
+    <circle cx="26" cy="40" r="15"/>
+    <circle cx="26" cy="160" r="16"/>
+    <circle cx="26" cy="160" r="11.5"/>
+    <circle cx="26" cy="268" r="20"/>
+    <circle cx="26" cy="268" r="15"/>
+    <circle cx="26" cy="388" r="14"/>
+    <circle cx="26" cy="388" r="10"/>
+    <circle cx="26" cy="496" r="20"/>
+    <circle cx="26" cy="496" r="15"/>
+    <circle cx="26" cy="616" r="16"/>
+    <circle cx="26" cy="616" r="11.5"/>
+    <circle cx="26" cy="700" r="12"/>
+    <circle cx="26" cy="700" r="8"/>
+  </g>
+  <g fill="#3A6BA5" font-family="Arial Narrow, Helvetica Neue, sans-serif" font-weight="800" text-anchor="middle">
+    <text x="26" y="36" font-size="8">1976</text>
+    <text x="26" y="46" font-size="8">2026</text>
+    <text x="26" y="164" font-size="9">å</text>
+    <text x="26" y="264" font-size="8">50</text>
+    <text x="26" y="274" font-size="7">ht</text>
+    <text x="26" y="392" font-size="8">
+</text>
+    <text x="26" y="492" font-size="8">2026</text>
+    <text x="26" y="502" font-size="7">å
+</text>
+    <text x="26" y="620" font-size="9">p</text>
+    <text x="26" y="704" font-size="7">03</text>
+  </g>
+</svg>
