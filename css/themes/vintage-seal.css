@@ -25,10 +25,11 @@ html::before {
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  background-image: url("vintage-seal/grain.png");
+  /* 1px ink speckles on transparent — no cream fill, so multiply cannot yellow the paper. */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' shape-rendering='crispEdges'%3E%3Crect x='4' y='9' width='1' height='1' fill='%231A1916'/%3E%3Crect x='19' y='3' width='1' height='1' fill='%231A1916'/%3E%3Crect x='31' y='14' width='1' height='1' fill='%231A1916'/%3E%3Crect x='47' y='6' width='1' height='1' fill='%231A1916'/%3E%3Crect x='58' y='21' width='1' height='1' fill='%231A1916'/%3E%3Crect x='8' y='28' width='1' height='1' fill='%231A1916'/%3E%3Crect x='22' y='35' width='1' height='1' fill='%231A1916'/%3E%3Crect x='39' y='24' width='1' height='1' fill='%231A1916'/%3E%3Crect x='53' y='38' width='1' height='1' fill='%231A1916'/%3E%3Crect x='12' y='47' width='1' height='1' fill='%231A1916'/%3E%3Crect x='27' y='54' width='1' height='1' fill='%231A1916'/%3E%3Crect x='44' y='49' width='1' height='1' fill='%231A1916'/%3E%3Crect x='61' y='57' width='1' height='1' fill='%231A1916'/%3E%3Crect x='2' y='61' width='1' height='1' fill='%231A1916'/%3E%3Crect x='35' y='63' width='1' height='1' fill='%231A1916'/%3E%3Crect x='16' y='18' width='1' height='1' fill='%231A1916'/%3E%3Crect x='50' y='12' width='1' height='1' fill='%231A1916'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-attachment: scroll;
-  opacity: 0.28;
+  opacity: 0.16;
   mix-blend-mode: multiply;
 }
 
@@ -195,6 +196,7 @@ a:focus-visible {
   height: 92px;
   margin: 12px 10px 12px 0;
   color: var(--cream);
+  transform-origin: 50% 50%;
 }
 
 .vs-commem text {
@@ -250,6 +252,7 @@ a:focus-visible {
   letter-spacing: 0;
   line-height: 1;
   color: var(--navy);
+  transform-origin: 50% 50%;
 }
 
 .item__body {
@@ -292,9 +295,9 @@ a:focus-visible {
 .item__sum {
   margin: 0.35rem 0 0;
   font-family: var(--sans);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.65;
+  line-height: 1.75;
   color: var(--ink);
 }
 
@@ -388,9 +391,17 @@ a:focus-visible {
 
 #skin-v2.is-in .vs-seals { animation-delay: 40ms; }
 
-#skin-v2.is-in .day-date,
+#skin-v2.is-in .day-date {
+  animation: vs-item var(--enter) 80ms both;
+}
+
+/* Stamp on: ink weight lands, then rest CSS wins (backwards) so hover can press. */
 #skin-v2.is-in .vs-commem {
-  animation: vs-land var(--enter) 80ms both;
+  animation: vs-stamp 480ms cubic-bezier(0.18, 0.7, 0.22, 1.15) 80ms backwards;
+}
+
+#skin-v2.is-in .item .item__n {
+  animation: vs-stamp 420ms cubic-bezier(0.18, 0.7, 0.22, 1.15) calc(160ms + var(--i, 0) * 28ms) backwards;
 }
 
 #skin-v2.is-in .item {
@@ -400,6 +411,7 @@ a:focus-visible {
 
 .vs-rules.is-landed,
 .vs-seals.is-landed,
+.vs-commem.is-landed,
 .item.is-landed { animation: none; }
 
 @keyframes vs-print {
@@ -407,9 +419,19 @@ a:focus-visible {
   to { opacity: 1; }
 }
 
-@keyframes vs-land {
-  from { opacity: 0; }
-  to { opacity: 1; }
+@keyframes vs-stamp {
+  from {
+    opacity: 0;
+    transform: scale(1.48);
+  }
+  58% {
+    opacity: 1;
+    transform: scale(0.86);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes vs-item {
@@ -424,6 +446,15 @@ a:focus-visible {
     background-size: 100% 1px;
     transition: background-size var(--hover);
   }
+  .vs-commem,
+  .item__n {
+    transition: transform 0.16s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .vs-commem:hover,
+  .item:hover .item__n,
+  .item:focus-within .item__n {
+    transform: scale(0.92);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -432,6 +463,7 @@ a:focus-visible {
   .day-date,
   .vs-commem,
   .item,
+  .item__n,
   .item__title {
     animation: none;
     transition: none;
