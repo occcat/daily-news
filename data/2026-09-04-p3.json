@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Google's WeatherNext 3 AI model boosts forecast resolution with live satellite data",
+      "title_zh": "谷歌WeatherNext 3：直播卫星喂入，全球预报从6小时一更到每小时",
+      "publisher": "blog.google",
+      "article_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+      "significance_score": 5.5,
+      "summary_zh": "谷歌DeepMind与Research 9月3日发布WeatherNext 3：直接吞入全球静止卫星马赛克与站点观测，而非只学数值预报再分析；每小时初始化，地表温度湿度分辨率达5公里，其他地表约10公里、风等大气变量约25公里，相对WeatherNext 2的25公里/6小时约锐利五倍。降水CRPS相对IMERG最高改进约60%；一日以上降水预报宣称可准约50%，欠发达地区获益更大。新增约100米风机高度风速与高分辨率云量/辐射。已接入Search、Gemini、Maps、Maps Platform Weather API与Earth Engine，并开放BigQuery/Cloud Storage。Brightband独立实测称其为迄今最准全球天气AI。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Google DeepMind / Google Research",
+          "en": "By using raw satellite data to produce a forecast every hour in high resolution, our model makes reliable forecasts accessible across Google products worldwide.",
+          "zh": "通过用原始卫星数据每小时生成高分辨率预报，我们的模型让可靠预报进入全球谷歌产品。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "K2 Horizon: A connected fleet of six open models",
+      "title_zh": "K2 Horizon：六款开源模型连成舰队，32B档被指落后Qwen",
+      "publisher": "ifm.ai",
+      "article_url": "https://ifm.ai/blog/k2/",
+      "significance_score": null,
+      "summary_zh": "ifm.ai发布K2 Horizon——六款全开源相连模型舰队，252赞。有人强调真正开源须含训练数据与配方，否则永远猜闭源肚里有什么；有人核对自报成绩：稠密32B明显落后Qwen3.8 27B，且对比缺Gemma4 31B这一自托管甜区。有人快测3.7B写代码不可信，纠错时幻觉不存在的API并陷入空转。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jjordan",
+          "en": "Fully open models really need to be a big part of the AI future. That includes all source code, open training data, how it's organized, fed to the model, processed, etc.",
+          "zh": "完全开放的模型必须成为 AI 未来的重要部分。包括全部源码、开放训练数据，以及如何组织、喂给模型、如何处理等等。"
+        },
+        {
+          "type": "comment",
+          "author": "a11r",
+          "en": "It is great to see another player introduce a fully open stack. ... the dense 32B model is significantly behind Qwen3.8 27B ... Gemma4 31B is not in the comparison set.",
+          "zh": "又有人推出全开放栈令人高兴……但稠密32B明显落后Qwen3.8 27B……对比集里也没有Gemma4 31B。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49551760",
+      "hn_points": 252,
+      "hn_comments": 82,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "Lenacapavir HIV prevention injection reaches 3,641 in Western Cape rollout",
+      "title_zh": "西开普lenacapavir半年针启动3641人，全国近4.8万剂仍紧缺",
+      "publisher": "allafrica.com",
+      "article_url": "https://allafrica.com/stories/202609020146.html",
+      "significance_score": 5.3,
+      "summary_zh": "南非卫生部发言人Foster Mohale称，截至8月23日西开普22家公立诊所已启动3641人次lenacapavir（LEN）暴露前预防注射，全国47934人次；供应极度受限，目前仅六省360家机构可打（西开普约占6%）。半年一针、每次两针各1.5ml臀部注射，优先青少女、育龄与孕哺妇女及高风险人群；西开普自6月起258名孕妇已启动。早期数据约九成选择者为首次使用长效预防。受访者称结节约一月消退、痛感可耐受。首批仿制药或2027上半年获批，卫生部拟尽快招标放量。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Foster Mohale, SA National Department of Health (via Spotlight)",
+          "en": "As of 23 August, there have been 3,641 initiations of lenacapavir across the 22 government clinics in the province that are offering the injection. Nationally, the number stood at 47,934.",
+          "zh": "截至8月23日，该省提供注射的22家政府诊所已有3641人次启动lenacapavir。全国数字为47934。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "GPS glitched across the US by as much as 33 feet",
+      "title_zh": "全美GPS一度偏了最多约33英尺，电子脚镣风险被点名",
+      "publisher": "sciencealert.com",
+      "article_url": "https://www.sciencealert.com/gps-glitched-across-the-us-by-as-much-as-33-feet-scientists-have-never-seen-this-before",
+      "significance_score": null,
+      "summary_zh": "ScienceAlert报道美国多地GPS出现科学家称前所未见的偏移，最大约33英尺，110赞。评论立刻联想到电子监控误报离家导致再入狱；有人想象满城Cybercab集体偏33英尺的恐怖；也有人质疑文中“2024年5月太阳风暴让美国农业损失5亿美元”的估算链条过粗。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "chaps",
+          "en": "This is exactly the sort of thing that leads to people getting reincarcerated after their electronic monitoring devices mistakenly report them leaving their homes.",
+          "zh": "这类事正是电子监控设备误报离家、导致人们再次入狱的原因。"
+        },
+        {
+          "type": "comment",
+          "author": "nwbear90",
+          "en": "An interesting warning as Austin is blanketed by Cybercabs. I think a town full of golden driverless cars 33 feet from where they think they should be is terrifying.",
+          "zh": "奥斯汀正铺满Cybercab，这是个有意思的警告。满城金色无人车集体偏离自己以为的位置33英尺，想想就可怕。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49544618",
+      "hn_points": 110,
+      "hn_comments": 52,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "Gabapentin prevents Tahyna virus-induced brain hyperexcitability",
+      "title_zh": "Nature子刊：加巴喷丁可挡Ťahyňa病毒导致的神经元过度兴奋",
+      "publisher": "nature.com",
+      "article_url": "https://www.nature.com/articles/s41467-026-77284-8",
+      "significance_score": 5.3,
+      "summary_zh": "9月1日《Nature Communications》：被忽视的正布尼亚病毒Ťahyňa（TAHV）在人脑类器官中破坏蛋白稳态、降低突触蛋白与密度；在人死后脑切片器官型培养中扰动局部场电位，小鼠则上调代谢型谷氨酸受体1（mGluR1），却无明显脑炎。用蛋白质组网络医学筛药，加巴喷丁能把小鼠神经递质受体水平拉回基线，并在人脑切片中阻止TAHV诱导的过度兴奋。作者称这提示某些虫媒病毒的神经病理潜力被低估，神经调质干预或可保全脑功能，而不必只盯抗病毒。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Gorda et al., Nature Communications",
+          "en": "Together, our data highlights the underappreciated neuropathological potential of a neglected orthobunyavirus, that interferes with neural integrity and neurotransmission, while neuromodulatory interventions may help to preserve cerebral functions.",
+          "zh": "这些数据凸显一种被忽视的正布尼亚病毒被低估的神经病理潜力：它干扰神经完整性与递质传递，而神经调质干预或有助于保全脑功能。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+      "title_zh": "围棋申真谞让两子击败KataGo：飞刀定式走出“人类缝隙”",
+      "publisher": "kedglobal.com",
+      "article_url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+      "significance_score": null,
+      "summary_zh": "韩国报道世界第一人申真谞在让两子条件下击败AI KataGo，189赞。评论解释：让两子意味申是较弱方；他与人类对手分差极大（约120分Elo级），却仍无法在分先下战胜顶级引擎。有人拆其飞刀定式长变，约占棋盘四分之一后回到“双方均分”局面，专打模型训练分布缝隙——类比李世石胜AlphaGo的精妙，但方向相反。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "rao-v",
+          "en": "It’s worth understanding that Shin Jinseo has been significantly stronger than his nearest human opponents for a while now... 2 stones is historically the gap between top professionals and strong amateurs.",
+          "zh": "值得理解：申真谞相对最近的人类对手已强出一大截……两子在历史上是顶尖职业与强业余之间的差距。"
+        },
+        {
+          "type": "comment",
+          "author": "PenanceAU",
+          "en": "The headline is a bit misleading... Shin took a 2-stone handicap from KataGo which means that Shin is the weaker of the two. ... If they were to play even then there’s no chance any human could win.",
+          "zh": "标题有点误导……申真谞接受KataGo让两子，意味着他是较弱方……若分先下，任何人类都没有机会赢。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49544762",
+      "hn_points": 189,
+      "hn_comments": 54,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "NVIDIA's AI revolution: From graphics to DLSS 5 neural rendering",
+      "title_zh": "英伟达DLSS 5：3D引导神经渲染登陆NBA 2K27，效率宣称提升5倍",
+      "publisher": "nvidia.com",
+      "article_url": "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/",
+      "significance_score": 5.6,
+      "summary_zh": "英伟达9月3日太平洋时间晚9点起在《NBA 2K27》正式开放DLSS 5的3D引导神经渲染，面向全部GeForce RTX 50系与GeForce NOW Ultimate。相对此前超分/帧生成/光线重建，DLSS 5用引擎渲染帧作条件，由一步像素空间扩散模型补皮下散射、接触影与发丝透光等外观先验；自三月双5090演示到单卡可跑，宣称效率提升约5倍。开发者可调强度与遮罩以保艺术意图。首发需同日Game Ready驱动；更多游戏接入窗口未全公布。评论区争议点在“AI滤镜是否毁掉画风”与370 FPS等组合跑分的口径。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "NVIDIA GeForce News",
+          "en": "Now, we're releasing DLSS 5, which introduces 3D-Guided Neural Rendering, a major step forward in using AI to bring real-time graphics closer than ever to Hollywood-grade photorealism.",
+          "zh": "我们现在发布DLSS 5，引入3D引导神经渲染，这是用AI把实时图形推向好莱坞级真实感的重要一步。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "Gloria Steinem has died",
+      "title_zh": "女权先驱Gloria Steinem去世，享年92岁",
+      "publisher": "theguardian.com",
+      "article_url": "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-groundbreaking-feminist-campaigner-dies-aged-92",
+      "significance_score": null,
+      "summary_zh": "《卫报》等报道美国女权运动标志人物Gloria Steinem去世，享年92岁，139赞。HN线程迅速卷入其与中情局早期关系、以及“把男孩更像女孩养”等语录的争议；有人赞线程对情报史意外熟悉，有人称她“复杂”——既支持工会与同工同酬，也有冷战背景下的学生运动报告经历。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "mhashemi",
+          "en": "HN comment thread surprisingly well-educated on Steinem's intelligence history, bravo!",
+          "zh": "HN这串评论对Steinem的情报史意外地有素养，佩服！"
+        },
+        {
+          "type": "comment",
+          "author": "jmyeet",
+          "en": "Reading other comments, it seems like people don't know that Gloria Steinem was a complicated figure, specifically her involvement with the CIA for at least 4 years is documented.",
+          "zh": "看其他评论，似乎很多人不知道Gloria Steinem是个复杂人物，尤其是她与中情局至少四年的牵连有据可查。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49548256",
+      "hn_points": 139,
+      "hn_comments": 60,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "Ukraine sees new dynamic in peace efforts as Putin says chance of deal remains",
+      "title_zh": "普京称仍有协议机会；乌外长说多国首都将迎来和谈“新动态”",
+      "publisher": "nbcnews.com",
+      "article_url": "https://www.nbcnews.com/world/ukraine/ukraine-new-dynamic-peace-efforts-vladimir-putin-chance-deal-rcna595914",
+      "significance_score": 5.4,
+      "summary_zh": "俄总统普京在符拉迪沃斯托克称结束乌克兰战争仍有达成协议的可能；乌外长西比哈则对记者说，随着多国首都重返积极政治外交，和谈将出现“新动态”。双方自二月美方斡旋后鲜有乐观表态；美方注意力被对伊战争牵制期间，俄乌远程空袭与港口、商船互袭升级，推高粮价。普京称乌袭击民用商船与“威胁民航”属“国家恐怖主义”，使双边前景更复杂，但接触“主要通过情报渠道持续”。印度总理莫迪周一敦促尽快止战。四年半欧洲最致命冲突仍未给出可核验的停火时间表。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Andrii Sybiha, Ukraine Foreign Minister",
+          "en": "I believe that we will now have a new dynamic in the peace efforts, with the return of this active phase of political and diplomatic engagement in many capitals around the world.",
+          "zh": "我相信和谈努力现在会出现新动态，因为世界许多首都重新进入积极的政治与外交接触阶段。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "120 days until Google restricts side-loading, declaring war on Android freedom",
+      "title_zh": "倒计时120天：谷歌收紧安卓侧载被写成对自由宣战",
+      "publisher": "tuta.com",
+      "article_url": "https://tuta.com/blog/android-side-load-apps-google",
+      "significance_score": null,
+      "summary_zh": "Tuta博客称距离谷歌进一步限制安卓侧载约120天，95赞。评论反感“侧载”新话——从前就叫安装软件；有人问没有苹果/谷歌生态银行App怎么办；也有人说“下载”才是正常说法。话题接续欧洲数字市场法与开发者分发权争议。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "theandrewbailey",
+          "en": "It's sad that Tuta has fallen for Big Tech newspeak. Once upon a time, we installed stuff on our devices. Calling it side-something makes it seem frowned upon, which plays right into Google's hand.",
+          "zh": "可惜Tuta也中了大科技新话。从前我们就是在设备上安装软件。叫成“侧-什么”像是在干坏事，正中谷歌下怀。"
+        },
+        {
+          "type": "comment",
+          "author": "throwa356262",
+          "en": "I am not a fan of Apple or Google, but there is no other option that works with my everyday essential apps (e.g banking)?",
+          "zh": "我并不粉苹果或谷歌，但有别的选项能跑我日常刚需应用（比如银行）吗？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49554372",
+      "hn_points": 95,
+      "hn_comments": 26,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "UNEP: World set to cross 1.5°C global warming, maps path back below danger zone",
+      "title_zh": "环境署承认将越过1.5°C：乐观情景峰值1.8°C，再走超调—峰值—回落",
+      "publisher": "unep.org",
+      "article_url": "https://www.unep.org/news-and-stories/press-release/unep-world-set-cross-15degc-global-warming-can-still-limit-adapt-and",
+      "significance_score": 6.3,
+      "summary_zh": "联合国环境规划署9月2日《限制超调》（Limiting Overshoot）报告首次正式承认：在现行排放轨迹下，全球温升将在未来数年越过《巴黎协定》1.5°C门槛。报告把“超调—峰值—回落”写成剩余最优路径：最乐观情景峰值约1.8°C，多数情景更高；要从上方回到1.5°C以下，须立刻深减排，碳清除只能辅助、不能替代减排，且峰值须明显低于2°C。自2026年起剩余碳预算约130 GtCO₂（50%概率留在1.5°C内），按2024年化石与工业约40 GtCO₂的速率约三年耗尽。报告强调每少0.1°C、每缩短一年超调，都在救命、护生态、减经济损失。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "UNEP Limiting Overshoot report",
+          "en": "Global temperature rise is set to cross 1.5°C, likely within the next few years, pushing climate risks and impacts to increasingly dangerous heights, but it is still possible to bring temperatures down and achieve global goals in the Paris Agreement.",
+          "zh": "全球温升将在未来数年越过1.5°C，把气候风险推到更危险的高度，但仍有可能把温度压下来、实现《巴黎协定》目标。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 1
+    },
+    {
+      "title": "GPT-6 Astra",
+      "title_zh": "GPT-6 Astra：自然数代际更新，ARC-AGI-3高分引Harness争议",
+      "publisher": "openai.com",
+      "article_url": "https://openai.com/index/gpt-6-astra/",
+      "significance_score": null,
+      "summary_zh": "OpenAI发布GPT-6 Astra，定位与GPT-4/5同级的自然数代际模型，官方页强调智能体与长程推理；HN上1270赞近千评。评论区焦点在ARC-AGI-3计分：有人指卡片写Sol用Responses API harness约30%，却仍展示Sol 7.8%，而Astra用同一harness冲到极高分，口径不一致；也有人退后一步说，除ARC外多数基准只是“点更新”量级，是否配得上AGI叙事仍取决于定义。版主dang建议把“开量”与“模型能力”拆到不同帖。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "intenex",
+          "en": "The ARC-AGI-3 scorecard is extremely misleading given that it clearly states itself that \"with [the responses API] harness, we estimate Sol would score in the ballpark of ~30%.\" but it shows a score of 7.8% for GPT-5.6 Sol presumably since if they updated the percentage for GPT-5.6 Sol to the score it would receive with the responses API harness they used for GPT-6 Astra they'd have to do the same for the percentage they show for Opus 5 which would similarly be much higher.",
+          "zh": "ARC-AGI-3记分牌极具误导性：它自己写明用 Responses API harness 时估计 Sol 大约能到约30%，却仍给 GPT-5.6 Sol 展示 7.8%——大概是因为若按给 GPT-6 Astra 用的同一 harness 更新 Sol，也得同样抬高 Opus 5 的百分比。"
+        },
+        {
+          "type": "comment",
+          "author": "abixb",
+          "en": "I want to take a step back: So, this is GPT-6 -- the natural number version release comparable to GPT-4 and GPT-5 from the past few years. The ARC-AGI-3 score is obviously impressive at 99.9% ... but every other benchmarks seems to be a relatively modest improvement, comparable with any of the 'point' updates from AI labs.",
+          "zh": "我想退后一步：这就是 GPT-6——和过去几年 GPT-4、GPT-5 同级的自然数代际发布。ARC-AGI-3 的 99.9% 显然惊人……但其他基准看起来只是相对温和的提升，更像各实验室常见的‘点更新’。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49554643",
+      "hn_points": 1270,
+      "hn_comments": 997,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 2
+    },
+    {
+      "title": "UN report confirms Syria built nuclear reactor in Deir el-Zour under Assad",
+      "title_zh": "原子能机构确认：阿萨德时期代尔祖尔核反应堆与约73吨天然铀",
+      "publisher": "apnews.com",
+      "article_url": "https://apnews.com/article/iaea-report-syria-nuclear-bashar-assad-b941d7d11da6fb8912ae2bed0b34cec2",
+      "significance_score": 6.1,
+      "summary_zh": "国际原子能机构9月向成员国散发机密报告：8月实地核查确认，被推翻的阿萨德政权曾在东部代尔祖尔修建核反应堆，冷却基础设施“与核反应堆相符”；另有燃料制造厂与燃料储存点。新政府7月17日书面通报此前未申报场址并邀请核查。机构还核实约73吨天然铀金属——约55吨在8808根燃料棒中、约18吨为废料，已置于封存与监控。报告称前叙利亚当局未按《不扩散核武器条约》保障协定申报核材料、设施与活动；该场址与2007年以色列打击的阿尔基巴尔项目相关。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "IAEA confidential report (via AP)",
+          "en": "Based on observations made by the agency at the Deir Ezzor site, the agency confirms that the cooling infrastructure which has now been uncovered is consistent with that of a nuclear reactor.",
+          "zh": "根据机构在代尔祖尔现场的观察，现已揭开的冷却基础设施与核反应堆相符。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 3
+    },
+    {
+      "title": ".name Termination",
+      "title_zh": ".name 终止三级域名：ICANN稳妥使命撞上大规模抢注风险",
+      "publisher": "neil.fraser.name",
+      "article_url": "https://neil.fraser.name/news/2026/09/03/",
+      "significance_score": null,
+      "summary_zh": "Neil Fraser撰文披露.name注册局拟终止x.y.name这类三级注册并释放对应y.name，HN 1314赞。评论者呼吁至少停发新号、继续保留已有三级与被占用的二级以免劫持；有人援引ICANN“稳定安全唯一标识”使命，称任意停服与方便劫持直接相悖。也有人澄清：二级dvt.name一类不受影响，被砍的是三级，但二级随后放出会引来蹲域名。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "nneonneo",
+          "en": "It seems like the right thing they should do is discontinue new registrations but continue to honour existing ones (+ continuing to reserve any 2LD that has a 3LD registered on top). It’s a bit insane that they can decide to just terminate all existing 3LD registrations.",
+          "zh": "他们该做的似乎是停发新注册，但继续兑现已有的（并继续预留上面挂着三级域名的二级）。他们能直接决定终止全部现有三级注册，有点疯狂。"
+        },
+        {
+          "type": "comment",
+          "author": "jl6",
+          "en": "I can only assume somebody was asleep on the job when this scheme was approved, because the outcome is in direct contradiction to ICANN’s mission statement: Its enduring mission is to ensure the stable, secure operation of the Internet's unique identifier systems.",
+          "zh": "我只能假设批准这套方案时有人睡着了，因为结果与 ICANN 使命声明直接矛盾：其持久使命是确保互联网唯一标识系统的稳定、安全运行。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49550772",
+      "hn_points": 1314,
+      "hn_comments": 369,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 4
+    },
+    {
+      "title": "NHS urine test detects over 90% of bladder cancers",
+      "title_zh": "NHS尿检GALEAS：近千人实战揪出92%膀胱癌，肌层浸润全中",
+      "publisher": "bbc.com",
+      "article_url": "https://www.bbc.com/news/articles/crr40g71vylo",
+      "significance_score": 6.0,
+      "summary_zh": "伯明翰大学与Nonacus在《European Urology Oncology》发表：英格兰与苏格兰七家NHS泌尿科964名急查血尿患者中，尿液基因组检测GALEAS Bladder检出71/77例膀胱癌（敏感度92.2%），17例肌层浸润癌全部检出，36例高级别中检出35例；阴性预测值99.3%。非肉眼血尿亚组敏感度与阴性预测值均为100%。建模称每千名患者可少做约730次紧急膀胱镜且不损净临床获益。该检测读23个相关基因，已在英格兰与威尔士部分路径使用。研究指出仅8%入组者最终确诊，急查路径负担沉重。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Prof. Richard Bryan, University of Birmingham",
+          "en": "GALEAS detected 35 of 36 high-grade cancers and every muscle-invasive cancer diagnosed in the study. These results show that molecular urine testing can be used now to help clinicians decide which patients need an urgent cystoscopy and which can safely have that procedure deferred.",
+          "zh": "GALEAS检出36例高级别中的35例，以及研究中诊断的每一例肌层浸润癌。结果表明分子尿检现在就能帮助医生决定谁需要紧急膀胱镜、谁可以安全推迟。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 5
+    },
+    {
+      "title": "Audacity 4.0",
+      "title_zh": "Audacity 4.0：Qt6新界面上线，Linux家用棚用户仍嫌JACK对接",
+      "publisher": "github.com",
+      "article_url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+      "significance_score": null,
+      "summary_zh": "开源音频编辑器Audacity发布4.0.0，换Qt6界面，GitHub发版说明与演示视频在HN拿到1046赞。有人推荐Muse软件负责人谈4.0开发的视频；也有长期Linux用户抱怨：changelog仍未解决家用棚痛点——虽称支持JACK/PipeWire，却只在开始播放或录音时临时建客户端，无法持久挂在总线上，工作流依然别扭。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "Lautzi",
+          "en": "I highly recommend this video by the Head of Software at Muse who had a big part in the development of Audacity 4.0. Some great insights and really fun to watch!",
+          "zh": "强烈推荐 Muse 软件负责人那支视频，他深度参与了 Audacity 4.0 开发。洞见很多，也好看。"
+        },
+        {
+          "type": "comment",
+          "author": "boomlinde",
+          "en": "I've given up on Audacity because it hasn't kept up technically with how a typical home studio Linux system does audio, and looking at the change log it seems like they haven't addressed any of the problems I have with it in version 4. ... It doesn't create a persistent JACK client.",
+          "zh": "我已经放弃 Audacity，因为它跟不上典型 Linux 家用棚的音频方式；看 changelog，第4版似乎也没解决我的问题……它不会创建持久的 JACK 客户端。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49548395",
+      "hn_points": 1046,
+      "hn_comments": 233,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 6
+    },
+    {
+      "title": "AI from Bern studies sharpens heart disease predictions",
+      "title_zh": "伯尔尼 Inselspital：两套心脏AI把长期预后精度抬高10–20%",
+      "publisher": "srf.ch",
+      "article_url": "https://www.insel.ch/de/aktuell/aktuelles/details/news/ki-praezisiert-risikoprognosen-bei-herzerkrankungen",
+      "significance_score": 6.0,
+      "summary_zh": "伯尔尼大学医院Inselspital与伯尔尼大学主导两项国际研究：经导管主动脉瓣植入后长期死亡风险模型，用伯尔尼近3000人数据训练、日本逾1000人外部验证，较既有风险评分精度高约10–15%；转甲状腺素蛋白淀粉样心肌病模型基于瑞士多中心与维也纳约850人，预测死亡或心衰住院可高约20%。两者均用日常临床、化验与影像，已上线免费科研工具，下一步进前瞻临床验证。心内科Christoph Gräni强调：模型帮识别个体差异、调整随访，AI辅助决策而非替代医生。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Christoph Gräni, Inselspital",
+          "en": "Our models help to recognize individual differences more reliably and to adapt treatment to the individual patient. AI supports medical decision-making, but does not replace it.",
+          "zh": "我们的模型帮助更可靠地识别个体差异，并把治疗调适到每一位患者。AI支持医疗决策，但不替代医生。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 7
+    },
+    {
+      "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+      "title_zh": "Qwen 3.8 27B登上Cerebras：标称1500 tok/s，额度成瓶颈",
+      "publisher": "inference-docs.cerebras.ai",
+      "article_url": "https://inference-docs.cerebras.ai/models/overview",
+      "significance_score": null,
+      "summary_zh": "Cerebras推理文档上架Qwen 3.8 27B，宣称约1500 tokens/秒，HN 441赞。实操吐槽集中在速率限额：公共端点15万TPM对长编程不够用；有人约90秒打到45万TPM上限、烧约1.1美元，而同任务DeepSeek-V4-Flash更慢却只要约2.4美分。也有人盼OpenRouter接入Cerebras容量——该处最快供应商目前约80 TPS。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "nostrebored",
+          "en": "150k TPM limit on public endpoint means that it's likely unusable for many coding tasks. When we've tried Cerebras in the past, our problem has always been rates.",
+          "zh": "公共端点 15 万 TPM 限额意味着很多编程任务可能根本用不了。我们以前试 Cerebras，问题一直是速率。"
+        },
+        {
+          "type": "comment",
+          "author": "gpugreg",
+          "en": "I was wondering whether this was any good for programming, but it is too fast for its own good. There is a limit of 450,000 tokens per minute. I hit this limit in about 90 seconds and burned through $1.10 while doing so.",
+          "zh": "我本想看它写代码行不行，结果快到成了负担。每分钟 45 万 token 限额，大约 90 秒就撞上，烧掉 1.1 美元。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49554520",
+      "hn_points": 441,
+      "hn_comments": 128,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 8
+    },
+    {
+      "title": "UN warns intensifying El Niño may become strongest on record",
+      "title_zh": "气象组织：厄尔尼诺已坐实，近100%将持续到2027年2月",
+      "publisher": "wmo.int",
+      "article_url": "https://wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027",
+      "significance_score": 5.8,
+      "summary_zh": "世界气象组织9月3日更新：当前厄尔尼诺已牢固建立，将在未来数月强化为“很强”级别，年底前后达峰，气候影响延续至2027年。全球生产中心共识显示，持续到2027年2月的可能性“近100%”——WMO称这是此类通报史上首次如此斩钉截铁。Niño 3.4指数5–7月均+1.5°C、7月+2.0°C，7月底至8月中旬周值约+2.2至+2.6°C；部分海域次表层偏暖逾8°C。9–11月几乎所有陆地偏暖概率升高。秘书长古特雷斯称“厄尔尼诺正在眼前被放大”；WMO秘书长绍洛说50年来首次为此启动如此大规模动员。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "António Guterres, UN Secretary-General",
+          "en": "El Niño is being supersized before our eyes. The science leaves no room for doubt: the planet is in uncharted waters, and those waters are heating up.",
+          "zh": "厄尔尼诺正在我们眼前被放大。科学不容置疑：地球已进入未知水域，而这些水域正在升温。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 9
+    },
+    {
+      "title": "Any Human Ever – One life, drawn at random from all who have ever lived",
+      "title_zh": "Any Human Ever：从有史以来所有人中随机抽一条人生",
+      "publisher": "anyhumanever.com",
+      "article_url": "https://anyhumanever.com/",
+      "significance_score": null,
+      "summary_zh": "anyhumanever.com让人从“有史以来所有曾活过的人”中随机抽一条生平，460赞。评论挑统计硬伤：有人抽到公元715年长江流域女性，页面同时写96%女性已婚、平均婚龄18、44%女性15岁前死亡——三者难同时成立，且部分引用链到无关WorldCat。另有人怀疑出生年份抽样未按“越近现代概率越高”的正确分布。也有人想到可当《Thousand Year Old Vampire》等叙事跑团种子。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "no_multitudes",
+          "en": "I drew a woman born in 715 CE in the Yangtze Basin. It claims that 96% of women were married, the average age of marriage was 18, and 44% of women died before age 15. Clearly these facts can't all be true simultaneously.",
+          "zh": "我抽到一位公元715年出生于长江流域的女性。页面称96%女性已婚、平均婚龄18、44%女性15岁前死亡。这些事实显然不可能同时成立。"
+        },
+        {
+          "type": "comment",
+          "author": "magneticnorth",
+          "en": "This is neat, but I don't think it's actually drawing the year from the correct probability distribution - \"a random birth is far more likely to fall near the present\" is correct, but in 5 \"random\" choices, only one was from anywhere near modern day.",
+          "zh": "很有意思，但我认为年份并没有按正确概率分布抽取——“随机出生更可能靠近现在”是对的，可我随机五次只有一次靠近现代。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49550698",
+      "hn_points": 460,
+      "hn_comments": 229,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 10
+    }
+  ]
+}

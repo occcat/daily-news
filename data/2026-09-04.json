@@ -1,18 +1,13 @@
 {
   "date": "2026-09-04",
   "timezone": "Asia/Shanghai",
-  "title": "皮肤预览",
-  "summary_zh": "皮肤预览",
-  "theme": "paper-prism",
-  "stub": true,
-  "item_count": 1,
-  "items": [
-    {
-      "rank": 1,
-      "title_zh": "皮肤预览",
-      "title_en": "Skin preview",
-      "source": "News Minimalist",
-      "summary_zh": "皮肤预览"
-    }
+  "title": "2026-09-04 新闻精选",
+  "summary_zh": "9月4日的新闻同时被环境署承认将越过1.5°C、原子能机构坐实阿萨德时期代尔祖尔反应堆，以及GPT-6 Astra与.name三级域名终止的评论区拉开。\n诊室与实验室里，NHS的GALEAS尿检在近千人急查血尿里揪出92%膀胱癌、肌层浸润全中；伯尔尼两套心脏AI把TAVI与转甲状腺素蛋白淀粉样心肌病预后精度抬高约10–20%；《Science》写肿瘤释放PRDX1“闷熄”T细胞所需活性氧；Rutgers全外显子给OCD与抽动锁定36个高效应基因；加巴喷丁被写成可挡Ťahyňa病毒导致的神经元过度兴奋。西开普lenacapavir半年针启动3641人，全国近4.8万剂仍紧缺。谷歌WeatherNext 3把全球预报推到每小时、5公里；英伟达DLSS 5的3D引导神经渲染登陆NBA 2K27。气象组织称厄尔尼诺已坐实、近100%持续到2027年2月。法庭与供应链上，叙利亚十年首毁化武、核实销毁42枚空投炸弹；马累机场被写成俄制裁货物中转；蔡司说中国自研EUV“合理假设”还需约15年；乌外长与普京同时放出和谈“新动态”与“仍有协议机会”。\nHN这边：GPT-6 Astra冲上1270赞，ARC-AGI-3记分口径与“点更新还是代际”被拆开吵；.name终止三级域名1314赞，有人援引ICANN稳定使命；Audacity 4.0换Qt6界面，Linux棚用户仍嫌JACK；Qwen 3.8 27B在Cerebras标称1500 tok/s却撞TPM墙。Any Human Ever随机抽人生；Google Antigravity条款吓到整号被封；Ask HN追问三家大模型同时宕机。浏览器主线程很贵、Anil Dash写VC已成癌症资本、人造河狸坝把幼银鲑存活率从8%拉到60%。K2 Horizon开源舰队、GPS一度偏33英尺、申真谞让两子胜KataGo、Gloria Steinem去世，以及谷歌收紧安卓侧载倒计时，把评论区从模型、域名和帧预算一路拉到河狸、围棋和安装权。\n一条贯穿全天的线是：一次温升超调、一次尿检分流、一次三级域名停服，都在给“谁还拥有碳预算、膀胱镜名额和不可撤销的名字”定价。",
+  "item_count": 30,
+  "theme": "ordered-dither",
+  "parts": [
+    "2026-09-04-p1.json",
+    "2026-09-04-p2.json",
+    "2026-09-04-p3.json"
   ]
 }

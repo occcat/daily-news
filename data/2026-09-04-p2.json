@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "China trails ASML by 15 years in advanced chipmaking gear, says supplier",
+      "title_zh": "蔡司半导体主管：中国自研EUV“合理假设”还需约15年",
+      "publisher": "bloomberg.com",
+      "article_url": "https://www.businesstimes.com.sg/international/china-15-years-behind-top-chipmaking-tools-says-asml-supplier",
+      "significance_score": 5.8,
+      "summary_zh": "ASML关键光学供应商蔡司半导体业务负责人Frank Rohmund在彭博电视称，中国发展极紫外（EUV）光刻机需要约15年是“合理假设”，但进度难以量化。UBS分析师同周指中国EUV至少还差十年，专利与光源能力约相当于ASML量产EUV前约15年。美国禁止ASML对华出口最先进机台，部分浸没式DUV也需许可；中国正扩产国产浸没式DUV，外界报道上海相关产线今年目标约五台。Rohmund称出口管制“其实在加速中国创新”，“我们仍大幅领先”。光刻仍是中国半导体自给最硬瓶颈。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Frank Rohmund, Zeiss Semiconductor",
+          "en": "It's a reasonable assumption that Beijing will need 15 years to develop extreme ultraviolet, or EUV, lithography machines.",
+          "zh": "北京发展极紫外（EUV）光刻机需要15年，这是一个合理假设。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
+      "title_zh": "Google Antigravity条款：第三方滥用或连累整个谷歌账号",
+      "publisher": "twitter.com",
+      "article_url": "https://twitter.com/GergelyOrosz/status/2095453567955968398",
+      "significance_score": null,
+      "summary_zh": "Gergely Orosz转发Antigravity服务条款引发275赞：第三方用法可能导致谷歌账号被封。评论担心欧洲eIDAS等强制依赖苹果/谷歌身份时，玩账号被封会锁死政务入口；有人怒斥封整个账号而非仅AI权限极度敌意。随后Antigravity团队Varun Mohan澄清措辞混乱，实际指的是Antigravity账号并将改条款。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "nairboon",
+          "en": "Just for reference, stuff like this is exactly why some people oppose the forced Apple/Google requirement in government systems like the new eIDs (eIDAS) in Europe. If you're forced to use Apple/Google for digital identification, playing around with your Google account and get it banned can have disproportional consequences.",
+          "zh": "仅供参考：正因为这类事，有人反对欧洲新电子身份证（eIDAS）强制绑定苹果/谷歌。若数字身份必须用它们，玩账号被封会造成不成比例的后果。"
+        },
+        {
+          "type": "comment",
+          "author": "Havoc",
+          "en": "Banning the entire account rather than AI access is wildly user hostile. People have years of emails and calendars on their accounts.",
+          "zh": "封掉整个账号而不是只封 AI 权限，极度不友善。人们账号里堆着多年的邮件和日历。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49548452",
+      "hn_points": 275,
+      "hn_comments": 188,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "Tumors release antioxidant PRDX1 to disable T cells, study finds",
+      "title_zh": "Science：肿瘤释放抗氧化蛋白PRDX1“闷熄”T细胞所需活性氧",
+      "publisher": "eurekalert.org",
+      "article_url": "https://www.eurekalert.org/news-releases/1142349",
+      "significance_score": 5.7,
+      "summary_zh": "剑桥与俄勒冈健康与科学大学团队在《Science》报告：肿瘤间质液富含抗氧化酶过氧化物还原酶-1（PRDX1），清扫活性氧（ROS），使依赖微量ROS信号激活的CD8+ T细胞无法发动攻击——一种新的“氧化还原免疫检查点”。敲除PRDX1后多模型肿瘤缩小，黑素瘤模型可被免疫自发清除，并对免疫检查点阻断重新敏感。人类癌细胞系分泌组、肿瘤转录组与手术标本间质液均指向同一机制。作者提出中和肿瘤源抗氧化剂、阻断PRDX1，或给T细胞装上抗PRDX1“盔甲”（如过表达NOX2）等路径。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Robert Eil, OHSU (via coverage)",
+          "en": "Our study suggests a possible way to boost T cell immunotherapies. Rather than using antioxidants, it could be that prooxidants can kickstart the T cells into action against tumor cells.",
+          "zh": "我们的研究提示一条增强T细胞免疫疗法的可能路径。与其用抗氧化剂，或许促氧化剂更能把T细胞重新发动起来打肿瘤。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
+      "title_zh": "Ask HN：为何OpenAI、Claude与Grok几乎同时宕机？",
+      "publisher": "news.ycombinator.com",
+      "article_url": "https://news.ycombinator.com/item?id=49551096",
+      "significance_score": null,
+      "summary_zh": "Ask HN提问三大聊天模型同时不可用，327赞521评。有人贴Downdetector：Cloudflare、Azure、AWS、GCP约7:30同步报错抬升，怀疑负载基石服务级联；有人调侃用户把产品当可互换，一家挂了就DDoS下一家，“护城河”笑话。xAI侧面致歉称孟菲斯算力中心故障并连累算力伙伴。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "kibae",
+          "en": "Cloudflare, Azure, AWS, and Google Cloud all have a similar uptick in reported errors around 7:30. I suspect an outage on Cloudflare or another load-bearing service cascaded through all the major cloud providers.",
+          "zh": "Cloudflare、Azure、AWS 和 Google Cloud 在大约 7:30 都有类似的报错抬升。我怀疑 Cloudflare 或其他承重服务的故障级联到了各大云。"
+        },
+        {
+          "type": "comment",
+          "author": "juujian",
+          "en": "Users perceiving the products as largely interchangeable and quickly DDoS'ing the other providers when one is down. So much for the possibility of a moat.",
+          "zh": "用户觉得这些产品基本可互换，一家挂了就迅速把流量砸向其他家。所谓护城河，不过如此。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49551096",
+      "hn_points": 327,
+      "hn_comments": 521,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "Syria destroys Assad-era chemical weapons for first time in decade",
+      "title_zh": "叙利亚十年首毁化武：禁化武组织核实销毁42枚空投炸弹",
+      "publisher": "al-monitor.com",
+      "article_url": "https://www.al-monitor.com/originals/2026/09/syria-begins-destroying-assad-era-chemical-weapons",
+      "significance_score": 5.7,
+      "summary_zh": "叙利亚与联合国代表9月3日在安理会通报：新当局5月起清点阿萨德时代秘密化武残余，禁化武组织（OPCW）自2014年以来首次在叙境内核实销毁化学弹药——核查队上月确认“不可逆销毁42枚空投炸弹”（第三类：未装填弹药与投放设备）。另申报一处新增生产设施、一种神经毒剂相关化学品、空弹药，以及两处储存设施。叙常驻联大代表称这是政权更迭后首次、也是十余年来首次在叙领土销毁化学材料；18名涉案军政技术官员已羁押，首批庭审筹备中。英国等承诺追加双边销毁资金。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Ibrahim Olabi, Syria's UN envoy",
+          "en": "This is the very first destruction process since we have been liberated from the previous regime. It's also the first of its kind to destroy chemical materials on Syrian territory for over a decade.",
+          "zh": "这是我们摆脱前政权后的第一次销毁进程，也是十多年来首次在叙利亚领土上销毁化学材料。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "The browser's main thread is expensive",
+      "title_zh": "浏览器主线程很贵：别只盯交互，先砍巨型hydration",
+      "publisher": "kciter.so",
+      "article_url": "https://kciter.so/posts/the-expensive-main-thread/en/",
+      "significance_score": null,
+      "summary_zh": "kciter.so长文讲主线程成本与让出（yielding），372赞。赞者说90%慢站不是交互逻辑，而是>10MB的React/Next包与沉重hydration，甚至多层SPA嵌套；也有人补充：不必死磕显示器刷新率，144Hz屏上72甚至48 FPS对多数人已够平滑。文章被当成给初级前端的帧预算启蒙。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "martinald",
+          "en": "Good article and I wish this was much better known. The issue is though that it's too focused on interactivity. In reality, 90%++ of slow sites are not slow because of interactivity really, they are slow because they ship enormous react/nextjs bundles and have extremely heavy hydration work to do.",
+          "zh": "好文章，真希望更多人知道。不过它太盯交互了。现实里九成以上慢站并不是交互慢，而是塞了巨大的 React/Next 包，hydration 极重。"
+        },
+        {
+          "type": "comment",
+          "author": "nerdralph",
+          "en": "I agree with most of the article, but would clarify ... It isn't absolutely necessary to match the display refresh rate. With a 144Hz monitor, 72FPS is going to look smooth for the vast majority of the people, and even 48FPS will look smooth for most people.",
+          "zh": "大体同意，但澄清一点……不必绝对对齐刷新率。144Hz 显示器上，72FPS 对绝大多数人已经顺滑，甚至 48FPS 对多数人也够。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49522137",
+      "hn_points": 372,
+      "hn_comments": 131,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "Russia turns Maldives into hub for shipping sanctioned goods",
+      "title_zh": "马累机场成俄制裁规避中转：芯片光学件日飞谢列梅捷沃",
+      "publisher": "wsj.com",
+      "article_url": "https://www.kyivpost.com/post/83603",
+      "significance_score": 5.7,
+      "summary_zh": "《华尔街日报》依据货运单据与匿名西方官员调查：马尔代夫维拉纳国际机场被用作受限西方货物输俄通道，货值累计数亿美元。美欧中货物抵马累后，由Freight Care、Go Investment等本地中介办理过境，换发航空运单隐去原出口商，再装上每日约两小时后飞莫斯科谢列梅捷沃的俄航航班，货物多不正式入关。清单含微芯片、卫星光学件、高强度航空紧固件等，部分抵达受制裁实体如S7航及其维修子公司。Import Genius显示马—俄进口从2021年不足700万美元飙至2022年逾6.3亿美元，2024年约1.6亿。美欧正敦促马方堵口。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Wall Street Journal investigation (via Kyiv Post)",
+          "en": "Documents, cargo records and interviews with anonymous Western officials indicate that Russia-linked logistics networks have used the Indian Ocean archipelago to move hundreds of millions of dollars in restricted goods.",
+          "zh": "文件、货运记录以及对匿名西方官员的采访显示，与俄罗斯有关的物流网络利用这座印度洋群岛转运了价值数亿美元的受限货物。"
+        }
+      ],
+      "fetch_notes": "NM listed ru.themoscowtimes.com; canonical facts from WSJ investigation as reported by Kyiv Post / UNITED24.",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "VC isn't VC anymore",
+      "title_zh": "Anil Dash：VC已经不是VC，更像“癌症资本”",
+      "publisher": "anildash.com",
+      "article_url": "https://www.anildash.com/2026/09/02/cancer-capital/",
+      "significance_score": null,
+      "summary_zh": "Anil Dash《Cancer Capital》写风险资本滑向机构化PE逻辑，232赞。评论补背景：金融危机后监管让小公司更难上市、并购一度被压制，私有化存续制造了流动性溢价与成长型VC共依存；有人劝创始人想小一点——服务几千人、小团队可持续赚钱，VC会吃掉做大的一切再榨干。也有人说法务细节被夸大，真正分水岭是2012前后“创业投资顾问”豁免规则。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "andix",
+          "en": "I think tech founders need to think smaller. Build software for a few thousand people and make a profit from it. Something niche. Something that is sustainable with a small team. VC eats up everything that's becoming bigger. And they will kill it.",
+          "zh": "我觉得科技创始人该想得更小。为几千人做软件并赚钱。做利基、小团队可持续的事。VC会吃掉一切变大的东西，然后弄死它。"
+        },
+        {
+          "type": "comment",
+          "author": "chris_marino",
+          "en": "The article does not mention or address an important contributor to the current state of VC. The increase in regulations, post GFC, made it impractical/impossible for small companies to go public. And, until recently M&A was actively avoided.",
+          "zh": "文章没提一个重要因素：金融危机后监管增多，让小公司上市变得不切实际/不可能；直到最近并购还被主动回避。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49543220",
+      "hn_points": 232,
+      "hn_comments": 195,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "Genetic discovery identifies 36 genes behind OCD and tic disorders",
+      "title_zh": "Rutgers领衔全外显子：OCD与抽动障碍锁定36个高效应风险基因",
+      "publisher": "rutgers.edu",
+      "article_url": "https://www.rutgers.edu/news/researchers-discover-dozens-genes-tied-ocd-and-tic-disorders",
+      "significance_score": 5.7,
+      "summary_zh": "罗格斯大学领衔国际团队在《Nature Neuroscience》分析近4000名强迫症、慢性抽动障碍（含抽动秽语综合征）或共病者全外显子（2418个三联体），识别36个高置信风险基因（FDR<0.1），含此前4个及与GWAS位点重叠的BRWD1、CELSR3等。多数基因在OCD与抽动间共享，并与自闭症、精神分裂症风险重叠；表达富集于出生后小脑、产前产后皮层与纹状体——冲动控制、运动与习惯回路。资深作者Jay Tischfield称过去只有少数强基因、药企几乎无从下手，现在有30多个靶点与网络可攻。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Jay Tischfield, Rutgers",
+          "en": "In the past we knew about a couple of strong genes, so there were few opportunities for the pharmaceutical industry to develop drugs. Now you've got over 30 targets, and that opens up new possibilities for treatment development.",
+          "zh": "过去我们只知道少数几个强基因，药企几乎没有开发空间。现在你有30多个靶点，治疗开发的新可能性打开了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+      "title_zh": "人造河狸坝：幼银鲑存活率从8%拉到60%",
+      "publisher": "discoverwildlife.com",
+      "article_url": "https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california",
+      "significance_score": null,
+      "summary_zh": "加州人造河狸坝实验把幼银鲑存活率从约8%拉到约60%，143赞。有人推1930年代英属哥伦比亚《Three Against The Wilderness》修复被炸坝恢复湿地的故事；有人惊讶水温不升反降，解释是水体更多渗入地下与地温交换。也有人直问：为什么不直接重引入河狸？",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "_whiteCaps_",
+          "en": "There's a really good book about a homesteader that did something similar to this in the 1930's in British Columbia, \"Three Against The Wilderness\". Basically he restored the dams that had been dynamited by the ranchers, and that restored all of the wetlands in the area.",
+          "zh": "有本好书写1930年代不列颠哥伦比亚一位拓荒者做了类似的事：《Three Against The Wilderness》。他基本修复了被牧场主炸毁的坝，整片湿地都回来了。"
+        },
+        {
+          "type": "comment",
+          "author": "josefresco",
+          "en": "Maybe I missed it, why didn't they just reintroduce beavers?",
+          "zh": "也许我漏看了：为什么他们不直接把河狸重新引进来？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49552572",
+      "hn_points": 143,
+      "hn_comments": 46,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}
