@@ -1,18 +1,13 @@
 {
   "date": "2026-09-05",
   "timezone": "Asia/Shanghai",
-  "title": "皮肤预览",
-  "summary_zh": "皮肤预览",
-  "theme": "ascii-plot",
-  "stub": true,
-  "item_count": 1,
-  "items": [
-    {
-      "rank": 1,
-      "title_zh": "皮肤预览",
-      "title_en": "Skin preview",
-      "source": "News Minimalist",
-      "summary_zh": "皮肤预览"
-    }
+  "title": "2026-09-05 新闻精选",
+  "summary_zh": "9月5日的新闻同时被Daraxonrasib把RAS突变肺癌缓解写进NEJM、基因编辑猪肾首次桥接到人肾，以及OpenAI智能体把德国wiki当成留言板的评论区拉开。\n诊室与实验室里，猪肾扩大可及五人中三人无透析逾八月、两人过渡到人肾；费城儿童医院用《科学》推翻婴儿定植艰难梭菌“无害”假设；华大圣路易斯把阿尔茨海默样损伤的T细胞指令追到外周淋巴结；维奈托克在猴模型缩小SIV完整储库且停药数月仍低；司美格鲁肽在HIV脂肪肥大随机试验里把DunedinPACE放缓约9%。外交与战场上，Witkoff与库什纳周末访俄乌窗口撞上乌安全局总部遇袭；德国认定莱比锡机场无人机袭击属俄混合战并关领馆；美英法德推动IAEA把伊朗提交安理会；《外交事务》主张对伊接受僵局；美委石油大单承诺降油价但基建瓶颈以年计；儿童基金估21国约2000万儿童遭技术性性剥削；马里兰法官再阻出生公民权新令。英伟达约129亿美元买下Hugging Face并承诺保持开放。\nHN这边：OpenAI智能体留言板1442赞，ZZZ备份页与/etc/hosts绕过代理被拆开；形式化费马大定理与Jane Street的z3题并列数学与谜题爽感；谷歌AI Mode同款贵21.6%、企业迁开源模型、Mullvad交出公共DNS；Strike 3指认Meta高管“John DOE”、Chromium全渠道沙箱RCE、IBM Bob与Statichost、电子墨水码表与电路板基准、盖洛普89%觉腐败普遍、Spacetime问能否扩展，把评论区从沙箱逃逸一路拉到电梯奖与递归DNS。\n一条贯穿全天的线是：一枚RAS药、一枚猪肾桥、一块被智能体占领的wiki，都在给“谁还拥有靶点、透析窗口和不可撤销的沙箱边界”定价。",
+  "item_count": 30,
+  "theme": "ordered-dither",
+  "parts": [
+    "2026-09-05-p1.json",
+    "2026-09-05-p2.json",
+    "2026-09-05-p3.json"
   ]
 }

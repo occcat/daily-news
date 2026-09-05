@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Federal judge blocks Trump order restricting birthright citizenship",
+      "title_zh": "联邦法官再阻出生公民权行政令：援引最高法院Barbara案",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/us-judge-blocks-trumps-newest-order-limiting-birthright-citizenship-2026-09-02/",
+      "significance_score": 6.0,
+      "summary_zh": "马里兰联邦地区法官Deborah Boardman对特朗普8月行政令（EO 14418）发初步禁令，称对已认证集体“几乎肯定违宪”——因最高法院2026年6月Barbara案已认定在美出生、父母非法或临时居留的儿童出生即公民。禁令约束国务院、国土安全、社保等不得对该集体拒绝承认公民身份。此为针对“收窄版”新令的首份禁令；白宫抨击“能动主义法官”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "U.S. District Judge Deborah Boardman",
+          "en": "The 2026 Executive Order is almost certainly unconstitutional as applied to the certified class for the simple reason that the Supreme Court in Barbara already decided that the children in the class are citizens at birth.",
+          "zh": "2026年行政令适用于已认证集体几乎肯定违宪，原因很简单：最高法院在Barbara案中已判定该集体儿童出生即是公民。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "Statichost.eu – European static site hosting",
+      "title_zh": "Statichost.eu：欧洲静态托管，评论区拿来对照Netlify涨价与爬虫",
+      "publisher": "statichost.eu",
+      "article_url": "https://www.statichost.eu/",
+      "significance_score": null,
+      "summary_zh": "欧洲静态站点托管Statichost.eu登上HN 152赞。用户称适合母亲小站，但默认假设Git仓库；也有人因Netlify涨价与防爬差而寻替代。讨论落在欧盟托管、git push快乐路径与反爬成本。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "pkal",
+          "en": "I'm using this for my mother's website, and my only complaint is that it assumes you version a website in a Git repository. You can work around it by uploading a tarball, but the happy path is clearly git push → static site.",
+          "zh": "我用它托管母亲的网站，唯一抱怨是它默认网站用 Git 版本管理。可以上传 tarball 绕过，但快乐路径显然是 git push → 静态站。"
+        },
+        {
+          "type": "comment",
+          "author": "mtlynch",
+          "en": "I've been looking for a new static host recently since Netlify raised prices and is terrible at preventing bot traffic. Here was my assessment of Netlify from the perspective of a small customer who just wants HTML online without financing the crawler arms race.",
+          "zh": "Netlify 涨价又防不住爬虫，我最近在找新静态托管。从只想把 HTML 挂上网、不想给爬虫军备竞赛买单的小客户视角，这是我对 Netlify 的评估。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49569896",
+      "hn_points": 152,
+      "hn_comments": 53,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "CHOP Study: Infant C. difficile Alters Gut and Immune Health Long-Term",
+      "title_zh": "费城儿童医院：《科学》称婴儿定植艰难梭菌会重塑肠上皮与免疫",
+      "publisher": "genengnews.com",
+      "article_url": "https://www.genengnews.com/topics/infectious-diseases/c-difficile-have-lasting-effects-on-the-infant-gut-challenging-long-held-assumption/",
+      "significance_score": 5.9,
+      "summary_zh": "费城儿童医院在《科学》挑战“婴儿定植艰难梭菌无症状即无害”的长期假设：新生小鼠模型中，产毒株驱动上皮促炎与修复、富集损伤相关肠干细胞并偏向分泌谱系，效应延续至成年并升高部分病毒感染风险；人类婴儿活检与类器官见相似上皮反应。非产毒株定植或母体mRNA–脂质纳米粒疫苗可保护。作者Zackular称即使无显性病，毒素暴露仍在发育肠与免疫上留下印记。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Joseph Zackular / CHOP",
+          "en": "Our findings challenge a long-held assumption in pediatric medicine: that C. diff colonization in infants is benign. We show that even without overt disease, exposure to this toxin-producing pathogen leaves a lasting biological imprint on the developing gut and immune system.",
+          "zh": "我们的发现挑战儿科长期假设——婴儿定植艰难梭菌无害。我们表明即使无显性病，接触这种产毒病原体仍会在发育中的肠道与免疫系统留下持久生物学印记。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "Can AI design circuit boards yet?",
+      "title_zh": "AI会不会设计电路板：教科书VGA方案能画，时序仍要人盯示波器",
+      "publisher": "eebench.org",
+      "article_url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "significance_score": null,
+      "summary_zh": "EEBench问“AI能否设计电路板”，HN 142赞。有人用Claude Opus 4.8做出74系列+GAL的VGA单色图EEPROM方案，原理图像样但时序与去耦仍需示波器；另有人晒GPT-6 Astra 69.3分领跑、Gemini 3.8 Flash第五。基准与车间经验并置。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "CyLith",
+          "en": "A personal data point: I had Claude Opus 4.8 design a fairly textbook circuit that outputs a monochrome image burned in an EEPROM over standard 640x480 VGA using only 74 series logic and GALs. It designed a plausible schematic, but the timing closure and decoupling choices still needed a human with a scope.",
+          "zh": "个人数据点：我让 Claude Opus 4.8 设计一道教科书级电路，用 74 系列逻辑和 GAL，经标准 640x480 VGA 输出烧在 EEPROM 里的单色图。它画出了像样的原理图，但时序收敛与去耦选型仍需要拿示波器的人。"
+        },
+        {
+          "type": "comment",
+          "author": "iopapa",
+          "en": "Results for GPT-6 Astra and Gemini Flash 3.8 are just in! GPT-6 claimed the first spot with a score of 69.3. Gemini 3.8 Flash on a very solid 5th spot with 55.4.",
+          "zh": "GPT-6 Astra 与 Gemini Flash 3.8 的成绩刚出！GPT-6 以 69.3 分拿下第一；Gemini 3.8 Flash 稳居第五，55.4 分。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49569366",
+      "hn_points": 142,
+      "hn_comments": 80,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "Cancer drug reduces HIV reservoir in monkeys, boosting cure hopes",
+      "title_zh": "抗癌药维奈托克在猴模型缩小SIV完整储库，停药后数月仍低",
+      "publisher": "medicalxpress.com",
+      "article_url": "https://medicalxpress.com/news/2026-09-cancer-medication-siv-reservoir-hiv.html",
+      "significance_score": 5.9,
+      "summary_zh": "埃默里大学在《自然·微生物学》给出非人灵长类概念验证：癌症药维奈托克（BCL-2抑制剂）在启动抗逆转录病毒治疗时联用10天，可更快降低SIV感染CD4 T细胞，并在停用维奈托克、继续ART后数月维持更低完整储库。机制指向清除高BCL-2储备细胞亚群；残存细胞上调BCL-xL等，提示需延长疗程或联合靶向。已有两项人体试验推进。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Emory / Paiardini lab",
+          "en": "Importantly, the level of infected cells remained lower in the venetoclax-treated animals for months after we stopped administering it but were continuing ART.",
+          "zh": "重要的是，停用维奈托克但继续ART后，处理组动物的感染细胞水平在数月内仍更低。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "Elevator of the Year: Modernization of the Metropolis Trust Building",
+      "title_zh": "年度电梯：大都会信托大楼现代化，冷门行当也有偏执案例奖",
+      "publisher": "starelevator.com",
+      "article_url": "https://www.starelevator.com/projects/star-elevator-modernization-of-the-metropolis-trust-building",
+      "significance_score": null,
+      "summary_zh": "Star Elevator大都会信托大楼现代化项目获“年度电梯”；HN 141赞。评论欣赏麻瓜无视的行业奖与手艺长文，并提名芝加哥艺术大楼手摇电梯。把垂直交通写成可被观看的工艺。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "mauvehaus",
+          "en": "I love that seemingly random trades that we largely take for granted have these case studies that result in awards for things us muggles never think about. A garage I went to subscribed to a trade magazine full of exactly this kind of obsessive craft writeup.",
+          "zh": "我喜欢那些我们习以为常的冷门行当，也有案例研究并颁奖——麻瓜从不想这些。我去过的修车行订的行业杂志，全是这种偏执手艺长文。"
+        },
+        {
+          "type": "comment",
+          "author": "telesilla",
+          "en": "I don't know if it's still running but the hand-operated elevator in Chicago's Fine Arts building on Sth Michigan Ave deserves an award. I always enjoyed having an excuse to visit the music rooms on the upper floors.",
+          "zh": "不知是否还在运行，芝加哥南密歇根大道艺术大楼那部手摇电梯该得奖。我总爱找借口去上层琴房。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49516312",
+      "hn_points": 141,
+      "hn_comments": 50,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "Semaglutide Shows First Clinical Evidence of Slowing Biological Aging",
+      "title_zh": "司美格鲁肽随机试验：HIV脂肪肥大队列表观遗传衰老放缓约9%",
+      "publisher": "nature.com",
+      "article_url": "https://www.nature.com/articles/s41467-026-72861-3",
+      "significance_score": 5.8,
+      "summary_zh": "《自然·通讯》对一项32周、双盲、安慰剂对照IIb期试验（HIV相关脂肪肥大，司美格鲁肽45人/安慰剂39人）做事后表观遗传年龄分析：多代甲基化钟显示衰老放缓，含PhenoAge、PCGrimAge、GrimAge V2与DunedinPACE（约慢9%）；炎症、脑、心等系统钟同步改善。作者强调事后、样本小、队列特殊、随访短，需前瞻试验才能谈“长寿适应症”。此为GLP-1影响经验证衰老生物标志的首批随机证据之一。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Nature Communications authors",
+          "en": "In adjusted analyses, semaglutide reduced epigenetic aging across multiple second- and third-generation clocks, including … DunedinPACE (−0.09 units, 9% slower, p = 0.01).",
+          "zh": "校正分析中，司美格鲁肽降低多枚二代与三代钟的表观遗传衰老，包括DunedinPACE（−0.09单位，慢约9%，p=0.01）。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "Record-High 89% in U.S. Say Government Corruption Widespread",
+      "title_zh": "盖洛普：89%美国人觉政府腐败普遍，创纪录高位",
+      "publisher": "news.gallup.com",
+      "article_url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+      "significance_score": null,
+      "summary_zh": "盖洛普民调称创纪录89%美国人认为政府腐败普遍；HN 125赞。评论谈“公开化”与地方/联邦腐败可见度差异，提醒标题里的widespread不只指向单一人物。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "autoexec",
+          "en": "Corruption in the US isn't new, but it's never been done as openly as it has been recently. I don't think it's a good thing. It shows that the government isn't concerned about what the public thinks, and that norms around concealment have collapsed faster than the statutes.",
+          "zh": "美国腐败不是新鲜事，但从未像近来这样明目张胆。我认为这不是好事。说明政府不在乎公众怎么想，隐瞒的规范比法条崩得更快。"
+        },
+        {
+          "type": "comment",
+          "author": "giantg2",
+          "en": "Lots of people here are focused on one guy. But the the article says \"widespread\". In my experience, much of the corruption is at a local or state level. At the federal level it seems the corruption is just more visible and better branded.",
+          "zh": "这里很多人盯着一个人。但文章说的是“普遍”。以我经验，很多腐败在州和地方。联邦层面只是更显眼、品牌包装更好。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49570772",
+      "hn_points": 125,
+      "hn_comments": 70,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "Germany starts serial production of 5,000 drones for Ukraine",
+      "title_zh": "德国启动为乌克兰量产5000架无人机：援乌从弹药转向空中消耗战",
+      "publisher": "kyivindependent.com",
+      "article_url": "https://kyivindependent.com/germany-begins-production-of-5-000-long-range-drones-for-kyiv-media-reports/",
+      "significance_score": 5.9,
+      "summary_zh": "Handelsblatt与多家媒体报道：德美防务公司Auterion与乌克兰Airlogix合资在慕尼黑近郊启动逾5000架中远程攻击无人机量产，德国政府订单约3亿欧元，目标2027年中交付；远程型航程可达约1500公里，首批已下线，东德还将开第二条线。软件由Auterion、硬件由Airlogix分工，并称具备抗电子战的AI导航。CEO Lorenz Meier称德国终于有了可堆库存的平价精确武器产线。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Lorenz Meier / Auterion (via Handelsblatt)",
+          "en": "Germany now has a production line for affordable precision weapons in large quantities. We will deliver tried and tested systems this year — at costs and production speeds that actually make large stockpiles for deterrence possible.",
+          "zh": "德国现在有了可大批量生产平价精确武器的产线。我们将在今年交付经受检验的系统——成本和节奏终于让大规模威慑库存成为可能。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "Ok, but does it scale?",
+      "title_zh": "Ok, but does it scale? Spacetime对比Cockroach的一致性权衡",
+      "publisher": "spacetimedb.com",
+      "article_url": "https://spacetimedb.com/blog/how-does-spacetime-scale",
+      "significance_score": null,
+      "summary_zh": "SpacetimeDB发文回答“能否扩展”；HN 110赞。前Cockroach人指出问题域不同——全球可串行化 vs 多人/边缘另一套延迟权衡；重度用户则称速度持续惊喜。数据库扩展叙事帖。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "timssopomo",
+          "en": "Spacetime sounds like really interesting technology, but I'm not sure that the comparison between CRDB is a good one. I used to work at Cockroach Labs. The problem it's solving is fundamentally different — global consistency vs. a different consistency/latency tradeoff aimed at multiplayer and edge.",
+          "zh": "Spacetime 听起来很有意思，但和 CockroachDB 的对比未必恰当。我以前在 Cockroach Labs 干过。它要解决的问题本质不同——全球一致性，对上为多人与边缘场景准备的另一套一致性/延迟权衡。"
+        },
+        {
+          "type": "comment",
+          "author": "echohack5",
+          "en": "As someone who has been using alot of spacetime for side projects, I am continually impressed with the speed at which it operates. I think there's alot of interesting design space still unexplored once you stop pretending every app needs serializable transactions everywhere.",
+          "zh": "侧项目大量用 Spacetime 的人表示：它的速度一直让我惊叹。一旦不再假装每个应用到处都要可串行化事务，还有很多有趣的设计空间没被挖完。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49563772",
+      "hn_points": 110,
+      "hn_comments": 64,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}

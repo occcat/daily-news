@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "US-Venezuela oil ties: from cooperation to Trump's takeover deal",
+      "title_zh": "美委“史上最大石油协议”：逾650亿桶储量控制权，短期难降油价",
+      "publisher": "aljazeera.com",
+      "article_url": "https://www.aljazeera.com/news/2026/9/2/the-us-is-gobbling-up-venezuelan-oil-but-will-it-lower-fuel-prices",
+      "significance_score": 6.3,
+      "summary_zh": "特朗普宣布与委内瑞拉达成“史上最大石油协议”，称美方获得逾650亿桶探明储量控制权（约五分之一委储量），并承诺“大幅降低美国人油价”。分析指管输、油田服务与重油改质装置老化，产量爬坡需数年；海湾炼厂虽吃得下重油，近端泵价仍受炼能瓶颈约束。文章回溯美委关系从合作到接管式交易的转折，警告情绪面改善不等于即时供给冲击。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Al Jazeera / market analysts",
+          "en": "It will take years for this deal to result in a meaningful ramp-up in production due to Venezuela’s severe physical bottlenecks and ageing infrastructure.",
+          "zh": "由于委内瑞拉严重的物理瓶颈与老化基础设施，这笔交易要形成有意义的产量爬坡需要数年。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "Corporate America is getting hooked on open-source AI",
+      "title_zh": "《纽时》：企业级客户加速迁向开源模型，评论区争论“开源”是否适用",
+      "publisher": "nytimes.com",
+      "article_url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+      "significance_score": null,
+      "summary_zh": "《纽约时报》写美国企业正把工作负载从OpenAI/Anthropic迁向开源权重模型；HN 258赞。一线工程师称大公司几乎都有迁移项目；反对意见认为权重不透明、不能改源码，不该叫开源。讨论把采购、安全与许可证语言绑在同一根绳上。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "cmiles8",
+          "en": "Every larger company I talk to these days has an active project on moving away from OpenAI and Anthropic to open models. And they’re actively shifting, as the article says, so the threat is far from theoretical — procurement and security teams are already writing the migration plans.",
+          "zh": "我最近接触的大公司几乎都有在推进从 OpenAI、Anthropic 迁到开源模型的项目。像文章说的，他们真在转——威胁远不是纸上谈兵，采购和安全团队已经在写迁移计划。"
+        },
+        {
+          "type": "comment",
+          "author": "krupan",
+          "en": "Open source does not apply to AI and we should discourage anyone from using that term. All the models are opaque and proprietary. You cannot go into any source code and fix bugs, or add features, or see how training data shaped the weights — at best you get weights under a license.",
+          "zh": "开源并不适用于 AI，我们应劝人别用这个词。模型都是不透明且专有的。你无法进源码修 bug、加功能，也看不到训练数据如何塑造权重——充其量只是带许可证的权重。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49566137",
+      "hn_points": 258,
+      "hn_comments": 248,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "The Case for a Stalemate With Iran",
+      "title_zh": "《外交事务》主张对伊接受僵局：打不赢也撤不掉的战争定价",
+      "publisher": "foreignaffairs.com",
+      "article_url": "https://www.foreignaffairs.com/iran/case-stalemate-iran",
+      "significance_score": 6.2,
+      "summary_zh": "《外交事务》前叙利亚特使James F. Jeffrey撰文称：美以对伊战争满六个月后，双方陷入霍尔木兹相互封锁的僵局——任何一方都无法取得清晰军事或外交胜利，妥协成本过高、僵局成本相对可承受，互锁封锁成了“最不坏”选项。作者主张美方应把维持双重封锁当作慢速施压：美有自产油缓冲，而伊石油出口几乎断绝；全面撤出等于承认失败并可能让伊朗对海峡设永久“通行费”，全面升级或地面入侵政治上不可行。文章称僵局对华盛顿随时间有利，但须防伊军升级布雷、打击海湾基建或重启核计划。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "James F. Jeffrey / Foreign Affairs",
+          "en": "Six months in, the U.S. and Israeli war on Iran has settled into a stalemate. Neither Washington nor Tehran can achieve a clear military or diplomatic victory. Instead, the two sides have found themselves locked in a mutual blockade of oil and other shipments through the Strait of Hormuz … a mutual blockade has emerged as the least bad option for both the United States and Iran for the foreseeable future.",
+          "zh": "六个月后，美以对伊战争已陷入僵局。华盛顿与德黑兰都无法取得清晰军事或外交胜利。双方锁定霍尔木兹石油与货运的相互封锁……在可预见的未来，相互封锁成了双方最不坏的选项。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "Shutting down our public encrypted DNS",
+      "title_zh": "Mullvad关停公共加密DNS：改赞助Quad9，隐私解析外包争议",
+      "publisher": "mullvad.net",
+      "article_url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+      "significance_score": null,
+      "summary_zh": "Mullvad宣布关停自营公共加密DNS，改为支持Quad9；HN 231赞。官方称隐私向公共DNS高度专业化，运维法律负担压过自建收益。评论担忧中心化“隐私品牌”成三字母机构单点；也有人认可把公共服务交给更专精的递归运维者。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "pbhjpbhj",
+          "en": "We want a public service to be available. Going forward, we will support Quad9 instead of running it ourselves. Running a privacy-focused public DNS service is a highly specialized undertaking, and the operational + legal burden finally outweighed the benefit of keeping our own recursive resolvers online.",
+          "zh": "我们仍希望有公共服务可用。往后会支持 Quad9，而不再自己跑。运营注重隐私的公共 DNS 是高度专业化的事，运维与法律负担最终压过了继续自建递归解析的收益。"
+        },
+        {
+          "type": "comment",
+          "author": "mentalgear",
+          "en": "I'm always wondering whether those centralized privacy services are not the easiest first target for three-letter-agencies to infiltrate to gain access to the most relevant users to track — and what happens when the “privacy” brand becomes a single chokepoint.",
+          "zh": "我一直怀疑这些中心化隐私服务是不是三字母机构最容易先渗透的目标，好去追踪最相关的用户——当“隐私”品牌变成单点瓶颈时会怎样。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49568579",
+      "hn_points": 231,
+      "hn_comments": 85,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "UNICEF: 1 in 5 children in 21 countries faced online sexual abuse",
+      "title_zh": "儿童基金：21国约五分之一上网儿童遭技术性性剥削，年约2000万",
+      "publisher": "unicef.org",
+      "article_url": "https://www.unicef.org/press-releases/1-5-children-across-21-countries-have-experienced-tech-facilitated-sexual",
+      "significance_score": 6.1,
+      "summary_zh": "联合国儿童基金《Through Children's Eyes》基于约2.1万名12–17岁上网儿童调查：21国约五分之一、估约2000万儿童在一年内遭受至少一种技术促成的性剥削或虐待；近60%发生在社交平台，14%在网络游戏；57%施害者是孩子认识的人；不足1%报案，逾40%从未告诉任何人。报告估超1500万接触非自愿性内容、900万被要求性对话或传图、400万自拍性图像被非自愿传播。执行主任Catherine Russell呼吁平台与立法不可再回避。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "UNICEF Executive Director Catherine Russell",
+          "en": "More than 20 million children across the countries studied were subjected to unwanted explicit sexual content or exploitation online, often in the digital spaces where they learn, play and connect with friends.",
+          "zh": "在被研究国家中，逾2000万儿童在网上遭受非自愿露骨性内容或剥削，往往就发生在他们学习、玩耍和与朋友连接的数字空间。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "Show HN: Open-Source eInk Bike Computer",
+      "title_zh": "Show HN：开源电子墨水码表，圆形屏+18650的车头方案",
+      "publisher": "opentrailpaper.com",
+      "article_url": "https://opentrailpaper.com",
+      "significance_score": null,
+      "summary_zh": "Open Trail Paper展示开源电子墨水自行车电脑，网站半交互导览演示UX；HN 220赞。骑友想要圆形屏与18650替代手机支架，并希望把传感器数据导入自有健身库。帖子把硬件BOM、固件与隐私向数据所有权捆在一起。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "Rebelgecko",
+          "en": "The semi-interactive walkthrough on the website is really cool, great way to show the UX. I've always wanted to use a round display and an 18650 to plop a mini bike computer into my headset (replacing a phone mount), and this is the closest open design I've seen.",
+          "zh": "网站上半交互式导览很酷，展示 UX 的好办法。我一直想用圆形屏加 18650，把迷你码表塞进车头（替代手机支架），这是我见过最接近的开源设计。"
+        },
+        {
+          "type": "comment",
+          "author": "neoCrimeLabs",
+          "en": "Within 10 seconds I was convinced I needed to try this. For me, the next step for this is taking all the sensor data recorded for a ride, and loading it into my own fitness tracking database that I own end-to-end.",
+          "zh": "十秒内我就被说服要试。对我来说下一步是把骑行记下的全部传感器数据导入我端到端自有的健身追踪库。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49567437",
+      "hn_points": 220,
+      "hn_comments": 75,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "US and Allies Push IAEA to Report Iran to UN Security Council",
+      "title_zh": "美英法德推动原子能机构理事会将伊朗提交安理会",
+      "publisher": "apnews.com",
+      "article_url": "https://www.news4jax.com/news/world/2026/09/04/un-nuclear-agency-members-draft-resolution-reporting-iran-to-the-un-security-council/",
+      "significance_score": 6.0,
+      "summary_zh": "美、英、法、德起草决议，拟在下周维也纳IAEA理事会表决，要求总干事Grossi将决议及此前决议送交安理会与联大——若通过将是约20年来首次把伊朗提交安理会。背景是2025年6月理事会认定伊朗未履行防扩散义务后次日美以打击伊核设施，此后伊方合作与沟通几近中断。外交官称文本仍在谈、尚未正式提交；提交安理会可打开更具约束力的制裁或资产冻结路径。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "AP / Western diplomats",
+          "en": "The United States, Britain, France and Germany have drafted a resolution … that seeks to refer Iran to the U.N. Security Council for failure to comply with its nuclear nonproliferation obligations.",
+          "zh": "美国、英国、法国和德国起草决议，寻求因伊朗未履行核不扩散义务而将其提交联合国安理会。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "IBM Bob",
+      "title_zh": "IBM Bob：企业落地页什么都说了又什么都没说，评论区玩梗HF渗透",
+      "publisher": "bob.ibm.com",
+      "article_url": "https://bob.ibm.com/",
+      "significance_score": null,
+      "summary_zh": "IBM推出品牌名“Bob”的产品落地页，HN 218赞。评论拿老惠普“人人都在谈的云”广告对比命名气质，并借OpenAI智能体留言板梗调侃“没人因Bob在内部推理集群留后门被开”。信息密度低、讨论热度高，典型HN产品页帖。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "mrbluecoat",
+          "en": "Totally reminds me of \"HP Offers 'That Cloud Thing Everyone Is Talking About'\" — the corporate naming energy is identical, and the landing page somehow manages to say everything and nothing about what Bob actually does.",
+          "zh": "完全让我想起《惠普推出人人都在谈的那个云玩意》——企业命名气质一模一样，落地页居然能把 Bob 到底干什么说得既什么都讲了又什么都没讲。"
+        },
+        {
+          "type": "comment",
+          "author": "woah",
+          "en": "Nobody ever got fired for IBM Bob setting up a secret message board and establishing a persistent foothold in an internal inference cluster.",
+          "zh": "从来没有人因为 IBM Bob 搭了秘密留言板、在内部推理集群里建立持久立足点而被开除。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49563851",
+      "hn_points": 218,
+      "hn_comments": 254,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "Immune Cells Driving Alzheimer’s-Like Damage Traced to Lymph Nodes",
+      "title_zh": "阿尔茨海默样损伤的T细胞指令来自外周淋巴结：阻断可减神经退变",
+      "publisher": "medicine.washu.edu",
+      "article_url": "https://medicine.washu.edu/news/key-path-to-alzheimers-like-brain-damage-starts-outside-the-brain/",
+      "significance_score": 6.0,
+      "summary_zh": "华盛顿大学圣路易斯分校团队在《自然·神经科学》报告：在tau病小鼠中，驱动神经退变的CD8 T细胞并非在脑内被启蒙，而主要由颈深淋巴结等外周cDC1树突状细胞交叉提呈脑源抗原后派往脑内。清除淋巴结树突状细胞可显著降低脑内T细胞与脑损伤，tau缠结水平却不变。作者推测tau损伤产物经脑膜淋巴引流到颈部淋巴结。为阿尔茨海默与原发性tau病提示“外周免疫干预”窗口。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "WashU Medicine / Holtzman lab",
+          "en": "Researchers discovered in mice that these immune cells, known as T cells, are receiving their instructions from lymph nodes outside of the brain. The team also showed they can block these instructions to dramatically mitigate neurodegeneration.",
+          "zh": "研究者在小鼠中发现，这些称为T细胞的免疫细胞正从脑外淋巴结接受指令；团队还显示阻断这些指令可大幅减轻神经退变。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "title_zh": "Chromium全渠道已利用沙箱RCE：渲染沦陷可升主机控制",
+      "publisher": "nvd.nist.gov",
+      "article_url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "significance_score": null,
+      "summary_zh": "NVD/CVE页与Chrome稳定渠道说明指向一枚影响所有Chromium版本、已在野外利用的沙箱逃逸RCE；HN 153赞。评论谈谷歌赏金与“渲染器沦陷→主机控制”的升级路径，也有人夸张表示想去当清运工并断网。安全圈当日焦点帖。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "david_shaw",
+          "en": "Let's take a moment to talk about the monetary value of this vulnerability. According to the Chrome release page, Google paid a researcher for reporting an actively exploited sandbox escape affecting every Chromium channel — the kind of bug that turns a renderer compromise into full host control.",
+          "zh": "先谈这笔漏洞的金钱价值。按 Chrome 发布页，谷歌给报告者付了钱：这是已在野外利用、影响所有 Chromium 渠道的沙箱逃逸，能把渲染进程沦陷升级成主机完全控制。"
+        },
+        {
+          "type": "comment",
+          "author": "throwatdem12311",
+          "en": "I’m so tired. I think I’m just going to get a job as a garbage man and cancel my internet.",
+          "zh": "我太累了。我想去当垃圾清运工，然后把网掐了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49570669",
+      "hn_points": 153,
+      "hn_comments": 69,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}
