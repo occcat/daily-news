@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="360" viewBox="0 0 52 360" fill="none">
+  <g stroke="#002FA7" fill="none">
+    <circle cx="26" cy="44" r="20" stroke-width="1.6"/>
+    <circle cx="26" cy="44" r="14.5" stroke-width="0.9"/>
+    <path d="M4 40h44" stroke-width="1.4"/>
+    <path d="M4 48h44" stroke-width="1.4"/>
+  </g>
+  <text x="26" y="40" text-anchor="middle" fill="#002FA7" font-size="7" font-family="Arial Narrow, Helvetica Neue, sans-serif" letter-spacing="1.2">RIKAN</text>
+  <text x="26" y="56" text-anchor="middle" fill="#002FA7" font-size="8" font-family="Noto Sans SC, sans-serif">å
+</text>
+  <g stroke="#002FA7" fill="none" transform="translate(0 140)">
+    <circle cx="26" cy="44" r="20" stroke-width="1.6"/>
+    <circle cx="26" cy="44" r="14.5" stroke-width="0.9"/>
+    <path d="M4 40h44" stroke-width="1.4"/>
+    <path d="M4 48h44" stroke-width="1.4"/>
+  </g>
+  <text x="26" y="180" text-anchor="middle" fill="#002FA7" font-size="7" font-family="Arial Narrow, Helvetica Neue, sans-serif" letter-spacing="1.2">RIKAN</text>
+  <text x="26" y="196" text-anchor="middle" fill="#002FA7" font-size="8" font-family="Noto Sans SC, sans-serif">å
+</text>
+  <g stroke="#002FA7" fill="none" transform="translate(0 280)">
+    <circle cx="26" cy="44" r="20" stroke-width="1.6"/>
+    <circle cx="26" cy="44" r="14.5" stroke-width="0.9"/>
+    <path d="M4 40h44" stroke-width="1.4"/>
+    <path d="M4 48h44" stroke-width="1.4"/>
+  </g>
+  <text x="26" y="320" text-anchor="middle" fill="#002FA7" font-size="7" font-family="Arial Narrow, Helvetica Neue, sans-serif" letter-spacing="1.2">RIKAN</text>
+  <text x="26" y="336" text-anchor="middle" fill="#002FA7" font-size="8" font-family="Noto Sans SC, sans-serif">å
+</text>
+</svg>

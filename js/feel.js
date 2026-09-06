@@ -449,7 +449,7 @@
     if (theme === "polaroid") bindPolaroid();
     else if (theme === "isometric-mini") bindIso();
     else if (theme === "agamemnon") bindAga();
-    else if (theme === "stamp") bindStamp();
+    else if (theme === "stamp" || theme === "postage-strip") bindStamp();
     else if (theme === "ordered-dither") bindDither();
     else if (theme === "paper-prism") bindPrism();
     else if (theme === "klein-etch") bindEtch();
