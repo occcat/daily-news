@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "US military strikes three Iranian oil tankers after missile attacks on warships",
+      "title_zh": "美军事打击三艘伊朗油轮：CENTCOM称IRGC导弹瞄准两艘美舰后的对等升级",
+      "publisher": "cnn.com",
+      "article_url": "https://www.cnn.com/2026/09/05/middleeast/iran-us-tanker-kharg-intl",
+      "significance_score": 8.7,
+      "summary_zh": "美国中央司令部称，伊斯兰革命卫队（IRGC）向一艘航母与一艘驱逐舰发射弹道导弹后，美方“永久瘫痪”哈尔克岛附近的M/T Downy与贾斯克附近的M/T Stark 1，并在海湾外“彻底摧毁”空载的M/T Kylo。CENTCOM称这些船属于为IRGC与地区代理人供资的影子网络；司令Brad Cooper放话“你打两艘，我打三艘”。伊朗外交部谴责为非法侵略。冲突已进入第六个月，霍尔木兹航运战风险再起。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Adm. Brad Cooper / CENTCOM",
+          "en": "Let the message to the IRGC be clear: If you shoot at two of our ships, we will impose an even higher economic cost — taking out three of yours.",
+          "zh": "请让IRGC听清：如果你朝我们两艘船开火，我们将施加更高经济代价——打掉你的三艘。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据CNN/CENTCOM公开报道估分8.7",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 1
+    },
+    {
+      "title": "Nitter has more working instances than before the takedowns",
+      "title_zh": "Nitter实例反增：封杀潮后可用节点比先前更多",
+      "publisher": "codeberg.org",
+      "article_url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
+      "significance_score": null,
+      "summary_zh": "Codeberg上的实例表显示：在多轮下架与停服之后，可用的Nitter前端反而多于此前峰值——社区用镜像、自建与分流把只读Twitter入口撑住。评论区一边劝彻底离开X，一边承认“免登录+更好UI”仍是刚需；也有人提醒经Nitter阅读仍在给原平台引流。HN约612赞、291评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "neilv",
+          "en": "A non-technological way to give negative feedback to Twitter/X is to stop using it, even \"just reading an occasional post\". Continuing to read things on it, even through Nitter, is in the interests of Twitter/X and of the people who continue to support Twitter/X by posting there. Tell the people who use it no. The decent people won't hear them on Twitter/X, and the decent people will wonder what's wrong with them if they persist in supporting that thing. Tech industry circles nowadays are sometimes tinged with individualist selfish \"take whatever you can\" thinking, and anarchic or even underhanded methods. Including the thinking \"an express no doesn't mean no, if i can find a way to take it from them anyway.\" Grassroots collective social action can work, if it isn't constantly undermined by selfish and short-sighted taking.",
+          "zh": "不给Twitter/X负面反馈的非技术方式，就是停止使用它——哪怕“只是偶尔读一条”。继续在上面读，哪怕通过Nitter，也符合Twitter/X和继续发帖者的利益。对还在用它的人说不。"
+        },
+        {
+          "type": "comment",
+          "author": "MostlyStable",
+          "en": "The not needing an account is obviously not minor, but honestly, the UI is just better, by a lot. I made a twitter account a while ago using one of those throw away email address sites, so I have an account that I don't care about that I can use for twitter....but the experience just sucks. I don't know how any stands it, even if they don't mind needing an account.",
+          "zh": "免登录显然不是小事，但老实说UI也更好得多。我以前用一次性邮箱开过小号……但体验就是烂。我不懂谁能忍，哪怕他们不介意需要账号。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49571634",
+      "hn_points": 612,
+      "hn_comments": 291,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 2
+    },
+    {
+      "title": "Putin meets US envoys as Russia and Ukraine pause strikes on each other’s capitals",
+      "title_zh": "普京会见美特使：俄乌互诺三天不打对方首都，库什纳与Witkoff将赴基辅",
+      "publisher": "aljazeera.com",
+      "article_url": "https://www.aljazeera.com/news/2026/9/5/russias-putin-meets-us-envoys-to-discuss-trump-proposal-to-end-ukraine-war",
+      "significance_score": 8.3,
+      "summary_zh": "史蒂夫·Witkoff与贾里德·库什纳抵达莫斯科，与普京讨论特朗普新的停火方案；克里姆林宫称普京下令自午夜起72小时不打击基辅，泽连斯基则承诺同期不对莫斯科动手，并预计特使周日访乌。此前一夜俄方仍对基辅与鲍里斯波尔机场发动大规模无人机与导弹袭击。美方对乌和谈因对伊战争分心数月后再度升温，但细节仍不透明。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Dmitry Peskov / Kremlin",
+          "en": "The Russian president, the commander-in-chief, has given the order from midnight tonight not to strike Kyiv for three days.",
+          "zh": "俄罗斯总统、最高统帅已下令自今夜午夜起三天内不打击基辅。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据Al Jazeera/AP公开报道估分8.3；与昨日“特使将访”为后续进展，URL/标题不同",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 3
+    },
+    {
+      "title": "The Real Luxuries In Life",
+      "title_zh": "人生真正的奢侈：Brad Feld谈时间、关系与可停下的能力",
+      "publisher": "feld.com",
+      "article_url": "https://feld.com/archives/2026/09/the-real-luxuries-in-life/",
+      "significance_score": null,
+      "summary_zh": "风险投资人Brad Feld写道：真正的奢侈不是更多会议或估值，而是能每天打电话给伴侣、陪孙辈练车、在 hustle 之外保留可停下的空白。TechStars学员回忆他曾要求CEO每天抽空联系家人。HN约428赞、200评，评论区几乎变成一份“非财务资产负债表”。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "mck-",
+          "en": "Brad Feld was the only mentor (out of ~100 we met) during our TechStars Chicago ‘15 program who had sessions with the CEOs of the cohort and told us to take a break each day to call our significant others. He gave us perspective when all of us were focused on hustling for demo day and raising our seed round. He reminded us that amid the hustle, there’s more to life than your startup. Thank you.",
+          "zh": "Brad Feld是我们TechStars Chicago'15见过的约100位导师里，唯一跟同期CEO开课并告诉我们每天抽空给另一半打电话的人。他在我们只顾demo day与种子轮时给了透视：创业之外还有生活。谢谢。"
+        },
+        {
+          "type": "comment",
+          "author": "CrzyLngPwd",
+          "en": "Grandchildren. I have five, and they are amazing. Youngest is 9 months. We have an old car goiong to the scrapyard in a couple of weeks, and today I sat in the passenger seat of it as my 13 yr old grandaughter drove it around one of our fields getting more and more confident as I encouraged her to stop, put it in reverse, and drive in the opposite direction. From \"this is too difficult\" to \"I want to be a rally driver\" in a few dozen gear changes. Memories like this are some of the luxuries of life. For her, for me, for her parents, and her siblings watching.",
+          "zh": "孙辈。我有五个，最小9个月。今天我坐在即将报废的旧车副驾，让13岁孙女在田里开、倒车、再开，从“太难了”到“我想当拉力手”。这样的记忆才是生活里的奢侈。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49578866",
+      "hn_points": 428,
+      "hn_comments": 200,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 4
+    },
+    {
+      "title": "Transcatheter tricuspid repair cuts death or HF hospitalization risk by 60% in TRIC-I-HF",
+      "title_zh": "TRIC-I-HF：经导管三尖瓣修复使死亡或心衰住院风险降约60%",
+      "publisher": "nejm.org",
+      "article_url": "https://www.medscape.com/viewarticle/tricuspid-repair-cuts-death-hf-hospitalization-severe-tr-2026a1000wvk",
+      "significance_score": 7.4,
+      "summary_zh": "ESC 2026同步《新英格兰医学杂志》公布随机试验TRIC-I-HF：重度三尖瓣反流高危患者在药物基础上加经导管修复，三年死亡或心衰住院风险较单纯药物降低约60%（HR 0.40）；win ratio 2.42。一年无事件生存约73.9%对48.4%，三年估计52.4%对21.0%。心衰住院获益尤为显著；全因死亡次级终点亦倾向干预组，但未对多重性校正。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "TRIC-I-HF / NEJM via Medscape",
+          "en": "At 3 years, tricuspid repair plus medical therapy was associated with a 60% lower risk for death or HF hospitalization than medical therapy alone.",
+          "zh": "三年时，三尖瓣修复加药物治疗组的死亡或心衰住院风险较单纯药物组低约60%。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据ESC/NEJM/Medscape公开报道估分7.4",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 5
+    },
+    {
+      "title": "AI handles incidents, engineers lose touch with their systems",
+      "title_zh": "AI接管事故响应后，工程师正在与系统脱节",
+      "publisher": "sylvainkalache.com",
+      "article_url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "significance_score": null,
+      "summary_zh": "Sylvain Kalache写道：当事件响应被AI自动摘要、定位与建议修复后，团队对生产系统的肌肉记忆在萎缩——有人把现成一行修复喂给团队，对方仍用Claude砸了三天。评论认为这是“工程师与用户脱节”的下一章，也指出多数公司连灾备演练都不做，更遑论事故模拟。HN约364赞、316评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "bob1029",
+          "en": "A natural evolution of engineers losing touch with the customers and users. I'm noticing some of the concern play out regarding AI weakening the capabilities of software people. I gave the team an exact solution on a silver platter and they still failed to identify how to go about it after 3 days slamming it into Claude. The resolution is literally 1 line of code that could be arrived at in about 30 minutes of patient, old school troubleshooting. I think what's happening is the AI system draws poorly aligned and led engineers into this ego inflation feedback loop where they are completely detached from reality because these tools can simulate a better one.",
+          "zh": "这是工程师与客户/用户脱节的自然演化。我把精确解法端上银盘，团队仍对着Claude砸了三天找不到下手处。真正的修复是约30分钟耐心排障就能写出的一行代码。我觉得AI把注意力吸走了。"
+        },
+        {
+          "type": "comment",
+          "author": "solatic",
+          "en": "Author has a good head on their shoulders, but few if any companies are going to spend time on incident simulations for their SREs. Why not? Because even pre-AI, very few companies spend time practicing restoring their backups, or disaster recovery, or picking infrequently-used runbooks to practice, or seeing whether they can easily rotate secrets without downtime, or trying to redploy the system onto another vendor's cloud/platform, or, or, or... It is the least-sexy operations work that exists. No executive cares about this. Ops organizations push for flashy work, same as everybody else: new infrastructure for new projects, cool chatbots, new flashy dashboards, make charts go up and to the right, etc. Airline pilots go through disaster simulation training because the government mandates that training. If it wasn't a condition of holding a pilot's license, no company would pay for it…",
+          "zh": "作者头脑清醒，但几乎没公司会给SRE做事故模拟。为什么？因为连AI之前，也很少有人练恢复备份、灾备、冷门runbook、不停机轮换密钥、迁到另一家云……那是最不性感的运维工作。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49574167",
+      "hn_points": 364,
+      "hn_comments": 316,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 6
+    },
+    {
+      "title": "In-vivo CAR-T infusion eases multiple sclerosis in small NEJM trial",
+      "title_zh": "体内生成CAR-T：16例神经自身免疫病患者NEJM通信显示症状改善",
+      "publisher": "nature.com",
+      "article_url": "https://www.nature.com/articles/d41586-026-02765-1",
+      "significance_score": 7.2,
+      "summary_zh": "华中科技大学同济医院团队在《新英格兰医学杂志》通信报告：单次静脉输注慢病毒载体，在16名难治性神经自身免疫病（含多发性硬化等）患者体内生成CD19 CAR-T；B细胞与自身抗体显著耗竭，约六个月随访中MS患者运动、认知与疲劳改善，肌无力等亦见肌力提升。副作用以可控炎症与一过性白细胞下降为主。该路径省去体外制备，被视作降低CAR-T成本的概念验证，但仍需更大样本。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Nature news / NEJM correspondence",
+          "en": "Symptoms for sixteen people with multiple sclerosis or other autoimmune conditions improved after receiving a treatment that produced disease-fighting immune cells inside their bodies.",
+          "zh": "十六名多发性硬化或其他自身免疫病患者在接受可在体内生成抗病免疫细胞的治疗后症状改善。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据Nature/NEJM公开报道估分7.2",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 7
+    },
+    {
+      "title": "Netherlands pulls gold out of the US",
+      "title_zh": "荷兰从美加运回黄金：央行把储备“带回家”",
+      "publisher": "abc.net.au",
+      "article_url": "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
+      "significance_score": null,
+      "summary_zh": "ABC等报道荷兰央行把存放在美国与加拿大的黄金运回本土保管，理由包括地缘风险与储备主权。HN评论把话题拉到美元债务杠杆与外储金月度数据：有人说美债是私募式全球权力，也有人用美联储报表指出总量变动仅约1.5%。约342赞、251评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "prymitive",
+          "en": "The funny thing is that with $40T of public dept US is basically taking money from other countries (in exchange for a pice of paper saying IOU) and then using that money to force these countries to do what’s in US best interests (real or perceived). And the bigger that pile of debt is the more every government is invested in us not going bankrupt, hence the leverage just gets stronger. US is basically a private equity typo of global power - getting others to lend them a knife it stabs them in the back.",
+          "zh": "好笑的是美国背着约40万亿美元公债，等于从别国借钱（换一张欠条），再用这些钱逼别国按美国利益行事。债务越大，别国越怕美国破产，杠杆反而更强——美国像一家用别人刀子捅别人的全球私募。"
+        },
+        {
+          "type": "comment",
+          "author": "rsanek",
+          "en": "For those seeking a more level-headed view, the Fed reports on foreign-owned gold monthly. Going back a couple of decades: Month Book value ($M) Tonnes July 2006 8,967 6,606 July 2011 8,412 6,197 July 2016 7,883 5,807 July 2021 7,794 5,742 July 2026 7,812 5,755 The linked report is talking about a change of 1.5% from the latest-reported total amount in tonnes.",
+          "zh": "想看更冷静的视角：美联储按月公布外资托管黄金。回看二十年，吨位从2006年约6606吨到2026年7月约5755吨。这篇报道谈的变动大约只占最新吨位总量的1.5%。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49575034",
+      "hn_points": 342,
+      "hn_comments": 251,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 8
+    },
+    {
+      "title": "Ivonescimab plus chemotherapy cuts EGFR-mutant lung cancer progression risk by 48%",
+      "title_zh": "HARMONi：依沃西单抗联合化疗使EGFR耐药肺癌进展风险降48%",
+      "publisher": "mdanderson.org",
+      "article_url": "https://www.mdanderson.org/newsroom/research-newsroom/targeted-antibody-improves-outcomes-for-patients-with-advanced-l.h00-159858501.html",
+      "significance_score": 7.0,
+      "summary_zh": "MD安德森参与的全球III期HARMONi（438人）在《柳叶刀·肿瘤学》发表：三代EGFR靶向进展后的EGFR突变NSCLC，PD-1/VEGF双特异抗体ivonescimab联合化疗较单纯化疗进展或死亡风险降48%；中位PFS 6.8对4.4个月，缓解率45%对34%，缓解持续7.6对4.2个月，颅内控制亦延长。安全性以血细胞下降与贫血为主；欧美随访仍较短。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Xiuning Le / MD Anderson",
+          "en": "These results show that adding ivonescimab to chemotherapy can extend disease control and may offer an important new option for these patients.",
+          "zh": "这些结果表明，在化疗基础上加用ivonescimab可延长疾病控制，并可能为这些患者提供重要新选择。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据MD Anderson/Lancet Oncology公开报道估分7.0",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 9
+    },
+    {
+      "title": "Git hosting that never leaves Europe",
+      "title_zh": "Pushin.eu：承诺代码永不离欧的Git托管",
+      "publisher": "pushin.eu",
+      "article_url": "https://pushin.eu",
+      "significance_score": null,
+      "summary_zh": "德国创始人Peter的Pushin.eu意外登上HN：宣传“Git托管永不离开欧洲”，产品仍在完善定价与落地页。评论立刻做供应链审计——注册商、Cloudflare DNS、缺IPv6与DNSSEC——并追问订阅模型。约315赞、152评，把“数据驻留”从口号拆成DNS与证书依赖。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "pjullrich",
+          "en": "Hi, Peter the Founder of Pushin.eu here. Sorry, the website escaped containment and landed on HN before I had the chance to update the \"marketing materials\" aka. landing page. So, here are a few points: *The product is stable, but still in development. That's why some of the core things like pricing, etc. are missing. BUT:* 1. Business Model: Pushin will have subscriptions for individuals and teams. Pricing is not yet decided but it'll be close to GitHub/GitLab pricing. 2. Privacy: In true German fashion, we *don't* want your private data. Pushin doesn't track anything beyond the obvious: email, password hash, username, whatever information you put on your profile. 3. Roadmap: We're currently in Beta, but everything looks good so far. We'll probably go GA beginning of 2027. I'll focus on delivering the core features first and make sure that they are polished and of good quality before…",
+          "zh": "我是Pushin.eu创始人Peter。抱歉网站还没更新落地页就逃出收容上了HN。产品稳定但仍在开发，所以定价等核心信息缺失。商业模式会是个人/团队订阅，价格接近GitHub/GitLab；隐私上走真正的德国路线。"
+        },
+        {
+          "type": "comment",
+          "author": "okso",
+          "en": "A few observations: - Registrar: HOSTINGER operations, UAB, Lithuania. Hostinger-branded authoritative DNS servers run on Cloudflare’s network. This creates a dependency on a US company. - IPv6 is not supported by the public website/Git endpoint. - DNSSEC would be a great addition for security, especially due to the use of US-based Cloudflare and Let's Encrypt.",
+          "zh": "几点观察：注册商是立陶宛Hostinger，权威DNS跑在Cloudflare上——对美国公司有依赖；公网站/Git端点不支持IPv6；鉴于用了Cloudflare与Let's Encrypt，上DNSSEC会更好。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49573680",
+      "hn_points": 315,
+      "hn_comments": 152,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 10
+    }
+  ]
+}

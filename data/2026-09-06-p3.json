@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "China launches Cislunar CubeSat Constellation open to international partners",
+      "title_zh": "中国启动地月空间立方星星座C3：2030年前部署约30颗并向国际开放",
+      "publisher": "news.cn",
+      "article_url": "https://english.news.cn/20260905/03dd38bf9e4f41498de2b2f7518496fa/c.html",
+      "significance_score": 6.1,
+      "summary_zh": "在合肥国际深空探测大会上，深空探测实验室与国际深空探测协会等宣布地月立方星星座（C3）计划：约30颗单星不超过30公斤的立方星，用于空间环境与伽马暴监测，2030年前发射部署，并向泰国、塞尔维亚、埃及、塞内加尔、印尼等机构开放合作与培训。工程一期总体设计接近完成。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Xinhua / IDSEA",
+          "en": "China has officially launched a scientific program to construct a satellite constellation in the Earth-moon space in collaboration with multiple countries, filling gaps in systematic observation of the region.",
+          "zh": "中国已正式启动与多国合作建设地月空间卫星星座的科学计划，填补该区域系统观测空白。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据新华社公开报道估分6.1",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "Ask HN: Resources to get good at soldering?",
+      "title_zh": "Ask HN：怎样把焊接练好？工具清单与“多焊”共识",
+      "publisher": "news.ycombinator.com",
+      "article_url": "https://news.ycombinator.com/item?id=49533840",
+      "significance_score": null,
+      "summary_zh": "Ask HN求助焊接入门：高票建议USB-C烙铁+IronOS（Pinecil/TS100）、黄铜丝清洁座、KU刀型头与细锡丝；另有人强调没有捷径——买廉价套件与贴片练习、再练拆焊。约238赞、148评，把“教育资源”收敛成练习量。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "sandreas",
+          "en": "While soldering is not that hard, different tasks require different tools. Most of them can be from very cheap to very expensive. As a beginner I'd recommend the following: A small USB-C soldering iron supported by IronOS[1], e.g. Pinecil vor TS100 A solid stand with brass wool A KU soldering tip (looks a bit like a knife) for good heat transfer, too small tips are not good Thin (https://github.com/Ralim/IronOS",
+          "zh": "焊接不难，但不同任务要不同工具。入门建议：支持IronOS的小型USB-C烙铁（如Pinecil或TS100）、带黄铜丝的稳固支架、传热好的KU刀型头（头太小不好）、以及细锡丝。"
+        },
+        {
+          "type": "comment",
+          "author": "JohnFen",
+          "en": "You don't need any real educational resources to get good at soldering. Any random primer will do. It's genuinely a simple task that doesn't require a lot of explanation or have a lot of tricks. What gets you good at soldering is just practice. Solder a lot. A fun and easy way to do this is to pick up those cheap ($5 or less) electronic solder-it-yourself kits and do a bunch of them. Include ones that contain small surface mount parts. You can also practice desoldering on them, or pick up broken electronics and desolder parts from those. > managed to desolder and resolder a stick but the controller doesn't turn on anymore. There's a chance to practice repair (which is a completely different topic from soldering)! Odds are very high the problem is that you've made an unwanted solder bridge or you have a cold solder joint.",
+          "zh": "要焊好其实不需要真正的教材，随便一篇入门就够。这活简单，没那么多技巧。让你变好的是练习——大量焊。有趣又简单的办法是买那些5美元以下的电子焊接套件，包含小贴片的也做，还可以在上面练拆焊。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49533840",
+      "hn_points": 238,
+      "hn_comments": 148,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "China revises National Defense Mobilization Law to broaden civilian asset control",
+      "title_zh": "中国修订国防动员法：扩大“直接威胁”下征用/征收民用资产范围",
+      "publisher": "understandingwar.org",
+      "article_url": "https://understandingwar.org/research/china-taiwan/china-taiwan-update-september-4-2026/",
+      "significance_score": 6.0,
+      "summary_zh": "战争研究所（ISW）解读：全国人大8月28日通过、10月1日生效的修订国防动员法，将启动情形扩展到主权、统一、领土完整、安全与发展利益受“直接威胁”，并把对民用资产的措辞从“征用”强化为可“征收”，可能在战争门槛之下动员运输、AI与无人机等民用能力。分析认为这对台海情景下的运力与工业动员意味深远。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "ISW China-Taiwan Update",
+          "en": "The PRC could use this capability to improve its military transport and sealift capacity during an invasion of Taiwan and mobilize its civilian artificial intelligence (AI) and drone sectors.",
+          "zh": "中国可能利用这一能力在入侵台湾时提升军事运输与海运能力，并动员民用人工智能与无人机产业。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据ISW公开分析估分6.0",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+      "title_zh": "Show HN：TERMy——不用LLM的快速终端助手",
+      "publisher": "github.com",
+      "article_url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+      "significance_score": null,
+      "summary_zh": "Show HN项目TERMy用传统NLP而非大模型做终端助手，卖点是更快、依赖更薄。评论欢迎“别一上来就LLM”，并指向早期nl2bash等研究。约187赞、44评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "publlus_enigma",
+          "en": "This is a cool project; I think it's wonderful that traditional NLP methods are being used, rather than reaching straight for an LLM. One significant advantage of not using a local LLM is the significantly simplified dependency stack.",
+          "zh": "很酷的项目；很高兴看到在用传统NLP，而不是一头扎进LLM。不用本地LLM的一大优势是依赖栈显著简化。"
+        },
+        {
+          "type": "comment",
+          "author": "nateb2022",
+          "en": "cf. https://github.com/TellinaTool/nl2bash paper: https://arxiv.org/abs/1802.08979",
+          "zh": "参见 https://github.com/TellinaTool/nl2bash 以及论文 https://arxiv.org/abs/1802.08979"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49562219",
+      "hn_points": 187,
+      "hn_comments": 44,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "Taiwan issues red alert after FDA warning on Impella heart pump controllers",
+      "title_zh": "台湾对Impella控制器发最高级红警：美FDA通报3死37重伤缺陷",
+      "publisher": "focustaiwan.tw",
+      "article_url": "https://focustaiwan.tw/society/202609020018",
+      "significance_score": 5.9,
+      "summary_zh": "台湾食药署在美FDA就Abiomed（强生）Automated Impella Controller卡匣识别故障发出预警后，发布最高级红色消费者安全警报：海外已报告3例死亡、37例重伤。台湾有19家医疗机构使用，涉及102个冲洗卡匣、26台控制器与97个导入器；要求许可持有人通知院所更换部件、更新软件并加强监测。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Focus Taiwan / TFDA",
+          "en": "Taiwan's Food and Drug Administration (TFDA) on Wednesday issued its highest-level consumer safety alert after U.S. regulators warned that a defect in a temporary heart pump system has been linked to three deaths and 37 serious injuries overseas.",
+          "zh": "在美国监管机构警告临时心脏泵系统缺陷已在海外关联3例死亡与37例重伤后，台湾食药署于周三发布最高级别消费者安全警报。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据Focus Taiwan/TFDA公开报道估分5.9",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "The Rust React Compiler is now native in Vite",
+      "title_zh": "Rust版React编译器已原生进入Vite",
+      "publisher": "blog.master.dev",
+      "article_url": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
+      "significance_score": null,
+      "summary_zh": "博文称React的Rust编译器路径现已能在Vite中原生运行，进一步把前端工具链从Node/Babel世界推向编译型语言。评论戏称会回到“JS工具用C++/Java写”的前Node时代，也有人为终于能踢掉Babel欢呼。约164赞、49评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "pjmlp",
+          "en": "Eventually we will be back to pre-node days, when compiled languages were the majority for JS tooling (C, C++, Java, C#,...), the yin yang of cool technology cycles.",
+          "zh": "最终我们会回到前Node时代——JS工具链多数用编译型语言（C、C++、Java、C#……），酷技术周期的阴阳轮回。"
+        },
+        {
+          "type": "comment",
+          "author": "adzm",
+          "en": "No more babel in my compilation pipeline, yay!",
+          "zh": "编译流水线里再也没有babel了，耶！"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49567873",
+      "hn_points": 164,
+      "hn_comments": 49,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "Low-biofilm Candida parapsilosis strains drive fluconazole-resistant hospital outbreaks",
+      "title_zh": "低生物膜近平滑念珠菌反而推动耐氟康唑医院暴发：PLOS Biology",
+      "publisher": "plos.org",
+      "article_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003973",
+      "significance_score": 5.8,
+      "summary_zh": "《PLOS Biology》研究推翻“生物膜越厚越易暴发”的常识：多国持续暴发的耐氟康唑近平滑念珠菌普遍呈低生物膜（LBP）表型，却具更强胁迫耐受、细胞壁掩蔽与免疫逃逸，更耐中性粒细胞与巨噬细胞杀伤。转录组与基因组显示代谢重布与多次独立趋同演化；作者称宿主选择下的生物膜削弱是以环境持久换免疫存活的权衡，感染控制需更多关注非环境储库。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "PLOS Biology",
+          "en": "Contrary to the prevailing view that robust biofilm formation promotes persistence, LBP strains displayed enhanced stress tolerance, increased cell wall masking, and reduced immune recognition.",
+          "zh": "与“强壮生物膜促进持久”的主流观点相反，低生物膜菌株表现出更强胁迫耐受、增强的细胞壁掩蔽与更弱的免疫识别。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据PLOS Biology公开论文估分5.8",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "Learn Programming with OCaml",
+      "title_zh": "用OCaml学编程：法国教材把函数式当第一语言",
+      "publisher": "usr.lmf.cnrs.fr",
+      "article_url": "https://usr.lmf.cnrs.fr/lpo/",
+      "significance_score": null,
+      "summary_zh": "CNRS相关站点推出Learn Programming with OCaml，把函数式与类型系统当作入门路径。评论怀念Xavier Leroy访谈，并争论“先OCaml再C”是否比反向迁徙更少痛苦。约153赞、68评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "zvmaz",
+          "en": "Tangentially, a great interview with the creator of OCaml, Xavier Leroy [1]. [1] https://www.youtube.com/watch?v=9Cswiqrq6So",
+          "zh": "顺带一提，OCaml创造者Xavier Leroy的访谈很棒：[YouTube链接]"
+        },
+        {
+          "type": "comment",
+          "author": "sweetjuly",
+          "en": "I do really wonder what it would be like to learn to program for the first time with OCaml. I remember learning to use OCaml in a properly functional way after so long writing code in C and it was really miserably painful trying to change how I thought about algorithms. I eventually got over the hill and it changed how I write code in C (for the better?), but I do wonder if it would have been easier to have learned OCaml as a first language instead.",
+          "zh": "我真好奇第一次用OCaml学编程会怎样。我在写了很久C之后才正经学函数式OCaml，改算法思维方式痛苦得要命；过了那道坎后它改变了我写C的方式。若把它当第一语言会不会更容易？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49578280",
+      "hn_points": 153,
+      "hn_comments": 68,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "Antiseptics lose punch against Candida parapsilosis dry surface biofilms",
+      "title_zh": "干燥表面生物膜上，多种医院消毒液对近平滑念珠菌效力大打折扣",
+      "publisher": "nature.com",
+      "article_url": "https://www.nature.com/articles/s41598-026-40814-x",
+      "significance_score": 5.7,
+      "summary_zh": "《Scientific Reports》用干燥表面生物膜（DSB）模型测试暴发相关近平滑念珠菌对七种常用消毒液的耐受：70%乙醇与0.5%醇性氯己定仍可达>5 log杀灭，但聚维酮碘、异丙醇与低浓度氯己定中位杀灭<1 log；干燥条件整体弱于传统水合生物膜数据。作者呼吁修订高接触面与侵入器械的消毒方案，重视表型多样性。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Scientific Reports",
+          "en": "EtOH 70% and CHG 0.5% consistently achieved > 5 log10 reductions, maintaining high activity despite desiccation. In contrast, PVP-I, IPA and CHG 0.12% showed poor performance (< 1 log10 median reduction).",
+          "zh": "70%乙醇与0.5%氯己定在干燥条件下仍稳定达到>5 log₁₀杀灭；相比之下，聚维酮碘、异丙醇与0.12%氯己定表现很差（中位<1 log₁₀）。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据Scientific Reports公开论文估分5.7",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "LLMs as a Cognitive Virus",
+      "title_zh": "论文：把LLM当作“认知病毒”来建模",
+      "publisher": "arxiv.org",
+      "article_url": "https://arxiv.org/abs/2609.03344",
+      "significance_score": null,
+      "summary_zh": "arXiv预印本《LLMs as a Cognitive Virus》用演化/模因框架讨论大模型如何占用、改写人类认知带宽。HN评论嫌标题煽动，指出几乎任何观念交换都可写成病毒；也有人把它比作婚姻与团队里的认知外包。约152赞、132评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "Murfalo",
+          "en": "I love this line of thinking but the framing comes across to me as a bit inflammatory and uncharitable. Just about anything involved in the exchanged of ideas can be viewed as a virus! That is because, when viewed from an evolutionary biology perspective, ideas are the cognitive equivalent of genes (in fact, this is where the term meme comes from). There's a whole field, evolutionary memetics, dedicated to this. Cultural values, marketing, religion, social media, education, propaganda, etc. can all be viewed quite naturally through this lense. Even the terms we use in every day language (eg, going \"viral\") seem to intuitively grasp this. Is my friend a virus for recommending me their favorite book? Well, yes I guess, but that's kind of just how ideas work. Just my two cents",
+          "zh": "我喜欢这条思路，但框架读起来有点煽动且不厚道。几乎任何观念交换都能被看成病毒！从演化生物学看，观念是认知上的基因等价物（模因一词就来自于此）。文化、营销、宗教、社媒、教育、宣传都可以。"
+        },
+        {
+          "type": "comment",
+          "author": "dzink",
+          "en": "When a person spends time with other people, they outsource some of their thinking organically. That’s the efficiency gain in teams. Marriage leads to couples becoming two halves of a shared brain - one person takes on some cognitive load (finances, kids education, etc), while the other takes on another (maybe house issues, taxes, you name it). The load that can be carried with one brain is limited, so merging with others and outsourcing to others feels organic to the brain. LLM create the impression they have the cognitive ability to carry the load, but they don’t have the consistency of memory. You gladly assume you can finally get rid of a task and the model you trusted it to gets swapped under the curtain, or doesn’t train and improve on the task you outsourced, or the inference provider just quantizes it stupid. In the mean time you’ve lost your skill and your task has failed. Ye…",
+          "zh": "人和人相处时，会有机地外包一部分思考——那是团队效率。婚姻让两人变成共享大脑的两半：一人扛财务与教育，另一人扛房屋与税务。单脑负载有限，与他人合并/外包对大脑是有机的。LLM制造了可无限外包的印象。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49580164",
+      "hn_points": 152,
+      "hn_comments": 132,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}

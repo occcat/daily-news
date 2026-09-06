@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Microglia use TAM receptors to eat living motor neurons in ALS mice",
+      "title_zh": "ALS小鼠：小胶质细胞借TAM受体吞噬仍存活的运动神经元",
+      "publisher": "nature.com",
+      "article_url": "https://www.nature.com/articles/s41467-026-76728-5",
+      "significance_score": 6.8,
+      "summary_zh": "索尔克研究所在《自然·通讯》报告：SOD1 ALS小鼠脊髓中，小胶质细胞通过Axl/Mer等TAM受体识别运动神经元表面异常“吃我”信号（磷脂酰丝氨酸），吞噬尚未死亡的神经元。敲除Axl与Mer后小鼠发病加快但存活更久、保留更多运动神经元。作者称这是首次证明TAM系统可靶向活细胞，并提醒单纯抑制TAM并非良策，需同时针对ALS上游机制。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Greg Lemke / Salk Institute",
+          "en": "The bottom line is, microglia are using the TAM system to eat cells that aren’t dead.",
+          "zh": "结论是：小胶质细胞在用TAM系统吞噬那些还没死的细胞。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据Salk/Nature Communications/SciTechDaily公开报道估分6.8",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "title_zh": "Isar Aerospace：民营德国火箭从欧洲本土首次入轨",
+      "publisher": "space.com",
+      "article_url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+      "significance_score": null,
+      "summary_zh": "Space.com等报道Isar Aerospace的Spectrum火箭在挪威安岛发射场第二次试飞成功进入轨道，成为从欧洲土壤升空的民营入轨里程碑。HN评论把它读成欧盟与美国缓慢脱钩的硬件证据，也有人希望技术能反哺乌克兰防空。约305赞、157评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "hypfer",
+          "en": "This is a huge success, but it I think also tells us that the EU is further decoupling itself from the US. Slowly but steadily. Which is obviously the right thing to do, but it's interesting that it's not just a hypothetical anymore.",
+          "zh": "这是巨大成功，但我觉得也说明欧盟在进一步与美国脱钩。缓慢而稳健。显然该这么做，有趣的是它不再只是假想。"
+        },
+        {
+          "type": "comment",
+          "author": "MadrasTh0rn",
+          "en": "One can hope they can repurpose this to a shield for Ukraine",
+          "zh": "希望他们能把这套改造成乌克兰的防护盾。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49580369",
+      "hn_points": 305,
+      "hn_comments": 157,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "Multi-organ chip models breast cancer metastasis to bone and lung",
+      "title_zh": "哥伦比亚多器官芯片：实时观察乳腺癌向骨与肺的器官特异性定植",
+      "publisher": "science.org",
+      "article_url": "https://www.science.org/doi/10.1126/scitranslmed.adv6871",
+      "significance_score": 6.6,
+      "summary_zh": "哥伦比亚工程学院Vunjak-Novakovic团队在《科学·转化医学》发表首个将毫米级人骨与肺组织经血管通道连通的转移芯片，追踪循环乳腺癌细胞离开血流、定植并重塑龛位的过程。骨嗜性细胞系更强侵袭工程骨并致退变，肺嗜性则相反；分泌组提示定植前的远器官预处理。为药物筛选与器官特异性转移机制提供人源模型。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Columbia Engineering / SciTechDaily",
+          "en": "The first model of its kind, the chip contains separate compartments with millimeter-scale bone and lung tissues connected by a flowing vascular channel.",
+          "zh": "作为同类首个模型，该芯片含由流动血管通道连接的毫米级骨与肺组织独立腔室。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据Science Translational Medicine/Columbia公开报道估分6.6",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "How the Disaster of \"Forever Chemicals\" Was Kept Secret",
+      "title_zh": "“永久化学品”灾难如何被保密：ProPublica播客追3M",
+      "publisher": "propublica.org",
+      "article_url": "https://www.propublica.org/podcast/forever-chemicals-pfas-pfos-3m-secret-kris-hansen",
+      "significance_score": null,
+      "summary_zh": "ProPublica播客梳理PFAS/PFOS如何在数十年间被企业内部知情却对外淡化，终成全球性污染与健康诉讼。评论引用Veritasium纪录片，并有人以极刑修辞表达愤怒。约279赞、89评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "chaz6",
+          "en": "Crimes on this scale warrant capital punishment.",
+          "zh": "这种规模的罪行理应适用死刑。"
+        },
+        {
+          "type": "comment",
+          "author": "alt227",
+          "en": "The Veritasium documentary on this is very informative: https://youtu.be/SC2eSujzrUY",
+          "zh": "Veritasium关于此事的纪录片非常有信息量：https://youtu.be/SC2eSujzrUY"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49576986",
+      "hn_points": 279,
+      "hn_comments": 89,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "OECD model: climate change could cut global GDP per capita up to 18% by 2100",
+      "title_zh": "经合组织CASGEM：高排放情景下2100年全球人均GDP或低18%",
+      "publisher": "oecd.org",
+      "article_url": "https://oecdecoscope.blog/2026/09/04/measuring-the-macroeconomic-cost-of-climate-change-from-the-ground-up/",
+      "significance_score": 6.5,
+      "summary_zh": "经合组织经济学部用OECD-CASGEM把927个地区的热应激、洪水、农业与海平面上升损害接入全球空间一般均衡：现行政策情景下2050/2100年全球人均GDP约低3%/6.3%；高排放情景约低6%/18%。贸易与劳动力流动可把2100年全球损失再削约8%，但会重塑房价与区域分化。南欧、美国部分地区、澳大利亚与智利等OECD内部损失偏大。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Baptista, Costa, Unsal / OECD",
+          "en": "Under a high-emissions scenario, losses rise to around 6% by 2050 and 18% by 2100.",
+          "zh": "在高排放情景下，损失升至2050年约6%、2100年约18%。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据OECD Ecoscope工作论文公开报道估分6.5",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+      "title_zh": "“60美元游戏PC”：AMD BC-250矿渣板的现实账单",
+      "publisher": "devquasar.com",
+      "article_url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
+      "significance_score": null,
+      "summary_zh": "devquasar拆解用AMD BC-250（原加密货币板）拼低价游戏机的玩法：刷BIOS解锁更多CU/核心，配合3D打印壳与闲置电源。评论泼冷水——光主板已超150美元，还要NVMe、高压风扇、转接与抽签品控——但仍有人用它硬刚Steam Machine。约265赞、80评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "nsbk",
+          "en": "I built one of these. It is not possible to do so for 60$ anymore since the board itself goes for 150+. On top of that you still need a PSU, NVMe, a high pressure fan, DP to HDMI adapter, possibly BT and Wifi adapters, and a 3d-printed or DIY case. It is also a very hacky build. You need to flash the BIOS which enables a few interesting unlocks: from 24 to 40 GPU compute units and 6 to 8 CPU cores. It's a bit of a silicon lottery and will depend on your specific board and you need to test everything thoroughly yourself, honing on a config that works for you. The software side of things is Linux, so if you're familiar with setting it up it shouldn't be difficult to go through the different steps. There are a few distros that work well. I use Bazzite and boot directly to Steam big picture, the UX is great. You can exit to desktop and you have a fully usable Linux box that you can play a…",
+          "zh": "我做过一台。现在不可能60美元完成，光板子就150+。还要电源、NVMe、高压风扇、DP转HDMI、可能还要蓝牙WiFi和3D打印壳。还得很黑：刷BIOS把GPU计算单元从24提到40、CPU从6核到8核，看品控，还得逐项测试。"
+        },
+        {
+          "type": "comment",
+          "author": "jolan",
+          "en": "I bought one while waiting to see if my Steam Machine reservation would be fulfilled. I paid ~$186 shipped for the board on eBay 5 weeks ago. I use an ATX power supply and NVMe that I had laying around and I printed a big case for it[0]. I seem to have gotten a good one as it has no problems after unlocking the extra CPU/GPU cores. I run vanilla Arch on mine configured to boot into Steam. The jank factor is pretty high but it does trade blows with the Steam Machine for a fraction of the price.[1] I did end up going through with the purchase of a 512GB Steam Machine for $1160 w/tax and swapped in a 2TB NVMe. It is definitely a more polished/living room-ready product and I'm happy with the hardware but it's definitely a questionable value. It's worth reading over the docs[2] first before committing. There are lots of options for cooling, storage, and power supplies. Just depends on what…",
+          "zh": "我一边等Steam Machine预约，一边买了这块。五周前eBay含运约186美元。用闲置ATX电源和NVMe，自己打了大壳。运气不错，解锁额外CPU/GPU核心后没问题。Arch引导进Steam，很糙，但能用几分之一价格跟Steam Machine互搏。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49576386",
+      "hn_points": 265,
+      "hn_comments": 80,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "Missouri asks US Supreme Court to revive Trump-backed House map after state court block",
+      "title_zh": "密苏里就国会选区图紧急上诉联邦最高法院：州高院已打回2022年地图",
+      "publisher": "cnn.com",
+      "article_url": "https://www.cnn.com/2026/09/04/politics/missouri-asks-supreme-court-to-allow-redistricting",
+      "significance_score": 6.4,
+      "summary_zh": "密苏里州最高法院一致裁定：共和党主导重划、意在多拿一席的国会地图须付诸公投，2026年11月大选应使用2022年旧图；州检察长紧急向联邦最高法院申请暂缓，警告选务“混乱”并援引海外军人选票邮寄期限。民主党视之为全国改划战中的罕见挫败；联邦法官与竞争诉讼同步升温。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Missouri AG filing / CNN",
+          "en": "A federal-election-administration disaster is unfolding in Missouri.",
+          "zh": "一场联邦选举行政灾难正在密苏里展开。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据CNN/州高院公开报道估分6.4",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "Wikimedia Foundation Workers Overwhelmingly Vote to Form Union with CWA",
+      "title_zh": "维基媒体基金会员工压倒性投票加入CWA工会",
+      "publisher": "wikiworkersunited.org",
+      "article_url": "https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/",
+      "significance_score": null,
+      "summary_zh": "Wiki Workers United宣布美国维基媒体基金会员工以压倒性票数选择与通信工人协会（CWA）组建工会，理由包括AI冲击与组织优先级变化下需要集体发声。评论一边引用官网“为什么”，一边质疑基金会开支十年涨十倍而用户量相对平稳。约261赞、122评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "dbingham",
+          "en": "Lots of people asking \"Why?\". They say so right on their site: There are big changes happening in the technology industry and they are acting pro-actively to ensure the workers have a strong collective voice in the ways the foundation chooses to respond to those changes. \"The Wikimedia Foundation and the broader technology and nonprofit sectors are navigating a period of significant change. From rapid advances in artificial intelligence to evolving organizational priorities and external pressures, and changing patterns of readership and discovery, the decisions being made today will shape our workplace for years to come. Our union members believe this is the right moment to establish a lasting, legally recognized voice in those conversations. Rather than waiting until difficult decisions are made, we are organizing now to help build a stronger Foundation that can meet future challenge…",
+          "zh": "很多人问“为什么”。他们官网上写了：科技业正在巨变，他们主动确保员工在基金会如何回应这些变化时有强集体声音——从AI快速进展到组织优先级与外部压力。"
+        },
+        {
+          "type": "comment",
+          "author": "cm2012",
+          "en": "Everyone wants a piece of the wikipedia gravy train. In 2010: Wikimedia Foundation annual expenses were about $20m In 2025: Wikimedia Foundation annual expenses are about $200m The story of Wikipedia of the last 10 years especially is endlessly higher spending for a very stable number of monthly users (1.5b or so). You can make the case that 80% of this spend is not necessary to what the average users donating to Wikipedia think of as \"wikipedia\". It makes sense for the employees to want to lock in their share of the bag.",
+          "zh": "人人都想分维基百科那锅肉汤。2010年基金会年开支约2000万美元，2025年约2亿美元；过去十年尤其是开支不断抬升，而月活用户大致稳定在约15亿。可以说八成开支并非捐赠者心中的“维基百科”所必需，员工想锁定利益也说得通。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49577975",
+      "hn_points": 261,
+      "hn_comments": 122,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "Semaglutide extends lifespan in aged female mice in Nature study",
+      "title_zh": "《自然》：司美格鲁肽延长老年雌鼠寿命并减缓衰老表型",
+      "publisher": "nature.com",
+      "article_url": "https://www.nature.com/articles/s41586-026-10940-7",
+      "significance_score": 6.3,
+      "summary_zh": "加州大学伯克利团队在《自然》报告：对约20月龄雌鼠晚年开始司美格鲁肽干预，摄食约减24%、脂肪量下降，中位寿命从742天升至834天，并改善多项年龄相关生理指标。作者视其为热量限制模拟线索；强调尚无人类寿命证据，需长期老年临床研究。与昨日HIV人群生物年龄试验为不同研究线。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Feng et al. / Nature via News-Medical",
+          "en": "Late-life treatment with the diabetes and obesity drug semaglutide slowed age-related decline and extended lifespan in aged female mice.",
+          "zh": "生命晚期使用糖尿病与肥胖药物司美格鲁肽，减缓了老年雌鼠的年龄相关衰退并延长了寿命。"
+        }
+      ],
+      "fetch_notes": "NM首页429；据Nature/News-Medical公开报道估分6.3",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+      "title_zh": "Spotify Portal：自称把Claude Code token用量砍掉90%",
+      "publisher": "engineering.atspotify.com",
+      "article_url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "significance_score": null,
+      "summary_zh": "Spotify工程博客介绍Portal：用子代理/路由压缩上下文，号称个人Claude Code输入token降约九成。HN立刻质疑：正确率与任务成功率只字未提；按大小路由不等于复杂度；省输入≠省账单（输出更贵）；还有人吐槽技术领导力页面本身反阅读。约244赞、153评。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "schainks",
+          "en": "It takes true corporate dedication to publish technical thought leadership on a page that actively fights your ability to read it.",
+          "zh": "得有真正的企业执念，才会在一篇主动跟你抢阅读能力的页面上发技术思想领导力。"
+        },
+        {
+          "type": "comment",
+          "author": "ricardobeat",
+          "en": "No mention of correctness or task success rate. This only works if the subagent model is much cheaper than the one running your session, which means it will probably be mistaken a lot more often [1] about what the code does. Routing purely on size tells you nothing about code complexity. On top of that, saving 90% of input tokens != saving 90% \"of tokens\", output is wildly more expensive. [1] especially if it's a really old model like Gemini 2.5!",
+          "zh": "完全没提正确率或任务成功率。只有子代理模型远比会话模型便宜时才成立，而那通常意味着对代码理解错得更多。纯按大小路由说明不了复杂度。而且省90%输入token≠省90%“token”，输出贵得多。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49571465",
+      "hn_points": 244,
+      "hn_comments": 153,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}
