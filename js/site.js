@@ -159,7 +159,7 @@
     if (iso === ETCH_DAY) return "klein-etch";
     if (iso === SEAL_DAY) return "vintage-seal";
     if (THEMES[name]) return name;
-    if (iso && iso >= WEEK2_START) return "ordered-dither";
+    if (iso && iso >= WEEK2_START) return "printed-logic";
     return "klein-halftone";
   }
 
