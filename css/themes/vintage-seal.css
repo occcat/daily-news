@@ -285,8 +285,8 @@ a:focus-visible {
   font-size: 17px;
   font-weight: 700;
   line-height: 1.45;
-  color: var(--navy);
-  background-image: linear-gradient(var(--navy), var(--navy));
+  color: var(--ink);
+  background-image: linear-gradient(var(--ink), var(--ink));
   background-repeat: no-repeat;
   background-position: 0 100%;
   background-size: 0 1px;
@@ -318,17 +318,20 @@ a:focus-visible {
   border-left: 1px solid var(--navy);
 }
 
+.quote--en,
+.quote--zh {
+  color: var(--ink);
+}
+
 .quote--en {
   font-family: var(--serif);
   font-style: italic;
   font-size: 15px;
-  color: var(--ink);
 }
 
 .quote--zh {
   font-family: var(--sans);
   font-size: 15px;
-  color: var(--ink);
 }
 
 .quote__author { color: var(--navy); }
@@ -366,6 +369,8 @@ a:focus-visible {
 .item--lead .item__title {
   color: var(--cream);
   background-image: linear-gradient(var(--cream), var(--cream));
+  font-weight: 800;
+  line-height: 1.5;
 }
 
 .item--lead .item__sum,
@@ -507,8 +512,9 @@ a:focus-visible {
   .item__n {
     width: 40px;
     height: 40px;
-    font-size: 13px;
+    font-size: 14px;
   }
-  .item__title { font-size: 16px; }
+  .item__title { font-size: 18px; }
+  .item__sum { font-size: 16px; }
   .item--lead .item__body { padding: 0.95rem 0.85rem 1rem; }
 }
