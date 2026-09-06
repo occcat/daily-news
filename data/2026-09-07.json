@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-07",
+  "timezone": "Asia/Shanghai",
+  "title": "2026-09-07 皮肤预览",
+  "summary_zh": "皮肤预览。条目复用 2026-09-06 真实稿件，非正式当日稿。",
+  "item_count": 30,
+  "theme": "scrap-zine",
+  "stub": true,
+  "parts": [
+    "2026-09-06-p1.json",
+    "2026-09-06-p2.json",
+    "2026-09-06-p3.json"
+  ]
+}

@@ -10,6 +10,8 @@
   var WEEK2_START = "2026-08-30";
   var ETCH_DAY = "2026-08-29";
   var SEAL_DAY = "2026-09-03";
+  var SCRAP_DAY = "2026-09-07";
+  var POSTAGE_DAY = "2026-09-08";
   var THEMES = {
     "klein-halftone": 1,
     "klein-etch": 1,
@@ -27,7 +29,9 @@
     "paper-prism": 1,
     "ascii-plot": 1,
     "printed-logic": 1,
-    "vintage-seal": 1
+    "vintage-seal": 1,
+    "scrap-zine": 1,
+    "postage-strip": 1
   };
   var WEEK2 = {
     "ordered-dither": 1,
@@ -39,6 +43,10 @@
     "ascii-plot": 1,
     "printed-logic": 1,
     "vintage-seal": 1
+  };
+  var WEEK3 = {
+    "scrap-zine": 1,
+    "postage-strip": 1
   };
   var WEEK2_FONTS =
     "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Special+Elite&display=swap";
@@ -158,6 +166,8 @@
   function resolveTheme(name, iso) {
     if (iso === ETCH_DAY) return "klein-etch";
     if (iso === SEAL_DAY) return "vintage-seal";
+    if (iso === SCRAP_DAY) return "scrap-zine";
+    if (iso === POSTAGE_DAY) return "postage-strip";
     if (THEMES[name]) return name;
     if (iso && iso >= WEEK2_START) return "printed-logic";
     return "klein-halftone";
@@ -176,7 +186,7 @@
 
   function landMotion(scope) {
     if (!scope) return;
-    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree, .od-cluster, .nf-window, .pp-cube, .gz-band, .ke-etch, .pl-bar, .pl-warp, .pl-cube, .pl-dots, .vs-rules, .vs-seals, .vs-commem").forEach(function (el) {
+    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree, .od-cluster, .nf-window, .pp-cube, .gz-band, .ke-etch, .pl-bar, .pl-warp, .pl-cube, .pl-dots, .vs-rules, .vs-seals, .vs-commem, .sz-rail, .ps-perf, .ps-marks").forEach(function (el) {
       el.addEventListener("animationend", function (ev) {
         if (ev.target !== el) return;
         el.classList.add("is-landed");
@@ -582,7 +592,9 @@
     "ascii-plot": "",
     "impasto-card": "",
     "printed-logic": "在复杂的世界里，保持清醒与好奇。",
-    "vintage-seal": ""
+    "vintage-seal": "",
+    "scrap-zine": "剪贴成刊，观察与记录。",
+    "postage-strip": "每日一封，寄出观察。"
   };
 
   function threeWordTag(it) {
@@ -780,6 +792,24 @@
     );
   }
 
+  function szChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="sz-chrome" aria-hidden="true">' +
+      '<div class="sz-rail sz-rail--left"></div>' +
+      '<div class="sz-rail sz-rail--right"></div>' +
+      "</div>"
+    );
+  }
+
+  function psChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="ps-chrome" aria-hidden="true">' +
+      '<div class="ps-perf"></div>' +
+      '<div class="ps-marks"></div>' +
+      "</div>"
+    );
+  }
+
   function dressTheme(theme, iso) {
     clearThemeChrome();
     if (theme === "klein-etch") {
@@ -787,7 +817,7 @@
       if (v2) v2.insertAdjacentHTML("afterbegin", keChromeHTML());
       return;
     }
-    if (!WEEK2[theme]) return;
+    if (!WEEK2[theme] && !WEEK3[theme]) return;
     var dayEl = document.querySelector("#skin-v2 .day");
     var skin = document.getElementById("skin-v2");
     var html = "";
@@ -799,8 +829,10 @@
     else if (theme === "ascii-plot") html = apChromeHTML();
     else if (theme === "printed-logic") html = plChromeHTML();
     else if (theme === "vintage-seal") html = vsChromeHTML();
+    else if (theme === "scrap-zine") html = szChromeHTML();
+    else if (theme === "postage-strip") html = psChromeHTML();
     if (!html) return;
-    var host = theme === "cote-grid" || theme === "printed-logic" || theme === "vintage-seal" ? skin : dayEl;
+    var host = theme === "cote-grid" || theme === "printed-logic" || theme === "vintage-seal" || WEEK3[theme] ? skin : dayEl;
     if (host) host.insertAdjacentHTML("afterbegin", html);
     if (theme === "printed-logic" && dayEl) {
       var head = dayEl.querySelector(".day-head");
@@ -914,7 +946,7 @@
       if (theme === "impasto-card") {
         code = "Oil Painting";
         codeHidden = false;
-      } else if (theme === "gathered-zine") {
+      } else if (theme === "gathered-zine" || theme === "scrap-zine") {
         code = threeWordTag(it);
         codeHidden = false;
       } else if (printed || sealed) {
@@ -1037,6 +1069,8 @@
     if (date === "2026-08-23") applyTheme("polaroid", date);
     else if (date === "2026-08-25") applyTheme("isometric-mini", date);
     else if (date === SEAL_DAY) applyTheme("vintage-seal", date);
+    else if (date === SCRAP_DAY) applyTheme("scrap-zine", date);
+    else if (date === POSTAGE_DAY) applyTheme("postage-strip", date);
     else applyTheme(fallbackTheme(date), date);
     renderThemedHead(date);
     fetchJSON(date + ".json").then(function (day) {
