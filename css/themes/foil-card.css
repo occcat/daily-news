@@ -170,6 +170,7 @@ a:focus-visible {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.15rem;
   width: 100%;
+  max-width: 100%;
 }
 
 .item {
@@ -177,6 +178,8 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   margin: 0;
+  min-width: 0;
+  max-width: 100%;
   min-height: 220px;
   padding: 1.25rem 1.15rem 1.05rem;
   background: var(--paper);
@@ -184,6 +187,7 @@ a:focus-visible {
   border: 3px solid var(--foil);
   box-shadow:
     inset 0 0 0 1px var(--silver);
+  overflow-wrap: anywhere;
 }
 
 .item--lead,
@@ -207,6 +211,11 @@ a:focus-visible {
 .item__visual,
 .item__mark { display: none; }
 
+.item__body {
+  min-width: 0;
+  max-width: 100%;
+}
+
 .item__title {
   margin: 0;
   font-family: "Noto Serif SC", var(--serif);
@@ -216,6 +225,7 @@ a:focus-visible {
   color: var(--ink);
   background: none;
   -webkit-text-fill-color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item__sum {
@@ -227,6 +237,7 @@ a:focus-visible {
   color: var(--ink);
   background: none;
   -webkit-text-fill-color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item__meta,
@@ -237,6 +248,12 @@ a:focus-visible {
   font-size: 12px;
   font-weight: 500;
   color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.item__meta a,
+.item__meta a:visited {
+  word-break: break-all;
 }
 
 .item__code {
@@ -254,12 +271,14 @@ a:focus-visible {
   opacity: 0.88;
 }
 
-.quotes { margin-top: 0.7rem; }
+.quotes { margin-top: 0.7rem; max-width: 100%; }
 
 .quote-pair {
   margin: 0 0 0.7rem;
   padding: 0 0 0 0.75rem;
   border-left: 2px solid var(--foil);
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .quote--en {
@@ -267,12 +286,14 @@ a:focus-visible {
   font-style: italic;
   font-size: 15px;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .quote--zh {
   font-family: var(--sans);
   font-size: 15px;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .quote__author { color: var(--mute); }
@@ -359,11 +380,12 @@ a:focus-visible {
 }
 
 @media (max-width: 720px) {
-  .items { grid-template-columns: 1fr; }
+  .items { grid-template-columns: minmax(0, 1fr); }
   .item--lead,
   .item--hn { grid-column: auto; }
-  .day { width: calc(100% - 32px); padding: 28px 0 80px; }
-  .item { min-height: 0; padding: 1.05rem 0.95rem 0.95rem; }
+  .day { width: calc(100% - 32px); max-width: 100%; padding: 28px 0 80px; }
+  .day-head { min-width: 0; max-width: 100%; }
+  .item { min-height: 0; min-width: 0; max-width: 100%; padding: 1.05rem 0.95rem 0.95rem; }
   .item__title {
     font-size: 18px;
     color: var(--ink);

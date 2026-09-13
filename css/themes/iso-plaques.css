@@ -160,16 +160,20 @@ a:focus-visible {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem 1.35rem;
   width: 100%;
+  max-width: 100%;
 }
 
 .item {
   --rise: 0px;
   position: relative;
   margin: 0;
+  min-width: 0;
+  max-width: 100%;
   padding: 0.9rem 0.95rem 1rem 1.05rem;
   background: var(--cream);
   color: var(--ink);
   box-shadow: 10px 8px 0 var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item:nth-child(4n+2) { --rise: 18px; margin-top: 18px; }
@@ -220,6 +224,11 @@ a:focus-visible {
 .item__mark,
 .item__code { display: none; }
 
+.item__body {
+  min-width: 0;
+  max-width: 100%;
+}
+
 .item__title {
   margin: 0;
   font-family: var(--sans);
@@ -229,6 +238,7 @@ a:focus-visible {
   color: var(--ink);
   background: none;
   -webkit-text-fill-color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item__sum {
@@ -240,6 +250,7 @@ a:focus-visible {
   color: var(--ink);
   background: none;
   -webkit-text-fill-color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item__meta,
@@ -249,14 +260,22 @@ a:focus-visible {
   font-size: 12px;
   font-weight: 500;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
-.quotes { margin-top: 0.65rem; }
+.item__meta a,
+.item__meta a:visited {
+  word-break: break-all;
+}
+
+.quotes { margin-top: 0.65rem; max-width: 100%; }
 
 .quote-pair {
   margin: 0 0 0.65rem;
   padding: 0 0 0 0.7rem;
   border-left: 2px solid var(--ink);
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .quote--en {
@@ -264,12 +283,14 @@ a:focus-visible {
   font-style: italic;
   font-size: 14px;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .quote--zh {
   font-family: var(--sans);
   font-size: 14px;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .quote__author { color: var(--mute); }
@@ -356,12 +377,30 @@ a:focus-visible {
 }
 
 @media (max-width: 720px) {
-  .items { grid-template-columns: 1fr; gap: 1.15rem; }
+  .items {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.15rem;
+    /* Keep isometric step + drop face inside the column. */
+    padding: 0 20px 10px 14px;
+  }
   .item,
   .item:nth-child(n) { margin-top: 0; }
   .item--lead { grid-column: auto; }
-  .day { width: calc(100% - 32px); padding: 28px 0 80px; }
-  .item { padding: 0.85rem 0.85rem 0.9rem 0.95rem; }
+  .day { width: calc(100% - 32px); max-width: 100%; padding: 28px 0 80px; }
+  .item {
+    min-width: 0;
+    max-width: 100%;
+    padding: 0.85rem 0.85rem 0.9rem 0.95rem;
+    box-shadow: 8px 6px 0 var(--ink);
+  }
+  .item::before {
+    left: -10px;
+    width: 10px;
+  }
+  .item::after {
+    right: -8px;
+    height: 6px;
+  }
   .item__title {
     font-size: 18px;
     color: var(--ink);
