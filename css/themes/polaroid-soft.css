@@ -131,6 +131,7 @@ a:focus-visible {
   flex-wrap: wrap;
   gap: 1.35rem 1.2rem;
   width: 100%;
+  max-width: 100%;
 }
 
 .item {
@@ -138,6 +139,8 @@ a:focus-visible {
   position: relative;
   isolation: isolate;
   width: calc(50% - 0.6rem);
+  min-width: 0;
+  max-width: 100%;
   margin: 0;
   padding: 1.05rem 1.1rem 1.15rem;
   background: var(--frame);
@@ -147,6 +150,7 @@ a:focus-visible {
     1px 2px 3px rgba(40, 28, 12, 0.05),
     6px 14px 24px rgba(40, 28, 12, 0.12);
   transform: rotate(var(--rest-rot));
+  overflow-wrap: anywhere;
 }
 
 .item:nth-child(4n+2) { --rest-rot: 1.6deg; }
@@ -172,6 +176,11 @@ a:focus-visible {
 .item__mark,
 .item__code { display: none; }
 
+.item__body {
+  min-width: 0;
+  max-width: 100%;
+}
+
 .item__title {
   margin: 0;
   font-family: var(--sans);
@@ -181,6 +190,7 @@ a:focus-visible {
   color: var(--ink);
   background: none;
   -webkit-text-fill-color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item__sum {
@@ -192,6 +202,7 @@ a:focus-visible {
   color: var(--ink);
   background: none;
   -webkit-text-fill-color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item__meta,
@@ -201,14 +212,22 @@ a:focus-visible {
   font-size: 12px;
   font-weight: 500;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
-.quotes { margin-top: 0.7rem; }
+.item__meta a,
+.item__meta a:visited {
+  word-break: break-all;
+}
+
+.quotes { margin-top: 0.7rem; max-width: 100%; }
 
 .quote-pair {
   margin: 0 0 0.7rem;
   padding: 0 0 0 0.75rem;
   border-left: 2px solid #E4D6B8;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .quote--en {
@@ -216,12 +235,14 @@ a:focus-visible {
   font-style: italic;
   font-size: 15px;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .quote--zh {
   font-family: var(--sans);
   font-size: 15px;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .quote__author { color: var(--mute); }
@@ -283,11 +304,24 @@ a:focus-visible {
 }
 
 @media (max-width: 720px) {
-  .day { width: calc(100% - 32px); padding: 28px 0 80px; }
+  .day { width: calc(100% - 32px); max-width: 100%; padding: 28px 0 80px; }
+  .day-head { min-width: 0; max-width: 100%; }
+  .items {
+    /* Keep rotate + soft halo + drop shadow inside the column. */
+    padding: 10px 16px 20px;
+  }
   .item,
-  .item--lead { width: 100%; }
+  .item--lead {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
   .item:nth-child(odd) { --rest-rot: -0.7deg; }
   .item:nth-child(even) { --rest-rot: 0.8deg; }
+  .item::after {
+    inset: -6px;
+    filter: blur(8px);
+  }
   .item__title {
     font-size: 18px;
     color: var(--ink);
