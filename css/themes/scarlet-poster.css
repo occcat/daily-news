@@ -137,13 +137,19 @@ a:focus-visible {
   background: var(--cream);
 }
 
-.items { width: 100%; }
+.items {
+  width: 100%;
+  max-width: 100%;
+}
 
 .item {
   position: relative;
   margin: 0 0 1.55rem;
+  min-width: 0;
+  max-width: 100%;
   padding: 0 0 1.45rem 1.7rem;
   border-bottom: 1px solid #E4D9C8;
+  overflow-wrap: anywhere;
 }
 
 .item::before {
@@ -163,6 +169,11 @@ a:focus-visible {
 .item__mark,
 .item__code { display: none; }
 
+.item__body {
+  min-width: 0;
+  max-width: 100%;
+}
+
 .item__title {
   margin: 0;
   font-family: "Noto Serif SC", var(--serif);
@@ -172,6 +183,7 @@ a:focus-visible {
   color: var(--ink);
   background: none;
   -webkit-text-fill-color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item__sum {
@@ -183,6 +195,7 @@ a:focus-visible {
   color: var(--ink);
   background: none;
   -webkit-text-fill-color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item__meta,
@@ -192,14 +205,22 @@ a:focus-visible {
   font-size: 12px;
   font-weight: 500;
   color: var(--scarlet);
+  overflow-wrap: anywhere;
 }
 
-.quotes { margin-top: 0.75rem; }
+.item__meta a,
+.item__meta a:visited {
+  word-break: break-all;
+}
+
+.quotes { margin-top: 0.75rem; max-width: 100%; }
 
 .quote-pair {
   margin: 0 0 0.75rem;
   padding: 0 0 0 0.8rem;
   border-left: 2px solid var(--scarlet);
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .quote--en {
@@ -207,12 +228,14 @@ a:focus-visible {
   font-style: italic;
   font-size: 15px;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .quote--zh {
   font-family: var(--sans);
   font-size: 15px;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .quote__author { color: var(--mute); }
@@ -273,9 +296,13 @@ a:focus-visible {
 }
 
 @media (max-width: 720px) {
-  .day { width: calc(100% - 28px); padding: 20px 0 80px; }
-  .day-head { padding: 1.35rem 1.15rem 1.4rem; }
-  .item { padding: 0 0 1.2rem 1.45rem; }
+  .day { width: calc(100% - 28px); max-width: 100%; padding: 20px 0 80px; }
+  .day-head { min-width: 0; max-width: 100%; padding: 1.35rem 1.15rem 1.4rem; }
+  .item {
+    min-width: 0;
+    max-width: 100%;
+    padding: 0 0 1.2rem 1.45rem;
+  }
   .item__title {
     font-size: 18px;
     color: var(--ink);

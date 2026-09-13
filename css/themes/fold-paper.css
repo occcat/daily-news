@@ -163,15 +163,19 @@ a:focus-visible {
   flex-direction: column;
   gap: 1.05rem;
   width: 100%;
+  max-width: 100%;
 }
 
 .item {
   --face: var(--face-a);
   position: relative;
   margin: 0;
+  min-width: 0;
+  max-width: 100%;
   padding: 1.15rem 2.4rem 1.2rem 1.2rem;
   background: var(--face);
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item:nth-child(5n+1) {
@@ -215,6 +219,11 @@ a:focus-visible {
 .item__mark,
 .item__code { display: none; }
 
+.item__body {
+  min-width: 0;
+  max-width: 100%;
+}
+
 .item__title {
   margin: 0;
   font-family: "Noto Serif SC", var(--serif);
@@ -224,6 +233,7 @@ a:focus-visible {
   color: var(--ink);
   background: none;
   -webkit-text-fill-color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item__sum {
@@ -235,6 +245,7 @@ a:focus-visible {
   color: var(--ink);
   background: none;
   -webkit-text-fill-color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .item__meta,
@@ -244,14 +255,22 @@ a:focus-visible {
   font-size: 12px;
   font-weight: 500;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
-.quotes { margin-top: 0.7rem; }
+.item__meta a,
+.item__meta a:visited {
+  word-break: break-all;
+}
+
+.quotes { margin-top: 0.7rem; max-width: 100%; }
 
 .quote-pair {
   margin: 0 0 0.7rem;
   padding: 0 0 0 0.75rem;
   border-left: 2px solid var(--ink);
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .quote--en {
@@ -259,12 +278,14 @@ a:focus-visible {
   font-style: italic;
   font-size: 15px;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .quote--zh {
   font-family: var(--sans);
   font-size: 15px;
   color: var(--ink);
+  overflow-wrap: anywhere;
 }
 
 .quote__author { color: var(--mute); }
@@ -351,8 +372,13 @@ a:focus-visible {
 }
 
 @media (max-width: 720px) {
-  .day { width: calc(100% - 32px); padding: 28px 0 80px; }
-  .item { padding: 1rem 1.6rem 1.05rem 1rem; }
+  .day { width: calc(100% - 32px); max-width: 100%; padding: 28px 0 80px; }
+  .day-head { min-width: 0; max-width: 100%; }
+  .item {
+    min-width: 0;
+    max-width: 100%;
+    padding: 1rem 1.6rem 1.05rem 1rem;
+  }
   .item__title {
     font-size: 18px;
     color: var(--ink);
