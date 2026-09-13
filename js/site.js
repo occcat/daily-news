@@ -12,6 +12,11 @@
   var SEAL_DAY = "2026-09-03";
   var SCRAP_DAY = "2026-09-07";
   var POSTAGE_DAY = "2026-09-08";
+  var SOFT_DAY = "2026-09-09";
+  var FOIL_DAY = "2026-09-10";
+  var PLAQUE_DAY = "2026-09-11";
+  var FOLD_DAY = "2026-09-12";
+  var SCARLET_DAY = "2026-09-13";
   var THEMES = {
     "klein-halftone": 1,
     "klein-etch": 1,
@@ -31,7 +36,12 @@
     "printed-logic": 1,
     "vintage-seal": 1,
     "scrap-zine": 1,
-    "postage-strip": 1
+    "postage-strip": 1,
+    "polaroid-soft": 1,
+    "foil-card": 1,
+    "iso-plaques": 1,
+    "fold-paper": 1,
+    "scarlet-poster": 1
   };
   var WEEK2 = {
     "ordered-dither": 1,
@@ -46,7 +56,12 @@
   };
   var WEEK3 = {
     "scrap-zine": 1,
-    "postage-strip": 1
+    "postage-strip": 1,
+    "polaroid-soft": 1,
+    "foil-card": 1,
+    "iso-plaques": 1,
+    "fold-paper": 1,
+    "scarlet-poster": 1
   };
   var WEEK2_FONTS =
     "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Special+Elite&display=swap";
@@ -168,6 +183,11 @@
     if (iso === SEAL_DAY) return "vintage-seal";
     if (iso === SCRAP_DAY) return "scrap-zine";
     if (iso === POSTAGE_DAY) return "postage-strip";
+    if (iso === SOFT_DAY) return "polaroid-soft";
+    if (iso === FOIL_DAY) return "foil-card";
+    if (iso === PLAQUE_DAY) return "iso-plaques";
+    if (iso === FOLD_DAY) return "fold-paper";
+    if (iso === SCARLET_DAY) return "scarlet-poster";
     if (THEMES[name]) return name;
     if (iso && iso >= WEEK2_START) return "printed-logic";
     return "klein-halftone";
@@ -186,7 +206,7 @@
 
   function landMotion(scope) {
     if (!scope) return;
-    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree, .od-cluster, .nf-window, .pp-cube, .gz-band, .ke-etch, .pl-bar, .pl-warp, .pl-cube, .pl-dots, .vs-rules, .vs-seals, .vs-commem, .sz-rail, .ps-perf, .ps-marks").forEach(function (el) {
+    scope.querySelectorAll(".item, .item__mark, .item__stand, .item__id, .iso-tree, .od-cluster, .nf-window, .pp-cube, .gz-band, .ke-etch, .pl-bar, .pl-warp, .pl-cube, .pl-dots, .vs-rules, .vs-seals, .vs-commem, .sz-rail, .ps-perf, .ps-marks, .fc-rail, .ip-rail, .fp-rail").forEach(function (el) {
       el.addEventListener("animationend", function (ev) {
         if (ev.target !== el) return;
         el.classList.add("is-landed");
@@ -594,7 +614,12 @@
     "printed-logic": "在复杂的世界里，保持清醒与好奇。",
     "vintage-seal": "",
     "scrap-zine": "剪贴成刊，观察与记录。",
-    "postage-strip": "每日一封，寄出观察。"
+    "postage-strip": "每日一封，寄出观察。",
+    "polaroid-soft": "软框留白，字迹清楚。",
+    "foil-card": "厚卡描金，墨色落纸。",
+    "iso-plaques": "小牌台阶，标签与正文。",
+    "fold-paper": "折面色块，字在平面。",
+    "scarlet-poster": "朱红刊头，奶油栏阅读。"
   };
 
   function threeWordTag(it) {
@@ -810,6 +835,33 @@
     );
   }
 
+  function fcChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="fc-chrome" aria-hidden="true">' +
+      '<div class="fc-rail fc-rail--left"></div>' +
+      '<div class="fc-rail fc-rail--right"></div>' +
+      "</div>"
+    );
+  }
+
+  function ipChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="ip-chrome" aria-hidden="true">' +
+      '<div class="ip-rail ip-rail--left"></div>' +
+      '<div class="ip-rail ip-rail--right"></div>' +
+      "</div>"
+    );
+  }
+
+  function fpChromeHTML() {
+    return (
+      '<div id="theme-chrome" class="fp-chrome" aria-hidden="true">' +
+      '<div class="fp-rail fp-rail--left"></div>' +
+      '<div class="fp-rail fp-rail--right"></div>' +
+      "</div>"
+    );
+  }
+
   function dressTheme(theme, iso) {
     clearThemeChrome();
     if (theme === "klein-etch") {
@@ -831,6 +883,9 @@
     else if (theme === "vintage-seal") html = vsChromeHTML();
     else if (theme === "scrap-zine") html = szChromeHTML();
     else if (theme === "postage-strip") html = psChromeHTML();
+    else if (theme === "foil-card") html = fcChromeHTML();
+    else if (theme === "iso-plaques") html = ipChromeHTML();
+    else if (theme === "fold-paper") html = fpChromeHTML();
     if (!html) return;
     var host = theme === "cote-grid" || theme === "printed-logic" || theme === "vintage-seal" || WEEK3[theme] ? skin : dayEl;
     if (host) host.insertAdjacentHTML("afterbegin", html);
@@ -1071,6 +1126,11 @@
     else if (date === SEAL_DAY) applyTheme("vintage-seal", date);
     else if (date === SCRAP_DAY) applyTheme("scrap-zine", date);
     else if (date === POSTAGE_DAY) applyTheme("postage-strip", date);
+    else if (date === SOFT_DAY) applyTheme("polaroid-soft", date);
+    else if (date === FOIL_DAY) applyTheme("foil-card", date);
+    else if (date === PLAQUE_DAY) applyTheme("iso-plaques", date);
+    else if (date === FOLD_DAY) applyTheme("fold-paper", date);
+    else if (date === SCARLET_DAY) applyTheme("scarlet-poster", date);
     else applyTheme(fallbackTheme(date), date);
     renderThemedHead(date);
     fetchJSON(date + ".json").then(function (day) {
