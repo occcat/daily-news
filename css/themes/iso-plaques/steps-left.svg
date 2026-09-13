@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="360" viewBox="0 0 48 360" fill="none">
+  <g>
+    <polygon points="8,28 24,20 40,28 24,36" fill="#2A2622"/>
+    <polygon points="8,28 24,36 24,52 8,44" fill="#1A1916"/>
+    <polygon points="24,36 40,28 40,44 24,52" fill="#4A433C"/>
+  </g>
+  <g>
+    <polygon points="4,86 16,80 28,86 16,92" fill="#2A2622"/>
+    <polygon points="4,86 16,92 16,104 4,98" fill="#1A1916"/>
+    <polygon points="16,92 28,86 28,98 16,104" fill="#4A433C"/>
+  </g>
+  <g>
+    <polygon points="12,140 32,130 48,140 32,150" fill="#2A2622"/>
+    <polygon points="12,140 32,150 32,170 12,160" fill="#1A1916"/>
+    <polygon points="32,150 48,140 48,160 32,170" fill="#4A433C"/>
+  </g>
+  <rect x="10" y="196" width="18" height="8" fill="#1A1916"/>
+  <rect x="16" y="188" width="18" height="8" fill="#2A2622"/>
+  <rect x="22" y="180" width="18" height="8" fill="#4A433C"/>
+  <g>
+    <polygon points="6,236 20,228 34,236 20,244" fill="#2A2622"/>
+    <polygon points="6,236 20,244 20,258 6,250" fill="#1A1916"/>
+    <polygon points="20,244 34,236 34,250 20,258" fill="#4A433C"/>
+  </g>
+  <rect x="8" y="288" width="16" height="7" fill="#1A1916"/>
+  <rect x="14" y="281" width="16" height="7" fill="#2A2622"/>
+  <rect x="20" y="274" width="16" height="7" fill="#4A433C"/>
+  <g>
+    <polygon points="10,328 24,320 38,328 24,336" fill="#2A2622"/>
+    <polygon points="10,328 24,336 24,350 10,342" fill="#1A1916"/>
+    <polygon points="24,336 38,328 38,342 24,350" fill="#4A433C"/>
+  </g>
+</svg>
