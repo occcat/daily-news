@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Houthi advance in Yemen puts U.S. in a new bind",
+      "title_zh": "胡塞推进令美国陷入新困局：红海咽喉与伊战缠在一起",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/middle-east/houthi-advance-yemen-puts-us-new-bind-2026-09-12/",
+      "significance_score": 7.2,
+      "summary_zh": "路透9月12日分析：伊朗支持的胡塞沿也门红海沿岸闪电推进并抵近佩里姆岛后，把特朗普推进第七个月的对伊战争拖进新难题——德黑兰可能同时握有霍尔木兹与曼德两条石油走廊的杠杆；沙特在霍尔木兹受阻后更依赖红海出口，风险进一步叠加。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "A lightning offensive by the Iran-aligned Houthis has put the militants in a position to control a crucial Middle East waterway, creating a major new problem for U.S. President Donald Trump as his war with Iran grinds on in its seventh month.",
+          "zh": "伊朗支持的胡塞闪电攻势，使其有能力控制一条关键中东水道，给仍在第七个月对伊战争中的美国总统特朗普制造了重大新难题。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 1
+    },
+    {
+      "title": "iPhone Duo",
+      "title_zh": "iPhone Duo：苹果折叠屏入场，催开发者认真做双屏",
+      "publisher": "apple.com",
+      "article_url": "https://www.apple.com/iphone-duo/",
+      "significance_score": null,
+      "summary_zh": "苹果发布可折叠iPhone Duo，HN讨论焦点从铰链耐久转到开发者是否终于会认真适配分屏与Apple Pencil白板场景。帖近1500赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "anonu",
+          "en": "As a recent Android foldable phone owner (Google Pixel), I'm excited that the Duo will get developers to actually design apps for foldables. Right now, some apps don't work at all and others are just stretched. I feel a better use of the screen space is around the corner for both Android foldable and Duo users.",
+          "zh": "作为最近刚入手安卓折叠屏（Pixel）的人，我很兴奋Duo会逼着开发者真正为折叠屏设计应用。现在有些应用……"
+        },
+        {
+          "type": "comment",
+          "author": "nunez",
+          "en": "- It works with the pencil! This is a big big deal. I can do whiteboarding with customers quickly without having to break out a separate device, for example. Definitely unfortunate for the reMarkable Move and devices like that.\n- They actually might have nailed the hinge and crease problems.\n- I've been excited for this release ever since the rumor of the iPhone Air being a prototype of sorts for this came out. Two i…",
+          "zh": "它能配Apple Pencil！这事很大。我可以快速跟客户白板，而不必再掏出另一台设备……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49630931",
+      "hn_points": 1479,
+      "hn_comments": 2530,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 2
+    },
+    {
+      "title": "Trump says Iran probably responsible for Saudi pipeline attack",
+      "title_zh": "特朗普称沙特管线遇袭“大概是伊朗干的”",
+      "publisher": "cnn.com",
+      "article_url": "https://www.cnn.com/2026/09/12/middleeast/trump-iran-saudi-pipeline-intl",
+      "significance_score": 7.0,
+      "summary_zh": "9月12日访问爱尔兰期间，特朗普对记者表示，导致沙特东西向原油管道关停的无人机袭击“大概”由伊朗负责；同时称已与“好友”穆罕默德王储通话。伊拉克已确认发射点在境内，沙特暂不报复以给巴格达处理空间。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CNN / Reuters",
+          "en": "I think they are, probably they are,\" Trump told reporters in Dublin when asked if Iran was responsible for the attack on the vital oil conduit.",
+          "zh": "当被问及伊朗是否应对这条关键输油管道遇袭负责时，特朗普在都柏林对记者说：“我想是他们，大概是他们。”"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 3
+    },
+    {
+      "title": "Shopify is moving from React Native back to Swift and Kotlin",
+      "title_zh": "Shopify弃React Native，回归Swift与Kotlin原生",
+      "publisher": "shopify.engineering",
+      "article_url": "https://shopify.engineering/back-to-native",
+      "significance_score": null,
+      "summary_zh": "Shopify工程博客宣布移动端从React Native迁回Swift/Kotlin原生。评论区用Astra估算人力账，也有小团队称一夜重写出九成界面。逾1200赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "sashank_1509",
+          "en": "Numbers from GPT Astra\n-  Shopify has 3000 engineers as of 2026\n- Google Chrome when released in 2008 conservatively had ~ 60 engineers.\n- GTA 5 in its credits had 150 software engineers. Surprising even to me who has had many an experience of being in a bloated FAANG team, this 150 includes GTA Online!\nIn a sane society, Shopify’s opinion on anything engineering related would be thrown into rubbish because they seem…",
+          "zh": "用GPT Astra估的数：Shopify 2026年约3000工程师；2008年Chrome发布时保守估计约60人；GTA5演职员表……"
+        },
+        {
+          "type": "comment",
+          "author": "atonse",
+          "en": "We did the same thing - had 90% of it overnight. Then spent a few days in the background tweaking for polish.\nOur app is smaller, and has about 15-20 screens. I started at about 12:30am by giving codex a goal and it inventoried every screen based on the react native code, then created android and iOS directories, used maestro (I had already set up this tooling for a previous personal app build a few weeks prior), and…",
+          "zh": "我们也干过同样的事——一夜重写出90%。然后又花几天打磨。我们的应用更小，大约15–20个界面……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49643982",
+      "hn_points": 1263,
+      "hn_comments": 949,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 4
+    },
+    {
+      "title": "Iraq fires Maysan commander after drones hit Saudi East-West pipeline",
+      "title_zh": "伊拉克确认迈桑省为发射点，撤换作战司令",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/middle-east/iraqi-military-commander-dismissed-after-drone-attacks-against-saudi-arabia-2026-09-11/",
+      "significance_score": 6.9,
+      "summary_zh": "伊拉克总理办公室周六声明：调查确认袭击沙特东西向管道的无人机自迈桑省某场地起飞，总理阿里·扎伊迪下令撤换迈桑作战司令并成立调查委员会。稍晚有消息称伊方预防性关闭对伊（朗）沙拉姆切赫口岸。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "An Iraqi military commander was dismissed early on Saturday after investigations confirmed the latest drone attacks targeting Saudi Arabia originated from Iraq, according to a statement by Iraq's prime minister's office.",
+          "zh": "据伊拉克总理办公室声明，在调查确认最新针对沙特的无人机袭击源自伊拉克后，一名伊拉克军事指挥官于周六早些时候被免职。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 5
+    },
+    {
+      "title": "Shopify acquires Tailwind",
+      "title_zh": "Shopify收购Tailwind CSS",
+      "publisher": "tailwindcss.com",
+      "article_url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "significance_score": null,
+      "summary_zh": "Tailwind Labs宣布并入Shopify。评论追问AI冲击下组件库商业模式，以及新站是否还有必要上Tailwind。逾1100赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "simonw",
+          "en": "Here's some context on the impact AI had on the Tailwind Labs business model from January: https://github.com/tailwindlabs/tailwindcss.com/pull/2388#is...\n> But the reality is that 75% of the people on our engineering team lost their jobs here yesterday because of the brutal impact AI has had on our business. [...]\n> Traffic to our docs is down about 40% from early 2023 despite Tailwind being more popular than ever.…",
+          "zh": "这是一月以来AI冲击Tailwind Labs商业模式的一些上下文……"
+        },
+        {
+          "type": "comment",
+          "author": "fg137",
+          "en": "Serious question: is there a need to reach for tailwind if you are building a new site? Won't using vanilla CSS while taking advantage of the latest features be pretty good, since humans are not manually making edits (which removes many of the pain points of maintaining CSS), while simplifying dependency and the build pipeline?",
+          "zh": "认真问：如果现在做新站，还有必要上Tailwind吗？直接用原生CSS吃新特性会不会更好？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49626190",
+      "hn_points": 1145,
+      "hn_comments": 445,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 6
+    },
+    {
+      "title": "Trump sees Iran war ending after midterms, oil then tumbling",
+      "title_zh": "特朗普称伊战或中期选举后很快结束，油价将大跌",
+      "publisher": "cnbc.com",
+      "article_url": "https://www.cnbc.com/2026/09/12/trump-sees-iran-war-ending-very-soon-oil-prices-then-falling.html",
+      "significance_score": 6.8,
+      "summary_zh": "特朗普周六称对伊战争“很可能就在中期选举后很快结束”，并预测届时油价会“跳水”。布伦特周五收跌仍报约104.61美元、WTI约100.05美元，整周大涨后市场继续定价双海峡与管线风险。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CNBC",
+          "en": "I think very soon, I think it'll be right after the mid-terms, actually,\" Trump said on a trip to Ireland when asked when the Iran war is likely to end. \"I would say shortly, and oil will come tumbling down when that happens.\"",
+          "zh": "在爱尔兰行程中被问及伊战何时可能结束时，特朗普说：“我想很快，实际上就在中期选举之后。我会说不久，到时候油价会跳水。”"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 7
+    },
+    {
+      "title": "Don't let anyone take away your big box of cables",
+      "title_zh": "别让人拿走你那一大盒线材",
+      "publisher": "blog.jim-nielsen.com",
+      "article_url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+      "significance_score": null,
+      "summary_zh": "一篇为“杂乱线材盒”正名的短文冲上首页：分组收纳、意外插错SATA供电等故事齐飞。约770赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "booty",
+          "en": "Key for me is to \"group\" cables. For example, I have a bag of USB-C cables, a bag of USB-A cables, etc.\nGrouping them is key to deduplicating.\nIt's easy to look at a single legacy USB A-to-B \"printer\" cable in isolation and think \"I might need this someday!\" Because you really might need it someday. However, if you group them you might see that you have ten of them. And then you can get rid of... maybe 8 of them.\nI a…",
+          "zh": "对我来说关键是“分组”：一袋USB-C、一袋USB-A……分组才能去重。很容易……"
+        },
+        {
+          "type": "comment",
+          "author": "SmasherEpilepti",
+          "en": "Recently, I was screwed by my big box of cables, when I pulled out a SATA power connector for my modular power supply, and learned very quickly that though the ports universally fit across modular PSUs, the pinouts are not actually intercompatible, and you can and will fry your hard drives.\nI didn't know this; I had foolishly assumed that SATA power connectors were standardized on both ends.",
+          "zh": "最近我被自己的大盒线材坑了：抽出一根模块电源的SATA供电，很快发现虽然……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49645393",
+      "hn_points": 773,
+      "hn_comments": 459,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 8
+    },
+    {
+      "title": "MBS urges Trump to act against Houthis as dual shocks mount",
+      "title_zh": "双杀升级之际，王储敦促特朗普对胡塞动手",
+      "publisher": "nbcnews.com",
+      "article_url": "https://www.nbcnews.com/world/middle-east/saudi-arabia-shutdown-key-pipeline-limits-oil-flow-yemen-houthis-rcna597362",
+      "significance_score": 6.6,
+      "summary_zh": "NBC援引知情人士：穆罕默德王储正敦促特朗普对胡塞采取军事行动，双方在过去24小时内至少两次讨论胡塞升级。这与特朗普公开称只允情报支援、并声称胡塞致电表示不想开战的口径并置，美沙在“直接下场”问题上裂痕公开化。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "NBC News",
+          "en": "Saudi Crown Prince Mohammad bin Salman is urging President Trump to take military action against the Houthis, according to a person familiar with the matter. The president and the crown prince have discussed the recent escalation by the Houthis at least twice in the last 24 hours, this person said Friday.",
+          "zh": "据知情人士称，沙特王储穆罕默德正敦促特朗普总统对胡塞采取军事行动；该人士周五表示，总统与王储在过去24小时内至少两次讨论胡塞近期升级。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 9
+    },
+    {
+      "title": "So you want to use OpenRouter?",
+      "title_zh": "所以你想用OpenRouter？可靠性与缓存的坑",
+      "publisher": "mmoustafa.com",
+      "article_url": "https://mmoustafa.com/blog/so-you-want-to-use-openrouter/",
+      "significance_score": null,
+      "summary_zh": "长文拆解OpenRouter：路由不稳、被迫钉死供应商、缓存命中率崩盘。多人表示最终退回单一厂商。约750赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "joshstrange",
+          "en": "This squares with my, much much, smaller OpenRouter usage. It’s just incredibly unreliable and you are forced to pin providers and even then it can be a crapshoot as the author found.\nOpenRouter sells the idea of swapping being commodity providers but it couldn’t be further from the truth. Provider A is often not swappable for B or C (again, as this author found). It can be crazy-making as you sit there thinking “Ope…",
+          "zh": "这和我小得多的OpenRouter用量对得上。就是极不稳定，你被迫钉死供应商，即便如此仍可能翻车……"
+        },
+        {
+          "type": "comment",
+          "author": "jmward01",
+          "en": "Yes to all this but more. The thing that made me leave and go to a single provider was token caching. I have to keep blocking providers that don't properly cache. I see performance tank and then I look in the logs and a new provider has been rotated in and every call to them is uncached because they are clearly broken. This has happened a few times now and essentially destroys cost savings (these providers also often…",
+          "zh": "以上都对，还有更多。让我离开并回到单一供应商的是token缓存。我得不断屏蔽那些不好好缓存的供应商……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49621546",
+      "hn_points": 753,
+      "hn_comments": 202,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 10
+    }
+  ]
+}

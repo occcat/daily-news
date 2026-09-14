@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Houthis capture Perim as Saudi pipeline shock opens new Iran-war front",
+      "title_zh": "胡塞据佩里姆、沙特管线受创：伊战新战线被打开",
+      "publisher": "theguardian.com",
+      "article_url": "https://www.theguardian.com/world/2026/sep/11/iran-houthi-allies-capture-strategic-island-bab-al-mandab-strait",
+      "significance_score": 6.4,
+      "summary_zh": "卫报梳理：胡塞夺取曼德窄口佩里姆，与沙特东西向管线遇袭关停交织，把伊战外溢写成“新战线”。佩里姆将水道一分为二，靠近最窄处；阿联酋曾在此建机场后收缩介入。沙特在霍尔木兹受阻后更依赖红海出口，风险被双向放大。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Guardian",
+          "en": "Yemen's rampant Houthi forces have captured the strategic island of Perim in the Bab al-Mandab strait, expanding their control of the narrow waterway, one of the world's vital shipping routes.",
+          "zh": "也门猖獗的胡塞武装已夺取曼德海峡战略岛屿佩里姆，扩大了对这条全球关键航运窄水道的控制。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "Revolut confirms customer data breach through fake government requests",
+      "title_zh": "Revolut确认：伪造政府邮件导致客户数据泄露",
+      "publisher": "techcrunch.com",
+      "article_url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+      "significance_score": null,
+      "summary_zh": "TechCrunch：Revolut确认有人用真实政府域名发伪执法请求，套出客户身份与证件等敏感信息；公司称资金与系统未受影响、已通知受影响用户。约160赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "neither_color",
+          "en": "I had an interesting experience with my Revolut card. I only top it up when traveling, and the rest of the time it sits nearly empty, with like $3-4. At some point I started getting occasional notifications about transactions declining. Stuff like video game points and random little online shops. Clearly my card's been skimmed or otherwise leaked somehow. Bummer.\nSince Im months away from my next trip I didnt immedia…",
+          "zh": "我用Revolut卡有过有趣经历：只在旅行时充值，平时几乎空着只剩三四美元。后来开始……"
+        },
+        {
+          "type": "comment",
+          "author": "hndhyc0bdt",
+          "en": "Ran an LE request desk for a while and the whole thing was PDFs from .gov-ish email addresses. Only real control we had was calling the agency back on a number we looked up ourselves, not the one on the letterhead.",
+          "zh": "我管过一阵执法请求台，全是来自看起来像.gov邮箱的PDF。唯一靠谱的控制是用我们自己查到的号码回拨机构……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49682087",
+      "hn_points": 161,
+      "hn_comments": 116,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "Saudi Arabia says pipeline shutdown is precautionary as damage assessed",
+      "title_zh": "沙特称管线关停属预防性措施，仍在评估损毁",
+      "publisher": "straitstimes.com",
+      "article_url": "https://www.straitstimes.com/world/middle-east/saudis-shut-down-oil-pipeline-as-houthis-tighten-grip-on-red-sea-shipping",
+      "significance_score": 6.2,
+      "summary_zh": "能源部与外交部口径：利雅得与麦地那段遭多架无人机袭击致人员受伤后，东西向管线采取预防性关停，损毁与出口影响仍在评估；卫星图像显示麦地那以南管线区域冒出黑烟。市场关注的不是象征性停输，而是重启时间表。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Straits Times",
+          "en": "Saudi Arabia has shut down its East-West pipeline after the vital oil conduit came under aerial attack in the widening Middle East war.",
+          "zh": "在不断扩大的中东战争中，这条关键输油通道遭空中袭击后，沙特关停了东西向原油管道。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "Aligned to whom?",
+      "title_zh": "对齐给谁看？",
+      "publisher": "hyperbo.la",
+      "article_url": "https://hyperbo.la/w/aligned-to-whom/",
+      "significance_score": null,
+      "summary_zh": "短文追问对齐话语的主语：对齐给谁？评论质疑LLM是否真有可对齐的“意图”。约160赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "mjburgess",
+          "en": "This still assumes its possible to \"align\" LLMs, that LLMs have something like goals or intentions that can be \"aligned\".\nInstead, LLMs \"hack\" because they are (1) trained on public hacking exemplars, and (2) are prompted to hack. You cannot prevent (2) via any alignment process. As far as (1) goes, removing such example data from the training set, makes the models less useful.\n\"Alignment\" is a problem because there'…",
+          "zh": "这仍假设可以“对齐”LLM，假设它们有可对齐的目标或意图。相反，LLM会“钻空子”，因为它们（1）在公开……上训练……"
+        },
+        {
+          "type": "comment",
+          "author": "Jgrubb",
+          "en": "I mumble this line to myself off and on over the years -\nEverybody's job looks easy until you have to do it yourself.\nIt occurred to me yesterday that this AI moment is an extreme expression of that for most people, ie managers who don't understand why throwing token spend at everything isn't making the whole thing go 5x faster.",
+          "zh": "这些年我常对自己嘀咕：别人的工作看起来都容易，直到你自己做。昨天觉得这个AI时刻是极端……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49679643",
+      "hn_points": 166,
+      "hn_comments": 110,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "Iran Guards guided Houthi Red Sea push, sources say",
+      "title_zh": "消息人士：革命卫队直接指导胡塞红海推进",
+      "publisher": "smh.com.au",
+      "article_url": "https://www.smh.com.au/world/middle-east/these-waters-aren-t-safe-new-oil-supply-fears-as-houthis-seize-key-island-saudi-pipeline-attacked-20260912-p60wql.html",
+      "significance_score": 6.4,
+      "summary_zh": "路透此前援引两名伊朗消息人士称，革命卫队上周要求胡塞加大对沙特打击，并承诺追加资金、武器与军官；戏剧性南下红海沿岸的推进带有直接指导色彩。若属实，红海战线更像伊战外溢，而非也门内战局部升级。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters via SMH",
+          "en": "Iran told the Houthis last week to escalate their attacks on Saudi Arabia and promised more funding, weapons and senior officers to help them do so, two Iranian sources said.",
+          "zh": "两名伊朗消息人士称，伊朗上周要求胡塞升级对沙特的袭击，并承诺提供更多资金、武器与高级军官协助。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "I made a build visualizer to understand Bun's compile times",
+      "title_zh": "我做了个构建可视化，看懂Bun编译时间",
+      "publisher": "lalitm.com",
+      "article_url": "https://lalitm.com/post/buildprof/",
+      "significance_score": null,
+      "summary_zh": "作者为Bun编译做可视化分析器，类比Electric Insight式构建洞察。约160赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "anaqin",
+          "en": "Good write up! I was hoping it was going to conclude with the author getting buns zig build way faster than Rusts but a good deep dive nevertheless",
+          "zh": "写得好！我本来希望结局是作者把Bun的Zig构建弄得比Rust快得多，不过仍是一次扎实深潜……"
+        },
+        {
+          "type": "comment",
+          "author": "t43562",
+          "en": "It's like Electric Insight, which was a fantastic if proprietary tool.\nThere's an enormous amount of analysis you can do with tools like this from estimating how much faster the build would be with more cores (i.e. is it worth adding more) to things like a diff of one build against another: why is one build bad and the other good - what tasks had different parameters or weren't in both builds?",
+          "zh": "像Electric Insight——很棒但专有。用这类工具能做海量分析，估算构建能快多少……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49672842",
+      "hn_points": 161,
+      "hn_comments": 30,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "U.S. diesel near record as Middle East and Ukraine shocks overlap",
+      "title_zh": "中东与乌克兰冲击叠加，美国柴油逼近历史高位",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/energy/trump-tells-ukraines-zelenskiy-stop-hitting-russian-diesel-2026-09-13/",
+      "significance_score": 6.0,
+      "summary_zh": "GasBuddy等追踪显示美国柴油均价在突破每加仑6美元后继续高位运行；IEA月报已把伊战海峡折损与乌克兰打击俄炼厂导致的柴油出口近停并列。周末特朗普行程中开始把话头转向“别打俄柴油”，为周一政策争吵预热。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters / IEA",
+          "en": "The disruptions to Russia's refining system and a near-halt to product exports following intensified Ukrainian attacks have compounded these losses,\" the agency said.",
+          "zh": "该机构称，乌克兰加强打击后俄罗斯炼油体系受损、成品油出口近乎停摆，加剧了这些供应损失。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "The Interim Computer Museum",
+      "title_zh": "临时计算机博物馆",
+      "publisher": "icm.museum",
+      "article_url": "https://icm.museum/",
+      "significance_score": null,
+      "summary_zh": "西雅图Interim Computer Museum与SDF复古系统项目联动，收藏与修复老机器。约150赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "incanus77",
+          "en": "A fantastic collection and restoration effort. I highly encourage a visit. I was in Seattle last year and had recently joined and pinged about maybe getting a tour. It was right before a vintage computer festival and despite being busy getting ready, Stephen, the director, encouraged me to drop in.\nI would've been happy just looking (and not even touching) by myself for 15 or 20 minutes given the circumstances, but S…",
+          "zh": "了不起的收藏与修复。强烈建议去看。去年在西雅图，我刚入会就约参观……"
+        },
+        {
+          "type": "comment",
+          "author": "sdf_pubnix",
+          "en": "Just heard about this post.  Interim Computer Museum is an extension of the SDF Public Access UNIX System's Vintage Systems program.  Thank you to all who have supported our efforts over the years!  ICM will allow SDF.ORG to continue to be a UNIX platform for implementing new and interesting community ideas and Interim Computer Museum will handle the retrospective aspect of the amazing computer history in our collect…",
+          "zh": "刚看到这篇。Interim Computer Museum是SDF公共UNIX系统复古项目的延伸。感谢所有支持者……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49679459",
+      "hn_points": 157,
+      "hn_comments": 23,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "Analysts ask if oil can stay below $120 as Red Sea risks compound",
+      "title_zh": "分析师追问：红海风险叠加后，油价能否守住120下方",
+      "publisher": "thenationalnews.com",
+      "article_url": "https://www.thenationalnews.com/business/energy/2026/09/11/oil-prices-set-to-end-the-week-above-100-as-houthis-seize-key-port-city/",
+      "significance_score": 6.0,
+      "summary_zh": "《国家报》援引分析：油价是否站上100已不再是问题，关键是市场能否在120下方稳住，抑或新一轮供应冲击把原油推进全新价格区间。劳氏等机构亦指出，胡塞威胁再度遏制今年因绕开霍尔木兹而出现的红海航运回升。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The National",
+          "en": "The key question for oil markets is no longer whether Brent can break above $100. It already has,\" said Priyanka Sachdeva, an analyst at Phillip Nova. \"The question now is whether the market can stabilise below $120, or whether another wave of supply disruption pushes crude into a completely new price regime.\"",
+          "zh": "Phillip Nova分析师Priyanka Sachdeva说：“对石油市场而言，关键问题已不再是布伦特能否突破100美元——它已经做到了。现在的问题是市场能否在120下方稳住，还是新一轮供应冲击把原油推进全新价格区间。”"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "I fixed a tractor using John Deere's self-repair service. Farmers aren't sold",
+      "title_zh": "用约翰迪尔自修服务修好拖拉机，农场主并不买账",
+      "publisher": "wired.com",
+      "article_url": "https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/",
+      "significance_score": null,
+      "summary_zh": "WIRED作者试用约翰迪尔官方自修订阅修拖拉机：年费清诊断锁，但零件、手册与持久许可仍让农场主觉得“不像拥有”。约140赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "AngryData",
+          "en": "$200 per machine per year. You use to just buy the manual and you had it forever. Farms sit on 1-2% profit margins on average but with a 30% swing in potential yield. They don't like subscription services because their yearly income is unreliable at best and they don't have any margin to waste on bs they might not use.",
+          "zh": "每台每年200美元。以前买手册就永久拥有。农场平均利润率1–2%，产量波动却可能达30%。他们不……"
+        },
+        {
+          "type": "comment",
+          "author": "Trace88",
+          "en": "The subscription can clear diagnostic locks, but farmers still need independent access to parts, manuals, and durable licenses before the software feels like ownership.",
+          "zh": "订阅能清诊断锁，但农场主仍需要独立的零件、手册和持久许可，软件才谈得上像“拥有”。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49658672",
+      "hn_points": 140,
+      "hn_comments": 150,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}

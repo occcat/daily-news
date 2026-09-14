@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Bab el-Mandeb ship traffic halves after Houthis seize Perim approaches",
+      "title_zh": "胡塞控制佩里姆一带后，曼德海峡船运减半",
+      "publisher": "thenationalnews.com",
+      "article_url": "https://www.thenationalnews.com/business/energy/2026/09/12/ship-traffic-in-bab-al-mandeb-strait-halves-as-houthis-seize-control-of-key-island/",
+      "significance_score": 6.7,
+      "summary_zh": "《国家报》援引追踪数据：周五曼德海峡通行约减半至15航次（前一日约30），货物含原油、谷物与钢材。分析指穆哈改善接近路径，但杜巴卜与佩里姆对“看见并威胁”过峡船只更关键；胡塞对沙特关联船舶的海上禁运继续施压。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The National",
+          "en": "Ship traffic in the Bab Al Mandeb strait has dropped by half as the Houthi rebels seize control of Yemen's entire Red Sea coast and the strategically important Perim Island, which lies at the centre of the waterway.",
+          "zh": "随着胡塞控制也门整段红海沿岸及水道中央的战略岛屿佩里姆，曼德海峡船运量已下降一半。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "Rust is tier-1 language at Microsoft",
+      "title_zh": "Rust成微软一级语言",
+      "publisher": "rustfoundation.org",
+      "article_url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+      "significance_score": null,
+      "summary_zh": "Rust基金会转载微软客座文：Rust升为一级语言。评论连到“十亿行C/C++迁移”招聘话术与成熟度争论。约720赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "gregw2",
+          "en": "Those interested in this may find the following articles of interest:\nMicrosoft goals [edit: err, Microsoft hiring manager vision-casting goal ] to convert 1 billion lines of code to rust by 2030 via automated tooling enabling \"1 engineer, 1 month, 1 million lines of code\": \nhttps://thenewstack.io/microsofts-bold-goal-replace-1b-lines...\nDARPA work towards automating converting C code to Rust using a mix of 6 differe…",
+          "zh": "关心这个的人或许也想看：微软目标（编辑：招聘经理愿景）要转换十亿行……"
+        },
+        {
+          "type": "comment",
+          "author": "i2talics",
+          "en": "I hope announcements like this show that Rust is not a fledgling little language that moves fast and breaks things anymore. It's a mature, serious competitor to well established languages like C++ and C#. This is particularly important when trying to compare the experience of using Rust to other languages in the \"better C/C++\" space like Zig and Odin -- these are much newer and have more rough edges than Rust.",
+          "zh": "希望这类宣布能说明Rust不再是快速折腾的幼年语言。它已是成熟、严肃的C/C++竞争者……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49643546",
+      "hn_points": 724,
+      "hn_comments": 514,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "Oil settles above $100 for the week as dual chokepoints bite",
+      "title_zh": "双咽喉施压下油价整周收在100美元上方",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/energy/oil-prices-set-end-week-over-100-first-time-nearly-4-months-2026-09-11/",
+      "significance_score": 6.5,
+      "summary_zh": "路透：油价周五回落，布伦特与WTI仍分别收在约104.61与100.05美元，完成数月来首次整周站上百元；美国柴油同期创纪录。市场把佩里姆易手、东西向管线预防性关停与霍尔木兹战时折损并列定价。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Oil prices slipped on Friday but remained on track to end the week above $100 a barrel for the first time since mid-May and U.S. diesel prices hit a record high as attacks along key Middle East shipping routes stoked prolonged supply disruption fears.",
+          "zh": "油价周五回落，但仍有望自5月中旬以来首次整周收在每桶100美元上方；美国柴油创纪录高位，因中东关键航道遇袭加剧供应中断担忧。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "Fuck it, make it anyway",
+      "title_zh": "管它呢，先做出来再说",
+      "publisher": "joelotter.com",
+      "article_url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
+      "significance_score": null,
+      "summary_zh": "作者劝创作者别被AI叙事吓停：先做出来。评论区在“爱工艺还是爱夸奖”与职业程序员爽感之间拉扯。约580赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "MachineMan",
+          "en": "In general creators must do some honest introspection. Did you enjoy the crafts, or did you enjoy the compliments? Did you enjoy the difficult puzzles or the identity derived from a career that gives you the reputation and perceived value of someone who can do a thing most people can’t? Did you enjoy the code itself or the accomplishment of seeing your ideas brought to life? Who remains when the thing you do no longe…",
+          "zh": "创作者总得诚实自省：你爱的是手艺，还是夸奖？爱的是难题，还是……"
+        },
+        {
+          "type": "comment",
+          "author": "user43928",
+          "en": "I liked building apps and helpful tools before AI came around. I've been doing so for 15 years, 10 of them professionally.\nToday, I like it even better. It's never been so fun.\nWhat would have taken days of work, if it was feasible at all, I can have implemented in half an hour now and iterate on the result to make it work the way I want.\nI stopped reviewing the code at all.\nPeople on here are often saying how that's…",
+          "zh": "AI出现前我就喜欢做应用和工具，做了15年，其中10年是职业。今天我更喜欢了……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49671329",
+      "hn_points": 586,
+      "hn_comments": 599,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "Houthi spokesman: navigation safe except for Saudi vessels",
+      "title_zh": "胡塞发言人：除沙特船舶外航运“安全”",
+      "publisher": "channelnewsasia.com",
+      "article_url": "https://www.channelnewsasia.com/world/saudi-arabia-yemen-houthi-rebels-bab-el-mandeb-strait-iran-war-6379486",
+      "significance_score": 6.3,
+      "summary_zh": "胡塞军事发言人叶海亚·萨雷称，海上航行对所有公司仍安全，唯沙特船只受此前宣布的禁运约束，并誓言打击沙特目标直至“侵略与封锁停止”。航运界与保险市场则把它读成选择性阻断与风险溢价工具，而非真正的“安全通告”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CNA",
+          "en": "In a statement on Friday, the Houthi military said maritime navigation is safe for all companies except for Saudi vessels subject to a previously announced ban.",
+          "zh": "胡塞军方周五声明称，除受此前宣布禁运约束的沙特船舶外，海上航行对所有公司都安全。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "The EPA is planning to scrap public review rules for data center pollution",
+      "title_zh": "EPA拟取消数据中心污染项目的公众评议规则",
+      "publisher": "capitalbnews.org",
+      "article_url": "https://capitalbnews.org/data-centers-permit-rules-epa/",
+      "significance_score": null,
+      "summary_zh": "报道称EPA计划削弱数据中心污染许可的公众评议。评论直指监管空心化与社区抗争前功尽弃。约500赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "GolfPopper",
+          "en": "This is bad news for everyone (well, except the high priests of the LLMs / nascent Cthulhoid godlings), but it certainly makes the communities who've successfully opposed data centers seem ever more justified in retrospect.",
+          "zh": "这对所有人都是坏消息（除了LLM大祭司/新生克苏鲁神祇），也确实让那些成功……的社区……"
+        },
+        {
+          "type": "comment",
+          "author": "agentultra",
+          "en": "The EPA hasn’t been able to regulate anything since it’s been gutted by the current administration. Of course it’s going to scrap rules. We’re not even allowed to measure the effects of climate change.",
+          "zh": "EPA在本届政府掏空之后已经管不了什么了。当然会砍规则。我们甚至不被允许……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49662672",
+      "hn_points": 500,
+      "hn_comments": 398,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "Saudi buyers warn Yanbu export stocks last only days if pipeline stays shut",
+      "title_zh": "买家警告：管线若持续关停，延布出口库存仅够数日",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/",
+      "significance_score": 6.8,
+      "summary_zh": "沙特原油买家与交易商对路透表示，若通往红海的东西向干线不能在数日内重启，延布方向可供出口的库存大约只够5至7天，最多可能再抽走全球供应约4%。叠加油品与债券市场紧绷，成为周末定价焦点（报道周日早间更新）。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Saudi Arabia will run out of oil stocks for exports if it doesn't restart its major pipeline to the Red Sea within days, leading to a loss of up to 4% of global supply, Saudi oil buyers and traders said.",
+          "zh": "沙特石油买家与交易商表示，若不能在数日内重启通往红海的主要管道，出口用库存将耗尽，最多可导致全球供应损失约4%。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "List of references on Sony websites to players \"owning\" their digital games",
+      "title_zh": "索尼官网上称玩家“拥有”数字游戏的表述清单",
+      "publisher": "consumerrights.wiki",
+      "article_url": "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit",
+      "significance_score": null,
+      "summary_zh": "消费者权利维基汇总索尼站点上“拥有游戏”措辞，服务数字游戏所有权诉讼。评论挖仲裁条款与实体碟对比。约450赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "tancop",
+          "en": "> The motion says the PlayStation Terms of Service put a binding arbitration agreement and a class action waiver in Section 14, and quotes the opt-out clause: ...\n> The clause requires a user who does not wish to be bound to notify Sony in writing within 30 days of accepting the agreement.\nBinding arbitration on individuals should be illegal, full stop. The only use case is taking away people's rights as consumers an…",
+          "zh": "动议说PlayStation服务条款第14条塞了强制仲裁和集体诉讼弃权，并引用退出条款……"
+        },
+        {
+          "type": "comment",
+          "author": "voidUpdate",
+          "en": "> \"Were that the case, then Plaintiff Edward Heycock would not have been able to obtain the game Resident Evil Requiem on February 25, 2026 for $69.99 from the PlayStation Store after Plaintiff Jason Mendoza had obtained Resident Evil Requiem on February 14, 2026, because Mr. Mendoza, not Sony, would have owned it then\"\nI buy a book. I now own the copy of that book. My friend buys the book. They also own a copy of th…",
+          "zh": "“若真如此，原告Edward Heycock就不会在2026年2月25日还能以69.99美元从……买到生化危机……”"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49642531",
+      "hn_points": 446,
+      "hn_comments": 157,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "Iraq closes Shalamcheh crossing with Iran after pipeline drone fallout",
+      "title_zh": "管道无人机风波后，伊拉克关闭沙拉姆切赫对伊口岸",
+      "publisher": "timesnownews.com",
+      "article_url": "https://www.timesnownews.com/world/middle-east/iraq-fires-maysan-military-commander-after-drone-attacks-on-saudi-arabia-launch-site-confirmed-article-156144163",
+      "significance_score": 6.1,
+      "summary_zh": "两名安全消息人士称，在确认迈桑发射点并撤换司令后，伊拉克预防性关闭与伊朗交界的沙拉姆切赫口岸，意在向利雅得示意：不会容忍本国领土再被用作袭击跳板。巴格达同时承受着约束亲伊朗民兵与避免战事外溢的双重压力。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Times Now / Reuters",
+          "en": "Later on Saturday, Iraq ordered the closure of the Shalamcheh border crossing with Iran as a precaution following the drone attacks, according to two security sources cited by Reuters.",
+          "zh": "据路透援引的两名安全消息人士，周六晚些时候伊拉克下令关闭与伊朗的沙拉姆切赫口岸，作为无人机袭击后的预防措施。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "Getting 50 GB/S Back from the Apple Neural Engine",
+      "title_zh": "从苹果神经网络引擎抠回50 GB/s带宽",
+      "publisher": "eiln.github.io",
+      "article_url": "https://eiln.github.io/posts/ane-dma.html",
+      "significance_score": null,
+      "summary_zh": "技术深潜：排查Apple Neural Engine DMA路径，把吞吐从异常低值拉回约50 GB/s。约200赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "bee_rider",
+          "en": "Nice investigation.\nIt is always surprising to me when a nice round number like 1MiB results in the “bad performance” configuration (although it happens).\nAre you sure erratum is the right word in this context? I usually see it used to describe the notice that a document has an error in it.",
+          "zh": "漂亮的排查。我总惊讶像1MiB这种整数会恰好落在“差性能”配置（尽管确实发生）。你确定勘误是……"
+        },
+        {
+          "type": "comment",
+          "author": "londons_explore",
+          "en": "surely someone in apple would have run some common neural net architectures through the rtl simulator before tapeout and checked that the performance meets expectations??",
+          "zh": "按理说苹果总会有人在流片前用RTL仿真跑常见神经网络架构，确认性能达标吧？？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49636479",
+      "hn_points": 206,
+      "hn_comments": 33,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}
