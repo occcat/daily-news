@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Shipping traffic via Strait of Hormuz stays below 10-day average, data shows",
+      "title_zh": "霍尔木兹周四可见过境四艘：仍远低于十日均值，三艘LNG再现",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/middle-east/shipping-traffic-via-strait-hormuz-stays-below-10-day-average-data-shows-2026-09-18/",
+      "significance_score": 7.7,
+      "summary_zh": "路透新加坡9月18日：Kpler初步数据显示霍尔木兹周四商品船过境四艘，低于前日六艘、十日均值约十六艘；三进一出，含两艘巴拿马型、一艘大灵便型与一艘卡姆萨型。同日三艘LNG船在峡外再现——卡塔尔拉斯拉凡装载的Al Daayen与Al Samriya，以及驶向印度达博尔的Marigold LNG；Vortexa另指卡塔尔Al Rayyan曾在阿曼近海暗航船对船。曼德海峡同日二十三艘。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Four commodity vessels transited the Strait of Hormuz in the Gulf on Thursday, down from six a day earlier and below the 10-day average of about 16, preliminary shipping data showed on Friday.",
+          "zh": "初步航运数据显示，霍尔木兹海峡周四商品船过境四艘，低于前日六艘，也低于约十六艘的十日均值。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 1
+    },
+    {
+      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+      "title_zh": "三星预计明年HBM4/HBM4E产量翻倍以上",
+      "publisher": "en.sedaily.com",
+      "article_url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "significance_score": null,
+      "summary_zh": "韩媒称三星电子明年计划大幅提升HBM4与HBM4E产能；HN讨论指中国AI加速器瓶颈更在HBM而非先进制程，华为昇腾产量受限于CXMT的HBM。逾260赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "HarHarVeryFunny",
+          "en": "On a related note, I was reading yesterday that apparently the real bottleneck for Chinese production of AI accelerators is HBM production, not processors or ASML equipment.\nThe lack of ASML EUV machines certainly hurts, and pushing DUV so hard results in abysmal yields of good chips, but you can compensate by running more wafers or making smaller chips, and the net result is that Huawei's Ascend production volume is limited by CXMT's HBM capacity not processor dies.\nThe problem is that HBM manufacture requires many steps (die thinning, via drilling, plating, alignment) where the equipment used by everyone else (Samsung, SK Hynix, Micron) is also blocked by sanctions, so the Chinese are having to develop all of this themselves too, which they have, but yields are currently low, even when using shorter HBM stacks.",
+          "zh": "相关地，我昨天读到：中国AI加速器生产真正瓶颈似乎是HBM，而不是处理器或ASML设备。缺EUV确实伤，硬推DUV良率极差，但可通过多投片或做更小芯片补偿——结果是华为昇腾产量受限于CXMT的HBM产能，而非处理器裸片。"
+        },
+        {
+          "type": "comment",
+          "author": "fooker",
+          "en": "What's the main blocker (other than the current inflated cost) for using HBM instead of DRAM as the primary memory for consumer electronics?",
+          "zh": "除了当前虚高的成本，把HBM当消费电子主存来用，主要拦路虎是什么？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49778029",
+      "hn_points": 262,
+      "hn_comments": 180,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 2
+    },
+    {
+      "title": "Iran's Revolutionary Guard says it hit Togo-flagged tanker Trend in Strait of Hormuz",
+      "title_zh": "伊朗革命卫队称打击多哥籍油轮Trend：指其非法过境后起火停航",
+      "publisher": "worldports.org",
+      "article_url": "https://www.worldports.org/irans-revolutionary-guard-says-it-hit-togo-flagged-tanker-trend-in-strait-of-hormuz/",
+      "significance_score": 7.6,
+      "summary_zh": "World Ports援引革命卫队海军司令阿里·奥兹马伊周五声明：多哥籍成品油轮Trend（IMO 9477177）据称在美方鼓动下“非法”过境霍尔木兹，遭打击后起火停航；未公布武器、位置、船员伤亡或污染细节。UKMTO另报霍尔木兹卡萨卜东北约十六海里不明投射物击中油轮、火势扑灭、船员安全，尚未核实是否同一艘。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "World Ports Organization",
+          "en": "The Togo-flagged product tanker Trend was hit in the Strait of Hormuz on Thursday night and stopped after a fire broke out, according to an official statement from Iran's Islamic Revolutionary Guard Corps Navy.",
+          "zh": "据伊朗伊斯兰革命卫队海军官方声明，多哥籍成品油轮Trend周四夜间在霍尔木兹海峡遭打击，起火后停航。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 3
+    },
+    {
+      "title": "Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)",
+      "title_zh": "Laya（OS Jev）在Mac M4上CoreML离线跑：约每秒45次决策",
+      "publisher": "gist.github.com",
+      "article_url": "https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0",
+      "significance_score": null,
+      "summary_zh": "开发者展示基于Jev的小型模型在Apple Neural Engine上离线运行；评论质疑0.3B参数如何对上“terra级智能”营销，并确认几乎跑在神经引擎而非GPU。逾110赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "EgregiousCube",
+          "en": "Isn't part of the Jev marketing that it has \"terra-class intelligence\"? I don't know how much it actually achieves that, but unless that's EXTREMELY wrong, it's hard to see how a 0.3B model could claim to be an OS Jev.",
+          "zh": "Jev营销不是号称有“terra级智能”吗？我不知道它实际达到多少，但除非那说法极度离谱，很难想象0.3B模型能自称OS Jev。"
+        },
+        {
+          "type": "comment",
+          "author": "speedping",
+          "en": "So cool. I've fired up pumas (energy monitor) and it seems to run almost fully on the neural engine and not the GPU so it plays really nicely with CoreML",
+          "zh": "太酷了。我开了能耗监视，它几乎全跑在神经引擎上而不是GPU，和CoreML配合很好。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49777106",
+      "hn_points": 111,
+      "hn_comments": 21,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 4
+    },
+    {
+      "title": "As Iran war grinds on, Trump to face skeptical world leaders at UN",
+      "title_zh": "伊战进入第七个月：特朗普联大面对怀疑的全球领袖",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/middle-east/iran-war-grinds-trump-face-skeptical-world-leaders-un-2026-09-18/",
+      "significance_score": 7.5,
+      "summary_zh": "路透华盛顿9月18日：特朗普周二将重返联大，面对对六个月对伊战事日益不安的听众；胡塞拿下红海沿岸与曼德海峡口岛屿，给德黑兰新杠杆，也把特朗普夹在“护航红海”与“不愿再开第二战场”之间。多数欧亚盟友拒绝为其未经协商发动的战争提供协助；汽油高企与支持率低迷使十一月中期选举承压。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Returning to the world body on Tuesday, Trump will face a deeply skeptical audience increasingly rattled by six months of war between US forces and an emboldened Iran, growing regional instability and a nuclear threat that has not disappeared despite his claims.",
+          "zh": "特朗普周二重返联合国，将面对对美伊六个月战事、地区动荡与核威胁未消日益不安的怀疑听众。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 5
+    },
+    {
+      "title": "Key symbols we lost to time, pt. 2: The Mac side",
+      "title_zh": "被时间吞掉的按键符号（二）：Mac一侧",
+      "publisher": "unsung.aresluna.org",
+      "article_url": "https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-2-the-mac-side/",
+      "significance_score": null,
+      "summary_zh": "文章梳理Mac键盘历史上消失或怪诞的符号与布局；评论吐槽JIS键盘的RAS综合征，以及苹果设计师没给复制粘贴、撤销重做实体键。逾100赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "DroneBetter",
+          "en": "> There was also the Japanese JIS standard keyboard\nis a particularly humorous instance of https://en.wikipedia.org/wiki/RAS_syndrome",
+          "zh": "「还有日本JIS标准键盘」——这是维基百科RAS综合征词条里特别好笑的一例。"
+        },
+        {
+          "type": "comment",
+          "author": "amelius",
+          "en": "No amount of drooling over Apple keyboards will make me forget that Apple's designers didn't add keys for basic functions such as Copy and Paste, Undo and Redo.",
+          "zh": "再怎么对苹果键盘流口水，也忘不了苹果设计师没给复制粘贴、撤销重做这些基本功能加键。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49768347",
+      "hn_points": 104,
+      "hn_comments": 52,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 6
+    },
+    {
+      "title": "Record diesel prices could be Trump's Achilles' heel",
+      "title_zh": "柴油创纪录或成特朗普阿喀琉斯之踵：欧期货约210美元/桶",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/commentary/reuters-open-interest/record-diesel-prices-could-be-trumps-achilles-heel-2026-09-18/",
+      "significance_score": 7.5,
+      "summary_zh": "路透专栏9月18日：欧洲柴油期货本周创约210美元/桶纪录，美国零售柴油首次站上约6美元/加仑；海湾与俄罗斯柴油出口合计较2025年水平约降三分之二。问题核心已非原油短缺，而是中东空袭与乌克兰打击导致的炼能损失——修复或需数年。对十一月三日中期选举与秋收季农带选民构成政治风险。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Ron Bousso / Reuters",
+          "en": "European diesel futures hit a record $210 a barrel this week, while US retail diesel prices topped $6 a gallon for the first time.",
+          "zh": "欧洲柴油期货本周创下每桶210美元的纪录，美国零售柴油亦首次超过每加仑6美元。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 7
+    },
+    {
+      "title": "I am often wrong",
+      "title_zh": "我经常是错的",
+      "publisher": "borischerny.com",
+      "article_url": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",
+      "significance_score": null,
+      "summary_zh": "Boris Cherny谈管理与产品中承认错误的框架；评论觉得其文风像被代理交互磨平的LLM腔，并反对强迫团队使用个人“框架”否则就给“反馈”。近百赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "pclowes",
+          "en": "Having listened to him give a couple of talks I am always struck by how much he talks and writes like Claude code.\nI don’t think he farms out all of his writing and talking to LLMs. I don’t think Claude code was trained to emulate him or anything.\nI think his “voice” has been filed LLM smooth by years of agent based interactions. He claims Anthropic engineers use an average of 500+ agents a day. They are human interfaces to token generators more than human to human communication. They are picking up the tendencies of their most frequent communication partner.\nUnfortunately, I see Claude being wrong often enough that I view it as a faulty narrator. Often helpful, sometimes totally full of it.\nAnd now I subconsciously apply this filter to anything that sounds like Claude.\nMakes me nervous that my voice may be becoming that of a faulty narrators.",
+          "zh": "听过他几场演讲，总觉得说话写作很像Claude code。我不认为他把写作演讲全外包给LLM，也不认为Claude被训成模仿他——更像是常年与代理交互把“声口”磨成了LLM式光滑。"
+        },
+        {
+          "type": "comment",
+          "author": "cube00",
+          "en": "I can't say I agree with forcing your team to use your own personal \"framework\" of approaching a problem or else you'll get \"feedback\".\n> Sometimes I will give feedback to people when they are missing steps in the framework, or are poorly executing some of the steps. I expect the same feedback in return.\nI also don't like that urgency is built in as the standard process either, no wonder everyone is burnt out.\n> 6. Act with urgency to achieve the goal",
+          "zh": "我不同意强迫团队用你个人的问题处理“框架”，否则就给“反馈”。也不喜欢把紧迫感写进标准流程——难怪大家都倦怠。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49777467",
+      "hn_points": 98,
+      "hn_comments": 72,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 8
+    },
+    {
+      "title": "Congressional Bill H.R. 5334 Signed into Law",
+      "title_zh": "特朗普签署格雷厄姆俄伊制裁法：可对购俄油气大国征最高100%关税",
+      "publisher": "whitehouse.gov",
+      "article_url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/",
+      "significance_score": 7.4,
+      "summary_zh": "白宫9月18日：总统签署H.R.5334《林赛·O·格雷厄姆制裁俄罗斯与伊朗法》，授权并扩大对俄法定制裁、关税与禁令，并延长对伊制裁。BBC称法案允许对俄油气前五大买家（尤其中印）征收最高100%关税，并覆盖“影子船队”；泽连斯基此前赞扬众院通过。较9月17日“送交签署”推进至正式生效。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The White House",
+          "en": "On Friday, September 18, 2026, the President signed into law: H.R. 5334, the \"Lindsey O. Graham Sanctioning Russia and Iran Act of 2026,\" which authorizes and expands statutory sanctions, tariffs, and prohibitions on Russia and extends existing sanctions on Iran.",
+          "zh": "2026年9月18日周五，总统签署H.R.5334《林赛·O·格雷厄姆制裁俄罗斯与伊朗法》，授权并扩大对俄法定制裁、关税与禁令，并延长现有对伊制裁。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 9
+    },
+    {
+      "title": "Prompts aren’t Real",
+      "title_zh": "提示词并不是“真的”",
+      "publisher": "evaluation.club",
+      "article_url": "https://evaluation.club",
+      "significance_score": null,
+      "summary_zh": "evaluation.club讨论提示优化与工具/技能拆分；高赞评论希望未来是“公司给AI提供接口、用户自带模型”，而非“公司塞给你一个代劳AI”。逾90赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "cortesoft",
+          "en": "I hope the future of AI isn't this sort, where companies provide the user/customer with an interface to an AI that can do things for the user... I would much prefer that companies instead provide an interface FOR an AI, and the user brings their own AI which connects to that interface.\nIn other words, provide my AI with tools, instead of providing me an AI that uses your tools.\nThat way, my AI can bring all the context it needs, and I can bring all of the settings and knowledge about what I want with me. I don't want a fractured world of tons of AIs i interact with where I have to explain all the fundamental information about what I want and how I work every time.\nThis also has the benefit of sidestepping the issue the essay is talking about. You provide a consistent tool, and the AI weirdness is not your issue anymore. You don't have to worry about solving for all the weird ways people prompt the AI, or the ways they break.",
+          "zh": "我希望AI的未来不是公司给用户一个能代劳的AI界面，而是公司给AI提供接口，用户自带模型来接。也就是：给我的AI工具，而不是给我一个用你们工具的AI。"
+        },
+        {
+          "type": "comment",
+          "author": "mmargenot",
+          "en": "This was great! When you think about optimizing prompts with GEPA (or comparable methods and tools), do you consider each tool or skill separately? How do you think about the optimization of the system prompt for a large agentic system?\nI imagine that you do a collection of passes to cover each overlapping set of what you want evaluated, but the system prompt makes all cases dependent on each other.\nWhat I’ve done in the past is use the system prompt to extract subjective criteria for an LLM judge (like various system prompt statements that contribute to brand voice) and check individual traces with that for evaluation, but I’d like to move beyond including that in a prompt at all.",
+          "zh": "很棒！用GEPA（或类似方法）优化提示时，你会把每个工具/技能分开考虑吗？大型代理系统的系统提示又怎么优化？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49777111",
+      "hn_points": 92,
+      "hn_comments": 43,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 10
+    }
+  ]
+}

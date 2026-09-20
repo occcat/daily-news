@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Wall St ends mixed as oil takes a pause",
+      "title_zh": "美股收盘分化：油价暂歇、十年期收益率回升",
+      "publisher": "marketscreener.com",
+      "article_url": "https://www.marketscreener.com/news/wall-st-ends-mixed-as-oil-takes-a-pause-ce785adadc80f123",
+      "significance_score": 7.2,
+      "summary_zh": "MarketScreener/LA Times等9月18日：投资者权衡美联储加息至3.75%–4.00%与再加预期，十年期美债收益率重回约5%附近；道指约跌0.2%，标普微涨，纳指涨约0.3%–0.4%。油价仍在100美元上方盘整，柴油纪录高位继续打压运输股；J.B. Hunt等本周大幅回调。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "MarketScreener",
+          "en": "Wall Street finished mixed on Thursday as investors weighed the Federal Reserve's rate hike against still-elevated oil prices and a rebound in Treasury yields.",
+          "zh": "周四华尔街收盘分化：投资者在美联储加息、油价高企与美债收益率回升之间权衡。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "Frontier Labs Are Selling Garbage to Fools in Washington",
+      "title_zh": "前沿实验室正把垃圾卖给华盛顿的傻瓜",
+      "publisher": "deadneurons.substack.com",
+      "article_url": "https://deadneurons.substack.com/p/frontier-labs-are-selling-garbage",
+      "significance_score": null,
+      "summary_zh": "Substack文批评实验室向政策圈推销夸张安全叙事；评论指出文中Hugging Face事件细节有误，且并非都发生在同一测试厂商环境。逾90赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "pliny",
+          "en": "This is an AI written post and the details are wrong (the description of the HF incident as involving Irregular is wrong and the description of the incident as only involving stealing public credentials is wrong, per the technical report the agents got access to internal HF infrastructure).",
+          "zh": "这是一篇AI写的帖，细节是错的（把HF事件说成涉及Irregular不对，也把事件说成只是偷公开凭证不对——技术报告显示代理进入了HF内部基础设施）。"
+        },
+        {
+          "type": "comment",
+          "author": "DalasNoin",
+          "en": "\"Every single one of these catastrophic breakouts happened inside the testing environments of the exact same vendor.\"\nThis is incorrect, the HF incident for example (the most well known) had nothing to do with irregular. I know there has been a news site pushing inaccurate articles (effort.news) on this topic but these are the facts.\nhttps://openai.com/index/hugging-face-incident-and-the-road-...",
+          "zh": "“每一次灾难性越狱都发生在同一家供应商的测试环境里”——不对，例如最出名的HF事件就与Irregular无关。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49779432",
+      "hn_points": 91,
+      "hn_comments": 26,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "Iran Update, September 18, 2026",
+      "title_zh": "ISW战情：沙特据报提两周休战被拒；巴陆军长促伊约束胡塞",
+      "publisher": "understandingwar.org",
+      "article_url": "https://understandingwar.org/research/middle-east/iran-update-september-18-2026/",
+      "significance_score": 7.4,
+      "summary_zh": "战争研究所9月18日：黎媒称沙特经阿曼提出两周休战并临时放开胡塞港口机场人道管制，胡塞拒绝；FT称巴陆军长Munir近日频联伊朗官员（含阿拉格希），援引麦加公约义务要求制止胡塞袭沙特能源设施。ISW评估胡塞近期目标偏经济让步，但长远仍要控制至少全也门；马里卜攻势意在红海出口石油。伊朗同日继续袭扰航运以示控峡能力。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "ISW / CTP",
+          "en": "Unspecified sources told Lebanese Hezbollah-aligned media on September 18 that Saudi Arabia offered the Houthis a two-week truce through Omani mediators, which the Houthis rejected.",
+          "zh": "未具名消息源9月18日对黎巴嫩真主党系媒体称，沙特经阿曼调解向胡塞提出两周休战，遭胡塞拒绝。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "A custom virtual machine for the Stars 4X game",
+      "title_zh": "为《Stars!》4X游戏写的自定义虚拟机",
+      "publisher": "nullprogram.com",
+      "article_url": "https://nullprogram.com/blog/2026/09/17/",
+      "significance_score": null,
+      "summary_zh": "nullprogram介绍为经典4X游戏Stars!实现的定制VM；评论怀念童年邮件软盘升级版，并拿它与Master of Orion现代化版星图对照。逾80赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "programd",
+          "en": "The star map screenshot looks very similar to star map in \"Remnants of the Precursors\" [1], which is a modernization of 1993 \"Master of Orion\" [2]. Convergent evolution, or was 1995 Stars! an homage/clone of Orion?\n1. https://rayfowler.itch.io/remnants-of-the-precursors\n2. https://store.steampowered.com/app/410970/Master_of_Orion_1/",
+          "zh": "星图截图很像《Remnants of the Precursors》（1993年《Master of Orion》的现代化）——趋同进化，还是1995年的Stars!向Orion致敬/克隆？"
+        },
+        {
+          "type": "comment",
+          "author": "philipov",
+          "en": "Wow, Stars! I loved this game so much as a child. Back then, after upgrading from shareware I had to wait for a floppy disk to arrive in the mail.",
+          "zh": "哇，Stars! 我小时候超爱。那时从共享版升级后，还得等软盘邮寄到家。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49755378",
+      "hn_points": 83,
+      "hn_comments": 22,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "Pakistan army chief urges Iran to persuade Houthis not to target Saudi energy facilities",
+      "title_zh": "巴陆军长促伊朗劝胡塞停打沙特能源设施：麦加公约阴影下",
+      "publisher": "aa.com.tr",
+      "article_url": "https://www.aa.com.tr/en/asia-pacific/pakistan-army-chief-urges-iran-to-persuade-houthis-not-to-target-saudi-energy-facilities-sources/4059811",
+      "significance_score": 7.3,
+      "summary_zh": "安纳杜卢/FT系报道：巴基斯坦陆军参谋长阿西姆·穆尼尔近日多次要求伊朗动用影响力制止胡塞袭击沙特领土与能源设施，并提及对利雅得的防务承诺；防长阿西夫17日称“落实麦加公约的时机已到”。分析指巴方试图以外交施压避免被共同防御义务拖入中东战火，但胡塞并非伊朗代理人，未必服从。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Anadolu Agency",
+          "en": "Pakistan's army chief Field Marshal Asim Munir has repeatedly urged Iran to use its influence to stop Houthi attacks on Saudi Arabia and its energy infrastructure, sources said.",
+          "zh": "消息人士称，巴基斯坦陆军参谋长阿西姆·穆尼尔元帅多次敦促伊朗运用其影响力，制止胡塞对沙特及其能源设施的袭击。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "Apple iPhone 18 Pro Camera test",
+      "title_zh": "DxOMark：iPhone 18 Pro相机测试",
+      "publisher": "dxomark.com",
+      "article_url": "https://www.dxomark.com/apple-iphone-18-pro-camera-test/",
+      "significance_score": null,
+      "summary_zh": "DxOMark发布iPhone 18 Pro影像评测；评论吐槽焦外“洋葱圈”散景像廉价折反镜头，并建议把历年“比上一代强很多”的对比图串成链看审美漂移。80赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "matja",
+          "en": "I'm surprised that in no reviews of the iPhone 18 camera there is mention of the bad quality bokeh, it has heavy ring shapes that looks like what you'd get from a cheap catadioptric lens.\nEdit: e.g. the tree in one of the images in the page: https://www.dxomark.com/wp-content/uploads/2026/09/PoleHDR_D...",
+          "zh": "奇怪没有任何18相机评测提到糟糕的散景——环形很重，像廉价折反镜头。例如页上那棵树的图。"
+        },
+        {
+          "type": "comment",
+          "author": "velcrovan",
+          "en": "Someone should assemble a chain of iPhone camera review comparison images published over the years, 18 → 17, 17 → 16, 16 → 15 etc. showing how each year's new phone being so much better than the previous year's somehow becomes perceivably bad next to the next year's phone.",
+          "zh": "该有人把历年iPhone相机评测对比图串起来：18→17、17→16……看每年“比上一代强太多”的新机，如何在下一代旁边突然显得差。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49771218",
+      "hn_points": 80,
+      "hn_comments": 92,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "Italy to deploy warships to protect shipping through Bab al-Mandeb",
+      "title_zh": "意大利将派军舰护航曼德海峡：不等欧盟决策",
+      "publisher": "aljazeera.com",
+      "article_url": "https://www.aljazeera.com/economy/2026/9/18/italy-to-deploy-warships-to-protect-shipping-through-bab-al-mandeb",
+      "significance_score": 7.2,
+      "summary_zh": "半岛电视台9月18日：防长克罗塞托称意大利将部署军舰保障本国商船通过曼德海峡，不会等待欧盟共同决定；警告水道若不通经济后果严重。胡塞近周控制也门整段红海沿岸后，该水道成为海湾绕开霍尔木兹后的关键替代动脉。意舰Carlo Bergamini同日已在Aspides框架下为商船护航。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Al Jazeera",
+          "en": "Italy will deploy warships to ensure safe passage for its commercial vessels through the Bab al-Mandeb strait, Defence Minister Guido Crosetto said, adding that Rome would not wait for a joint decision from the European Union.",
+          "zh": "意大利国防部长克罗塞托称，意方将部署军舰保障本国商船通过曼德海峡，且不会等待欧盟的共同决定。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "A Necessary History of the Oddest Letter: W",
+      "title_zh": "最古怪字母W的一部必要历史",
+      "publisher": "lithub.com",
+      "article_url": "https://lithub.com/a-necessary-history-of-the-oddest-letter-w/",
+      "significance_score": null,
+      "summary_zh": "Literary Hub梳理字母W的奇特演变；非母语者称终于理解英语拼写与发音的历史缝隙，芬兰读者则补农学家Agricola创制芬兰文时的字母取舍。75赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "vhantz",
+          "en": "English is at best my 3rd language. I have always found the huge discrepancy between pronunciation and spelling really nonsensical (keep in mind that I even speak French). But this article really helps see all that in a new light. Nothing is a-historical, not even phonetics. Newfound respect for the English language.",
+          "zh": "英语最多算我的第三语言。我一直觉得发音和拼写的巨大落差毫无道理（我连法语都说）。但这篇文章让人从历史角度看这一切——连语音都不是非历史的。对英语生出新敬意。"
+        },
+        {
+          "type": "comment",
+          "author": "Sharlin",
+          "en": "The history of W in Finnish is interesting (for some values of \"interesting\"). Mikael Agricola [1], a Lutheran clergyman, essentially created literary Finnish from scratch in the 1500s (before that, Finnish had existed solely as a spoken, vernacular language, with official business conducted in Swedish (or German), and until the reformation, the language of the Church had of course been Latin).\nAgricola had to create an alphabet for Finnish, and naturally borrowed heavily from Swedish and, to a lesser extent, German. His orthography was not particularly self-consistent, and for example the /u/ and /v/ phonemes might be written as either \"u\", \"v\", or \"w\" in Agricola's works. For example, the word uusi (/u:si/; \"new\") was written by him as \"wsi\", indeed using \"w\" as a literal \"double-u\". The /w/ sound did not exist in spoken Finnish.\nOver time, Finnish became the almost entirely phonetic language that it is now, with letters matching phonemes essentially one-to-one. /u/ was regularized as \"u\" and /v/ as \"v\". As /w/ still doesn't exist, the letter \"w\" is very rarely used, mainly in some surnames as an alternative spelling of \"v\"; phonebooks used to collate \"v\" and \"w\" as the same lett",
+          "zh": "芬兰语里W的历史也挺有意思。米卡埃尔·阿格里科拉在十六世纪几乎从零创制书面芬兰语，字母表大量借自瑞典语等。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49778195",
+      "hn_points": 75,
+      "hn_comments": 43,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "Democrats seize on Iran war costs to hit Trump ahead of midterms",
+      "title_zh": "民主党抓伊战生活成本打中期选举：康纳提非法战争退款法案",
+      "publisher": "iranintl.com",
+      "article_url": "https://www.iranintl.com/en/202609181464",
+      "significance_score": 7.3,
+      "summary_zh": "伊朗国际9月18日：民主党将六个月伊战与汽油、物价绑定中期选举叙事。科罗拉多众议员Crow称“无计划、无战略”；康涅狄格DeLauro称通勤族日多付近百万美元汽油费。加州众议员罗·康纳提出Illegal War Refund Act，拟从国防预算向纳税人退约1700美元，并称战争已让美国人在食品与汽油上多付约2300亿美元。马凯特民调：仅26%认可特朗普处理伊朗、20%认可其处理油价。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Iran International",
+          "en": "Representative Ro Khanna of California on Friday introduced what he called the Illegal War Refund Act, proposing $1,700 payments to taxpayers funded from the Defense Department budget.",
+          "zh": "加州众议员罗·康纳周五提出所谓《非法战争退款法》，拟以国防部预算向纳税人发放约1700美元。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "I turned Jev into a (lousy) chatbot",
+      "title_zh": "我把Jev做成了一个（很糟的）聊天机器人",
+      "publisher": "github.com",
+      "article_url": "https://github.com/kyle-pena-nlp/jevchat/",
+      "significance_score": null,
+      "summary_zh": "开发者把Jev推理系统硬接成聊天界面并开源；评论用《瑞克和莫蒂》死亡水晶比喻其迭代决策，并笑称模型把“写个短故事”回成“a story”是故意冷幽默。73赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "ericpruitt",
+          "en": "It's the digital equivalent of Morty speaking with the death crystal: https://youtu.be/YjepJlvkdKs?t=51. The crystal shows him how he will die, so he iteratively determines his speech based on whether he sees himself dying with the life he wants.",
+          "zh": "数字版的莫蒂对着死亡水晶说话：水晶显示他怎么死，于是他根据“这样说会不会死”迭代决定下一句台词。"
+        },
+        {
+          "type": "comment",
+          "author": "OtherShrezzing",
+          "en": ">> write me a short story\n> a story\nI think this is the first time I’ve knowingly laughed at a model’s joke.",
+          "zh": ">> 给我写个短故事 / > a story ——这大概是我第一次明知故笑地被模型冷笑话逗到。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49778162",
+      "hn_points": 73,
+      "hn_comments": 23,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}
