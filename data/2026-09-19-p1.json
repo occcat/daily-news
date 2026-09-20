@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Hormuz oil shipments hit 6-month high, US commander says",
+      "title_zh": "CENTCOM司令：霍尔木兹近两周油与LNG运量创六个月新高",
+      "publisher": "straitstimes.com",
+      "article_url": "https://www.straitstimes.com/world/middle-east/hormuz-oil-shipments-hit-6-month-high-us-commander-says",
+      "significance_score": 7.8,
+      "summary_zh": "海峡时报援引彭博9月19日：美军中央司令部司令布拉德·库珀视频称，近两周经霍尔木兹的原油与LNG运量达六个月最高，主航道已排雷，海湾盟友数月内经此运出逾十亿桶原油；并称伊方在美封锁下“出口为零”。同日利雅得两次空袭警报，机场附近阿美标识油罐冒黑烟——官方通航叙事与首都告警同框。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Admiral Brad Cooper / Bloomberg via Straits Times",
+          "en": "Clearly, momentum is building... The volume of crude oil, cargo, and liquid natural gas these past two weeks is higher than at any point in the past six months.",
+          "zh": "显然势头在积聚……过去两周原油、货物与液化天然气运量高于过去六个月任何时点。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 1
+    },
+    {
+      "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+      "title_zh": "GPT-6 Astra解出一战德军无线电密码",
+      "publisher": "prinzai.com",
+      "article_url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+      "significance_score": null,
+      "summary_zh": "PrinzAI称GPT-6 Astra解开尘封一战德密；HN质疑标题党——有人指用了“本不该已启用”的已刊密钥，代理人“吞密文”能力与史学严谨性被同时审视。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "grey-area",
+          "en": "Using an existing published key, which people hadn't tried because the message was sent before the key was supposed to be used. This headline is misleading.",
+          "zh": "用的是已公开的密钥——人们以前没试，是因为报文发出时按理密钥还不该启用。这标题有误导。"
+        },
+        {
+          "type": "comment",
+          "author": "aaymeloglu",
+          "en": "Agents just eat these things. After last week's HN post about Cyphral Distich, I pointed Astra and Fable at some unsolved ciphers just to see whether some joker who knew nothing about cryptanalysis could make progress.",
+          "zh": "代理人专吃这类东西。上周HN那篇Cyphral Distich之后，我把Astra和Fable丢给几段未解密文，想看一个完全不懂密码分析的家伙能不能推进。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49763987",
+      "hn_points": 388,
+      "hn_comments": 177,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 2
+    },
+    {
+      "title": "Thick smoke seen near Riyadh airport as Houthis claim attack on Saudi capital",
+      "title_zh": "利雅得机场附近阿美油罐起火冒烟：胡塞宣称打击首都敏感目标",
+      "publisher": "theguardian.com",
+      "article_url": "https://www.theguardian.com/world/2026/sep/19/saudi-arabia-riyadh-airport",
+      "significance_score": 7.9,
+      "summary_zh": "卫报9月19日：利雅得哈立德国王国际机场附近印有阿美标识的燃油罐起火冒黑烟；当局向市民推送空袭警报，为七月胡塞冲突升级以来首都首次。胡塞发言人叶海亚·萨雷称以导弹与无人机打击“敏感”目标；沙特主导联军称拦截射向利雅得的弹道导弹。FlightRadar24将机场列为最高扰动指数。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Guardian",
+          "en": "Yemen's Houthis said they attacked \"sensitive\" sites in the Saudi capital with missiles and drones, hours after flames and a large plume of black smoke were seen rising above Riyadh airport on Saturday.",
+          "zh": "也门胡塞称以导弹与无人机打击沙特首都“敏感”目标；此前数小时，利雅得机场上空已可见火焰与大片黑烟。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 3
+    },
+    {
+      "title": "I think you should almost never use AI to write",
+      "title_zh": "我认为你几乎不该用AI写作",
+      "publisher": "erichgrunewald.substack.com",
+      "article_url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+      "significance_score": null,
+      "summary_zh": "Eric Grunewald论证：点头式阅读与亲手生成文本的认知差巨大；AI代写掏空写作对思维的锻打。评论区分“代写输出”与“为自己读而让AI整理”。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "patrickmay",
+          "en": "From TFA: There's a huge cognitive difference between nodding along while reading something and actually productively generating a text.",
+          "zh": "原文说：边读边点头，和真正产出一段文字，认知差距巨大。"
+        },
+        {
+          "type": "comment",
+          "author": "jameshart",
+          "en": "Use AI to write things for you to read that you wish someone else had written. 'Give me a summary of the research on this topic'; 'Write a report on this data to help me make a decision'.",
+          "zh": "用AI写给你自己读、你希望别人写过的东西：‘给我这份研究摘要’；‘根据数据写份报告帮我决策’。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49767937",
+      "hn_points": 339,
+      "hn_comments": 165,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 4
+    },
+    {
+      "title": "Iran's IRGC strikes three tankers in Strait of Hormuz, warns of destruction",
+      "title_zh": "革命卫队三日三袭油轮并警告：未经授权过境将遭“摧毁”",
+      "publisher": "marineradar.com",
+      "article_url": "https://www.marineradar.com/trends/iran-s-irgc-strikes-three-tankers-in-strait-of-hormuz-2026-09-19",
+      "significance_score": 7.6,
+      "summary_zh": "MarineRadar综述9月16–18日霍尔木兹三起油轮遭投射物起火：多哥籍Trend被革命卫队认领，另两艘未具名；UKMTO各发通报称船员安全、无污染。卫队宣称继续“控制水道”，并警告未经授权过境者将面临“摧毁”。与周四仅四艘可见通航同框，授权对峙由个案升为规则化威胁。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "MarineRadar",
+          "en": "The Guard also warned that any tanker attempting to pass \"without authorization\" would face \"destruction.\"",
+          "zh": "革命卫队还警告，任何试图“未经授权”过境的油轮将面临“摧毁”。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 5
+    },
+    {
+      "title": "The Secret Life of Circuits",
+      "title_zh": "电路的隐秘生活",
+      "publisher": "blog.coredump.cx",
+      "article_url": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
+      "significance_score": null,
+      "summary_zh": "coredump续写电子直觉系列，追问“电究竟是什么”的教学缝隙；评论推荐Agarwal & Lang等教材，并连锁回lcamtuf旧文。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "philsnow",
+          "en": "A couple clicks through to older lcamtuf posts and I came across this in the \"what is electricity\" post: once again, we don't have a satisfying explanation why.",
+          "zh": "点进几篇lcamtuf旧文，在“电是什么”里又碰到：我们依然没有令人满意的解释。"
+        },
+        {
+          "type": "comment",
+          "author": "tzs",
+          "en": "I'd like to add one that I've never seen mentioned here: Agarwal and Lang's Foundations of Analog and Digital Electronic Circuits.",
+          "zh": "想补一本这里很少被提起的：Agarwal与Lang的《模拟与数字电子电路基础》。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49720143",
+      "hn_points": 315,
+      "hn_comments": 81,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 6
+    },
+    {
+      "title": "How the Houthis' control of Bab el-Mandeb could reshape Red Sea shipping",
+      "title_zh": "胡塞控曼德：不必封峡即可抬高红海航运成本",
+      "publisher": "moderndiplomacy.eu",
+      "article_url": "https://moderndiplomacy.eu/2026/09/19/how-the-houthis-control-of-bab-el-mandeb-could-reshape-red-sea-shipping/",
+      "significance_score": 7.4,
+      "summary_zh": "Modern Diplomacy 9月19日分析：胡塞连取穆哈、佩里姆岛并巩固红海沿岸后，对曼德的杠杆更在于威胁而非物理封峡；东—西向管线三泵站受损使沙特“绕开霍尔木兹”出口同时受压。文指第二季曼德油品流量约810万桶/日，近乎同比翻倍——双海峡挤兑把地理变成议价筹码。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Ariyazka Prasetyo / Modern Diplomacy",
+          "en": "Controlling a maritime chokepoint does not require physically blocking every ship that passes through it. Sometimes the threat is enough.",
+          "zh": "控制海上咽喉不必物理拦住每一艘船；有时威胁本身就够了。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 7
+    },
+    {
+      "title": "How SpaceX streamlined the Raptor engine",
+      "title_zh": "SpaceX如何精简猛禽发动机",
+      "publisher": "construction-physics.com",
+      "article_url": "https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor",
+      "significance_score": null,
+      "summary_zh": "Construction Physics梳理猛禽零件删减与工艺迭代；评论引Isaacson传记中马斯克对每个零件存在理由的拷问，并惊叹金属3D打印已进火箭发动机。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "WalterBright",
+          "en": "According to Isaacson's biography of Musk, Musk relentlessly challenges the existence of every part in Tesla and SpaceX machines. He's willing to go too far, having to sometimes put parts back.",
+          "zh": "据Isaacson的马斯克传记，他对特斯拉与SpaceX机器里每个零件的存在都穷追猛打；愿意走过头，有时再把零件加回来。"
+        },
+        {
+          "type": "comment",
+          "author": "ecshafer",
+          "en": "I find it mind boggling that you can 3d print rocket engines. I thought that the standard line is that 3d printing metal wasn't developed enough for anything serious.",
+          "zh": "能3D打印火箭发动机这事让我脑壳嗡嗡。我一直以为金属3D打印还没发达到能干正经事。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49746626",
+      "hn_points": 239,
+      "hn_comments": 119,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 8
+    },
+    {
+      "title": "US diesel price hits record $6.49 as Hormuz squeeze persists",
+      "title_zh": "美国柴油均价录得约6.49美元创纪录：一周再涨逾三成美分",
+      "publisher": "businesstoday.in",
+      "article_url": "https://www.businesstoday.in/world/story/us-diesel-price-hits-record-6-49-how-much-prices-have-surged-since-hormuz-crisis-556661-2026-09-20",
+      "significance_score": 7.5,
+      "summary_zh": "Business Today援引AAA：9月19日美国柴油全国均价约6.4866美元/加仑再破纪录，一周前约6.16，一周涨约33美分（约5.3%），同比近高75%。同期普通汽油约4.48美元。文指压力更在成品油而非仅原油——炼厂扰动、航运约束与出口需求叠加。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Business Today / AAA",
+          "en": "The national average for diesel reached $6.4866 a gallon on September 19, according to the American Automobile Association (AAA), surpassing its previous record.",
+          "zh": "据美国汽车协会（AAA），9月19日柴油全国均价达每加仑6.4866美元，再破此前纪录。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 9
+    },
+    {
+      "title": "Asking authors about their own papers",
+      "title_zh": "拿作者本人的论文去问作者",
+      "publisher": "medium.com",
+      "article_url": "https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0",
+      "significance_score": null,
+      "summary_zh": "实验把论文内容反问原作者，暴露记忆与表述裂缝；评论建议用已接收论文做对照、并把同类实验扩到审稿人。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "fn-mote",
+          "en": "Running the same experiment with accepted papers is a good control. Running a similar experiment with reviewers would be interesting too.",
+          "zh": "用已接收论文做同样实验是好对照；对审稿人做类似实验也会很有意思。"
+        },
+        {
+          "type": "comment",
+          "author": "greenflag",
+          "en": "One larger problem here is the value of a research paper is rarely the specific knowledge it adds but in the process of researching that adds to the collective knowledge+experience.",
+          "zh": "更大问题是：论文的价值很少在于它新增的那点具体知识，而在于研究过程给集体知识与经验的增量。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49734467",
+      "hn_points": 221,
+      "hn_comments": 113,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 10
+    }
+  ]
+}

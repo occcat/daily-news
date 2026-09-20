@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Rising gas prices frustrate voters; Trump calls them an 'inexpensive price to pay' for Iran war",
+      "title_zh": "选民怒油价：特朗普称此为伊战“廉价代价”",
+      "publisher": "abcnews.com",
+      "article_url": "https://abcnews.com/US/wireStory/rising-gas-prices-frustrate-voters-trump-inexpensive-price-136597370",
+      "significance_score": 7.2,
+      "summary_zh": "ABC/美联社：AAA普通汽油全国均价约4.48美元，一周涨约17美分；福克斯民调61%选民视油价为家庭重大问题，63%认为本届政府使经济恶化。特朗普称高油价是伊战“廉价代价”。密歇根经营者称柴油加注约6.79——中期选举早期投票已开，油箱政治升温。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "ABC News / AP",
+          "en": "Rising gas prices frustrate voters. Trump says it's an 'inexpensive price to pay' for the Iran war.",
+          "zh": "油价上涨激怒选民。特朗普称这是伊战“廉价的代价”。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "Black Holes or Black Hole Stars? Astronomers Spar over 'Little Red Dots'",
+      "title_zh": "黑洞还是黑洞星？天文学家争论‘小红点’",
+      "publisher": "quantamagazine.org",
+      "article_url": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914",
+      "significance_score": null,
+      "summary_zh": "Quanta写早期宇宙‘小红点’究竟是黑洞还是奇异恒星的争论；评论吐槽大众恒星观与天文学定义之差，并玩笑“黑洞太阳”才是该有的名字。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jahnu",
+          "en": "One thing worth noting is our popular notion of what a star seems to be is quite different from what astronomers have.",
+          "zh": "值得一提：大众心里的“恒星”和天文学家用的概念差很远。"
+        },
+        {
+          "type": "comment",
+          "author": "benji-york",
+          "en": "Any decent human being would have called these Black Hole Suns.",
+          "zh": "正常人类早该叫它们黑洞太阳了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49756121",
+      "hn_points": 101,
+      "hn_comments": 59,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "Trump set to address the UN General Assembly, with Iran in focus",
+      "title_zh": "联大辩论在即：特朗普周二演讲聚焦伊朗与海合会会晤",
+      "publisher": "scrippsnews.com",
+      "article_url": "https://www.scrippsnews.com/politics/foreign-policy/trump-set-to-address-the-un-general-assembly-with-iran-in-focus",
+      "significance_score": 7.1,
+      "summary_zh": "Scripps：特朗普定周二联大演讲，官员称将谈伊朗永不拥核、西半球与加沙20点方案等；伊核与地区安全为会谈核心。同期将与海合会领导人会晤。Axios此前引特朗普“歼灭或收手”重大决定——联大周把军事抉择、制裁执行与签证外交叠在同一舞台。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Scripps News",
+          "en": "Iran is expected to be a \"key topic of conversation and diplomacy,\" according to senior U.S. officials.",
+          "zh": "据美国高级官员，伊朗料将成为“对话与外交的关键议题”。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "One-Electron Universe",
+      "title_zh": "单电子宇宙",
+      "publisher": "en.wikipedia.org",
+      "article_url": "https://en.wikipedia.org/wiki/One-electron_universe",
+      "significance_score": null,
+      "summary_zh": "维基‘单电子宇宙’假说热传；评论推荐Andy Weir《蛋》，并延伸‘单观察者宇宙’——所有观察者是同一意识穿越时空的显现。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "stared",
+          "en": "In the line, I recommend \"The Egg\" by Andy Weir https://www.galactanet.com/oneoff/theegg_mod.html",
+          "zh": "顺着这条线，推荐Andy Weir的《蛋》。"
+        },
+        {
+          "type": "comment",
+          "author": "lioeters",
+          "en": "A twist on this theory: One-Observer Universe. It is the hypothesis that all observers are actually manifestations of a single observer experiencing all of time, space, and every perspective.",
+          "zh": "变体：单观察者宇宙——假说所有观察者其实是同一个观察者在体验全部时间、空间与视角。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49776826",
+      "hn_points": 94,
+      "hn_comments": 80,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "CENTCOM reports 1 billion barrels escorted through Hormuz but LNG transit holds near zero",
+      "title_zh": "CENTCOM称护送十亿桶过峡：LNG过境仍近冰点、与官方口径差约五百万桶/日",
+      "publisher": "energyreader.io",
+      "article_url": "https://energyreader.io/brief/13255",
+      "significance_score": 7.3,
+      "summary_zh": "EnergyReader对照：CENTCOM称自五月护送逾两千艘商船、至多十亿桶原油过霍尔木兹；赖特9月13日口径约千万桶/日，Kpler初九月可见流量约五百万桶/日，口径差约一半。天然气过境自约10.5降至约0.8 bcf/日（约基线8%），亚洲JKM约27.51美元/MMBtu——原油叙事回暖难掩LNG结构性断裂。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "EnergyReader",
+          "en": "Gas transits through the strait fell from 10.5 billion cubic feet per day to about 0.8 bcf/d, roughly 8% of the pre-crisis baseline.",
+          "zh": "经海峡的天然气过境从每天约105亿立方英尺降至约8亿，约为危机前基线的8%。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "Suzanne Ciani's Buchla Cookbook",
+      "title_zh": "Suzanne Ciani的Buchla烹饪书",
+      "publisher": "echo.orpheusinstituut.be",
+      "article_url": "https://echo.orpheusinstituut.be/article/suzannes-buchla-cookbook",
+      "significance_score": null,
+      "summary_zh": "Orpheus Institute整理电子音乐先驱Ciani的Buchla模块食谱；模块合成与VCV Rack玩家欢呼，并指向Tiptop与Buchla的Eurorack复刻。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "outofpaper",
+          "en": "This is an amazing resource, whether you're into hardware modular synths or virtual ones like VCV Rack and Cardinal. Read, learn, enjoy, and play.",
+          "zh": "无论你玩硬件模块合成还是VCV Rack/Cardinal这类虚拟机，这都是宝库。读、学、玩、享受。"
+        },
+        {
+          "type": "comment",
+          "author": "harmoni-pet",
+          "en": "Tiptop Audio has a collaboration with Buchla where they're making eurorack versions of most of the classic models.",
+          "zh": "Tiptop Audio与Buchla合作，把多数经典型号做成Eurorack版本。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49735010",
+      "hn_points": 94,
+      "hn_comments": 26,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "U.S. clears way for $24.3 billion F-35 sale to Saudi Arabia",
+      "title_zh": "美放行对沙243亿美元F-35可能军售：48架战机国会审查中",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/aerospace-defense/us-state-department-oks-possible-243-billion-military-aircraft-sale-saudi-arabia-2026-09-17/",
+      "significance_score": 6.9,
+      "summary_zh": "路透：国务院批准可能向沙特出售48架F-35A及配套发动机与支援，总额约243亿美元，国会有三十日审议期。时点紧贴美拒直接打胡塞之后——以军售代出兵，给利雅得防空与威慑工具，同时把美国留在红海第二战场之外。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "The U.S. State Department has approved a possible $24.3 billion sale of F-35 fighter jets to Saudi Arabia.",
+          "zh": "美国国务院已批准可能向沙特出售价值约243亿美元的F-35战斗机交易。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "Show HN: CUA-S1 – A System One Model for Computer Use",
+      "title_zh": "Show HN：CUA-S1——面向计算机使用的System One模型",
+      "publisher": "github.com",
+      "article_url": "https://github.com/trycua/cua",
+      "significance_score": null,
+      "summary_zh": "Show HN展示偏快反射的计算机操控模型；评论立刻点名通用Cookie弹窗关闭插件，并讨论多专家模型+路由父模型的架构。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "badatnames",
+          "en": "Please give us a hyper general cookie consent popup dismissal add-on :)",
+          "zh": "拜托给个超级通用的Cookie同意弹窗一键关掉插件 :)"
+        },
+        {
+          "type": "comment",
+          "author": "AM1010101",
+          "en": "Would the idea be to have many specialist models (forms, wikipedia, final cut, etc) and have a parent model choose which is best?",
+          "zh": "是不是该有很多专家模型（表单、维基、Final Cut等），再由父模型挑最合适的那个？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49767564",
+      "hn_points": 88,
+      "hn_comments": 10,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "Security Alert: U.S. Mission Saudi Arabia – September 19, 2026",
+      "title_zh": "美驻沙特使团安全提醒：利雅得遇袭后吁加强警惕并预留离境弹性",
+      "publisher": "sa.usembassy.gov",
+      "article_url": "https://sa.usembassy.gov/security-alert-us-mission-saudi-arabia-september-19-2026/",
+      "significance_score": 6.8,
+      "summary_zh": "美驻沙特使团9月19日安全提醒：地区紧张下安全环境复杂、或有突发升级；在中东的美国人应提高警惕，预做航班取消、空域关闭与旅行中断准备，并直接向航司核对利雅得/吉达/达兰机场动态。提醒点名伊朗支持的胡塞对沙包括民用机场的敌对行动，冲突或迅速升级——首都告警进入领事口径。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "U.S. Mission Saudi Arabia",
+          "en": "Americans currently in the Middle East should exercise heightened vigilance and be aware of potential flight cancellations, airspace closures, and travel disruptions.",
+          "zh": "目前身处中东的美国人应提高警惕，并留意可能的航班取消、空域关闭与旅行中断。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据美驻沙特使馆公开提醒补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "Telling a Computer to Do Things",
+      "title_zh": "吩咐计算机做事",
+      "publisher": "will-keleher.com",
+      "article_url": "https://will-keleher.com/posts/telling-your-computer-to-do-things",
+      "significance_score": null,
+      "summary_zh": "Will Keleher谈壳脚本与“让计算机做事”的接口心智；评论认为管道/进程组合比语言本身更关键，并劝新手给学壳留足时间。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "adityaathalye",
+          "en": "IMO, a scripting language is the lesser contributor to the power of shell scripting. My ranked-order is: 1. Universal Inter-Process Interface: Arbitrary program composition via pipes.",
+          "zh": "我觉得脚本语言对壳脚本威力的贡献反而较小。我的排序：1.通用进程间接口——用管道任意组合程序。"
+        },
+        {
+          "type": "comment",
+          "author": "happyPersonR",
+          "en": "Learning and getting good at shell scripting is something that takes a while usually. I would recommend that people new at shell give themselves time.",
+          "zh": "学会并精通壳脚本通常要花一阵子。建议新手给自己留足时间。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49772662",
+      "hn_points": 80,
+      "hn_comments": 35,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}

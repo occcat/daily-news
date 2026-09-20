@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "The midterms might be won or lost on a single issue: the gas tank",
+      "title_zh": "中期选举或押在油箱：特朗普称油价难在选前回落",
+      "publisher": "independent.co.uk",
+      "article_url": "https://www.independent.co.uk/news/world/americas/us-politics/gas-prices-midterm-elections-trump-iran-war-b3049971.html",
+      "significance_score": 7.3,
+      "summary_zh": "独立报：普通汽油全国均价一度逾4.31美元（同比约+36%），柴油约6.23美元创高；劳工部上月CPI同比3.4%。特朗普称油价或挺过中期选举、“选后才会下坠”。YouGov/《经济学人》民调显示98%受访者感到油价上涨、73%称“涨很多”——生活成本叙事继续压向共和党。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Donald Trump / The Independent",
+          "en": "Right after the election, oil prices are going to be tumbling downward... I think it's going to take a little bit longer than the midterm.",
+          "zh": "选后油价会往下掉……我觉得这得比中期选举再多花一点时间。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "New evidence for hidden chambers beyond Tutankhamun's tomb",
+      "title_zh": "图坦卡蒙墓外或有隐藏墓室新证据",
+      "publisher": "nature.com",
+      "article_url": "https://www.nature.com/articles/d41586-026-02621-2",
+      "significance_score": null,
+      "summary_zh": "《自然》报道图坦卡蒙墓外隐藏空间的新探测线索；评论忆童年埃及热，并推测猝死法老可能“借现成墓穴”赶工安葬。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jamwise",
+          "en": "The 10 year old inside me is so incredibly excited. My actual 10 year old self was obsessed with tombs and ancient Egypt.",
+          "zh": "我内心那个十岁小孩兴奋坏了。当年的十岁我也是古埃及与陵墓脑残粉。"
+        },
+        {
+          "type": "comment",
+          "author": "wildzzz",
+          "en": "Makes sense, the king dies unexpectedly, you need a tomb real quick. It probably takes years to dig these tombs... You pick an unfinished one and remodel.",
+          "zh": "说得通：国王猝死就得赶紧找墓。挖墓可能要好几年……于是挑一座未完成的改一改。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49742697",
+      "hn_points": 147,
+      "hn_comments": 81,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "Trump administration grants visas to top Iranian leaders to attend U.N. General Assembly",
+      "title_zh": "美批佩泽希齐安等联大签证：行程限曼哈顿住所与联大总部",
+      "publisher": "nbcnews.com",
+      "article_url": "https://www.nbcnews.com/world/iran/trump-administration-grants-visas-top-iranian-leaders-attend-un-genera-rcna598422",
+      "significance_score": 7.2,
+      "summary_zh": "NBC：国务院称履行东道国义务，允许伊朗核心代表团参加高级别周，但限制行程并禁止购买奢侈品等。佩泽希齐安定周三演讲，特朗普定周二；伊战进入第七个月，霍尔木兹冲突仍在。签证与“歼灭或收手”重大决定、海合会双边同周并置。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "U.S. State Department / NBC News",
+          "en": "Consistent with our host country obligations, the core delegation from the Iranian regime will be able to attend U.N. General Assembly High Level Week. The delegation will be under travel restrictions and will face prohibitions on the purchase of luxury and other goods per our policy.",
+          "zh": "履行东道国义务，伊朗政权核心代表团可参加联大高级别周；代表团将受行程限制，并按政策禁止购买奢侈品等。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "The senior engineer death spiral",
+      "title_zh": "高级工程师死亡螺旋",
+      "publisher": "sunilpai.dev",
+      "article_url": "https://sunilpai.dev/posts/the-senior-engineer-death-spiral",
+      "significance_score": null,
+      "summary_zh": "Sunil Pai写资深工程师被“越能干越加活”拖垮的循环；评论拥抱“终端职级”与边界谈判——唯一奖赏往往是更多工作。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "b0rtb0rt",
+          "en": "i'm very happy in the \"terminal\" senior position at my company, there are higher levels but it's fine to stay at the level that i'm at forever.",
+          "zh": "我很满意公司里的“终端”高级岗位；上面还有级别，但永远停在这一级也没关系。"
+        },
+        {
+          "type": "comment",
+          "author": "sajithdilshan",
+          "en": "The senior you get the more you realise that the only reward for hard work is more work. Then, you learn to say no more often and set boundaries.",
+          "zh": "越资深越明白：努力工作的唯一奖赏是更多工作。然后你会更常说不、设边界。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49776130",
+      "hn_points": 120,
+      "hn_comments": 84,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "Saudi Arabia says air defences intercepted Houthi ballistic missile targeting Riyadh",
+      "title_zh": "沙特证实拦截射向利雅得弹道导弹；胡塞称另打延布阿美设施",
+      "publisher": "france24.com",
+      "article_url": "https://www.france24.com/en/middle-east/20260919-smoke-flames-seen-near-riyadh-airport-major-flight-disruptions-reported",
+      "significance_score": 7.7,
+      "summary_zh": "法新社/法广9月19日晚：沙特主导联军证实胡塞以弹道导弹试图打击首都，称已拦截，为冲突升级以来首次针对利雅得；并称延布、塔伊夫等地民用设施袭击被挫败。萨雷称两波行动分别打利雅得敏感目标与延布阿美设施。联合国称战事已致逾11.2万人流离失所。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "France 24 / AFP",
+          "en": "Saudi Arabia on Saturday confirmed that Yemen's Houthi rebels tried to attack its capital with a ballistic missile, the first targeting of Riyadh since the escalation in fighting with the rebels.",
+          "zh": "沙特周六证实也门胡塞试图以弹道导弹打击首都，这是与胡塞冲突升级以来首次针对利雅得。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "Deodands put a price on objects that caused death",
+      "title_zh": "Deodand：给致死之物标价",
+      "publisher": "daily.jstor.org",
+      "article_url": "https://daily.jstor.org/how-the-railways-killed-a-medieval-law",
+      "significance_score": null,
+      "summary_zh": "JSTOR Daily追溯中世纪deodand——与人命挂钩的无生命物体被罚没；铁路时代该逻辑被现代侵权法取代。评论链到埃尔福特茅厕灾难等旁支。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "A_D_E_P_T",
+          "en": "A deodand was any inanimate object directly linked to a human fatality -- from a runaway cart to a falling branch -- and it was usually forfeited to the crown.",
+          "zh": "Deodand是任何与人死亡直接相关的无生命物体——从失控马车到坠落树枝——通常被罚没归王室。"
+        },
+        {
+          "type": "comment",
+          "author": "zrobotics",
+          "en": "This is only tangentially on-topic, but the opening anecdote about the floor collapse immediately reminded me of the Erfurt latrine disaster.",
+          "zh": "只是沾边，但开头地板塌陷的轶事立刻让我想起埃尔福特茅厕灾难。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49731996",
+      "hn_points": 106,
+      "hn_comments": 41,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "Satellite images show Saudi Arabia building emergency bypass around damaged East-West pipeline station",
+      "title_zh": "卫星：沙特在东—西向受损泵站旁抢建应急旁路管道",
+      "publisher": "thedefensenews.com",
+      "article_url": "https://www.thedefensenews.com/Satellite-Images-Show-Saudi-Arabia-Building-Emergency-Bypass-Around-Damaged-East-West-Oil-Pipeline-Station/",
+      "significance_score": 7.1,
+      "summary_zh": "The Defense News援引Vantor 9月16日影像：沙特工人在受损泵站周围铺焊两段临时管道，意在绕开损毁设施恢复部分流量。此前路透指三座泵站受损、全线或需五至六周；彭博称阿美目标数日内恢复约一半产能。旁路可见化，把“数日 vs 数周”口径之争落到工地。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Defense News / Vantor",
+          "en": "Satellite imagery captured by Vantor Technologies on September 16 shows Saudi crews constructing a temporary bypass around one of the damaged pumping stations.",
+          "zh": "Vantor Technologies于9月16日拍摄的卫星影像显示，沙特施工队正围绕一座受损泵站建设临时旁路。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)",
+      "title_zh": "Cache-to-Cache：LLM之间的直接语义通信（2025）",
+      "publisher": "arxiv.org",
+      "article_url": "https://arxiv.org/abs/2510.03215",
+      "significance_score": null,
+      "summary_zh": "2025年论文设想模型经缓存做语义互通；评论称概念仍迷人却未见生产落地，并忧Neuralese链式思维加上跨代理通信后人类更难审计。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "ACCount39",
+          "en": "It's an old paper (from 2025, so, a decade ago in AI years), but the concept is still fascinating. And I'm yet to see it show up in any production models.",
+          "zh": "论文算旧了（2025，AI年头里像十年前），但概念仍迷人。我还没在任何生产模型里见过它落地。"
+        },
+        {
+          "type": "comment",
+          "author": "cubefox",
+          "en": "So the models will not only be using more and more Neuralese in their CoT (like GPT-6), but different agents will also be able to communicate with each other in Neuralese.",
+          "zh": "于是模型不仅在思维链里越来越多用Neuralese（如GPT-6），不同代理还能用Neuralese互相通信。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49758615",
+      "hn_points": 106,
+      "hn_comments": 20,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "Iran-backed Houthi rebels warn against joining Saudi Arabia in Yemen's growing civil war",
+      "title_zh": "胡塞对美保证不打美舰：警告他国勿站队沙特",
+      "publisher": "pbs.org",
+      "article_url": "https://www.pbs.org/newshour/world/iran-backed-houthi-rebels-warn-against-joining-saudi-arabia-in-yemens-growing-civil-war",
+      "significance_score": 7.0,
+      "summary_zh": "PBS转述美联社：胡塞政治局成员穆罕默德·布海提称华盛顿在其推进曼德后接触，已确认除“沙特敌人”外不针对美国或其他国家船只；并警告他国勿加入沙特一侧。战略是拆开美沙同盟——保美舰安全叙事、继续封锁沙特相关航运。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Mohamed al-Bukhaiti / AP via PBS",
+          "en": "We confirmed that we are not targeting the United States, or any other nation, in the strait, with the sole exception of the Saudi enemy.",
+          "zh": "我们确认：在海峡中我们不针对美国或任何其他国家，唯一例外是沙特敌人。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "ZK-JPEG: Zero-Knowledge Image Editing and Compression",
+      "title_zh": "ZK-JPEG：零知识图像编辑与压缩",
+      "publisher": "eprint.iacr.org",
+      "article_url": "https://eprint.iacr.org/2026/2039",
+      "significance_score": null,
+      "summary_zh": "密码学预印本给JPEG编辑/压缩加零知识证明以证出处；评论升到哲学——可接受改动清单难划，且打印再拍照的“模拟缺口”可绕过验证徽章。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jamienk",
+          "en": "Hasn't this crossed over into being a philosophical question? You want to attest to reality or provenance. But then you start making lists of \"acceptable\" changes.",
+          "zh": "这不已经跨进哲学问题了吗？你想证明真实或出处，接着就开始列“可接受改动”清单。"
+        },
+        {
+          "type": "comment",
+          "author": "pixelsort",
+          "en": "If this ever became widespread, people would game the \"verified real\" checkmark using the analog gap. 1. Print AI photo 2. Point fancy expensive camera at printed photo 3. Take a \"real\" photo.",
+          "zh": "一旦普及，人们会用模拟缺口刷“已验证真实”：1.打印AI图 2.用好相机对着打印件 3.拍一张“真”照片。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49769405",
+      "hn_points": 102,
+      "hn_comments": 29,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}
