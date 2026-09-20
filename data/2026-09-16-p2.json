@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Stocks fall as Fed delivers hawkish rate hike",
+      "title_zh": "美联储鹰派加息：美股收跌，十年期美债收益率回到5%",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-16/",
+      "significance_score": 7.1,
+      "summary_zh": "路透纽约9月16日：全球股市在美联储加息并暗示后续还有行动后回吐早盘涨幅。道指跌1.21%，标普跌0.45%；两年期美债收益率升至约4.738%，十年期回到5%。美元指数上涨，现货金下跌；布伦特虽跌仍收于100美元上方。日元兑美元贬至约156.31。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Global stocks fell on Wednesday, reversing gains from early trade, while U.S. government bond yields rose after the U.S. Federal Reserve delivered a hike in interest rates and suggested more were coming.",
+          "zh": "周三全球股市回吐早盘涨幅，美国国债收益率上升：美联储加息并暗示后续还有更多加息。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "title_zh": "训练40亿参数模型：查询计划比Postgres快81%",
+      "publisher": "rohanbansal.com",
+      "article_url": "https://rohanbansal.com/qorl",
+      "significance_score": null,
+      "summary_zh": "Rohan Bansal展示用4B模型做查询规划、相对Postgres启发式提速约81%的实验；评论提醒数据全进内存、只读SELECT与热身测量的边界，并调侃“幻觉漏索引就再抽一次”。逾690赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "refibrillator",
+          "en": "“81% faster query plans than Postgres”…on an 8 GB dataset that fits entirely in memory, with shared_buffers constrained to a fraction of that, queries warmed before measuring, and read-only SELECTs.\nI would be cautious about over fitting, it’s tough to say if those query plans would really be more optimal than Postgres heuristics at scale and with a bit more realistic OLTP workloads.\nIn any case, such is life with profile guided optimization. Many of us appreciate how database workloads can drift over time and with scale.\nKudos to the author for getting their hands dirty and writing up their experiments.",
+          "zh": "“比Postgres快81%的查询计划”——是在8GB、可完全放进内存的数据集上，shared_buffers被压到很小，查询先热身再测，且全是只读SELECT。我会警惕过拟合：更现实的OLTP规模下，这些计划是否仍优于启发式很难说。"
+        },
+        {
+          "type": "comment",
+          "author": "2001zhaozhao",
+          "en": "Engineer: \"HELP, our production DB is frozen on this query that worked fine before!\"\nInfra: \"Hmm, let's check... Well would you look at that, it seems like your LLM query planner usually works and produces fast queries, but this time when you changed a variable name to trigger query rebuild, it happened to hallucinate and miss an index, would you mind re-running the LLM a few times until you get a faster query?\"",
+          "zh": "工程师：“救命，生产库卡在一条以前好好的查询上！”基础设施：“瞧，你的LLM查询规划器平时很快，这次你改了个变量名触发重建，它幻觉漏了索引——要不要再跑几次LLM直到出来更快的计划？”"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49731285",
+      "hn_points": 695,
+      "hn_comments": 143,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "China presses Iran to help rein in Houthis after Saudi appeal, sources say",
+      "title_zh": "消息：沙特求援后，中国私下促伊朗约束胡塞",
+      "publisher": "al-monitor.com",
+      "article_url": "https://www.al-monitor.com/originals/2026/09/exclusive-china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say",
+      "significance_score": 7.0,
+      "summary_zh": "Al Monitor/路透迪拜9月17日独家（事涉16日窗口）：三名知情伊朗人士称，胡塞沿红海与曼德急进后沙特向北京求助，中方私下要求德黑兰运用对胡塞影响力防止冲突沿能源通道扩散；公开表态则强调不希望紧张外溢也门与红海。伊方回应仍把地区稳定系于结束美以对伊战争。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Al Monitor/Reuters",
+          "en": "China has privately asked Tehran to help rein in Yemen's Houthis after an appeal to Beijing by Saudi Arabia following the Iran-backed group's military blitz in the past week, according to three Iranian sources.",
+          "zh": "三名伊朗知情人士称，在沙特向北京求助后，中国已私下要求德黑兰协助约束也门胡塞武装——该伊朗支持组织近一周发动军事猛攻。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "EU chief opens door for Canada to become 'associate member'",
+      "title_zh": "欧盟主席为加拿大成“准成员国”敞开大门",
+      "publisher": "bbc.com",
+      "article_url": "https://www.bbc.com/news/articles/cjwyzrr9d3dko",
+      "significance_score": null,
+      "summary_zh": "欧委会释放加拿大可成欧盟“准成员”的信号；评论立刻并置加拿大C-22加密后门与欧盟ProtectEU“合法访问”叙事，也有人谈海外民主国家更宜走紧密合作而非正式入盟。逾680赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "nickslaughter02",
+          "en": "> Canada's Bill C-22 Would Force Encryption Backdoors\n> Signal, Windscribe, and NordVPN say they'll pull out of Canada before building surveillance infrastructure. The biggest threat to encrypted communications in a Western democracy since Australia's 2018 law.\nhttps://stateofsurveillance.org/news/canada-bill-c22-lawful-...\n+\n> European Commission Revives Push for Encryption Backdoors in ProtectEU Strategy, Framing Mass Surveillance as “Lawful Access”\n> The EU’s ProtectEU strategy quietly sketches the blueprint for a backdoor.\nhttps://reclaimthenet.org/eu-protecteu-strategy-encryption-b...",
+          "zh": "加拿大C-22将强制加密后门；Signal、Windscribe、NordVPN称宁肯退出加拿大也不建监控基建。同时欧盟ProtectEU策略又把大规模监控包装成“合法访问”——两边的监控胃口一起抬头。"
+        },
+        {
+          "type": "comment",
+          "author": "Epsilon_Tauri",
+          "en": "The EU itself is becoming increasingly integrated with the free movement, common currency, aligned education system etc etc, but these things take a lot of time, not the least identity-wise. For sure, my children feel more European than I did growing up in what was then a non-member state.\nSo outright membership is likely not the route for overseas friends, but it seems we are inexorably moving towards a closer cooperation between a group of democratic countries outside the sphere of non-democratic China and ever more erratic US. Hopefully this will be an association which is less dependent on one single member than the western world has been under US lead.\nIt seems very likely the EU, Canada, Australia, New Zealand, and the UK would be part of this. Japan and Korea are still very US-dependent but given the lack of enthusiasm the US is showing its former allies, this may change quickly. I also expect growing cooperation with some of the south-American countries.\nThe world is definitely under realignment politically.",
+          "zh": "欧盟自身还在用漫长的身份整合消化人员自由流动与共同货币；对海外友邦，正式成员未必是路径，但我们似乎不可逆地走向一群民主国家之间更紧密的协作。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49724141",
+      "hn_points": 689,
+      "hn_comments": 902,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "Consumers hit by one-two punch of oil and rates from Iran war",
+      "title_zh": "油价与债息双杀：穆迪估伊战以来美国家庭额外成本约1760美元",
+      "publisher": "cnbc.com",
+      "article_url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html",
+      "significance_score": 6.9,
+      "summary_zh": "CNBC9月16日引穆迪分析：自美伊冲突以来美国家庭累计额外负担约1760美元，其中能源约930、利率约425、军事开支归宿约405；汽油均价逾4.32美元/加仑、柴油逼近历史高位，三十年期按揭重回7%上方。经济学家警告储蓄率已降至金融危机以来少见水平，消费或被迫收缩。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CNBC",
+          "en": "The total bill per household since the U.S.-Iran conflict began is around $1,760, according to an analysis from Moody's Analytics as of Sept. 11.",
+          "zh": "穆迪分析截至9月11日：自美伊冲突开始以来，美国家庭累计额外账单约1760美元。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "An update on Wayback Machine access",
+      "title_zh": "互联网档案馆更新：Wayback Machine访问情况说明",
+      "publisher": "blog.archive.org",
+      "article_url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+      "significance_score": null,
+      "summary_zh": "互联网档案馆说明Wayback遭海量自动化流量冲击并加防护；评论认定是爬虫绕原站封锁去扒存档副本，并称档案馆仍是少数可从Tor匿名访问的公共基础设施。逾680赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "simonw",
+          "en": "> Here’s what’s going on. The Internet Archive’s Wayback Machine has been hit by waves of high-volume automated traffic, and we’ve put protections in place to keep the service running.\nI'm pretty certain this is scrapers that are trying to workaround blocks on accessing original sites by hitting the Wayback Machine copy instead. Appalling behavior.\nIn addition to the load it puts on this vital non-profit piece of Internet infrastructure, we've also already seen some sites opt out of the Wayback Machine to prevent their content from being scraped via this alternative route.",
+          "zh": "档案馆说Wayback被高容量自动化流量打到，才加防护。我几乎可以肯定是爬虫：原站被挡就改打Wayback副本。这不仅拖垮关键非营利基建，还已让一些站点选择退出存档。"
+        },
+        {
+          "type": "comment",
+          "author": "basilikum",
+          "en": "Mad props to the people at the Archive. You are the heros we need in a formerly open internet that is surrendering to evil big corps and closing down free access.\nThe Internet Archive is in a really bad spot being attacked from multiple sides at once. But — while service has not been consistent — they have maintained open access. I can still access anonymously from Tor without Cloudflare or some other centralized gatekeeper showing me the middle finger.\nIf you got some money to spare, consider donating to them. They need it.",
+          "zh": "向档案馆的人致敬。在开放互联网向大公司投降的时代，他们仍维持可匿名、可不经Cloudflare的访问。若有余力，请捐款。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49716176",
+      "hn_points": 683,
+      "hn_comments": 360,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "Iran Update: September 16, 2026 — Houthis strike Yanbu as Araghchi meets Wang Yi",
+      "title_zh": "战情更新：胡塞再袭延布炼厂，阿拉格希当日会王毅",
+      "publisher": "criticalthreats.org",
+      "article_url": "https://www.criticalthreats.org/analysis/iran-update-september-16-2026",
+      "significance_score": 6.8,
+      "summary_zh": "美国战争研究所“关键威胁”项目9月16日战情：胡塞宣布以弹道导弹与无人机打击沙特西部军事与石油设施，并点名延布阿美炼厂；同日阿拉格希在北京会见王毅。中方通稿突出尽早开放霍尔木兹、防止外溢也门红海，伊方通稿则淡化这些表述。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Critical Threats",
+          "en": "The Houthis announced on September 16 that Houthi forces conducted ballistic missile and drone attacks targeting military and oil infrastructure sites in western Saudi Arabia.",
+          "zh": "胡塞16日宣布，其部队以弹道导弹与无人机打击沙特西部军事与石油基础设施目标。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "Small programming tricks",
+      "title_zh": "那些不起眼的小编程技巧",
+      "publisher": "will-keleher.com",
+      "article_url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+      "significance_score": null,
+      "summary_zh": "Will Keleher谈小技巧如何靠习惯沉淀成生产力；评论承认知道Ctrl+r仍多年用上下键，也有SRE用tcpflow在蓝绿部署网络疑难中一锤定音的故事。逾670赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "phforms",
+          "en": "The thing with a lot of these tricks is that you have to get into the habit of using them. I knew `Ctrl+r` for history since I learned about the command line. I even have a nice shell integration with fzf. But I still used the up/down arrow keys for years or scrolled up when I was looking for a previous command, because I never remembered the shortcut and just took the path of least resistance to find something.\nUsually what I do is writing these tricks down to a document that is easily accessible at a place where I know that I will look for when failing to remember them. I have a directory of docs where I write stuff like this down by language/tool/etc., so I can quickly look it up without having to search the internet. But I also have to actively remind myself that these things exist whenever I have a problem, stop me from just doing the inefficient thing.",
+          "zh": "很多技巧的关键是养成习惯。我早就知道Ctrl+r查历史，甚至接了fzf，却仍多年用上下键或往上翻——因为总走阻力最小的路。后来我把技巧写进随时可翻的文档里。"
+        },
+        {
+          "type": "comment",
+          "author": "alexpotato",
+          "en": "For people asking \"do these small tricks/trivia really matter??\" I have an example of when they do:\n- having strange networking issues on the blue side of a blue/green deployment\n- networking engineers are involved\n- nobody seems to be able to figure out what's going on despite LOTS of tcpdump/wireshark etc\n- I suggest tcpflow[0] (which I used for protocol analysis of chat services etc)\n- (there is some skepticism as I was SRE and not networking)\n- Turns out that the TCP messages were getting truncated on the problem side\n- Networking guys realize the config issue and fix it\nI have other examples but this is why it's always good to learn new commands/tools etc.\nThis, in turn, reminds me of a quote from an army jungle survival expert: \"People ask me if it's a good idea to read survival books. I say: 100%. You would be surprised how many people survive an emergency situation because their brain pops out some critical piece of information from a book or article they read 10 years ago.\"\n0 - https://linux.die.net/man/1/tcpflow",
+          "zh": "有人问小技巧真有用吗？蓝绿部署网络侧怪异故障、网络工程师一堆tcpdump仍无解时，我提了tcpflow；结果TCP报文被截断——正是这种“小工具”定了案。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49729000",
+      "hn_points": 671,
+      "hn_comments": 293,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "Russian drones hit Ukrainian bus and train, killing five, officials say",
+      "title_zh": "俄无人机袭击乌克兰客车与列车：致五人死亡",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/europe/russian-drone-attack-bus-kills-five-ukraines-southeast-governor-says-2026-09-16/",
+      "significance_score": 6.7,
+      "summary_zh": "路透基辅9月16日：俄无人机袭击尼科波尔附近客车致五死七伤，并袭击尼古拉耶夫州客运列车；168名乘客与乘务撤离无人受伤，列车后又遭重复打击。泽连斯基呼吁美欧加码制裁。乌铁称今年以来客运车厢、机车与车站遇袭次数显著高于去年。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Russian drones struck a passenger bus and a train in southern Ukraine on Wednesday, killing five people, Ukrainian officials said.",
+          "zh": "乌克兰官员称，俄罗斯无人机周三袭击乌南部一辆客车与一列火车，造成五人死亡。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
+      "title_zh": "富士通发布国产下一代CPU：FUJITSU-MONAKA",
+      "publisher": "global.fujitsu",
+      "article_url": "https://global.fujitsu/en-global/pr/news/2026/09/14-02",
+      "significance_score": null,
+      "summary_zh": "富士通发布面向超算与数据中心的国产下一代CPU MONAKA；评论回忆其万兆交换机年代的领先，并贴出带宽、堆叠工艺与FugakuNEXT相关技术幻灯。逾630赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "a11r",
+          "en": "Back in 2008 Fujitsu has one of the best performing 10Gbps Switches. We were building 40 Gbps packet sniffers at Google (4x 10 Gbps NICs) and needed switches that could do things like mirror traffic across ports at line rate. Fujitsu was way ahead of the pack. I always wondered what held them back from building a meaningful networking business in the US.",
+          "zh": "2008年前后富士通有过最强的一批10Gbps交换机。我们在谷歌做40Gbps抓包时需要线速镜像，富士通遥遥领先。我一直好奇他们为何没在美国做成像样的网络业务。"
+        },
+        {
+          "type": "comment",
+          "author": "jaen",
+          "en": "More detailed presentations about the Monaka CPU:\nwccftech summary: https://wccftech.com/fujitsus-monaka-chip-3d-stacks-2nm-cpu-...\n2026: https://global.fujitsu/-/media/Project/Fujitsu/Fujitsu-HQ/te...\n2023: https://global.fujitsu/-/media/Project/Fujitsu/Fujitsu-HQ/te...\nFugakuNEXT, the supercomputer it will be used in, also some details about the next-gen Monaka-X: https://global.fujitsu/-/media/Project/Fujitsu/Fujitsu-HQ/te...\nFor a single CPU:\n844 GB/s memory bandwidth (12 channels of DDR5 RDIMM, 8800MT/s). 4.3-6 TFLOPS.\nBasically comparable to a modern (although not top-end) GPU, so good for HPC & AI workloads. (though only 2 CPUs per node, with GPUs 4-8 is more common)",
+          "zh": "更多MONAKA细节见wccftech与富士通技术幻灯：单CPU约844GB/s内存带宽（12通道DDR5），并将用于FugakuNEXT，还有下一代Monaka-X线索。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49715813",
+      "hn_points": 631,
+      "hn_comments": 250,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Fed hikes rates in search of timelier drop in inflation, sees more tightening ahead",
+      "title_zh": "美联储加息至3.75%–4.00%：沃什任内首度收紧并暗示还有后续",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/warshs-words-may-matter-more-than-anticipated-fed-rate-hike-2026-09-16/",
+      "significance_score": 7.6,
+      "summary_zh": "路透华盛顿9月16日：美联储将政策利率上调25个基点至3.75%–4.00%，为三年来首次加息，新主席凯文·沃什加入全票决定。点阵图显示多数官员预计年底前至少再加一次，政策利率路径指向4.00%–4.25%；声明删去把高通胀主要归因于“供给冲击”的表述。特朗普随后在Truth Social重申美利率“应到1%或以下”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "The Federal Reserve raised interest rates on Wednesday and flagged more hikes in the coming months, with new U.S. central bank chief Kevin Warsh joining a unanimous decision.",
+          "zh": "美联储周三加息，并示意未来数月还有更多加息；新任主席凯文·沃什加入了这一全票决定。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 1
+    },
+    {
+      "title": "Introducing System One Models and Jev",
+      "title_zh": "推出 System One 模型与 Jev：用类型化推断换通用生成",
+      "publisher": "typesafe.ai",
+      "article_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "significance_score": null,
+      "summary_zh": "Typesafe 发布 System One 与 Jev：以结构化、类型化推断换取远高于通用大模型的延迟与确定性；评论区质疑速度对比是否公平，并指出家居助手演示让价值感瞬间落地。逾1900赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jacobgold",
+          "en": "First, congrats to the team on launching something genuinely interesting and new.\nSeems like a more accurate title would be \"Jev: Trading general purpose generation for fast typed inference\" or something like that.\nThis is interesting, but the speed comparison seems misleading? A generative model that can output code in a Turing-complete language can do anything a computer can do.\nJev can only generate structured output, right? This is probably super useful for classification/routing/scoring, but it's nothing like the code generating models we're all using today for code and automation.\nAlso \"can't hallucinate\" seems wrong? Sure, it can't emit an invalid type, but it can still emit a completely wrong valid value. You can enforce structured output from an LLM too, with an appropriate harness, etc.\nAssuming there's no funny business, the Doom demo is cool.",
+          "zh": "先祝贺团队做出真正新鲜的东西。更准确的标题或许是“Jev：用快速类型化推断换掉通用生成”。这很有意思，但速度对比似乎有误导：能输出图灵完备代码的生成模型理论上能做计算机能做的一切，而 Jev 只能产出结构化输出——对分类/路由/打分极有用，但不是同一赛道。"
+        },
+        {
+          "type": "comment",
+          "author": "cfowles",
+          "en": "Wasn't really till seeing this home assistant demo they have (https://www.loom.com/share/18c4dbcf8db546dfb2d7f2ef018e78e4) that the value really clicked for me.\nSeems really cool.",
+          "zh": "直到看到他们那个家庭助手演示，我才真正理解价值所在。看起来确实很酷。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49717558",
+      "hn_points": 1926,
+      "hn_comments": 506,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 2
+    },
+    {
+      "title": "Oil slips as Saudi Arabia offers more crude via Oman; diesel near record high",
+      "title_zh": "沙特经阿曼加供原油：油价回落，柴油仍近纪录高位",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
+      "significance_score": 7.5,
+      "summary_zh": "路透纽约9月16日：布伦特收跌2.92美元报105.83，WTI跌3.40美元报102.43。消息称沙特正通过阿曼苏哈尔港船对船转运向亚洲炼厂加供原油，缓和东西向管线受损与延布停装带来的供应恐慌；但欧洲柴油与美国超低硫柴油期货此前刚创纪录高位，俄媒称柴油出口限制拟延至10月底。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Oil prices fell on Wednesday after reports that Saudi Arabia was offering additional crude cargoes through Oman eased some concerns about Middle East supply disruptions.",
+          "zh": "周三油价下跌：有报道称沙特正通过阿曼提供额外原油货盘，缓解了部分对中东供应中断规模的担忧。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 3
+    },
+    {
+      "title": "I can't stop thinking about Papua New Guinea",
+      "title_zh": "我一直想着巴布亚新几内亚",
+      "publisher": "notnottalmud.substack.com",
+      "article_url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
+      "significance_score": null,
+      "summary_zh": "长文从历史、部落战争与现代化断层切入巴布亚新几内亚；评论分享1960年代高地传教站亲历，并补上因推文嵌入失效而改挂YouTube的战地影像链接。逾1100赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "simoncourage",
+          "en": "My father lived in the PNG Highlands for a year in 1960 when he was 19, joining a mission station in Simbai (that had only been visited by the white man maybe 5 years earlier) and had an incredible time. He hatched an idea to help the manpower challenge of trekking supplies between the highland villages, by bringing donkeys to the highlands. He bought 5 donkeys left behind by the Japanese in WW2 in Lae, and together with two boys from the village (Wengi and Kanimnep), who’d never Simbai before, brought them by sea and plane to Aiome, where a gruelling and dangerous trek eventually got man and beast successfully back to Simbai - 4 months later. Crazy adventure, can you imagine what the boys thought of flying in a plane, seeing the ocean and becoming donkey husbandry experts (my father could only explain they were like ‘big pigs’ - nothing similar at all in the highlands)\n50 years or so later I found there was a Cultural Festival in Simbai where about 20 tourists would go each year, and went out with some mates, along with prints of my dads slides. What followed was a trip I’ll never forget, as I was welcomed with a warmth and strength unlike I’d ever experienced, from the whole vill",
+          "zh": "我父亲1960年19岁时在巴新高地住了一年，加入仅早五年才有白人到访的Simbai传教站，经历极不寻常。他想缓解高地村落人力搬运，便从莱城买下五头二战日军留下的驴，与从未出过Simbai的两个男孩一起运驴上山。"
+        },
+        {
+          "type": "comment",
+          "author": "vova_hn2",
+          "en": "The \"Pre-bronze age war between two tribes in West Papua, 1963\" video in the article is an embedded tweet. Twitter currently doesn't allow to view it without an account (extensively discussed on HN [0]). Fortunately, it is also available on Youtube [1] (longer version [2]).\n[0] https://news.ycombinator.com/item?id=49694296\n[1] https://www.youtube.com/watch?v=kNHIP2FJzko\n[2] https://www.youtube.com/watch?v=JI4uirwxx1Y",
+          "zh": "文中“1963年西巴布亚部落青铜前战争”视频是嵌入推文，推特现需登录才能看。幸好YouTube上也有（另有更长版本）。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49708431",
+      "hn_points": 1149,
+      "hn_comments": 486,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 4
+    },
+    {
+      "title": "Wang Yi urges Iran and US to reopen Strait of Hormuz",
+      "title_zh": "王毅会见阿拉格希：敦促尽早重开霍尔木兹、防外溢红海",
+      "publisher": "rthk.hk",
+      "article_url": "https://news.rthk.hk/rthk/en/component/k2/1870287-20260916.htm",
+      "significance_score": 7.4,
+      "summary_zh": "香港电台9月16日引外交部：王毅在北京会见伊朗外长阿拉格希，鼓励美伊保持理性克制、尽快回到伊斯兰堡备忘录并开展实质性磋商；敦促各方采取有效措施尽早重开霍尔木兹，维护国际能源运输与供应链稳定，并明确“不希望地区紧张进一步外溢到也门和红海”。会谈恰在习近平与特朗普华盛顿会晤前约一周。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "RTHK/Reuters",
+          "en": "We urge all parties to take effective measures to reopen the Strait of Hormuz at an early date to safeguard the stability of international energy transport and supply chains.",
+          "zh": "我们敦促各方采取有效措施，尽早重开霍尔木兹海峡，维护国际能源运输与供应链稳定。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 5
+    },
+    {
+      "title": "Nvidia announces native GPU programming in Rust",
+      "title_zh": "英伟达宣布原生用Rust编写GPU程序",
+      "publisher": "developer.nvidia.com",
+      "article_url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "significance_score": null,
+      "summary_zh": "英伟达推出CUDA Rust双轨：让开发者用Rust写GPU内核。评论一边厌恶CUDA锁定，一边呼吁厂商公开真正的硬件手册与指令集，而不是继续封闭抽象。逾960赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jacobgorm",
+          "en": "I strongly dislike CUDA. Once you have allowed that proprietary cr*p into your C++ codebase, it is very hard to get rid, and you end up with code that is either tied to a single vendor or an #ifdef hell, probably both.\nThe best way to program GPUs is face up to the reality that they are not the same machine as the CPU, write your kernels in separate files, and launch them manually, like in Metal, OpenCL, and D3D12, etc.\nThese days we even have DSLs like Triton that make kernel writing much more ergonomic than anything you would hope to achieve in Rust.",
+          "zh": "我强烈讨厌CUDA。一旦让这套专有垃圾进了C++代码库，就很难甩掉，最终不是绑死单一厂商，就是#ifdef地狱，往往两者兼有。更好的做法是正视GPU不是CPU，把内核写成独立文件再手动启动，像Metal、OpenCL、D3D12那样。"
+        },
+        {
+          "type": "comment",
+          "author": "loup-vaillant",
+          "en": "Okay, so, GPUs are taking one more step towards being general purpose massively parallel machines.  That's cool.\nWhat would be even cooler though would be for GPU vendors to start giving us the user manual.  An I mean the real user manual, that explains how to use their piece of metal when all you have is that piece of metal.  That means a precise description of the wire protocols, the data format of the buffers we send to & get from the GPU, the ISA of the cores we have access to, the relevant performance characteristics…\nIn other words, enough information to write a state-of-the-art driver for any OS. That would be cool.",
+          "zh": "好吧，GPU又朝通用大规模并行机器迈了一步，挺酷。更酷的是厂商能给我们真正的用户手册：线协议、缓冲区格式、核心ISA——当你手里只有那块金属时该怎么用它。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49724881",
+      "hn_points": 968,
+      "hn_comments": 404,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 6
+    },
+    {
+      "title": "Saudi says Houthis targeted Mecca with a drone; group rejects claim",
+      "title_zh": "沙特称拦截飞向麦加的胡塞无人机，胡塞斥为“陈词滥调谎言”",
+      "publisher": "cnbc.com",
+      "article_url": "https://www.cnbc.com/2026/09/16/us-iran-war-trump-hormuz.html",
+      "significance_score": 7.3,
+      "summary_zh": "CNBC9月16日：沙特主导联军发言人称防空在麦加上空外摧毁一架胡塞无人机，称圣城安全是“红线”；胡塞发言人反称“瞄准麦加”是被用过的陈旧谎言。伊斯兰合作组织谴责袭击。事件发生在沙特前一日对麦加发开战以来少见安全警报、红海沿岸战事急剧扩大之后。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CNBC",
+          "en": "Saudi Arabia said Wednesday that its air defenses intercepted and destroyed a Houthi drone before it could enter the airspace over Mecca, with the Iran-backed Houthi militia group rejecting the claim as a \"worn-out lie.\"",
+          "zh": "沙特周三称防空在无人机进入麦加上空前将其拦截摧毁；伊朗支持的胡塞武装则驳斥该说法为“陈词滥调的谎言”。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 7
+    },
+    {
+      "title": "25 years of mass surveillance is enough",
+      "title_zh": "二十五年大规模监控已经够了",
+      "publisher": "schneier.com",
+      "article_url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
+      "significance_score": null,
+      "summary_zh": "Bruce Schneier撰文检讨“9·11”以来大规模监控扩张；评论引《道德经》谈禁令催生失序，并追溯爱国者法案之前FBI就已做全网关键词监听的欲望结构。逾950赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "N_Lens",
+          "en": "Surveillance and totalitarian control is a downward spiral of misery and suffering for everyone, even those in power.\nIt reminds me of some quotes from the Tao Te Ching -\nRestriction breeds the disorder it's meant to prevent (ch. 57)\nThe more prohibitions there are in the world, the poorer the people become. The more sharp weapons, the more the state falls into confusion. The more laws and edicts are posted, the more thieves and bandits there are.\nThe world isn't a thing to be managed (ch. 29)\nThe world is a sacred vessel; it cannot be manipulated. Whoever acts on it ruins it; whoever grips it loses it.",
+          "zh": "监控与极权控制是一条把所有人——包括掌权者——拖进苦难的下行螺旋。让人想起《道德经》：限制催生它本想防止的失序；天下禁令越多，民越贫；利器越多，国越乱。"
+        },
+        {
+          "type": "comment",
+          "author": "tastyfreeze",
+          "en": "Great essay.  The Patriot Act may have been the obvious turning point but the FBI had public data collection programs even earlier.  The goal was keyword watching of all network traffic.  The desire for more collection is baked into government.  It is hubris that leads powerful people to think if they only had more control they could stop all ills.  The deceit of power makes people believe it doesn't matter what the outcome is if the goal is noble.  That is why the founding fathers put restrictions on government power.  The people that run it will always fall for the same traps of power because they are just like everybody else.\nSo yes, it is high time to discuss how our rights apply in a digital age and put some reasonable restrictions on the power available to government.",
+          "zh": "好文章。爱国者法案或许是明显拐点，但FBI更早便有公开数据采集计划，目标是关键词盯梢全部网络流量。要更多收集的欲望嵌在政府结构里——权力让人以为只要目标高尚，手段与后果都不重要。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49710883",
+      "hn_points": 953,
+      "hn_comments": 357,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 8
+    },
+    {
+      "title": "Strait of Hormuz ship crossings remain in single digits, data shows",
+      "title_zh": "航运数据：霍尔木兹周二仅四艘船过境，仍远低于十日均值",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/middle-east/strait-hormuz-ship-crossings-remain-single-digits-data-shows-2026-09-16/",
+      "significance_score": 7.2,
+      "summary_zh": "路透新加坡9月16日：初步航运显示霍尔木兹周二可见过境仅四艘（进二出二），低于前一日七艘，亦远低于十日均值约18艘；未见超大型油轮或LNG船。曼德海峡过境约22艘，变化不大。部分船只或关闭转发器航行，因而未被计入。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Vessel transits through the Strait of Hormuz remained in the single digits at four on Tuesday, down from seven a day earlier, falling well short of the 10-day average of 18.",
+          "zh": "霍尔木兹海峡船舶过境周二仍维持个位数，仅四艘，低于前一日的七艘，亦远低于十日均值18艘。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 9
+    },
+    {
+      "title": "How to Write with an LLM",
+      "title_zh": "如何与大模型一起写作",
+      "publisher": "sockpuppet.org",
+      "article_url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "significance_score": null,
+      "summary_zh": "作者给出与LLM协作写作的纪律：用它查漏、校对，却拒绝让它代写措辞。评论称坚持亲手写commit/PR说明反而加深对代理代码的理解，也有人抱怨被机器回复淹没。逾710赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "semiquaver",
+          "en": "This would sound insane to me from two years ago but I have recently started insisting on writing all my own commit messages and pull request descriptions. I do usually have an agent review them for factual accuracy, but not rephrase them.\nIt slows things down a bit, but in the best possible way. It has helped immensely to improve the depth of my understanding of the agent-generated code. When agents are doing everything its way too easy to “skim” diffs and not really absorb them.\nI always prided myself on my technical writing, and commit messages and PRs were a great place to hone that skill. I found that I missed it and my work is better now I’ve reclaimed that part of my old job back.",
+          "zh": "两年前我会觉得这很疯，但我最近开始坚持自己写全部commit信息和PR描述。通常会让代理核对事实，但不让它改写。这会慢一点，却是最好的那种慢：它极大加深了我对代理生成代码的理解。"
+        },
+        {
+          "type": "comment",
+          "author": "S-E-P",
+          "en": "I fear in the future people will read even less because of how often people cheap out and use AI to write.\nI know the author of this article tells you never to use a single word it suggests, however I still, while reading, am checking for any amount of AI used.\nThis makes reading less enjoyable, and even a bit stressful.\nIf you can't spend the time to write it, why should anyone read it?\nEverything I post is from my own finger tips, only to get a reply from someone using a bot.  I'm tired.",
+          "zh": "我担心未来人们会读得更少，因为太多人偷懒用AI写。作者虽说一个词都别用模型建议，我读的时候仍在扫描有没有AI痕迹——阅读变得更累。你若不愿花时间写，凭什么要人读？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49747070",
+      "hn_points": 711,
+      "hn_comments": 401,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 10
+    }
+  ]
+}

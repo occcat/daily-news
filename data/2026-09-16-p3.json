@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Russia set to extend diesel export ban until end of October as European gasoil hits records",
+      "title_zh": "俄拟延长柴油出口限制至10月底，欧洲柴油期货创纪录",
+      "publisher": "channelnewsasia.com",
+      "article_url": "https://www.channelnewsasia.com/business/oil-slips-saudi-arabia-offers-more-crude-oman-diesel-near-record-high-6387586",
+      "significance_score": 6.7,
+      "summary_zh": "CNA/路透9月16日：在中东供应扰动与乌克兰打击俄炼厂叠加下，欧洲柴油（gasoil）期货刚创结算与盘中纪录；《消息报》引消息称俄政府拟把对燃料生产商的柴油出口限制延至10月底。分析指欧洲同时失去大量中东柴油/航煤供给，馏分油成为油市首要矛盾。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CNA/Reuters",
+          "en": "The Russian government has decided to extend restrictions on diesel exports for fuel producers until the end of October, Vedomosti daily reported, while European gasoil futures settled at a record high.",
+          "zh": "《消息报》称俄政府已决定将对燃料生产商的柴油出口限制延至10月底；与此同时欧洲柴油期货刚创纪录收盘。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "title_zh": "Mistral × Mozilla：私密、多语言的AI浏览",
+      "publisher": "mistral.ai",
+      "article_url": "https://mistral.ai/news/mistral-x-mozilla/",
+      "significance_score": null,
+      "summary_zh": "Mistral与Mozilla合作把多语言AI助手嵌进浏览体验；评论批评营销未分清本地与云端推理、却默认上传浏览史，也有人畅想浏览器内小模型把自然语言译成高级搜索式。逾580赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "peri-cl",
+          "en": "This is an excellent use case for completely local, small model inference, yet for inexplicable reasons Mozilla wants to normalize uploading your entire private browsing history to a cloud.\nThese (Mistral's and Mozilla's) marketing pages aren't candid enough to clearly explain the difference between local and cloud inference, and that they're asking you to consent to enabling the latter. I'd call that the bare minimum of ethics. If you're in a position of authority over your less technical users, you are ethically obligated to give them the full picture of what are you doing and why they should consent.\n(Aside to any Mozilla people who might be reading HN, your page here[0] has an oversight, it advertises this model as \"Mistral Small 4\" but the hyperlink is to OpenAI's model card for gpt-oss-120b).\n[0] https://support.mozilla.org/en-US/kb/smart-window-models",
+          "zh": "这本该是完全本地小模型推理的绝佳场景，Mozilla却不知为何要让你把整段私密浏览史上传到云端。营销页连本地/云端差别都不讲清楚，却要你同意后者——对非技术用户的伦理底线都没到。"
+        },
+        {
+          "type": "comment",
+          "author": "mixcocam",
+          "en": "Would be very cool if you could type a long query and the model would just build an advanced google search query using what you typed. You could even ship a tiny model in the browser itself that does that.\nSomething like: \"blog posts which talk about using sending emails to yourself as a notes taking mechanism\".\nThe output could look like: \"note taking\" OR \"notes\" (\"emailing yourself\" OR \"email to myself\" OR \"email yourself\") (inurl:blog OR inurl:posts OR site:medium.com OR site:substack.com)",
+          "zh": "若能输入长句，让模型直接生成高级谷歌检索式，甚至在浏览器里塞一个干这事的小模型，会很酷——把“用给自己发邮件当笔记”译成一组OR/inurl查询。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49723408",
+      "hn_points": 588,
+      "hn_comments": 206,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "Wang Yi Holds Talks with Iranian Foreign Minister Seyyed Abbas Araghchi",
+      "title_zh": "中国外交部英文稿：王毅与阿拉格希谈霍尔木兹与伊斯兰堡备忘录",
+      "publisher": "mfa.gov.cn",
+      "article_url": "https://www.mfa.gov.cn/mfa_eng/wjbzhd/202609/t20260918_12025171.html",
+      "significance_score": 6.6,
+      "summary_zh": "中国外交部发布王毅与阿拉格希会谈英文稿：中方鼓励美伊回归伊斯兰堡谅解备忘录、重建谈判机制；支持伊朗与海湾国家对话；敦促采取措施早日开放霍尔木兹。阿拉格希称伊朗不愿冲突延续、愿回到外交解决，并称已与阿曼就开放霍尔木兹形成方案。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "MFA China",
+          "en": "We urge all parties to take effective measures to open the Strait of Hormuz at an early date, safeguard the unimpeded and safe passage of international waterways, and maintain the stability of international energy transportation.",
+          "zh": "我们敦促各方采取有效措施，早日开放霍尔木兹海峡，保障国际水道畅通安全，维护国际能源运输稳定。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "Hackers Got Inside a Flock Camera",
+      "title_zh": "黑客进入了Flock摄像头",
+      "publisher": "wired.com",
+      "article_url": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/",
+      "significance_score": null,
+      "summary_zh": "《连线》报道安全研究者进入Flock监控摄像头并梳理其数据流；评论解剖其形同虚设的漏洞披露政策，并指硬编码凭据是系统性无能的信号。逾580赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "vayup",
+          "en": "If you want to know what a \"Vulnerability Disclosure Policy\" (VDP) would look like if its main purpose is to claim we have VDP and create an appearance of responsible security posture, but not really to learn about vulnerabilities - read Flock's VDP.\nThey sincerely welcome your vulnerability disclosures, except in cases where you have to \"interact\" with the device/service or download its data. Other than that TINY carveout, everything is okay.\nOh, if the vuln about configuration and hardening \"preferences\" like SSL/TSL - Sorry, not interested.\nAnd also, infrastructure vulnerabilities like DNS config - no no, try harder.\nI know what you're thinking..ha ha...but we are good guys. You can still report vulnerabilities in the above categories, but the onus is on you to convince us that we should care about them. It is only fair.\nhttps://www.flocksafety.com/legal/vulnerability-disclosure-p...",
+          "zh": "若想看“漏洞披露政策”如何主要用来装样子：读Flock的VDP。他们真诚欢迎披露——除非你必须与设备/服务交互或下载其数据。除了这点小小例外，一切OK。"
+        },
+        {
+          "type": "comment",
+          "author": "autoexec",
+          "en": "Having hardcoded credentials is a sign of total incompetence. In this case at least it wasn't a password, but an API key which can be used to request credentials (stored in plaintext) which look like they'd get you access Flock's servers. Not quite as bad as a hardcoded admin password, and it's not clear what you'd be able to do if you did authenticate successfully as a camera, but its worrying enough. There have been enough vulnerabilities found in Flock's systems that it's pretty clear they aren't concerned about their security and it's plainly obvious that they don't care at all about our privacy or security.\nEven if we decided that this level of mass surveillance on the American public was acceptable to us, Flock Safety/Flock Group as already demonstrated that they can't and shouldn't be trusted to implement it.",
+          "zh": "硬编码凭据是彻底无能的信号。这次至少不是密码而是API密钥，可用来请求明文存储的凭据、似乎能摸到Flock服务器。够让人担心——Flock漏洞已经够多，说明安全不是他们的优先级。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49726586",
+      "hn_points": 585,
+      "hn_comments": 271,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "Bank of Japan set to raise interest rates to 31-year high after Fed hike",
+      "title_zh": "美联储加息后：日银料将政策利率上调至31年高位1.25%",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/asia-pacific/bank-japan-set-raise-interest-rates-31-year-high-2026-09-17/",
+      "significance_score": 6.5,
+      "summary_zh": "路透东京报道（锚定9月16日美联储行动的溢出）：市场预期日银在周五结束的会议上把政策利率从1%提至1.25%，为约31年高位。美日利差若因美方继续收紧而再度扩大，可能削弱日元并经由进口成本推高日本通胀，迫使日银跟上节奏。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "The Bank of Japan is set to raise interest rates to a 31-year high and pledge to deliver more to counter inflation risks, which may heighten if the start of a U.S. rate-hike cycle weakens the yen.",
+          "zh": "日本银行料将利率上调至31年高位，并承诺进一步应对通胀风险——若美国加息周期启动削弱日元，这些风险可能上升。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "title_zh": "小米MiMo 2.6：直播式后训练仪表盘",
+      "publisher": "mimo.xiaomi.com",
+      "article_url": "https://mimo.xiaomi.com/rl/",
+      "significance_score": null,
+      "summary_zh": "小米公开MiMo 2.6后训练过程的直播仪表盘；评论称V2.5已能以极低成本承担大量工程工作，也有人把开源模型进展形容为盯着“定时炸弹”。逾550赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "joelwallis",
+          "en": "I been using MiMo-V2.5 to do most of my work as software engineer, on a variety of projects I'm working on, and I been VERY happy with ROI. The model is very powerful! Not perfect – I've run in hallucination loops once or twice, but nothing a stop-then-continue wouldn't solve.\nThe cost is unbelievably low, and the quality of intelligence I get is equivalent to when I was working mostly with Anthropic models (late last year/early this year). I'm fully invested in MiMo and I'm very happy with it.\n--\nPS: I also check almost daily to see if other models are capable of doing such great work. And they do – DS4F is powerful and DS41 is impressive, GLM 5.3 Flash gets a job done well, etc. – but when I add cost of M-token in the ROI math, Jeez! MiMo is an order of magnitude better.",
+          "zh": "我用MiMo-V2.5做大部分软件工程，ROI非常开心。模型很强，不是完美——幻觉循环偶发，停一下再续就能解。成本低得离谱，智力密度接近我去年用Anthropic时的体感。"
+        },
+        {
+          "type": "comment",
+          "author": "dr_dshiv",
+          "en": "Well, if open source AI is dangerous (for OpenAI/Anthropic IPOs?), this is like watching a time bomb.",
+          "zh": "嗯，若开源AI对OpenAI/Anthropic的IPO是危险的，这就像在看一颗定时炸弹。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49732270",
+      "hn_points": 554,
+      "hn_comments": 155,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "Morning Bid: Warsh on collision course with Trump administration",
+      "title_zh": "盘前：沃什与特朗普政府的碰撞课程——加息几乎无解",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/markets/europe/global-markets-view-europe-2026-09-16/",
+      "significance_score": 6.5,
+      "summary_zh": "路透欧洲盘前9月16日：在油价稳居100美元上方、通胀仍超目标、交易员为加息定价约93%的背景下，新主席沃什无论按兵不动还是扣动扳机都将承压。十年期美债前一日曾破5%后略回落，布伦特盘中回吐；日银等同周亦面临收紧压力。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Federal Reserve Chair Kevin Warsh is likely to come out of Wednesday's policy decision bruised one way or another. If he stands pat, markets may revolt. If he pulls the trigger on a rate hike, the White House almost certainly will.",
+          "zh": "美联储主席凯文·沃什周三的政策决定横竖都可能受伤：若按兵不动，市场或反噬；若加息，白宫几乎肯定会反噬。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "Apple Reference Image: A New Approach for Verified Photography",
+      "title_zh": "Apple Reference Image：可验证摄影的新路径",
+      "publisher": "security.apple.com",
+      "article_url": "https://security.apple.com/blog/apple-reference-image/",
+      "significance_score": null,
+      "summary_zh": "苹果提出Reference Image，用设备侧证明约束照片可信度；评论称真正买家是身份核验与保险App，也有人演示“拍显示器上的PS/AI图”仍可能骗过流程。逾530赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "tgsovlerkhgsel",
+          "en": "This is really clever from Apple. The journalist use case is just the PR story. This will be really useful for identity verification and insurance apps, and has the potential to shift from \"you need a smartphone to be able to live normally\" to \"you need an iPhone to be able to live normally\".\nThere are already plenty of insurances that require you to submit claims through a smartphone app that tries to essentially do this by capturing sensor metadata etc. - those don't need to be nation-state resilient, just Joe the Crackhead Insurance Scammer resilient, so this works. Likewise, more and more things online require identity verification (either officially or disguised as age verification).\nEdit: And while \"a nation state actor can spoof this\" is a problem for the journalism use case, the insurance/ID verification use cases are perfectly fine with anything that raises the bar but could be bypassed with enough effort. Also, the journalism use case suffers from the same fundamental issue all of these use cases suffer from: People will \"verify\" the picture by looking at the repost of a screenshot of the verification UI, not by verifying the original themselves.",
+          "zh": "苹果这招很聪明。记者用例只是公关故事；真正有用的是身份核验与保险App，并可能把“需要智能手机才能正常生活”推进到“需要iPhone才能正常生活”。"
+        },
+        {
+          "type": "comment",
+          "author": "tristanj",
+          "en": "Apple doesn't address the modified photo replay situation, where you take a picture of an already edited image.\nPhotoshop / AI-gen an image -> display on a high-resolution monitor -> photograph the monitor with iPhone 18 Pro -> valid Apple Reference image.\nTo get valid reference photos, you can go to the actual physical location, put the iPhone/monitor in a cardboard box to block external light, then photograph the monitor. Paint the inside of the box using Vantablack (stopping reflections) and cover the LiDAR projector with tape.\nI can't wait to see Apple Verified™ photos of UFOs flying over the Golden Gate Bridge.",
+          "zh": "苹果没处理“改装图回放”：把PS/AI图全屏显示，再用iPhone 18 Pro拍显示器——仍可能得到有效Reference。纸箱遮光加吸光涂层就能在实地“取证”。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49721322",
+      "hn_points": 530,
+      "hn_comments": 352,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "Trump hopes Iran war nearing end as Houthi-Saudi fighting escalates",
+      "title_zh": "特朗普称希望对伊战争接近尾声，沙特—胡塞战事却在升级",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/middle-east/trump-hopes-iran-war-nearing-end-houthi-saudi-fighting-escalates-2026-09-17/",
+      "significance_score": 6.4,
+      "summary_zh": "路透9月17日（承接16日红海升级）：特朗普表示希望对伊战争接近结束；与此同时沙特战机打击也门、胡塞以无人机导弹回击沙特城市，东西向管线受损带来的全球供应风险仍在计价。交易商称管线若长期关停或相当于约4%全球供应受阻，布伦特徘徊100美元上方。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "U.S. President Donald Trump said he hoped an end to the war against Iran was near, as the conflict escalated with Saudi aircraft pounding Yemen and Houthi fighters launching drones and missiles at Saudi cities.",
+          "zh": "美国总统特朗普称希望对伊朗战争接近结束；与此同时冲突升级：沙特战机打击也门，胡塞向沙特城市发射无人机与导弹。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "AWS says it can't restore some data from mideast facilities struck by Iran",
+      "title_zh": "AWS称无法恢复部分遭伊朗打击的中东设施数据",
+      "publisher": "wsj.com",
+      "article_url": "https://www.wsj.com/world/middle-east/aws-says-it-cant-restore-some-data-from-mideast-facilities-struck-by-iran-ddcb7e5d",
+      "significance_score": null,
+      "summary_zh": "《华尔街日报》称AWS承认中东部分设施遭袭后有数据无法恢复；评论翻出“炸掉机房你也不会察觉”的旧采访对照，并指出阿联酋数据驻留要求放大了单区域风险。逾520赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "cmiles8",
+          "en": "This interview with an AWS leader isn’t aging well, from CBS Sunday morning:\nPogue asked, \"I don't mean to give anyone ideas, but let's say I figured out that one of these unmarked buildings was an AWS data center, and I blew it up. Are you saying that it's so backed up and redundant that you probably wouldn't notice?\" Wood replied, \"Yeah, you wouldn't notice. I mean, we might be a bit upset, but you wouldn't notice!\"\nhttps://www.cbsnews.com/news/cloud-computing-loudoun-county-...",
+          "zh": "这段AWS负责人接受CBS的采访不太经得起时间检验：主持人问若炸掉未标注的AWS机房会怎样，对方说冗余到你大概不会察觉——我们或许会有点不爽，但你不会察觉。"
+        },
+        {
+          "type": "comment",
+          "author": "rishikeshs",
+          "en": "I think this is due to the data residency requirements in UAE. I'm working with a client in the health space and the government requirements requires me to store data only in UAE! Tried with AWS but they were not allowing any new instances and I had to go with Azure.",
+          "zh": "我认为这跟阿联酋数据驻留要求有关。我服务的健康客户被要求数据只能放在阿联酋；AWS当时不给新实例，只好转Azure。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49719249",
+      "hn_points": 526,
+      "hn_comments": 449,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}
