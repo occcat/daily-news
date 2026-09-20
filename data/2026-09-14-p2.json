@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Asian stock markets fall amid surge in oil prices",
+      "title_zh": "亚洲股市随油价新涨回落：联储加息押注升至约86%",
+      "publisher": "ua.news",
+      "article_url": "https://ua.news/en/finansi/aziiski-fondovi-rinki-znizilisia-na-tli-stribka-tsin-na-naftu",
+      "significance_score": 7.0,
+      "summary_zh": "UA.NEWS援引CNA：日经期货跌约2%，标普与纳指期货分别跌约0.5%与1%；布伦特涨约3.1%至107.84美元。周五CPI后市场给周三联储加25个基点约86%概率，日银周五加息押注约76%。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "UA.NEWS / CNA",
+          "en": "Asian stock markets fell on Monday, September 14, amid a new jump in oil prices and expectations of possible interest rate hikes in the United States and Japan.",
+          "zh": "亚洲股市周一（9月14日）下跌，背景是油价新一轮跳涨，以及美日可能加息的预期。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "TailTalk: A modern async user space AppleTalk stack with Rust and Tokio",
+      "title_zh": "TailTalk：用Rust与Tokio写的现代异步用户态AppleTalk协议栈",
+      "publisher": "github.com",
+      "article_url": "https://github.com/FeralFirmware/TailTalk/",
+      "significance_score": null,
+      "summary_zh": "开源项目把经典AppleTalk搬进异步用户态；作者现身谈硬件配套，评论区还挖出GlobalTalk桥接玩法。近70赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "Arctessa",
+          "en": "Oh hey cool, didn't expect to see my project make Hacker News! I also develop little hardware devices to go with this stack if anyone is interested in embedded AppleTalk too. One is to connect your modern machine directly to LocalTalk networks, and the other is to emulate the now hard to find Apple network adapters for their 80s/90s printer line.\nI have a long discussion thread here which chronicles the development of this stack, and the two little hardware projects that go with it: https://68kmla.org/bb/threads/tashtalk-usb-tailtalk-and-inktalk-all-in-one-discussion-thread.52115.",
+          "zh": "嘿真巧，没想到我的项目会上HN！我还做了配套小硬件：一台让现代机器直连LocalTalk网络，另一台模拟现已难寻的设备。"
+        },
+        {
+          "type": "comment",
+          "author": "gregsadetsky",
+          "en": "Also, just learned of GlobalTalk ie people bridging their AppleTalk network to the Internet! https://marchintosh.com/globaltalk.html",
+          "zh": "另外刚知道GlobalTalk——有人把AppleTalk网络桥到互联网！https://marchintosh.com/globaltalk.html"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49678423",
+      "hn_points": 67,
+      "hn_comments": 13,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
+      "title_zh": "美国8月CPI加速：能源传导通胀，联储下周加息押注升温",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/us/us-consumer-inflation-picks-up-august-2026-09-11/",
+      "significance_score": 6.9,
+      "summary_zh": "路透华盛顿：8月CPI环比升0.4%，核心环比0.3%为四个月最大；汽油涨3.9%、其他车用燃料（含柴油）涨9.6%。CME FedWatch一度给出91%、后回落至约87%的下周加息概率，与特朗普催降息形成对撞。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Energy inflation does not stay at the gas station. It travels by truck, airplane and cargo ship into nearly every store in America,\" said Sung Won Sohn, a finance and economics professor at Loyola Marymount University.",
+          "zh": "洛约拉马利蒙特大学金融与经济学教授Sung Won Sohn说：“能源通胀不会停在加油站。它会经卡车、飞机与货轮，走进美国几乎每家商店。”"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "Alan's Random Insult Generator (1999)",
+      "title_zh": "Alan的随机侮辱生成器（1999）",
+      "publisher": "alanbellows.com",
+      "article_url": "https://alanbellows.com/experiments/insult/index.html",
+      "significance_score": null,
+      "summary_zh": "尘封JS练手作重见天日；HN怀旧并指路1994年起的投诉生成器。逾60赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "Scoundreller",
+          "en": "I'm partial to this complaint generator, on the internet since 1994 and semi-regularly updated since: https://www.pakin.org/complaint\nhere's a 1 paragraph complaint about Dang (which will be different on every load): https://www.pakin.org/complaint?title=&firstname=Dang&middlename=&lastname=&suffix=&gender=m&shorttype=f&paragraphs=1",
+          "zh": "我更偏爱这个投诉生成器，1994年上线至今还半定期更新：https://www.pakin.org/complaint"
+        },
+        {
+          "type": "comment",
+          "author": "DamnInteresting",
+          "en": "I found this in a dusty corner of my code archive, and it made me laugh, and thought it might do the same for others. I wrote this when I was first learning a fancy new language called \"Javascript.\" Apologies for the juvenile humor. Sometimes NSFW.",
+          "zh": "我在代码存档积灰角落里找到它，觉得好笑，也想别人会笑。那是我初学“时髦新语言Javascript”时写的。少儿不宜的冷笑话，抱歉。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49660196",
+      "hn_points": 66,
+      "hn_comments": 25,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "Anthropic tells investors it will be profitable for second straight quarter, FT reports",
+      "title_zh": "FT：Anthropic告知股东连续第二季调整营业利润将转正",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/",
+      "significance_score": 6.8,
+      "summary_zh": "路透转述金融时报：知情人士称Anthropic已向股东表示本季调整营业利润将连续第二季为正；毛利率在计入亚马逊等分润与训练成本前逾80%。路透未能即时核实，公司未立即置评。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters / FT",
+          "en": "Anthropic has told shareholders that its adjusted operating income will be positive for a second straight quarter, the Financial Times reported on Sunday, citing multiple people with knowledge of the matter.",
+          "zh": "金融时报周日援引多名知情人士报道：Anthropic已告知股东，其调整后营业利润将连续第二季为正。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "There Is No AI (It's Just People) with Jaron Lanier",
+      "title_zh": "根本没有AI（只是人）——对话杰伦·拉尼尔",
+      "publisher": "singjupost.com",
+      "article_url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript/",
+      "significance_score": null,
+      "summary_zh": "StarTalk访谈文字稿：拉尼尔强调大模型是众人劳动的拼合；HN质疑“只是人”是否卸责。逾60赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "bottlepalm",
+          "en": "This argument is like saying people don't kill people, their parents do. As people wouldn't be who they are without their parents..\nThis isn't the guns don't kill people, people kill people debate - guns aren't autonomous. AI is.",
+          "zh": "这论证就像说人不杀人、是父母杀的——因为没有父母就不会有那个人。这不是“枪不杀人、人杀人”那种辩论：枪没有自主性，AI有。"
+        },
+        {
+          "type": "comment",
+          "author": "tim333",
+          "en": "I think tl;dr\n>Now, you can think of large language model AI — the kind that’s on everybody’s mind — as a whole bunch of people whose work was combined into a single document like Wikipedia.\nwhich is sort of true, but there's more to it.",
+          "zh": "我觉得可以概括成：你可以把大家脑子里的大语言模型AI，想成一堆人的工作被合成进一份像维基百科那样的文档——这挺有启发，但也忽略了合成之后的新行为。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49687869",
+      "hn_points": 62,
+      "hn_comments": 79,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "Trump Dismisses AI Deceleration Calls: \"We Must Stay Ahead of China\"",
+      "title_zh": "特朗普驳“AI减速”呼吁：必须保持对华领先",
+      "publisher": "asiae.co.kr",
+      "article_url": "https://www.asiae.co.kr/en/article/2026091403024944695",
+      "significance_score": 6.8,
+      "summary_zh": "亚细亚经济9月14日：特朗普在爱尔兰称美国AI领先中国，“谁赢AI谁赢”，不希望为“不会发生的事”踩刹车；市场同时盯9月24日特习会是否触及AI安全底线。与Anthropic等“降速”倡议形成对照。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Asia Business Daily",
+          "en": "Visiting Ireland, President Trump told reporters at his own Doonbeg Golf Club on the 13th (local time) that \"We are ahead of China in AI,\" in response to whether the industry should slow development or strengthen regulations.",
+          "zh": "访爱期间，特朗普13日（当地时间）在自有杜恩贝格高尔夫俱乐部对记者说，在被问及行业是否应放缓或加强监管时称：“我们在AI上领先中国。”"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "A wandering black hole caught feeding on the run",
+      "title_zh": "一颗流浪黑洞被抓到“边逃边进食”",
+      "publisher": "phys.org",
+      "article_url": "https://phys.org/news/2026-08-black-hole-caught.html",
+      "significance_score": null,
+      "summary_zh": "天文观测捕捉到银河外流浪黑洞吸积气体的迹象；评论惊叹两千万光年外仍能解析气体轨道。逾60赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "dotancohen",
+          "en": "While the conclusions of the observation are interesting, what really stood out to me was the observations themselves. That black hole is 20 million light years away, in another galaxy! And we have multiple high enough resolution observations to conclude how the gas orbits the black hole and gets dragged along behind it. That's nuts.",
+          "zh": "观测结论固然有趣，真正让我震撼的是观测本身：那黑洞在两千万光年外的另一个星系！我们竟有足够分辨率的多次观测，能推断气体如何绕黑洞运转。"
+        },
+        {
+          "type": "comment",
+          "author": "Towaway69",
+          "en": "LegacySurvey deep link[1].\nZooming out from there and one gets an appreciation for how (in)significant we really are.\n[1] https://www.legacysurvey.org/viewer?ra=195.8160&dec=-17.4268&layer=ls-dr11&zoom=16",
+          "zh": "LegacySurvey深链。从那里向外缩放，更能体会我们有多么（不）重要。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49679734",
+      "hn_points": 61,
+      "hn_comments": 54,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "Strait of Hormuz attack: Iranian cargo vessel hit near Qeshm, Oman talks delayed",
+      "title_zh": "霍尔木兹再响：伊货轮在格什姆附近遇袭一人死亡，阿曼会谈推迟",
+      "publisher": "indiatoday.in",
+      "article_url": "https://www.indiatoday.in/world/story/strait-of-hormuz-attack-iranian-cargo-vessel-hit-near-qeshm-oman-talks-delayed-ptag-2993972-2026-09-14",
+      "significance_score": 6.7,
+      "summary_zh": "India Today综述：伊朗官方称货轮在格什姆岛附近遭袭致1死4伤；阿曼外长巴德尔称会议“为求共识”推迟。与UKMTO报告的海峡抛射物击中起火事件是否同一艘船仍未完全确认。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "India Today",
+          "en": "An Iranian cargo vessel was hit early on Sunday near Qeshm Island in the Strait of Hormuz, Iranian state media reported, killing one person and injuring four.",
+          "zh": "伊朗官方媒体报道，一艘伊朗货轮周日早间在霍尔木兹海峡格什姆岛附近遭袭，造成1人死亡、4人受伤。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "AI recursive self-improvement might not come so quickly after all",
+      "title_zh": "AI递归自我改进或许不会来得那么快",
+      "publisher": "technologyreview.com",
+      "article_url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+      "significance_score": null,
+      "summary_zh": "MIT Technology Review梳理RSI时间表争议；HN一边吐槽模型连自检都困难，一边警告一厢情愿。约60赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "smackeyacky",
+          "en": "How can these models do anything close to RSI when they can’t even self check their output?  Gemini for example is so self confidently wrong about 30% of the time for me on certain tasks.  I tell it that its answer is wrong and it issues a mea culpa but goes back to being wrong in short order.  I feel like the AI industry is still massively overstating their projections.",
+          "zh": "这些模型连输出都自检不好，怎么谈得上接近RSI？比如Gemini在某些任务上大约三成时间自信地错；我指出错误它道歉，下一轮又错回原样。"
+        },
+        {
+          "type": "comment",
+          "author": "0xDEAFBEAD",
+          "en": "We need to be careful of wishful thinking. People are going to want to assume the existence of some sort of \"deus ex machina\" which is going to make everything fine. I prefer to turn the logic around. If there's any decently high chance that things could go off the rails, we should be shutting AI development down: https://pauseai.info/",
+          "zh": "要小心一厢情愿。人们会想假设存在某种“机械降神”把一切变好。我更想反过来：只要事情脱轨的概率足够高，我们就该认真对待。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49687334",
+      "hn_points": 60,
+      "hn_comments": 56,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}

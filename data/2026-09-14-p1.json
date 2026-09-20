@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz",
+      "title_zh": "周一开盘油价跳涨逾2%：沙特再遭袭与霍尔木兹船只遇袭叠压",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/energy/oil-prices-jump-more-than-3-after-new-strikes-saudi-strait-hormuz-2026-09-13/",
+      "significance_score": 7.4,
+      "summary_zh": "路透北京9月14日：布伦特一度涨超3%，报约107.5美元；WTI约102.3美元。东西向管线周五关停威胁全球约4%供应，阿曼原定周一海湾—伊朗会谈亦推迟，交易员盯修复与外交两条线。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Oil prices jumped more than 2% on Monday, after new Houthi strikes on Saudi Arabia and Iranian attacks on ships in the Gulf compounded supply concerns following the closure of a key Saudi oil pipeline.",
+          "zh": "周一油价上涨逾2%：胡塞对沙特新袭击与海湾船只遇袭，叠加沙特关键油管关停，进一步加剧供应担忧。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 1
+    },
+    {
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "title_zh": "Fable 5.1解开历时370年的Cyphral Distich密码",
+      "publisher": "vals.ai",
+      "article_url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "significance_score": null,
+      "summary_zh": "Vals报道其系统Fable 5.1破解了流传约370年的Cyphral Distich密码；HN热议AI密码学能力边界与“so over / we're so back”摇摆。逾350赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "redfloatplane",
+          "en": "A very neat problem and result. I often find myself swinging between \"It's so over\" and \"We're so back\" - some days I roll out of bed thinking I could have Claude solve some random unproven OEIS sequence before breakfast; other days, I wake up in a cold sweat worried about the fate of humanity and what the world might look like in a decade. I think it's that I don't have a very high p(doom) or p(utopia), and I don't really have any solid conviction on how this whole thing is going to go, so my vibe-o-meter jitters between 'fine' and 'not fine' constantly. It's just such an unpredictable moment. Anyways: really neat to see this use case. I myself recently used Claude to finally do an relatively exhaustive study of the location of heretofore-unlisted formal gardens in Ireland in the early 1800s and early 1900s, by having Claude write the tooling for me to manually annotate a few dozen on tiles of historic maps, and then running some CV model across the rest of the tiles using my input. I'd been planning to do this project for over a decade, but I could never find the time (or the enthusiasm) to learn all the details of how to do it myself. It took me a weekend with Claude and continues to bring me joy.\n> Caveats, stated plainly.   [from the Fable transcript pasted in the article]\nI had a visceral reaction to these three words.",
+          "zh": "这个问题和结果都很漂亮。我常常在“全完了”和“我们又行了”之间摇摆——有些日子醒来觉得Claude早饭前就能解开某条未证OEIS序列；另一些日子则冷汗直冒，担心失败模式。"
+        },
+        {
+          "type": "comment",
+          "author": "MisterMunchkin",
+          "en": "We found a cipher my dad had written as a child with no obvious key or anything. Chatgpt was able to crack it in 20 minutes and figure out the message, and we knew it was right because it mentioned names of children he went to school with.",
+          "zh": "我们找到父亲小时候写的密码，没有明显密钥。ChatGPT二十分钟就破译并还原了信息，因为里面提到了他同学的名字，我们才确认是对的。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49688695",
+      "hn_points": 355,
+      "hn_comments": 142,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 2
+    },
+    {
+      "title": "Trump says US could stay in Iran and keep oil, like Venezuela deal",
+      "title_zh": "特朗普称美国或留在伊朗“留下石油”，类比委内瑞拉安排",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/energy/trump-says-us-could-stay-iran-keep-oil-like-venezuela-deal-2026-09-13/",
+      "significance_score": 7.3,
+      "summary_zh": "路透爱尔兰杜恩贝格9月13日：特朗普在爱开阔球场称最终会撤出伊朗，除非决定像委内瑞拉那样“留下来拿石油”；并重申伊战或在美国中期选举前后结束、油价将“像石头一样掉”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "We'll ultimately get out (of Iran), unless we decide to stay and keep the oil like Venezuela,\" Trump said, adding that the U.S. revenue from Venezuela has \"paid for the war many times.\"",
+          "zh": "特朗普说：“我们最终会撤出（伊朗），除非我们决定留下来、像委内瑞拉那样留下石油。”并称美国从委内瑞拉获得的收入“已多次覆盖战争开支”。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 3
+    },
+    {
+      "title": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)",
+      "title_zh": "马克·扎克伯格谈“剑桥分析”事件（2017）",
+      "publisher": "twitter.com",
+      "article_url": "https://twitter.com/TechEmails/status/2099214399840059428",
+      "significance_score": null,
+      "summary_zh": "TechEmails放出扎克伯格2017年相关邮件片段；HN把剑桥分析视为当下极化与平台责任争论的起点。逾250赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "goshx",
+          "en": "IMHO, that was the beginning of the deep troubles we are in right now, and cause of the political polarization. The brainwash was very effective, not only in the US, but also in Brazil.",
+          "zh": "依我看，那是我们如今深陷麻烦的开端，也是政治极化的成因之一。洗脑非常有效，不只在美国，巴西也一样。"
+        },
+        {
+          "type": "comment",
+          "author": "dehrmann",
+          "en": "When I interviewed at Facebook in 2019, one interviewer was on an integrity team. I'm not sure if it was his take or what the org settled on, but it's that Cambridge Analytica wasn't Facebook's fault (users willingly granted access), but it was their problem. Not surprising some of the same techniques got used by others.",
+          "zh": "2019年我面Facebook时，有一位面试官在诚信团队。不确定是他个人看法还是组织定调：剑桥分析不是Facebook的错（用户自愿授权），但确实是他们的问题。后来有人被开除并不意外。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49688157",
+      "hn_points": 254,
+      "hn_comments": 103,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 4
+    },
+    {
+      "title": "Fighting in Yemen intensifies, Houthis launch more attacks on Saudi Arabia",
+      "title_zh": "也门战事再起：政府军反打红海沿岸，胡塞继续袭沙特",
+      "publisher": "thehindu.com",
+      "article_url": "https://www.thehindu.com/news/international/fighting-in-yemen-intensifies-houthis-launch-more-attacks-on-saudi-arabia/article71464664.ece",
+      "significance_score": 7.2,
+      "summary_zh": "美联社亚丁电（印度教徒报9月14日转载）：穆哈失守后政府军扬言增兵反攻；胡塞继续对阿布哈等地拉响警报。联合国估仅9月以来已有逾8万人流离失所，吉布提已接收两千余名渡海难民。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "AP / The Hindu",
+          "en": "The conflict in Yemen intensified on Sunday (September 13, 2026), as government forces launched attacks against Iran-backed Houthi rebels along the Red Sea and Houthis fired into neighbouring Saudi Arabia, which supports Yemen's government.",
+          "zh": "周日（2026年9月13日）也门冲突加剧：政府军沿红海打击伊朗支持的胡塞，胡塞则向支持也门政府的邻国沙特开火。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 5
+    },
+    {
+      "title": "Julia 1.13 highlights",
+      "title_zh": "Julia 1.13亮点一览",
+      "publisher": "julialang.org",
+      "article_url": "https://julialang.org/blog/2026/09/julia-1.13-highlights/",
+      "significance_score": null,
+      "summary_zh": "Julia官方博客概述1.13：更快GC、更低启动延迟与大量打磨；大功能多推至1.14。逾130赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "zuluonezero",
+          "en": "Over the last three years I have been doing a focussed investigation of a lot of different programming languages and styles (about 38 last count). I was reflecting over the weekend which one I really liked best.  Not really for features or functionality or toolset just which one felt 'right'. Julia came out on top as the one language I wanted to play with more and I wish could give a reasoned well justified argument for it but it's really just a feeling. The right mix of intelligent design, power,  absence of evangelical idiocy, and a pleasing interface. So nice to get that feeling validated from the random workings of the world and see this release message this morning.  Thanks Julia team.",
+          "zh": "过去三年我专注调研了大约38种编程语言与风格。周末我在想自己最喜欢哪一种——不是功能或工具链，而是单纯“用着开心”的那一种，答案是Julia。"
+        },
+        {
+          "type": "comment",
+          "author": "eigenspace",
+          "en": "Due to how the release cycle turned out, most new major features got pushed to v1.14, and this one is a rather iterative release focused on making various things faster, quashing bugs, and general polish.\nStill though, faster GC, lower startup latency, better interrupt handling, new REPL features, and faster package mangement are all great things. I'm especially happy that the `[sources]` section of a package is now applied recursively when you `add` a non-registered package.",
+          "zh": "受发布节奏影响，多数重大新功能推到了v1.14，这次更偏迭代：更快、修bug、打磨。不过更快的GC、更低启动延迟、更好的中断处理仍很受欢迎。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49642645",
+      "hn_points": 135,
+      "hn_comments": 10,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 6
+    },
+    {
+      "title": "Poland, Ukraine slam Russian strikes near border as 'escalation'",
+      "title_zh": "波乌谴责俄军近波兰边境袭击为“升级”：华沙列车遭袭",
+      "publisher": "bangkokpost.com",
+      "article_url": "https://www.bangkokpost.com/world/3319294/poland-ukraine-slam-russian-strikes-near-border-as-escalation",
+      "significance_score": 7.1,
+      "summary_zh": "法新社基辅电：俄无人机打击距波乌边界约两公里的基辅—华沙客运列车机车，无伤亡；图斯克召开紧急会议警告未来数周或再升级。克宫同时称10月或可举行俄乌美三方谈判。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "AFP / Bangkok Post",
+          "en": "Poland and Ukraine on Sunday denounced Russian strikes close to the Polish border, including on a Warsaw-bound train and near a frontier checkpoint -- as an \"escalation\" in the war.",
+          "zh": "波兰与乌克兰周日谴责俄军在靠近波兰边境处的袭击——包括一列开往华沙的列车与边境检查站附近——称之为战争“升级”。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 7
+    },
+    {
+      "title": "The contagion of fear",
+      "title_zh": "恐惧的传染",
+      "publisher": "bcantrill.dtrace.org",
+      "article_url": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "significance_score": null,
+      "summary_zh": "Bryan Cantrill长文讨论AI灭世叙事如何自我强化；HN争论x-risk是宗教思维还是该认真对待的尾部风险。近90赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "sobellian",
+          "en": "Any claim that AI will, or could, destroy humanity reduces to a claim that any sufficiently intelligent being - even a human - could destroy humanity. I find that much of the x-risk thought relies on religious thinking. Take for example: https://x.com/paulg/status/1660404244174782464.\nIf this line of thinking is taken too literally, we can never falsify it. Any specific hypothesis - nukes, bioweapons, spontaneously convincing us that life isn't worth living - can be deflected with the objection that if we can anticipate it and prevent it, it is not the route for a true ASI extinction event.",
+          "zh": "任何“AI将/可能毁灭人类”的主张，最终都可归结为：任何足够聪明的存在——哪怕是人——都可能毁灭人类。我发现许多x-risk思路依赖宗教式思维。"
+        },
+        {
+          "type": "comment",
+          "author": "GlenTheMachine",
+          "en": "Like (I assume) most of you, I have been struggling with this. And where I currently come down is that 1) I am very worried, but 2) I am more worried about human actors.\n\"AI\" by itself won't kill us in the next ten years. I think. The reason I think that is that ten years from now, the tech economy won't be completely automated. I say this as a roboticist: as was adequately stated on a post earlier this week, robots are hard. So even a malign rational actor would still need human labor.\nOn the other hand, even the HuggingFace hack wasn't actually propagated by AI. it was initially started when humans directed the AI to achieve impossible results on a series of tests, and the AIs figured out that cheating was the only way to do that. That was then not caught by humans due to what seems to be a shockingly slack safety culture even for a company not known for its safety standards.\nThe point being: humans seem to me to be the weak link here. An AI isn't going to (for instance) engineer a bioweapon by itself. It's going to do so at someone's direction, and then significant parts of that thing are going to be assembled with human labor inputs.\nI'm not sure what to do about the humans. Of course, we've had the ability to extinct ourselves for decades, and we're either muddled through, been lucky, or both. The problem with AI is that it pushes power down to the individual, not the nation-state or large corporation.\nBut it's nearly impossible to put odds on how likely that is to result in an extinction-level terrorist attack (which is what this would be). So I sympathize with the various researchers, but I have no idea how they came up with their figures, and I don't think they know either.",
+          "zh": "和（我猜）大多数人一样，我一直在纠结。目前的落点是：1）我很担心；2）我更担心人类行动者。“AI”本身未来十年大概不会杀了我们；十年后真正危险的是拿到工具的人。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49689460",
+      "hn_points": 91,
+      "hn_comments": 64,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 8
+    },
+    {
+      "title": "Hormuz diplomacy stalls as attacks deepen pressure on Persian Gulf oil routes",
+      "title_zh": "霍尔木兹外交卡壳：美伊议程对立，美军声称已改道101艘商船",
+      "publisher": "iranintl.com",
+      "article_url": "https://www.iranintl.com/en/202609137219",
+      "significance_score": 7.1,
+      "summary_zh": "伊朗国际9月14日：阿曼推迟萨拉拉会议；美方更想谈核、伊方坚持先解海峡与封锁。美中央司令部称已引导101艘商船遵守对伊封锁。沙特据报对阿曼—伊朗草案提出修正，担心固化其不可接受的现状。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Iran International",
+          "en": "Hormuz diplomacy hit a fresh setback Sunday as Oman postponed talks between Iran and Persian Gulf states, while attacks on shipping and Saudi energy infrastructure raised pressure on key regional oil routes.",
+          "zh": "周日霍尔木兹外交再受挫：阿曼推迟伊朗与海湾国家会谈，同时航运与沙特能源设施遇袭推高区域油路压力。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 9
+    },
+    {
+      "title": "Sean Carroll explains the biggest ideas in the universe – Full Interview [video] (2025)",
+      "title_zh": "肖恩·卡罗尔讲解宇宙最大观念——完整访谈（视频，2025）",
+      "publisher": "youtube.com",
+      "article_url": "https://www.youtube.com/watch?v=_TBNJyztai0",
+      "significance_score": null,
+      "summary_zh": "长访谈梳理时空、量子与涌现等主题；评论指向其疫情期间系列视频与Mindscape播客。近70赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "layer8",
+          "en": "This is based on the eponymous video series that Sean Carroll published on his YouTube channel during the pandemic (playlist: https://www.youtube.com/playlist?list=PLrxfgDEc2NxZJcWcrxH3jyjUUrJlnoyzX).\nHe since has written an in-depth three-volume book series on these topics: https://preposterousuniverse.com/biggestideas/. (He recently also completed the third volume, Complexity and Emergence, but it will only be published next year.)",
+          "zh": "这基于肖恩·卡罗尔疫情期间在YouTube发布的同名系列。此后他还写了三卷深入讨论这些主题的书。"
+        },
+        {
+          "type": "comment",
+          "author": "eis",
+          "en": "I can wholeheartedly recommend Sean Carroll's Mindscape podcast if you want to listen to interesting topics related to Physics, Philosophy, Quantum Mechanics and Science in general: https://www.youtube.com/@seancarroll/videos\nHe has a talent for explaining complex topics in easy to understand terms and avoids the trap of outrage and controversy driven social media tricks like some others in the field.",
+          "zh": "强烈推荐肖恩·卡罗尔的Mindscape播客，若想听物理、哲学、量子力学与科学相关话题：他很擅长把复杂主题讲清楚。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49651567",
+      "hn_points": 69,
+      "hn_comments": 15,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 10
+    }
+  ]
+}

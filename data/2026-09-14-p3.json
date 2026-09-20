@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Diesel and Refining Capacity Set to be the Inflationary Impact The Fed Can't Control",
+      "title_zh": "柴油与炼能缺口：联储难以按住的通胀传导段",
+      "publisher": "energynewsbeat.com",
+      "article_url": "https://energynewsbeat.com/diesel/diesel-and-refining-capacity-set-to-be-the-inflationary-impact-the-fed-cant-control/",
+      "significance_score": 6.6,
+      "summary_zh": "Energy News Beat梳理：东西向管线关停叠加红海风险后，美国全国柴油站上6美元，加州湾区个别加油站柴油泵显9.999；馏分裂解价与原油脱钩，物流与食品成本或成“一切通胀”通道。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Energy News Beat / GasBuddy",
+          "en": "GasBuddy's Patrick De Haan: record diesel \"will impact every cargo, shipment, every delivery Americans are taking, and [is] likely to reignite inflation up and down the supply chain.\"",
+          "zh": "GasBuddy的Patrick De Haan称：创纪录的柴油价“将影响美国人经手的每一票货运与配送，并可能沿供应链上下重新点燃通胀”。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "Libraries Run Rust Inside Python (With PyO3)",
+      "title_zh": "库如何在Python里跑Rust（用PyO3）",
+      "publisher": "belderbos.dev",
+      "article_url": "https://belderbos.dev/blog/how-libraries-run-rust-inside-python/",
+      "significance_score": null,
+      "summary_zh": "教程梳理PyO3/maturin把Rust扩展送进pip生态；simonw关心Pyodide兼容，现多已有WASM构建。逾50赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "simonw",
+          "en": "I was a bit nervous about this trend when it started picking up because I care about Pyodide (Python running via WebAssembly) and libraries that use PyO3 might not work in Pyodide.\nThankfully that's now been mostly solved - you can compile and publish WASM builds of Rust or C extensions on PyPI now and a Pyodide can then use them.\nHere's the WASM build of the Rust-including Pydantic-core package for example: https://pypi.org/project/pydantic_core/#pydantic_core-2.49.0-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+          "zh": "这趋势刚起时我有点紧张，因为我在意Pyodide（Wasm上的Python），用PyO3的库可能跑不了。幸好现已大体解决——可以编译发布Rust/C扩展的WASM构建。"
+        },
+        {
+          "type": "comment",
+          "author": "the__alchemist",
+          "en": "This is a nice party trick! I use it to provide easy installation of software that is written in rust, but is primarily used by Python users. (e.g.: Biology tools) They can do `pip install `, since some people prefer this over downloading executables/installers. Bonus: Maturin/PyO3 can build \"manylinux\" binaries automatically, which helps with the Linux ABI diaspora.",
+          "zh": "挺好的“表演技巧”！我用它让主要Rust写的、却由Python用户使用的软件（如生物工具）能`pip install`，有人更喜欢这样而不是下安装包。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49685037",
+      "hn_points": 55,
+      "hn_comments": 33,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "The hidden chain reaction behind the 2026 Nepal-China flooding disaster",
+      "title_zh": "2026尼泊尔—西藏洪灾的隐秘链式反应：冰川崩塌猜想",
+      "publisher": "interestingengineering.com",
+      "article_url": "https://interestingengineering.com/science/2026-nepal-china-flooding-disaster",
+      "significance_score": 6.5,
+      "summary_zh": "Interesting Engineering 9月13日：8月26日朗塘里隆一带疑似冰川崩塌触发雪崩—泥石流—山洪链，估约1400人死亡、5850人失踪；吉隆口岸损毁，尼泊尔约一成水电装机受创。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Interesting Engineering",
+          "en": "On August 26, 2026, a series of avalanches, flash floods, and debris flows in Nepal and Tibet left an estimated 1,400 people dead, with another 5,850 still missing.",
+          "zh": "2026年8月26日，尼泊尔与西藏一带连续雪崩、山洪与泥石流，估计造成约1400人死亡，另有5850人仍失踪。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "Base84 deserves a place in file names",
+      "title_zh": "Base84该在文件名里有一席之地",
+      "publisher": "00f.net",
+      "article_url": "https://00f.net/2026/09/09/base84/",
+      "significance_score": null,
+      "summary_zh": "博文主张用更短字母表编码文件名；评论区吐槽特殊字符会让shell与agent转义翻车，Base62往往够用。逾50赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "abound",
+          "en": "> Here’s the alphabet, in encoding order:\n> ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&'()+,-;=@[]^_`{}~\nYeah I definitely don't want any of those last ~22 characters in file names if I need to do anything with them from a shell",
+          "zh": "字母表编码顺序里那些非字母数字字符——如果还要从shell里摆弄文件名，我绝对不想看到最后那大约22个字符。"
+        },
+        {
+          "type": "comment",
+          "author": "bensyverson",
+          "en": "The non-alphanumeric characters are just asking for trouble. Agents will fail to escape them correctly, and the $ could expand a variable.\nBase62 (or 64, with -_) is totally sufficient.",
+          "zh": "非字母数字字符就是找麻烦。Agent会转义失败，`$`还可能展开变量。Base62（或带- _的64）完全够用。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49655450",
+      "hn_points": 55,
+      "hn_comments": 50,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "Trump Pressures for World's Lowest Interest Rate Ahead of FOMC",
+      "title_zh": "FOMC前特朗普再施压“全球最低利率”，白宫称仍尊重联储",
+      "publisher": "asiae.co.kr",
+      "article_url": "https://www.asiae.co.kr/en/article/2026091404165152980",
+      "significance_score": 6.5,
+      "summary_zh": "亚细亚经济：在能源通胀推高加息押注之际，特朗普于爱尔兰重申美国应有全球最低利率；被问及是否预期加息时称“不知道”。白宫同时强调会尊重联储决定，形成公开撕裂。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Asia Business Daily",
+          "en": "U.S. President Donald Trump once again pressed for an interest rate cut ahead of next week's Federal Open Market Committee (FOMC) meeting, insisting that the United States should have the lowest rate in the world.",
+          "zh": "美国总统特朗普在下周FOMC会议前再次施压降息，坚称美国应拥有全球最低利率。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
+      "title_zh": "逆向Claude Web的MicroVM：揭开Anthropic隐藏的Antspace",
+      "publisher": "aprilnea.me",
+      "article_url": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
+      "significance_score": null,
+      "summary_zh": "博文挖Anthropic侧车式部署环境“Antspace”；评论纠正多针对Claude Code，并追问能否得到持久公网URL。近50赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "simonw",
+          "en": "\"No systemd. No sshd. No cron. No logging daemon.\"\nYou can delete that sentence. Why would someone assume sshd or cron in an environment like this?\nOmit needless words.",
+          "zh": "有一点我没看懂：你怎么用这个部署平台？能不能让Claude Code for web用它构建并部署Web应用？若可以，会不会得到某个公网URL？Claude会话结束后部署还在吗？"
+        },
+        {
+          "type": "comment",
+          "author": "gabrielsroka",
+          "en": "Actual title: '\nAnthropic's Hidden Vercel Competitor \"Antspace\"'\nIt's for Claude Code, not Claude web. And it's been posted here 3 times already.",
+          "zh": "实际标题更像：Anthropic隐藏的Vercel竞品“Antspace”。它是给Claude Code用的，不是Claude web。而且已经在这发过三次了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49653311",
+      "hn_points": 49,
+      "hn_comments": 11,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "Fed to hold rates steady in rest of 2026; rising number of analysts see at least one hike: Reuters poll",
+      "title_zh": "路透调查：多数经济学家仍预期联储年内按兵不动，但看加息者倍增",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/fed-hold-rates-steady-rest-2026-rising-number-analysts-see-least-one-hike-2026-09-09/",
+      "significance_score": 6.4,
+      "summary_zh": "路透9月9日调查：约70%经济学家预期9月15–16日会议维持3.50%–3.75%；但预期年内至少加息一次的比例升至约四成、较上月翻倍——与金融市场高企的加息定价形成温差。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "About 70% of economists, 65 of 93, in the September 4-9 Reuters poll expect the federal funds rate to remain in the 3.50%-3.75% range next week. That reading is down from 90% in August.",
+          "zh": "路透9月4–9日调查中，93位经济学家里约70%（65人）预期下周联邦基金利率仍维持在3.50%–3.75%区间，低于8月的90%。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "On Binary Translation and Its Consequences",
+      "title_zh": "论二进制翻译及其后果",
+      "publisher": "chipsandcheese.com",
+      "article_url": "https://chipsandcheese.com/p/on-binary-translation-and-its-consequences",
+      "significance_score": null,
+      "summary_zh": "Chips and Cheese长文谈二进制翻译与微架构冗余；Rosetta 2作者现身，用户回忆M1上JIT例外。近50赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "cwzwarich",
+          "en": "[Disclaimer: I wrote Rosetta 2, so everything I say is biased by that.]\nContemporary out-of-order CPUs are incredibly over-provisioned; microarchitects will justify a new feature by another 0.1% gain on some benchmark. The end result is a CPU that's pretty decent at handling the sort of code bloat that comes from a binary translator.\nThere's also a big tradeoff in adding more optimizations to a binary translator. You would like to be able to precisely handle exceptions (especially ones caused by invalid memory accesses) while presenting a userspace exception handler with an architecturally valid state for the source program. There are some optimizations that would be easy to do in principle but are painful for maintaining this mapping between source program states and translated program states. The complexity burden combined with the difficulty of debugging that added complexity (or exhaustively verifying it up-front) shapes many of your decisions when writing a production binary translator. You should always have more Cool (tm) ideas than you actually use in practice.",
+          "zh": "【声明：我写了Rosetta 2，以下有偏见。】当代乱序CPU冗余得不可思议；微架构师常靠基准上再抠0.1%证明新特性。结果是CPU很擅长处理翻译器制造的“怪异”代码。"
+        },
+        {
+          "type": "comment",
+          "author": "torginus",
+          "en": "When I bought my M1 Macbook, I had a firsthand experience with how well binary translation worked. It was almost perfect with one MAJOR exception - anything that used JIT - so stuff like Electron apps or Java stuff (IntelliJ-based IDEs). Which was kinda ironic - JITs were designed around the idea of portability across CPU architectures, yet usually they are one of the hardest pieces of code to port, and they make this sort of binary translation approach - which has relatively long compile times but good exec time - very  slow and painful.",
+          "zh": "买M1 MacBook时我亲身体会二进制翻译有多好——几乎完美，除了一个大例外：用JIT的东西，比如Electron或Java（IntelliJ系IDE）。挺讽刺，JIT本就是为性能设计的。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49651107",
+      "hn_points": 48,
+      "hn_comments": 17,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "At NATO's doorstep, Russian drones struck a gas station and passenger train near Ukraine's border with Poland",
+      "title_zh": "北约门口：俄无人机打击波乌边境加油站与客运列车",
+      "publisher": "meduza.io",
+      "article_url": "https://meduza.io/en/feature/2026/09/14/at-nato-s-doorstep-russian-drones-struck-a-gas-station-and-passenger-train-near-ukraine-s-border-with-poland",
+      "significance_score": 6.4,
+      "summary_zh": "Meduza记述亚戈金口岸附近加油站与列车遇袭细节；乌铁称提前预警避免伤亡。克宫放风10月阿布扎比或可重启三方谈，莫迪与习近平在金砖场边亦向普京示意愿协助斡旋。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Meduza",
+          "en": "Russian forces launched drone strikes on a gas station and a train near the Yahodyn border crossing, several kilometers from the Ukrainian-Polish border.",
+          "zh": "俄军对距乌波边界数公里的亚戈金口岸附近一座加油站与一列火车发动了无人机袭击。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "Cpak – OCI application package format for Linux desktops, servers and devices",
+      "title_zh": "Cpak：面向Linux桌面/服务器/设备的OCI应用打包格式",
+      "publisher": "cpak.it",
+      "article_url": "https://cpak.it/",
+      "significance_score": null,
+      "summary_zh": "新格式复用Dockerfile结构、无守护进程、强调轻量去重；评论形容“像Docker但更轻”，也有人吐槽文档味像Claude。逾40赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "nine_k",
+          "en": "In short: structurally like Docker (reuses Dockerfiles), but without a daemon, and, unlike Podman or Nix, very lightweight, only two binaries do everything.\nCommon chunks of data are shared / deduplicated across installed packages, again like Docker or Nix.\nThe runtime is under LGPL2.",
+          "zh": "简言之：结构上像Docker（复用Dockerfile），但无守护进程；又不像Podman或Nix那么重，两个二进制就能搞定。公共数据块在已装包之间共享/去重，也像Docker或Nix。"
+        },
+        {
+          "type": "comment",
+          "author": "stephenlf",
+          "en": "> Follow a complete course, change real manifests and see what cpak accepts, refuses or changes. Professional paths lead to an exam and a public, verifiable credential.\nHoly Claude",
+          "zh": "“跟完一整门课、改真实manifest，看cpak接受、拒绝或改写什么。职业路径通向考试与可公开核验的证书。”——好家伙，很Claude。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49684778",
+      "hn_points": 45,
+      "hn_comments": 17,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}

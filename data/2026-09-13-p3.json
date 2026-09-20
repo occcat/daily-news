@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "The oil market's escape route around Hormuz is now under attack",
+      "title_zh": "绕开霍尔木兹的“逃生通道”也遭打击：分析警示双重咽喉",
+      "publisher": "forbes.com",
+      "article_url": "https://www.forbes.com/sites/rrapier/2026/09/13/the-oil-markets-escape-route-around-hormuz-is-now-under-attack/",
+      "significance_score": 6.1,
+      "summary_zh": "Forbes能源专栏9月13日：沙特东西向管线本是绕开霍尔木兹的最重要替代，日转运约400万桶；无人机迫停后，延布库存或仅撑5–7天，修复估时甚至可达五六周。双咽喉同时承压，令“替代走廊能撑多久”成为市场主问题。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Forbes",
+          "en": "Drone strikes forced Saudi Arabia to shut the pipeline after it had been moving roughly 4 million barrels per day to the Red Sea port of Yanbu, equivalent to about 4% of global oil supply.",
+          "zh": "无人机袭击迫使沙特关停管线——该线此前向红海延布港日输约400万桶，约合全球石油供应的4%。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "A Mathematical Framework for Transformer Circuits (2021)",
+      "title_zh": "Transformer电路的数学框架（2021）再热",
+      "publisher": "transformer-circuits.pub",
+      "article_url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "significance_score": null,
+      "summary_zh": "经典可解释性论文回流首页：残差流作通信总线、注意力线性代数的“兔鸭错觉”重构。有人调侃以为是电力变压器。约100赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "libraryofbabel",
+          "en": "This is one of those papers that ought to have several textbook chapters unpacking some of the insights... There's a kind of \"rabbit–duck illusion\" moment where they show how you can reframe all the linear algebra around attention in a totally different way, demoting the Q, K, and V matrices. They show the importance of the \"residual stream\" inside LLMs: it's not just bypasses for training stability but a kind of main communication bus.",
+          "zh": "这篇该有好几章教材来拆解。有种“兔鸭错觉”时刻：他们用完全不同方式重写注意力线性代数，把Q/K/V降级。还指出残差流不只是训练稳定旁路，更像贯穿模型的主通信总线。"
+        },
+        {
+          "type": "comment",
+          "author": "myself248",
+          "en": "Nothing about B-H curves or magnetization current, must be that other kind of transformer, in that other kind of circuit.",
+          "zh": "完全没提B-H曲线或励磁电流——看来是另一种变压器、另一种电路。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49672365",
+      "hn_points": 103,
+      "hn_comments": 17,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "Trump says 'very negative forces' raising exaggerated concerns over AI",
+      "title_zh": "特朗普称“非常负面的力量”在夸大AI风险：谁赢AI谁赢",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/europe/trump-says-very-negative-forces-raising-exaggerated-concerns-over-ai-2026-09-13/",
+      "significance_score": 6.0,
+      "summary_zh": "特朗普周日回应“AI是否该放缓/加强监管”时称，美国领先中国，“谁赢AI谁就赢”；可设护栏，但“很多非常负面的力量在抛出不会发生的事”。表态紧随Anthropic研究员本周关于灭绝风险的公开警告。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "We're leading China in AI. We're the most sophisticated country in the world, and frankly I want to keep it that way because whoever wins AI wins,\" Trump told reporters when asked if the AI industry should slow down or be more regulated.",
+          "zh": "当被问及AI行业是否应放缓或加强监管时，特朗普对记者说：“我们在AI上领先中国。我们是全世界最尖端的国家，坦白说我想保持这样，因为谁赢AI谁就赢。”"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "Performance of WebAssembly Runtimes in 2026",
+      "title_zh": "2026年WebAssembly运行时性能横评",
+      "publisher": "00f.net",
+      "article_url": "https://00f.net/2026/06/23/webassembly-runtimes-2026/",
+      "significance_score": null,
+      "summary_zh": "2026年Wasm运行时基准；讨论Wasmer内核扩展、跨平台二进制梦想，以及Node未强制优化导致的测速陷阱。约100赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "pmkary",
+          "en": "Many moons ago I was preparing for an interview to join wasmer, back then they showed me that by running wasmer as a kernel extension in Linux they have made it run four orders of magnitude (10,000 times) faster. Given the WASI, I keep thinking... what is the point of WASM not being accepted as a second binary in all operating systems?",
+          "zh": "多年前准备Wasmer面试时，他们演示把Wasmer当Linux内核扩展能快四个数量级。有了WASI，我一直在想：为何Wasm还没被各操作系统接受为第二种二进制？"
+        },
+        {
+          "type": "comment",
+          "author": "azakai",
+          "en": "Judging by the slow speed of node here, I wonder if it was run without forcing optimizations. It doesn't do OSR (on-stack replacement), meaning that a benchmark script doesn't get a chance to tier up from the baseline compiler to the fully optimized tier. Running with node --no-liftoff avoids this problem.",
+          "zh": "看Node这里偏慢，怀疑没强制优化。它不做OSR，基准脚本可能卡在基线编译器。用node --no-liftoff可避开。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49623933",
+      "hn_points": 101,
+      "hn_comments": 25,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "Oman postpones Hormuz regional meeting 'in the interests of consensus'",
+      "title_zh": "阿曼宣布推迟霍尔木兹地区会议：为求“共识”",
+      "publisher": "al-monitor.com",
+      "article_url": "https://www.al-monitor.com/originals/2026/09/new-attacks-hormuz-and-saudi-test-nerves-wars-spread-worsens-oil-disruption",
+      "significance_score": 5.9,
+      "summary_zh": "阿曼外交大臣巴德尔晚间发帖称，原定与伊朗及海湾外长讨论霍尔木兹航运安排的会议“为求共识”推迟。伊朗法尔斯社称系部分地区国家要求、双方共同决定。巴林早前已表态不会与任何伊朗人会面；特朗普则称海湾是否见伊朗“由他们自己决定”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Al-Monitor / Reuters",
+          "en": "Oman's foreign minister, Sayyid Badr Albusaidi, posted late Sunday that the regional meeting had been postponed \"in the interests of consensus.\"",
+          "zh": "阿曼外交大臣赛义德·巴德尔·布赛迪周日晚间发帖称，地区会议已“为求共识”而推迟。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "Eating Fruit Skins",
+      "title_zh": "吃果皮这件事",
+      "publisher": "pgadey.ca",
+      "article_url": "https://pgadey.ca/blog/eating-fruit-skins/",
+      "significance_score": null,
+      "summary_zh": "博客讨论吃果皮/籽的习惯与风险；评论强调农药渗透与“能吃≠该吃”，并以番荔枝科有毒部位警示。近100赞、评论过200。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "bastawhiz",
+          "en": "Alex rightly points out that apple seeds do contain cyanide. Turns out, it's not a huge risk for normal apple consumption. You don't have to eat them. There's no benefit to eating them. They don't taste good. And this is not universally good advice. The seeds, leaves, and stem of the pawpaw is filled with toxins—enough that folks have died from it.",
+          "zh": "苹果籽确实含氰化物，正常吃苹果风险不大——但没必要吃，没好处也不好吃。这建议也非普适：番荔枝的籽叶茎有毒，有人因此丧命。"
+        },
+        {
+          "type": "comment",
+          "author": "traceroute66",
+          "en": "You should only ever eat fruit skins if the fruit is organic and the skin is clean. Notably, the distribution of pesticides in the apple peel and pulp layers is visualized through Raman imaging, confirming that the pesticides penetrate the peel layer into the pulp layer (~30 μm depth). Thus, the risk of pesticide ingestion from fruits cannot be avoided by simple washing other than peeling.",
+          "zh": "除非有机且皮干净，否则别乱吃果皮。拉曼成像显示农药会从苹果皮渗进果肉约30微米，光靠洗避不开，得削皮。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49625108",
+      "hn_points": 97,
+      "hn_comments": 206,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "Saudi Arabia risks 4m bpd export loss as Red Sea route repair may take weeks",
+      "title_zh": "沙特日出口400万桶承压：有估修复需五至六周",
+      "publisher": "profit.pakistantoday.com.pk",
+      "article_url": "https://profit.pakistantoday.com.pk/2026/09/13/saudi-arabia-risks-4m-bpd-export-loss-as-key-red-sea-oil-route-remains-shut",
+      "significance_score": 5.8,
+      "summary_zh": "巴基斯坦《Profit》转述行业源：东西向管线若无法尽快复运，日均约400万桶出口承压；一名消息人士估全面修复或需五至六周，另一人认为可更快并边修边部分复输。埃及苏赫纳与西迪基里尔尚有数日缓冲库存，但终需管线恢复。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Profit / Reuters",
+          "en": "One source estimated repairs could take five to six weeks. Another said the pipeline could return sooner and potentially resume partial operations while repair work continues.",
+          "zh": "一名消息人士估计修复可能需要五至六周；另一人则称管线可能更快恢复，并在维修同时部分复输。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "Key symbols we lost to time, pt. 1: The PC side",
+      "title_zh": "被时间吞掉的按键符号（一）：PC侧",
+      "publisher": "unsung.aresluna.org",
+      "article_url": "https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-1-the-pc-side/",
+      "significance_score": null,
+      "summary_zh": "盘点Reverse Tab、Insert等键帽符号变迁；有人纠正Print Screen仍在，也有人解释Shift+Tab与双箭头误读。约80赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "Findecanor",
+          "en": "Reverse Tab ⇤ is still with us, above the Tab ⇥ symbol. It is at the top to indicate that it is generated while holding Shift. Many people have got the misconception that both symbols together is the Tab symbol, though.",
+          "zh": "反向Tab⇤其实还在，印在Tab⇥上方，表示按住Shift时生成。很多人误以为两个符号合在一起才是Tab。"
+        },
+        {
+          "type": "comment",
+          "author": "VCFundedGenYer",
+          "en": "Insert and Print Screen are not gone. Every one of my keyboards (with the exception of Macbooks) has Insert. Meanwhile, Print Screen is very much a staple of Windows and Linux screenshotting. Reverse Tab is kind of still around, just as Shift Tab and Ctrl Tab.",
+          "zh": "Insert和Print Screen没消失。除了MacBook，我每块键盘都有Insert；PrtSc仍是Win/Linux截图主力。反向Tab其实还在，就是Shift/Ctrl+Tab。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49684101",
+      "hn_points": 81,
+      "hn_comments": 26,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "Ukraine drones hit Krasnodar-area refinery as Trump demands diesel pause",
+      "title_zh": "乌克兰称打击克拉斯诺达尔炼厂，与特朗普“停打柴油”同日对撞",
+      "publisher": "pbs.org",
+      "article_url": "https://www.pbs.org/newshour/world/trump-calls-on-ukraine-to-halt-strikes-on-russian-diesel-saying-attacks-are-causing-a-shortage",
+      "significance_score": 5.7,
+      "summary_zh": "PBS/AP：乌克兰国防情报称无人机在周日凌晨打击克拉斯诺达尔边疆区斯拉维扬斯克‑库班炼厂的关键加工单元与罐区；几乎同一时间特朗普在爱尔兰要求泽连斯基停打俄柴油。俄方已因炼厂受损下调产量预期，美柴油仍处历史高位。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "PBS / AP",
+          "en": "Ukraine also claimed to have hit a major oil refinery in Slavyansk-on-Kuban, in Russia's Krasnodar region near Crimea. The Defense Intelligence of Ukraine (DIU) agency said its drones struck a key oil processing unit and the refinery's tank farm overnight into Sunday.",
+          "zh": "乌克兰还宣称打击了克里米亚附近克拉斯诺达尔边疆区斯拉维扬斯克‑库班的大型炼厂。乌国防情报称，无人机在进入周日的夜间打击了关键炼油单元与罐区。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "AgentsDock: An IDE designed for agentic AI research",
+      "title_zh": "AgentsDock：面向智能体研究的IDE",
+      "publisher": "agentsdock.net",
+      "article_url": "https://agentsdock.net/",
+      "significance_score": null,
+      "summary_zh": "两天新项目AgentsDock主打智能体研究IDE；评论推荐带容器/EC2的Mjolnir，并提醒仓库极新。约80赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jbellis",
+          "en": "If you're more of a SWE than a data scientist, check out Mjolnir: https://github.com/BrokkAi/mjolnir/\nBuilt in containerization and EC2 support, allows moving sessions across harnesses/profiles/machines",
+          "zh": "如果你更偏SWE而非数据科学家，看看Mjolnir：内置容器化与EC2，会话可在不同harness/配置/机器间挪移。"
+        },
+        {
+          "type": "comment",
+          "author": "kristopolous",
+          "en": "It's a 2 day old project. https://github.com/ZhengyiLuo/AgentsDock",
+          "zh": "这是个两天大的项目。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49678435",
+      "hn_points": 78,
+      "hn_comments": 32,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}

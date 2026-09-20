@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Iran, Gulf countries to discuss Strait of Hormuz deal without US",
+      "title_zh": "伊朗与海湾拟在阿曼谈霍尔木兹安排，美国不在席",
+      "publisher": "cnn.com",
+      "article_url": "https://www.cnn.com/2026/09/13/politics/iran-gulf-countries-strait-of-hormuz",
+      "significance_score": 6.7,
+      "summary_zh": "CNN：海湾外交官与伊朗官员原定周一讨论阿曼提出的重开霍尔木兹方案，美方不在场；框架或含“自愿缴费”换导航与环保服务。特朗普政府私下称只愿谈核问题，不愿把海峡重开绑进谈判。晚间阿曼外长宣布会议为求共识推迟。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CNN",
+          "en": "Gulf diplomats and Iranian officials will meet Monday to discuss an Omani plan for reopening the Strait of Hormuz to regular tanker traffic, but a critical player won't be at the table: the United States.",
+          "zh": "海湾外交官与伊朗官员原定周一讨论阿曼提出的重开霍尔木兹常规油轮通行方案，但关键一方不在席：美国。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
+      "title_zh": "英特尔8087浮点芯片微码：fscale指令逆向",
+      "publisher": "righto.com",
+      "article_url": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
+      "significance_score": null,
+      "summary_zh": "Ken Shirriff继续解剖8087微码，聚焦scale指令；评论怀念x87与主CPU并行的“非对称多处理器”，也吐槽80位寄存器的怪异。约120赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "garganzol",
+          "en": "100x speed improvement of math operations by 8087 is not an overestimation. The difference for apps relying on math was crazy back then. I experienced this first-hand on my 80286 machine, where it was 3-second vs 300-second calculation results. One neat feature of 8087 instruction set is that it can be interspersed with x86 instructions in the code stream, giving you a simultaneous access to two processor chips working in parallel.",
+          "zh": "8087把数学运算提速100倍绝非夸张。我靠数学的应用在80286上亲历过3秒对300秒。更妙的是8087指令可与x86交错，形成两颗芯片并行的非对称多处理器。"
+        },
+        {
+          "type": "comment",
+          "author": "cogman10",
+          "en": "x87 is such a weird architecture. It was designed the same way you'd design a chip for a scientific calculator. Heck, It's almost a perfect fit for an HP RPN calculator. But for a compiler to target, it's just so painful. There's a reason both CPU and compilers prefer to avoid x87 when possible and use regular SIMD (SSE/AVX) instead.",
+          "zh": "x87架构怪得很，像给科学计算器设计的芯片，几乎完美契合HP的RPN。但对编译器极不友好——CPU和编译器能躲就躲、改用SIMD并非偶然。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49673580",
+      "hn_points": 123,
+      "hn_comments": 46,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "Trump tells Zelenskyy to stop hitting Russian diesel supplies",
+      "title_zh": "特朗普要泽连斯基停打俄柴油：称涨价“不是中东干的”",
+      "publisher": "aljazeera.com",
+      "article_url": "https://www.aljazeera.com/economy/2026/9/13/trump-tells-zelenskyy-to-stop-hitting-russian-diesel-supplies",
+      "significance_score": 6.6,
+      "summary_zh": "特朗普周日在爱尔兰对记者说，泽连斯基“必须停止打掉俄罗斯的柴油”，并坚称美国柴油涨价“不是中东造成的，是俄乌”。IEA月报则把伊战海峡折损与乌克兰打击俄炼厂导致成品油出口近停并列。乌方称炼厂是合法军事目标。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Al Jazeera / Reuters",
+          "en": "Mr. Zelenskyy has to do one thing: he has to stop knocking out diesel fuel in Russia,\" Trump said on Sunday. \"There are plenty of other targets. Don't hit diesel fuel. That's hurting the world.",
+          "zh": "特朗普周日说：“泽连斯基必须做一件事：停止打掉俄罗斯的柴油。其他目标有的是。别打柴油，那是在伤害全世界。”"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "The worst spam emails: iLands AI agent hustle",
+      "title_zh": "最糟垃圾邮件：iLands AI代理推销潮",
+      "publisher": "tedium.co",
+      "article_url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
+      "significance_score": null,
+      "summary_zh": "Tedium盘点iLands式AI代理垃圾邮件：谁在招聘帖留言就来一封“帮你改简历”。站长吐槽LLM糖水吹捧与“帮你事实核查”式骚扰。约120赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "eloisius",
+          "en": "For the last few months I've gotten a handful of emails like this every time I post in the monthly who's hiring thread. It's always these dumb formulaic \"15 years of experience doing $thing, not bad! But your resume doesn't show that. I can help you write a resume that's guaranteed to get a response\".",
+          "zh": "过去几个月，我每次在Who’s Hiring月帖留言都会收到几封这种信。全是公式化：“15年经验不错！但简历没写出来，我能帮你改到保证有回复”。"
+        },
+        {
+          "type": "comment",
+          "author": "DamnInteresting",
+          "en": "Oh man, I run a site that publishes long-form science and history writings, and the iLands agent spam has been relentless the past week or so. All kinds of stupid story pitches couched in syrupy LLM flattery. I even had one email me to say it checked three arbitrary claims in my most recent article, and they all checked out. Thanks? What a waste of everything.",
+          "zh": "我跑长篇科学史站点，过去一周iLands代理垃圾邮件没完没了：糖水LLM吹捧加蠢投稿。还有一封说帮我核查了三处断言都通过——谢了？纯浪费。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49671159",
+      "hn_points": 121,
+      "hn_comments": 55,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "U.S. diesel hits another record above $6.20 as traders brace for Monday",
+      "title_zh": "美国柴油周日再破纪录站上6.20美元，交易商押注周一油价上行",
+      "publisher": "channelnewsasia.com",
+      "article_url": "https://www.channelnewsasia.com/world/attack-strait-hormuz-shipping-oil-6381001",
+      "significance_score": 6.5,
+      "summary_zh": "CNA转述：美国柴油零售均价周日再创历史新高，突破每加仑6.20美元；交易商预计周末霍尔木兹船只遇袭、沙特管线与胡塞推进消息将在周一开盘推高油价。政治敏感的柴油价正直接砸向中期选举前的通胀叙事。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CNA / Reuters",
+          "en": "The politically sensitive retail price of diesel fuel in the United States rose on Sunday to another all-time high above US$6.20 a gallon. Oil traders were expecting prices to rise again when markets reopen on Monday.",
+          "zh": "美国政治敏感的柴油零售价周日再创历史新高，突破每加仑6.20美元。交易商预期市场周一重开后油价将再度上涨。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "Will there be a 7G?",
+      "title_zh": "还会有7G吗？论文追问下一代蜂窝营销名词",
+      "publisher": "arxiv.org",
+      "article_url": "https://arxiv.org/abs/2609.01877",
+      "significance_score": null,
+      "summary_zh": "arXiv论文讨论“7G”是否有必要；评论指出用户体感4G/5G差距有限，G更多是营销词，真正演进看3GPP版本。约120赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "ksec",
+          "en": "It needs to work backwards, much like Video Codec and ask what do the stakeholders really want or need? We are closing in to rolling out the last / final phase of 5G. And yet none of the Massive MIMO on FDD is happening. If you ask an average user, they will tell you they don't feel much different between 4G and 5G.",
+          "zh": "该像视频编解码一样倒推：干系人到底要什么？5G末段都快铺完了，FDD上的Massive MIMO却几乎没落地。问普通用户，4G和5G体感差不多。"
+        },
+        {
+          "type": "comment",
+          "author": "walrus01",
+          "en": "Note that \"G\" generally is a marketing term for consumers, the actual tech is 3GPP rev-whatever. Like 3GPP release 15 or 16 is what we currently know as a lot of in production LTE/LTE-Advanced stuff.",
+          "zh": "注意“G”对消费者多半是营销词，真正技术是3GPP某版——例如Release 15/16对应大量在网LTE/LTE-Advanced。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49674498",
+      "hn_points": 120,
+      "hn_comments": 174,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "Ahead of Fed meeting, Trump says US should have world's lowest interest rate",
+      "title_zh": "美联储议息前，特朗普称美国“应是全球最低利率”",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/ahead-fed-meeting-trump-says-us-should-have-worlds-lowest-interest-rate-2026-09-13/",
+      "significance_score": 6.3,
+      "summary_zh": "特朗普周日在爱尔兰公开赛场地对记者称，无论联储数据如何，美国“都应以全世界最低利率付息”。周五CPI录得四个月最大升幅，强化本周加息预期；NEC主任哈塞特称若加息“总统肯定不会特别高兴”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "No country should have lower interest rates than the U.S., President Donald Trump said on Sunday, days before the Federal Reserve's next policy meeting.",
+          "zh": "特朗普周日表示，不应有任何国家的利率低于美国——此时距美联储下次议息仅数日。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "US Customs supervisor busted for stealing hardware from Homeland Security PCs",
+      "title_zh": "美国海关主管被抓：国土安全电脑里拆CPU内存倒卖",
+      "publisher": "tomshardware.com",
+      "article_url": "https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg",
+      "significance_score": null,
+      "summary_zh": "海关与边境保护主管被控从国土安全电脑拆Core i7、内存与硬盘，换成劣件后在Newegg套现。评论回忆公司偷内存文化与“高价货低价废铜卖”逻辑。约110赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "pushcx",
+          "en": "Many years ago, I arrived to my half-height cubicle at a Fortune 100 company to see that my desktop PC case was ajar. I set the CRT aside, opened it, and realized that the RAM had been removed. My neighbor explained: another employee must have needed to double their RAM from 8 to 16 MB. Requisitioning an upgrade was a weeks-long bureaucratic process; repairing a broken PC was a trivial help desk ticket.",
+          "zh": "多年前我到财富100公司半高隔间，发现机箱开着——内存被人拆了。邻座说：大概谁要把8MB翻成16MB。正式申请升级要走几周审批，报修坏机却是一小时工单。"
+        },
+        {
+          "type": "comment",
+          "author": "muragekibicho",
+          "en": "Selling 105,800$ worth of compute for 39*200=7800$ is similar to theft I've only encountered in the third world. My boiler's copper water supply lines were vandalized for scrap. Their total value was 1540$ but the thief sold the copper for a grand total of 20$.",
+          "zh": "把价值10.58万美元的算力只卖7800，很像我只在第三世界见过的盗窃：我家锅炉铜管被拆卖废铜，总值1540，小偷只卖了20。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49683729",
+      "hn_points": 110,
+      "hn_comments": 96,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "Anthropic selects Nasdaq for potential IPO",
+      "title_zh": "Anthropic选定纳斯达克冲刺IPO，估值传闻逼近2万亿美元",
+      "publisher": "businessinsider.com",
+      "article_url": "https://www.businessinsider.com/anthropic-selects-nasdaq-for-ipo-amid-ai-risk-concerns-2026-9",
+      "significance_score": 6.2,
+      "summary_zh": "Business Insider援引知情人士：Anthropic已选定纳斯达克作为潜在上市交易所，目标窗口指向10月；SpaceX此前亦落纳斯达克。估值有估算至约2万亿美元，公司尚未公开披露财务。消息正值AI灭绝风险舆论升温、Altman称OpenAI暂不宜上市之际。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Business Insider",
+          "en": "Anthropic has selected the Nasdaq for its potential IPO, according to a person familiar with their plans. The company, which has been targeting an October listing, has given Nasdaq another big win.",
+          "zh": "据知情人士，Anthropic已选定纳斯达克作为潜在IPO交易所。该公司一直瞄准10月窗口，这也让纳斯达克再下一城。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "Vintage Scientific Papers with LaTeX",
+      "title_zh": "用LaTeX复刻复古科学论文排版",
+      "publisher": "github.com",
+      "article_url": "https://github.com/Foadsf/vintage-latex",
+      "significance_score": null,
+      "summary_zh": "GitHub项目用LaTeX再现老式科学论文版式与fiziko线稿；有人误以为是把牛顿/居里扫描件移植进TeX。约110赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "3eb7988a1663",
+          "en": "Heh, I read the title and thought this was going to be about someone porting legacy publications into Latex code. Anything from Newton's gravity to Marie Curie radium. Which would be nice - some seminal publications from not all that long ago are only available as terrible quality scans.",
+          "zh": "哈哈，看标题还以为有人要把牛顿万有引力到居里镭之类的旧文献移植进LaTeX。其实也挺需要——不少并不算太古老的开创性论文只剩渣画质扫描件。"
+        },
+        {
+          "type": "comment",
+          "author": "mjmas",
+          "en": "The illustrations use https://github.com/jemmybutton/fiziko to get pretty line rendering.",
+          "zh": "插图用了fiziko项目来做漂亮的线稿渲染。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49629624",
+      "hn_points": 108,
+      "hn_comments": 10,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}
