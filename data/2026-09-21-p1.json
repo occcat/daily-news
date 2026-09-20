@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Trump weighs Iran options; Tehran signals Hormuz leverage",
+      "title_zh": "特朗普权衡对伊选项；德黑兰继续把霍尔木兹当杠杆",
+      "publisher": "iranintl.com",
+      "article_url": "https://www.iranintl.com/en/202609207151",
+      "significance_score": 8.7,
+      "summary_zh": "伊朗国际9月20日：特朗普对福克斯称自己处于“决定模式”，选项包括军事行动、继续经济施压或达成协议，并称“要不要把整个国家炸掉”；同时表示联大期间或愿会见佩泽希齐扬。加利巴夫回应摩根大通“无法再建模终局”报告，称“伊朗的手已在杠杆上”；CENTCOM称截至9月20日已改道109艘商船以执行对伊港口封锁。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Donald Trump / Fox News via Iran International",
+          "en": "My question is, if and when, do I blow the entire nation up? They better behave.",
+          "zh": "我的问题是：要不要、以及何时把整个国家炸掉？他们最好规矩点。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 1
+    },
+    {
+      "title": "Software Sandboxing: The Basics (2025)",
+      "title_zh": "软件沙箱基础（2025）",
+      "publisher": "blog.emilua.org",
+      "article_url": "https://blog.emilua.org/2025/01/12/software-sandboxing-basics/",
+      "significance_score": null,
+      "summary_zh": "Emilua 博客回顾进程级沙箱：从能力继承默认语义、Capsicum 到 Chromium 对比；HN 讨论“新 OS/VM 绝不会再做成默认继承全部能力”，以及在现有内核上落地沙箱的工程成本。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "10000truths",
+          "en": "The need to drop privileges at all is a natural consequence of a process spawning API with inherit-by-default capability semantics. You'd never build a new VM or OS this way if you were designing from scratch today.",
+          "zh": "之所以要“降权”，正是进程生成 API 默认继承全部能力的自然后果。若从零设计新的 VM 或操作系统，你绝不会再做成这样。"
+        },
+        {
+          "type": "comment",
+          "author": "brynet",
+          "en": "At that time, its researchers have modified Chromium to make use of Capsicum and compared how much effort was required to make use of each sandboxing mechanism within Chromium.",
+          "zh": "当时研究者改了 Chromium 去接 Capsicum，并对比了在 Chromium 内接入各类沙箱机制分别需要多少工作量。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49778670",
+      "hn_points": 50,
+      "hn_comments": 6,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 2
+    },
+    {
+      "title": "US Redirects 109 Ships Near Strait of Hormuz Amid Iran Blockade",
+      "title_zh": "CENTCOM：霍尔木兹附近已改道109艘商船以执行对伊封锁",
+      "publisher": "newkerala.com",
+      "article_url": "https://www.newkerala.com/news/a/us-forces-redirect-109-commercial-vessels-near-strait-266.htm",
+      "significance_score": 8.4,
+      "summary_zh": "New Kerala/ANI 9月21日援引CENTCOM：截至9月20日美军已改道109艘商船，确保对进出伊朗港口交通的封锁合规；路透称9月17日霍尔木兹仅4艘商品船过境，远低于十日均值16艘。同日特朗普警告或采取“重大行动”，礼萨伊称七项条件已由卡塔尔转交华盛顿。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CENTCOM / New Kerala",
+          "en": "As of Sept. 20, CENTCOM forces have redirected 109 commercial vessels to ensure total compliance.",
+          "zh": "截至9月20日，CENTCOM部队已改道109艘商船，以确保完全合规。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 3
+    },
+    {
+      "title": "Custom home server built from spare parts",
+      "title_zh": "用闲置零件自组家用服务器",
+      "publisher": "asmat.ca",
+      "article_url": "https://asmat.ca/blog/i-went-bananas/",
+      "significance_score": null,
+      "summary_zh": "作者用闲置硬件搭家用机与 NAS，跑 Kubuntu 24.04 + ZFS；评论区讨论“直接用普通 Debian 加包就够了”，以及对直流电源可靠性与故障模式的好奇。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "drnick1",
+          "en": "So the NAS runs Kubuntu 24.04 with ZFS. My experience is similar. I no longer use dedicated NAS, firewall, or other exotic distributions. I run plain Debian, and add what I need.",
+          "zh": "所以 NAS 跑的是 Kubuntu 24.04 + ZFS。我的经验类似：我不再用专用 NAS/防火墙发行版，直接跑普通 Debian，需要什么再装。"
+        },
+        {
+          "type": "comment",
+          "author": "MayeulC",
+          "en": "I am most interested in that DC power supply. I bought a similar one recently (rgeek brand on aliexpress), but haven't yet dared to connect it yet. I'm wondering what the failure modes are.",
+          "zh": "我最关心那台直流电源。最近也在阿里买了类似的，但还没敢接上——想搞清楚失效模式是什么。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49776960",
+      "hn_points": 48,
+      "hn_comments": 22,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 4
+    },
+    {
+      "title": "Iran and US trade threats after Houthi attacks escalate regional conflict",
+      "title_zh": "胡塞袭利雅得后美伊互放狠话：谈与打同时升温",
+      "publisher": "al-monitor.com",
+      "article_url": "https://www.al-monitor.com/originals/2026/09/iran-and-us-trade-threats-after-houthi-attacks-escalate-regional-conflict",
+      "significance_score": 8.5,
+      "summary_zh": "Al Monitor/路透9月20日：特朗普称伊朗要么成交、要么经济腐烂、要么领导层被消灭，并称或愿在联大会见佩泽希齐扬；伊军中央指挥部称任何新攻击将引发对美军基地与利益的持续报复，地区盟友将被视作战方。霍尔木兹与曼德海峡双掐下，海湾能源出口几乎与全球市场隔断。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters / Al-Monitor",
+          "en": "Iran reiterated on Sunday that it would not reopen the Strait of Hormuz until the terms of that June agreement, as it interpreted them, were met.",
+          "zh": "伊朗周日重申：在其解读的六月协议条款得到满足之前，不会重开霍尔木兹海峡。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 5
+    },
+    {
+      "title": "Faster NumPy in the Browser",
+      "title_zh": "浏览器里更快的 NumPy",
+      "publisher": "notebook.link",
+      "article_url": "https://notebook.link/blog/the-last-mile-faster-numpy/",
+      "significance_score": null,
+      "summary_zh": "Notebook.link 谈 WASM 路径上把 NumPy/数值栈推到“最后一英里”；评论追问与其维护 Fortran/BLAS，是否该用 AI 重写，并欢呼 WASM SIMD 终于可用。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "miohtama",
+          "en": "Wouldn't AI rewrite of these legacy Fortran packages like BLAS be easier at this point than trying to keep Fortran alive?",
+          "zh": "到了现在，用 AI 重写 BLAS 这类遗留 Fortran 包，是不是比硬撑着让 Fortran 活下去更容易？"
+        },
+        {
+          "type": "comment",
+          "author": "sharktheone",
+          "en": "Very cool too see. So happy we actually have SIMD in WASM.",
+          "zh": "很酷。很高兴我们终于在 WASM 里真正有了 SIMD。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49737326",
+      "hn_points": 47,
+      "hn_comments": 7,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 6
+    },
+    {
+      "title": "Iran sets terms for US talks as Houthis step up attacks on Saudi Arabia",
+      "title_zh": "伊朗开出谈判条件清单之际，胡塞加大对沙特打击",
+      "publisher": "hellenicshippingnews.com",
+      "article_url": "https://www.hellenicshippingnews.com/iran-sets-terms-for-us-talks-as-houthis-step-up-attacks-on-saudi-arabia/",
+      "significance_score": 8.2,
+      "summary_zh": "Hellenic Shipping News/Investing.com 9月21日：礼萨伊称七项条件经卡塔尔送达华盛顿，须在谈判开始前落实；沙特主导联军称拦截射向利雅得的弹道导弹并挫败针对比什、塔伊夫、法拉桑与延布的袭击，胡塞则宣称以弹道/巡航导弹与无人机打击沙特敏感目标及延布阿美设施。国务院警告九国美国人慎行。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Mohsen Rezaei / Hellenic Shipping News",
+          "en": "We remain in contact with the mediator Qatar, which has conveyed our conditions to Washington with the aim of ending the war.",
+          "zh": "我们仍与调解方卡塔尔保持联系，它已将我们的条件转交华盛顿，旨在结束战争。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 7
+    },
+    {
+      "title": "FreeBSD on Aoostar WTR Pro NAS",
+      "title_zh": "在 Aoostar WTR Pro NAS 上跑 FreeBSD",
+      "publisher": "tumfatig.net",
+      "article_url": "https://www.tumfatig.net/2026/overview-of-aoostar-wtr-pro-on-bsd/",
+      "significance_score": null,
+      "summary_zh": "Tumfatig 概述在 Aoostar WTR Pro 上装 FreeBSD 的体验；评论提到加载 AMD GPU 驱动可降功耗，并吐槽“自装系统总会撞上功耗/驱动坑”。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jonhohle",
+          "en": "In the FreeBSD section he mentions loading the AMD GPU drivers lower the power. I have less experience with AMD GPUs, but with Nvidia cards on FreeBSD I've had to load drivers.",
+          "zh": "他在 FreeBSD 段提到加载 AMD GPU 驱动能降功耗。我对 AMD GPU 经验较少，但在 FreeBSD 上用 Nvidia 卡时也必须加载驱动。"
+        },
+        {
+          "type": "comment",
+          "author": "daymanstep",
+          "en": "These NAS machines always have great price and good specs but when you try to actually run your own OS instead of their OS you'll always find various issues like power consumption.",
+          "zh": "这类 NAS 机器价格和规格往往很香，但一旦不用原厂系统、改跑自己的 OS，总会撞上功耗等各种问题。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49765798",
+      "hn_points": 47,
+      "hn_comments": 5,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 8
+    },
+    {
+      "title": "Ukraine's Zelenskiy says he and Trump agree to meet in New York",
+      "title_zh": "泽连斯基：已与特朗普约定纽约会面，称或“改变很多”",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/us/ukraines-zelenskiy-says-he-trump-agree-meet-new-york-2026-09-20/",
+      "significance_score": 8.0,
+      "summary_zh": "路透9月20日：泽连斯基称刚与特朗普通话并约定在纽约会面，“这次会面可能改变很多。存在外交动能”；感谢威特科夫与库什纳访基辅，称和平轨道是第一优先，并谈到降级步骤与能源、粮食、生命安全。海峡时报称熟悉情况人士预计会面在9月22日。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Volodymyr Zelenskiy / Reuters",
+          "en": "We agreed to meet in New York, and this meeting could change a lot. There is diplomatic momentum.",
+          "zh": "我们约定在纽约会面，这次会面可能改变很多。存在外交动能。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 9
+    },
+    {
+      "title": "A Model for Winning Survivor",
+      "title_zh": "一个“赢下幸存者”的模型",
+      "publisher": "victoriaritvo.com",
+      "article_url": "https://victoriaritvo.com/blog/predicting-survivor/",
+      "significance_score": null,
+      "summary_zh": "Victoria Ritvo 用模型与预测市场思路拆解《幸存者》；评论提醒“赛季进行中的预测市场信息并不对称”，并对 Kalshi 上 3270 万美元成交量感到困惑。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jihadjihad",
+          "en": "I loved using it while watching Season 50, and it identified several interesting threads early on. The ideas in TFA are interesting, but it's important to keep in mind that when we watch, information is not symmetric.",
+          "zh": "我边看第50季边用它，早期就抓到几条有趣线索。文中想法很有意思，但要记住观看时信息不对称。"
+        },
+        {
+          "type": "comment",
+          "author": "NitpickLawyer",
+          "en": "By the finale, Kalshi's \"Survivor\" market had reached a volume of $32.7 million. I don't get this. How are people betting on something that is known information for other people?",
+          "zh": "到决赛，Kalshi 上《幸存者》市场成交量到了 3270 万美元。我不懂：别人已知的信息，大家怎么还在赌？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49757493",
+      "hn_points": 46,
+      "hn_comments": 24,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 10
+    }
+  ]
+}

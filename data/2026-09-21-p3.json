@@ -1,0 +1,268 @@
+{
+  "items": [
+    {
+      "title": "Fuel prices hiked by Tk20 per litre",
+      "title_zh": "孟加拉国柴油汽油每升上调20塔卡，21日起生效",
+      "publisher": "tbsnews.net",
+      "article_url": "https://www.tbsnews.net/economy/energy/fuel-prices-hiked-tk20-litre-1548591",
+      "significance_score": 6.6,
+      "summary_zh": "The Business Standard 9月20日：孟加拉国能源矿业资源司公报，柴油、辛烷、汽油、煤油各上调20塔卡/升，21日起生效；柴油升至135、汽油160、辛烷165、煤油155。政府称因中东战事推高国际油价；这是BNP政府二月执政后第二次调价。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Business Standard",
+          "en": "The government has increased the retail prices of diesel, octane, petrol, and kerosene by Tk20 per litre, with the revised rates set to take effect from tomorrow (21 September).",
+          "zh": "政府已将柴油、辛烷、汽油与煤油零售价每升上调20塔卡，调整后价格自明日（9月21日）起生效。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "Bill to Ban Private Equity from Owning Medical Practices",
+      "title_zh": "禁止私募股权拥有医疗机构的法案",
+      "publisher": "truthout.org",
+      "article_url": "https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/",
+      "significance_score": null,
+      "summary_zh": "Truthout 报道沃伦等人推动限制私募股权收购诊所/医院；唯一高赞评论请人“钢人论证”：对非投资者而言，PE 进医疗的好处到底是什么。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "NegativeK",
+          "en": "Can someone steelman private equity, please? I'm honestly looking for the upsides (for non-investors) of when PE moves into an industry like medicine and begins buying up businesses.",
+          "zh": "谁能帮私募股权钢人论证一下？我真心想找：当 PE 进入医疗这类行业并开始收购企业时，对非投资者的好处到底是什么。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49780630",
+      "hn_points": 23,
+      "hn_comments": 3,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "Houthis consolidate chokepoint control",
+      "title_zh": "双海峡挤压：胡塞巩固曼德海峡，东向管线再受打击",
+      "publisher": "navalinstitute.com.au",
+      "article_url": "https://navalinstitute.com.au/houthis-consolidate-chokepoint-control/",
+      "significance_score": 7.6,
+      "summary_zh": "澳大利亚海军研究所评论：霍尔木兹自三月实质受限后，海湾原油曾改走东向管线至延布出红海，曼德海峡流量一度升至逾700万桶/日；如今东向管线再遭打击、八月至九月估不足500万桶/日，两处瓶颈已联动。作者称多源指沙特求助美方暂被拒，若要看升级需观察美航母是否西进。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Australian Naval Institute",
+          "en": "The two chokepoints are no longer separate problems. Squeeze one and traffic shifts to the other, where it can be squeezed again.",
+          "zh": "这两处瓶颈已不再是分开的问题。挤压一处，流量就转到另一处，再被挤压。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "Autonomous strike drone uses Nvidia Jetson Orin Nano to pick and bomb targets",
+      "title_zh": "自主打击无人机用 Nvidia Jetson Orin Nano 选目标投弹",
+      "publisher": "tomshardware.com",
+      "article_url": "https://www.tomshardware.com/tech-industry/drones/autonomous-strike-drone-uses-nvidia-jetson-orin-nano-to-independently-pick-and-bomb-targets-swedish-startups-attack-drones-run-small-ai-model-require-no-human-input-and-zero-external-comms",
+      "significance_score": null,
+      "summary_zh": "Tom's Hardware 报道搭载 Jetson Orin Nano 的自主打击无人机演示；评论用“折磨联结体”梗，并指出俄罗斯武器系统也在用同款芯片。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "karmakurtisaani",
+          "en": "Just as it was foretold, the Torment Nexus is coming and it has some really cool tech in it.",
+          "zh": "正如预言：折磨联结体来了，而且里面还塞了挺酷的技术。"
+        },
+        {
+          "type": "comment",
+          "author": "nujabe",
+          "en": "Seems like a popular chip to use in weapon systems, Russia is also using it.",
+          "zh": "看起来这是武器系统里挺流行的芯片，俄罗斯也在用。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49777694",
+      "hn_points": 21,
+      "hn_comments": 7,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "Saudi oil pipeline hit in strikes will be mostly out of service for several weeks",
+      "title_zh": "官员：遭袭沙特东向油管将有数周基本停运",
+      "publisher": "pbs.org",
+      "article_url": "https://www.pbs.org/newshour/world/saudi-oil-pipeline-hit-in-strikes-will-be-mostly-out-of-service-for-several-weeks",
+      "significance_score": 7.4,
+      "summary_zh": "PBS/美联社：两名地区官员称上周遭袭的沙特东向油管修复或需三至五周，含主要泵站；其间或可部分运行。该管线设计能力可达约700万桶/日，是霍尔木兹受阻时把东部原油送往红海延布出口的关键通道。胡塞同期加强红海施压，叠加海湾出口瓶颈。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "AP via PBS NewsHour",
+          "en": "A crucial Saudi oil pipeline that was struck in an attack last week will mostly be out of service for weeks as the damage is repaired, two regional officials told The Associated Press.",
+          "zh": "两名地区官员告诉美联社：上周遭袭的一条关键沙特油管在修复期间将有数周基本停运。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "Show HN: A competition for small neural networks that play strategy games",
+      "title_zh": "Show HN：让小神经网络打策略游戏的竞赛",
+      "publisher": "tinybrains.dev",
+      "article_url": "https://tinybrains.dev",
+      "significance_score": null,
+      "summary_zh": "Tinybrains.dev 办小模型策略游戏竞赛；有人回忆 2011 Google Ants AI Challenge，有人追问目标网络到底有多小。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "codetiger",
+          "en": "15yrs back I participated in \"Google Ants AI Challenge 2011\", an ai programming competition, hosted by the University of Waterloo, and I ranked #127 (#1 in my country).",
+          "zh": "15年前我参加过滑铁卢大学主办的 Google Ants AI Challenge 2011，排到第127（本国第一）。"
+        },
+        {
+          "type": "comment",
+          "author": "adityamishra241",
+          "en": "This looks fun. How small are the networks you're aiming for?",
+          "zh": "看起来好玩。你们目标网络有多小？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49776523",
+      "hn_points": 15,
+      "hn_comments": 3,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "Iran FM Araghchi heads to NYC for UNGA as Trump floats Pezeshkian meeting",
+      "title_zh": "阿拉格齐赴纽约联大；特朗普放风或见佩泽希齐扬",
+      "publisher": "timesofindia.indiatimes.com",
+      "article_url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-live-updates-trump-iran-talks-strait-of-hormuz-crude-oil-middle-east-tension-latest-news/liveblog/134374650.cms",
+      "significance_score": 7.5,
+      "summary_zh": "印度时报9月21日滚动：伊朗外长阿拉格齐前往纽约出席联大；特朗普一面放话“重大事情”将至，一面称联大期间或愿与佩泽希齐扬会面。霍尔木兹与胡塞侧同时升温，美方对沙使团活动范围亦现收紧报道。外交窗口与军事威胁在同一周并列。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Masoud Pezeshkian / via Iran International & TOI track",
+          "en": "We do not want war and conflict and consider them harmful not only to the people of our country but to the world. At the same time, we will in no way yield to force and bullying.",
+          "zh": "我们不要战争与冲突，认为其对我们国家人民乃至世界有害。与此同时，我们绝不会向武力与霸凌屈服。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "Mathematical Billiards (2024)",
+      "title_zh": "数学台球（2024）",
+      "publisher": "structures.uni-heidelberg.de",
+      "article_url": "https://structures.uni-heidelberg.de/blog/posts/2024_01_costa/index.php",
+      "significance_score": null,
+      "summary_zh": "海德堡结构博客的数学台球介绍再度上榜；评论怀疑是因 2swap 新视频，并补充算术台球可演示 LCM/GCD、曲面反射的焦散之美。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "seritools",
+          "en": "I assume posted because of the latest 2swap video about it: https://www.youtube.com/watch?v=kL9BTbIGxLg",
+          "zh": "我猜是因为 2swap 最新那支相关视频才被顶上来。"
+        },
+        {
+          "type": "comment",
+          "author": "srean",
+          "en": "They are a fun way to demonstrate LCM and GCD too. With curved reflecting boundaries and parallel rays you get the beauty of caustics.",
+          "zh": "它们也是演示 LCM 与 GCD 的有趣方式。曲面反射边界加平行光线，还能看到焦散的美。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49775802",
+      "hn_points": 15,
+      "hn_comments": 3,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "Far-left party wins Berlin election, pledging to nationalise housing",
+      "title_zh": "柏林州选：极左胜选承诺住房国有化，默茨联盟再受挫",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/far-left-party-wins-berlin-election-pledging-nationalise-housing-2026-09-20/",
+      "significance_score": 6.9,
+      "summary_zh": "路透9月20日：极左翼左翼党在柏林州选举中获胜，政纲含住房国有化承诺；报道称这标志着总理弗里德里希·默茨执政联盟再遭挫败，同时极右翼在东部的推进仍笼罩德国政局。联大周欧洲侧的这条地方选举结果，对照的是能源通胀与战争疲劳的国内政治。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "The far-left Left Party's victory in the Berlin state election on Sunday was overshadowed by the continuing advance of the far-right in eastern Germany but it marked another defeat for Chancellor Friedrich Merz's ruling coalition.",
+          "zh": "周日极左翼左翼党在柏林州选的胜利被东部极右翼持续推进的阴影笼罩，但这仍标志着总理弗里德里希·默茨执政联盟的又一次挫败。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "Andrew Ng: AI Extinction Fears Are 'Science Fiction'",
+      "title_zh": "吴恩达：AI 灭绝恐惧是“科幻”",
+      "publisher": "youtube.com",
+      "article_url": "https://www.youtube.com/watch?v=KnckQp-c388",
+      "significance_score": null,
+      "summary_zh": "吴恩达在视频访谈中称 AI 灭绝论偏科幻；HN 评论反驳“很多东西曾经都是科幻”，并链到相关讨论串。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "wan23",
+          "en": "Lots of things were science fiction before they were science fact.",
+          "zh": "很多东西在成为科学事实之前，都曾是科幻。"
+        },
+        {
+          "type": "comment",
+          "author": "Betelbuddy",
+          "en": "https://news.ycombinator.com/item?id=49778341",
+          "zh": "（链到相关 HN 讨论串）"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49778367",
+      "hn_points": 14,
+      "hn_comments": 2,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}

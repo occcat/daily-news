@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Trump eyes busy week of meetings as UN General Assembly gathers",
+      "title_zh": "联大周：特朗普将晤泽连斯基、伯纳姆、高市早苗与海合会",
+      "publisher": "straitstimes.com",
+      "article_url": "https://www.straitstimes.com/asia/trump-eyes-busy-week-of-meetings-as-un-general-assembly-gathers",
+      "significance_score": 7.9,
+      "summary_zh": "海峡时报9月21日：特朗普预计21日下午抵纽约、晚间川普大厦活动，22日上午联大演讲；将晤英国首相安迪·伯纳姆、日本首相高市早苗、海合会领导人，并首次当面见委内瑞拉临时总统德尔西·罗德里格斯；21日还将在格雷西大厦会见纽约市长马姆达尼。沃尔特兹称演讲将强调“伊朗永不得核武”。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Mike Waltz / Straits Times",
+          "en": "The president will highlight how he has and his administration have confronted complex problems head-on around the world. He will touch on the importance of ensuring that Iran never has a nuclear weapon.",
+          "zh": "总统将强调他与政府如何正面应对全球复杂问题。他会谈到确保伊朗永不得核武的重要性。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "The Effect of CRTs on Pixel Art",
+      "title_zh": "CRT 对像素画的影响",
+      "publisher": "datagubbe.se",
+      "article_url": "https://datagubbe.se/crt/",
+      "significance_score": null,
+      "summary_zh": "Datagubbe 讨论 CRT 扫描线与像素艺术的关系；评论主张现代像素画是为高 DPI LED 而生的独立审美，并吐槽多数游戏 CRT 滤镜过重，唯独夸 Cyber Shadow。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "fasterik",
+          "en": "I like to think of modern pixel art as its own aesthetic and art form. It's designed to be viewed on high DPI LED screens, and that's fine. I don't think it should be judged by how it looked on CRTs.",
+          "zh": "我更愿意把现代像素画看成独立审美与艺术形式。它本就是为高 DPI LED 屏设计的，不应再用 CRT 观感来评判。"
+        },
+        {
+          "type": "comment",
+          "author": "TulliusCicero",
+          "en": "Related, I usually hate CRT filters in game, the scan lines usually look too strong (and often the image is darkened inappropriately), but I really liked the one in Cyber Shadow.",
+          "zh": "相关地，我通常讨厌游戏里的 CRT 滤镜——扫描线太重、画面还常被不当地压暗——但我很喜欢 Cyber Shadow 里的那一版。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49768336",
+      "hn_points": 42,
+      "hn_comments": 11,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "World leaders return to UN amid wars in Middle East and Ukraine",
+      "title_zh": "联大开幕：习跳过纽约改赴华府会特朗普，AI成议程",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/china/world-leaders-return-un-amid-wars-middle-east-ukraine-2026-09-20/",
+      "significance_score": 8.1,
+      "summary_zh": "路透9月20日：近130位国家元首齐聚纽约；习近平将跳过联大改周四在华盛顿与特朗普一对一会谈。古特雷斯称AI将成重大议题并吁设共同护栏，特朗普则斥AI风险论为“骗局”。佩泽希齐扬周三演讲、内塔尼亚胡周四演讲；阿巴斯再被拒签、联大已表决允许其视频出席。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Antonio Guterres / Reuters",
+          "en": "common guardrails in order to avoid this race to the bottom that could lead one day to a gigantic disaster at the global level.",
+          "zh": "（需要）共同护栏，以免这场逐底竞赛有朝一日酿成全球级巨大灾难。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "So I have a weatherman, which also tells me the news",
+      "title_zh": "我有个天气预报员，顺带播新闻",
+      "publisher": "dexteroot.net",
+      "article_url": "https://dexteroot.net/posts/2026/07/so-i-have-a-weatherman-which-also-tells-me-the-news-part-1/",
+      "significance_score": null,
+      "summary_zh": "Dexteroot 自制会播报天气与新闻的装置；评论关心工期，并警告室内湿度 82% 过高有霉菌风险，建议把 DHT 换成 Sensirion SHT40/41。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "schiffern",
+          "en": "Cool! How long did the project take, would you say? BTW 82% indoor humidity is really high; usually over 60% humidity and you risk mold and mildew growth in localized moisture hotspots.",
+          "zh": "酷！这个项目大概花了多久？另外室内湿度 82% 真的很高；通常超过 60% 就有局部霉菌风险。"
+        },
+        {
+          "type": "comment",
+          "author": "otherme123",
+          "en": "If you are going to build this, if possible switch the DHT for a Sensirion SHT40, 41 or a similar one. They are way better.",
+          "zh": "如果你要自己做，尽量把 DHT 换成 Sensirion SHT40/41 或同类——好太多了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49766671",
+      "hn_points": 34,
+      "hn_comments": 6,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "AI dominance, tariffs, Middle East: Washington braces for 'diplomatic super week'",
+      "title_zh": "华盛顿“外交超级周”：习特会盯AI、釜山关税休战与中东",
+      "publisher": "biz.heraldcorp.com",
+      "article_url": "https://biz.heraldcorp.com/article/10879386",
+      "significance_score": 7.8,
+      "summary_zh": "韩国先驱报9月20日：美方称习特华盛顿峰会将把AI与“釜山休战”框架置于议程顶端；特朗普拟周三亲赴安德鲁斯基地接机，周四白宫欢迎仪式与国宴，黄仁勋、奥特曼、库克、马斯克、贝索斯、戴尔等科技CEO受邀。联大侧则排英国、日本、海合会与伊朗战争相关磋商。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Herald Business",
+          "en": "Trump plans to travel personally to Joint Base Andrews near Washington to greet Xi on the tarmac on Wednesday, the day Xi arrives for his US visit.",
+          "zh": "特朗普计划周三亲自前往华盛顿附近的安德鲁斯联合基地，在停机坪迎接抵达访美的习近平。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "Go-based Robotics Framework built around NATS.io",
+      "title_zh": "围绕 NATS.io 的 Go 机器人框架",
+      "publisher": "github.com",
+      "article_url": "https://github.com/emergingrobotics/gorai",
+      "significance_score": null,
+      "summary_zh": "Emerging Robotics 开源基于 Go 与 NATS 的机器人框架 Gorai；评论嫌 README 过长，并吐槽“Claude 写的说明需要人类再过一遍去虚词”。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "13415",
+          "en": "IMHO the Readme is too verbose, it contains a lot of information that should be somewhere else than a landing page.",
+          "zh": "依我看 README 太啰嗦了，很多信息不该堆在落地页。"
+        },
+        {
+          "type": "comment",
+          "author": "luckydata",
+          "en": "the readme written by Claude is annoying. At least it explains what the project does but imho the writing needs a healthy human pass to remove all the bullshit phrasing.",
+          "zh": "Claude 写的 README 很烦人。至少解释了项目做什么，但写法需要人类好好过一遍，去掉那些虚夸措辞。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49742642",
+      "hn_points": 32,
+      "hn_comments": 5,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "France vows response after Iran closes language centre in Tehran",
+      "title_zh": "伊朗查封德黑兰法语中心，法国外交部称将召见大使反制",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/middle-east/france-vows-response-after-iran-closes-language-centre-tehran-2026-09-20/",
+      "significance_score": 7.2,
+      "summary_zh": "路透9月20日：伊朗依德黑兰检察官命令查封隶属法国使馆的法语语言中心，指其无证运营并从事危害文化与国家安全活动；法国外交部发言人称继七月两名馆员遇袭后“不可接受”，将召见伊朗大使并采取适当措施。阿拉格齐与巴罗预计周二联大场边会面。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Pascal Confavreux / French Foreign Ministry",
+          "en": "This new attack against France's cultural presence in Iran, following the assault on two staff members of the French embassy last July, is unjustifiable and unacceptable.",
+          "zh": "继今年七月法国使馆两名工作人员遇袭之后，这次对法国在伊朗文化存在的新攻击既无理亦不可接受。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "Arrow heads at Obi-Rakhmat (Uzbekistan) 80K years ago?",
+      "title_zh": "乌兹别克斯坦 Obi-Rakhmat：8万年前的箭头？",
+      "publisher": "journals.plos.org",
+      "article_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0328390",
+      "significance_score": null,
+      "summary_zh": "PLOS One 论文讨论中亚遗址石器是否可能是箭头，时间点或比预期早约 2.5 万年；评论概括“太小而不能当矛头的刃装在杆上”，并吐槽实验用现代复合弓射完整尸体的方法学细节。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "dr_dshiv",
+          "en": "Short story: stones were used to make \"arrow-heads\" (blades on sticks too small for spears) 25k years earlier than expected.",
+          "zh": "一句话：用石头做“箭头”（装在杆上、小到不像矛头的刃）的时间，可能比预期早约 2.5 万年。"
+        },
+        {
+          "type": "comment",
+          "author": "khalic",
+          "en": "being shot with a modern laminated bow (36 lbs) on a complete uneviscerated carcass of a small ungulate hung in anatomical position in order to start documenting impact breakage",
+          "zh": "用现代层压弓（36磅）射击悬挂成解剖姿势、未经开膛的小型有蹄类完整尸体，以便开始记录撞击断裂。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49756319",
+      "hn_points": 31,
+      "hn_comments": 8,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "Iran warns US and its allies against new attack, threatens retaliation",
+      "title_zh": "伊朗警告美及其盟友勿发动新攻击，扬言持续报复",
+      "publisher": "timesofindia.indiatimes.com",
+      "article_url": "https://timesofindia.indiatimes.com/world/middle-east/iran-warns-us-allies-against-new-attack-threatens-retaliation/articleshow/134374995.cms",
+      "significance_score": 8.3,
+      "summary_zh": "印度时报9月21日：伊朗军方中央指挥部周日警告，美及其盟友任何重大新攻击将触发对美军基地与利益的持续报复，地区盟友将被视作战方；并称掌握有关准备中的行动情报。特朗普同日警告伊朗若不达成协议将面临严重后果，并称“非常大的事情”可能发生。警告正值胡塞宣称打击利雅得与延布之际。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Iran military central command / Times of India",
+          "en": "any new attack would be met with retaliation against US bases and interests, while Washington's regional allies would be considered parties to the conflict.",
+          "zh": "任何新攻击都将遭到对美军基地与利益的报复，同时华盛顿的地区盟友将被视作冲突当事方。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "I stopped drinking the AI Kool-Aid",
+      "title_zh": "我不再喝 AI 的迷魂汤",
+      "publisher": "joshtronic.com",
+      "article_url": "https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid/",
+      "significance_score": null,
+      "summary_zh": "Joshtronic 写退出 AI 狂热的心路；评论引用“你不愿写我就不愿读”来嘲讽代理互发邮件，并称这是少见写得舒服的反 AI 随笔。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "variety8675",
+          "en": "Using AI agents to email each other is just a reflection of \"If you're not going to bother to write it, I'm not going to read it\"",
+          "zh": "让 AI 代理互相发邮件，不过是在复述那句：“你都不肯认真写，我凭什么认真读。”"
+        },
+        {
+          "type": "comment",
+          "author": "cpoile",
+          "en": "One of the nicer blogs I've read on the subject, thanks Josh.",
+          "zh": "这是我读过的、写得比较舒服的一篇同题博客，谢谢 Josh。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49780162",
+      "hn_points": 27,
+      "hn_comments": 16,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}
