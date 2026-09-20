@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "BOJ hikes at fastest pace since 1990 after Fed move, Bessent pressure",
+      "title_zh": "日银加息至1.25%：节奏为约三十六年来最快",
+      "publisher": "bloomberg.com",
+      "article_url": "https://www.bloomberg.com/news/articles/2026-09-18/boj-hikes-rates-at-fastest-pace-since-1990-as-inflation-persists",
+      "significance_score": 7.1,
+      "summary_zh": "彭博：日本央行结束为期两日会议，将政策利率上调25个基点至1.25%，约三十一年来高位，表决7–2；背景是油价、日元贬值与中东扰动推升通胀，以及华盛顿对进一步正常化的公开施压。对亚洲而言，这是美联储周三加息后的下一只靴子。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Bloomberg",
+          "en": "The Bank of Japan raised its benchmark interest rate, ramping up the pace of hikes to the fastest in 36 years as it confronts mounting inflation risks and unusually explicit calls for further policy normalization from Washington.",
+          "zh": "日本央行上调基准利率，把加息节奏提高到三十六年来最快，以应对通胀风险上升以及华盛顿对进一步政策正常化异常明确的呼声。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "Compiler-style optimization for drawing via Skia",
+      "title_zh": "用编译器思路优化 Skia 绘图",
+      "publisher": "arxiv.org",
+      "article_url": "https://arxiv.org/abs/2603.23696",
+      "significance_score": null,
+      "summary_zh": "论文提出对 Skia 绘制做类似编译器的优化；前 Skia 贡献者表示这正是当年写 SkRecord 时设想的方向，并高兴 nanobench 被用上。逾130赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "eigenblake",
+          "en": "Wow! This is exciting. I have speculated that this would be possible. Since I've been learning about databases and dynamic db query optimization, it struck me as surprising that we didn't have similar things for more of our computational universe. Now that this is here, it makes me wonder what else we can optimize in using the same high level techniques. The more you know about what you want to do ahead of time, the more optimally you can reorder your sequence of steps to give a better-than-naive solution. It makes me think about all software in terms of these abstract computation graphs and makes me wonder what else we can optimize automatically. Of course, we do absolutely do need a formal model here, so we know what edits are possible, the same way db engines have relational algebra as their backing model. But this whole thing makes me feel like manual software optimization is soon to fall to AI. And I'm thinking that includes good-old-fashion AI first, not second, to LLM's. But I'm sure LLMs would be useful here too, especially for the formalization.",
+          "zh": "哇，这很让人兴奋。我一直猜测可以这样做。学数据库与动态查询优化时就奇怪：计算宇宙里为何少有类似东西。现在它来了，让我更想知道还能在哪些地方优化。"
+        },
+        {
+          "type": "comment",
+          "author": "mtklein",
+          "en": "As a former Skia contrib, this is cool as heck to read. It's exactly the sort of optimization work we had in mind when we wrote that SkRecord system, and I'm pleased that you were able to make use of nanobench. Back in those days we had just a few small optimizations that we could apply, mostly trying to eliminate unnecessary saveLayer() calls. Very cool to see it done in a modern way with Lean.",
+          "zh": "作为前 Skia 贡献者，读起来酷毙了。这正是我们写 SkRecord 时心里想的那类优化，也很高兴你们用上了 nanobench。那时候我们只有少数小优化，多半试图消掉不必要的……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49743934",
+      "hn_points": 132,
+      "hn_comments": 25,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "Oil prices fall on hopes of limited supply disruptions as Saudi-Houthi strikes continue",
+      "title_zh": "油价连跌：替代供应预期对冲沙特—胡塞交火",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/energy/oil-prices-fall-1-hopes-limited-supply-disruptions-2026-09-18/",
+      "significance_score": 7.0,
+      "summary_zh": "路透：油价约跌1%、连续第三日收低但仍在100美元上方，因市场押注中东桶油仍有替代出路，盖过沙特与胡塞周四边境再交火的担忧。阿曼船对船与霍尔木兹内出口增量预期缓和部分恐慌；三座泵站受损与柴油纪录则限制下行空间。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Oil prices fell about 1%, extending losses for a third session, but stayed above $100... as hopes of alternate ways for barrels from the Middle East to reach markets outweighed concerns about strikes between Saudi Arabia and Yemen's Houthis.",
+          "zh": "油价下跌约1%，连续第三个交易日收低，但仍守在100美元上方……因市场寄望中东原油仍有替代外运路径，盖过了对沙特与也门胡塞交火的担忧。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "Step 5 Preview: Advancing the Pareto Frontier",
+      "title_zh": "Step 5 Preview：推进帕累托前沿",
+      "publisher": "stepfun.com",
+      "article_url": "https://www.stepfun.com/step-5-preview",
+      "significance_score": null,
+      "summary_zh": "阶跃星辰发布 Step 5 Preview（MoE 约600B/激活27B、百万上下文），称将开源权重；评论指出演示思维链暴露“项目已存在”，质疑展示诚信，并摘录参数与评测分数。逾120赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "BoppreH",
+          "en": "In their first demo video, to make a 3D render of the photo, the thinking trace gives away the game: > Interesting! It turns out there's already an existing project here [...] The project is fully built [...] I'm always astounded how little effort is put into checking the AI answers displayed in these announcements. Back when I paid more attention, I remember OpenAI's and Google's demos constantly showed their AIs giving wrong answers.",
+          "zh": "他们第一个演示视频里，要给照片做 3D 渲染时，思维轨迹露馅了：“有意思！这里已经有一个现成项目……项目已经完全建好……”我总惊讶发布会多不认真核对这些 AI 答案。"
+        },
+        {
+          "type": "comment",
+          "author": "nh43215rgb",
+          "en": "> Built on a sparse Mixture-of-Experts architecture, Step 5 Preview has 600B total parameters, with 27B active per token, and supports a 1M-token context window and vision input. > Step 5 Preview scores 44 on the Artificial Analysis Intelligence Index. > The model will be released with open weights on October 15. I guess being Chinese company they decided to skip version 4, while also giving impression to be on the similar iteration with leading companies (claude opus 5). I wonder if other Chinese labs like Kimi/Moonshot will follow suit.",
+          "zh": "稀疏 MoE，总参约600B、每 token 激活27B，支持百万 token 上下文与视觉输入；Artificial Analysis 指数 44；称10月15日开源权重。我猜……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49772532",
+      "hn_points": 127,
+      "hn_comments": 33,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "Araghchi says China talks successful, backs Xi proposals to end the war",
+      "title_zh": "阿拉格希称访华磋商成功：背书习近平止战方案",
+      "publisher": "iranintl.com",
+      "article_url": "https://www.iranintl.com/en/202609175386",
+      "significance_score": 7.0,
+      "summary_zh": "伊朗国际：外长阿拉格希称在华磋商成功并支持习近平结束冲突提议；另自北京电话土耳其外长菲丹与巴基斯坦陆军参谋长穆尼尔。相较16日王毅敦促重开霍尔木兹首报，17日焦点转为伊方对华成果定性与第三国平行连线；同日左勒卡德尔封峡至特朗普下台的鹰派口径形成对冲。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Iran International",
+          "en": "Iranian Foreign Minister Abbas Araghchi... said consultations during his visit to China had been successful and endorsed Chinese President Xi Jinping's proposals for ending the conflict.",
+          "zh": "伊朗外长阿拉格希称其访华期间磋商成功，并支持中国国家主席习近平提出的结束冲突方案。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "The Millennium Problems for Biology",
+      "title_zh": "生物学的千禧年难题",
+      "publisher": "millenniumproblems.bio",
+      "article_url": "https://millenniumproblems.bio/",
+      "significance_score": null,
+      "summary_zh": "站点提出一组生物学版“千禧年难题”；评论调侃该给 AI 对齐也列一份好让前沿实验室真去解，并指出生物学其实已有远超百万美元奖励的真问题（如逆转阿尔茨海默）。逾120赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "doctoboggan",
+          "en": "Someone should make the millennium problems for AI alignment so the frontier labs will actually try to solve that problem.",
+          "zh": "该有人做一份 AI 对齐的千禧年难题，好让前沿实验室真去解那个问题。"
+        },
+        {
+          "type": "comment",
+          "author": "pfisherman",
+          "en": "Biology already has numerous “Millennium Problems” and the rewards are much more than $1M. For example, reverse Alzheimer’s Disease. Or less ambitious develop high fidelity in vitro and animal models of human disease.",
+          "zh": "生物学早就有无数“千禧年难题”，奖励远超一百万美元。比如逆转阿尔茨海默；或不那么狂妄——做出高保真的体外与动物人类疾病模型。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49775082",
+      "hn_points": 122,
+      "hn_comments": 100,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "Aramco sold about 60 million barrels via Hormuz-Sohar STS for Sept-Oct, traders say",
+      "title_zh": "交易商：阿美经霍尔木兹—苏哈尔船对船售约6000万桶",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/energy/aramco-boost-exports-strait-hormuz-60-million-bbl-september-october-traders-say-2026-09-18/",
+      "significance_score": 6.9,
+      "summary_zh": "路透新加坡/新德里：交易商称沙特已从霍尔木兹内的拉斯塔努拉售出约6000万桶，经阿曼苏哈尔船对船转装，覆盖9–10月装期，中国与韩国炼厂为主要买家。该增量意在部分对冲延布停输，并成为油价高位回落的供给叙事；与可见过境仅三艘的船位图并置。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Saudi Arabia has sold about 60 million barrels of crude from its Ras Tanura port inside the Strait of Hormuz for loading via ship-to-ship transfer at the Omani port of Sohar this month and next, trade sources said.",
+          "zh": "交易消息人士称，沙特已从其位于霍尔木兹海峡内侧的拉斯塔努拉港售出约6000万桶原油，本月及下月经阿曼苏哈尔港船对船转装。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "UTF-8000: Unlimited UTF-8",
+      "title_zh": "UTF-8000：无上限的 UTF-8",
+      "publisher": "utf-8000.jb2170.com",
+      "article_url": "https://utf-8000.jb2170.com",
+      "significance_score": null,
+      "summary_zh": "幽默/技术提案扩展 UTF-8 码点字节上限；评论警告任意长度码点等于缓冲区溢出温床，并调侃 Unicode 联盟若要扩表情与虚构语言会高兴坏。逾120赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "2shortplanks",
+          "en": "On a practical matter, it seems like a bad idea to have codepoints that can take up to an arbitrary number of bytes - this just screams buffer overflow problems. So in practicality, you’re going to want an arbitrary limit on this (the article suggests as much). But if you place a limit on it then you’ve got one implementation of the standard that can decode certain characters and another that can’t. Better to have one standard that puts a hard limit on the number of bytes and another standard that uses more bytes and so on.",
+          "zh": "务实地说，允许码点占用任意字节数像是个坏主意——简直在喊缓冲区溢出。实践中你总得设上限（文中也暗示了）。可一旦设限，就又变成一种实现……"
+        },
+        {
+          "type": "comment",
+          "author": "sph",
+          "en": "> UTF-8000 is in no way endorsed by or representative of the Unicode Consortium. Not until they decide to expand the emoji range, allocate space for all past and future fictional languages, as well as birdsong and dog barks. Someone at the consortium is rubbing their hands with glee with all the newfound space. But honestly, cool hack! If you invent a method to encode large numbers into bytes, why limit yourself to 24-bit numbers?",
+          "zh": "UTF-8000 绝不代表 Unicode 联盟。除非他们决定扩张表情范围、给一切过去未来的虚构语言以及鸟鸣狗叫分配空间。联盟里恐怕有人正为新空间搓手。不过老实说……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49772677",
+      "hn_points": 122,
+      "hn_comments": 102,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "Yanbu outage ripples across crude, freight and LNG: Hormuz VLCC premium near $10",
+      "title_zh": "延布停输外溢原油—运费—LNG：霍尔木兹VLCC溢价近10美元",
+      "publisher": "kpler.com",
+      "article_url": "https://www.kpler.com/blog/yanbu-pipeline-attack-ripples-across-crude-freight-and-gas-markets",
+      "significance_score": 6.9,
+      "summary_zh": "Kpler 9月17日分析：东—西向/延布停输迫使更多沙特原油经霍尔木兹出海，瓶颈转向阿曼苏哈尔船对船能力；海湾至亚洲 VLCC 运费约30美元/桶，相对阿曼湾约20美元，霍尔木兹过境风险溢价约10美元。欧亚 LNG/煤联动与 Yasref 柴油缺口同步被写入“不只是油价”的冲击清单。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Kpler",
+          "en": "Middle East Gulf-to-Asia VLCC rates are running around $30 a barrel, versus roughly $20 a barrel from the Gulf of Oman — a roughly $10-a-barrel premium tied specifically to the Hormuz transit risk.",
+          "zh": "中东湾至亚洲的VLCC运费约每桶30美元，而从阿曼湾出发约20美元——约10美元/桶的溢价直接对应霍尔木兹过境风险。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "Learning another language may be one of the best ways to keep your brain healthy",
+      "title_zh": "学另一门语言或许是保持大脑健康的最佳方式之一",
+      "publisher": "theconversation.com",
+      "article_url": "https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951",
+      "significance_score": null,
+      "summary_zh": "The Conversation 综述双语与大脑健康证据；评论分享疫情前德语局与 Meetup 轶事，以及“每种语言里我像有不同人格”的体感。逾110赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "comrade1234",
+          "en": "Before Covid I got my German B1 certificate. I was diligently going to German-speaking meetup twice a week. One of the meetups had a bunch of googlers in it regularly. One of them was a loud gregarious Italian from the north. He was telling me a story about cleaning fish and chopping their heads off with a machete and how he cut the end of his finger off and had it reattached. He seemed nice but a little inept and lacking caution. Covid was starting. In the newspapers it was reported that Zurich had its first case of Covid. They were cautious to not say who it was - no clues at all in the paper. But a friend at Google forwarded me an internal email that said no one at Google had it yet other than someone in the Zurich office who had just been in northern Italy. I stopped going to the meetups. I really should start again but not sure what's going to happen next.",
+          "zh": "疫情前我拿到德语 B1。那时每周两次德语 Meetup，其中一场常有谷歌员工。有个来自意大利北部、外向吵闹的人，跟我讲洗鱼、用砍刀剁鱼头的故事……"
+        },
+        {
+          "type": "comment",
+          "author": "aduwah",
+          "en": "I find that I am having a different personality in each (3) languages I speak, especially in context in a different country. When I switch back to my original language to speak to someone in said country my habits I do in my original country come back for the part and then I revert back. Feels a bit schizophrenic, but I think it is normal for most people. My child is showing similar patterns. To me this is proof that learning a language touches a lot of parts in our brain, not just affect the parts about learning",
+          "zh": "我发现自己在会说的三种语言里像有不同人格，尤其在不同国家语境。切回母语跟当地人说话时，母语国的习惯又冒出来，然后再切回去。有点精神分裂，但……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49766821",
+      "hn_points": 114,
+      "hn_comments": 104,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}

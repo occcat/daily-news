@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Number of ships transiting Strait of Hormuz falls to three on Wednesday, data shows",
+      "title_zh": "霍尔木兹周三可见过境仅三艘：较前日十二艘再塌",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/middle-east/number-ships-transiting-strait-hormuz-falls-three-wednesday-data-shows-2026-09-17/",
+      "significance_score": 7.7,
+      "summary_zh": "路透新德里9月17日：初步船位显示霍尔木兹周三商品船过境仅三艘，较前日十二艘、十日均值约十七艘再大幅下滑；数据不含关闭 AIS 暗航船。三艘中有空载大灵便型经伊朗航路进入、空载成品油轮经暗航进入，另有巴拿马型油轮经暗航驶出。曼德海峡过境同日缓至二十一艘。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Commodity vessel transits through the Strait of Hormuz dwindled to just three ships on Wednesday, down from 12 a day earlier and well below the 10-day average of about 17, preliminary ship-tracking data showed on Thursday.",
+          "zh": "初步船位数据显示，霍尔木兹海峡周三商品船过境仅三艘，低于前日十二艘，也远低于约十七艘的十日均值。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 1
+    },
+    {
+      "title": "English: A vs. An",
+      "title_zh": "英语里的 a 与 an：听起来简单，规则其实靠耳朵",
+      "publisher": "redblobgames.com",
+      "article_url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+      "significance_score": null,
+      "summary_zh": "Red Blob Games 梳理英语不定冠词 a/an 的发音规则与例外；评论区母语者与非母语者分别吐槽西班牙语省冠词习惯，以及“a vs the”比 a/an 更难掌握。逾340赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "hbn",
+          "en": "A funny quirk of English I never noticed until I started learning Spanish: In Spanish, to say for example, \"he is a doctor,\" you would say \"él es médico.\" Which more literally translates to \"he is doctor,\" which feels unintuitive coming from English. Spanish DOES have an equivalent for \"a\" - \"un/una\", so the natural thing for an English speaker to say would be \"él es UN médico\", but I understand that to be awkward/unnatural. But then I realized, when you say the same sentence in plural - \"they are doctors\" - you don't have an article. You don't say \"they are some doctors\" (I had to Google, apparently \"some\" isn't an article anyway?) So Spanish ends up more consistent - Singular: \"Él es médico.\" Plural: \"Ellos son medicos.\" Unlike English - Singular: \"He is a doctor.\" Plural: \"They are doctors.\"",
+          "zh": "学西班牙语时才注意到一个有趣怪癖：说“他是医生”会说 él es médico，字面更像“他是医生”（无a）。西语其实有 un/una，但职业等场合常省掉，从英语母语者听来很不直觉。"
+        },
+        {
+          "type": "comment",
+          "author": "abraxas",
+          "en": "What gets me as a non-native speaker far more than \"a vs an\" is the \"a vs the\" conundrum. I still don't quite get when something needs to be \"indefinite\" and I've been speaking English for close to forty years. My native tongue lacks articles altogether and it's soo bloody hard I feel hopeless I'll ever master them fully.",
+          "zh": "作为非母语者，比 a/an 更折磨我的是 a 与 the。说了近四十年英语，我仍说不准何时该用不定冠词。我的母语根本没有冠词，感觉这辈子都难真正掌握。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49769944",
+      "hn_points": 345,
+      "hn_comments": 473,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 2
+    },
+    {
+      "title": "Wall St rebounds after Fed's first rate hike in years as oil, Treasury yields dip",
+      "title_zh": "加息次日美股反弹：油价与美债收益率同步回落",
+      "publisher": "reuters.com",
+      "article_url": "https://www.marketscreener.com/news/wall-st-rebounds-after-fed-s-first-rate-hike-in-years-as-oil-treasury-yields-dip-ce785bd3de8df625",
+      "significance_score": 7.5,
+      "summary_zh": "路透纽约9月17日：油价与美债收益率回落、初请失业金近1969年低位，帮助市场消化美联储三年来首次加息。道指涨约0.7%报51828，标普涨约1.1%报7637，纳指涨约1.6%；十年期回落至约4.93%。CME FedWatch显示十月再加25个基点概率升至约53%。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Wall Street bounced back on Thursday as easing oil prices, dropping US Treasury yields and solid labor data helped markets move beyond the Federal Reserve's first interest rate hike in more than three years.",
+          "zh": "周四华尔街反弹：油价缓和、美债收益率下行与稳健就业数据，帮助市场跨越美联储三年多来的首次加息。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 3
+    },
+    {
+      "title": "Weeping whales: Stillborn humpback whale grieving documented",
+      "title_zh": "哭泣的鲸：座头鲸哀悼死产幼鲸获纪录",
+      "publisher": "phys.org",
+      "article_url": "https://phys.org/news/2026-09-whales-stillborn-humpback-whale-grieving.html",
+      "significance_score": null,
+      "summary_zh": "研究人员记录到座头鲸围绕死产幼鲸的哀伤行为；HN 同日还有鸟类口音相关讨论，评论把哺乳动物对死亡的恐惧与屠宰场景联系起来。逾210赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "imjonse",
+          "en": "Unsurprisingly, mammals (not just humans) also fear death and are very distressed when being lead to slaughter and seeing their peers go down before them.",
+          "zh": "并不意外：哺乳动物（不单是人类）也恐惧死亡；被带去屠宰、眼见同伴倒下时，会极度痛苦。"
+        },
+        {
+          "type": "comment",
+          "author": "Kim_Bruning",
+          "en": "That's two ethology stories on HN on one day. Interesting as news for nerds, but it is becoming relevant to more nerds than just me ;-) . (the other one is: https://news.ycombinator.com/item?id=49775579 \"do birds have accents\")",
+          "zh": "一天之内 HN 上两条行为学故事，挺有意思——对极客来说是新闻，但也在变得跟更多极客相关。另一条是“鸟有口音吗”。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49735159",
+      "hn_points": 218,
+      "hn_comments": 159,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 4
+    },
+    {
+      "title": "Iran will keep Hormuz closed until Trump falls from power, Khamenei adviser says",
+      "title_zh": "哈梅内伊顾问：霍尔木兹要关到特朗普下台",
+      "publisher": "iranintl.com",
+      "article_url": "https://www.iranintl.com/en/202609171217",
+      "significance_score": 7.6,
+      "summary_zh": "伊朗国际9月17日：最高领袖政治顾问左勒卡德尔称，“在罪恶的特朗普与嗜血的内塔尼亚胡下台前，我们的战士不会开放霍尔木兹”，并把封峡称作报复第一阶段。表态与阿拉格希在北京谈回归外交、王毅敦促重开海峡同日并置，凸显德黑兰内外口径撕裂。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Iran International",
+          "en": "Our fighters will not open the Strait of Hormuz until the criminal Trump and bloodthirsty Netanyahu are brought down from power.",
+          "zh": "在罪恶的特朗普与嗜血的内塔尼亚胡被赶下台之前，我们的战士不会开放霍尔木兹海峡。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 5
+    },
+    {
+      "title": "RSA-896",
+      "title_zh": "RSA-896：用闲置 GPU 舰队分解 896 位 RSA",
+      "publisher": "saweis.net",
+      "article_url": "https://saweis.net/posts/rsa-896.html",
+      "significance_score": null,
+      "summary_zh": "作者记述借助 Claude 移植 CADO-NFS 到 GPU，并调度闲置算力在约10天内累计约30 GPU-年完成 RSA-896 分解；评论指出 Instagram 仍在用 768 位 DKIM，暗示分解门槛已下移。逾200赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "madars",
+          "en": "More details: https://x.com/sweis/status/2101484464807596264 I had Claude port CADO-NFS to run on GPUs. Then it orchestrated a fleet to run on scavenged idle capacity. It ran with a max of 2048 GPUs for about of 30 GPU-years over 10 days. I asked Claude if it had a message for a public: “The credit belongs first to the people who built the number field sieve and CADO-NFS over several decades, and to the teams who set the earlier records. This run used their algorithm and much of their code.” Also to clarify: - No new algorithmic factoring improvements. - It’s still exponential. - No new threats to deployed keys.",
+          "zh": "更多细节见推文。我让 Claude 把 CADO-NFS 移植到 GPU，再编排舰队吃闲置算力：峰值约2048块GPU，10天累计约30 GPU-年。问它有没有想对公众说的话时，它强调功劳首先属于……"
+        },
+        {
+          "type": "comment",
+          "author": "vavkamil",
+          "en": "Interesting. Instagram still publishes a 768-bit RSA DKIM key, so I guess factoring it is now just a weekend GPU project? https://dns.google/resolve?name=pm._domainkey.instagram.com&...",
+          "zh": "有意思。Instagram 仍在发布 768 位 RSA 的 DKIM 密钥，那分解它大概已经变成周末级的 GPU 项目了？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49771966",
+      "hn_points": 208,
+      "hn_comments": 85,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 6
+    },
+    {
+      "title": "10-year Treasury yield tops 5% as oil surges and diesel hits all-time high",
+      "title_zh": "十年期曾破5%：油价冲高与柴油创纪录同周",
+      "publisher": "nbcnews.com",
+      "article_url": "https://www.nbcnews.com/business/business-news/diesel-oil-prices-jump-saudi-pipeline-shut-hormuz-talks-postponed-iran-rcna597579",
+      "significance_score": 7.3,
+      "summary_zh": "NBC新闻：十年期美债收益率本周初一度站上5%，与沙特管线停输、霍尔木兹通航塌陷推动的油价与柴油创纪录同步。AAA等数据显示美国柴油全国均价升至约6.23–6.29美元区间纪录附近；能源部长赖特称复输“很快”，地方官员则警告可能停运数周。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "NBC News",
+          "en": "The 10-year U.S. Treasury yield briefly topped 5% Monday for the first time since 2023 as the price of oil surged and the nationwide average cost of diesel fuel hit an all-time high.",
+          "zh": "美国十年期国债收益率周一短暂升破5%，为2023年以来首次，与油价飙升、全国柴油均价创纪录高位同步。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 7
+    },
+    {
+      "title": "Measure internet censorship",
+      "title_zh": "测量互联网审查：安装 OONI Probe",
+      "publisher": "ooni.org",
+      "article_url": "https://ooni.org/install",
+      "significance_score": null,
+      "summary_zh": "OONI 提供开源探针测量网站/应用封锁；评论批评探针词表偏独裁国家高频封锁域名、却少测“民主国家”常封站点，并指出平台内审查（版主/私信屏蔽）几乎未被覆盖。逾200赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "mitxela",
+          "en": "There's a pretty bad bias problem here because the probe app scans domains that are frequently blocked in dictatorships, but doesn't scan domains that are frequently blocked in \"democracies\", like Anna's Archive. Then it ends up looking like the dictatorship countries have all the censorship.",
+          "zh": "这里有相当严重的偏差：探针扫描独裁国家常被封的域名，却不扫“民主国家”里常被封的，比如 Anna's Archive。结果看起来像审查全在独裁国。"
+        },
+        {
+          "type": "comment",
+          "author": "howunfortunate",
+          "en": "Hmm. I'd wager the vast majority of internet censorship is within platform , like that done by Reddit mods. The most egregious example I've seen in my lifetime was when old Twitter decided to censor a NYPost article, down to blocking sharing in DMs . It seems that type of example is entirely missed here. Is there any attempt to capture that signal?",
+          "zh": "我猜绝大多数互联网审查其实发生在平台内部，比如 Reddit 版主。我见过最过分的是旧推特连私信分享纽约邮报文章都拦。这类例子这里似乎完全测不到。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49769676",
+      "hn_points": 204,
+      "hn_comments": 143,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 8
+    },
+    {
+      "title": "US Congress Passes Sweeping Russia Sanctions Bill, Sends It To Trump",
+      "title_zh": "国会通过林赛·格雷厄姆俄伊制裁法：送交特朗普签署",
+      "publisher": "rferl.org",
+      "article_url": "https://www.rferl.org/a/us-congress-sweeping-russia-iran-sanctions-bill/33857946.html",
+      "significance_score": 7.4,
+      "summary_zh": "自由欧洲电台华盛顿9月17日：众院以262–159通过《2026林赛·O·格雷厄姆制裁俄罗斯与伊朗法》（参院上月86–11已过），授权对俄油气大买家课征最高100%关税并扩及伊朗能源与武器部门。克宫称若签署将使乌克兰和谈更难；印度称已知悉并强调多元采购。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "RFE/RL",
+          "en": "The House of Representatives passed the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 by a vote of 262-159... It also gives Trump authority to impose tariffs of up to 100 percent on major purchasers of Russian oil and gas.",
+          "zh": "众议院以262票对159票通过《2026林赛·O·格雷厄姆制裁俄罗斯与伊朗法》……并授权特朗普对俄油气主要买家征收最高百分之百关税。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 9
+    },
+    {
+      "title": "US Revokes Limits on Power Plants' Climate Pollution",
+      "title_zh": "美国撤销对电厂气候污染物的限制",
+      "publisher": "text.hrw.org",
+      "article_url": "https://text.hrw.org/news/2026/09/17/us-revokes-limits-on-power-plants-climate-pollution",
+      "significance_score": null,
+      "summary_zh": "人权观察等批评美方撤销电厂温室气体限制；评论从产业与气候伦理两侧反对，并抛出“我死后哪管洪水滔天”的典故链接。逾170赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jmward01",
+          "en": "There are a multitude of arguments against this: - Investing in alternatives has led to massive new industry that is improving the economy of those countries that do it. If your argument is an economic one then jump onto the solar, wind and battery bandwagon. - There are virtually no real short medium or long term gains economically here. Gas is the only thing still competitive with solar/wind and its costs are rising while solar and wind continue to fall. Building new maximum pollution plants would drop that internalized cost but who in their right mind would fund something so obviously DOA? - Obviously the externalized costs of greenhouse gas emissions are deeply undervalued in this move. Even if they are 'fake news' in the US, the rest of the world is finally starting to take them seriously. The US's diminished soft power means it won't be able to easily bully the world into allowing it to pollute without consequence and such an obviously hostile move means it will loose even more of its soft power by taking this position. So on the international level this means we burn a lot of political capital and gain nothing but decades of distrust and anger. - Current events show that energy security is dominated by decoupling from fossil fuels. This weakens the US strategically and continues to set it up to be manipulated by exceptionally hostile actors. - Oh yeah and, of course, climate change is real. This continues the US down the path of being the best buggy whip maker in the w",
+          "zh": "反对理由一大堆：投资替代能源已催生巨大新产业、改善相关国家经济——若你谈经济，就该上车光伏、风电和电池。几乎看不到真正的短中长期收益……"
+        },
+        {
+          "type": "comment",
+          "author": "markvdb",
+          "en": "https://en.wikipedia.org/wiki/Apr%C3%A8s_moi,_le_d%C3%A9luge",
+          "zh": "参见维基：Après moi, le déluge（我死后哪管洪水滔天）。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49777841",
+      "hn_points": 179,
+      "hn_comments": 154,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 10
+    }
+  ]
+}

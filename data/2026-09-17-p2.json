@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Trump weighs diplomacy or renewed Iran strikes ahead of Gulf leaders meeting",
+      "title_zh": "联大见海合会前：特朗普权衡外交或重启对伊大规模打击",
+      "publisher": "newslooks.com",
+      "article_url": "https://www.newslooks.com/trump-weighs-diplomacy-or-renewed-iran-strikes-ahead-of-gulf-leaders-meeting/",
+      "significance_score": 7.3,
+      "summary_zh": "NewsLooks华盛顿：特朗普称正接近是否重启对伊大规模打击的重大抉择，并将在联大期间咨询海合会六国；官员称当前军事姿态难无限期维持，高油价与选举政治令选项更复杂。八月曾因沙特、卡塔尔顾虑推迟升级。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "NewsLooks",
+          "en": "President Donald Trump said he is approaching a major decision over whether to resume large-scale attacks against Iran. He plans to consult six Gulf countries during the U.N. General Assembly.",
+          "zh": "美国总统特朗普表示，他正接近就是否重启对伊朗大规模打击作出重大决定，并计划在联合国大会期间咨询六个海湾国家。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
+      "title_zh": "Btrfs/ZFS/bcachefs：经典基准常跳过的真实负载",
+      "publisher": "bartosz.fenski.pl",
+      "article_url": "https://bartosz.fenski.pl/modern-fs-benchmark/",
+      "significance_score": null,
+      "summary_zh": "作者在更贴近生产的负载下比较现代文件系统；评论强调可靠性与工具链比吞吐更重要，并指出 Btrfs 在空间统计与写满崩溃等方面的硬伤，作者本人也回应了 runner 噪声问题。逾160赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "lproven",
+          "en": "Interesting although I'd have liked more summaries: there's an awful lot there. But the reasons I choose filesystems are more about reliability, failure modes, surrounding tooling, and so on. Btrfs fails in several critical areas: 1. No way to accurately find free space 2. catastrophic failure on write if a volume fills up, the probability of which is greater because of #1 3. repair tools usually do not recover a corrupted volume and in my testing are most likely to render as damaged volume completely unreadable, which makes #2 worse Put these things together and I can never trust Btrfs again. In the 9 years since I encountered these, I see no effort to fix them, just fooling around witg unimportant side details like performance tweaks. Fix the critical issues first then make it faster.",
+          "zh": "有意思，不过我更想看更多摘要——内容太多了。我选文件系统更看可靠性、失效模式和周边工具。Btrfs 在几个关键点失败：1）无法准确找剩余空间；2）卷写满时写入会灾难性失败……"
+        },
+        {
+          "type": "comment",
+          "author": "fenio",
+          "en": "The author of the benchmark here. I went over some comments and I'll try to tackle them here. I'm pretty clear that GH runner based benchmark is far from perfect due to noisy neighbours etc. Thus every test first is running so called calibration... to reject completely unreliable VMs. I'm fully aware that this can't completely fix the issue. Can limit it but not fix. But as of now there are 593 runs recorded so average should still be quite meaningful. Having that said I'm desperately trying to get REAL hardware to run that benchmark. With some successes ;) Few months ago I got Hetzner machine from Kent Overstreet and I was able to finish 3 runs before machine died... Results: https://bartosz.fenski.pl/modern-fs-benchmark/real-hw/ Currently I've got even more interesting machine with tons of disks and I'm running new set of benchmarks but it's really in its initial stage. https://bartosz.fenski.pl/modern-fs-benchmark/sas-hdd/ 2nd run in progress... one run on REAL hardware takes much more time than on GH runner so it's slow. But this new hardware has also so many disks that the plan is to try also more complex, tiered cache topologies. I'm working on it. I'm happy to answer any other questions, sources of every piece of this benchmark are freely available and I'm not saying they are 100% correct. I'm open to improvements.",
+          "zh": "基准作者本人：我看过一些评论，在此回应。GH runner 基准确实远非完美（吵邻居等），所以每轮先做校准、剔除完全不可靠的 VM。我清楚这没法完全……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49768833",
+      "hn_points": 168,
+      "hn_comments": 155,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "Brent eases as Wright signals faster fix; US diesel average hits about $6.29",
+      "title_zh": "布伦特回落难掩柴油：美国均价约6.29美元创纪录",
+      "publisher": "cornerstonefuturesllc.com",
+      "article_url": "https://www.cornerstonefuturesllc.com/post/brent-falls-to-103-68-as-wright-signals-faster-pipeline-repair-diesel-sets-new-record-at-6-29-gal",
+      "significance_score": 7.3,
+      "summary_zh": "市场纪要：布伦特一度向约103.68回落，但美国柴油全国均价约6.29美元/加仑（一年前约3.74）；欧陆柴油与美超低硫柴油期货本周纪录仍在。高盛等指柴油—汽油价差扩至逾60美元/桶，炼厂追逐柴油收率——平坦油价回落掩盖不了中间馏分硬约束。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Market note",
+          "en": "The U.S. national average diesel price hit $6.29 a gallon, up from $3.74 a year ago... the U.S. diesel-gasoline spread has widened past $60 a barrel from under $3 a year ago.",
+          "zh": "美国全国柴油均价升至每加仑6.29美元，一年前为3.74美元……柴油对汽油价差已从一年前不足3美元/桶扩至逾60美元/桶。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "You can defeat the Dream Devourer from Chrono Trigger using an int overflow",
+      "title_zh": "用整数溢出打败《时空之轮》梦吞噬者",
+      "publisher": "chrono.fandom.com",
+      "article_url": "https://chrono.fandom.com/wiki/Dream_Devourer",
+      "significance_score": null,
+      "summary_zh": "维基条目与讨论指向利用整数溢出机制击败最终敌；评论分享旧 Mac 游戏 Realmz 里“穿脱附魔装备刷属性”的同类程序员脑洞，并吐槽 Fandom 移动端可读区太小。逾160赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "PlunderBunny",
+          "en": "I figured out that, in the early versions of Realmz for the Mac, there was an enchanted item (a helm?) that added a few points to the wearer’s stats when equipped, but when removed it took away more than it added (i.e. left you worse off). It only took a few seconds for my programmer brain to start me furiously equipping and then un-equipping it, and sure enough, when that stat went to -127, one more equip-and-unequip was sufficient to give me a +128 bonus for that stat. I never understood how that particular bit of logic could have been coded that way - it seemed so unnatural.",
+          "zh": "我发现早期 Mac 版 Realmz 里有件附魔装备（好像是头盔），装备时加几点属性，卸下时扣得更多（净亏损）。程序员脑子几秒就让我疯狂穿脱刷属性……"
+        },
+        {
+          "type": "comment",
+          "author": "torlok",
+          "en": "Fandom Wiki leaves 5 lines of readable text on my iPhone after about 3 seconds of loading.",
+          "zh": "Fandom 维基在我 iPhone 上加载约三秒后，只剩大约五行可读文字。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49770256",
+      "hn_points": 163,
+      "hn_comments": 98,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "Saudi Aramco works to bypass East-West damage; full repair may take six weeks",
+      "title_zh": "阿美抢修东—西向旁路：全线修复或需六周",
+      "publisher": "enr.com",
+      "article_url": "https://www.enr.com/articles/63668-saudi-aramco-works-to-bypass-damage-on-critical-east-west-oil-pipeline",
+      "significance_score": 7.2,
+      "summary_zh": "ENR 9月17日：阿美正绕开东—西向（Petroline）受损段，力争数日内恢复至少一半运力；全线或约六周。赖特“以天计”说与三座泵站、五至六周工程评估并置，成为油价定价核心分歧。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "ENR",
+          "en": "Saudi Aramco is working to bypass a damaged section of the kingdom's critical East-West crude oil pipeline... aiming to restore at least half of the system's capacity within the next several days.",
+          "zh": "沙特阿美正设法绕开王国关键东—西向原油管线的受损段……力争在未来数日内恢复系统至少一半运力。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "Sherline Tools Is Going Out of Business",
+      "title_zh": "Sherline Tools 停产：美国台式机床品牌谢幕",
+      "publisher": "toolguyd.com",
+      "article_url": "https://toolguyd.com/sherline-tools-shutting-down-usa-production/",
+      "significance_score": null,
+      "summary_zh": "ToolGuyd 报道 Sherline 将关闭美国生产；评论从 CNC 业者视角串联 OpenBuilds 等同类收缩，并指三十年产品迭代慢、被亚洲廉价机床与桌面 CNC/3D 打印分流。逾150赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "Ccecil",
+          "en": "Sad news. First, Openbuilds now this. Not a surprise to me though since I am operating in the CNC industry I have seen the same struggles and changes, albeit, from a slightly different perspective. I work with the Smoothieware/Smoothieboard project. It seems, from my observation, that most people are not working with hardware like they were a few years ago. The \"homebrew\" machines and shadetree makers are becoming few and far between. The lie has been heavily sold to the maker community that you are \"wasting your time if you make something yourself\" since it is cheaper to offshore even small 3d prints and machining projects. Not only that but people have been convinced that they don't have the ability to make a machine. Instead of spending time learning something new/valuable (i.e. Reprap) it is now popular to just have someone else do it...be it AI or a factory in another country with subsidies that create massive differences in bottom line. The ability to make things at home is disappearing. People cannot/will not learn to make their own machines. Companies that make machines that care about their community and customers are disappearing. Maybe it's by design? I don't know.",
+          "zh": "难过。先是 OpenBuilds，现在又是这个。对我这在 CNC 行业里的人来说并不意外——我见过同样的挣扎与变迁，只是视角略不同。我参与 Smoothieware/Smoothieboard。观察下来，多数人并不再……"
+        },
+        {
+          "type": "comment",
+          "author": "morio",
+          "en": "I own a lathe and mill from them, both converted to CNC. Sadly their products have changed little in 30+ years. Their precision parts have a use in some applications but it's vastly overshadowed by the cheap parts available from Asia (including India now). 3D printers, laser cutters and benchtop CNC routers have the taken over the lion share of what hobbyists (and some professionals) used to do with these machines. Mine are just collecting dust while my 3D printers crank out parts every day.",
+          "zh": "我有他们的车床和铣床，都改成了 CNC。可惜产品三十多年几乎没变。精密件在某些场景仍有用，但已被亚洲（含印度）廉价件大幅盖过。3D 打印机、激光切割与台式 CNC 路由器已经……"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49776627",
+      "hn_points": 160,
+      "hn_comments": 104,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "Waltz delivers blunt warning to nations defying Iran sanctions ahead of UNGA",
+      "title_zh": "沃尔兹联大前警告违反对伊制裁国家；海湾会晤在即",
+      "publisher": "foxnews.com",
+      "article_url": "https://www.foxnews.com/world/waltz-delivers-blunt-warning-nations-defying-iran-sanctions-touts-greenland-deal",
+      "significance_score": 7.2,
+      "summary_zh": "福克斯：美国驻联合国大使沃尔兹称联大期间将对伊制裁执法列为外交核心，不配合者将面对后果；安理会表决中俄中阻挠延长对伊制裁独立监测。沙特拦截弹库存下降、向法英巴埃求防空援助的后勤压力与海湾领袖会晤预告同周交织。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Fox News",
+          "en": "Waltz said the administration intends to make sanctions enforcement a central part of its diplomatic push during UNGA.",
+          "zh": "沃尔兹表示，政府打算把制裁执法作为联大期间外交推动的核心部分。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "Singapore’s National Library Board offers micropayments to build reading habits",
+      "title_zh": "新加坡国家图书馆局用微支付培养阅读习惯",
+      "publisher": "gadgetreview.com",
+      "article_url": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books",
+      "significance_score": null,
+      "summary_zh": "报道称新加坡以积分/微激励鼓励放下手机读书；评论澄清“付钱让你读书”多半是标题党，实质更像常见游戏化，并分享 Kindle 大字体阅读体验。逾150赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "tombert",
+          "en": "I read a lot, and I own a lot of physical books, but I almost never actually read physical books anymore. I'm one of the happy few that used my Kindle for more than a week after getting it as a gift. I find that reading on an ereader is many times easier for me, primarily because I can make the text gigantic and I don't lose track of my place on the page nearly as often. I'm not dyslexic (I've been tested), but I do think that there's some issue with my brain where if the text is small I really can't follow it. On all my computers the text is gigantic and even then I will click and highlight text as I'm reading so don't lose place. I would love to be paid to read but I don't think I'd love to be paid to read physical books. I remember my grandmother was wholly unconvinced that my Kindle was a different thing than an iPad or a Game Boy, and that it was not \"real\" reading, for whatever reason.",
+          "zh": "我读很多书、也藏很多纸书，但几乎不再读纸质。我是少数把 Kindle 当礼物用过一周以上还继续用的人——电子墨水对我容易得多，主要因为能把字放得极大……"
+        },
+        {
+          "type": "comment",
+          "author": "kingstnap",
+          "en": "The headline makes it seem more monetary than it actually is. https://www.read.gov.sg/join-the-readsg-challenge It seems like turning points into money is just a happens to exist sort of mechanic. Enough to write a headline that they are technically \"paying you\". The real mechanics are much more typical gamification. Like earning xp, streaks, leaderboards, limited edition goodies at events, prize draws, collective goals. The strict money payout is S$0.02 per 15 minutes at most once a day. Obviously if you were doing this it would be more for the rest of the dopamine then hoping to buy a candy bar after like 50 days.",
+          "zh": "标题把金钱感写得太满。看官方挑战页：积分换钱更像附带机制，够写“技术上在付钱”的标题，真正机制还是典型游戏化。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49776717",
+      "hn_points": 154,
+      "hn_comments": 64,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "US House votes to limit Trump's authority to continue Iran hostilities",
+      "title_zh": "众院220–204通过：限制特朗普继续对伊敌对行动权限",
+      "publisher": "cnn.com",
+      "article_url": "https://www.newkerala.com/news/a/trump-expected-meet-gulf-leaders-next-week-discuss-924.htm",
+      "significance_score": 7.1,
+      "summary_zh": "CNN等：众院第三次就限制总统对伊作战权限表决，民主党人塞思·莫尔顿提案以220–204通过，要求除非特定防卫情形，否则撤回与伊朗处于敌对状态的美军。七名共和党人加入民主党阵营。该票与制裁法、联大会晤叙事同周交织，构成国内授权与对外施压的并行线。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CNN/NewKerala",
+          "en": "The resolution, introduced by Democratic Representative Seth Moulton, passed 220-204 and directs the President to remove United States Armed Forces from hostilities with Iran, except in specified defensive circumstances.",
+          "zh": "民主党众议员塞思·莫尔顿提出的决议以220票对204票通过，指示总统除非特定防卫情形，否则将美军撤出与伊朗的敌对行动。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "The Lamentable Later Life of Lemmings",
+      "title_zh": "旅鼠的可悲后半生：从神作到角色化失败",
+      "publisher": "filfre.net",
+      "article_url": "https://www.filfre.net/2026/09/the-lamentable-later-life-of-lemmings/",
+      "significance_score": null,
+      "summary_zh": "Filfre 长文回顾《Lemmings》后期：儿影工作室谈改编、厂商要求“赋予个性”如何反噬；评论拿愤怒的小鸟类比——全平台铺开后靠续作与特别版续命，最终淡出。逾140赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "probably_wrong",
+          "en": "> The Children’s Television Workshop, the maker of Sesame Street, entered into talks with Psygnosis about a Lemmings television show. (…) Television shows, whether aimed at adults or children, are built around memorable characters. (…) So, an edict went down from Psygnosis to DMA to find a way to give the lemmings more individualized personalities. I wonder if anyone brought up Fraggle Rock [1] during these discussions. The Doozers, a race of tiny creatures whose whole purpose in life is to build structures, feels like a perfect fit for the lemmings. [1] https://en.wikipedia.org/wiki/Fraggle_Rock",
+          "zh": "儿童电视工作室（《芝麻街》制作方）曾与 Psygnosis 谈旅鼠电视节目……电视无论成人儿童都围着难忘角色转。于是 Psygnosis 下令 DMA：想办法让旅鼠更有……"
+        },
+        {
+          "type": "comment",
+          "author": "bluedino",
+          "en": "So many parallels with Angry Birds. Appeals to all groups, released on every platform. Then come the sequels, special editions (like Christmas Lemmings), and then it just kind of faded away. Lemmings just didn't get a movie and merchandising.",
+          "zh": "和愤怒的小鸟太多平行：讨好各人群、发遍全平台，然后续作、特别版（圣诞旅鼠），再慢慢淡出。旅鼠只是没混到电影和周边潮。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49767242",
+      "hn_points": 140,
+      "hn_comments": 33,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}
