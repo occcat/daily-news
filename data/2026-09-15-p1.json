@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Oil settles $3 higher on Yanbu disruption, Saudi cargo cancellations",
+      "title_zh": "延布装船暂停、沙特取消部分货盘：油价再涨约3美元",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/energy/oil-prices-rise-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns-2026-09-15/",
+      "significance_score": 7.5,
+      "summary_zh": "路透纽约9月15日：布伦特收涨3.07美元报108.75，WTI涨4.44美元报105.83，均为5月19日以来最高。航运消息称红海出口枢纽延布装船暂停，利雅得已通知欧洲客户取消部分9月下旬货盘；高盛修复估时从“很快”到八周不等，并上调布伦特冲上120的情景权重。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Oil prices settled $3 higher on Tuesday after shipping industry sources said crude loadings at Saudi Arabia's Red Sea export hub of Yanbu had been suspended and Riyadh had canceled some cargo deliveries to European customers.",
+          "zh": "周二油价收涨约3美元：航运业消息称沙特红海出口枢纽延布原油装船已暂停，利雅得亦取消部分对欧洲客户的货盘交付。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 1
+    },
+    {
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "title_zh": "Show HN：会听鸟鸣并画成19世纪插画的电子墨水相框",
+      "publisher": "github.com",
+      "article_url": "https://github.com/arnegiacomo/fugleramme",
+      "significance_score": null,
+      "summary_zh": "GitHub项目fugleramme用麦克风捕捉鸟鸣，经BirdNET分类后在电子墨水屏上生成仿1800年代风格插画；HN称其为“有魔法的造物”，并强调底层是传统神经网络而非大模型。逾2300赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "jadbox",
+          "en": "This is the coolest thing on HN that I've seen in a minute. The whole thing is a perfect blend of ideas with the end result of something that feels... magical. Honestly this is the highest inspiration to me as a builder as I just want to create magical experiences, even if they are just small oddities.",
+          "zh": "这是我近来在HN上看到最酷的东西。整套想法的融合最终呈现出一种……魔法感。作为一个制作者，它给了我最高的启发：我想创造有魔法的体验，哪怕它们看起来很简单。"
+        },
+        {
+          "type": "comment",
+          "author": "divbzero",
+          "en": "The underlying classifier, BirdNET, is a traditional neural network and not an LLM:\nhttps://doi.org/10.1016/j.ecoinf.2021.101236",
+          "zh": "底层分类器BirdNET是传统神经网络，不是大模型：https://doi.org/10.1016/j.ecoinf.2021.101236"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49711544",
+      "hn_points": 2375,
+      "hn_comments": 261,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 2
+    },
+    {
+      "title": "Saudi Arabia issues wide-ranging security alerts after week of strikes",
+      "title_zh": "沙特发布大范围安全警报：麦加与吉达亦在列",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/middle-east/houthis-strike-saudi-targets-anew-talks-over-strait-hormuz-stall-2026-09-15/",
+      "significance_score": 7.4,
+      "summary_zh": "路透利雅得/迪拜9月15日：沙特民防对包括圣城麦加与第二大城市吉达在内的多地发出安全警报，为近一周冲突升级以来最广，麦加警报亦属开战以来首次；警报随后迅速解除。也门官员承认胡塞已有效控制红海沿岸几乎整段西海岸，联合国安理会当日讨论曼德危机。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Saudi Arabia issued security alerts over a range of territory on Tuesday, including in the holy city of Mecca and its second-largest city Jeddah, following a week of attacks from Iran-aligned fighters.",
+          "zh": "周二沙特对包括圣城麦加与第二大城市吉达在内的多地发布安全警报，此前伊朗阵营武装已连续一周发动袭击。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 3
+    },
+    {
+      "title": "AI-generated posters don’t have to be horrible",
+      "title_zh": "AI生成的海报不必很糟",
+      "publisher": "john.hartnup.uk",
+      "article_url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "significance_score": null,
+      "summary_zh": "设计师John Hartnup拆解活动海报的“默认AI味”为何显得廉价，并给出可落地的版式与约束技巧；评论区争论“仍一眼假”与“低努力假装高努力”为何激怒观众。逾1700赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "ajjenkins",
+          "en": "A lot of people in the comments say that the supposedly better examples in the article are still “horrible” because they can tell they’re AI and point to things that the AI did “wrong” and a human artist would do better.\nThat may be true if you’re working with a top of the line artist, but in my experience the average freelance designer online is significantly worse than AI. I’ve worked with dozens of budget friendly designers on Fiverr and consistently get way worse results than I’ve gotten from AI models. Will a great human designer produce better output than an AI? Maybe, but a small local event or business probably won’t have the budget to hire them or know where to find them. It’s cheaper, faster and easier to use AI to generate something that’s good enough for their purposes.\nPeople also point out all the little flaws in the “good” examples and cite them as obvious tells that they were AI generated. I think it would be interesting to see if people could reliably distinguish between AI generated flyers and human made flyers. Sure, sometimes it’s obvious like when the AI adds those weird, cartoony people. But if the model is told not to create designs like that and stick to the",
+          "zh": "很多人说文中所谓更好的例子仍“很糟”，因为一眼能看出是AI，并指出人类设计师会处理得更好的地方。若你请得起一线艺术家，这或许成立。"
+        },
+        {
+          "type": "comment",
+          "author": "vova_hn2",
+          "en": "I find it kinda funny that even \"smartest\", most capable models often have a very hard time going beyond surface-level, top-of-mind associations, when faced with creative tasks.\nOf course, a \"Japanese Minimal Poster\" has a sakura and a stylized flag of Japan, duh\nA human designer would probably think that \"Japan -> sakura\" and \"Japan -> Japanese flag\" are way too obvious, too banal, too stereotypical, and, most importantly too boring. And then they would probably sit for a while and try to think of something fresher and less clichéd.\nBut AI has absolutely no problem with going with the cheesiest, most overused trope.",
+          "zh": "我觉得挺好笑：即便“最聪明”的模型，面对创意任务也很难跳出表层、第一联想。当然，“日式极简海报”就会有樱花和 stylized 日本国旗——人类设计师未必如此偷懒。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49764791",
+      "hn_points": 1762,
+      "hn_comments": 906,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 4
+    },
+    {
+      "title": "Iran dismisses US talks as Strait of Hormuz crisis deepens",
+      "title_zh": "伊朗驳斥美方谈判说辞：霍尔木兹周一仅四艘商品船过境",
+      "publisher": "thenationalnews.com",
+      "article_url": "https://www.thenationalnews.com/news/gulf/2026/09/15/iran-dismisses-us-talks-as-hormuz-crisis-deepens/",
+      "significance_score": 7.3,
+      "summary_zh": "《国民报》9月15日：伊朗拒绝在美方先满足解制裁、停止军事行动与封锁等条件前开谈，反驳特朗普“伊朗急于达成协议”的说法。Kpler初步数据显示周一霍尔木兹仅四艘商品船过境，较前日10艘再降；海湾—伊朗通航会谈继续搁置，巴林拒绝参与。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The National",
+          "en": "Commercial traffic through the Strait of Hormuz has collapsed, with only four vessels transiting on Monday, down from a pre-war average of 125 daily.",
+          "zh": "霍尔木兹商业通航近乎崩溃：周一仅四艘船过境，而战前日均约125艘。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 5
+    },
+    {
+      "title": "I built non-autoregressive decision models with RL a year ago",
+      "title_zh": "一年前我用强化学习做出了非自回归决策模型",
+      "publisher": "laya.convaiinnovations.com",
+      "article_url": "https://laya.convaiinnovations.com/",
+      "significance_score": null,
+      "summary_zh": "作者展示非自回归决策/分类路线，并对比后来更会“讲故事”的竞品品牌包装；HN热议营销叙事、评测一致性，以及它与前LLM时代BERT类模型的亲缘。逾1200赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "johnfn",
+          "en": "It’s a tale as old as time — people don’t understand that marketing and branding are just as important, if not more so, than the product. Jev is exceptionally-well branded. Anyone can look at the webpage and understand it, and the implications, instantly.\nOPs “marketing” is a single post on Reddit titled “ Predicting sales conversion probability from conversations using pure Reinforcement Learning”. Can you understand what that means? I can’t, and I consider myself reasonably technical. Is it obvious it has the same implications as Jev? Again, no idea. And it was just a single post on a subreddit that I don’t even browse! I see people on this thread saying “Jev is just BERT”. Sure, and Dropbox is just a ftp account mounted with curlftpfs!\nI do feel bad for the author for finding something cool and being unable to brand it. But the full definition of “product” INCLUDES being able to coherently communicate it. In some sense the branding is just as much the “breakthrough” as the model.",
+          "zh": "这是老生常谈——人们不懂营销与品牌包装往往比产品本身更重要。Jev的品牌极其出色，谁看网页都能瞬间明白含义；原帖的“营销”则几乎是反面教材。"
+        },
+        {
+          "type": "comment",
+          "author": "prometheus1992",
+          "en": "I think the main gripe that people had with Jev and Typesafe was the language used when they launched. To me personally it seemed like a parody/con/shady at first.\n\"Breakthrough\", \"our research went in another direction\" , \"Two years in stealth\", \"System One thinking model\", \"Jev can't hallucinate\", \"RLCD\",\"We are doing very cool stuff, but we will have to hire you to tell you\", - these are some of the things that they said on their website on the launch blog.\nI had used versions of bert to achieve the same functionality years ago. But to me it seems like they were able to trick the VCs with \"can't hallucinate\" etc.\nTo the above author, kudos for sharing your work and making it open. Something like this shouldn't be closed in the first place when it has been available for so many years",
+          "zh": "我对Jev/Typesafe上线时用语的主要不满是：听起来像戏仿/骗局。“突破”“研究方向改变了”“隐身两年”“System One思维模型”……第一眼很可疑。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49765348",
+      "hn_points": 1289,
+      "hn_comments": 309,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 6
+    },
+    {
+      "title": "Trump says Iran wants deal as Gulf talks delayed, Houthis strike Saudi Arabia",
+      "title_zh": "特朗普称伊朗“又快又急”要协议，海湾会谈仍推迟",
+      "publisher": "independent.ie",
+      "article_url": "https://www.independent.ie/world-news/trump-says-iran-wants-deal-as-gulf-talks-delayed-houthis-strike-saudi-arabia/a/161444998.html",
+      "significance_score": 7.2,
+      "summary_zh": "爱尔兰独立报9月15日综合：特朗普称伊朗“又快又急”想与美达成协议；与此同时海湾国家推迟霍尔木兹通航会谈，胡塞对沙特再袭。伊朗公布77艘据称违反操作规程的船只名单，警告未来过境可能被罚款、扣押或没收。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Irish Independent",
+          "en": "US president Donald Trump said on Monday that Iran wanted to reach a deal with Washington, signalling a possible diplomatic opening as fighting across the Middle East widened and threatened global oil supplies.",
+          "zh": "美国总统特朗普周一称伊朗希望与华盛顿达成协议，在中东战火扩大、威胁全球石油供应之际释放可能的外交开口。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 7
+    },
+    {
+      "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+      "title_zh": "Android 17成3.x以来首次新增API却不向AOSP发布的版本",
+      "publisher": "grapheneos.social",
+      "article_url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+      "significance_score": null,
+      "summary_zh": "GrapheneOS指出Pixel专属更新加入新API却未同步AOSP源码，加剧对谷歌“开源管家”角色的不信任；评论回顾OEM与安全补丁时间线，称路障越来越多。逾1100赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "wps",
+          "en": "The amount of roadblocks Google is putting up for GrapheneOS is just ridiculous. None of their decisions make any sense, from the delayed source patches upstream, to the embargos, attestation issues, etc. Google simply regrets android being open source.",
+          "zh": "谷歌给GrapheneOS设的路障简直荒谬。延迟上游补丁、禁运、认证问题……没一项说得通。谷歌就是后悔安卓开源了。"
+        },
+        {
+          "type": "comment",
+          "author": "bri3d",
+          "en": "So, the real thing that's happening here is:\n* Google drop \"real\" Android source-code updates to OEMs _and_ the public every half.\n* But they ship four Pixel updates, including documentation + SDKs.\n* Now they added new APIs in a Pixel-only update.\n* Google also drop security update backports to \"trusted\" OEMs monthly (which GrapheneOS have had access to for years).\nSo, there are now Pixel-exclusive app features on the Pixel SDK version which isn't available to OEMs - but, it's highly unlikely any app developer would actually depend on these new APIs, since Pixel marketshare is tiny to begin with. This in essence just makes Pixels a weird beta-testing device for what will come out a quarter later to \"normal\" devices, which is sort of an odd business decision, but also a weird thing to get really mad about, in my opinion (I do see what GrapheneOS are trying to do, with having OEMs saber-rattle about not getting features on the same cadence as Pixels, it just doesn't resonate very loudly for me).\nHowever, the API headline seems to bury a deeper lede; in the thread, GrapheneOS also claim that the quarterly Pixel releases contain security content which is not appearing in the monthly b",
+          "zh": "真正发生的是：谷歌每半年向OEM和公众投放“真”安卓源码更新；但又单独发四次Pixel更新（含文档与SDK）；现在还在仅Pixel更新里加了新API。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49758736",
+      "hn_points": 1154,
+      "hn_comments": 698,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 8
+    },
+    {
+      "title": "Government bond yields rise, oil gains again as stocks dip",
+      "title_zh": "美债收益率创2007年来高位，油价再升、全球股市回落",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-09-15/",
+      "significance_score": 7.1,
+      "summary_zh": "路透纽约9月15日：美国十年期国债收益率触及2007年以来高点附近，德国国债收益率创2009年来新高；布伦特站上108美元。道指跌0.63%、标普跌0.45%、纳指跌0.78%；市场锁定美联储周三至少加息25个基点，日银周五亦被押加息。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "U.S. Treasury yields hit their highest level since 2007 and oil prices rose on Tuesday, weighing down global stocks, which extended a selloff from the day's previous session.",
+          "zh": "周二美国国债收益率升至2007年以来最高、油价再涨，拖累全球股市延续前一交易日跌势。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 9
+    },
+    {
+      "title": "Cloudflare Quick Tunnels",
+      "title_zh": "Cloudflare Quick Tunnels",
+      "publisher": "try.cloudflare.com",
+      "article_url": "https://try.cloudflare.com/",
+      "significance_score": null,
+      "summary_zh": "try.cloudflare.com把匿名快速隧道再次推到首页；老用户指出该能力已存在五年以上，并吐槽cloudflared在macOS上的服务安装问题多年未修。逾800赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "noname120",
+          "en": "Cloudflare Quick Tunnels have existed for more than 5 years (yes, including the anonymous quick tunnels). I copy-pasted the url of the HN link in archive.org, see for yourself: https://web.archive.org/web/20211202005430/http://try.cloudf...\nIs a new vibe-coded landing page for a 5-year old product really worthy of being on the front page nowadays? There should at least be a [2021] in the title.",
+          "zh": "Cloudflare Quick Tunnels（含匿名快速隧道）已经存在五年以上。我把HN链接丢进archive.org就能看到。难道只是给老功能做了个新的vibe落地页？"
+        },
+        {
+          "type": "comment",
+          "author": "TIPSIO",
+          "en": "My wife and I have a mobile group/shared bot system where we can make mini apps and collab.\nAnything from baby stuff, groceries, shopping, planning, wine tracker app, simple/fun/useful data things, etc…\nWe have Tailscale on our phones and can instantly and privately see without deployment or anything crazy via our secure VPN.\nThink shared Claude Artifacts that don’t live @ Anthropic.\nTried to first do this with Cloudflare Tunnels (because I love Cloudflare), but between the broken dashboard side of Zero Trust and nightmare of Warp… it was basically impossible to setup. I guess that’s all super enterprise,  which seems to be very anti-Cloudflare philosophically to not be able to self do things.\nWill check out Quick Tunnels but I think it’s missing the bigger integration offerings Tailscale has/does still.",
+          "zh": "我和妻子有一套移动端共享机器人系统，用来做迷你应用协作。手机上开Tailscale就能立刻私密访问，不必把东西暴露到公网。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49754785",
+      "hn_points": 827,
+      "hn_comments": 316,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 10
+    }
+  ]
+}

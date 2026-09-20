@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Xi pitches open-source AI zone for BRICS",
+      "title_zh": "习近平提议打造金砖开源AI区：大模型与培训并进",
+      "publisher": "tribune.com.pk",
+      "article_url": "https://tribune.com.pk/story/2629373/xi-pitches-open-source-ai-zone-for-brics",
+      "significance_score": 6.8,
+      "summary_zh": "巴基斯坦《论坛报》9月15日：习近平在新德里金砖峰会提出由中国牵头建设“开放包容的金砖开源AI共同体”，推动大模型合作研发应用，并在五年内为发展中国家提供约5000个AI培训名额；与上海宣布的世界人工智能合作组织（WAICO）形成配套叙事。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Express Tribune",
+          "en": "China will lead the creation of an open-source artificial intelligence zone for BRICS countries, President Xi Jinping has proposed, placing access to AI technology, large language models and digital skills at the heart of Beijing's broader push.",
+          "zh": "习近平提议由中国牵头为金砖国家打造开源人工智能区域，把AI技术、大模型与数字技能可及性置于北京更广泛议程的核心。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "If math is more than proof, we need to better celebrate the rest of it",
+      "title_zh": "若数学不止于证明，我们更该庆祝其余部分",
+      "publisher": "terrytao.wordpress.com",
+      "article_url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
+      "significance_score": null,
+      "summary_zh": "陶哲轩博文讨论在AI辅助时代如何评价猜想、直觉、解释与计算贡献，而非只盯最终证明；评论联想到希尔伯特—庞加莱路径之争，以及菲尔兹奖年龄门槛与“脑力护城河”变窄。逾390赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "ForgotMyUUID",
+          "en": "I’m reminded of that famous debate between Poincaré and Hilbert at the International Congress of Mathematicians in Paris in 1900. It was then that everyone decided to follow Hilbert’s path, and proof came to be valued more than intuition. I think modern math at school and at applied university kind of lost this intuitive part.\nI try to teach my students that mathematics is, first and foremost, a very precise language of communication. It’s sometimes amusing to ask those who don’t like math to do without it entirely, just to see how much harder it becomes to describe the things around them.\nSecond thing I tell them, formulas are the essence of mechanisms in their purest form. And in this form, they’re much easier to grasp and mentally manipulate. It always amused me, after taking a mechanics course, to imagine that for any formula, you could visualize a mechanism or process that implements it.\nAnd third thing, I suppose, the ability to verify one’s own statements as proof. Although, of course, mathematicians would probably tear me apart here for my heresy:sorry, I’m not a mathematician, but an engineer. You can make mistakes by using incorrect assumptions, but at some point, analysi",
+          "zh": "让我想起1900年巴黎国际数学家大会上庞加莱与希尔伯特的著名争论。此后大家更多走上希尔伯特的路，证明被看得比直觉更重。"
+        },
+        {
+          "type": "comment",
+          "author": "sweezyjeezy",
+          "en": "The math field is confronting something that coders have been dealing with for a few years now, only far more violently. Today's moat for software seems to be that AI can automate tasks but not a full job (yet). But for a large proportion of mathematicians, doing these tasks really was _the_ job. It's the bit they wanted to do, and if they completed a sufficiently difficult set of tasks, they got tenure. Now this model is failing, they frantically need to pivot the role of humans to save their profession from funding cuts.\nI remember when \"writing code was never the point\" became a mantra here. There was truth in it, but removing the coding has certainly taken away a lot of the texture of the work and enjoyment of the craft. Many of us feel this loss as we tech-lead teams of agents as our source of income. I am not optimistic the mathematics pivot is going to work, but I'm certain that most will be depressed with the outcome even if they succeed.\nWe are all staring at the same existential dread, just seeing it unfold slower. We're being told that utopia is to be obsolete, and that is a jarring idea to contend with.",
+          "zh": "数学界正在剧烈面对码农已折腾几年的事。今天软件的护城河似乎是：AI能自动化任务但还不能做完整份工作；但对许多数学家，这些“任务”几乎就是工作本身。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49763928",
+      "hn_points": 397,
+      "hn_comments": 279,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "Hormuz traffic plunges as Iran prepares China talks",
+      "title_zh": "霍尔木兹通航骤降，伊朗筹备对华外交窗口",
+      "publisher": "iranintl.com",
+      "article_url": "https://www.iranintl.com/en/202609156084",
+      "significance_score": 6.8,
+      "summary_zh": "伊朗国际9月15日：霍尔木兹通航显著下滑之际，伊朗为对华外交接触做准备；沙特主导联军称胡塞导弹与无人机周一打击海米斯穆谢特、阿卜哈与塔伊夫等目标，致13人受伤。布伦特曾升破108美元，东西向管线关停使红海改道出口承压。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Iran International",
+          "en": "Shipping through the Strait of Hormuz fell sharply as Iran prepared diplomatic talks in China, while attacks on Saudi Arabia and damage to Persian Gulf cloud infrastructure underscored the widening consequences of the war.",
+          "zh": "伊朗筹备对华外交会谈之际，霍尔木兹航运大幅下滑；对沙特的袭击与海湾云基础设施受损，凸显战争后果仍在扩大。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "San Francisco Onion Futures Company",
+      "title_zh": "旧金山洋葱期货公司",
+      "publisher": "onionfutures.com",
+      "article_url": "https://onionfutures.com/",
+      "significance_score": null,
+      "summary_zh": "onionfutures.com玩转美国《洋葱期货法案》灰色地带，声称不在“board of trade”框架内交易洋葱未来交付；评论科普法案、波动率对比，并建议干脆挂到Tor洋葱站。逾380赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "cwal37",
+          "en": "For those who don’t know:\nhttps://en.wikipedia.org/wiki/Onion_Futures_Act\n(which also banned box office receipt futures)\nA fun thing is to go on FRED and make a graph with prices from onions and, say, corn to see the differences in volatility.",
+          "zh": "不知道的人可以看维基：Onion Futures Act（也禁了票房收据期货）。有趣的是去FRED把洋葱和玉米价格画在一起，看波动率差异。"
+        },
+        {
+          "type": "comment",
+          "author": "Barbing",
+          "en": "> FAQ\n>Is this legal?\n>Yes, to the best of our knowledge. 7 U.S. Code § 13-1 prohibits \"contract[s] for the sale of [...] onions for future delivery [...] on or subject to the rules of any board of trade in the United States.\" The San Francisco Onion Futures Company is not a board of trade, defined as an \"organized exchange or other trading facility\". We sell contracts privately to individual buyers, and do not operate any exchange or secondary market.\nPerformance art against that law?\nAlso November onions are an absolute steal compared to the adjacent months!",
+          "zh": "FAQ写：这合法吗？据我们所知合法。7 U.S. Code § 13-1禁止在美国任何board of trade上买卖洋葱未来交付合约。旧金山洋葱期货公司不是board of trade。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49763296",
+      "hn_points": 387,
+      "hn_comments": 173,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "Brent above $108 as East-West outage and distillate cracks hit records",
+      "title_zh": "布伦特站上108美元：东西向中断与馏分油裂解价差创新高",
+      "publisher": "commoditynews.morgandowney.com",
+      "article_url": "https://commoditynews.morgandowney.com/news/2026-09-15",
+      "significance_score": 6.7,
+      "summary_zh": "摩根·唐尼大宗商品日刊9月15日：布伦特约108.35美元（+2.5%），WTI约104.02美元；东西向管线自上周四关停，完整修复估三至五周，延布红海库存或仅够五至七天。馏分油裂解价差创出新高，高盛建议用欧柴油远近价差对冲地缘风险。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Morgan Downey Commodity News",
+          "en": "Brent $108.35, up $2.67 (+2.5%) and WTI Crude $104.02, up $2.63 (+2.6%) on Saudi East-West pipeline shutdown since last Thursday and Oman Monday talks deferred. Distillate cracks making new highs.",
+          "zh": "布伦特报108.35美元（+2.5%），WTI报104.02美元（+2.6%），因沙特东西向管线上周四起关停且阿曼周一会谈推迟；馏分油裂解价差不断创新高。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "Pirate Face Rescues LLM Models from Deletion",
+      "title_zh": "Pirate Face：用种子网络抢救遭删除的LLM模型",
+      "publisher": "pirateface.co",
+      "article_url": "https://pirateface.co/",
+      "significance_score": null,
+      "summary_zh": "pirateface.co推动以BitTorrent分发与“抢救”可能被下架的模型权重，并讨论去审查/abliteration路径；评论主张种子应成权重分发默认方式，并回忆游戏曾用BT分发。逾370赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "wren6991",
+          "en": "Speaking to the \"uncensored model\" angle: there's little reason to distribute abliterated weights anyway. Instead of orthogonalising the weights that write back to the residual stream, you can just orthogonalise the activations themselves. It's equivalent.\nOrthogonalising activations at runtime is computationally cheap. Just distribute the refusal vectors (few thousand floats per layer), then run against the stock weights. Antirez's DS4 already supports this: https://github.com/antirez/ds4/blob/8db1d1d155cb0400a86a86b9...\nAbliterated weights are just a bad habit we've gotten into. It's also deeply suboptimal from a precision point of view to take a model that's already been QATed and distributed in pre-quantised form (DeepSeek V4, Kimi K2.5 or K3...), modify its weights, and re-quantise it. Similarly, abliterated models regain some of their refusal behaviour when they're re-quantised after abliteration -- avoidable by keeping the two separate.",
+          "zh": "关于“无审查模型”：其实没必要分发正交化后的权重。与其正交化写回残差流的权重，不如直接正交化激活，二者等价，且更灵活。"
+        },
+        {
+          "type": "comment",
+          "author": "phoyd",
+          "en": "Torrents should really be the preferred method for distributing AI model weights. Why rely on a single point of failure like Hugging Face? BitTorrent was made for exactly this.",
+          "zh": "种子网络真该成为分发AI模型权重的首选。何必依赖Hugging Face这样的单点？BitTorrent就是为这个场景生的。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49776699",
+      "hn_points": 371,
+      "hn_comments": 120,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "US energy chief says Saudi Arabia oil pipeline should be back online within days",
+      "title_zh": "美能源部长赖特：沙特东西向管线“以天计”有望复运",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/energy/us-energy-chief-says-saudi-arabia-oil-pipeline-should-be-back-within-days-2026-09-15/",
+      "significance_score": 6.6,
+      "summary_zh": "路透华盛顿9月15日：能源部长克里斯·赖特在休斯敦G20能源会场边对CNBC称，沙特东西向管线恢复输油“应以天计”；同时承认评估仍细。交易商对停运时长说法不一，有人估五至六周，有人认为可边修边部分复泵。赖特称沙特正借助美军协助经霍尔木兹多外运原油。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Reuters",
+          "en": "Crude oil should be flowing through Saudi Arabia's vital East-West Pipeline within days, U.S. Energy Secretary Chris Wright told CNBC on Tuesday, after the kingdom was forced to temporarily close it following attacks by Iran-aligned groups.",
+          "zh": "美国能源部长克里斯·赖特周二对CNBC表示，在伊朗阵营武装袭击迫使沙特暂时关停关键东西向管线后，原油应在数日内恢复流经该管线。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "Brood War Bench",
+      "title_zh": "Brood War Bench：星际争霸：母巢之战基准",
+      "publisher": "bw.swerdlow.dev",
+      "article_url": "https://bw.swerdlow.dev/report",
+      "significance_score": null,
+      "summary_zh": "bw.swerdlow.dev提供《星际争霸：母巢之战》相关基准/报告，评论怀念早期BWAPI锦标赛路线，并畅想用机器学习修复老比赛240p录像。逾330赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "suby",
+          "en": "I don't know where else to write this, but I want to throw the idea out there. I have long wanted to take old broodwar televised matches, many of which are terrible quality 240p, and use machine learning to convert them to into perfect Broodwar Remastered frames. This seems tractable to me because you should be able to map the terrain sets to their remastered equivalents, and the game is just a series of sprites rendered at specific frames. Even if the source quality is terrible, I imagine this is able to be extracted at high quality since you can, eg, set up an automated pipeline which generates training data. Maps from original graphics to remastered, and then again for 240p -> tilemap positions for frame camera center + sprite positions / animation index.",
+          "zh": "不知道还能写哪儿，只是想抛出来：我一直想把许多画质极差的240p老母巢之战电视比赛，用机器学习升频修复。"
+        },
+        {
+          "type": "comment",
+          "author": "AntiRush",
+          "en": "Back in 2010, during the early days of bwapi, there was a Brood War AI tournament held by the Expressive Intelligence Studio at UC Santa Cruz. It's interesting to see how different the approaches were back then, vs this or Deepmind's SC2 work.\nhttps://web.archive.org/web/20091124210529/http://eis.ucsc.e...\nThere's a great contemporary Ars Technica piece by a competitor:\nhttps://arstechnica.com/gaming/2011/01/skynet-meets-the-swar...\nAs an undergrad I did a project using genetic programming. It was not very successful, but it was a lot of fun.\nhttps://tomisin.space/archive/starcraft-genetic-programming/",
+          "zh": "2010年前后BWAPI早期，UC圣克鲁兹表达智能工作室办过母巢之战AI赛。对比当时与现在的路线差异很有意思。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49766966",
+      "hn_points": 334,
+      "hn_comments": 148,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "Iran's foreign minister to visit China on Wednesday",
+      "title_zh": "中国外交部确认：伊朗外长周三访华会见王毅",
+      "publisher": "iranintl.com",
+      "article_url": "https://www.iranintl.com/en/202609151972",
+      "significance_score": 6.6,
+      "summary_zh": "伊朗国际9月15日引中国外交部：阿巴斯·阿拉格希将于9月16日访华并与王毅举行会谈。行程正值金砖峰会后习近平释放海湾和平信号、霍尔木兹通航崩溃与美方加码金融制裁之间，市场关注北京是否从“四点方案”走向更明确的调停姿态。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Iran International",
+          "en": "Iranian Foreign Minister Abbas Araghchi will visit China on September 16 for talks with his Chinese counterpart Wang Yi, China's Foreign Ministry said Tuesday.",
+          "zh": "中国外交部周二表示，伊朗外长阿巴斯·阿拉格希将于9月16日访华，与中方对口王毅举行会谈。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "What Zig felt like, coming from Rust",
+      "title_zh": "从Rust转来，Zig是什么手感",
+      "publisher": "besok.github.io",
+      "article_url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+      "significance_score": null,
+      "summary_zh": "作者记录从Rust转向Zig的工程体感：务实取舍、心智模型与工具链；评论承认Rust在“高性能零运行时内存安全”上的独特位置，也有人把它放进C后继语言对比档案项目。逾250赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "torginus",
+          "en": "Personally while I'm somewhat pragmatic about Rust, I do have to admit it fills a niche that no other language does currently: that of a high-performance, zero runtime memory-safe language.\nBy memory-safety I mean the basic 'no crashes and corruption' version, that's fulfilled by Java, Go etc., but not by C++ and Zig.\nI'm a C++ dev among other things, and I have enough experience to know, you really can't hand C++ to a novice dev (even one who uses smart pointers correctly), and expect an app with no memory related crashes/issues.\nFor this reason only, I generally thing C/C++/Zig is a language for typical professional projects/applications (which are written usually in GC languages nowadays).\nI think it's a hard cutoff criteria. Most programmers/orgs simply cannot work with memory unsafe software. Most commerical C++ codebases leak.\nThis is basically the most important and common 'niche' of SW dev, which for some reason has been somewhat neglected, and I don't really consider Rust a great fit here either, but it doesn't lack anything that would disqualify it.\nSwift would be another good choice, but it seems that language is very tied to the Apple ecosystem.\nThe only (non-Apple) lan",
+          "zh": "我对Rust偏务实，但必须承认它填补了别的语言目前没有的位置：高性能、零运行时、内存安全。我说的内存安全，指的是基本……"
+        },
+        {
+          "type": "comment",
+          "author": "Syzygies",
+          "en": "For various purposes I work on a language comparison project that includes C and candidate successors such as Go, Zig. One question is the language to use for an archival port of a 1980's computer algebra system written in 32-bit K&R C. While Zig is a great debugging compiler, it's not yet stable enough to be the best target language for archival purposes.\nhttps://github.com/Syzygies/Compare\nSo you're in a restaurant where you don't speak the language, you can't read the menu, but you see three price points for set meals featuring the house specialty. (Say, \"Crossing the Bridge\" noodles in Yunnan.) Which do you choose? My tour guide, the author Fuchsia Dunlop, later agreed with me this is obvious: The middle choice.\nSo you're choosing between Go and C23 as candidate successors to K&R C. They both have \"royal blood\". One got the name. Knowing nothing more, which do you choose?\nThe answer is equally obvious. The one that got the name also got the warts.",
+          "zh": "出于多种目的，我在做包含C以及Go、Zig等候选后继者的语言对比项目。其中一个问题是：用什么语言去做1980年代计算机代数系统的存档移植。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49766637",
+      "hn_points": 254,
+      "hn_comments": 314,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}
