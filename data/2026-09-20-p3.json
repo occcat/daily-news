@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Iran says Strait of Hormuz to remain closed until US fulfills commitments",
+      "title_zh": "伊朗称霍尔木兹保持关闭直至美方履行承诺：指向六月协议",
+      "publisher": "aa.com.tr",
+      "article_url": "https://www.aa.com.tr/en/middle-east/iran-says-strait-of-hormuz-to-remain-closed-until-us-fulfills-commitments/4062345",
+      "significance_score": 8.0,
+      "summary_zh": "阿纳多卢社9月20日：加利巴夫在议会称，霍尔木兹将保持关闭，直至美方履行六月协议承诺并满足伊方经中介转达的条件；“欺骗与单方面强加之路已经关闭”。六月停火/通航谅解随后因航行与安保安排分歧崩解，美军封锁伊朗南部港口与伊方控峡叙事持续对撞。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Mohammad Bagher Qalibaf / Anadolu Agency",
+          "en": "Until these conditions are met, the legitimate rights of the Iranian nation are recognised, and American commitments are fulfilled, there will be no opening for a return to the previous state of negotiations or for the reopening of the Strait of Hormuz.",
+          "zh": "在这些条件得到满足、伊朗民族合法权利得到承认、美方承诺得到履行之前，不会出现回到先前谈判状态或重开霍尔木兹的开口。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 21
+    },
+    {
+      "title": "Show HN: Sigabrt.dev – cronjob monitor with an SSH TUI",
+      "title_zh": "Show HN：Sigabrt.dev——带 SSH TUI 的 cron 监控",
+      "publisher": "sigabrt.dev",
+      "article_url": "https://sigabrt.dev",
+      "significance_score": null,
+      "summary_zh": "作者展示用 SSH 终端 UI 做 cron/任务心跳监控的小工具；评论立刻甩出 healthchecks.io 与自制 macOS 监控 App 作为对照。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "p2004a",
+          "en": "I'm myself very happy with https://healthchecks.io/ for this purpose.",
+          "zh": "我自己很满意用 healthchecks.io 做这个用途。"
+        },
+        {
+          "type": "comment",
+          "author": "mosselman",
+          "en": "Shameless plug for a server monitoring macOS app I built. I built that too for the servers I managed myself. Instead of working through a service or a self-hosted monitoring tool that I then over to monitor itself again, I thought running it on my laptop was pretty nice too. One of the next features I've been wanting to build is uptime monitoring. https://kitaso.app/ Sure there is the downside of having to be at your laptop or having it on, but the upside is that it has very few moving parts and is very simple and it just has one set price.",
+          "zh": "无耻推销一下我做的 macOS 服务器监控 App——当初也是为了自己管的机器。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49765354",
+      "hn_points": 67,
+      "hn_comments": 31,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 22
+    },
+    {
+      "title": "Pakistan Iran talks: Mohsin Naqvi visits Tehran amid US-Iran tensions, Red Sea shipping fears",
+      "title_zh": "巴基斯坦内政部长纳奎访德黑兰：伊方称纯属双边，调停叙事并行",
+      "publisher": "indiatoday.in",
+      "article_url": "https://www.indiatoday.in/world/story/pakistan-iran-talks-mohsin-naqvi-tehran-visit-us-iran-tensions-red-sea-shipping-ptag-2998790-2026-09-20",
+      "significance_score": 7.3,
+      "summary_zh": "印度今日9月20日：巴基斯坦内政部长穆赫辛·纳奎周日抵德黑兰；伊朗外交部发言人巴加伊强调访问“完全在双边框架内”、并无特定美方口信，同时承认伊斯兰堡仍在推动伊美复谈。此前外长达尔与阿拉格希通话，强调能源不中断与船只快速安全通行对发展中国家供应链的意义；巴方8月还与沙特、土耳其签共同防务安排。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Esmaeil Baghaei / India Today",
+          "en": "The visit of Pakistan's interior minister is entirely within the framework of bilateral discussions.",
+          "zh": "巴基斯坦内政部长此访完全在双边讨论的框架之内。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 23
+    },
+    {
+      "title": "Seeing Circles, Sines, and Signals",
+      "title_zh": "看见圆、正弦与信号",
+      "publisher": "jackschaedler.github.io",
+      "article_url": "https://jackschaedler.github.io/circles-sines-signals/index.html",
+      "significance_score": null,
+      "summary_zh": "交互式科普页把傅里叶与信号直觉做成可点可视；同好感叹选题撞车但对方完成度更高，也有人联想到“无素材却全靠数学发声”的教学游戏。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "ascots",
+          "en": "looks like we both created educational materials about the same topics - except yours clearly is higher effort in terms of prose and human effort. https://learn.mimmsy.com/ Was toying with the idea that with everyone vibe coding niche educational sites (this is a claim about myself, not this site) it would be nice if that effort could go into building an auditable library of widgets/ educational resources users could trust. Disclaimer: my concept is a stalled WIP/ completely vibe coded, but for me it was fun POC of a widget registry that can be served into chats via mcp",
+          "zh": "看来我们做了同一主题的教材——只是你的完成度明显更高。"
+        },
+        {
+          "type": "comment",
+          "author": "mrmagoo17",
+          "en": "Reminded me of this crazy good video/game (a game with no assets because graphics, sounds and music are just built out of sin functions) https://youtu.be/Qr3VsZYQy4s?is=IBX2bA1jitw38q0u",
+          "zh": "让我想起那个疯狂好看的视频/游戏：几乎没有素材，画面、音效和音乐全靠数学生成。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49757929",
+      "hn_points": 67,
+      "hn_comments": 8,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 24
+    },
+    {
+      "title": "A war and several high-level meetings",
+      "title_zh": "一场战争与多场高层会：联大、海合会与习特会被能源危机绑上同一周",
+      "publisher": "english.alarabiya.net",
+      "article_url": "https://english.alarabiya.net/views/2026/09/20/a-war-and-several-highlevel-meetings",
+      "significance_score": 7.4,
+      "summary_zh": "阿拉比亚英文网9月20日评论：金砖新德里峰会与休斯敦G20能源部长会刚过，阴影转入联大周——特朗普与海合会领导人、以及与习近平的会晤都被预期聚焦伊战、霍尔木兹与曼德。文章称东西向管线遇袭后，理论上延布北上经苏伊士/SUMED的绕行能力亦受胡塞射程与库存天数约束；周末投射物已逼近利雅得。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Al Arabiya English",
+          "en": "The meeting between Trump and GCC leaders will focus on the Iran war, its impact on the global economy and damage to infrastructure in the Gulf.",
+          "zh": "特朗普与海合会领导人的会晤将聚焦伊朗战争、其对全球经济的冲击，以及海湾基础设施受损问题。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 25
+    },
+    {
+      "title": "Communication by means of modulated Johnson noise",
+      "title_zh": "用调制约翰逊噪声通信",
+      "publisher": "pnas.org",
+      "article_url": "https://www.pnas.org/doi/10.1073/pnas.2201337119",
+      "significance_score": null,
+      "summary_zh": "PNAS 论文探索以热噪声本身为载体的极低速率通信；硬核评论盯上所用 RF 开关型号，也有人追问 1.5 米、26 bps 到底能承载什么。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "chicken-stew",
+          "en": "I’m away from computer so only skimmed the article until I noticed they use the ADG90x RF switch family. IIRC that family has a single positive supply rail, and they make a nagative rail internally. The advantage is easy of implementation but you also inject some noise depending on switch position. Is this dealt with in the pub?",
+          "zh": "我现在不在电脑旁，只扫到他们用 ADG90x 这族 RF 开关。我记得那系列有些坑。"
+        },
+        {
+          "type": "comment",
+          "author": "moezd",
+          "en": "26 bps at 1.5 m: And what exactly do we expect to carry with this communication channel? If you add horned antennas it becomes a ridiculous design just to gain a few more bytes. If you add antenna arrays then it's no longer cheap. Your transmitter's output power is basically hard limited by Boltzmann constant, so just increasing range means you will have a bad time decoding it. Digital tricks, cryogenics... maybe a few more bytes, but is it enough? I'm really struggling to see if this can be useful for anything. Dicke radiometer reference is cool, though.",
+          "zh": "1.5 米、26 bps：我们到底指望这条信道承载什么？就算再加喇叭天线，也快不到哪去。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49736823",
+      "hn_points": 62,
+      "hn_comments": 33,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 26
+    },
+    {
+      "title": "How a Saudi pipeline attack is putting Europe’s oil security to the test",
+      "title_zh": "沙特管线遇袭考验欧洲石油安全：对欧货盘收缩与替代油竞价",
+      "publisher": "euronews.com",
+      "article_url": "https://www.euronews.com/my-europe/2026/09/17/how-a-saudi-pipeline-attack-is-putting-europes-oil-security-to-the-test",
+      "significance_score": 7.3,
+      "summary_zh": "欧洲新闻台分析：东西向管线停运后，欧洲炼厂首当其冲面对沙特货盘取消/削减；买家转向北海、地中海与美洲替代供应，运费与升水同步抬升。与亚洲尚能承接阿曼湾船对船不同，欧洲更依赖红海—苏伊士链条，柴油端本已受俄乌炼厂互袭与海湾中质馏分短缺双重挤压。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Euronews",
+          "en": "How a Saudi pipeline attack is putting Europe’s oil security to the test",
+          "zh": "沙特管线遇袭如何把欧洲石油安全推上考场。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 27
+    },
+    {
+      "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
+      "title_zh": "OpenAI 的奥特曼下周将向联合国安理会简报",
+      "publisher": "reuters.com",
+      "article_url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
+      "significance_score": null,
+      "summary_zh": "路透称山姆·奥特曼将于联大周期向安理会通报 AI 议题；HN 嘲讽“AI CEO 演讲总像在说听众想听的话”，并把可信度与游说动机绑在一起审视。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "wewewedxfgdf",
+          "en": "I find it very hard to understand the things these AI CEO's say. He will probably get up there and say his companies products will destroy every citizen of their countries.",
+          "zh": "我很难听懂这些 AI 公司 CEO 在说什么。他大概会站上去，说他的公司产品如何如何。"
+        },
+        {
+          "type": "comment",
+          "author": "einarfd",
+          "en": "He will probably tell them exactly what they want him to say. If he means it or not. That is hard to say.",
+          "zh": "他大概会精确说出对方想听的话。至于他信不信，就难说了。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49779802",
+      "hn_points": 39,
+      "hn_comments": 45,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 28
+    },
+    {
+      "title": "North Sea oil premiums soar to records as Saudis cut sales",
+      "title_zh": "沙特削减销售推高北海原油升水至纪录，长途贸易运力更紧",
+      "publisher": "theedgemalaysia.com",
+      "article_url": "https://theedgemalaysia.com/node/818601",
+      "significance_score": 7.2,
+      "summary_zh": "The Edge引述：沙特减少对部分买家销售后，北海原油升水创纪录，欧洲柴油期货已处极端升水区间；油轮紧缺与高运费使部分长途贸易接近不经济。这与阿美转向霍尔木兹外侧售亚、延布对欧延迟的叙事互相印证——替代桶有价，但船位与时间同样定价。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Edge Malaysia",
+          "en": "North Sea oil premiums soar to records as Saudis cut sales",
+          "zh": "随着沙特削减销售，北海原油升水飙升至纪录水平。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 29
+    },
+    {
+      "title": "Every Nvidia GPU has 10 to 30 RISC-V cores inside it",
+      "title_zh": "每块英伟达 GPU 里都有十几到三十颗 RISC-V 核",
+      "publisher": "xda-developers.com",
+      "article_url": "https://www.xda-developers.com/your-nvidia-gpu-dozens-risc-v-cores-one-took-over-graphics-driver/",
+      "significance_score": null,
+      "summary_zh": "报道梳理消费级/数据中心 GPU 板上那些负责电源、风扇与管理任务的 RISC-V 微控制器；评论认为这才是 RISC-V 的甜点场景，也有修板视频党表示早就在探针 SPI。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "wildzzz",
+          "en": "That's really the best use for RISCV, small embedded microcontrollers handling mundane tasks. I think it's cool people are trying to turn it into a desktop and server platform but it really stands out as being a much cheaper Cortex-M or Cortex-R replacement.",
+          "zh": "这才是 RISC-V 最好的用法：小嵌入式微控制器干杂活。我觉得大家意识到这一点挺酷。"
+        },
+        {
+          "type": "comment",
+          "author": "xyx0826",
+          "en": "Neat. I’ve been watching a lot of Nvidia board level repair videos; the technician would occasionally probe the SPI signal lines to the flash chip containing “VBIOS” code to see if the GPU shows signs of life. Given no external microcontrollers on the board, I’ve always wondered what is the type of core that runs mundane tasks like executing the boot ROM, controlling PWM output for the fans, setting RGB LED colors etc. My guess was on Cortex-M, but I guess I might be wrong. I think Nvidia made a good choice to concentrate logic into the main die, despite a CPU usually having a separate EC (Embedded Controller) or Super IO chip to deal with bootstrapping and fluff. It likely helped board vendors avoid having to go through 50 STM32 copycat product lines during COVID, even though this means t",
+          "zh": "有意思。我看过很多英伟达板级维修视频；技师偶尔会去探 SPI 信号。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49773511",
+      "hn_points": 46,
+      "hn_comments": 3,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 30
+    }
+  ]
+}

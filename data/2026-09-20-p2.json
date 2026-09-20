@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "Saudis pivot to send more oil through Strait of Hormuz",
+      "title_zh": "东西向管线停运后，沙特转向霍尔木兹外船对船售亚约2000万桶",
+      "publisher": "ttnews.com",
+      "article_url": "https://www.ttnews.com/articles/saudis-oil-strait-hormuz",
+      "significance_score": 7.5,
+      "summary_zh": "TT/彭博：阿美向亚洲炼厂出售约2000万桶现货，9–10月在霍尔木兹外侧阿曼湾船对船提货——原油仍须穿峡，但买方不承担峡内航段。信号是红海出口受限后，利雅得被迫把传统海湾通道重新抬上台面；阿美已推迟部分延布对欧交付，且未公布管线复运时间表。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Bloomberg via TT News",
+          "en": "The rising spot sales via the Persian Gulf suggest that Riyadh is now seeking to pivot back toward its traditional route even as risks to shipping persist.",
+          "zh": "经波斯湾现货销售上升，表明利雅得即便航运风险仍在，也在寻求转回传统出口通道。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 11
+    },
+    {
+      "title": "Cyclomatic Complexity in C#",
+      "title_zh": "C# 中的圈复杂度",
+      "publisher": "blog.ndepend.com",
+      "article_url": "https://blog.ndepend.com/understanding-cyclomatic-complexity/",
+      "significance_score": null,
+      "summary_zh": "NDepend 博客梳理圈复杂度在现代语言里的误用：路径数多确实难读，但“拆函数”未必是唯一解；有人指出对模式匹配等语法，指标会虚高。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "bunderbunder",
+          "en": "Overall cyclomatic complexity is a useful metric, but it does have one shortcoming when used with modern languages: it was invented before polymorphism really became a thing. That means that it really only counts explicit branching. So, for example, in an OO language like C#, calling a virtual method doesn’t increment cyclomatic complexity even though the method invocation could go down many code paths. Potentially thousands if you’re dealing with a common interface like IEnumerable. If you’re working on a library then the number of potential code paths in this kind of situation is unbounded. As an aside, it’s interesting to think how it might apply to a language like Smalltalk that doesn’t even have if or switch statements. OO isn’t the only monkey wrench, either. Higher-order functions a",
+          "zh": "总体来说圈复杂度是有用指标，但用在现代语言上有个短板：它对某些新语法会虚高。"
+        },
+        {
+          "type": "comment",
+          "author": "Deukhoofd",
+          "en": "I don't disagree that functions with many execution paths are harder to read, but I do believe that the solution given here; 'just split it into multiple functions' frequently makes a function even harder to read. It forces you to scroll back and forth between code. I think generally when you run into something like this, the better way to handle it is to sit back, and reconsider how your overall handling is designed.",
+          "zh": "我不否认执行路径很多的函数更难读，但我觉得文中给出的‘拆函数’解法并不是唯一答案。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49731413",
+      "hn_points": 85,
+      "hn_comments": 28,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 12
+    },
+    {
+      "title": "Pipeline Attacks Expose Limits of Saudi Export Flexibility",
+      "title_zh": "管线遇袭暴露沙特出口弹性上限：三线受敌与MEES称9月上半月出口回升",
+      "publisher": "agsi.org",
+      "article_url": "https://agsi.org/analysis/pipeline-attacks-expose-limits-of-saudi-export-flexibility/",
+      "significance_score": 7.4,
+      "summary_zh": "阿拉伯湾国家研究所长文：东西向管线三座泵站受损后，沙特同时面对东侧伊朗、北侧伊拉克民兵与南侧胡塞；8月产量报OPEC约624万桶/日为1990年来最低。MEES称9月上半月中东出口均量约1620万桶/日、为开战以来最高之一，卫星影像显示11号泵站抢修；长期选项如重启Tapline或新建至阿曼管线都以年计。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Kate Dourian / AGSI",
+          "en": "With both its eastern and western export routes now compromised, Saudi Arabia is running out of options to get its oil to market.",
+          "zh": "东西两条出口通道如今都受损，沙特正逐渐耗尽把石油送向市场的选项。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 13
+    },
+    {
+      "title": "An open source roguelike adventure through dungeons",
+      "title_zh": "开源地牢肉鸽冒险：Dungeon Crawl",
+      "publisher": "crawl.develz.org",
+      "article_url": "https://crawl.develz.org/",
+      "significance_score": null,
+      "summary_zh": "经典开源肉鸽 Dungeon Crawl Stone Soup 再次现身首页；老玩家感慨版本迭代快到“拾起时已不是当年爱上的那款”，也有人单纯为持续维护点赞。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "vintermann",
+          "en": "This is one of the first games which changed so much that I picked it up again and realized it's not the game I liked anymore. It may still be a fine game, but it has little association to Linley Henzell's Crawl left. These days, as more non-open games go into \"updates forever\" mode, it's probably going to happen more. I can see it happening real time with Minecraft.",
+          "zh": "这是最早让我重玩时发现‘已经不是我喜欢的那款游戏’的作品之一——改得太快了。"
+        },
+        {
+          "type": "comment",
+          "author": "Founderarcstone",
+          "en": "love seeing this kind of work great job!",
+          "zh": "喜欢看到这类工作，干得漂亮！"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49770809",
+      "hn_points": 79,
+      "hn_comments": 13,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 14
+    },
+    {
+      "title": "Houthis Target Riyadh for First Time in Latest Escalation as US Avoids Offensive Strikes",
+      "title_zh": "胡塞首次将战火打到利雅得，美方仍回避对胡塞进攻性打击",
+      "publisher": "gulfnews.com",
+      "article_url": "https://gulfnews.com/world/gulf/yemen/houthis-target-riyadh-for-first-time-in-latest-escalation-why-attacks-are-raising-alarm-as-us-stays-out-1.500680986",
+      "significance_score": 7.5,
+      "summary_zh": "海湾新闻：胡塞称以弹道/巡航导弹与无人机打击利雅得敏感目标及延布阿美设施，冲突进入更危险阶段；CNN称王储上周两度吁特朗普直接出手未果，美方增加情报与瞄准支援但划定不参与进攻。特朗普此前称胡塞“不想同我们打仗”、主要争端在沙特。海湾—伊朗阿曼会因沙特缺席而告吹的报道同步发酵。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Gulf News / CNN reporting",
+          "en": "Despite providing Saudi Arabia with increased intelligence and targeting support, Washington has drawn a line at directly attacking the Houthis.",
+          "zh": "尽管向沙特提供了更多情报与瞄准支援，华盛顿仍划线：不直接进攻胡塞。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 15
+    },
+    {
+      "title": "Ctenophores: Wonders of Biology",
+      "title_zh": "栉水母：生物学的奇观",
+      "publisher": "quantamagazine.org",
+      "article_url": "https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916/",
+      "significance_score": null,
+      "summary_zh": "《量子杂志》长文写栉水母不只是好看，还在改写早期动物演化故事；评论夸影像制作，并分享亚得里亚海海滩上的“海坚果”日常。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "tridente",
+          "en": "\"Noci di mare\", \"sea nuts\" (don't know what you call them in English), a common sight in Adriatic sea shores. You can see them (faintly) glowing even in daylight",
+          "zh": "‘海坚果’（noci di mare）——亚得里亚海沿岸常见。你在岸边就能看见它们。"
+        },
+        {
+          "type": "comment",
+          "author": "mmooss",
+          "en": "The images and video clips are amazingly well done. It's so rare the serious publications take full advantage of the medium of a web page.",
+          "zh": "影像和短视频做得惊人地好。严肃媒体很少把多媒体优势用到这种程度。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49735541",
+      "hn_points": 79,
+      "hn_comments": 17,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 16
+    },
+    {
+      "title": "Pres. Pezeshkian to attend UNGA meeting in NY",
+      "title_zh": "佩泽希齐扬将赴纽约出席联大，伊方联大周叙事升温",
+      "publisher": "en.mehrnews.com",
+      "article_url": "https://en.mehrnews.com/news/247914/Pres-Pezeshkian-to-attend-UNGA-meeting-in-NY",
+      "significance_score": 7.1,
+      "summary_zh": "迈赫尔通讯社：伊朗总统马苏德·佩泽希齐扬将前往纽约参加联合国大会相关会议。联大周被地区评论视为特朗普—海合会、乃至特朗普—习近平会晤的舞台，霍尔木兹、曼德与能源安全预料将占据议程；伊方高层同日把海峡重开与七项条件、美方承诺绑定。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Mehr News Agency",
+          "en": "Pres. Pezeshkian to attend UNGA meeting in NY",
+          "zh": "佩泽希齐扬总统将赴纽约出席联合国大会相关会议。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 17
+    },
+    {
+      "title": "Goroutine Leak Profiles",
+      "title_zh": "Goroutine 泄漏画像（Leak Profiles）",
+      "publisher": "go.dev",
+      "article_url": "https://go.dev/blog/goroutine-leak-profiles",
+      "significance_score": null,
+      "summary_zh": "Go 官方博客介绍 goroutine 泄漏画像，帮助定位“开了协程却忘了收尾”的故障；评论总结经验法则：不理解如何结束，就不要 go。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "deathanatos",
+          "en": "I'm coming predominately from other languages, so it took me a hot minute to figure out what the various bug were. • channels are by default \"unbuffered\", in that a send needs a waiting recv to actually do the send, and blocks until such. The addition of the buffer prevents the block & permits the goroutine to progress (and eventually exit, and thus, not leak) … so long as the buffer is sufficiently large enough. • channels do not, AFAICT, realize when the receiver is gone, and will block indefinitely even when there is no receiver. (It is the same \"chan\" object, I think, in both sender/receiver / there is no distinction. So, the single object is never GC'd.) • goroutines are not GC'd. (& the code doesn't/can't hold like, a reference or a handle to a goroutine / there is no \"join\" primitiv",
+          "zh": "我主要来自别的语言，花了好一会儿才搞清各种坑：通道没关、等待条件永远不成立之类。"
+        },
+        {
+          "type": "comment",
+          "author": "sethammons",
+          "en": "General rule: never call a goroutine without understanding how it will close.",
+          "zh": "一般规则：搞不清它怎么结束，就永远不要开 goroutine。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49726773",
+      "hn_points": 75,
+      "hn_comments": 6,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 18
+    },
+    {
+      "title": "U.S. will let Iranian leaders attend U.N. General Assembly in New York",
+      "title_zh": "美方允许伊朗领导人赴纽约联大，行程与签证仍处紧约束",
+      "publisher": "washingtonpost.com",
+      "article_url": "https://www.washingtonpost.com/politics/2026/09/17/us-will-let-iranian-leaders-attend-un-general-assembly-new-york/",
+      "significance_score": 7.2,
+      "summary_zh": "华盛顿邮报：美国将允许伊朗领导人出席纽约联大，为外交接触留门缝，同时继续以签证与行程限制对冲安全与国内政治风险。消息落在七项条件经卡塔尔送达、特朗普联大前权衡升级或收手的窗口，使“谁先上台演讲、谁先松口”本身成为筹码。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "The Washington Post",
+          "en": "U.S. will let Iranian leaders attend U.N. General Assembly in New York",
+          "zh": "美国将允许伊朗领导人出席在纽约举行的联合国大会。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 19
+    },
+    {
+      "title": "Do birds have accents? the regional differences in birdsong",
+      "title_zh": "鸟有口音吗？鸟鸣的地域差异",
+      "publisher": "theconversation.com",
+      "article_url": "https://theconversation.com/do-birds-have-accents-the-fascinating-regional-differences-in-birdsong-278108",
+      "significance_score": null,
+      "summary_zh": "The Conversation 介绍鸟鸣方言与文化传递；有人补充某些鸣声甚至带遗传成分，也有人安利观鸟 App 的上瘾体验。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "dkga",
+          "en": "Beautiful. An interesting tidbit some here may like: for some birds, their songs carry over genetically. As a result, there are no dialects in the same sense as described in this page. The most famous example (at least in the Americas) is Pitangus sulphuratus (known in Brazil as \"bem-te-vi\"). This bird is present from Southern US until Southern Argentina, and has virtually the same song all over. In fact, I know I arrived in Brazil when I get out of the airport, anyone in the country, and catch a (sometimes clear, sometimes faint) \"bem-te-vi, bem-te-vi\" song.",
+          "zh": "很美。有个这里人可能会喜欢的冷知识：对某些鸟，鸣声会遗传传递，结果方言并不全是‘学来的’。"
+        },
+        {
+          "type": "comment",
+          "author": "317070",
+          "en": "I've been birdspotting for the last year (in the UK, there is an addictive app called birdex, which is basically like a pokedex in the pokemon game, except it does birds). I am proud to report that I've observed 110 species this year. The last one was this weekend, where apparently meadow pipits are traveling across London parks while they're heading south. It's not just regional dialects and individual birds, I am noticing that the time of the year also matters. Tits sound different in spring, summer and autumn, and so do e.g. robins. It's a hobby I can recommend to everyone. Whenever I am outside now, I can listen for any faint sound and then make a mental note of all the birds I observed.",
+          "zh": "我过去一年在观鸟（英国有个叫 birdex 的 App，基本像上瘾的收集游戏）。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49775579",
+      "hn_points": 68,
+      "hn_comments": 15,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 20
+    }
+  ]
+}

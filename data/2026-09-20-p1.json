@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "title": "No reopening of Strait of Hormuz until Iran’s conditions are met, says Ghalibaf",
+      "title_zh": "伊朗议长：七项条件未满足前霍尔木兹不会重开",
+      "publisher": "thehindu.com",
+      "article_url": "https://www.thehindu.com/news/international/no-reopening-of-strait-of-hormuz-until-irans-conditions-are-met-says-ghalibaf/article71487500.ece",
+      "significance_score": 8.6,
+      "summary_zh": "印度教徒报9月20日：伊朗议长穆罕默德·巴盖尔·加利巴夫称，霍尔木兹海峡在伊朗七项条件得到满足、美方兑现承诺之前不会重开；并强调“打与谈的二元对立并不真实”，德黑兰须在适当时机并行军事与谈判。同日高层称七项条件已经卡塔尔转交华盛顿，正等待特朗普回应。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Mohammad Bagher Ghalibaf / The Hindu",
+          "en": "Until these conditions are fulfilled, the legitimate rights of the Iranian people are recognised, and the commitments of the Americans are implemented, there will be no opening for returning to the previous conditions of negotiation and the opening of the Strait of Hormuz.",
+          "zh": "在这些条件得到满足、伊朗人民的合法权利得到承认、美方承诺得到履行之前，不会出现回到先前谈判条件与重开霍尔木兹海峡的开口。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 1
+    },
+    {
+      "title": "Tin: full-text search for Postgres",
+      "title_zh": "Tin：为 Postgres 提供全文搜索",
+      "publisher": "planetscale.com",
+      "article_url": "https://planetscale.com/blog/introducing-tin",
+      "significance_score": null,
+      "summary_zh": "PlanetScale 推出面向 Postgres 的 Tin 全文搜索能力；HN 讨论这是否又是一轮“数据库公司为 AI 代理补齐检索”的军备竞赛，以及是否提供本地扩展而非纯托管。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "andrenotgiant",
+          "en": "I think what we're seeing with every database company providing new full-text search capabilities is an example of AI coding productivity showing up in the real world. It started with paradeDB and pg_search https://www.paradedb.com/blog/introducing-search Timescale has pg_textsearch https://github.com/timescale/pg_textsearch Neon and Databricks have Lakebase Search https://docs.databricks.com/aws/en/oltp/projects/lakebase-se... Now PlanetScale. AFAIK all of these are implementations of the BM25 algorithm. You can just tell an agent to read about BM25 and implement it in your system of choice. Cool to see. Seems like there's still a lot of juice to be squeezed out of how it's architected and integrated into each system, but you can't help but wonder if this will lead to aggressive commodifi",
+          "zh": "我觉得每家数据库公司都在上新全文搜索，正是 AI 代理需要更好检索能力的例子。"
+        },
+        {
+          "type": "comment",
+          "author": "Tiberium",
+          "en": "If anyone's curious - https://planetscale.com/docs/postgres/search/get-started#loc...: They're not providing a local extension with the same performance at the time - it's only offered on their cloud services. The local version https://github.com/planetscale/lead is mainly just for testing the syntax, it doesn't have the same perf characteristics.",
+          "zh": "如果有人好奇——文档写的是：他们并不是在提供一个可本地运行的扩展，而是托管侧能力。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49766611",
+      "hn_points": 224,
+      "hn_comments": 93,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 2
+    },
+    {
+      "title": "What are Iran’s latest conditions to end its war with the US?",
+      "title_zh": "伊朗最新停战条件是什么：六项公开要点与霍尔木兹挂钩",
+      "publisher": "aljazeera.com",
+      "article_url": "https://www.aljazeera.com/news/2026/9/20/what-are-irans-new-conditions-to-end-its-war-with-the-us",
+      "significance_score": 8.5,
+      "summary_zh": "半岛电视台9月20日梳理最高国家安全委员会秘书穆赫森·礼萨伊对停战条件的表述：全面停火（尤其黎巴嫩）、解冻巨额资产、结束对伊朗港口海军封锁、停止干涉内政、停止与“革命反对派”合作、停止对伊朗领土攻击；第七项未完全公开。礼萨伊称更接近与阿曼就霍尔木兹管理达成协议，但或需地区背书；并警告不排除未来退出NPT。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "Mohsen Rezaei / Al Jazeera",
+          "en": "It is in Washington’s interest to accept these conditions. Trump’s threats will not achieve any results. We are prepared for a decisive war.",
+          "zh": "接受这些条件符合华盛顿的利益。特朗普的威胁不会有任何结果。我们已为决定性战争做好准备。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 3
+    },
+    {
+      "title": "We made Playwright 2x faster and 80% more token efficient",
+      "title_zh": "我们把 Playwright 提速约 2 倍、token 效率提升约 80%",
+      "publisher": "github.com",
+      "article_url": "https://github.com/browserbase/stagehand",
+      "significance_score": null,
+      "summary_zh": "Browserbase 的 Stagehand 团队称修好了往返延迟这一最大短板，并宣称 Playwright 路径显著更快、更省 token；评论区追问评测口径与对 Jev 等代理运行时的支持。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "wittydeveloper",
+          "en": "We built Stagehand 2 years ago (24k stars and 4M monthly npm downloads) and recently fixed its biggest flaw: round-trip latency. Every action performed requires a round trip between your script and the browser (short when running locally but increased when running in the cloud). We also saw multiple posts complaining about the eager token appetite of Playwright MCP. For this reason, we rebuilt Stagehand from the ground up and shipped v4, where Stagehand controls the browser from an extension automatically loaded upon your browser startup. Stagehand v4 comes with batch command support, dedicated token-efficient methods `act()` and `extract()`, and a brand new architecture making it 2x faster than Playwright and 80% more token efficient. You can see for yourself by looking at our benchmarks,",
+          "zh": "我们两年前做了 Stagehand（约 2.4 万星、每月约 400 万次 npm 下载），最近修好了最大缺陷：往返延迟。"
+        },
+        {
+          "type": "comment",
+          "author": "MiguelG719",
+          "en": "We also just added Jev support https://github.com/browserbase/stagehand/pull/2952 On the act/extract/observe evals it shows promising results being extremely efficient - act: 4.3x faster, 97% fewer LLM calls. Pass rate: 97.5% -> 98.3%. - heldout: 4.1x faster, 78% fewer LLM calls. Pass rate: 87.5% -> 97.5%. - observe: 11.1x faster, 69% fewer LLM calls. Pass rate: 75.0% -> 83.3%. - extract: 8.7x faster, 75% fewer LLM calls. Pass rate unchanged at 92%. cost effectively 0",
+          "zh": "我们刚加了 Jev 支持。在 act/extract/observe 评测上，它显示……（见 PR）更省 token、更快。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49756671",
+      "hn_points": 147,
+      "hn_comments": 36,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 4
+    },
+    {
+      "title": "Trump cuts Camp David trip short as US issues Middle East travel alerts",
+      "title_zh": "特朗普提前结束戴维营行程，国务院同日发中东旅行告警",
+      "publisher": "newsweek.com",
+      "article_url": "https://www.newsweek.com/trump-cuts-camp-david-trip-short-as-us-issues-middle-east-travel-alerts-12464894",
+      "significance_score": 7.9,
+      "summary_zh": "新闻周刊9月20日：白宫日程原定周日离开戴维营，特朗普周六晚提前返华府，椭圆形草坪约晚8点前降落；白宫未解释原因。同日国务院警告中东安全环境“可能迅速升级”，多国使领馆推送高度戒备提示；NORAD还通报F-16在瑟蒙特附近拦截一架通航飞机并释放曳光弹引导离场。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "U.S. State Department / Newsweek",
+          "en": "Iranian-supported Houthis have engaged in hostilities against Saudi Arabia, including civilian airports. This military conflict has the potential to escalate rapidly.",
+          "zh": "伊朗支持的胡塞武装已对沙特阿拉伯采取敌对行动，包括民用机场。这场军事冲突有可能迅速升级。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 5
+    },
+    {
+      "title": "Can you tell which images are AI-generated?",
+      "title_zh": "你能分辨哪些图是 AI 生成的吗？",
+      "publisher": "slop-sense.labtoagi.com",
+      "article_url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+      "significance_score": null,
+      "summary_zh": "一个限时辨伪小游戏把 GPT-Image 新模型的“破绽”推到前台；玩家抱怨十秒计时放大了难度，也有人坦言对新模型还没有任何稳定判据。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "Jowsey",
+          "en": "I hadn't been exposed to the new GPT-Image-2.5 model before this, so didn't have any \"tells\" to go off of, and found it almost impossible to begin with, but it seems the brain is pretty good at adapting for visual stuff! After 2 rounds, I was able to build up a 16-image combo, answering most within a second or two. I think the \"tell\" I ended up with is that almost all of the AI images tend to center around a very obvious main \"subject\" (a flower, a bike, a wrench, etc) – presumably an inherent artefact of generating from a prompt – with everything else around the subject having a very strange depth to it. The depth, focus, and bokeh around the main subject just never look quite right. If you look at an image and find it has a very strong central subject with a little too much depth separat",
+          "zh": "我以前没接触过新的 GPT-Image-2.5，所以没有任何‘破绽’可抓，结果发现它相当难辨。"
+        },
+        {
+          "type": "comment",
+          "author": "variety8675",
+          "en": "I realized this is only somewhat difficult because of the 10s timer. Most people probably don’t spend more than 10s looking at a picture on social media, excellent project.",
+          "zh": "我意识到这之所以有点难，主要是因为十秒计时。多数人看一张图大概也不会超过十秒。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49770847",
+      "hn_points": 103,
+      "hn_comments": 78,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 6
+    },
+    {
+      "title": "US travel warning Middle East: Americans alerted after Houthi claim of Riyadh attack",
+      "title_zh": "胡塞宣称袭利雅得后，美方警告美国人慎赴中东",
+      "publisher": "indiatoday.in",
+      "article_url": "https://www.indiatoday.in/world/story/us-travel-warning-middle-east-americans-alerted-after-houthi-claim-riyadh-attack-2998631-2026-09-20",
+      "significance_score": 7.7,
+      "summary_zh": "印度今日9月20日：国务院提醒中东境内美国人高度戒备，并请境外美国人“认真重新考虑”经停该地区，理由包括航班取消、空域关闭与旅行中断风险；警告还称伊朗及支持力量可能打击海外美方利益与美资关联场所。背景是胡塞宣称以导弹与无人机打击利雅得“敏感”目标。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "India Today / U.S. State Department",
+          "en": "Americans outside the Middle East should seriously reconsider travel to and through the region.",
+          "zh": "身在中东以外的美国人应认真重新考虑前往或途经该地区。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 7
+    },
+    {
+      "title": "UFO Series Home Page: \"UFO\" TV Series from 1970",
+      "title_zh": "《UFO》主页：1970 年同名电视剧",
+      "publisher": "ufoseries.com",
+      "article_url": "https://ufoseries.com/",
+      "significance_score": null,
+      "summary_zh": "粉丝站回潮带火这部 1970 年英国科幻剧；评论既吐槽时代性别偏见，也惊叹其制作与“冷战式外星威胁”设定居然仍耐看。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "rootbear",
+          "en": "I rewatched this series a few years ago and was surprised that it held up as well as it did. Yes, lots of sexism, but not untypical for that time. Like Star Trek, it had women in authority roles, but also in sexy outfits, so a bit of a mixed bag. They also got handsome Michael Billington out of his shirt a few times, which I found quite interesting for reasons that didn't become clear to me until some years later :) Space:1999 started as a sequel to this series, set ten years later, on a greatly expanded Moonbase. They eventually abandoned that connection. The opening credits theme music and editing are just brilliant.",
+          "zh": "几年前重看这部剧，惊讶它居然还挺立得住。是，性别偏见很多，但并没有因此完全垮掉。"
+        },
+        {
+          "type": "comment",
+          "author": "jmbwell",
+          "en": "I just watched through this over the summer. It’s a fascinating specimen of a show. I am highly confident much of the Austin Powers aesthetic is borrowed from this, from the featureless suit coats to the everyone-is-mad-sexy to the swinging soundtrack. It’s a Gerry Anderson production, so lots of great Thunderbirds-style miniatures too. And wild cars. All the action sequences have the delightful feel of an eight year old playing with toys. In fact a lot of it seems to have a fun child’s-idea aspect. “And it’s part submarine and part fighter jet! And they slide down chutes into the cockpit! And his office is a secret elevator! And all the grownups are doing computer things! And to get a whiskey you push a whiskey button! And the whole thing is under a movie studio!” But god yes, Stryker’s f",
+          "zh": "我夏天刚刷完。这是一部很有标本感的剧。我高度确信很多 Aut（时代审美/制作）痕迹都还在。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49754194",
+      "hn_points": 92,
+      "hn_comments": 39,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 8
+    },
+    {
+      "title": "US fears rapid escalation in Middle East after Houthis attack Riyadh",
+      "title_zh": "胡塞袭首都后美方忧中东“迅速升级”；沙特求打未获允",
+      "publisher": "channelnewsasia.com",
+      "article_url": "https://www.channelnewsasia.com/world/us-middle-east-houthis-attack-saudi-arabia-riyadh-6397426",
+      "significance_score": 7.6,
+      "summary_zh": "CNA援引：利雅得自也门战事再起以来首次遭弹道导弹威胁，美方称冲突“可能迅速升级”。Axios称华盛顿上周拒绝沙特直接打击胡塞的请求；国务院同日仍推进对沙约243亿美元、48架F-35军售，定位为慑阻。胡塞称另打延布阿美设施，沙特主导联军称拦截射向首都的导弹。",
+      "quotes": [
+        {
+          "type": "article",
+          "author": "CNA / U.S. State Department",
+          "en": "This military conflict has the potential to escalate rapidly.",
+          "zh": "这场军事冲突有可能迅速升级。"
+        }
+      ],
+      "fetch_notes": "NM首页HTTP 429/Vercel Security Checkpoint；据公开报道补齐并估分",
+      "source": "News Minimalist",
+      "hn_url": null,
+      "hn_points": null,
+      "hn_comments": null,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 9
+    },
+    {
+      "title": "Regeneration of used batteries via electrode–electrolyte interphase dissolution",
+      "title_zh": "经电极–电解质界面溶解再生废旧电池",
+      "publisher": "pubs.rsc.org",
+      "article_url": "https://pubs.rsc.org/ee/article/19/13/4199/1260994/Direct-electrode-to-electrode-regeneration-of-end",
+      "significance_score": null,
+      "summary_zh": "皇家化学会论文称可通过界面溶解路径“再生”废旧电池；HN 一边引用“电池永生”新闻的老套路，一边指有人认为这是几年前失败回收方案的再包装。",
+      "quotes": [
+        {
+          "type": "comment",
+          "author": "userbinator",
+          "en": "Just like the periodic news about a new study on a method that makes batteries last effectively forever, this is unlikely to be implemented.",
+          "zh": "就像定期冒出来的‘新研究让电池几乎永不损耗’新闻一样，这多半不太可能真正改变装机现实。"
+        },
+        {
+          "type": "comment",
+          "author": "lightedman",
+          "en": "I'm hearing in other chats that this is actually a rehash of a nonsensical recycling attempt done a couple of years ago. So I want to ask a question. What in this study would throw the HN people off as incorrect or raising a flag? Is terminology being used incorrectly? Is data vs shown photographs not quite matching up with what is being stated? I'm no battery expert, so I'm quite curious as to why I'm hearing that this is fake from people that work directly in the battery industry (and they're not big companies, most of them are individuals providing various services, some in recycling, some in custom manufacturing, some in installation.)",
+          "zh": "我在别的聊天里听到，这其实是把几年前一次没什么道理的回收尝试又炒了一遍。"
+        }
+      ],
+      "fetch_notes": null,
+      "source": "Hacker News",
+      "hn_url": "https://news.ycombinator.com/item?id=49754055",
+      "hn_points": 87,
+      "hn_comments": 15,
+      "published_at": null,
+      "listed_at": null,
+      "rank": 10
+    }
+  ]
+}
